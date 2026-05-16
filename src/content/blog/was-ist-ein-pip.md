@@ -3,6 +3,7 @@ title: "Was ist ein Pip? Die Grundeinheit der Forex-Welt erklärt"
 description: "Pip, Pipette und Lot — die fundamentalen Masseinheiten im Forex-Trading. Was sie bedeuten, wie sie berechnet werden und warum sie für jeden Trader relevant sind."
 pubDate: 2026-05-06
 category: "Grundlagen"
+subcategory: "Forex"
 author: "Redaktion"
 readingTime: "7 Min. Lesezeit"
 ---

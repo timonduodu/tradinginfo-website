@@ -12,7 +12,8 @@ const navItems = [
 ---
 
 <header class="site-header">
-  <div class="header-top">
+  <!-- Top-Bar (Desktop only) -->
+  <div class="header-top desktop-only">
     <div class="container header-top-inner">
       <span class="date" id="current-date"></span>
       <span class="tagline">Unabhängige Trading-Information aus der Schweiz</span>
@@ -20,14 +21,16 @@ const navItems = [
     </div>
   </div>
 
-  <div class="container header-main">
+  <!-- Desktop Logo (centered) -->
+  <div class="header-main desktop-only">
     <a href="/" class="logo">
       <span class="logo-mark">CH</span>
       <span class="logo-text">TradingInfo</span>
     </a>
   </div>
 
-  <nav class="site-nav">
+  <!-- Desktop Nav -->
+  <nav class="site-nav desktop-only">
     <div class="container nav-inner">
       <ul class="nav-list">
         {navItems.map(item => (
@@ -43,6 +46,36 @@ const navItems = [
       </ul>
     </div>
   </nav>
+
+  <!-- Mobile Bar -->
+  <div class="mobile-bar mobile-only">
+    <a href="/" class="mobile-logo">
+      <span class="logo-mark">CH</span>
+      <span class="logo-text-mobile">TradingInfo</span>
+    </a>
+    <button class="hamburger" id="mobile-toggle" aria-label="Menü öffnen" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+
+  <!-- Mobile Dropdown -->
+  <nav class="mobile-nav mobile-only" id="mobile-nav">
+    <ul>
+      {navItems.map(item => (
+        <li>
+          <a
+            href={item.href}
+            class:list={['mobile-nav-link', { active: currentPath === item.href }]}
+          >
+            {item.label}
+          </a>
+        </li>
+      ))}
+      <li><a href="/newsletter" class="mobile-nav-link mobile-nav-cta">Newsletter abonnieren →</a></li>
+    </ul>
+  </nav>
 </header>
 
 <script>
@@ -52,6 +85,16 @@ const navItems = [
     const options: Intl.DateTimeFormatOptions = { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' };
     dateEl.textContent = d.toLocaleDateString('de-CH', options);
   }
+
+  const toggle = document.getElementById('mobile-toggle');
+  const nav = document.getElementById('mobile-nav');
+  if (toggle && nav) {
+    toggle.addEventListener('click', () => {
+      const isOpen = nav.classList.toggle('open');
+      toggle.classList.toggle('open', isOpen);
+      toggle.setAttribute('aria-expanded', String(isOpen));
+    });
+  }
 </script>
 
 <style>
@@ -59,6 +102,9 @@ const navItems = [
     background: var(--color-paper);
     border-bottom: 1px solid var(--color-rule);
   }
+
+  .desktop-only { display: block; }
+  .mobile-only { display: none; }
 
   .header-top {
     background: var(--color-ink);
@@ -75,9 +121,7 @@ const navItems = [
     letter-spacing: 0.05em;
   }
 
-  .date {
-    text-transform: capitalize;
-  }
+  .date { text-transform: capitalize; }
 
   .tagline {
     font-style: italic;
@@ -121,9 +165,7 @@ const navItems = [
     letter-spacing: -0.03em;
   }
 
-  .site-nav {
-    background: var(--color-paper);
-  }
+  .site-nav { background: var(--color-paper); }
 
   .nav-inner {
     display: flex;
@@ -136,6 +178,8 @@ const navItems = [
     justify-content: center;
     gap: 0;
     list-style: none;
+    margin: 0;
+    padding: 0;
   }
 
   .nav-link {
@@ -152,56 +196,120 @@ const navItems = [
     transition: all 0.2s;
   }
 
-  .nav-link:hover {
-    color: var(--color-accent);
-    border-bottom-color: var(--color-accent);
-  }
-
+  .nav-link:hover,
   .nav-link.active {
     color: var(--color-accent);
     border-bottom-color: var(--color-accent);
   }
 
-  @media (max-width: 640px) {
-    .header-top-inner {
-      flex-direction: column;
-      gap: 0.15rem;
-      font-size: 0.6rem;
-      padding: 0.3rem var(--space-sm);
-    }
-    .tagline {
-      display: none;
-    }
-    .header-main {
-      padding: 0.75rem var(--space-sm);
-    }
-    .logo {
-      gap: 0.35rem;
-    }
-    .logo-mark {
-      font-size: 0.9rem;
-      padding: 0.08em 0.3em;
-    }
-    .logo-text {
-      font-size: 1.2rem;
-    }
-    .nav-link {
-      padding: 0.5rem 0.45rem;
-      font-size: 0.65rem;
-      letter-spacing: 0.03em;
-    }
-    .nav-list {
-      gap: 0;
-    }
+  /* === MOBILE === */
+  .mobile-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8rem 1rem;
+    background: var(--color-paper);
   }
-  
-  @media (max-width: 380px) {
-    .logo-text {
-      font-size: 1.05rem;
-    }
-    .nav-link {
-      padding: 0.45rem 0.35rem;
-      font-size: 0.6rem;
-    }
+
+  .mobile-logo {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    text-decoration: none;
+    color: var(--color-ink);
+  }
+
+  .logo-text-mobile {
+    font-family: var(--font-serif);
+    font-weight: 700;
+    font-size: 1.5rem;
+    letter-spacing: -0.02em;
+    color: var(--color-ink);
+  }
+
+  .hamburger {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 28px;
+    height: 22px;
+    padding: 0;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+  .hamburger span {
+    display: block;
+    height: 2.5px;
+    width: 100%;
+    background: var(--color-ink);
+    border-radius: 2px;
+    transition: transform 0.3s, opacity 0.3s;
+  }
+
+  .hamburger.open span:nth-child(1) {
+    transform: translateY(9.5px) rotate(45deg);
+  }
+  .hamburger.open span:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger.open span:nth-child(3) {
+    transform: translateY(-9.5px) rotate(-45deg);
+  }
+
+  .mobile-nav {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.35s ease;
+    background: var(--color-paper);
+    border-top: 1px solid var(--color-rule);
+  }
+
+  .mobile-nav.open {
+    max-height: 500px;
+  }
+
+  .mobile-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .mobile-nav li {
+    border-bottom: 1px solid var(--color-rule);
+  }
+
+  .mobile-nav li:last-child {
+    border-bottom: none;
+  }
+
+  .mobile-nav-link {
+    display: block;
+    padding: 1rem 1.25rem;
+    color: var(--color-ink);
+    text-decoration: none;
+    font-family: var(--font-sans);
+    font-size: 0.95rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+  }
+
+  .mobile-nav-link.active {
+    color: var(--color-accent);
+    background: rgba(185, 28, 28, 0.04);
+  }
+
+  .mobile-nav-cta {
+    background: var(--color-ink);
+    color: var(--color-bg);
+    text-align: center;
+  }
+
+  @media (max-width: 768px) {
+    .desktop-only { display: none; }
+    .mobile-only { display: block; }
+    .mobile-bar { display: flex; }
   }
 </style>

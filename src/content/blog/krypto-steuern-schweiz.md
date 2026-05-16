@@ -3,6 +3,7 @@ title: "Krypto-Steuern in der Schweiz: Was Anleger 2026 wissen müssen"
 description: "Bitcoin, Ethereum & Co. werden in der Schweiz als Vermögenswert besteuert. Die wichtigsten Regeln zu Vermögens-, Einkommens- und Gewerbssteuer im Überblick."
 pubDate: 2026-04-08
 category: "Steuern"
+subcategory: "Krypto"
 author: "Redaktion"
 readingTime: "9 Min. Lesezeit"
 ---

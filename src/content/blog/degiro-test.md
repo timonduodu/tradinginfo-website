@@ -3,6 +3,7 @@ title: "DEGIRO im Test: Die günstige Alternative für Schweizer Anleger"
 description: "DEGIRO ist einer der günstigsten Broker für ETF-Sparpläne und einfache Aktien-Investments. Ein detaillierter Test der Stärken und Schwächen für Schweizer Kunden."
 pubDate: 2026-04-20
 category: "Broker"
+subcategory: "Tests"
 author: "Redaktion"
 readingTime: "9 Min. Lesezeit"
 ---

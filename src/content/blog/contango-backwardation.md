@@ -3,6 +3,7 @@ title: "Contango und Backwardation: Was die Form der Futures-Kurve über Märkte
 description: "Contango und Backwardation sind die zwei Grundzustände jeder Futures-Kurve. Wie sie entstehen, was sie über den Markt verraten und wie Trader sie nutzen."
 pubDate: 2026-04-24
 category: "Strategien"
+subcategory: "Spreads"
 author: "Redaktion"
 readingTime: "8 Min. Lesezeit"
 ---

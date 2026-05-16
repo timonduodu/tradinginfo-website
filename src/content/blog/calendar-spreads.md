@@ -3,6 +3,7 @@ title: "Calendar Spreads: Eine professionelle Strategie für Futures-Trader"
 description: "Calendar Spreads nutzen die Zeitstruktur von Futures-Kurven aus. Wie sie funktionieren, welche Risiken bestehen und wann sie sich lohnen."
 pubDate: 2026-04-28
 category: "Strategien"
+subcategory: "Spreads"
 author: "Redaktion"
 readingTime: "10 Min. Lesezeit"
 ---

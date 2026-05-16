@@ -3,6 +3,7 @@ title: "Mean Reversion vs. Trendfolge: Zwei gegensätzliche Trading-Philosophien
 description: "Trendfolger setzen auf 'der Trend ist dein Freund', Mean-Reversion-Trader auf die 'Rückkehr zum Mittelwert'. Beide funktionieren — unter unterschiedlichen Bedingungen."
 pubDate: 2026-04-04
 category: "Strategien"
+subcategory: "Trendfolge"
 author: "Redaktion"
 readingTime: "9 Min. Lesezeit"
 ---

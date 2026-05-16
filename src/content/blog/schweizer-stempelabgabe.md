@@ -3,6 +3,7 @@ title: "Die Schweizer Stempelabgabe verstehen: Was Anleger wissen müssen"
 description: "Bei jedem Wertschriftengeschäft in der Schweiz fällt die Umsatzabgabe an. Wie hoch sie ist, wer sie zahlt und welche Strategien legal Abgaben sparen."
 pubDate: 2026-05-02
 category: "Steuern"
+subcategory: "Abgaben"
 author: "Redaktion"
 readingTime: "8 Min. Lesezeit"
 ---

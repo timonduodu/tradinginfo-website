@@ -49,16 +49,30 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
     <!-- RSS -->
     <link rel="alternate" type="application/rss+xml" title="TradingInfo.ch" href="/rss.xml" />
 
-    <!-- TODO: Google Analytics 4 — Tracking-ID hier einsetzen wenn live -->
     <!--
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
-    <script>
+      GOOGLE SEARCH CONSOLE
+      Verifiziert für tradinginfo.beehiiv.com und kommende Domain tradinginfo.ch
+    -->
+    <meta name="google-site-verification" content="lBYKhkm3C7HJGBi1ts7ZaiVuFxBZ6NvxoIdEJWnoNqg" />
+
+    <!--
+      GOOGLE ANALYTICS 4
+      ==================
+      1. Gehe zu analytics.google.com
+      2. Neue Property erstellen für tradinginfo.ch
+      3. Bei "Datenstream" → Web → URL eingeben → Stream erstellen
+      4. Die Measurement-ID kopieren (Format: G-XXXXXXXXXX)
+      5. Unten "G-DEINE_ID" durch deine ID ersetzen (an beiden Stellen!)
+    -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DEINE_ID"></script>
+    <script is:inline>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      gtag('config', 'G-XXXXXXXXXX');
+      gtag('config', 'G-DEINE_ID', {
+        'anonymize_ip': true
+      });
     </script>
-    -->
   </head>
   <body>
     <Header />

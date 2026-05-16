@@ -3,6 +3,7 @@ title: "Trendfolge-Strategien: Die meistunterschätzte Form des Tradings"
 description: "Trendfolge ist die statistisch erfolgreichste Trading-Methode aller Zeiten. Warum sie funktioniert, warum trotzdem 90 Prozent der Trader scheitern, und wie sie umgesetzt wird."
 pubDate: 2026-04-22
 category: "Strategien"
+subcategory: "Trendfolge"
 author: "Redaktion"
 readingTime: "10 Min. Lesezeit"
 ---

@@ -3,6 +3,7 @@ title: "Spreads im Trading: Die wichtigste Kostenposition, die niemand erklärt"
 description: "Der Spread ist die Differenz zwischen Geld- und Briefkurs — und für die meisten Trader die grösste Einzelkostenposition. Eine detaillierte Analyse."
 pubDate: 2026-05-12
 category: "Grundlagen"
+subcategory: "Kosten"
 author: "Redaktion"
 readingTime: "10 Min. Lesezeit"
 ---

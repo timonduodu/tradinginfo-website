@@ -3,6 +3,7 @@ title: "Interactive Brokers vs. Swissquote: Der detaillierte Vergleich für Schw
 description: "Zwei der wichtigsten Broker für Schweizer Anleger im direkten Vergleich. Wo IBKR überlegen ist und wo Swissquote überraschende Stärken zeigt."
 pubDate: 2026-04-30
 category: "Broker"
+subcategory: "Vergleiche"
 author: "Redaktion"
 readingTime: "11 Min. Lesezeit"
 ---

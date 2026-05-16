@@ -35,10 +35,20 @@
   .ticker-wrapper {
     background: var(--color-paper);
     border-bottom: 1px solid var(--color-rule);
+    border-top: 1px solid var(--color-rule);
     overflow: hidden;
+    line-height: 0;
   }
 
   .tradingview-widget-container {
-    height: 46px;
+    height: 42px;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  /* Iframe direkt anpassen damit kein gap entsteht */
+  .tradingview-widget-container :global(iframe) {
+    display: block !important;
+    margin: 0 !important;
   }
 </style>

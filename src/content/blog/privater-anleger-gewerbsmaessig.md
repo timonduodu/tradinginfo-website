@@ -3,6 +3,7 @@ title: "Privater Anleger oder gewerbsmässiger Wertschriftenhändler? Die Schwei
 description: "Wann wird der Wertschriftenhandel in der Schweiz als gewerbsmässig eingestuft? Die fünf Kriterien des Kreisschreibens 36 — und ihre Konsequenzen."
 pubDate: 2026-05-08
 category: "Steuern"
+subcategory: "Status"
 author: "Redaktion"
 readingTime: "11 Min. Lesezeit"
 ---

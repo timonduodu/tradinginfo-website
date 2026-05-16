@@ -3,6 +3,7 @@ title: "Yuh vs. Neon Invest: Welche Schweizer Smartphone-Broker-App lohnt sich?"
 description: "Yuh und Neon Invest sind die beliebtesten Schweizer Trading-Apps für Einsteiger. Ein detaillierter Vergleich von Gebühren, Angebot und Funktionen."
 pubDate: 2026-04-06
 category: "Broker"
+subcategory: "Vergleiche"
 author: "Redaktion"
 readingTime: "9 Min. Lesezeit"
 ---

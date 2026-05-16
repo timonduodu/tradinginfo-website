@@ -3,6 +3,7 @@ title: "Was kostet ein Trade wirklich? Die versteckten Gebühren beim Aktienkauf
 description: "Trading-Gebühr, Spread, Stempelabgabe, FX-Aufschlag, Quellensteuer: Die wahren Kosten eines Aktienkaufs in der Schweiz im Detail."
 pubDate: 2026-04-02
 category: "Grundlagen"
+subcategory: "Kosten"
 author: "Redaktion"
 readingTime: "11 Min. Lesezeit"
 featured: true

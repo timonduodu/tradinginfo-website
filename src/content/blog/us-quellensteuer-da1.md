@@ -3,6 +3,7 @@ title: "US-Quellensteuer und DA-1: So holen Schweizer Anleger ihr Geld zurück"
 description: "30 Prozent Quellensteuer auf US-Dividenden? Mit W-8BEN und DA-1 reduzieren Schweizer Anleger die Belastung auf ein Minimum."
 pubDate: 2026-04-10
 category: "Steuern"
+subcategory: "Quellensteuer"
 author: "Redaktion"
 readingTime: "8 Min. Lesezeit"
 ---

@@ -3,6 +3,7 @@ title: "Hebel und Margin: Wie gehebeltes Trading wirklich funktioniert"
 description: "Margin-Mechanik, Hebel-Berechnung und der Margin Call. Was Trader über gehebeltes Handeln wissen müssen, bevor sie Geld einsetzen."
 pubDate: 2026-05-10
 category: "Grundlagen"
+subcategory: "Hebel"
 author: "Redaktion"
 readingTime: "9 Min. Lesezeit"
 ---

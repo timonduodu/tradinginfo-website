@@ -3,6 +3,7 @@ title: "Schweizer Online-Broker im Vergleich: Wo die wahren Kosten liegen"
 description: "Swissquote, Saxo, Interactive Brokers, DEGIRO und Yuh im direkten Vergleich. Eine sachliche Analyse der echten Kostenstrukturen jenseits der beworbenen Ticket-Gebühren."
 pubDate: 2026-05-14
 category: "Broker"
+subcategory: "Vergleiche"
 author: "Redaktion"
 readingTime: "12 Min. Lesezeit"
 ---

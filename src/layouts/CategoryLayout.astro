@@ -7,14 +7,22 @@ interface Props {
   title: string;
   description: string;
   intro: string;
+  subcategories?: { slug: string; label: string }[];
 }
 
-const { category, title, description, intro } = Astro.props;
+const { category, title, description, intro, subcategories } = Astro.props;
 
+const now = new Date();
 const allPosts = await getCollection('blog');
 const posts = allPosts
   .filter(p => p.data.category === category)
+  .filter(p => p.data.pubDate <= now)  // Scheduled Posts ausblenden
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+// Subkategorien automatisch aus den Posts extrahieren
+const detectedSubcats = subcategories || Array.from(
+  new Set(posts.map(p => p.data.subcategory).filter(Boolean))
+).map(s => ({ slug: s as string, label: s as string }));
 ---
 
 <BaseLayout title={`${title} — TradingInfo.ch`} description={description}>
@@ -24,6 +32,15 @@ const posts = allPosts
     <p class="intro">{intro}</p>
   </section>
 
+  {detectedSubcats.length > 0 && (
+    <nav class="subcat-nav container">
+      <button class="subcat-link subcat-active" data-filter="all">Alle Artikel</button>
+      {detectedSubcats.map(sc => (
+        <button class="subcat-link" data-filter={sc.slug}>{sc.label}</button>
+      ))}
+    </nav>
+  )}
+
   <div class="container">
     <div class="ad-slot ad-slot--banner">
       Werbeplatz · Kategorie-Seite
@@ -32,12 +49,12 @@ const posts = allPosts
 
   <section class="container article-list">
     {posts.length > 0 ? (
-      <div class="posts">
+      <div class="posts" id="posts-container">
         {posts.map(post => (
-          <article class="post-item">
+          <article class="post-item" data-subcat={post.data.subcategory || ''}>
             <a href={`/blog/${post.slug}`} class="post-link">
               <div class="post-content">
-                <span class="category-tag">{post.data.category}</span>
+                <span class="category-tag">{post.data.subcategory || post.data.category}</span>
                 <h2 class="post-title">{post.data.title}</h2>
                 <p class="post-description">{post.data.description}</p>
                 <div class="post-meta">
@@ -65,6 +82,28 @@ const posts = allPosts
   </section>
 </BaseLayout>
 
+<script>
+  // Subkategorien-Filter (Client-side)
+  const buttons = document.querySelectorAll<HTMLButtonElement>('.subcat-link');
+  const posts = document.querySelectorAll<HTMLElement>('.post-item');
+
+  buttons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const filter = btn.dataset.filter;
+      buttons.forEach(b => b.classList.remove('subcat-active'));
+      btn.classList.add('subcat-active');
+
+      posts.forEach(p => {
+        if (filter === 'all' || p.dataset.subcat === filter) {
+          p.style.display = '';
+        } else {
+          p.style.display = 'none';
+        }
+      });
+    });
+  });
+</script>
+
 <style>
   .category-hero {
     padding: var(--space-2xl) var(--space-md) var(--space-lg);
@@ -81,6 +120,40 @@ const posts = allPosts
     line-height: 1.6;
     max-width: 620px;
     margin: 0 auto;
+  }
+
+  .subcat-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    padding: 0 var(--space-md) var(--space-md);
+    justify-content: center;
+  }
+
+  .subcat-link {
+    background: var(--color-paper);
+    border: 1px solid var(--color-rule);
+    padding: 0.45rem 1rem;
+    font-family: var(--font-sans);
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--color-ink-soft);
+    cursor: pointer;
+    border-radius: 2px;
+    transition: all 0.2s;
+  }
+
+  .subcat-link:hover {
+    border-color: var(--color-accent);
+    color: var(--color-accent);
+  }
+
+  .subcat-link.subcat-active {
+    background: var(--color-ink);
+    color: var(--color-bg);
+    border-color: var(--color-ink);
   }
 
   .article-list {

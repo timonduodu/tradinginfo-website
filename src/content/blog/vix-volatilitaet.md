@@ -3,6 +3,7 @@ title: "Der VIX: Wie der 'Angst-Index' der Wall Street funktioniert"
 description: "Der VIX misst die erwartete Volatilität des S&P 500. Wie er berechnet wird, was Trader daraus lesen können und welche Fallen die VIX-Produkte bergen."
 pubDate: 2026-04-12
 category: "Strategien"
+subcategory: "Volatilität"
 author: "Redaktion"
 readingTime: "7 Min. Lesezeit"
 ---

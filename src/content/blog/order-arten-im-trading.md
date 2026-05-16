@@ -3,6 +3,7 @@ title: "Order-Arten im Trading: Market, Limit, Stop und ihre Tücken"
 description: "Market-Order, Limit-Order, Stop-Loss, Trailing-Stop — die wichtigsten Order-Arten im Überblick. Welche wann eingesetzt wird und welche versteckten Risiken existieren."
 pubDate: 2026-05-04
 category: "Grundlagen"
+subcategory: "Mechanik"
 author: "Redaktion"
 readingTime: "9 Min. Lesezeit"
 ---

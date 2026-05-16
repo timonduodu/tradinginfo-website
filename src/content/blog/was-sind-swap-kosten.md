@@ -3,6 +3,7 @@ title: "Swap-Kosten verstehen: Was Trader über Übernacht-Gebühren wissen soll
 description: "Wer Positionen über Nacht hält, zahlt Swap. Wie hoch diese Kosten tatsächlich sind, woraus sie sich zusammensetzen und welche Strategien sie reduzieren können."
 pubDate: 2026-05-16
 category: "Grundlagen"
+subcategory: "Kosten"
 author: "Redaktion"
 readingTime: "8 Min. Lesezeit"
 featured: true

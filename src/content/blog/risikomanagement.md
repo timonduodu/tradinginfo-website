@@ -3,6 +3,7 @@ title: "Risikomanagement im Trading: Die wichtigste Disziplin überhaupt"
 description: "Position-Sizing, Stop-Loss-Platzierung und Risiko pro Trade. Warum Risikomanagement der Unterschied zwischen Erfolg und Totalverlust ist."
 pubDate: 2026-04-18
 category: "Grundlagen"
+subcategory: "Risiko"
 author: "Redaktion"
 readingTime: "10 Min. Lesezeit"
 ---

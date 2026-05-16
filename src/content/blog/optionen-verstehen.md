@@ -3,6 +3,7 @@ title: "Optionen verstehen: Calls, Puts und die Greeks im Überblick"
 description: "Optionen sind eines der mächtigsten Werkzeuge der Finanzmärkte. Eine fundierte Einführung in Calls, Puts, Strike-Preise, Verfallstermine und die wichtigsten Greeks."
 pubDate: 2026-04-16
 category: "Grundlagen"
+subcategory: "Derivate"
 author: "Redaktion"
 readingTime: "12 Min. Lesezeit"
 ---

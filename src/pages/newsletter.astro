@@ -13,10 +13,15 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     </p>
 
     <div class="form-container">
-      <form class="newsletter-form" onsubmit="event.preventDefault(); alert('Die Newsletter-Anmeldung wird aktiviert, sobald die Plattform live ist.')">
+      <form
+        class="newsletter-form"
+        action="https://tradinginfo.beehiiv.com/subscribe"
+        method="GET"
+        target="_blank"
+      >
         <label for="email">E-Mail-Adresse</label>
         <div class="form-row">
-          <input type="email" id="email" placeholder="ihre@email.ch" required />
+          <input type="email" id="email" name="email" placeholder="deine@email.ch" required />
           <button type="submit" class="btn btn-primary">Abonnieren</button>
         </div>
         <p class="fine">

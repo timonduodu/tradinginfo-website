@@ -3,12 +3,17 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import MarketOverview from '../components/MarketOverview.astro';
 import { getCollection } from 'astro:content';
 
-const allPosts = (await getCollection('blog')).sort(
-  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
-);
+// Filter: nur Artikel mit pubDate <= heute (scheduled posts werden ausgeblendet)
+const now = new Date();
+const allPosts = (await getCollection('blog'))
+  .filter(post => post.data.pubDate <= now)
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 
 const featuredPost = allPosts.find(p => p.data.featured) || allPosts[0];
 const otherPosts = allPosts.filter(p => p.slug !== featuredPost?.slug).slice(0, 6);
+
+// Top 3 "Beliebt diese Woche" — wir nehmen einfach die 3 nächsten nach featured
+const popularPosts = allPosts.slice(0, 3);
 ---
 
 <BaseLayout>
@@ -46,63 +51,111 @@ const otherPosts = allPosts.filter(p => p.slug !== featuredPost?.slug).slice(0, 
     </div>
   </div>
 
-  <!-- Live Markets -->
-  <section class="container markets-section">
-    <div class="section-header">
-      <h2 class="section-title">Märkte live</h2>
-      <span class="section-rule"></span>
-    </div>
-    <MarketOverview />
-  </section>
+  <!-- Featured + Sidebar -->
+  <section class="container main-section">
+    <div class="main-grid">
 
-  <!-- Featured + Latest -->
-  <section class="container featured-section">
-    <div class="section-header">
-      <h2 class="section-title">Aktuell</h2>
-      <span class="section-rule"></span>
-    </div>
+      <!-- HAUPTSPALTE -->
+      <div class="main-content">
+        <div class="section-header">
+          <h2 class="section-title">Aktuell</h2>
+          <span class="section-rule"></span>
+        </div>
 
-    {featuredPost ? (
-      <article class="featured-article">
-        <a href={`/blog/${featuredPost.slug}`} class="featured-link">
-          <span class="category-tag">{featuredPost.data.category}</span>
-          <h2 class="featured-title">{featuredPost.data.title}</h2>
-          <p class="featured-description">{featuredPost.data.description}</p>
-          <div class="featured-meta">
-            <span class="meta">Von {featuredPost.data.author}</span>
-            <span class="meta-sep">·</span>
-            <time class="meta" datetime={featuredPost.data.pubDate.toISOString()}>
-              {featuredPost.data.pubDate.toLocaleDateString('de-CH', { day: 'numeric', month: 'long', year: 'numeric' })}
-            </time>
-            {featuredPost.data.readingTime && (
-              <>
+        {featuredPost ? (
+          <article class="featured-article">
+            <a href={`/blog/${featuredPost.slug}`} class="featured-link">
+              <span class="category-tag">{featuredPost.data.category}</span>
+              <h2 class="featured-title">{featuredPost.data.title}</h2>
+              <p class="featured-description">{featuredPost.data.description}</p>
+              <div class="featured-meta">
+                <span class="meta">Von {featuredPost.data.author}</span>
                 <span class="meta-sep">·</span>
-                <span class="meta">{featuredPost.data.readingTime}</span>
-              </>
-            )}
-          </div>
-        </a>
-      </article>
-    ) : (
-      <p class="empty-state">Bald erscheinen hier die ersten Artikel.</p>
-    )}
-
-    {otherPosts.length > 0 && (
-      <div class="article-grid">
-        {otherPosts.map(post => (
-          <article class="grid-article">
-            <a href={`/blog/${post.slug}`}>
-              <span class="category-tag">{post.data.category}</span>
-              <h3 class="grid-title">{post.data.title}</h3>
-              <p class="grid-description">{post.data.description}</p>
-              <time class="meta" datetime={post.data.pubDate.toISOString()}>
-                {post.data.pubDate.toLocaleDateString('de-CH', { day: 'numeric', month: 'short' })}
-              </time>
+                <time class="meta" datetime={featuredPost.data.pubDate.toISOString()}>
+                  {featuredPost.data.pubDate.toLocaleDateString('de-CH', { day: 'numeric', month: 'long', year: 'numeric' })}
+                </time>
+                {featuredPost.data.readingTime && (
+                  <>
+                    <span class="meta-sep">·</span>
+                    <span class="meta">{featuredPost.data.readingTime}</span>
+                  </>
+                )}
+              </div>
             </a>
           </article>
-        ))}
+        ) : (
+          <p class="empty-state">Bald erscheinen hier die ersten Artikel.</p>
+        )}
+
+        {otherPosts.length > 0 && (
+          <div class="article-grid">
+            {otherPosts.map(post => (
+              <article class="grid-article">
+                <a href={`/blog/${post.slug}`}>
+                  <span class="category-tag">{post.data.category}</span>
+                  <h3 class="grid-title">{post.data.title}</h3>
+                  <p class="grid-description">{post.data.description}</p>
+                  <time class="meta" datetime={post.data.pubDate.toISOString()}>
+                    {post.data.pubDate.toLocaleDateString('de-CH', { day: 'numeric', month: 'short' })}
+                  </time>
+                </a>
+              </article>
+            ))}
+          </div>
+        )}
       </div>
-    )}
+
+      <!-- SIDEBAR (Desktop rechts, Mobile unten via order) -->
+      <aside class="main-sidebar">
+        <!-- Beliebt diese Woche -->
+        <div class="sidebar-block">
+          <div class="section-header">
+            <h2 class="section-title section-title--small">Beliebt diese Woche</h2>
+            <span class="section-rule"></span>
+          </div>
+          <ol class="popular-list">
+            {popularPosts.map((post, i) => (
+              <li>
+                <a href={`/blog/${post.slug}`}>
+                  <span class="popular-num">{String(i + 1).padStart(2, '0')}</span>
+                  <div class="popular-content">
+                    <span class="category-tag category-tag--small">{post.data.category}</span>
+                    <h4 class="popular-title">{post.data.title}</h4>
+                  </div>
+                </a>
+              </li>
+            ))}
+          </ol>
+        </div>
+
+        <!-- Markets -->
+        <div class="sidebar-block">
+          <div class="section-header">
+            <h2 class="section-title section-title--small">Märkte live</h2>
+            <span class="section-rule"></span>
+          </div>
+          <MarketOverview />
+        </div>
+
+        <!-- Newsletter Block -->
+        <div class="sidebar-block sidebar-newsletter">
+          <h3>Newsletter</h3>
+          <p>Wöchentlich. Kompakt. Ehrlich. Jeden Sonntag.</p>
+          <a href="/newsletter" class="btn btn-primary btn-small">Abonnieren →</a>
+        </div>
+      </aside>
+
+    </div>
+  </section>
+
+  <!-- Pull-Quote Section (à la gesundheittipps Schopenhauer) -->
+  <section class="pullquote-section">
+    <div class="container-narrow">
+      <blockquote class="pullquote">
+        <p>«Risk comes from not knowing what you're doing.»</p>
+        <cite>Warren Buffett</cite>
+      </blockquote>
+    </div>
   </section>
 
   <!-- Categories explainer -->
@@ -146,8 +199,14 @@ const otherPosts = allPosts.filter(p => p.slug !== featuredPost?.slug).slice(0, 
         Jeden Sonntag: Die wichtigsten Marktbewegungen, ein neuer Artikel
         und eine Trading-Lektion. Kein Spam, kein Verkauf, jederzeit kündbar.
       </p>
-      <form class="newsletter-form" onsubmit="event.preventDefault(); alert('Newsletter-Anmeldung wird verbunden, sobald die Seite live ist.')">
-        <input type="email" placeholder="deine@email.ch" required />
+      <!-- Newsletter Form → Beehiiv -->
+      <form
+        class="newsletter-form"
+        action="https://tradinginfo.beehiiv.com/subscribe"
+        method="GET"
+        target="_blank"
+      >
+        <input type="email" name="email" placeholder="deine@email.ch" required />
         <button type="submit" class="btn btn-primary">Abonnieren</button>
       </form>
       <p class="newsletter-fine">Wir respektieren deine Privatsphäre. Datenschutz auf höchstem Niveau.</p>
@@ -168,7 +227,7 @@ const otherPosts = allPosts.filter(p => p.slug !== featuredPost?.slug).slice(0, 
   }
 
   .hero-title {
-    font-size: clamp(2.5rem, 7vw, 5rem);
+    font-size: clamp(2rem, 6vw, 5rem);
     font-weight: 700;
     line-height: 1.05;
     letter-spacing: -0.03em;
@@ -217,7 +276,7 @@ const otherPosts = allPosts.filter(p => p.slug !== featuredPost?.slug).slice(0, 
     font-style: normal;
   }
 
-  /* Section headers */
+  /* === Section Headers === */
   .section-header {
     display: flex;
     align-items: center;
@@ -232,6 +291,11 @@ const otherPosts = allPosts.filter(p => p.slug !== featuredPost?.slug).slice(0, 
     text-transform: uppercase;
     letter-spacing: 0.15em;
     white-space: nowrap;
+    margin: 0;
+  }
+
+  .section-title--small {
+    font-size: 0.85rem;
   }
 
   .section-rule {
@@ -240,11 +304,105 @@ const otherPosts = allPosts.filter(p => p.slug !== featuredPost?.slug).slice(0, 
     background: var(--color-ink);
   }
 
-  /* Featured */
-  .featured-section {
+  /* === MAIN GRID (Desktop: Content + Sidebar / Mobile: Content, Sidebar darunter) === */
+  .main-section {
     padding: var(--space-xl) var(--space-md);
   }
 
+  .main-grid {
+    display: grid;
+    grid-template-columns: 2.2fr 1fr;
+    gap: var(--space-xl);
+    align-items: start;
+  }
+
+  .main-content { min-width: 0; }
+
+  .main-sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xl);
+    position: sticky;
+    top: var(--space-md);
+  }
+
+  .sidebar-block { width: 100%; }
+
+  .sidebar-newsletter {
+    background: var(--color-ink);
+    color: var(--color-bg);
+    padding: var(--space-lg);
+    text-align: center;
+  }
+
+  .sidebar-newsletter h3 {
+    color: var(--color-bg);
+    margin: 0 0 var(--space-xs);
+    font-size: 1.4rem;
+  }
+
+  .sidebar-newsletter p {
+    color: var(--color-bg);
+    opacity: 0.85;
+    margin: 0 0 var(--space-md);
+    font-size: 0.95rem;
+  }
+
+  .btn-small {
+    padding: 0.55rem 1.2rem;
+    font-size: 0.85rem;
+  }
+
+  /* === POPULAR LIST === */
+  .popular-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .popular-list li {
+    border-bottom: 1px solid var(--color-rule);
+  }
+
+  .popular-list li:first-child { border-top: 1px solid var(--color-rule); }
+
+  .popular-list a {
+    display: flex;
+    gap: var(--space-md);
+    padding: var(--space-md) 0;
+    text-decoration: none;
+    color: inherit;
+    align-items: flex-start;
+  }
+
+  .popular-num {
+    font-family: var(--font-serif);
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--color-accent);
+    line-height: 1;
+    flex-shrink: 0;
+  }
+
+  .popular-content { flex: 1; }
+
+  .popular-title {
+    margin: var(--space-xs) 0 0;
+    font-size: 1rem;
+    line-height: 1.3;
+    transition: color 0.2s;
+  }
+
+  .popular-list a:hover .popular-title {
+    color: var(--color-accent);
+  }
+
+  .category-tag--small {
+    font-size: 0.6rem;
+    padding: 0.15rem 0.4rem;
+  }
+
+  /* === FEATURED === */
   .featured-article {
     margin-bottom: var(--space-xl);
     padding-bottom: var(--space-lg);
@@ -258,9 +416,10 @@ const otherPosts = allPosts.filter(p => p.slug !== featuredPost?.slug).slice(0, 
   }
 
   .featured-title {
-    font-size: clamp(2rem, 4vw, 3rem);
+    font-size: clamp(1.7rem, 3.5vw, 2.6rem);
     margin: var(--space-sm) 0;
     transition: color 0.2s;
+    line-height: 1.1;
   }
 
   .featured-link:hover .featured-title {
@@ -268,7 +427,7 @@ const otherPosts = allPosts.filter(p => p.slug !== featuredPost?.slug).slice(0, 
   }
 
   .featured-description {
-    font-size: 1.15rem;
+    font-size: 1.1rem;
     color: var(--color-ink-soft);
     line-height: 1.5;
     max-width: 720px;
@@ -282,14 +441,12 @@ const otherPosts = allPosts.filter(p => p.slug !== featuredPost?.slug).slice(0, 
     flex-wrap: wrap;
   }
 
-  .meta-sep {
-    color: var(--color-ink-muted);
-  }
+  .meta-sep { color: var(--color-ink-muted); }
 
-  /* Article grid */
+  /* === ARTICLE GRID === */
   .article-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: var(--space-lg);
   }
 
@@ -300,7 +457,7 @@ const otherPosts = allPosts.filter(p => p.slug !== featuredPost?.slug).slice(0, 
   }
 
   .grid-title {
-    font-size: 1.35rem;
+    font-size: 1.25rem;
     margin: var(--space-sm) 0 var(--space-xs);
     line-height: 1.25;
     transition: color 0.2s;
@@ -317,11 +474,43 @@ const otherPosts = allPosts.filter(p => p.slug !== featuredPost?.slug).slice(0, 
     margin-bottom: var(--space-sm);
   }
 
-  /* Categories */
-  .categories-section {
+  /* === PULL QUOTE === */
+  .pullquote-section {
     background: var(--color-bg-alt);
-    padding: var(--space-xl) 0;
+    padding: var(--space-2xl) var(--space-md);
+    text-align: center;
     margin-top: var(--space-lg);
+  }
+
+  .pullquote {
+    margin: 0;
+    border: none;
+    padding: 0;
+  }
+
+  .pullquote p {
+    font-family: var(--font-serif);
+    font-style: italic;
+    font-size: clamp(1.5rem, 3vw, 2.2rem);
+    line-height: 1.4;
+    color: var(--color-ink);
+    margin: 0 0 var(--space-sm);
+    font-weight: 400;
+  }
+
+  .pullquote cite {
+    font-family: var(--font-sans);
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: var(--color-ink-muted);
+    font-style: normal;
+  }
+
+  /* === CATEGORIES === */
+  .categories-section {
+    background: var(--color-paper);
+    padding: var(--space-xl) 0;
   }
 
   .category-grid {
@@ -331,7 +520,7 @@ const otherPosts = allPosts.filter(p => p.slug !== featuredPost?.slug).slice(0, 
   }
 
   .category-card {
-    background: var(--color-paper);
+    background: var(--color-bg);
     padding: var(--space-lg) var(--space-md);
     text-decoration: none;
     color: inherit;
@@ -365,7 +554,7 @@ const otherPosts = allPosts.filter(p => p.slug !== featuredPost?.slug).slice(0, 
     margin: 0;
   }
 
-  /* Newsletter */
+  /* === NEWSLETTER SECTION === */
   .newsletter-section {
     padding: var(--space-2xl) 0;
     text-align: center;
@@ -416,14 +605,28 @@ const otherPosts = allPosts.filter(p => p.slug !== featuredPost?.slug).slice(0, 
     font-style: italic;
   }
 
-  @media (max-width: 900px) {
-    .hero-inner { grid-template-columns: 1fr; }
+  /* === RESPONSIVE === */
+  @media (max-width: 1024px) {
+    .main-grid {
+      grid-template-columns: 1fr;
+    }
+    .main-sidebar {
+      position: static;
+      flex-direction: column;
+      order: 2;
+    }
+    .main-content { order: 1; }
     .article-grid { grid-template-columns: repeat(2, 1fr); }
     .category-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+
+  @media (max-width: 900px) {
+    .hero-inner { grid-template-columns: 1fr; }
   }
 
   @media (max-width: 600px) {
     .article-grid { grid-template-columns: 1fr; }
     .newsletter-form { flex-direction: column; }
+    .pullquote p { font-size: 1.3rem; }
   }
 </style>

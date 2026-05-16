@@ -3,6 +3,7 @@ title: "Bitcoin Cash-and-Carry-Arbitrage: Wie Profis Risikoarm an Krypto verdien
 description: "Cash-and-Carry-Arbitrage zwischen Spot und Futures bei Bitcoin. Eine bewährte institutionelle Strategie und ihre Möglichkeiten für Privatanleger."
 pubDate: 2026-04-26
 category: "Strategien"
+subcategory: "Arbitrage"
 author: "Redaktion"
 readingTime: "9 Min. Lesezeit"
 ---
