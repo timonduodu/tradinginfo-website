@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import MarketOverview from '../components/MarketOverview.astro';
 import { getCollection } from 'astro:content';
 
 const allPosts = (await getCollection('blog')).sort(
@@ -44,6 +45,15 @@ const otherPosts = allPosts.filter(p => p.slug !== featuredPost?.slug).slice(0, 
       Werbeplatz · 970×120 · Premium-Platzierung
     </div>
   </div>
+
+  <!-- Live Markets -->
+  <section class="container markets-section">
+    <div class="section-header">
+      <h2 class="section-title">Märkte live</h2>
+      <span class="section-rule"></span>
+    </div>
+    <MarketOverview />
+  </section>
 
   <!-- Featured + Latest -->
   <section class="container featured-section">
