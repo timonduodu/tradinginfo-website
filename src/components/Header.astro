@@ -12,70 +12,71 @@ const navItems = [
 ---
 
 <header class="site-header">
-  <!-- Top-Bar (Desktop only) -->
-  <div class="header-top desktop-only">
-    <div class="container header-top-inner">
-      <span class="date" id="current-date"></span>
-      <span class="tagline">Unabhängige Trading-Information aus der Schweiz</span>
-      <a href="/newsletter" class="newsletter-link">Newsletter →</a>
+  <!-- DESKTOP HEADER -->
+  <div class="desktop-header">
+    <div class="header-top">
+      <div class="container header-top-inner">
+        <span class="date" id="current-date"></span>
+        <span class="tagline">Unabhängige Trading-Information aus der Schweiz</span>
+        <a href="/newsletter" class="newsletter-link">Newsletter →</a>
+      </div>
     </div>
+
+    <div class="container header-main">
+      <a href="/" class="logo">
+        <span class="logo-mark">CH</span>
+        <span class="logo-text">TradingInfo</span>
+      </a>
+    </div>
+
+    <nav class="site-nav">
+      <div class="container nav-inner">
+        <ul class="nav-list">
+          {navItems.map(item => (
+            <li>
+              <a
+                href={item.href}
+                class:list={['nav-link', { active: currentPath === item.href }]}
+              >
+                {item.label}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </nav>
   </div>
 
-  <!-- Desktop Logo (centered) -->
-  <div class="header-main desktop-only">
-    <a href="/" class="logo">
-      <span class="logo-mark">CH</span>
-      <span class="logo-text">TradingInfo</span>
-    </a>
-  </div>
+  <!-- MOBILE HEADER -->
+  <div class="mobile-header">
+    <div class="mobile-bar">
+      <a href="/" class="mobile-logo">
+        <span class="logo-mark">CH</span>
+        <span class="logo-text-mobile">TradingInfo</span>
+      </a>
+      <button class="hamburger" id="mobile-toggle" aria-label="Menü öffnen" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
 
-  <!-- Desktop Nav -->
-  <nav class="site-nav desktop-only">
-    <div class="container nav-inner">
-      <ul class="nav-list">
+    <nav class="mobile-nav" id="mobile-nav">
+      <ul>
         {navItems.map(item => (
           <li>
             <a
               href={item.href}
-              class:list={['nav-link', { active: currentPath === item.href }]}
+              class:list={['mobile-nav-link', { active: currentPath === item.href }]}
             >
               {item.label}
             </a>
           </li>
         ))}
+        <li><a href="/newsletter" class="mobile-nav-link mobile-nav-cta">Newsletter abonnieren →</a></li>
       </ul>
-    </div>
-  </nav>
-
-  <!-- Mobile Bar -->
-  <div class="mobile-bar mobile-only">
-    <a href="/" class="mobile-logo">
-      <span class="logo-mark">CH</span>
-      <span class="logo-text-mobile">TradingInfo</span>
-    </a>
-    <button class="hamburger" id="mobile-toggle" aria-label="Menü öffnen" aria-expanded="false">
-      <span></span>
-      <span></span>
-      <span></span>
-    </button>
+    </nav>
   </div>
-
-  <!-- Mobile Dropdown -->
-  <nav class="mobile-nav mobile-only" id="mobile-nav">
-    <ul>
-      {navItems.map(item => (
-        <li>
-          <a
-            href={item.href}
-            class:list={['mobile-nav-link', { active: currentPath === item.href }]}
-          >
-            {item.label}
-          </a>
-        </li>
-      ))}
-      <li><a href="/newsletter" class="mobile-nav-link mobile-nav-cta">Newsletter abonnieren →</a></li>
-    </ul>
-  </nav>
 </header>
 
 <script>
@@ -101,11 +102,15 @@ const navItems = [
   .site-header {
     background: var(--color-paper);
     border-bottom: 1px solid var(--color-rule);
+    margin: 0;
+    padding: 0;
   }
 
-  .desktop-only { display: block; }
-  .mobile-only { display: none; }
+  /* === DEFAULT: Desktop sichtbar, Mobile versteckt === */
+  .desktop-header { display: block; }
+  .mobile-header { display: none; }
 
+  /* === DESKTOP === */
   .header-top {
     background: var(--color-ink);
     color: var(--color-bg);
@@ -122,11 +127,7 @@ const navItems = [
   }
 
   .date { text-transform: capitalize; }
-
-  .tagline {
-    font-style: italic;
-    opacity: 0.85;
-  }
+  .tagline { font-style: italic; opacity: 0.85; }
 
   .newsletter-link {
     color: var(--color-bg);
@@ -251,9 +252,7 @@ const navItems = [
   .hamburger.open span:nth-child(1) {
     transform: translateY(9.5px) rotate(45deg);
   }
-  .hamburger.open span:nth-child(2) {
-    opacity: 0;
-  }
+  .hamburger.open span:nth-child(2) { opacity: 0; }
   .hamburger.open span:nth-child(3) {
     transform: translateY(-9.5px) rotate(-45deg);
   }
@@ -266,9 +265,7 @@ const navItems = [
     border-top: 1px solid var(--color-rule);
   }
 
-  .mobile-nav.open {
-    max-height: 500px;
-  }
+  .mobile-nav.open { max-height: 500px; }
 
   .mobile-nav ul {
     list-style: none;
@@ -280,9 +277,7 @@ const navItems = [
     border-bottom: 1px solid var(--color-rule);
   }
 
-  .mobile-nav li:last-child {
-    border-bottom: none;
-  }
+  .mobile-nav li:last-child { border-bottom: none; }
 
   .mobile-nav-link {
     display: block;
@@ -307,9 +302,9 @@ const navItems = [
     text-align: center;
   }
 
+  /* === BREAKPOINT: Unter 768px wird Mobile gezeigt === */
   @media (max-width: 768px) {
-    .desktop-only { display: none; }
-    .mobile-only { display: block; }
-    .mobile-bar { display: flex; }
+    .desktop-header { display: none; }
+    .mobile-header { display: block; }
   }
 </style>
