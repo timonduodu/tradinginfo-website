@@ -1,0 +1,121 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Newsletter — TradingInfo.ch" description="Der wöchentliche TradingInfo.ch Newsletter: Marktanalyse, neue Artikel und kompakte Trading-Lektionen. Jeden Sonntag.">
+  <section class="newsletter container-narrow">
+    <span class="eyebrow">Newsletter</span>
+    <h1>Der wöchentliche Marktbrief</h1>
+    <p class="lead">
+      Jeden Sonntagabend: Die wichtigsten Bewegungen der vergangenen Handelswoche,
+      ein neuer Fachartikel und eine kompakte Trading-Lektion. Versprochen kurz,
+      versprochen ohne Werbe-Spam.
+    </p>
+
+    <div class="form-container">
+      <form class="newsletter-form" onsubmit="event.preventDefault(); alert('Die Newsletter-Anmeldung wird aktiviert, sobald die Plattform live ist.')">
+        <label for="email">E-Mail-Adresse</label>
+        <div class="form-row">
+          <input type="email" id="email" placeholder="ihre@email.ch" required />
+          <button type="submit" class="btn btn-primary">Abonnieren</button>
+        </div>
+        <p class="fine">
+          Mit der Anmeldung akzeptieren Sie die <a href="/datenschutz">Datenschutzerklärung</a>.
+          Abmeldung jederzeit per Klick möglich. Keine Weitergabe der Daten an Dritte.
+        </p>
+      </form>
+    </div>
+
+    <div class="benefits">
+      <h2>Was Sie erwartet</h2>
+      <ul>
+        <li><strong>Wochenrückblick.</strong> Die relevantesten Marktbewegungen sachlich eingeordnet.</li>
+        <li><strong>Fachartikel der Woche.</strong> Vertiefung zu einem aktuellen Trading-Thema.</li>
+        <li><strong>Eine Lektion.</strong> Ein bewährtes Prinzip aus der Trading-Praxis, kompakt erklärt.</li>
+        <li><strong>Kein Spam.</strong> Eine Mail pro Woche. Keine Verkaufsangebote, keine Kettenmails.</li>
+      </ul>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .newsletter {
+    padding: var(--space-2xl) var(--space-md);
+  }
+
+  .newsletter h1 {
+    margin: var(--space-sm) 0 var(--space-md);
+  }
+
+  .lead {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: var(--color-ink-soft);
+    margin-bottom: var(--space-xl);
+  }
+
+  .form-container {
+    background: var(--color-bg-alt);
+    padding: var(--space-lg);
+    border: 1px solid var(--color-rule);
+    margin-bottom: var(--space-xl);
+  }
+
+  .newsletter-form label {
+    display: block;
+    font-family: var(--font-sans);
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: var(--space-xs);
+    color: var(--color-ink-soft);
+  }
+
+  .form-row {
+    display: flex;
+    gap: var(--space-xs);
+    margin-bottom: var(--space-sm);
+  }
+
+  .form-row input {
+    flex: 1;
+    padding: 0.85rem 1rem;
+    font-family: var(--font-sans);
+    font-size: 1rem;
+    border: 1px solid var(--color-rule);
+    border-radius: 2px;
+    background: var(--color-paper);
+  }
+
+  .form-row input:focus {
+    outline: none;
+    border-color: var(--color-accent);
+  }
+
+  .fine {
+    font-family: var(--font-sans);
+    font-size: 0.8rem;
+    color: var(--color-ink-muted);
+    line-height: 1.5;
+  }
+
+  .benefits h2 {
+    margin-bottom: var(--space-md);
+  }
+
+  .benefits ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .benefits li {
+    padding: var(--space-sm) 0;
+    border-bottom: 1px solid var(--color-rule);
+    line-height: 1.6;
+  }
+
+  @media (max-width: 600px) {
+    .form-row { flex-direction: column; }
+  }
+</style>

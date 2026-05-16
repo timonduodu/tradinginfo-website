@@ -1,0 +1,419 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const allPosts = (await getCollection('blog')).sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+);
+
+const featuredPost = allPosts.find(p => p.data.featured) || allPosts[0];
+const otherPosts = allPosts.filter(p => p.slug !== featuredPost?.slug).slice(0, 6);
+---
+
+<BaseLayout>
+  <!-- Hero / Lead Article -->
+  <section class="hero container">
+    <div class="hero-inner">
+      <div class="hero-text">
+        <span class="eyebrow">Ausgabe Nr. 001 · Willkommen</span>
+        <h1 class="hero-title">
+          Trading verstehen.<br/>
+          <em>Ohne Bullshit.</em>
+        </h1>
+        <p class="hero-subtitle">
+          Ehrliche Information über Spreads, Broker, Strategien und Steuern —
+          geschrieben für Schweizer Trader, die wissen wollen, was wirklich abgeht.
+        </p>
+        <div class="hero-actions">
+          <a href="/grundlagen" class="btn btn-primary">Grundlagen lesen</a>
+          <a href="/about" class="btn btn-outline">Wer steckt dahinter?</a>
+        </div>
+      </div>
+      <div class="hero-quote">
+        <blockquote>
+          <p>"The most important quality for an investor is temperament, not intellect."</p>
+          <cite>— Warren Buffett</cite>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- Ad slot — premium top placement -->
+  <div class="container">
+    <div class="ad-slot ad-slot--banner">
+      Werbeplatz · 970×120 · Premium-Platzierung
+    </div>
+  </div>
+
+  <!-- Featured + Latest -->
+  <section class="container featured-section">
+    <div class="section-header">
+      <h2 class="section-title">Aktuell</h2>
+      <span class="section-rule"></span>
+    </div>
+
+    {featuredPost ? (
+      <article class="featured-article">
+        <a href={`/blog/${featuredPost.slug}`} class="featured-link">
+          <span class="category-tag">{featuredPost.data.category}</span>
+          <h2 class="featured-title">{featuredPost.data.title}</h2>
+          <p class="featured-description">{featuredPost.data.description}</p>
+          <div class="featured-meta">
+            <span class="meta">Von {featuredPost.data.author}</span>
+            <span class="meta-sep">·</span>
+            <time class="meta" datetime={featuredPost.data.pubDate.toISOString()}>
+              {featuredPost.data.pubDate.toLocaleDateString('de-CH', { day: 'numeric', month: 'long', year: 'numeric' })}
+            </time>
+            {featuredPost.data.readingTime && (
+              <>
+                <span class="meta-sep">·</span>
+                <span class="meta">{featuredPost.data.readingTime}</span>
+              </>
+            )}
+          </div>
+        </a>
+      </article>
+    ) : (
+      <p class="empty-state">Bald erscheinen hier die ersten Artikel.</p>
+    )}
+
+    {otherPosts.length > 0 && (
+      <div class="article-grid">
+        {otherPosts.map(post => (
+          <article class="grid-article">
+            <a href={`/blog/${post.slug}`}>
+              <span class="category-tag">{post.data.category}</span>
+              <h3 class="grid-title">{post.data.title}</h3>
+              <p class="grid-description">{post.data.description}</p>
+              <time class="meta" datetime={post.data.pubDate.toISOString()}>
+                {post.data.pubDate.toLocaleDateString('de-CH', { day: 'numeric', month: 'short' })}
+              </time>
+            </a>
+          </article>
+        ))}
+      </div>
+    )}
+  </section>
+
+  <!-- Categories explainer -->
+  <section class="categories-section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Was du hier findest</h2>
+        <span class="section-rule"></span>
+      </div>
+      <div class="category-grid">
+        <a href="/grundlagen" class="category-card">
+          <span class="cat-num">01</span>
+          <h3>Grundlagen</h3>
+          <p>Spreads, Hebel, Margin, Pip — die Basics, die jeder kennen muss, bevor er Geld einsetzt.</p>
+        </a>
+        <a href="/broker" class="category-card">
+          <span class="cat-num">02</span>
+          <h3>Broker</h3>
+          <p>Vergleiche von Swissquote, IBKR, Saxo und Co. Wo sind die versteckten Kosten?</p>
+        </a>
+        <a href="/strategien" class="category-card">
+          <span class="cat-num">03</span>
+          <h3>Strategien</h3>
+          <p>Calendar Spreads, Cash-and-Carry, Contango — was funktioniert wirklich und für wen?</p>
+        </a>
+        <a href="/steuern" class="category-card">
+          <span class="cat-num">04</span>
+          <h3>Steuern</h3>
+          <p>Privater Anleger vs. gewerbsmässig? So bleibst du sauber bei der Steuerverwaltung.</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter -->
+  <section class="newsletter-section">
+    <div class="container-narrow newsletter-inner">
+      <span class="eyebrow">Newsletter</span>
+      <h2>Wöchentlich. Kompakt. Ehrlich.</h2>
+      <p>
+        Jeden Sonntag: Die wichtigsten Marktbewegungen, ein neuer Artikel
+        und eine Trading-Lektion. Kein Spam, kein Verkauf, jederzeit kündbar.
+      </p>
+      <form class="newsletter-form" onsubmit="event.preventDefault(); alert('Newsletter-Anmeldung wird verbunden, sobald die Seite live ist.')">
+        <input type="email" placeholder="deine@email.ch" required />
+        <button type="submit" class="btn btn-primary">Abonnieren</button>
+      </form>
+      <p class="newsletter-fine">Wir respektieren deine Privatsphäre. Datenschutz auf höchstem Niveau.</p>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .hero {
+    padding: var(--space-2xl) var(--space-md) var(--space-xl);
+  }
+
+  .hero-inner {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: var(--space-xl);
+    align-items: center;
+  }
+
+  .hero-title {
+    font-size: clamp(2.5rem, 7vw, 5rem);
+    font-weight: 700;
+    line-height: 1.05;
+    letter-spacing: -0.03em;
+    margin: var(--space-sm) 0 var(--space-md);
+  }
+
+  .hero-title em {
+    font-style: italic;
+    font-weight: 400;
+    color: var(--color-accent);
+  }
+
+  .hero-subtitle {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: var(--color-ink-soft);
+    margin-bottom: var(--space-md);
+    max-width: 540px;
+  }
+
+  .hero-actions {
+    display: flex;
+    gap: var(--space-sm);
+    flex-wrap: wrap;
+  }
+
+  .hero-quote blockquote {
+    border-left: 3px solid var(--color-accent);
+    padding-left: var(--space-md);
+    margin: 0;
+    font-style: italic;
+  }
+
+  .hero-quote p {
+    font-family: var(--font-serif);
+    font-size: 1.35rem;
+    line-height: 1.4;
+    color: var(--color-ink-soft);
+    margin-bottom: var(--space-xs);
+  }
+
+  .hero-quote cite {
+    font-family: var(--font-sans);
+    font-size: 0.85rem;
+    color: var(--color-ink-muted);
+    font-style: normal;
+  }
+
+  /* Section headers */
+  .section-header {
+    display: flex;
+    align-items: center;
+    gap: var(--space-md);
+    margin-bottom: var(--space-lg);
+  }
+
+  .section-title {
+    font-family: var(--font-serif);
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    white-space: nowrap;
+  }
+
+  .section-rule {
+    flex: 1;
+    height: 1px;
+    background: var(--color-ink);
+  }
+
+  /* Featured */
+  .featured-section {
+    padding: var(--space-xl) var(--space-md);
+  }
+
+  .featured-article {
+    margin-bottom: var(--space-xl);
+    padding-bottom: var(--space-lg);
+    border-bottom: 1px solid var(--color-rule);
+  }
+
+  .featured-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+  }
+
+  .featured-title {
+    font-size: clamp(2rem, 4vw, 3rem);
+    margin: var(--space-sm) 0;
+    transition: color 0.2s;
+  }
+
+  .featured-link:hover .featured-title {
+    color: var(--color-accent);
+  }
+
+  .featured-description {
+    font-size: 1.15rem;
+    color: var(--color-ink-soft);
+    line-height: 1.5;
+    max-width: 720px;
+    margin-bottom: var(--space-sm);
+  }
+
+  .featured-meta {
+    display: flex;
+    gap: var(--space-xs);
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .meta-sep {
+    color: var(--color-ink-muted);
+  }
+
+  /* Article grid */
+  .article-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-lg);
+  }
+
+  .grid-article a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+  }
+
+  .grid-title {
+    font-size: 1.35rem;
+    margin: var(--space-sm) 0 var(--space-xs);
+    line-height: 1.25;
+    transition: color 0.2s;
+  }
+
+  .grid-article a:hover .grid-title {
+    color: var(--color-accent);
+  }
+
+  .grid-description {
+    font-size: 0.95rem;
+    color: var(--color-ink-soft);
+    line-height: 1.5;
+    margin-bottom: var(--space-sm);
+  }
+
+  /* Categories */
+  .categories-section {
+    background: var(--color-bg-alt);
+    padding: var(--space-xl) 0;
+    margin-top: var(--space-lg);
+  }
+
+  .category-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--space-md);
+  }
+
+  .category-card {
+    background: var(--color-paper);
+    padding: var(--space-lg) var(--space-md);
+    text-decoration: none;
+    color: inherit;
+    border: 1px solid var(--color-rule);
+    transition: all 0.2s;
+    position: relative;
+  }
+
+  .category-card:hover {
+    border-color: var(--color-accent);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(10, 37, 64, 0.08);
+  }
+
+  .cat-num {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    color: var(--color-ink-muted);
+    letter-spacing: 0.1em;
+  }
+
+  .category-card h3 {
+    font-size: 1.4rem;
+    margin: var(--space-xs) 0 var(--space-sm);
+  }
+
+  .category-card p {
+    font-size: 0.9rem;
+    color: var(--color-ink-soft);
+    line-height: 1.5;
+    margin: 0;
+  }
+
+  /* Newsletter */
+  .newsletter-section {
+    padding: var(--space-2xl) 0;
+    text-align: center;
+  }
+
+  .newsletter-inner h2 {
+    margin: var(--space-sm) 0;
+  }
+
+  .newsletter-inner p {
+    color: var(--color-ink-soft);
+    max-width: 480px;
+    margin: 0 auto var(--space-md);
+  }
+
+  .newsletter-form {
+    display: flex;
+    gap: var(--space-xs);
+    max-width: 440px;
+    margin: 0 auto var(--space-sm);
+  }
+
+  .newsletter-form input {
+    flex: 1;
+    padding: 0.75rem 1rem;
+    font-family: var(--font-sans);
+    font-size: 0.95rem;
+    border: 1px solid var(--color-rule);
+    border-radius: 2px;
+    background: var(--color-paper);
+  }
+
+  .newsletter-form input:focus {
+    outline: none;
+    border-color: var(--color-accent);
+  }
+
+  .newsletter-fine {
+    font-family: var(--font-sans);
+    font-size: 0.8rem;
+    color: var(--color-ink-muted);
+  }
+
+  .empty-state {
+    padding: var(--space-xl);
+    text-align: center;
+    color: var(--color-ink-muted);
+    font-style: italic;
+  }
+
+  @media (max-width: 900px) {
+    .hero-inner { grid-template-columns: 1fr; }
+    .article-grid { grid-template-columns: repeat(2, 1fr); }
+    .category-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+
+  @media (max-width: 600px) {
+    .article-grid { grid-template-columns: 1fr; }
+    .newsletter-form { flex-direction: column; }
+  }
+</style>

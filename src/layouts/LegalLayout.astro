@@ -1,0 +1,57 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+interface Props {
+  title: string;
+  description: string;
+}
+
+const { title, description } = Astro.props;
+---
+
+<BaseLayout title={`${title} — TradingInfo.ch`} description={description}>
+  <article class="legal container-narrow">
+    <span class="eyebrow">Rechtliches</span>
+    <h1>{title}</h1>
+    <slot />
+  </article>
+</BaseLayout>
+
+<style>
+  .legal {
+    padding: var(--space-2xl) var(--space-md);
+  }
+
+  .legal h1 {
+    margin: var(--space-sm) 0 var(--space-lg);
+    padding-bottom: var(--space-md);
+    border-bottom: 3px double var(--color-rule);
+  }
+
+  .legal :global(h2) {
+    margin-top: var(--space-xl);
+    margin-bottom: var(--space-sm);
+    font-size: 1.4rem;
+  }
+
+  .legal :global(h3) {
+    margin-top: var(--space-md);
+    margin-bottom: var(--space-xs);
+    font-size: 1.15rem;
+  }
+
+  .legal :global(p) {
+    line-height: 1.7;
+    margin-bottom: var(--space-sm);
+  }
+
+  .legal :global(ul),
+  .legal :global(ol) {
+    margin: var(--space-sm) 0 var(--space-md) var(--space-md);
+  }
+
+  .legal :global(li) {
+    margin-bottom: 0.5em;
+    line-height: 1.6;
+  }
+</style>

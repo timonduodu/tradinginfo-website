@@ -1,0 +1,150 @@
+---
+const year = new Date().getFullYear();
+---
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <h4 class="footer-title">TradingInfo.ch</h4>
+        <p class="footer-text">
+          Unabhängige Trading-Information für Schweizer Trader. Ehrlich, verständlich, ohne Marketing-Bullshit.
+        </p>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-title">Themen</h4>
+        <ul>
+          <li><a href="/grundlagen">Grundlagen</a></li>
+          <li><a href="/broker">Broker</a></li>
+          <li><a href="/strategien">Strategien</a></li>
+          <li><a href="/steuern">Steuern</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-title">Mehr</h4>
+        <ul>
+          <li><a href="/about">Über uns</a></li>
+          <li><a href="/kontakt">Kontakt</a></li>
+          <li><a href="/werbung">Werbung schalten</a></li>
+          <li><a href="/rss.xml">RSS-Feed</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-title">Rechtliches</h4>
+        <ul>
+          <li><a href="/impressum">Impressum</a></li>
+          <li><a href="/datenschutz">Datenschutz</a></li>
+          <li><a href="/disclaimer">Haftungsausschluss</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="disclaimer">
+      <p>
+        <strong>Wichtiger Hinweis:</strong> Alle Inhalte auf TradingInfo.ch dienen ausschliesslich
+        Informations- und Bildungszwecken und stellen keine Anlage-, Steuer- oder Rechtsberatung dar.
+        Der Handel mit Finanzinstrumenten ist mit erheblichen Risiken verbunden und kann zum
+        Totalverlust des eingesetzten Kapitals führen. Konsultiere vor jeder Anlageentscheidung
+        eine qualifizierte Fachperson.
+      </p>
+    </div>
+
+    <div class="footer-bottom">
+      <span>© {year} TradingInfo.ch — Alle Rechte vorbehalten</span>
+      <span>Made in Switzerland 🇨🇭</span>
+    </div>
+  </div>
+</footer>
+
+<style>
+  .site-footer {
+    background: var(--color-ink);
+    color: var(--color-bg);
+    margin-top: var(--space-2xl);
+    padding: var(--space-xl) 0 var(--space-md);
+  }
+
+  .footer-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: var(--space-lg);
+    margin-bottom: var(--space-xl);
+  }
+
+  .footer-title {
+    font-family: var(--font-sans);
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    margin-bottom: var(--space-sm);
+    color: var(--color-paper);
+  }
+
+  .footer-text {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: rgba(250, 248, 245, 0.7);
+    margin: 0;
+  }
+
+  .footer-col ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .footer-col li {
+    margin-bottom: 0.5rem;
+  }
+
+  .footer-col a {
+    color: rgba(250, 248, 245, 0.7);
+    text-decoration: none;
+    font-family: var(--font-sans);
+    font-size: 0.9rem;
+    transition: color 0.2s;
+  }
+
+  .footer-col a:hover {
+    color: var(--color-paper);
+  }
+
+  .disclaimer {
+    padding: var(--space-md);
+    background: rgba(250, 248, 245, 0.05);
+    border-left: 3px solid var(--color-down);
+    font-size: 0.8rem;
+    line-height: 1.6;
+    color: rgba(250, 248, 245, 0.75);
+    margin-bottom: var(--space-md);
+    font-family: var(--font-sans);
+  }
+
+  .disclaimer strong {
+    color: var(--color-paper);
+  }
+
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    padding-top: var(--space-md);
+    border-top: 1px solid rgba(250, 248, 245, 0.1);
+    font-family: var(--font-sans);
+    font-size: 0.8rem;
+    color: rgba(250, 248, 245, 0.6);
+  }
+
+  @media (max-width: 768px) {
+    .footer-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+    .footer-bottom {
+      flex-direction: column;
+      gap: var(--space-xs);
+      text-align: center;
+    }
+  }
+</style>

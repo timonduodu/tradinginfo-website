@@ -1,0 +1,46 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="404 — Seite nicht gefunden" description="Diese Seite existiert nicht.">
+  <section class="error container-narrow">
+    <span class="eyebrow">Fehler 404</span>
+    <h1>Diese Seite existiert nicht.</h1>
+    <p class="lead">
+      Die angeforderte Seite konnte nicht gefunden werden. Möglicherweise wurde sie
+      verschoben oder umbenannt. Wir empfehlen, zur Startseite zurückzukehren.
+    </p>
+    <div class="actions">
+      <a href="/" class="btn btn-primary">Zur Startseite</a>
+      <a href="/grundlagen" class="btn btn-outline">Artikel durchstöbern</a>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .error {
+    padding: var(--space-2xl) var(--space-md);
+    text-align: center;
+  }
+
+  .error h1 {
+    margin: var(--space-sm) 0 var(--space-md);
+  }
+
+  .lead {
+    font-size: 1.15rem;
+    color: var(--color-ink-soft);
+    line-height: 1.6;
+    margin-bottom: var(--space-lg);
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .actions {
+    display: flex;
+    gap: var(--space-sm);
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+</style>

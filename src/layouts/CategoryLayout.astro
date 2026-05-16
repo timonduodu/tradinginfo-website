@@ -1,0 +1,150 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+interface Props {
+  category: 'Grundlagen' | 'Broker' | 'Strategien' | 'Steuern' | 'News';
+  title: string;
+  description: string;
+  intro: string;
+}
+
+const { category, title, description, intro } = Astro.props;
+
+const allPosts = await getCollection('blog');
+const posts = allPosts
+  .filter(p => p.data.category === category)
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+---
+
+<BaseLayout title={`${title} — TradingInfo.ch`} description={description}>
+  <section class="category-hero container-narrow">
+    <span class="eyebrow">Kategorie</span>
+    <h1>{title}</h1>
+    <p class="intro">{intro}</p>
+  </section>
+
+  <div class="container">
+    <div class="ad-slot ad-slot--banner">
+      Werbeplatz · Kategorie-Seite
+    </div>
+  </div>
+
+  <section class="container article-list">
+    {posts.length > 0 ? (
+      <div class="posts">
+        {posts.map(post => (
+          <article class="post-item">
+            <a href={`/blog/${post.slug}`} class="post-link">
+              <div class="post-content">
+                <span class="category-tag">{post.data.category}</span>
+                <h2 class="post-title">{post.data.title}</h2>
+                <p class="post-description">{post.data.description}</p>
+                <div class="post-meta">
+                  <time datetime={post.data.pubDate.toISOString()}>
+                    {post.data.pubDate.toLocaleDateString('de-CH', { day: 'numeric', month: 'long', year: 'numeric' })}
+                  </time>
+                  {post.data.readingTime && (
+                    <>
+                      <span>·</span>
+                      <span>{post.data.readingTime}</span>
+                    </>
+                  )}
+                </div>
+              </div>
+            </a>
+          </article>
+        ))}
+      </div>
+    ) : (
+      <div class="empty">
+        <p>In dieser Kategorie sind noch keine Artikel verfügbar.</p>
+        <p>Der erste Beitrag erscheint in Kürze. <a href="/newsletter">Newsletter abonnieren</a>, um benachrichtigt zu werden.</p>
+      </div>
+    )}
+  </section>
+</BaseLayout>
+
+<style>
+  .category-hero {
+    padding: var(--space-2xl) var(--space-md) var(--space-lg);
+    text-align: center;
+  }
+
+  .category-hero h1 {
+    margin: var(--space-sm) 0 var(--space-md);
+  }
+
+  .intro {
+    font-size: 1.2rem;
+    color: var(--color-ink-soft);
+    line-height: 1.6;
+    max-width: 620px;
+    margin: 0 auto;
+  }
+
+  .article-list {
+    padding: var(--space-lg) var(--space-md) var(--space-2xl);
+  }
+
+  .posts {
+    max-width: 860px;
+    margin: 0 auto;
+  }
+
+  .post-item {
+    border-bottom: 1px solid var(--color-rule);
+    padding: var(--space-lg) 0;
+  }
+
+  .post-item:first-child {
+    border-top: 1px solid var(--color-rule);
+  }
+
+  .post-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    transition: opacity 0.2s;
+  }
+
+  .post-link:hover {
+    opacity: 0.75;
+  }
+
+  .post-title {
+    font-size: 1.75rem;
+    margin: var(--space-sm) 0;
+    line-height: 1.2;
+  }
+
+  .post-link:hover .post-title {
+    color: var(--color-accent);
+  }
+
+  .post-description {
+    color: var(--color-ink-soft);
+    line-height: 1.6;
+    margin-bottom: var(--space-sm);
+  }
+
+  .post-meta {
+    font-family: var(--font-sans);
+    font-size: 0.85rem;
+    color: var(--color-ink-muted);
+    display: flex;
+    gap: var(--space-xs);
+  }
+
+  .empty {
+    text-align: center;
+    padding: var(--space-2xl) var(--space-md);
+    max-width: 500px;
+    margin: 0 auto;
+    color: var(--color-ink-soft);
+  }
+
+  .empty p {
+    margin-bottom: var(--space-sm);
+  }
+</style>

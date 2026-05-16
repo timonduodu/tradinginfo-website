@@ -1,0 +1,102 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Kontakt — TradingInfo.ch" description="Kontaktieren Sie die Redaktion von TradingInfo.ch.">
+  <section class="contact container-narrow">
+    <span class="eyebrow">Kontakt</span>
+    <h1>Kontakt aufnehmen</h1>
+    <p class="lead">
+      Wir freuen uns über Rückmeldungen, Themenvorschläge und Anfragen.
+      Bitte wählen Sie den passenden Kanal:
+    </p>
+
+    <div class="contact-grid">
+      <div class="contact-card">
+        <span class="eyebrow">Redaktion</span>
+        <h2>Inhaltliche Anfragen</h2>
+        <p>Themenvorschläge, Korrekturhinweise, Leserbriefe, redaktionelle Anfragen.</p>
+        <a href="mailto:redaktion@tradinginfo.ch" class="contact-link">redaktion@tradinginfo.ch</a>
+      </div>
+
+      <div class="contact-card">
+        <span class="eyebrow">Werbung</span>
+        <h2>Werbe-Anfragen</h2>
+        <p>Mediadaten, Banner-Buchungen, Sponsored Articles, Affiliate-Partnerschaften.</p>
+        <a href="mailto:werbung@tradinginfo.ch" class="contact-link">werbung@tradinginfo.ch</a>
+      </div>
+
+      <div class="contact-card">
+        <span class="eyebrow">Allgemein</span>
+        <h2>Sonstige Anliegen</h2>
+        <p>Technische Probleme, Datenschutz-Anfragen, alle übrigen Themen.</p>
+        <a href="mailto:kontakt@tradinginfo.ch" class="contact-link">kontakt@tradinginfo.ch</a>
+      </div>
+    </div>
+
+    <div class="response-note">
+      <p>Wir antworten in der Regel innerhalb von 48 Stunden an Werktagen.</p>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .contact {
+    padding: var(--space-2xl) var(--space-md);
+  }
+
+  .contact h1 {
+    margin: var(--space-sm) 0 var(--space-md);
+  }
+
+  .lead {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: var(--color-ink-soft);
+    margin-bottom: var(--space-xl);
+  }
+
+  .contact-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-md);
+    margin-bottom: var(--space-xl);
+  }
+
+  .contact-card {
+    padding: var(--space-lg);
+    background: var(--color-paper);
+    border: 1px solid var(--color-rule);
+  }
+
+  .contact-card h2 {
+    font-size: 1.5rem;
+    margin: var(--space-xs) 0 var(--space-sm);
+  }
+
+  .contact-card p {
+    color: var(--color-ink-soft);
+    margin-bottom: var(--space-sm);
+  }
+
+  .contact-link {
+    font-family: var(--font-mono);
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--color-accent);
+    text-decoration: none;
+    border-bottom: 1px solid currentColor;
+  }
+
+  .contact-link:hover {
+    color: var(--color-accent-hover);
+  }
+
+  .response-note {
+    text-align: center;
+    font-family: var(--font-sans);
+    font-size: 0.9rem;
+    color: var(--color-ink-muted);
+    font-style: italic;
+  }
+</style>

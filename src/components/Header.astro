@@ -1,0 +1,176 @@
+---
+const currentPath = Astro.url.pathname;
+
+const navItems = [
+  { href: '/', label: 'Start' },
+  { href: '/grundlagen', label: 'Grundlagen' },
+  { href: '/broker', label: 'Broker' },
+  { href: '/strategien', label: 'Strategien' },
+  { href: '/steuern', label: 'Steuern' },
+  { href: '/about', label: 'Über' },
+];
+---
+
+<header class="site-header">
+  <div class="header-top">
+    <div class="container header-top-inner">
+      <span class="date" id="current-date"></span>
+      <span class="tagline">Unabhängige Trading-Information aus der Schweiz</span>
+      <a href="/newsletter" class="newsletter-link">Newsletter →</a>
+    </div>
+  </div>
+
+  <div class="container header-main">
+    <a href="/" class="logo">
+      <span class="logo-mark">CH</span>
+      <span class="logo-text">TradingInfo</span>
+    </a>
+  </div>
+
+  <nav class="site-nav">
+    <div class="container nav-inner">
+      <ul class="nav-list">
+        {navItems.map(item => (
+          <li>
+            <a
+              href={item.href}
+              class:list={['nav-link', { active: currentPath === item.href }]}
+            >
+              {item.label}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<script>
+  const dateEl = document.getElementById('current-date');
+  if (dateEl) {
+    const d = new Date();
+    const options: Intl.DateTimeFormatOptions = { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' };
+    dateEl.textContent = d.toLocaleDateString('de-CH', options);
+  }
+</script>
+
+<style>
+  .site-header {
+    background: var(--color-paper);
+    border-bottom: 1px solid var(--color-rule);
+  }
+
+  .header-top {
+    background: var(--color-ink);
+    color: var(--color-bg);
+    font-family: var(--font-sans);
+    font-size: 0.75rem;
+  }
+
+  .header-top-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem var(--space-md);
+    letter-spacing: 0.05em;
+  }
+
+  .date {
+    text-transform: capitalize;
+  }
+
+  .tagline {
+    font-style: italic;
+    opacity: 0.85;
+  }
+
+  .newsletter-link {
+    color: var(--color-bg);
+    text-decoration: none;
+    font-weight: 600;
+  }
+
+  .header-main {
+    text-align: center;
+    padding: var(--space-lg) var(--space-md);
+    border-bottom: 3px double var(--color-rule);
+  }
+
+  .logo {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 0.5rem;
+    text-decoration: none;
+    color: var(--color-ink);
+  }
+
+  .logo-mark {
+    font-family: var(--font-serif);
+    font-weight: 900;
+    font-size: 1.75rem;
+    background: var(--color-accent);
+    color: var(--color-paper);
+    padding: 0.1em 0.4em;
+    letter-spacing: -0.02em;
+  }
+
+  .logo-text {
+    font-family: var(--font-serif);
+    font-weight: 700;
+    font-size: clamp(2rem, 5vw, 3rem);
+    letter-spacing: -0.03em;
+  }
+
+  .site-nav {
+    background: var(--color-paper);
+  }
+
+  .nav-inner {
+    display: flex;
+    justify-content: center;
+  }
+
+  .nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0;
+    list-style: none;
+  }
+
+  .nav-link {
+    display: block;
+    padding: var(--space-sm) var(--space-md);
+    font-family: var(--font-sans);
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--color-ink);
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: all 0.2s;
+  }
+
+  .nav-link:hover {
+    color: var(--color-accent);
+    border-bottom-color: var(--color-accent);
+  }
+
+  .nav-link.active {
+    color: var(--color-accent);
+    border-bottom-color: var(--color-accent);
+  }
+
+  @media (max-width: 640px) {
+    .header-top-inner {
+      flex-direction: column;
+      gap: 0.25rem;
+      font-size: 0.7rem;
+    }
+    .nav-link {
+      padding: var(--space-sm) 0.75rem;
+      font-size: 0.75rem;
+    }
+  }
+</style>

@@ -1,0 +1,263 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Werbung schalten — TradingInfo.ch" description="Erreiche aktive Schweizer Trader und Anleger. Werbemöglichkeiten auf TradingInfo.ch.">
+  <article class="ads-page">
+    <section class="hero container-narrow">
+      <span class="eyebrow">Für Werbepartner</span>
+      <h1>Erreiche aktive Schweizer Trader.</h1>
+      <p class="lead">
+        TradingInfo.ch ist die unabhängige Informationsplattform für Schweizer
+        Trader und Anleger. Unsere Leser sind aktive Marktteilnehmer mit echtem
+        Kapital und konkreter Kaufabsicht — die wertvollste Zielgruppe im Finanzbereich.
+      </p>
+    </section>
+
+    <section class="stats container">
+      <div class="stat-grid">
+        <div class="stat">
+          <span class="stat-number">85%</span>
+          <span class="stat-label">unserer Leser haben in den letzten 3 Monaten Trades ausgeführt</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number">CHF 25k+</span>
+          <span class="stat-label">durchschnittliches Trading-Portfolio</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number">25–45</span>
+          <span class="stat-label">Altersgruppe der Kernzielgruppe</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number">100%</span>
+          <span class="stat-label">DACH-Region, primär Schweiz</span>
+        </div>
+      </div>
+      <p class="stats-note">
+        <em>Zahlen werden aktualisiert, sobald belastbare Analytics vorliegen. Diese sind Schätzungen basierend auf vergleichbaren Plattformen.</em>
+      </p>
+    </section>
+
+    <section class="formats container-narrow">
+      <div class="section-header">
+        <h2 class="section-title">Werbeformate</h2>
+        <span class="section-rule"></span>
+      </div>
+
+      <div class="format">
+        <h3>Banner-Werbung</h3>
+        <p>Display-Anzeigen in verschiedenen Formaten (970×120, 728×90, 300×250) an strategischen Positionen: Header, In-Article, Sidebar.</p>
+        <p class="price">Ab <strong>CHF 15 pro 1'000 Impressionen</strong> · oder Festpreis pro Monat</p>
+      </div>
+
+      <div class="format">
+        <h3>Sponsored Article</h3>
+        <p>Ein vollständiger, redaktionell hochwertiger Artikel zu Ihrem Produkt. Klar als "Werbung" gekennzeichnet. Langfristig sichtbar in der Kategorie-Übersicht und auf Google.</p>
+        <p class="price">Ab <strong>CHF 500 pro Artikel</strong></p>
+      </div>
+
+      <div class="format">
+        <h3>Newsletter-Sponsoring</h3>
+        <p>Eine Erwähnung Ihres Angebots im wöchentlichen Newsletter. Direkter Zugang zu unseren engagiertesten Lesern.</p>
+        <p class="price">Ab <strong>CHF 200 pro Ausgabe</strong></p>
+      </div>
+
+      <div class="format">
+        <h3>Affiliate-Partnerschaft</h3>
+        <p>Performance-basierte Vergütung pro qualifiziertem Lead oder Account-Eröffnung. Ideal für Broker, Trading-Plattformen, Bildungsanbieter.</p>
+        <p class="price">CPL / CPA nach Vereinbarung</p>
+      </div>
+    </section>
+
+    <section class="who container-narrow">
+      <div class="section-header">
+        <h2 class="section-title">Passt zu Ihnen?</h2>
+        <span class="section-rule"></span>
+      </div>
+      <p>Unsere Werbeplätze eignen sich besonders für:</p>
+      <ul>
+        <li>Online-Broker und Trading-Plattformen mit Schweizer Lizenz</li>
+        <li>Krypto-Börsen und Wallet-Anbieter</li>
+        <li>Steuersoftware und Treuhand-Dienstleistungen</li>
+        <li>Charting- und Analyse-Tools (TradingView, Bookmap, NinjaTrader etc.)</li>
+        <li>Bildungsangebote (Kurse, Bücher, Coachings) mit nachweisbarer Qualität</li>
+        <li>Fintech-Apps mit Schweizer Marktrelevanz</li>
+      </ul>
+      <p><strong>Was wir nicht akzeptieren:</strong> Pump-and-Dump-Schemes, "Trading-Gurus" ohne nachweisbaren Track Record, unregulierte Broker, Hochrisiko-Anlageprodukte mit irreführender Werbung.</p>
+    </section>
+
+    <section class="contact container-narrow">
+      <div class="contact-box">
+        <h2>Interesse?</h2>
+        <p>Schreiben Sie uns für ein konkretes Angebot oder ein Media-Kit:</p>
+        <a href="mailto:werbung@tradinginfo.ch" class="btn btn-primary">werbung@tradinginfo.ch</a>
+        <p class="contact-note">Wir antworten innerhalb von 48 Stunden.</p>
+      </div>
+    </section>
+  </article>
+</BaseLayout>
+
+<style>
+  .ads-page {
+    padding-bottom: var(--space-2xl);
+  }
+
+  .hero {
+    padding: var(--space-2xl) var(--space-md) var(--space-lg);
+    text-align: center;
+  }
+
+  .hero h1 {
+    margin: var(--space-sm) 0 var(--space-md);
+  }
+
+  .lead {
+    font-size: 1.2rem;
+    color: var(--color-ink-soft);
+    max-width: 620px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+
+  .stats {
+    padding: var(--space-lg) var(--space-md);
+    background: var(--color-bg-alt);
+    margin: var(--space-lg) 0;
+  }
+
+  .stat-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--space-md);
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  .stat {
+    text-align: center;
+    padding: var(--space-md);
+    background: var(--color-paper);
+    border: 1px solid var(--color-rule);
+  }
+
+  .stat-number {
+    display: block;
+    font-family: var(--font-serif);
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--color-accent);
+    margin-bottom: var(--space-xs);
+    letter-spacing: -0.02em;
+  }
+
+  .stat-label {
+    font-family: var(--font-sans);
+    font-size: 0.85rem;
+    color: var(--color-ink-soft);
+    line-height: 1.4;
+  }
+
+  .stats-note {
+    text-align: center;
+    font-size: 0.8rem;
+    color: var(--color-ink-muted);
+    margin-top: var(--space-md);
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .formats {
+    padding: var(--space-xl) var(--space-md);
+  }
+
+  .section-header {
+    display: flex;
+    align-items: center;
+    gap: var(--space-md);
+    margin-bottom: var(--space-lg);
+  }
+
+  .section-title {
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    white-space: nowrap;
+  }
+
+  .section-rule {
+    flex: 1;
+    height: 1px;
+    background: var(--color-ink);
+  }
+
+  .format {
+    padding: var(--space-md) 0;
+    border-bottom: 1px solid var(--color-rule);
+  }
+
+  .format:last-child {
+    border-bottom: none;
+  }
+
+  .format h3 {
+    color: var(--color-accent);
+    margin-bottom: var(--space-xs);
+  }
+
+  .format .price {
+    font-family: var(--font-sans);
+    font-size: 0.95rem;
+    color: var(--color-ink-soft);
+    margin-top: var(--space-xs);
+  }
+
+  .who {
+    padding: var(--space-lg) var(--space-md);
+  }
+
+  .who ul {
+    margin: var(--space-md) 0 var(--space-md) var(--space-md);
+  }
+
+  .who li {
+    margin-bottom: 0.5em;
+  }
+
+  .contact {
+    padding: var(--space-xl) var(--space-md);
+  }
+
+  .contact-box {
+    background: var(--color-ink);
+    color: var(--color-paper);
+    padding: var(--space-xl);
+    text-align: center;
+  }
+
+  .contact-box h2 {
+    color: var(--color-paper);
+    margin-bottom: var(--space-sm);
+  }
+
+  .contact-box p {
+    color: rgba(250, 248, 245, 0.85);
+    margin-bottom: var(--space-md);
+  }
+
+  .contact-box .btn {
+    background: var(--color-bg);
+    color: var(--color-ink);
+  }
+
+  .contact-note {
+    font-family: var(--font-sans);
+    font-size: 0.85rem;
+    margin-top: var(--space-md);
+    color: rgba(250, 248, 245, 0.6);
+  }
+
+  @media (max-width: 768px) {
+    .stat-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+</style>
