@@ -1,6 +1,5 @@
 ---
 // TradingView Ticker Tape - live Kurs-Lauftext
-// Zeigt einen scrollenden Kurs-Ticker mit den wichtigsten Indizes, Forex und Krypto
 ---
 
 <div class="ticker-wrapper">
@@ -31,24 +30,38 @@
 }
 </script>
 
-<style>
+<style is:global>
+  /* GLOBAL für TradingView iframe — sonst greift es nicht durch Scope */
   .ticker-wrapper {
-    background: var(--color-paper);
-    border-bottom: 1px solid var(--color-rule);
-    border-top: 1px solid var(--color-rule);
+    background: #ffffff;
     overflow: hidden;
     line-height: 0;
+    font-size: 0;
+    margin: 0;
+    padding: 0;
+    display: block;
   }
 
-  .tradingview-widget-container {
-    height: 42px;
-    margin: 0 !important;
-    padding: 0 !important;
+  .ticker-wrapper .tradingview-widget-container {
+    height: 46px;
+    margin: 0;
+    padding: 0;
   }
 
-  /* Iframe direkt anpassen damit kein gap entsteht */
-  .tradingview-widget-container :global(iframe) {
+  .ticker-wrapper .tradingview-widget-container__widget {
+    margin: 0;
+    padding: 0;
+  }
+
+  .ticker-wrapper iframe {
     display: block !important;
     margin: 0 !important;
+    padding: 0 !important;
+    vertical-align: top;
+  }
+
+  /* Entfernt "Track all markets on TradingView" Link unter dem Widget */
+  .ticker-wrapper .tradingview-widget-copyright {
+    display: none !important;
   }
 </style>
