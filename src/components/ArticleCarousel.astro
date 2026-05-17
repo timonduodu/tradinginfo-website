@@ -1,5 +1,6 @@
 ---
 import type { CollectionEntry } from 'astro:content';
+import { getCollection } from 'astro:content';
 
 interface Props {
   posts: CollectionEntry<'blog'>[];
@@ -8,35 +9,80 @@ interface Props {
 
 const { posts, title } = Astro.props;
 
-// Kuratierte Unsplash-Bilder pro Kategorie (gleiche IDs wie ArticleHero)
+// Lokale SVG-Bilder pro Kategorie
 const categoryImages: Record<string, string[]> = {
   'Grundlagen': [
-    'photo-1611974789855-9c2a0a7236a3',
-    'photo-1590283603385-17ffb3a7f29f',
-    'photo-1543286386-2e659306cd6c',
+    '/images/grundlagen.svg',
+    '/images/grundlagen-2.svg',
+    '/images/grundlagen-3.svg',
   ],
   'Strategien': [
-    'photo-1642543492481-44e81e3914a7',
-    'photo-1640340434855-6084b1f4901c',
-    'photo-1611974789855-9c2a0a7236a3',
+    '/images/strategien.svg',
+    '/images/strategien-2.svg',
   ],
   'Broker': [
-    'photo-1604594849809-dfedbc827105',
-    'photo-1450101499163-c8848c66ca85',
-    'photo-1495216875107-c6c043eb703f',
+    '/images/broker.svg',
+    '/images/broker-2.svg',
   ],
   'Steuern': [
-    'photo-1554224155-6726b3ff858f',
-    'photo-1554224154-26032cfc77ff',
-    'photo-1518568814500-bf0f8d125f46',
+    '/images/steuern.svg',
+    '/images/steuern-2.svg',
   ],
 };
 
-function getImageForPost(post: CollectionEntry<'blog'>): string {
+const variations = [
+  'hue-rotate(0deg) saturate(1)',
+  'hue-rotate(30deg) saturate(1.1) brightness(1.05)',
+  'hue-rotate(60deg) saturate(0.9)',
+  'hue-rotate(90deg) saturate(1.2) brightness(0.95)',
+  'hue-rotate(120deg) saturate(1)',
+  'hue-rotate(150deg) saturate(1.1) brightness(1.05)',
+  'hue-rotate(180deg) saturate(0.95)',
+  'hue-rotate(210deg) saturate(1.15) brightness(0.95)',
+  'hue-rotate(240deg) saturate(1)',
+  'hue-rotate(270deg) saturate(1.1) brightness(1.05)',
+  'hue-rotate(300deg) saturate(0.9)',
+  'hue-rotate(330deg) saturate(1.2) brightness(0.95)',
+  'hue-rotate(15deg) saturate(0.85) brightness(1.1)',
+  'hue-rotate(45deg) saturate(1.25) brightness(0.9)',
+  'hue-rotate(75deg) saturate(0.95) brightness(1.05)',
+  'hue-rotate(105deg) saturate(1.15) brightness(0.95)',
+  'hue-rotate(135deg) saturate(1.05) brightness(1.05)',
+  'hue-rotate(165deg) saturate(0.9) brightness(0.95)',
+  'hue-rotate(195deg) saturate(1.2) brightness(1.05)',
+  'hue-rotate(225deg) saturate(1.05) brightness(0.95)',
+  'hue-rotate(255deg) saturate(0.95) brightness(1.1)',
+  'hue-rotate(285deg) saturate(1.15) brightness(0.9)',
+  'hue-rotate(315deg) saturate(1.1) brightness(1.05)',
+  'hue-rotate(345deg) saturate(0.85) brightness(0.95)',
+];
+
+// Hole alle Artikel um Position zu bestimmen
+const allPosts = await getCollection('blog');
+
+// Map slug → position pro Kategorie
+const positionMap: Record<string, number> = {};
+['Grundlagen', 'Strategien', 'Broker', 'Steuern'].forEach(cat => {
+  const sorted = allPosts
+    .filter(p => p.data.category === cat)
+    .map(p => p.slug)
+    .sort();
+  sorted.forEach((slug, i) => {
+    positionMap[slug] = i;
+  });
+});
+
+function getImageForPost(post: CollectionEntry<'blog'>): { src: string; filter: string } {
   const images = categoryImages[post.data.category] || categoryImages['Grundlagen'];
-  const hash = post.slug.split('').reduce((acc, char) => acc + char.charCodeAt(0), 0);
-  return images[hash % images.length];
+  const position = positionMap[post.slug] ?? 0;
+  const src = images[position % images.length];
+  const filter = variations[position % variations.length];
+  return { src, filter };
 }
+
+// Duplizieren für nahtloses Looping
+const loopPosts = [...posts, ...posts];
+---
 
 // Duplizieren für nahtloses Looping
 const loopPosts = [...posts, ...posts];
@@ -52,13 +98,16 @@ const loopPosts = [...posts, ...posts];
 
   <div class="carousel-wrapper">
     <div class="carousel-track" id="auto-carousel-track">
-      {loopPosts.map((post) => (
+      {loopPosts.map((post) => {
+        const image = getImageForPost(post);
+        return (
         <a href={`/blog/${post.slug}`} class="carousel-card">
           <div class="card-image">
             <img
-              src={`https://images.unsplash.com/${getImageForPost(post)}?w=600&h=400&fit=crop&q=80`}
+              src={image.src}
               alt={post.data.title}
               loading="lazy"
+              style={`filter: ${image.filter};`}
             />
           </div>
           <div class="card-content">
@@ -67,7 +116,8 @@ const loopPosts = [...posts, ...posts];
             <p>{post.data.description}</p>
           </div>
         </a>
-      ))}
+        );
+      })}
     </div>
   </div>
 </section>
