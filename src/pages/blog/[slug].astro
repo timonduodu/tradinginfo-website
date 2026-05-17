@@ -1,10 +1,14 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import ArticleHero from '../../components/ArticleHero.astro';
+import AdSlot from '../../components/AdSlot.astro';
 import { getCollection, type CollectionEntry } from 'astro:content';
 
 export async function getStaticPaths() {
-  const posts = await getCollection('blog');
+  const now = new Date();
+  // Nur veröffentlichte Artikel (pubDate <= heute) bekommen eine Seite
+  const posts = (await getCollection('blog'))
+    .filter(post => post.data.pubDate <= now);
   return posts.map(post => ({
     params: { slug: post.slug },
     props: { post },
@@ -18,9 +22,10 @@ interface Props {
 const { post } = Astro.props;
 const { Content } = await post.render();
 
+const now = new Date();
 const allPosts = await getCollection('blog');
 const related = allPosts
-  .filter(p => p.slug !== post.slug && p.data.category === post.data.category)
+  .filter(p => p.slug !== post.slug && p.data.category === post.data.category && p.data.pubDate <= now)
   .slice(0, 3);
 ---
 
@@ -52,9 +57,7 @@ const related = allPosts
 
     <!-- In-article ad slot (top) -->
     <div class="container-narrow">
-      <div class="ad-slot ad-slot--inline">
-        Werbeplatz · 728×90 · In-Article
-      </div>
+      <AdSlot type="inline" slot="middle" />
     </div>
 
     <div class="post-content container-narrow">
@@ -63,9 +66,7 @@ const related = allPosts
 
     <!-- In-article ad slot (bottom) -->
     <div class="container-narrow">
-      <div class="ad-slot ad-slot--inline">
-        Werbeplatz · 728×90 · End-of-Article
-      </div>
+      <AdSlot type="inline" slot="bottom" />
     </div>
 
     <!-- Affiliate disclosure -->
