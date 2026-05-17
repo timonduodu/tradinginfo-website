@@ -73,11 +73,29 @@
 }
 </script>
 
-<style>
+<style is:global>
   .market-overview-wrapper {
     background: var(--color-paper);
     border: 1px solid var(--color-rule);
-    padding: var(--space-md);
-    margin: var(--space-lg) 0;
+    padding: 0;
+    margin: var(--space-md) 0 0;
+    overflow: hidden;
+  }
+
+  .market-overview-wrapper > div,
+  .market-overview-wrapper .tradingview-widget-container,
+  .market-overview-wrapper .tradingview-widget-container__widget {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .market-overview-wrapper iframe {
+    display: block !important;
+    margin: 0 !important;
+    vertical-align: top !important;
+  }
+
+  .market-overview-wrapper .tradingview-widget-copyright {
+    display: none !important;
   }
 </style>
