@@ -8,6 +8,41 @@ interface Props {
 
 const { posts, title } = Astro.props;
 
+// Kuratierte Unsplash-Bilder pro Kategorie (gleiche IDs wie ArticleHero)
+const categoryImages: Record<string, string[]> = {
+  'Grundlagen': [
+    'photo-1611974789855-9c2a0a7236a3',
+    'photo-1590283603385-17ffb3a7f29f',
+    'photo-1554260570-9140fd3b7614',
+    'photo-1635236066449-5077fffbe50f',
+    'photo-1518186285589-2f7649de83e0',
+  ],
+  'Strategien': [
+    'photo-1642543492481-44e81e3914a7',
+    'photo-1551836022-d5d88e9218df',
+    'photo-1543286386-2e659306cd6c',
+    'photo-1591696205602-2f950c417cb9',
+  ],
+  'Broker': [
+    'photo-1604594849809-dfedbc827105',
+    'photo-1450101499163-c8848c66ca85',
+    'photo-1495216875107-c6c043eb703f',
+    'photo-1577962917302-cd874c4e31d2',
+  ],
+  'Steuern': [
+    'photo-1554224155-6726b3ff858f',
+    'photo-1554224154-26032cfc77ff',
+    'photo-1554224154-22dec7ec8818',
+    'photo-1518568814500-bf0f8d125f46',
+  ],
+};
+
+function getImageForPost(post: CollectionEntry<'blog'>): string {
+  const images = categoryImages[post.data.category] || categoryImages['Grundlagen'];
+  const hash = post.slug.split('').reduce((acc, char) => acc + char.charCodeAt(0), 0);
+  return images[hash % images.length];
+}
+
 // Duplizieren für nahtloses Looping
 const loopPosts = [...posts, ...posts];
 ---
@@ -22,11 +57,11 @@ const loopPosts = [...posts, ...posts];
 
   <div class="carousel-wrapper">
     <div class="carousel-track" id="auto-carousel-track">
-      {loopPosts.map((post, i) => (
+      {loopPosts.map((post) => (
         <a href={`/blog/${post.slug}`} class="carousel-card">
           <div class="card-image">
             <img
-              src={`https://picsum.photos/seed/${post.slug}/600/400`}
+              src={`https://images.unsplash.com/${getImageForPost(post)}?w=600&h=400&fit=crop&q=80`}
               alt={post.data.title}
               loading="lazy"
             />
@@ -69,8 +104,9 @@ const loopPosts = [...posts, ...posts];
 
 <style>
   .carousel-section {
-    padding: var(--space-xl) 0;
+    padding: var(--space-md) 0 var(--space-xl);
     background: var(--color-paper);
+    margin: 0;
   }
 
   .section-header {
