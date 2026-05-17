@@ -9,60 +9,59 @@ interface Props {
 
 const { slug, category, alt = "Trading Illustration" } = Astro.props;
 
+// Echte Foto-Bilder pro Kategorie (in /public/images/photos/)
 const categoryImages: Record<string, string[]> = {
   'Grundlagen': [
-    '/images/g-01.svg',
-    '/images/g-02.svg',
-    '/images/g-03.svg',
-    '/images/g-04.svg',
-    '/images/g-05.svg',
+    '/images/photos/g-01.jpg',
+    '/images/photos/g-02.jpg',
+    '/images/photos/g-03.jpg',
+    '/images/photos/g-04.jpg',
+    '/images/photos/g-05.jpg',
+    '/images/photos/g-06.jpg',
+    '/images/photos/g-07.jpg',
   ],
   'Strategien': [
-    '/images/s-01.svg',
-    '/images/s-02.svg',
-    '/images/s-03.svg',
-    '/images/s-04.svg',
-    '/images/s-05.svg',
+    '/images/photos/s-01.jpg',
+    '/images/photos/s-02.jpg',
+    '/images/photos/s-03.jpg',
+    '/images/photos/s-04.jpg',
+    '/images/photos/s-05.jpg',
+    '/images/photos/s-06.jpg',
+    '/images/photos/s-07.jpg',
   ],
   'Broker': [
-    '/images/b-01.svg',
-    '/images/b-02.svg',
-    '/images/b-03.svg',
-    '/images/b-04.svg',
+    '/images/photos/b-01.jpg',
+    '/images/photos/b-02.jpg',
+    '/images/photos/b-03.jpg',
+    '/images/photos/b-04.jpg',
+    '/images/photos/b-05.jpg',
   ],
   'Steuern': [
-    '/images/t-01.svg',
-    '/images/t-02.svg',
-    '/images/t-03.svg',
-    '/images/t-04.svg',
+    '/images/photos/t-01.jpg',
+    '/images/photos/t-02.jpg',
+    '/images/photos/t-03.jpg',
+    '/images/photos/t-04.jpg',
+    '/images/photos/t-05.jpg',
+    '/images/photos/t-06.jpg',
+    '/images/photos/t-07.jpg',
+    '/images/photos/t-08.jpg',
+    '/images/photos/t-09.jpg',
+    '/images/photos/t-10.jpg',
+    '/images/photos/t-11.jpg',
+    '/images/photos/t-12.jpg',
+    '/images/photos/t-13.jpg',
   ],
 };
 
+// Bei Fotos KEINE Hue-Rotation (das verzerrt Hauttöne und natürliche Farben)
+// Stattdessen: leichte Brightness/Contrast Variationen
 const variations = [
-  'hue-rotate(0deg) saturate(1)',
-  'hue-rotate(30deg) saturate(1.1) brightness(1.05)',
-  'hue-rotate(60deg) saturate(0.9)',
-  'hue-rotate(90deg) saturate(1.2) brightness(0.95)',
-  'hue-rotate(120deg) saturate(1)',
-  'hue-rotate(150deg) saturate(1.1) brightness(1.05)',
-  'hue-rotate(180deg) saturate(0.95)',
-  'hue-rotate(210deg) saturate(1.15) brightness(0.95)',
-  'hue-rotate(240deg) saturate(1)',
-  'hue-rotate(270deg) saturate(1.1) brightness(1.05)',
-  'hue-rotate(300deg) saturate(0.9)',
-  'hue-rotate(330deg) saturate(1.2) brightness(0.95)',
-  'hue-rotate(15deg) saturate(0.85) brightness(1.1)',
-  'hue-rotate(45deg) saturate(1.25) brightness(0.9)',
-  'hue-rotate(75deg) saturate(0.95) brightness(1.05)',
-  'hue-rotate(105deg) saturate(1.15) brightness(0.95)',
-  'hue-rotate(135deg) saturate(1.05) brightness(1.05)',
-  'hue-rotate(165deg) saturate(0.9) brightness(0.95)',
-  'hue-rotate(195deg) saturate(1.2) brightness(1.05)',
-  'hue-rotate(225deg) saturate(1.05) brightness(0.95)',
-  'hue-rotate(255deg) saturate(0.95) brightness(1.1)',
-  'hue-rotate(285deg) saturate(1.15) brightness(0.9)',
-  'hue-rotate(315deg) saturate(1.1) brightness(1.05)',
-  'hue-rotate(345deg) saturate(0.85) brightness(0.95)',
+  '',
+  'brightness(0.95) contrast(1.05)',
+  'brightness(1.05) contrast(0.95)',
+  'brightness(0.92) contrast(1.1) saturate(1.05)',
+  'brightness(1.02) saturate(0.9)',
+  'brightness(0.98) contrast(1.08)',
 ];
 
 const allPosts = await getCollection('blog');
@@ -96,6 +95,5 @@ const filterValue = variations[position % variations.length];
     height: 100%;
     object-fit: cover;
     display: block;
-    transition: filter 0.3s ease;
   }
 </style>
