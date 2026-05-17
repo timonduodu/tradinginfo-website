@@ -45,14 +45,14 @@ import BaseLayout from '../layouts/BaseLayout.astro';
           const target = parseInt(el.dataset.target, 10);
           const prefix = el.dataset.prefix || '';
           const suffix = el.dataset.suffix || '';
-          const duration = 2000; // 2 Sekunden
+          const duration = 4500; // 4.5 Sekunden (langsamer)
           const startTime = performance.now();
 
           function update(now) {
             const elapsed = now - startTime;
             const progress = Math.min(elapsed / duration, 1);
-            // easeOutQuart für schönere Animation
-            const eased = 1 - Math.pow(1 - progress, 4);
+            // easeOutCubic für sanftes Auslaufen
+            const eased = 1 - Math.pow(1 - progress, 3);
             const current = Math.floor(target * eased);
             el.textContent = prefix + current + suffix;
             if (progress < 1) {
@@ -172,8 +172,10 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     grid-template-columns: repeat(4, 1fr);
     gap: var(--space-md);
     max-width: 1100px;
-    margin: 0 auto;
-    justify-items: stretch;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: stretch;
   }
 
   .stat {
@@ -198,6 +200,17 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     letter-spacing: -0.02em;
     line-height: 1;
     font-variant-numeric: tabular-nums;
+    min-width: 4ch;
+    text-align: center;
+  }
+
+  .stat-label {
+    font-family: var(--font-sans);
+    font-size: 0.85rem;
+    color: var(--color-ink-soft);
+    line-height: 1.4;
+    text-align: center;
+    max-width: 90%;
   }
 
   @media (max-width: 900px) {
@@ -213,13 +226,6 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     .stat-number {
       font-size: 2.5rem;
     }
-  }
-
-  .stat-label {
-    font-family: var(--font-sans);
-    font-size: 0.85rem;
-    color: var(--color-ink-soft);
-    line-height: 1.4;
   }
 
   .stats-note {

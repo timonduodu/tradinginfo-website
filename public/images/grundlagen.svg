@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bgGrundlagen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a2540"/>
+      <stop offset="100%" stop-color="#1a3a5c"/>
+    </linearGradient>
+    <linearGradient id="lineGrundlagen" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#d4af37" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#d4af37" stop-opacity="1"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="600" fill="url(#bgGrundlagen)"/>
+  <!-- Grid lines -->
+  <g stroke="#ffffff" stroke-opacity="0.05">
+    <line x1="0" y1="100" x2="1200" y2="100"/>
+    <line x1="0" y1="200" x2="1200" y2="200"/>
+    <line x1="0" y1="300" x2="1200" y2="300"/>
+    <line x1="0" y1="400" x2="1200" y2="400"/>
+    <line x1="0" y1="500" x2="1200" y2="500"/>
+    <line x1="200" y1="0" x2="200" y2="600"/>
+    <line x1="400" y1="0" x2="400" y2="600"/>
+    <line x1="600" y1="0" x2="600" y2="600"/>
+    <line x1="800" y1="0" x2="800" y2="600"/>
+    <line x1="1000" y1="0" x2="1000" y2="600"/>
+  </g>
+  <!-- Chart line -->
+  <path d="M 0,450 Q 100,420 200,400 T 400,380 Q 500,360 600,300 T 800,250 Q 900,220 1000,180 T 1200,150"
+        stroke="url(#lineGrundlagen)" stroke-width="4" fill="none"/>
+  <!-- Filled area under chart -->
+  <path d="M 0,450 Q 100,420 200,400 T 400,380 Q 500,360 600,300 T 800,250 Q 900,220 1000,180 T 1200,150 L 1200,600 L 0,600 Z"
+        fill="#d4af37" fill-opacity="0.1"/>
+  <!-- Candlesticks -->
+  <g>
+    <rect x="195" y="380" width="10" height="40" fill="#1b7a3e"/>
+    <line x1="200" y1="370" x2="200" y2="430" stroke="#1b7a3e" stroke-width="2"/>
+    <rect x="295" y="340" width="10" height="50" fill="#1b7a3e"/>
+    <line x1="300" y1="330" x2="300" y2="400" stroke="#1b7a3e" stroke-width="2"/>
+    <rect x="395" y="370" width="10" height="30" fill="#b91c1c"/>
+    <line x1="400" y1="360" x2="400" y2="410" stroke="#b91c1c" stroke-width="2"/>
+    <rect x="495" y="320" width="10" height="55" fill="#1b7a3e"/>
+    <line x1="500" y1="310" x2="500" y2="385" stroke="#1b7a3e" stroke-width="2"/>
+    <rect x="595" y="280" width="10" height="40" fill="#1b7a3e"/>
+    <line x1="600" y1="270" x2="600" y2="330" stroke="#1b7a3e" stroke-width="2"/>
+    <rect x="695" y="240" width="10" height="50" fill="#1b7a3e"/>
+    <line x1="700" y1="230" x2="700" y2="300" stroke="#1b7a3e" stroke-width="2"/>
+    <rect x="795" y="220" width="10" height="40" fill="#1b7a3e"/>
+    <line x1="800" y1="210" x2="800" y2="270" stroke="#1b7a3e" stroke-width="2"/>
+    <rect x="895" y="200" width="10" height="35" fill="#1b7a3e"/>
+    <line x1="900" y1="190" x2="900" y2="245" stroke="#1b7a3e" stroke-width="2"/>
+  </g>
+  <!-- Label -->
+  <text x="60" y="80" font-family="Georgia, serif" font-size="48" font-weight="700" fill="#ffffff" fill-opacity="0.9">CHART</text>
+  <text x="60" y="120" font-family="Arial, sans-serif" font-size="14" fill="#d4af37" letter-spacing="2">GRUNDLAGEN</text>
+</svg>
