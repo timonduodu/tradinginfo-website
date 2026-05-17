@@ -91,6 +91,7 @@ const carouselPosts = [
                   </>
                 )}
               </div>
+              <span class="read-more-featured">Artikel lesen &rarr;</span>
             </a>
           </article>
         ) : (
@@ -108,6 +109,7 @@ const carouselPosts = [
                   <time class="meta" datetime={post.data.pubDate.toISOString()}>
                     {post.data.pubDate.toLocaleDateString('de-CH', { day: 'numeric', month: 'short' })}
                   </time>
+                  <span class="read-more-grid">Weiterlesen &rarr;</span>
                 </a>
               </article>
             ))}
@@ -447,6 +449,39 @@ const carouselPosts = [
   }
 
   .meta-sep { color: var(--color-ink-muted); }
+
+  .read-more-featured {
+    display: inline-block;
+    margin-top: var(--space-md);
+    font-family: var(--font-sans);
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--color-accent);
+    transition: transform 0.2s;
+  }
+
+  .featured-link:hover .read-more-featured {
+    transform: translateX(6px);
+  }
+
+  .read-more-grid {
+    display: inline-block;
+    margin-top: var(--space-xs);
+    margin-left: var(--space-sm);
+    font-family: var(--font-sans);
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--color-accent);
+    transition: transform 0.2s;
+  }
+
+  .grid-article a:hover .read-more-grid {
+    transform: translateX(4px);
+  }
 
   /* === ARTICLE GRID === */
   .article-grid {

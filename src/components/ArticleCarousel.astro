@@ -120,6 +120,7 @@ const loopPosts = [...posts, ...posts];
             <span class="category-tag">{post.data.category}</span>
             <h3>{post.data.title}</h3>
             <p>{post.data.description}</p>
+            <span class="read-more">Weiterlesen &rarr;</span>
           </div>
         </a>
         );
@@ -246,12 +247,28 @@ const loopPosts = [...posts, ...posts];
     font-size: 0.9rem;
     color: var(--color-ink-soft);
     line-height: 1.5;
-    margin-bottom: 0;
+    margin-bottom: var(--space-sm);
     flex: 1;
     display: -webkit-box;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     overflow: hidden;
+  }
+
+  .read-more {
+    display: inline-block;
+    font-family: var(--font-sans);
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--color-accent);
+    margin-top: auto;
+    transition: transform 0.2s;
+  }
+
+  .carousel-card:hover .read-more {
+    transform: translateX(4px);
   }
 
   @media (max-width: 640px) {
