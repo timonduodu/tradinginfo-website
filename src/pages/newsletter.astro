@@ -13,23 +13,18 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     </p>
 
     <div class="form-container">
-      <form
-        class="newsletter-form"
-        action="https://tradinginfo.beehiiv.com/subscribe"
-        method="GET"
+      <a
+        href="https://tradinginfo.beehiiv.com/subscribe"
         target="_blank"
+        rel="noopener"
+        class="btn btn-primary btn-large"
       >
-        <input type="hidden" name="submit" value="true" />
-        <label for="email">E-Mail-Adresse</label>
-        <div class="form-row">
-          <input type="email" id="email" name="email" placeholder="deine@email.ch" required />
-          <button type="submit" class="btn btn-primary">Abonnieren</button>
-        </div>
-        <p class="fine">
-          Mit der Anmeldung akzeptieren Sie die <a href="/datenschutz">Datenschutzerklärung</a>.
-          Abmeldung jederzeit per Klick möglich. Keine Weitergabe der Daten an Dritte.
-        </p>
-      </form>
+        Jetzt kostenlos abonnieren →
+      </a>
+      <p class="fine">
+        Mit der Anmeldung akzeptieren Sie die <a href="/datenschutz">Datenschutzerklärung</a>.
+        Abmeldung jederzeit per Klick möglich. Keine Weitergabe der Daten an Dritte.
+      </p>
     </div>
 
     <div class="benefits">
@@ -65,6 +60,13 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     padding: var(--space-lg);
     border: 1px solid var(--color-rule);
     margin-bottom: var(--space-xl);
+    text-align: center;
+  }
+
+  .btn-large {
+    padding: 1rem 2.5rem;
+    font-size: 1.05rem;
+    margin-bottom: var(--space-md);
   }
 
   .newsletter-form label {
