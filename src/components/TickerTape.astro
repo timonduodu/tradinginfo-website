@@ -31,36 +31,35 @@
 </script>
 
 <style is:global>
-  /* GLOBAL für TradingView iframe — sonst greift es nicht durch Scope */
   .ticker-wrapper {
     background: #ffffff;
-    overflow: hidden;
-    line-height: 0;
-    font-size: 0;
-    margin: 0;
-    padding: 0;
-    display: block;
-  }
-
-  .ticker-wrapper .tradingview-widget-container {
     height: 46px;
-    margin: 0;
-    padding: 0;
+    max-height: 46px;
+    overflow: hidden !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    display: block;
+    position: relative;
   }
 
+  .ticker-wrapper > div,
+  .ticker-wrapper .tradingview-widget-container,
   .ticker-wrapper .tradingview-widget-container__widget {
-    margin: 0;
-    padding: 0;
+    height: 46px !important;
+    max-height: 46px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden !important;
   }
 
   .ticker-wrapper iframe {
     display: block !important;
     margin: 0 !important;
     padding: 0 !important;
-    vertical-align: top;
+    vertical-align: top !important;
+    height: 46px !important;
   }
 
-  /* Entfernt "Track all markets on TradingView" Link unter dem Widget */
   .ticker-wrapper .tradingview-widget-copyright {
     display: none !important;
   }
