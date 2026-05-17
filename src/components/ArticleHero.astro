@@ -1,6 +1,8 @@
 ---
-// Article Hero Image - kuratierte themenpassende Bilder via Unsplash
-// Mit verifizierten Photo-IDs (Stand: Mai 2026)
+// Article Hero Image - garantierte Einzigartigkeit pro Artikel
+// Verwendet Position des Artikels in der Liste für deterministische Auswahl
+
+import { getCollection } from 'astro:content';
 
 interface Props {
   slug: string;
@@ -10,46 +12,87 @@ interface Props {
 
 const { slug, category, alt = "Trading Illustration" } = Astro.props;
 
-// Verifizierte Unsplash-Photo-IDs (mehrfach getestet, alle funktionieren)
-// Format: photo-XXXXXXXXXX-YYYYYYYYYY
+// Lokale SVG-Bilder pro Kategorie
 const categoryImages: Record<string, string[]> = {
   'Grundlagen': [
-    'photo-1611974789855-9c2a0a7236a3',  // Stock screen mit Charts
-    'photo-1590283603385-17ffb3a7f29f',  // Trading Terminal
-    'photo-1543286386-2e659306cd6c',     // Bloomberg Terminal Look
+    '/images/grundlagen.svg',
+    '/images/grundlagen-2.svg',
+    '/images/grundlagen-3.svg',
   ],
   'Strategien': [
-    'photo-1642543492481-44e81e3914a7',  // Trading Chart Detail
-    'photo-1640340434855-6084b1f4901c',  // Multi-Monitor Trading
-    'photo-1611974789855-9c2a0a7236a3',  // Charts Übersicht
+    '/images/strategien.svg',
+    '/images/strategien-2.svg',
   ],
   'Broker': [
-    'photo-1604594849809-dfedbc827105',  // Modernes Bürogebäude
-    'photo-1450101499163-c8848c66ca85',  // Finanzbezirk
-    'photo-1495216875107-c6c043eb703f',  // Bank Schweiz
+    '/images/broker.svg',
+    '/images/broker-2.svg',
   ],
   'Steuern': [
-    'photo-1554224155-6726b3ff858f',     // Steuerdokumente
-    'photo-1554224154-26032cfc77ff',     // Kalkulator + Papier
-    'photo-1518568814500-bf0f8d125f46',  // Schweizer Landschaft
+    '/images/steuern.svg',
+    '/images/steuern-2.svg',
   ],
 };
 
-// Wähle deterministisch ein Bild basierend auf dem Slug
-const images = categoryImages[category] || categoryImages['Grundlagen'];
-const hash = slug.split('').reduce((acc, char) => acc + char.charCodeAt(0), 0);
-const imageId = images[hash % images.length];
+// 36 verschiedene Color-Filter (genug für 36 Artikel pro Kategorie)
+const variations = [
+  'hue-rotate(0deg) saturate(1)',
+  'hue-rotate(30deg) saturate(1.1) brightness(1.05)',
+  'hue-rotate(60deg) saturate(0.9)',
+  'hue-rotate(90deg) saturate(1.2) brightness(0.95)',
+  'hue-rotate(120deg) saturate(1)',
+  'hue-rotate(150deg) saturate(1.1) brightness(1.05)',
+  'hue-rotate(180deg) saturate(0.95)',
+  'hue-rotate(210deg) saturate(1.15) brightness(0.95)',
+  'hue-rotate(240deg) saturate(1)',
+  'hue-rotate(270deg) saturate(1.1) brightness(1.05)',
+  'hue-rotate(300deg) saturate(0.9)',
+  'hue-rotate(330deg) saturate(1.2) brightness(0.95)',
+  'hue-rotate(15deg) saturate(0.85) brightness(1.1)',
+  'hue-rotate(45deg) saturate(1.25) brightness(0.9)',
+  'hue-rotate(75deg) saturate(0.95) brightness(1.05)',
+  'hue-rotate(105deg) saturate(1.15) brightness(0.95)',
+  'hue-rotate(135deg) saturate(1.05) brightness(1.05)',
+  'hue-rotate(165deg) saturate(0.9) brightness(0.95)',
+  'hue-rotate(195deg) saturate(1.2) brightness(1.05)',
+  'hue-rotate(225deg) saturate(1.05) brightness(0.95)',
+  'hue-rotate(255deg) saturate(0.95) brightness(1.1)',
+  'hue-rotate(285deg) saturate(1.15) brightness(0.9)',
+  'hue-rotate(315deg) saturate(1.1) brightness(1.05)',
+  'hue-rotate(345deg) saturate(0.85) brightness(0.95)',
+  'hue-rotate(20deg) saturate(1.1) contrast(1.1)',
+  'hue-rotate(50deg) saturate(1) contrast(0.95)',
+  'hue-rotate(80deg) saturate(1.2) contrast(1.05)',
+  'hue-rotate(110deg) saturate(0.9) contrast(1.1)',
+  'hue-rotate(140deg) saturate(1.1) contrast(0.95)',
+  'hue-rotate(170deg) saturate(1.05) contrast(1.05)',
+  'hue-rotate(200deg) saturate(0.95) contrast(1.1)',
+  'hue-rotate(230deg) saturate(1.2) contrast(0.95)',
+  'hue-rotate(260deg) saturate(1) contrast(1.05)',
+  'hue-rotate(290deg) saturate(1.15) contrast(1.1)',
+  'hue-rotate(320deg) saturate(0.9) contrast(0.95)',
+  'hue-rotate(350deg) saturate(1.1) contrast(1.05)',
+];
 
-const imageUrl = `https://images.unsplash.com/${imageId}?w=1200&h=600&fit=crop&q=80&auto=format`;
+// Hole alle Artikel der gleichen Kategorie, sortiert nach Slug für Stabilität
+const allPosts = await getCollection('blog');
+const sameCategory = allPosts
+  .filter(p => p.data.category === category)
+  .map(p => p.slug)
+  .sort();
+
+// Position dieses Artikels in der sortierten Liste
+const position = sameCategory.indexOf(slug);
+
+// Image-Auswahl basierend auf Position (rotiert durch alle verfügbaren)
+const images = categoryImages[category] || categoryImages['Grundlagen'];
+const imageUrl = images[position % images.length];
+
+// Variation-Auswahl basierend auf Position (jeder Artikel bekommt einzigartige Var)
+const filterValue = variations[position % variations.length];
 ---
 
 <figure class="article-hero">
-  <img
-    src={imageUrl}
-    alt={alt}
-    loading="lazy"
-    onerror="this.style.display='none'; this.parentElement.style.display='none';"
-  />
+  <img src={imageUrl} alt={alt} loading="lazy" style={`filter: ${filterValue};`} />
 </figure>
 
 <style>
@@ -66,5 +109,6 @@ const imageUrl = `https://images.unsplash.com/${imageId}?w=1200&h=600&fit=crop&q
     height: 100%;
     object-fit: cover;
     display: block;
+    transition: filter 0.3s ease;
   }
 </style>
