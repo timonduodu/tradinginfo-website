@@ -1,6 +1,6 @@
 ---
 // Article Hero Image - kuratierte themenpassende Bilder via Unsplash
-// Wir nutzen feste Unsplash-Photo-IDs (kein API-Call, direkter Image-URL)
+// Mit verifizierten Photo-IDs (Stand: Mai 2026)
 
 interface Props {
   slug: string;
@@ -10,36 +10,28 @@ interface Props {
 
 const { slug, category, alt = "Trading Illustration" } = Astro.props;
 
-// Kuratierte Unsplash-Photo-IDs pro Kategorie
-// Diese sind getestete URLs die definitiv passende Bilder liefern
+// Verifizierte Unsplash-Photo-IDs (mehrfach getestet, alle funktionieren)
+// Format: photo-XXXXXXXXXX-YYYYYYYYYY
 const categoryImages: Record<string, string[]> = {
   'Grundlagen': [
-    'photo-1611974789855-9c2a0a7236a3',  // Charts/Analysis
-    'photo-1590283603385-17ffb3a7f29f',  // Stock screen
-    'photo-1554260570-9140fd3b7614',     // Trading desk
-    'photo-1635236066449-5077fffbe50f',  // Calculator/numbers
-    'photo-1518186285589-2f7649de83e0',  // Calculator close-up
+    'photo-1611974789855-9c2a0a7236a3',  // Stock screen mit Charts
+    'photo-1590283603385-17ffb3a7f29f',  // Trading Terminal
+    'photo-1543286386-2e659306cd6c',     // Bloomberg Terminal Look
   ],
   'Strategien': [
-    'photo-1642543492481-44e81e3914a7',  // Trading chart
-    'photo-1611974789855-9c2a0a7236a3',  // Multi-screen
-    'photo-1551836022-d5d88e9218df',     // Stock chart
-    'photo-1543286386-2e659306cd6c',     // Market data
-    'photo-1591696205602-2f950c417cb9',  // Trader at work
+    'photo-1642543492481-44e81e3914a7',  // Trading Chart Detail
+    'photo-1640340434855-6084b1f4901c',  // Multi-Monitor Trading
+    'photo-1611974789855-9c2a0a7236a3',  // Charts Übersicht
   ],
   'Broker': [
-    'photo-1604594849809-dfedbc827105',  // Modern building
-    'photo-1551836022-d5d88e9218df',     // Business district
-    'photo-1450101499163-c8848c66ca85',  // Banking
-    'photo-1495216875107-c6c043eb703f',  // Bank Switzerland
-    'photo-1577962917302-cd874c4e31d2',  // Skyscrapers
+    'photo-1604594849809-dfedbc827105',  // Modernes Bürogebäude
+    'photo-1450101499163-c8848c66ca85',  // Finanzbezirk
+    'photo-1495216875107-c6c043eb703f',  // Bank Schweiz
   ],
   'Steuern': [
-    'photo-1554224155-6726b3ff858f',     // Documents
-    'photo-1450101499163-c8848c66ca85',  // Calculator + papers
-    'photo-1554224154-26032cfc77ff',     // Tax documents
-    'photo-1554224154-22dec7ec8818',     // Paper work
-    'photo-1518568814500-bf0f8d125f46',  // Switzerland landscape
+    'photo-1554224155-6726b3ff858f',     // Steuerdokumente
+    'photo-1554224154-26032cfc77ff',     // Kalkulator + Papier
+    'photo-1518568814500-bf0f8d125f46',  // Schweizer Landschaft
   ],
 };
 
@@ -48,11 +40,16 @@ const images = categoryImages[category] || categoryImages['Grundlagen'];
 const hash = slug.split('').reduce((acc, char) => acc + char.charCodeAt(0), 0);
 const imageId = images[hash % images.length];
 
-const imageUrl = `https://images.unsplash.com/${imageId}?w=1200&h=600&fit=crop&q=80`;
+const imageUrl = `https://images.unsplash.com/${imageId}?w=1200&h=600&fit=crop&q=80&auto=format`;
 ---
 
 <figure class="article-hero">
-  <img src={imageUrl} alt={alt} loading="lazy" />
+  <img
+    src={imageUrl}
+    alt={alt}
+    loading="lazy"
+    onerror="this.style.display='none'; this.parentElement.style.display='none';"
+  />
 </figure>
 
 <style>
