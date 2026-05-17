@@ -625,13 +625,19 @@ const carouselPosts = [
   @media (max-width: 1024px) {
     .main-grid {
       grid-template-columns: 1fr;
+      display: flex;
+      flex-direction: column;
     }
     .main-sidebar {
       position: static;
       flex-direction: column;
-      order: 2;
+      order: 1;
+      gap: var(--space-lg);
     }
-    .main-content { order: 1; }
+    .main-sidebar .sidebar-block:first-child { order: 1; }
+    .main-content { order: 2; }
+    .main-sidebar .sidebar-block:nth-child(2),
+    .main-sidebar .sidebar-block:nth-child(3) { order: 3; }
     .article-grid { grid-template-columns: repeat(2, 1fr); }
     .category-grid { grid-template-columns: repeat(2, 1fr); }
   }

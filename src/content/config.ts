@@ -7,7 +7,7 @@ const blog = defineCollection({
     description: z.string(),
     pubDate: z.coerce.date(),
     updatedDate: z.coerce.date().optional(),
-    category: z.enum(['Grundlagen', 'Broker', 'Strategien', 'Steuern', 'News']),
+    category: z.enum(['Grundlagen', 'Broker', 'Strategien', 'Steuern', 'News', 'Krypto']),
     subcategory: z.string().optional(),
     author: z.string().default('Redaktion'),
     readingTime: z.string().optional(),
