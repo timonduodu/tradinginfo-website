@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import AdSlot from '../components/AdSlot.astro';
 import { getCollection } from 'astro:content';
 
 interface Props {
@@ -42,9 +43,7 @@ const detectedSubcats = subcategories || Array.from(
   )}
 
   <div class="container">
-    <div class="ad-slot ad-slot--banner">
-      Werbeplatz · Kategorie-Seite
-    </div>
+    <AdSlot type="banner" slot="top" />
   </div>
 
   <section class="container article-list">
