@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import AdSlot from '../components/AdSlot.astro';
 ---
 
 <BaseLayout title="Über TradingInfo.ch — Unabhängige Trading-Information" description="TradingInfo.ch ist eine unabhängige Informationsplattform für Schweizer Trader und Anleger. Sachlich, fundiert, ohne kommerzielle Verzerrung.">
@@ -100,9 +101,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
       <a href="mailto:werbung@tradinginfo.ch">werbung@tradinginfo.ch</a>
     </p>
 
-    <div class="ad-slot ad-slot--banner">
-      Werbeplatz · Profilseite
-    </div>
+    <AdSlot type="banner" slot="bottom" />
   </article>
 </BaseLayout>
 
