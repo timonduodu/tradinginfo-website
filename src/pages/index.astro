@@ -2,6 +2,7 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import MarketOverview from '../components/MarketOverview.astro';
 import ArticleCarousel from '../components/ArticleCarousel.astro';
+import AdSlot from '../components/AdSlot.astro';
 import { getCollection } from 'astro:content';
 
 // Filter: nur Artikel mit pubDate <= heute (scheduled posts werden ausgeblendet)
@@ -54,9 +55,7 @@ const carouselPosts = [
 
   <!-- Ad slot — premium top placement -->
   <div class="container">
-    <div class="ad-slot ad-slot--banner">
-      Werbeplatz · 970×120 · Premium-Platzierung
-    </div>
+    <AdSlot type="banner" slot="top" />
   </div>
 
   <!-- Article Carousel (Auto-Scroll) - DIREKT NACH HERO -->
