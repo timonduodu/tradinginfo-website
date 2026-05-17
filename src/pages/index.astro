@@ -133,6 +133,7 @@ const carouselPosts = [
                   <div class="popular-content">
                     <span class="category-tag category-tag--small">{post.data.category}</span>
                     <h4 class="popular-title">{post.data.title}</h4>
+                    <span class="read-more-popular">Weiterlesen &rarr;</span>
                   </div>
                 </a>
               </li>
@@ -402,6 +403,22 @@ const carouselPosts = [
 
   .popular-list a:hover .popular-title {
     color: var(--color-accent);
+  }
+
+  .read-more-popular {
+    display: inline-block;
+    margin-top: var(--space-xs);
+    font-family: var(--font-sans);
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--color-accent);
+    transition: transform 0.2s;
+  }
+
+  .popular-list a:hover .read-more-popular {
+    transform: translateX(4px);
   }
 
   .category-tag--small {

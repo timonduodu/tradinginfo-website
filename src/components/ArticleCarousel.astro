@@ -131,11 +131,23 @@ const loopPosts = [...posts, ...posts];
 
 <script>
   const track = document.getElementById('auto-carousel-track');
-  const isMobile = window.matchMedia('(max-width: 768px)').matches;
-  if (track && !isMobile) {
+  if (track) {
     let paused = false;
+    let resumeTimer = null;
+
     track.addEventListener('mouseenter', () => { paused = true; });
     track.addEventListener('mouseleave', () => { paused = false; });
+
+    track.addEventListener('touchstart', () => {
+      paused = true;
+      if (resumeTimer) clearTimeout(resumeTimer);
+    }, { passive: true });
+
+    track.addEventListener('touchend', () => {
+      if (resumeTimer) clearTimeout(resumeTimer);
+      resumeTimer = setTimeout(() => { paused = false; }, 2500);
+    }, { passive: true });
+
     function autoScroll() {
       if (!paused && track) {
         track.scrollLeft += 1;
