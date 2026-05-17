@@ -2,7 +2,9 @@ import rss from '@astrojs/rss';
 import { getCollection } from 'astro:content';
 
 export async function GET(context) {
-  const posts = await getCollection('blog');
+  const now = new Date();
+  const posts = (await getCollection('blog'))
+    .filter(post => post.data.pubDate <= now);
   return rss({
     title: 'TradingInfo.ch',
     description: 'Trading-Information für Schweizer Trader',
