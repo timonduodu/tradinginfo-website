@@ -40,11 +40,15 @@ Angenommen, ein Trader hat 10'000 CHF Eigenkapital und nutzt einen Hebel von 1:3
 
 Historische Tagesbewegungen von EUR/USD übersteigen 1 % regelmässig. Eine Bewegung von 3 % an einem einzigen Tag — etwa nach einer überraschenden Notenbank-Entscheidung — ist nicht aussergewöhnlich. Die Brexit-Abstimmung 2016 bewegte GBP/USD an einem Tag um über 11 %.
 
-## Hebel-Vorschriften in der Schweiz und EU
+## Hebel-Vorschriften in der DACH-Region
 
-Die Schweizer FINMA und die europäische ESMA haben für Retail-Kunden Hebel-Obergrenzen eingeführt:
+Die regulatorische Lage unterscheidet sich erheblich zwischen Schweiz und EU:
 
-| Instrument | Maximaler Hebel (Retail) |
+**Schweiz (FINMA):** Die Schweizer Finanzmarktaufsicht hat **keine generellen Hebel-Obergrenzen** für FINMA-regulierte Broker erlassen. Schweizer Broker wie Dukascopy oder Swissquote dürfen für ihre Schweizer Kunden grundsätzlich höhere Hebel anbieten. In der Praxis halten sich aber auch viele Schweizer Broker an die EU-Vorgaben.
+
+**EU / EWR (ESMA):** Die europäische ESMA hat seit 2018 strenge Hebel-Obergrenzen für Retail-Kunden festgelegt. Diese gelten für alle in der EU regulierten Broker — auch wenn sie Schweizer Kunden bedienen:
+
+| Instrument | Maximaler Hebel (Retail, ESMA) |
 |---|---|
 | Hauptwährungspaare (EUR/USD etc.) | 1:30 |
 | Nebenwährungspaare | 1:20 |
@@ -53,6 +57,12 @@ Die Schweizer FINMA und die europäische ESMA haben für Retail-Kunden Hebel-Obe
 | Andere Rohstoffe | 1:10 |
 | Einzelaktien | 1:5 |
 | Kryptowährungen | 1:2 |
+
+**Deutschland und Österreich** folgen den ESMA-Regeln durch BaFin bzw. FMA — dort sind diese Limits für Retail-Kunden bindend.
+
+**Professionelle Kunden** (mit hohem Vermögen, Trading-Erfahrung und Berufshintergrund) können sich in der EU als "Professional" einstufen lassen und höhere Hebel nutzen — verlieren dabei aber Negativsaldoschutz und andere Sicherheiten.
+
+**Wichtig für Schweizer Trader:** Wer einen ausländischen EU-Broker nutzt (z.B. Interactive Brokers Irland, DEGIRO), unterliegt automatisch den ESMA-Regeln. Wer einen Schweizer Broker nutzt, kann je nach Anbieter andere Konditionen haben.
 
 Professionelle Kunden — definiert über Vermögen, Erfahrung und Trading-Aktivität — können auf höhere Hebel zugreifen. Wer als "professionell" klassifiziert wird, verliert jedoch wichtige Schutzmassnahmen wie den negativen Kontoschutz.
 
