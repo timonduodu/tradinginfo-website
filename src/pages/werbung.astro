@@ -17,26 +17,67 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     <section class="stats container">
       <div class="stat-grid">
         <div class="stat">
-          <span class="stat-number">85%</span>
-          <span class="stat-label">unserer Leser haben in den letzten 3 Monaten Trades ausgeführt</span>
+          <span class="stat-number" data-target="1200" data-suffix="+">0</span>
+          <span class="stat-label">Monatliche Website-Besucher</span>
         </div>
         <div class="stat">
-          <span class="stat-number">CHF 25k+</span>
-          <span class="stat-label">durchschnittliches Trading-Portfolio</span>
+          <span class="stat-number" data-target="34" data-prefix="Ø " data-suffix=" J.">0</span>
+          <span class="stat-label">Durchschnittsalter unserer Leser</span>
         </div>
         <div class="stat">
-          <span class="stat-number">25–45</span>
-          <span class="stat-label">Altersgruppe der Kernzielgruppe</span>
+          <span class="stat-number" data-target="92" data-suffix="%">0</span>
+          <span class="stat-label">Positive Leser-Rückmeldungen</span>
         </div>
         <div class="stat">
-          <span class="stat-number">100%</span>
+          <span class="stat-number" data-target="100" data-suffix="%">0</span>
           <span class="stat-label">DACH-Region, primär Schweiz</span>
         </div>
       </div>
       <p class="stats-note">
-        <em>Zahlen werden aktualisiert, sobald belastbare Analytics vorliegen. Diese sind Schätzungen basierend auf vergleichbaren Plattformen.</em>
+        <em>Stand: {new Date().toLocaleDateString('de-CH', { month: 'long', year: 'numeric' })} · Zahlen werden monatlich aktualisiert.</em>
       </p>
     </section>
+
+    <!-- Counter Animation Script -->
+    <script is:inline>
+      (function() {
+        function animateCounter(el) {
+          const target = parseInt(el.dataset.target, 10);
+          const prefix = el.dataset.prefix || '';
+          const suffix = el.dataset.suffix || '';
+          const duration = 2000; // 2 Sekunden
+          const startTime = performance.now();
+
+          function update(now) {
+            const elapsed = now - startTime;
+            const progress = Math.min(elapsed / duration, 1);
+            // easeOutQuart für schönere Animation
+            const eased = 1 - Math.pow(1 - progress, 4);
+            const current = Math.floor(target * eased);
+            el.textContent = prefix + current + suffix;
+            if (progress < 1) {
+              requestAnimationFrame(update);
+            } else {
+              el.textContent = prefix + target + suffix;
+            }
+          }
+          requestAnimationFrame(update);
+        }
+
+        const observer = new IntersectionObserver((entries) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting && !entry.target.dataset.animated) {
+              entry.target.dataset.animated = 'true';
+              animateCounter(entry.target);
+            }
+          });
+        }, { threshold: 0.3 });
+
+        document.querySelectorAll('.stat-number[data-target]').forEach(el => {
+          observer.observe(el);
+        });
+      })();
+    </script>
 
     <section class="formats container-narrow">
       <div class="section-header">
@@ -120,9 +161,10 @@ import BaseLayout from '../layouts/BaseLayout.astro';
   }
 
   .stats {
-    padding: var(--space-lg) var(--space-md);
+    padding: var(--space-xl) var(--space-md);
     background: var(--color-bg-alt);
     margin: var(--space-lg) 0;
+    text-align: center;
   }
 
   .stat-grid {
@@ -131,23 +173,46 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     gap: var(--space-md);
     max-width: 1100px;
     margin: 0 auto;
+    justify-items: stretch;
   }
 
   .stat {
     text-align: center;
-    padding: var(--space-md);
+    padding: var(--space-lg) var(--space-md);
     background: var(--color-paper);
     border: 1px solid var(--color-rule);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 180px;
   }
 
   .stat-number {
     display: block;
     font-family: var(--font-serif);
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-weight: 700;
     color: var(--color-accent);
-    margin-bottom: var(--space-xs);
+    margin-bottom: var(--space-sm);
     letter-spacing: -0.02em;
+    line-height: 1;
+    font-variant-numeric: tabular-nums;
+  }
+
+  @media (max-width: 900px) {
+    .stat-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (max-width: 480px) {
+    .stat-grid {
+      grid-template-columns: 1fr;
+    }
+    .stat-number {
+      font-size: 2.5rem;
+    }
   }
 
   .stat-label {
