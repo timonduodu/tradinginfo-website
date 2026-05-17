@@ -59,6 +59,9 @@ const carouselPosts = [
     </div>
   </div>
 
+  <!-- Article Carousel (Auto-Scroll) - DIREKT NACH HERO -->
+  <ArticleCarousel posts={carouselPosts} title="Empfohlene Artikel" />
+
   <!-- Featured + Sidebar -->
   <section class="container main-section">
     <div class="main-grid">
@@ -166,9 +169,6 @@ const carouselPosts = [
     </div>
   </section>
 
-  <!-- Article Carousel -->
-  <ArticleCarousel posts={carouselPosts} title="Aus allen Kategorien" />
-
   <!-- Categories explainer -->
   <section class="categories-section">
     <div class="container">
@@ -210,16 +210,11 @@ const carouselPosts = [
         Jeden Sonntag: Die wichtigsten Marktbewegungen, ein neuer Artikel
         und eine Trading-Lektion. Kein Spam, kein Verkauf, jederzeit kündbar.
       </p>
-      <!-- Newsletter Form → Beehiiv -->
-      <form
-        class="newsletter-form"
-        action="https://tradinginfo.beehiiv.com/subscribe"
-        method="GET"
-        target="_blank"
-      >
-        <input type="email" name="email" placeholder="deine@email.ch" required />
-        <button type="submit" class="btn btn-primary">Abonnieren</button>
-      </form>
+      <div class="newsletter-cta">
+        <a href="https://tradinginfo.beehiiv.com/subscribe" target="_blank" rel="noopener" class="btn btn-primary btn-large">
+          Newsletter abonnieren →
+        </a>
+      </div>
       <p class="newsletter-fine">Wir respektieren deine Privatsphäre. Datenschutz auf höchstem Niveau.</p>
     </div>
   </section>
@@ -586,6 +581,17 @@ const carouselPosts = [
     gap: var(--space-xs);
     max-width: 440px;
     margin: 0 auto var(--space-sm);
+  }
+
+  .newsletter-cta {
+    margin: var(--space-md) auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .btn-large {
+    padding: 1rem 2.5rem;
+    font-size: 1.05rem;
   }
 
   .newsletter-form input {
