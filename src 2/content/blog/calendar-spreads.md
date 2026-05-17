@@ -12,9 +12,9 @@ Calendar Spreads gehören zu den meistgehandelten Strategien institutioneller Fu
 
 ## Grundmechanik
 
-Ein Calendar Spread besteht aus zwei gegenläufigen Positionen im gleichen Futures-Kontrakt, aber mit unterschiedlichen Lieferterminen. Ein typisches Beispiel: Long auf den Crude-Oil-Future Juni und gleichzeitig short auf den Crude-Oil-Future Dezember.
+Ein Calendar Spread besteht aus zwei gegenläufigen Positionen im gleichen Futures-Kontrakt, aber mit unterschiedlichen Lieferterminen. Ein typisches Beispiel: Long auf einen näher liegenden Rohstoff-Future und gleichzeitig short auf einen weiter entfernten Kontrakt derselben Anlage — oder umgekehrt, je nach Marktstruktur.
 
-Der Trader spekuliert nicht auf die Richtung des Ölpreises, sondern auf die **relative Preisentwicklung** zwischen den beiden Lieferzeitpunkten. Steigt der Juni-Kontrakt schneller als der Dezember-Kontrakt — oder fällt er weniger schnell —, profitiert der Trader.
+Der Trader spekuliert nicht auf die Richtung des Basiswerts, sondern auf die **relative Preisentwicklung** zwischen den beiden Lieferzeitpunkten. Bewegt sich ein Kontrakt schneller als der andere, profitiert der Trader.
 
 > *"In commodities, the spread tells you more about the market than the outright price ever will."*
 > — **Andy Hall**, ehemaliger Oil-Trader bei Phibro
@@ -27,26 +27,19 @@ Die Form der Futures-Kurve ist die zentrale Variable bei Calendar Spreads.
 
 **Backwardation** ist die umgekehrte Situation: Spot-Preis und nahe Futures sind teurer als weiter entfernte Lieferungen. Dies tritt bei akuten Versorgungsknappheiten oder hoher physischer Nachfrage auf.
 
-Die Anatomie eines Calendar Spreads hängt fundamental davon ab, welche Marktstruktur vorliegt.
+Die Anatomie eines Calendar Spreads hängt fundamental davon ab, welche Marktstruktur vorliegt — sowohl die Richtung als auch die Liquidität der Kontrakte.
 
-## Beispiel: WTI Crude Oil Calendar Spread
+## Strukturelles Konzept
 
-Angenommen folgende Marktstruktur:
+Die Mechanik eines Calendar Spreads lässt sich abstrakt beschreiben:
 
-| Kontrakt | Preis |
-|---|---|
-| WTI Juni | 78.50 USD |
-| WTI September | 79.20 USD |
-| WTI Dezember | 79.80 USD |
+- Long einen Kontrakt mit einem Lieferdatum
+- Short einen Kontrakt mit einem anderen Lieferdatum
+- Profit oder Verlust ergibt sich aus der **Veränderung der Preisdifferenz** zwischen den beiden Kontrakten
 
-Diese Kurve ist im Contango. Der Spread zwischen Juni und Dezember beträgt 1.30 USD pro Barrel. Ein Trader, der erwartet, dass dieser Contango sich verstärkt (Long Calendar Spread):
+Die genaue Konstruktion — welcher Kontrakt long, welcher short — hängt vom erwarteten Verhalten der Kurvenform ab. Ein Trader, der erwartet, dass sich die Differenz zwischen zwei Lieferterminen ausweitet, positioniert sich anders als einer, der eine Konvergenz erwartet.
 
-- Long Dezember-Kontrakt zu 79.80
-- Short Juni-Kontrakt zu 78.50
-
-Steigt der Dezember-Kontrakt auf 81.50 und Juni nur auf 79.00, verändert sich der Spread auf 2.50 USD. Der Trader hat 1.20 USD pro Barrel verdient — bei einem Kontraktwert von 1'000 Barrel sind das 1'200 USD pro Spread-Position.
-
-Hätte der Trader stattdessen einen direktionalen Long-Trade auf WTI gemacht, wäre die Performance vom absoluten Ölpreis abhängig gewesen — mit deutlich höherer Volatilität.
+Konkrete Setups sind hochgradig markt- und situationsspezifisch und sollten nur nach gründlicher eigener Analyse gewählt werden.
 
 ## Vorteile gegenüber Direktionalhandel
 

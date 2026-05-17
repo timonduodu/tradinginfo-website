@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import MarketOverview from '../components/MarketOverview.astro';
+import ArticleCarousel from '../components/ArticleCarousel.astro';
 import { getCollection } from 'astro:content';
 
 // Filter: nur Artikel mit pubDate <= heute (scheduled posts werden ausgeblendet)
@@ -12,8 +13,16 @@ const allPosts = (await getCollection('blog'))
 const featuredPost = allPosts.find(p => p.data.featured) || allPosts[0];
 const otherPosts = allPosts.filter(p => p.slug !== featuredPost?.slug).slice(0, 6);
 
-// Top 3 "Beliebt diese Woche" — wir nehmen einfach die 3 nächsten nach featured
+// Top 3 "Beliebt diese Woche"
 const popularPosts = allPosts.slice(0, 3);
+
+// Karussell-Artikel: 8 verschiedene aus verschiedenen Kategorien
+const carouselPosts = [
+  ...allPosts.filter(p => p.data.category === 'Strategien').slice(0, 2),
+  ...allPosts.filter(p => p.data.category === 'Broker').slice(0, 2),
+  ...allPosts.filter(p => p.data.category === 'Grundlagen').slice(0, 2),
+  ...allPosts.filter(p => p.data.category === 'Steuern').slice(0, 2),
+];
 ---
 
 <BaseLayout>
@@ -32,7 +41,6 @@ const popularPosts = allPosts.slice(0, 3);
         </p>
         <div class="hero-actions">
           <a href="/grundlagen" class="btn btn-primary">Grundlagen lesen</a>
-          <a href="/about" class="btn btn-outline">Wer steckt dahinter?</a>
         </div>
       </div>
       <div class="hero-quote">
@@ -148,7 +156,7 @@ const popularPosts = allPosts.slice(0, 3);
     </div>
   </section>
 
-  <!-- Pull-Quote Section (à la gesundheittipps Schopenhauer) -->
+  <!-- Pull-Quote Section -->
   <section class="pullquote-section">
     <div class="container-narrow">
       <blockquote class="pullquote">
@@ -157,6 +165,9 @@ const popularPosts = allPosts.slice(0, 3);
       </blockquote>
     </div>
   </section>
+
+  <!-- Article Carousel -->
+  <ArticleCarousel posts={carouselPosts} title="Aus allen Kategorien" />
 
   <!-- Categories explainer -->
   <section class="categories-section">

@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import ArticleHero from '../../components/ArticleHero.astro';
 import { getCollection, type CollectionEntry } from 'astro:content';
 
 export async function getStaticPaths() {
@@ -43,6 +44,11 @@ const related = allPosts
         )}
       </div>
     </header>
+
+    <!-- Article Hero Image -->
+    <div class="container-narrow">
+      <ArticleHero slug={post.slug} category={post.data.category} alt={post.data.title} />
+    </div>
 
     <!-- In-article ad slot (top) -->
     <div class="container-narrow">

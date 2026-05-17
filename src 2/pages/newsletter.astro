@@ -19,6 +19,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
         method="GET"
         target="_blank"
       >
+        <input type="hidden" name="submit" value="true" />
         <label for="email">E-Mail-Adresse</label>
         <div class="form-row">
           <input type="email" id="email" name="email" placeholder="deine@email.ch" required />

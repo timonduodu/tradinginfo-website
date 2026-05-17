@@ -1,0 +1,47 @@
+---
+// Article Hero Image - lädt automatisch ein themenpassendes Bild von Unsplash
+// Nutzt seeded URLs damit jeder Artikel ein konsistentes Bild bekommt
+
+interface Props {
+  slug: string;
+  category: string;
+  alt?: string;
+}
+
+const { slug, category, alt = "Trading Illustration" } = Astro.props;
+
+// Mapping Kategorie → Unsplash Suchbegriff
+const categoryKeywords: Record<string, string> = {
+  'Grundlagen': 'finance,chart,trading',
+  'Broker': 'office,business,city',
+  'Strategien': 'data,analysis,markets',
+  'Steuern': 'documents,paperwork,office',
+  'News': 'newspaper,markets,economy',
+};
+
+const keywords = categoryKeywords[category] || 'finance,business';
+
+// Seeded URL — jeder slug bekommt sein eigenes konsistentes Bild
+const imageUrl = `https://source.unsplash.com/1200x600/?${keywords}&sig=${slug}`;
+---
+
+<figure class="article-hero">
+  <img src={imageUrl} alt={alt} loading="lazy" />
+</figure>
+
+<style>
+  .article-hero {
+    margin: 0 0 var(--space-lg);
+    width: 100%;
+    aspect-ratio: 2 / 1;
+    overflow: hidden;
+    background: var(--color-bg-alt);
+  }
+
+  .article-hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+</style>

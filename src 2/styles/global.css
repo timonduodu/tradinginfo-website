@@ -68,6 +68,24 @@ body {
   position: relative;
 }
 
+/* main hat keinen Standard-Margin */
+main {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+/* TradingView Widget Container - keine Lücken */
+.tradingview-widget-copyright {
+  display: none !important;
+}
+
+iframe[src*="tradingview"] {
+  display: block !important;
+  margin: 0 !important;
+  vertical-align: top !important;
+}
+
 /* Prevent any element from causing horizontal scroll on mobile */
 @media (max-width: 768px) {
   img, video, iframe, table, pre {
