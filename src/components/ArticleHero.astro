@@ -1,7 +1,4 @@
 ---
-// Article Hero Image - garantierte Einzigartigkeit pro Artikel
-// Verwendet Position des Artikels in der Liste für deterministische Auswahl
-
 import { getCollection } from 'astro:content';
 
 interface Props {
@@ -12,28 +9,35 @@ interface Props {
 
 const { slug, category, alt = "Trading Illustration" } = Astro.props;
 
-// Lokale SVG-Bilder pro Kategorie
 const categoryImages: Record<string, string[]> = {
   'Grundlagen': [
-    '/images/grundlagen.svg',
-    '/images/grundlagen-2.svg',
-    '/images/grundlagen-3.svg',
+    '/images/g-01.svg',
+    '/images/g-02.svg',
+    '/images/g-03.svg',
+    '/images/g-04.svg',
+    '/images/g-05.svg',
   ],
   'Strategien': [
-    '/images/strategien.svg',
-    '/images/strategien-2.svg',
+    '/images/s-01.svg',
+    '/images/s-02.svg',
+    '/images/s-03.svg',
+    '/images/s-04.svg',
+    '/images/s-05.svg',
   ],
   'Broker': [
-    '/images/broker.svg',
-    '/images/broker-2.svg',
+    '/images/b-01.svg',
+    '/images/b-02.svg',
+    '/images/b-03.svg',
+    '/images/b-04.svg',
   ],
   'Steuern': [
-    '/images/steuern.svg',
-    '/images/steuern-2.svg',
+    '/images/t-01.svg',
+    '/images/t-02.svg',
+    '/images/t-03.svg',
+    '/images/t-04.svg',
   ],
 };
 
-// 36 verschiedene Color-Filter (genug für 36 Artikel pro Kategorie)
 const variations = [
   'hue-rotate(0deg) saturate(1)',
   'hue-rotate(30deg) saturate(1.1) brightness(1.05)',
@@ -59,35 +63,18 @@ const variations = [
   'hue-rotate(285deg) saturate(1.15) brightness(0.9)',
   'hue-rotate(315deg) saturate(1.1) brightness(1.05)',
   'hue-rotate(345deg) saturate(0.85) brightness(0.95)',
-  'hue-rotate(20deg) saturate(1.1) contrast(1.1)',
-  'hue-rotate(50deg) saturate(1) contrast(0.95)',
-  'hue-rotate(80deg) saturate(1.2) contrast(1.05)',
-  'hue-rotate(110deg) saturate(0.9) contrast(1.1)',
-  'hue-rotate(140deg) saturate(1.1) contrast(0.95)',
-  'hue-rotate(170deg) saturate(1.05) contrast(1.05)',
-  'hue-rotate(200deg) saturate(0.95) contrast(1.1)',
-  'hue-rotate(230deg) saturate(1.2) contrast(0.95)',
-  'hue-rotate(260deg) saturate(1) contrast(1.05)',
-  'hue-rotate(290deg) saturate(1.15) contrast(1.1)',
-  'hue-rotate(320deg) saturate(0.9) contrast(0.95)',
-  'hue-rotate(350deg) saturate(1.1) contrast(1.05)',
 ];
 
-// Hole alle Artikel der gleichen Kategorie, sortiert nach Slug für Stabilität
 const allPosts = await getCollection('blog');
 const sameCategory = allPosts
   .filter(p => p.data.category === category)
   .map(p => p.slug)
   .sort();
 
-// Position dieses Artikels in der sortierten Liste
 const position = sameCategory.indexOf(slug);
 
-// Image-Auswahl basierend auf Position (rotiert durch alle verfügbaren)
 const images = categoryImages[category] || categoryImages['Grundlagen'];
 const imageUrl = images[position % images.length];
-
-// Variation-Auswahl basierend auf Position (jeder Artikel bekommt einzigartige Var)
 const filterValue = variations[position % variations.length];
 ---
 

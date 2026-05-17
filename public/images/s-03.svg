@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="s3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a3e"/>
+      <stop offset="100%" stop-color="#0a2540"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="600" fill="url(#s3)"/>
+  <g fill="none" stroke="#d4af37" stroke-width="2" stroke-opacity="0.5">
+    <rect x="500" y="250" width="100" height="100"/>
+    <rect x="600" y="250" width="100" height="100"/>
+    <rect x="500" y="350" width="200" height="100"/>
+    <rect x="700" y="150" width="200" height="300"/>
+    <rect x="200" y="150" width="300" height="500"/>
+    <rect x="200" y="-200" width="500" height="350"/>
+  </g>
+  <path d="M 550,300 Q 600,300 600,350 Q 600,400 550,400 Q 500,400 500,350 Q 500,250 600,250 Q 700,250 700,350 Q 700,500 500,500 Q 200,500 200,200 Q 200,-200 700,-200" stroke="#1b7a3e" stroke-width="3" fill="none" opacity="0.6"/>
+  <g fill="#d4af37">
+    <circle cx="550" cy="300" r="6"/>
+    <circle cx="600" cy="350" r="6"/>
+    <circle cx="500" cy="400" r="6"/>
+    <circle cx="700" cy="250" r="6"/>
+    <circle cx="200" cy="500" r="6"/>
+  </g>
+</svg>
