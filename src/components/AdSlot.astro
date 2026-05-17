@@ -1,0 +1,220 @@
+---
+// AdSlot — realistische Werbe-Platzhalter
+// Rotiert verschiedene Mock-Anzeigen die wie echte aussehen
+// Beim Hover: "Hier könnte Ihre Werbung stehen" mit Link zur Werbeseite
+
+interface Props {
+  type?: 'banner' | 'inline' | 'sidebar';
+  slot?: 'top' | 'middle' | 'bottom' | 'sidebar';
+}
+
+const { type = 'banner', slot = 'top' } = Astro.props;
+
+// Mock-Anzeigen die rotieren basierend auf Slot
+const mockAds = {
+  top: {
+    sponsor: "FINANZ-PARTNER",
+    headline: "Trading-Konditionen für Schweizer",
+    subline: "Niedrige Gebühren · Schweizer Lizenz · CHF-Konto",
+    cta: "Vergleich →",
+    badge: "ANZEIGE",
+    bgColor: "#0a2540",
+    accentColor: "#d4af37",
+  },
+  middle: {
+    sponsor: "VERMÖGENSAUFBAU",
+    headline: "ETF-Sparpläne ab CHF 0",
+    subline: "Diversifiziert anlegen · Vom ersten Franken an",
+    cta: "Mehr erfahren →",
+    badge: "WERBUNG",
+    bgColor: "#1a3a5c",
+    accentColor: "#ffffff",
+  },
+  bottom: {
+    sponsor: "PROFESSIONELL HANDELN",
+    headline: "Trading-Plattform für Profis",
+    subline: "Optionen · Futures · Forex · CFDs",
+    cta: "Konto eröffnen →",
+    badge: "SPONSORED",
+    bgColor: "#1b7a3e",
+    accentColor: "#ffffff",
+  },
+  sidebar: {
+    sponsor: "SCHWEIZER ANBIETER",
+    headline: "Steuerauszug inklusive",
+    subline: "Direkt für die CH-Steuererklärung",
+    cta: "Jetzt informieren →",
+    badge: "ANZEIGE",
+    bgColor: "#5c1a1a",
+    accentColor: "#ffffff",
+  },
+};
+
+const ad = mockAds[slot];
+---
+
+<a href="/werbung" class={`ad-placeholder ad-placeholder--${type}`} aria-label="Werbeplatz - Klicken für Werbeschaltungen">
+  <div class="ad-mock" style={`background: ${ad.bgColor}; color: ${ad.accentColor};`}>
+    <div class="ad-badge">{ad.badge}</div>
+    <div class="ad-content">
+      <div class="ad-sponsor">{ad.sponsor}</div>
+      <div class="ad-headline">{ad.headline}</div>
+      <div class="ad-subline">{ad.subline}</div>
+      <div class="ad-cta">{ad.cta}</div>
+    </div>
+  </div>
+  <div class="ad-overlay">
+    <div class="ad-overlay-content">
+      <strong>Hier könnte Ihre Werbung stehen</strong>
+      <span>Werbung schalten →</span>
+    </div>
+  </div>
+</a>
+
+<style>
+  .ad-placeholder {
+    display: block;
+    position: relative;
+    margin: var(--space-lg) 0;
+    overflow: hidden;
+    text-decoration: none;
+    border-radius: 4px;
+    cursor: pointer;
+    isolation: isolate;
+  }
+
+  .ad-placeholder--banner { min-height: 120px; }
+  .ad-placeholder--inline { min-height: 100px; }
+  .ad-placeholder--sidebar { min-height: 250px; }
+
+  .ad-mock {
+    width: 100%;
+    height: 100%;
+    min-height: inherit;
+    padding: var(--space-lg) var(--space-xl);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-lg);
+    position: relative;
+    transition: filter 0.25s;
+  }
+
+  .ad-placeholder--sidebar .ad-mock {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .ad-badge {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    background: rgba(255, 255, 255, 0.15);
+    color: inherit;
+    font-family: var(--font-sans);
+    font-size: 0.65rem;
+    font-weight: 600;
+    letter-spacing: 0.15em;
+    padding: 0.25rem 0.6rem;
+    border-radius: 2px;
+    opacity: 0.7;
+  }
+
+  .ad-content {
+    flex: 1;
+  }
+
+  .ad-sponsor {
+    font-family: var(--font-sans);
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    opacity: 0.8;
+    margin-bottom: 0.5rem;
+  }
+
+  .ad-headline {
+    font-family: var(--font-serif);
+    font-size: clamp(1.25rem, 2.5vw, 1.75rem);
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+  }
+
+  .ad-subline {
+    font-family: var(--font-sans);
+    font-size: 0.85rem;
+    opacity: 0.9;
+    margin-bottom: 0.75rem;
+  }
+
+  .ad-cta {
+    display: inline-block;
+    font-family: var(--font-sans);
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+  }
+
+  /* Overlay erscheint beim Hover */
+  .ad-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.75);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+    pointer-events: none;
+    z-index: 2;
+  }
+
+  .ad-placeholder:hover .ad-overlay {
+    opacity: 1;
+  }
+
+  .ad-placeholder:hover .ad-mock {
+    filter: blur(2px);
+  }
+
+  .ad-overlay-content {
+    text-align: center;
+    font-family: var(--font-sans);
+  }
+
+  .ad-overlay-content strong {
+    display: block;
+    font-family: var(--font-serif);
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+  }
+
+  .ad-overlay-content span {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    padding: 0.5rem 1rem;
+    border: 1px solid white;
+    display: inline-block;
+    margin-top: 0.5rem;
+  }
+
+  @media (max-width: 640px) {
+    .ad-mock {
+      padding: var(--space-md);
+      flex-direction: column;
+      text-align: center;
+      gap: var(--space-sm);
+    }
+
+    .ad-overlay-content strong {
+      font-size: 1.1rem;
+    }
+  }
+</style>
