@@ -4,7 +4,7 @@ description: "DeFi (Decentralized Finance) verspricht Banking ohne Banken. Wir e
 pubDate: 2026-09-24
 category: "Krypto"
 subcategory: "DeFi"
-author: "TradingInfo Redaktion"
+author: "TradingWissen Redaktion"
 featured: false
 ---
 

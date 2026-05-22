@@ -4,7 +4,7 @@ description: "NFTs sind nicht nur digitale Sammelobjekte — sie haben echte ste
 pubDate: 2026-09-28
 category: "Krypto"
 subcategory: "Steuern"
-author: "TradingInfo Redaktion"
+author: "TradingWissen Redaktion"
 featured: false
 ---
 

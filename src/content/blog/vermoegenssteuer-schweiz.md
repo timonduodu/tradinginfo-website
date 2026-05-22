@@ -4,7 +4,7 @@ description: "Die Verm√∂genssteuer ist die kantonale Steuer auf dein Gesamtverm√
 pubDate: 2026-09-03
 category: "Steuern"
 subcategory: "Schweiz"
-author: "TradingInfo Redaktion"
+author: "TradingWissen Redaktion"
 featured: false
 ---
 

@@ -4,7 +4,7 @@ description: "Saxo Bank Schweiz hat 2025 die Depotgebühren abgeschafft und posi
 pubDate: 2026-08-06
 category: "Broker"
 subcategory: "Schweiz"
-author: "TradingInfo Redaktion"
+author: "TradingWissen Redaktion"
 featured: false
 ---
 

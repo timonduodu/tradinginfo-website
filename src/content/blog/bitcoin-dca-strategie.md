@@ -4,7 +4,7 @@ description: "Dollar-Cost-Averaging in Bitcoin reduziert Timing-Risiken und scha
 pubDate: 2026-09-14
 category: "Krypto"
 subcategory: "Strategien"
-author: "TradingInfo Redaktion"
+author: "TradingWissen Redaktion"
 featured: false
 ---
 

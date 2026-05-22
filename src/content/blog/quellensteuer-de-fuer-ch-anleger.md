@@ -4,7 +4,7 @@ description: "Wer als Schweizer in deutsche Aktien investiert, zahlt 26,375% Que
 pubDate: 2026-08-27
 category: "Steuern"
 subcategory: "Schweiz"
-author: "TradingInfo Redaktion"
+author: "TradingWissen Redaktion"
 featured: false
 ---
 

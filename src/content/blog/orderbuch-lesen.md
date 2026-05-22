@@ -4,7 +4,7 @@ description: "Das Orderbuch zeigt dir, wer wo kaufen oder verkaufen will. Wer es
 pubDate: 2026-07-06
 category: "Grundlagen"
 subcategory: "Trading-Mechanik"
-author: "TradingInfo Redaktion"
+author: "TradingWissen Redaktion"
 featured: false
 ---
 

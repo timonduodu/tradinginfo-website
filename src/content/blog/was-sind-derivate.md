@@ -4,7 +4,7 @@ description: "Derivate sind das vielfältigste und komplexeste Werkzeug im Tradi
 pubDate: 2026-06-29
 category: "Grundlagen"
 subcategory: "Anlageprodukte"
-author: "TradingInfo Redaktion"
+author: "TradingWissen Redaktion"
 featured: false
 ---
 

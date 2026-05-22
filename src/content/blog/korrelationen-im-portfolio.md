@@ -4,7 +4,7 @@ description: "Eine breite Streuung allein reicht nicht — wenn alle deine Posit
 pubDate: 2026-07-09
 category: "Grundlagen"
 subcategory: "Portfolio-Theorie"
-author: "TradingInfo Redaktion"
+author: "TradingWissen Redaktion"
 featured: false
 ---
 

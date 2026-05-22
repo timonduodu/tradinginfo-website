@@ -4,7 +4,7 @@ description: "Value Investing ist die älteste und am besten dokumentierte Anlag
 pubDate: 2026-07-20
 category: "Strategien"
 subcategory: "Fundamentalanalyse"
-author: "TradingInfo Redaktion"
+author: "TradingWissen Redaktion"
 featured: false
 ---
 

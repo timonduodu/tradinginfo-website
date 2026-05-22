@@ -4,7 +4,7 @@ description: "Pairs Trading ist eine marktneutrale Strategie für Fortgeschritte
 pubDate: 2026-07-27
 category: "Strategien"
 subcategory: "Fortgeschritten"
-author: "TradingInfo Redaktion"
+author: "TradingWissen Redaktion"
 featured: false
 ---
 

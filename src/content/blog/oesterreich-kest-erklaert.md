@@ -4,7 +4,7 @@ description: "Die Kapitalertragsteuer (KESt) ist die wichtigste Steuer für öst
 pubDate: 2026-08-31
 category: "Steuern"
 subcategory: "Österreich"
-author: "TradingInfo Redaktion"
+author: "TradingWissen Redaktion"
 featured: false
 ---
 

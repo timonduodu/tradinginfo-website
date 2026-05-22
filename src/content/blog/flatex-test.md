@@ -4,7 +4,7 @@ description: "Flatex ist einer der bekanntesten Online-Broker in Deutschland und
 pubDate: 2026-08-10
 category: "Broker"
 subcategory: "Deutschland"
-author: "TradingInfo Redaktion"
+author: "TradingWissen Redaktion"
 featured: false
 ---
 

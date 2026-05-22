@@ -4,7 +4,7 @@ description: "Die Verrechnungssteuer von 35% auf Schweizer Dividenden kann zurü
 pubDate: 2026-08-24
 category: "Steuern"
 subcategory: "Schweiz"
-author: "TradingInfo Redaktion"
+author: "TradingWissen Redaktion"
 featured: false
 ---
 

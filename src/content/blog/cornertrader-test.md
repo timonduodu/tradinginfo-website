@@ -4,7 +4,7 @@ description: "Cornèrtrader gehört zur Cornèr Bank und ist ein etablierter Sch
 pubDate: 2026-08-03
 category: "Broker"
 subcategory: "Schweiz"
-author: "TradingInfo Redaktion"
+author: "TradingWissen Redaktion"
 featured: false
 ---
 

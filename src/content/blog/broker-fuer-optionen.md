@@ -4,7 +4,7 @@ description: "Optionshandel braucht spezialisierte Broker mit guten Plattformen 
 pubDate: 2026-08-20
 category: "Broker"
 subcategory: "Spezialisten"
-author: "TradingInfo Redaktion"
+author: "TradingWissen Redaktion"
 featured: false
 ---
 

@@ -4,7 +4,7 @@ description: "Wenn du Aktien zu verschiedenen Preisen kaufst und nur einen Teil 
 pubDate: 2026-09-10
 category: "Steuern"
 subcategory: "DACH-Vergleich"
-author: "TradingInfo Redaktion"
+author: "TradingWissen Redaktion"
 featured: false
 ---
 

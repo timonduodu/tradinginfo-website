@@ -4,7 +4,7 @@ description: "Wie Schweizer Privatanleger 2026 Steuern senken können — von S�
 pubDate: 2026-09-07
 category: "Steuern"
 subcategory: "Schweiz"
-author: "TradingInfo Redaktion"
+author: "TradingWissen Redaktion"
 featured: false
 ---
 

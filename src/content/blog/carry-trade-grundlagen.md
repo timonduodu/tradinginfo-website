@@ -4,7 +4,7 @@ description: "Der Carry Trade ist eine der ältesten und einfachsten Trading-Str
 pubDate: 2026-07-30
 category: "Strategien"
 subcategory: "Fortgeschritten"
-author: "TradingInfo Redaktion"
+author: "TradingWissen Redaktion"
 featured: false
 ---
 

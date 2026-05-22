@@ -6,7 +6,7 @@ export async function GET(context) {
   const posts = (await getCollection('blog'))
     .filter(post => post.data.pubDate <= now);
   return rss({
-    title: 'TradingInfo.ch',
+    title: 'TradingWissen.ch',
     description: 'Trading-Information für Schweizer Trader',
     site: context.site,
     items: posts.map(post => ({

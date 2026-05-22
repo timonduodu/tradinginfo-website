@@ -4,7 +4,7 @@ description: "Was bedeuten Long- und Short-Positionen, wie funktioniert Leerverk
 pubDate: 2026-06-25
 category: "Grundlagen"
 subcategory: "Trading-Mechanik"
-author: "TradingInfo Redaktion"
+author: "TradingWissen Redaktion"
 featured: false
 ---
 

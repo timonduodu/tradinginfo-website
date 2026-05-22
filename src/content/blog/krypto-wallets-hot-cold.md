@@ -4,7 +4,7 @@ description: "Wer Krypto besitzt, muss sich mit Wallets auseinandersetzen. Wir e
 pubDate: 2026-09-21
 category: "Krypto"
 subcategory: "Sicherheit"
-author: "TradingInfo Redaktion"
+author: "TradingWissen Redaktion"
 featured: false
 ---
 

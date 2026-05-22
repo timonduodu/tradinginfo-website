@@ -4,7 +4,7 @@ description: "Swing Trading liegt zwischen Day-Trading und langfristigem Investi
 pubDate: 2026-07-23
 category: "Strategien"
 subcategory: "Aktiv"
-author: "TradingInfo Redaktion"
+author: "TradingWissen Redaktion"
 featured: false
 ---
 

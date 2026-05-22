@@ -4,7 +4,7 @@ description: "Trade Republic hat den europäischen Online-Broker-Markt umgekremp
 pubDate: 2026-08-13
 category: "Broker"
 subcategory: "Deutschland"
-author: "TradingInfo Redaktion"
+author: "TradingWissen Redaktion"
 featured: false
 ---
 

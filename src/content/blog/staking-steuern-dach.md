@@ -4,7 +4,7 @@ description: "Krypto-Staking-Einkommen sind in jedem DACH-Land anders zu versteu
 pubDate: 2026-09-17
 category: "Krypto"
 subcategory: "Steuern"
-author: "TradingInfo Redaktion"
+author: "TradingWissen Redaktion"
 featured: false
 ---
 

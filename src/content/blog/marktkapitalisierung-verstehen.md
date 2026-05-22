@@ -4,7 +4,7 @@ description: "Was ist Marktkapitalisierung, wie wird sie berechnet, und warum ma
 pubDate: 2026-06-18
 category: "Grundlagen"
 subcategory: "Bewertung"
-author: "TradingInfo Redaktion"
+author: "TradingWissen Redaktion"
 featured: false
 ---
 

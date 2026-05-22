@@ -4,7 +4,7 @@ description: "DCA ist die beliebteste Anlagestrategie der Welt — und auch eine
 pubDate: 2026-07-13
 category: "Strategien"
 subcategory: "Langfristig"
-author: "TradingInfo Redaktion"
+author: "TradingWissen Redaktion"
 featured: false
 ---
 

@@ -4,7 +4,7 @@ description: "Passiv halten oder aktiv handeln? Wir vergleichen die zwei extreme
 pubDate: 2026-07-16
 category: "Strategien"
 subcategory: "Grundsatz"
-author: "TradingInfo Redaktion"
+author: "TradingWissen Redaktion"
 featured: false
 ---
 

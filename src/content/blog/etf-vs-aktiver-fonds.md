@@ -4,7 +4,7 @@ description: "Wo liegen die Unterschiede zwischen ETFs und aktiv gemanagten Fond
 pubDate: 2026-06-22
 category: "Grundlagen"
 subcategory: "Anlageprodukte"
-author: "TradingInfo Redaktion"
+author: "TradingWissen Redaktion"
 featured: false
 ---
 

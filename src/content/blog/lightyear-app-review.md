@@ -4,7 +4,7 @@ description: "Lightyear ist ein estnischer Neobroker, der seit 2021 schnell wäc
 pubDate: 2026-08-17
 category: "Broker"
 subcategory: "International"
-author: "TradingInfo Redaktion"
+author: "TradingWissen Redaktion"
 featured: false
 ---
 

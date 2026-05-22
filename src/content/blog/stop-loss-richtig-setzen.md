@@ -4,7 +4,7 @@ description: "Stop-Loss-Orders sind das wichtigste Risikomanagement-Tool — abe
 pubDate: 2026-07-02
 category: "Grundlagen"
 subcategory: "Risikomanagement"
-author: "TradingInfo Redaktion"
+author: "TradingWissen Redaktion"
 featured: false
 ---
 
