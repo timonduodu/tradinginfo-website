@@ -1,5 +1,13 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+
+const kategorien = [
+  { name: 'Grundlagen', href: '/grundlagen' },
+  { name: 'Broker', href: '/broker' },
+  { name: 'Strategien', href: '/strategien' },
+  { name: 'Steuern', href: '/steuern' },
+  { name: 'Krypto', href: '/krypto' },
+];
 ---
 
 <BaseLayout title="404, Seite nicht gefunden" description="Diese Seite existiert nicht.">
@@ -7,12 +15,16 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     <span class="eyebrow">Fehler 404</span>
     <h1>Diese Seite existiert nicht.</h1>
     <p class="lead">
-      Die angeforderte Seite konnte nicht gefunden werden. Möglicherweise wurde sie
-      verschoben oder umbenannt. Wir empfehlen, zur Startseite zurückzukehren.
+      Die angeforderte Seite konnte nicht gefunden werden. Vielleicht hilft einer
+      dieser Bereiche weiter:
     </p>
+    <div class="kategorien">
+      {kategorien.map(k => (
+        <a href={k.href} class="kat-link">{k.name}</a>
+      ))}
+    </div>
     <div class="actions">
       <a href="/" class="btn btn-primary">Zur Startseite</a>
-      <a href="/grundlagen" class="btn btn-outline">Artikel durchstöbern</a>
     </div>
   </section>
 </BaseLayout>
@@ -22,11 +34,9 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     padding: var(--space-2xl) var(--space-md);
     text-align: center;
   }
-
   .error h1 {
     margin: var(--space-sm) 0 var(--space-md);
   }
-
   .lead {
     font-size: 1.15rem;
     color: var(--color-ink-soft);
@@ -36,7 +46,26 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     margin-left: auto;
     margin-right: auto;
   }
-
+  .kategorien {
+    display: flex;
+    gap: var(--space-sm);
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: var(--space-lg);
+  }
+  .kat-link {
+    padding: 0.4rem 1rem;
+    border: 1px solid var(--color-accent);
+    border-radius: 4px;
+    color: var(--color-accent);
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: all 0.2s;
+  }
+  .kat-link:hover {
+    background: var(--color-accent);
+    color: var(--color-paper);
+  }
   .actions {
     display: flex;
     gap: var(--space-sm);
