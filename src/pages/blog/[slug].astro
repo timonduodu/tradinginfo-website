@@ -27,9 +27,25 @@ const allPosts = await getCollection('blog');
 const related = allPosts
   .filter(p => p.slug !== post.slug && p.data.category === post.data.category && p.data.pubDate <= now)
   .slice(0, 3);
+
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": post.data.title,
+  "description": post.data.description,
+  "datePublished": post.data.pubDate.toISOString(),
+  "dateModified": (post.data.updatedDate ?? post.data.pubDate).toISOString(),
+  "author": { "@type": "Organization", "name": post.data.author },
+  "publisher": {
+    "@type": "Organization",
+    "name": "TradingWissen",
+    "logo": { "@type": "ImageObject", "url": "https://tradingwissen.ch/og-default.png" }
+  },
+  "mainEntityOfPage": `https://tradingwissen.ch/blog/${post.slug}/`
+};
 ---
 
-<BaseLayout title={`${post.data.title} — TradingWissen.ch`} description={post.data.description}>
+<BaseLayout title={`${post.data.title} — TradingWissen.ch`} description={post.data.description} schema={articleSchema}>
   <article class="post">
     <header class="post-header container-narrow">
       <a href={`/${post.data.category.toLowerCase()}`} class="category-tag">{post.data.category}</a>

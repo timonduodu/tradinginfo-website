@@ -8,12 +8,14 @@ interface Props {
   title?: string;
   description?: string;
   image?: string;
+  schema?: object;
 }
 
 const {
   title = 'TradingWissen.ch — Trading Wissen für die Schweiz',
   description = 'Unabhängige Trading-Information, Broker-Vergleiche und Strategien für Schweizer Trader. Verständlich, ehrlich, praxisnah.',
   image = '/og-default.png',
+  schema,
 } = Astro.props;
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
@@ -65,6 +67,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
         'anonymize_ip': true
       });
     </script>
+    {schema && <script type="application/ld+json" set:html={JSON.stringify(schema)} />}
   </head>
   <body>
     <Header />
