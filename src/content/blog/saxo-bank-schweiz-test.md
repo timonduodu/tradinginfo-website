@@ -20,7 +20,7 @@ Die wichtigsten Eckdaten:
 
 ## Die grosse Änderung 2025
 
-Im Februar 2025 hat Saxo Bank Schweiz die Depotgebühren für Privatkunden komplett abgeschafft. Diese Änderung war eine Reaktion auf den Wettbewerbsdruck — und positioniert Saxo aktuell als einen der günstigsten Schweizer Broker überhaupt.
+Im Februar 2025 hat Saxo Bank Schweiz die Depotgebühren für Privatkunden komplett abgeschafft. Diese Änderung war eine Reaktion auf den Wettbewerbsdruck, und positioniert Saxo aktuell als einen der günstigsten Schweizer Broker überhaupt.
 
 Während Cornèrtrader 2026 erstmals Depotgebühren einführt, geht Saxo den umgekehrten Weg.
 
@@ -37,15 +37,15 @@ Saxo Bank hat ein gestaffeltes Pricing:
 | US-Aktien | USD 1 | 0,06% |
 | EU-Aktien | EUR 3 | 0,08% |
 
-CHF 3 Mindestgebühr ist deutlich niedriger als bei Cornèrtrader (CHF 9) und kompetitiv mit Trade Republic (1 EUR — aber nur in DE/AT verfügbar).
+CHF 3 Mindestgebühr ist deutlich niedriger als bei Cornèrtrader (CHF 9) und kompetitiv mit Trade Republic (1 EUR, aber nur in DE/AT verfügbar).
 
 ### ETF-Sparpläne via AutoInvest
 
-Saxo Bank bietet seit 2024 das "AutoInvest"-Programm für ETF-Sparpläne — komplett kostenfrei. Für regelmässige ETF-Anleger ein klares Plus.
+Saxo Bank bietet seit 2024 das "AutoInvest"-Programm für ETF-Sparpläne, komplett kostenfrei. Für regelmässige ETF-Anleger ein klares Plus.
 
 ### Wechselkursgebühr
 
-0,25% Aufschlag auf den Mid-Spot — also halb so teuer wie Cornèrtrader (0,5%). Bei vielen US-Aktien-Trades summiert sich das.
+0,25% Aufschlag auf den Mid-Spot, also halb so teuer wie Cornèrtrader (0,5%). Bei vielen US-Aktien-Trades summiert sich das.
 
 ### Optionen und Futures
 
@@ -56,12 +56,12 @@ Das ist günstig im professionellen Vergleich, aber nicht so billig wie Interact
 
 ## Was bietet Saxo Bank?
 
-**Handelbare Märkte**: Über 60.000 Instrumente an mehr als 50 Börsen — die breiteste Auswahl unter Schweizer Brokern.
+**Handelbare Märkte**: Über 60.000 Instrumente an mehr als 50 Börsen, die breiteste Auswahl unter Schweizer Brokern.
 
 **Asset-Klassen**:
 - Aktien & ETFs (über 19.000)
 - Anleihen (Staat und Unternehmen, über 5.000)
-- Futures (auf alles — Indizes, Rohstoffe, Zinsen, Currencies)
+- Futures (auf alles, Indizes, Rohstoffe, Zinsen, Currencies)
 - Optionen (US und EU)
 - Forex (alle Majors und viele Minors)
 - CFDs auf Aktien, Indizes, Rohstoffe, Crypto
@@ -73,7 +73,7 @@ Das ist günstig im professionellen Vergleich, aber nicht so billig wie Interact
 - **SaxoInvestor**: Vereinfachte App für Einsteiger
 - **Mobile Apps**: iOS und Android, gut umgesetzt
 
-**Charting**: Eingebaute TradingView-Charts. Indikatoren, Drawing Tools, Custom Layouts — sehr gut für aktives Trading.
+**Charting**: Eingebaute TradingView-Charts. Indikatoren, Drawing Tools, Custom Layouts, sehr gut für aktives Trading.
 
 **Research**: Saxo hat ein eigenes Research-Team und veröffentlicht regelmässig Marktanalysen, Aktien-Empfehlungen und ökonomische Berichte.
 
@@ -81,23 +81,23 @@ Das ist günstig im professionellen Vergleich, aber nicht so billig wie Interact
 
 **1. Keine Depotgebühr seit Februar 2025**: Klarer Wettbewerbsvorteil gegenüber Cornèrtrader (ab 2026 mit Depotgebühren).
 
-**2. Niedrige Mindestgebühren**: CHF 3 statt CHF 9 bei Cornèrtrader — bei kleinen Trades macht das einen grossen Unterschied.
+**2. Niedrige Mindestgebühren**: CHF 3 statt CHF 9 bei Cornèrtrader, bei kleinen Trades macht das einen grossen Unterschied.
 
 **3. Günstige Wechselkurse**: 0,25% statt 0,5% bei Cornèrtrader.
 
 **4. Kostenlose ETF-Sparpläne via AutoInvest**: Echter Mehrwert für langfristige Sparer.
 
-**5. Breite Asset-Auswahl**: Praktisch alles handelbar — Multi-Asset von der besten Sorte.
+**5. Breite Asset-Auswahl**: Praktisch alles handelbar, Multi-Asset von der besten Sorte.
 
 **6. Professionelle Plattformen**: SaxoTraderGO und PRO sind hochwertige Software.
 
 **7. Schweizer Banklizenz**: Volle FINMA-Aufsicht, esisuisse-Einlagensicherung.
 
-**8. Stempelabgabe automatisch**: Saxo zieht die Stempelabgabe direkt ab und führt sie ab — keine separate Bürokratie.
+**8. Stempelabgabe automatisch**: Saxo zieht die Stempelabgabe direkt ab und führt sie ab, keine separate Bürokratie.
 
 ## Schwächen
 
-**1. Kostenpflichtige Steuerauszüge**: Im Standard ist der Schweizer Steuerauszug enthalten — aber bei aktiven Tradern können zusätzliche Auszüge nötig sein.
+**1. Kostenpflichtige Steuerauszüge**: Im Standard ist der Schweizer Steuerauszug enthalten, aber bei aktiven Tradern können zusätzliche Auszüge nötig sein.
 
 **2. Komplexere Bedienung als Trade Republic**: Wer "nur einen MSCI World" kaufen will, könnte sich von der Vielfalt der Optionen überfordert fühlen. Saxo ist eher für mittlere bis fortgeschrittene Anleger.
 
@@ -118,7 +118,7 @@ Das ist günstig im professionellen Vergleich, aber nicht so billig wie Interact
 | Multi-Asset | sehr breit | sehr breit | breit |
 | Plattform | sehr gut | gut | mittel |
 
-In den meisten Kategorien führt Saxo aktuell — vor allem bei den laufenden Kosten.
+In den meisten Kategorien führt Saxo aktuell, vor allem bei den laufenden Kosten.
 
 ## Beispielrechnung: 1 Jahr bei Saxo Bank
 
@@ -132,25 +132,25 @@ Annahme: Depotwert CHF 80.000, 12 Trades pro Jahr (durchschnittlich CHF 5.000 pr
 | **Total** | **CHF 93** |
 
 Bei Cornèrtrader (siehe vorheriger Artikel): CHF 273.
-**Differenz: CHF 180 pro Jahr** — über 10 Jahre: CHF 1.800 (mehr, wenn die Rendite mitberechnet wird, die du auf dem Geld erwirtschaften könntest).
+**Differenz: CHF 180 pro Jahr**, über 10 Jahre: CHF 1.800 (mehr, wenn die Rendite mitberechnet wird, die du auf dem Geld erwirtschaften könntest).
 
 ## Für wen passt Saxo Bank?
 
 **Geeignet für**:
-- Schweizer Anleger jeder Grösse — Saxo ist günstig für alle
+- Schweizer Anleger jeder Grösse, Saxo ist günstig für alle
 - Anleger, die Multi-Asset wollen (Aktien + Anleihen + Derivate)
 - Aktive Trader mit mittleren bis hohen Volumina
-- Wer in US-Aktien handelt — günstige Wechselkurse
+- Wer in US-Aktien handelt, günstige Wechselkurse
 - Sparer, die ETF-Sparpläne automatisieren wollen
 
 **Weniger geeignet für**:
-- Anfänger, die nur "einfach einen ETF kaufen" wollen — die Plattform ist mächtig, aber nicht trivial
+- Anfänger, die nur "einfach einen ETF kaufen" wollen, die Plattform ist mächtig, aber nicht trivial
 - Wer einen Discount-Broker mit ultra-niedrigen Kosten sucht (Interactive Brokers ist noch günstiger, aber weniger CH-optimiert)
 - Anleger in DE/AT, die Steuereinfachheit suchen (Trade Republic, Flatex sind dort besser)
 
 ## Steuerliche Aspekte für Schweizer Anleger
 
-Saxo Bank Schweiz stellt den Schweizer Steuerausweis aus. Verrechnungssteuer wird automatisch von Schweizer Dividenden abgezogen — die Rückforderung läuft via Steuererklärung wie bei anderen Brokern. Beim DA-1 (Rückforderung ausländischer Quellensteuer) liefert Saxo die nötigen Daten.
+Saxo Bank Schweiz stellt den Schweizer Steuerausweis aus. Verrechnungssteuer wird automatisch von Schweizer Dividenden abgezogen, die Rückforderung läuft via Steuererklärung wie bei anderen Brokern. Beim DA-1 (Rückforderung ausländischer Quellensteuer) liefert Saxo die nötigen Daten.
 
 Für aktive Trader gilt: Auch bei Saxo wirst du gewerbsmässig, wenn du die ESTV-Kriterien erfüllst. Der günstige Broker ändert nichts an dieser Steuersystematik.
 
@@ -162,12 +162,12 @@ Die Web-Plattform ist intuitiv aufgebaut:
 - Live-Charts mit TradingView-Integration
 - News-Feed mit Reuters und Saxo Research
 
-Mobile Apps sind funktional und stabil — anders als bei vielen klassischen Banken-Apps. Order-Eingabe, Charts, News, alles auf dem Smartphone möglich.
+Mobile Apps sind funktional und stabil, anders als bei vielen klassischen Banken-Apps. Order-Eingabe, Charts, News, alles auf dem Smartphone möglich.
 
 ## Sicherheitsaspekte
 
-Saxo Bank Schweiz ist FINMA-reguliert. Einlagen sind über esisuisse bis CHF 100.000 abgesichert. Wertschriften sind als Sondervermögen ohnehin getrennt vom Bankvermögen — selbst bei einer Saxo-Insolvenz blieben deine Aktien dein Eigentum. Saxo Bank Group hat (Stand Anfang 2026) eine S&P-Bewertung im Investment-Grade-Bereich.
+Saxo Bank Schweiz ist FINMA-reguliert. Einlagen sind über esisuisse bis CHF 100.000 abgesichert. Wertschriften sind als Sondervermögen ohnehin getrennt vom Bankvermögen, selbst bei einer Saxo-Insolvenz blieben deine Aktien dein Eigentum. Saxo Bank Group hat (Stand Anfang 2026) eine S&P-Bewertung im Investment-Grade-Bereich.
 
 ## Fazit
 
-Saxo Bank Schweiz ist 2026 wahrscheinlich der attraktivste Broker für Schweizer Anleger — mit voller Banklizenz, ohne Depotgebühren, niedrigen Mindestgebühren und einer professionellen Plattform. Wer aktuell bei Swissquote, Cornèrtrader oder einer Hausbank ist und auf seine Gebühren schaut, sollte einen Wechsel ernsthaft prüfen. Der einzige echte Wettbewerber für sehr aktive Trader oder grosse Depots ist Interactive Brokers — aber Saxo bietet das Schweizer Banking-Erlebnis mit deutlich besserer UX.
+Saxo Bank Schweiz ist 2026 wahrscheinlich der attraktivste Broker für Schweizer Anleger, mit voller Banklizenz, ohne Depotgebühren, niedrigen Mindestgebühren und einer professionellen Plattform. Wer aktuell bei Swissquote, Cornèrtrader oder einer Hausbank ist und auf seine Gebühren schaut, sollte einen Wechsel ernsthaft prüfen. Der einzige echte Wettbewerber für sehr aktive Trader oder grosse Depots ist Interactive Brokers, aber Saxo bietet das Schweizer Banking-Erlebnis mit deutlich besserer UX.

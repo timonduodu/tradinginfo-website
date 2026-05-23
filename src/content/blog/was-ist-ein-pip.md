@@ -1,6 +1,6 @@
 ---
 title: "Was ist ein Pip? Die Grundeinheit der Forex-Welt erklärt"
-description: "Pip, Pipette und Lot — die fundamentalen Masseinheiten im Forex-Trading. Was sie bedeuten, wie sie berechnet werden und warum sie für jeden Trader relevant sind."
+description: "Pip, Pipette und Lot, die fundamentalen Masseinheiten im Forex-Trading. Was sie bedeuten, wie sie berechnet werden und warum sie für jeden Trader relevant sind."
 pubDate: 2026-05-06
 category: "Grundlagen"
 subcategory: "Forex"
@@ -8,7 +8,7 @@ author: "Redaktion"
 readingTime: "7 Min. Lesezeit"
 ---
 
-Wer in Trading-Foren oder Fachliteratur unterwegs ist, stösst unweigerlich auf den Begriff "Pip". Trader sprechen von "20 Pips Gewinn", "Stop bei 50 Pips" oder "der Spread beträgt 1.2 Pips". Was dahinter steht, ist die fundamentale Masseinheit der Forex-Welt — und für jeden Trader essentiell zu verstehen.
+Wer in Trading-Foren oder Fachliteratur unterwegs ist, stösst unweigerlich auf den Begriff "Pip". Trader sprechen von "20 Pips Gewinn", "Stop bei 50 Pips" oder "der Spread beträgt 1.2 Pips". Was dahinter steht, ist die fundamentale Masseinheit der Forex-Welt, und für jeden Trader essentiell zu verstehen.
 
 ## Definition
 
@@ -26,10 +26,10 @@ Bei Paaren mit dem japanischen Yen ist die Konvention abweichend. Der Yen wird h
 
 Mit der Digitalisierung des Forex-Handels haben Broker die Preise zunehmend mit einer zusätzlichen Nachkommastelle quotiert. Diese Unterteilung wird **Pipette** oder **fractional Pip** genannt und entspricht einem Zehntel eines Pips.
 
-EUR/USD bei 1.08524 zeigt also einen Kurs mit Pipette-Genauigkeit. Spreads werden bei modernen Brokern häufig in Pipetten angegeben — ein Spread von "1.2 Pips" wird zu "12 Pipetten" in der detaillierten Darstellung.
+EUR/USD bei 1.08524 zeigt also einen Kurs mit Pipette-Genauigkeit. Spreads werden bei modernen Brokern häufig in Pipetten angegeben, ein Spread von "1.2 Pips" wird zu "12 Pipetten" in der detaillierten Darstellung.
 
 > *"In trading, precision is not optional. It is the difference between professionals and amateurs."*
-> — **Linda Bradford Raschke**, professionelle Traderin
+>, **Linda Bradford Raschke**, professionelle Traderin
 
 ## Lot: Die Positionsgrösse
 
@@ -42,7 +42,7 @@ Eng mit dem Pip-Konzept verknüpft ist die Lot-Grösse. Im Forex-Handel wird in 
 | Micro Lot | 1'000 | 0.10 USD |
 | Nano Lot | 100 | 0.01 USD |
 
-Wer eine Position von 1 Standard Lot EUR/USD eröffnet und einen Gewinn von 20 Pips erzielt, hat 200 USD verdient — vor Spread und Kommission.
+Wer eine Position von 1 Standard Lot EUR/USD eröffnet und einen Gewinn von 20 Pips erzielt, hat 200 USD verdient, vor Spread und Kommission.
 
 ## Pip-Wert in der Praxis
 
@@ -76,10 +76,10 @@ Die Spread-Höhe in Pips ist einer der wichtigsten Vergleichsmasse zwischen Brok
 | EUR/CHF | 0.5 Pip | 2.0 Pips | 7 Pips |
 | USD/TRY | 30 Pips | 80 Pips | 200 Pips |
 
-Bei exotischen Paaren sind die Spreads dramatisch höher — das spiegelt geringere Liquidität, höhere Volatilität und kleinere Marktteilnehmer-Anzahl wider.
+Bei exotischen Paaren sind die Spreads dramatisch höher, das spiegelt geringere Liquidität, höhere Volatilität und kleinere Marktteilnehmer-Anzahl wider.
 
 > *"The market is not a place. It is a process. The pip is its heartbeat."*
-> — anonyme Trader-Weisheit
+>, anonyme Trader-Weisheit
 
 ## Pip-Bewegungen einordnen
 
@@ -93,13 +93,13 @@ Empirische Werte für die durchschnittliche Tagesschwankung (ATR, Average True R
 - **EUR/CHF:** 30 bis 80 Pips (deutlich ruhiger seit SNB-Aufgabe der Untergrenze)
 - **GBP/JPY:** 100 bis 200 Pips (eines der volatilsten Hauptpaare)
 
-Wer eine Strategie mit Stop-Loss von 10 Pips fährt, wird bei EUR/USD sehr häufig ausgestoppt — selbst ohne nennenswerte Trendbewegung. Realistische Stop-Distanzen orientieren sich an der Volatilität des jeweiligen Instruments.
+Wer eine Strategie mit Stop-Loss von 10 Pips fährt, wird bei EUR/USD sehr häufig ausgestoppt, selbst ohne nennenswerte Trendbewegung. Realistische Stop-Distanzen orientieren sich an der Volatilität des jeweiligen Instruments.
 
 ## Fazit
 
 Pip, Pipette und Lot sind die fundamentalen Masseinheiten des Forex-Handels. Wer diese Begriffe nicht intuitiv beherrscht, wird Schwierigkeiten haben, Strategien, Risikomanagement und Broker-Konditionen korrekt einzuordnen.
 
-Vor dem ersten Live-Trade sollte jeder Trader die Pip-Werte der von ihm gehandelten Instrumente kennen — und ausrechnen können, was eine 50-Pip-Bewegung in seinem Konto tatsächlich bedeutet.
+Vor dem ersten Live-Trade sollte jeder Trader die Pip-Werte der von ihm gehandelten Instrumente kennen, und ausrechnen können, was eine 50-Pip-Bewegung in seinem Konto tatsächlich bedeutet.
 
 ---
 

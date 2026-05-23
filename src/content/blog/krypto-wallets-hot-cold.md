@@ -10,9 +10,9 @@ featured: false
 
 ## Was ist eine Krypto-Wallet?
 
-Eine Krypto-Wallet ist nicht wirklich eine "Brieftasche", die deine Coins speichert — denn deine Coins liegen immer auf der Blockchain. Eine Wallet verwaltet deine **privaten Schlüssel** (Private Keys), mit denen du nachweisen kannst, dass dir die Coins gehören und du sie versenden darfst.
+Eine Krypto-Wallet ist nicht wirklich eine "Brieftasche", die deine Coins speichert, denn deine Coins liegen immer auf der Blockchain. Eine Wallet verwaltet deine **privaten Schlüssel** (Private Keys), mit denen du nachweisen kannst, dass dir die Coins gehören und du sie versenden darfst.
 
-Der entscheidende Spruch in der Krypto-Welt: **"Not your keys, not your coins"**. Wer keine Kontrolle über seine privaten Schlüssel hat, ist auf Drittparteien angewiesen — und im Worst Case sind die Coins weg, wenn diese pleitegeht oder gehackt wird.
+Der entscheidende Spruch in der Krypto-Welt: **"Not your keys, not your coins"**. Wer keine Kontrolle über seine privaten Schlüssel hat, ist auf Drittparteien angewiesen, und im Worst Case sind die Coins weg, wenn diese pleitegeht oder gehackt wird.
 
 ## Die Grundunterscheidung: Hot vs Cold
 
@@ -26,7 +26,7 @@ Diese Unterscheidung ist die wichtigste Sicherheitsentscheidung, die Crypto-Halt
 
 ### 1. Custodial Wallets (Plattform-Wallets)
 
-Hier hält die Plattform deine privaten Schlüssel — du hast einen "Account", aber technisch gehören die Coins der Plattform, die sie für dich verwaltet.
+Hier hält die Plattform deine privaten Schlüssel, du hast einen "Account", aber technisch gehören die Coins der Plattform, die sie für dich verwaltet.
 
 **Beispiele**:
 - Binance Wallet
@@ -42,7 +42,7 @@ Hier hält die Plattform deine privaten Schlüssel — du hast einen "Account", 
 - Geringe technische Hürden
 
 **Nachteile**:
-- "Not your keys" — du bist abhängig von der Plattform
+- "Not your keys", du bist abhängig von der Plattform
 - Pleite-Risiko: Wenn die Plattform insolvent geht (Mt. Gox 2014, FTX 2022, Celsius 2022), kannst du alles verlieren
 - Hacking-Risiko der Plattform
 - Politisches/regulatorisches Risiko (Account-Sperre, Capital Controls)
@@ -75,11 +75,11 @@ Apps oder Browser-Erweiterungen, bei denen du den privaten Schlüssel selbst kon
 Physische Geräte, die deine privaten Schlüssel offline speichern. Die "Goldstandard" für Krypto-Sicherheit.
 
 **Marktführer 2026**:
-- **Ledger** (Nano S Plus, Nano X, Stax) — französisches Unternehmen, weite Verbreitung
-- **Trezor** (Model T, Safe 3, Safe 5) — tschechisches Unternehmen, Open Source
-- **BitBox02** — Schweizer Hersteller aus Zürich, gute Reputation in DACH
-- **Coldcard** — Bitcoin-fokussiert, sehr sicherheits-orientiert
-- **GridPlus Lattice1** — Premium-Lösung mit Multi-Signature-Funktionen
+- **Ledger** (Nano S Plus, Nano X, Stax), französisches Unternehmen, weite Verbreitung
+- **Trezor** (Model T, Safe 3, Safe 5), tschechisches Unternehmen, Open Source
+- **BitBox02**, Schweizer Hersteller aus Zürich, gute Reputation in DACH
+- **Coldcard**, Bitcoin-fokussiert, sehr sicherheits-orientiert
+- **GridPlus Lattice1**, Premium-Lösung mit Multi-Signature-Funktionen
 
 **Preise 2026**: 80-250 EUR/CHF für Standard-Modelle, bis 400+ für Premium-Lösungen.
 
@@ -107,9 +107,9 @@ Die einfachste Cold-Wallet-Form: Du druckst deinen privaten Schlüssel auf ein S
 **Nachteile**:
 - Physisches Risiko (Wasser, Feuer, Verlust)
 - Nicht praktikabel für regelmässige Transaktionen
-- Bei Erstellung müssen die Tools offline genutzt werden — sonst kompromittiert
+- Bei Erstellung müssen die Tools offline genutzt werden, sonst kompromittiert
 
-Paper Wallets sind 2026 weitgehend obsolet — Hardware Wallets sind sicherer und nicht viel komplizierter.
+Paper Wallets sind 2026 weitgehend obsolet, Hardware Wallets sind sicherer und nicht viel komplizierter.
 
 ### 3. Air-Gapped Computer
 
@@ -132,8 +132,8 @@ Eine Seed Phrase (auch "Recovery Phrase" oder "Mnemonic Phrase") ist eine Reihe 
 "witch collapse practice feed shame open despair creek road again ice least"
 
 **Goldene Regeln für Seed Phrases**:
-1. **NIEMALS digital speichern** (Foto, Cloud, Notiz-App, E-Mail) — Hacker scannen Cloud-Speicher
-2. **NIEMALS jemandem zeigen** — wer die Seed hat, hat die Coins
+1. **NIEMALS digital speichern** (Foto, Cloud, Notiz-App, E-Mail), Hacker scannen Cloud-Speicher
+2. **NIEMALS jemandem zeigen**, wer die Seed hat, hat die Coins
 3. **Physisch sichern**: Papier in einem Safe, ideal in mehreren Kopien an verschiedenen Orten
 4. **Metal Backup** (z.B. Cryptosteel, Billfodl): Resistent gegen Feuer, Wasser, Korrosion
 5. **Nie online eingeben**, ausser im Wiederherstellungsfall an einer vertrauenswürdigen Hardware Wallet
@@ -146,7 +146,7 @@ Wer seine Seed Phrase verliert, kann **nichts** mehr machen. Es gibt keinen "Pas
 
 Du hast wenige hundert bis tausend EUR/CHF in Krypto, handelst regelmässig auf Plattformen.
 
-**Empfehlung**: Plattform-Wallet (custodial) — z.B. Bitpanda oder Trade Republic. Bequem, ausreichend sicher für kleine Beträge.
+**Empfehlung**: Plattform-Wallet (custodial), z.B. Bitpanda oder Trade Republic. Bequem, ausreichend sicher für kleine Beträge.
 
 ### Anwendungsfall 2: Buy-and-Hold (mittel)
 
@@ -156,7 +156,7 @@ Du hast 2.000-20.000 EUR/CHF in Krypto, willst langfristig halten.
 
 ### Anwendungsfall 3: Grosse Bestände
 
-Über 20.000 EUR/CHF — z.B. Bitcoin im 6-stelligen Bereich.
+Über 20.000 EUR/CHF, z.B. Bitcoin im 6-stelligen Bereich.
 
 **Empfehlung**: 
 - Hardware Wallet als Basis
@@ -176,11 +176,11 @@ Du nutzt DeFi-Protokolle (Aave, Uniswap etc.).
 
 Die Wallet-Wahl an sich hat **keine** direkten steuerlichen Implikationen. Aber:
 
-- **Vermögenssteuer**: Egal welche Wallet — alle Krypto-Bestände am 31.12. müssen deklariert werden
+- **Vermögenssteuer**: Egal welche Wallet, alle Krypto-Bestände am 31.12. müssen deklariert werden
 - **Plattform-Bestände einfacher**: Bei steuerpflichtigem Verkauf liefert die Plattform Auszüge
 - **Self-Custody erfordert Eigenleistung**: Du musst Transaktionshistorie selbst pflegen
 
-**Wichtig**: Mit dem AIA-Ausbau auf Krypto ab 2026 melden CH-Plattformen ihre Bestände automatisch ans Steueramt. Self-Custody-Bestände werden NICHT automatisch gemeldet — aber wer sie verschweigt, riskiert Steuerhinterziehung. **Saubere Deklaration ist Pflicht.**
+**Wichtig**: Mit dem AIA-Ausbau auf Krypto ab 2026 melden CH-Plattformen ihre Bestände automatisch ans Steueramt. Self-Custody-Bestände werden NICHT automatisch gemeldet, aber wer sie verschweigt, riskiert Steuerhinterziehung. **Saubere Deklaration ist Pflicht.**
 
 ### Deutschland
 
@@ -211,11 +211,11 @@ Die Wallet-Wahl an sich hat **keine** direkten steuerlichen Implikationen. Aber:
 
 **2. Seed Phrase digital speichern**: Foto, Cloud, Notizen-App. Tausende Anleger haben so ihre Coins verloren.
 
-**3. Bei Lieferung des Hardware Wallets vorgegebene Seed nutzen**: NIEMALS. Echte Hardware Wallets generieren die Seed bei Setup. Wer eine Seed mit dem Gerät bekommt, sollte das Gerät verbrennen — es ist gefälscht.
+**3. Bei Lieferung des Hardware Wallets vorgegebene Seed nutzen**: NIEMALS. Echte Hardware Wallets generieren die Seed bei Setup. Wer eine Seed mit dem Gerät bekommt, sollte das Gerät verbrennen, es ist gefälscht.
 
 **4. Hardware Wallet auf eBay kaufen**: Risiko gefälschter Geräte. Immer direkt beim Hersteller oder autorisierten Händlern.
 
-**5. "Test"-Transaktionen vergessen**: Bevor du grosse Beträge in eine neue Wallet schickst — kleinen Test-Betrag senden, prüfen, dann grossen Betrag.
+**5. "Test"-Transaktionen vergessen**: Bevor du grosse Beträge in eine neue Wallet schickst, kleinen Test-Betrag senden, prüfen, dann grossen Betrag.
 
 **6. Phishing**: Mails von "Ledger Support" oder "Trezor Update" sind fast immer Scams. Hardware Wallet Hersteller fragen NIE nach deiner Seed.
 
@@ -252,8 +252,8 @@ Für Profis und Unternehmen: **Multi-Signature** verlangt mehrere Schlüssel fü
 - **Social Recovery**: Wallet kann durch vertrauenswürdige Personen wiederhergestellt werden
 - **Passkey-basierte Wallets**: Nutzung biometrischer Authentifizierung statt Seed Phrase
 
-Diese Lösungen versprechen mehr Benutzerfreundlichkeit ohne Sicherheits-Einbussen — sind aber noch nicht Mainstream.
+Diese Lösungen versprechen mehr Benutzerfreundlichkeit ohne Sicherheits-Einbussen, sind aber noch nicht Mainstream.
 
 ## Fazit
 
-Die Wahl der Wallet ist eine der wichtigsten Entscheidungen für Krypto-Halter. Für kleine Beträge sind Plattform-Wallets bequem genug. Sobald grössere Summen ins Spiel kommen — ab 1.000-2.000 EUR/CHF — gehört eine Hardware Wallet auf den Tisch. Die einmalige Investition von 80-150 EUR ist Versicherung gegen Plattform-Pleiten, Hacks und politische Risiken. Wichtigste Regel bleibt: **"Not your keys, not your coins."** Wer langfristig in Krypto investiert, sollte die Schlüssel selbst kontrollieren — egal ob CH, DE oder AT. Die Steuersituation ändert sich durch die Wallet-Wahl nicht, aber die Sicherheit deiner Coins schon.
+Die Wahl der Wallet ist eine der wichtigsten Entscheidungen für Krypto-Halter. Für kleine Beträge sind Plattform-Wallets bequem genug. Sobald grössere Summen ins Spiel kommen, ab 1.000-2.000 EUR/CHF, gehört eine Hardware Wallet auf den Tisch. Die einmalige Investition von 80-150 EUR ist Versicherung gegen Plattform-Pleiten, Hacks und politische Risiken. Wichtigste Regel bleibt: **"Not your keys, not your coins."** Wer langfristig in Krypto investiert, sollte die Schlüssel selbst kontrollieren, egal ob CH, DE oder AT. Die Steuersituation ändert sich durch die Wallet-Wahl nicht, aber die Sicherheit deiner Coins schon.

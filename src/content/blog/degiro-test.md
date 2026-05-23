@@ -17,7 +17,7 @@ DEGIRO wurde 2008 in Amsterdam gegründet und gehört seit 2020 zur deutschen fl
 Wichtig: DEGIRO ist eine Bank, was Vor- und Nachteile mit sich bringt. Vorteilhaft ist die Einlagensicherung (bis 100'000 EUR über die deutsche Einlagensicherung). Nachteilhaft sind teilweise restriktive Compliance-Vorgaben, etwa bei der Erweiterung der Konten um Margin-Funktionen.
 
 > *"Cheap is not the same as cheapest in the long run. But for index investing, cheap is often enough."*
-> — **John Bogle**
+>, **John Bogle**
 
 ## Gebührenstruktur
 
@@ -34,7 +34,7 @@ DEGIRO arbeitet mit einer **transaktionsbasierten Gebührenstruktur** ohne Depot
 
 Eine 5'000-CHF-Position in einer Schweizer Aktie kostet also 4.90 CHF + 2.50 CHF = **7.40 CHF Kommission**, plus 3.75 CHF Stempelabgabe = **11.15 CHF Gesamtkosten**.
 
-### ETFs — der grosse Vorteil
+### ETFs, der grosse Vorteil
 
 DEGIRO bietet eine **"Kernselektion"** von rund 200 ETFs, die kostenlos handelbar sind. Diese Liste enthält die wichtigsten Welt-, USA-, Europa- und Themenindex-ETFs.
 
@@ -43,7 +43,7 @@ Bedingungen für die kostenlose Ausführung:
 - Bei Trades über 1'000 EUR Wert: keine Kommission
 - Bei Trades unter 1'000 EUR: nur einmal pro Monat kostenlos, danach 2 EUR
 
-Diese Konstruktion macht DEGIRO ideal für **monatliche ETF-Sparpläne**. Ein Anleger, der monatlich für 500 bis 5'000 CHF einen Welt-ETF kauft, zahlt praktisch keine Gebühren — abgesehen von der Stempelabgabe.
+Diese Konstruktion macht DEGIRO ideal für **monatliche ETF-Sparpläne**. Ein Anleger, der monatlich für 500 bis 5'000 CHF einen Welt-ETF kauft, zahlt praktisch keine Gebühren, abgesehen von der Stempelabgabe.
 
 ### Devisenwechsel
 
@@ -67,7 +67,7 @@ Die DEGIRO-Plattform ist bewusst minimalistisch. Die Web-Oberfläche bietet:
 
 Die mobile App ist funktional, aber nicht ausgereift. Wer professionelle Charting-Tools, fortgeschrittene Order-Typen oder Algo-Trading erwartet, ist bei DEGIRO falsch.
 
-Für die Zielgruppe — Privatanleger mit einfachen ETF- und Aktien-Strategien — ist die Plattform jedoch ausreichend. Die Reduktion auf das Wesentliche ist kein Nachteil, sondern Teil des Konzepts.
+Für die Zielgruppe, Privatanleger mit einfachen ETF- und Aktien-Strategien, ist die Plattform jedoch ausreichend. Die Reduktion auf das Wesentliche ist kein Nachteil, sondern Teil des Konzepts.
 
 ## Verfügbare Märkte
 
@@ -88,13 +88,13 @@ DEGIRO trennt Kundenvermögen vom Eigenkapital. Aktien werden in einem separaten
 Im historischen Kontext: DEGIRO hatte 2020 eine Phase regulatorischer Probleme in den Niederlanden (AFM-Sanktionen wegen Compliance-Mängeln). Diese sind inzwischen behoben, hinterliessen aber Spuren im öffentlichen Image. Operative Auswirkungen auf Kunden gab es keine.
 
 > *"Regulatory issues are a normal part of every brokerage's history. What matters is how they handle them, not whether they have them."*
-> — **Compliance-Officer eines schweizer Asset Managers**
+>, **Compliance-Officer eines schweizer Asset Managers**
 
 ## DEGIRO für Schweizer Anleger: Pros
 
 **1. Sehr günstige Kosten** für ETF-Sparpläne und einfache Aktien-Investments.
 
-**2. Stempelabgabe entfällt** — DEGIRO ist kein Schweizer Effektenhändler, daher keine 0.075/0.15 % Umsatzabgabe.
+**2. Stempelabgabe entfällt**, DEGIRO ist kein Schweizer Effektenhändler, daher keine 0.075/0.15 % Umsatzabgabe.
 
 **3. Einfache Bedienung** ideal für Einsteiger und passive Anleger.
 
@@ -104,15 +104,15 @@ Im historischen Kontext: DEGIRO hatte 2020 eine Phase regulatorischer Probleme i
 
 ## DEGIRO für Schweizer Anleger: Contras
 
-**1. Steuerauszug nicht Schweizer-konform** — die Schweizer Steuererklärung erfordert manuelle Aufarbeitung der DA-1-Liste.
+**1. Steuerauszug nicht Schweizer-konform**, die Schweizer Steuererklärung erfordert manuelle Aufarbeitung der DA-1-Liste.
 
-**2. Mangelhafter Kundenservice in Deutsch** — primär englisch- und niederländischsprachig, längere Antwortzeiten.
+**2. Mangelhafter Kundenservice in Deutsch**, primär englisch- und niederländischsprachig, längere Antwortzeiten.
 
-**3. Limitierte Order-Typen** — keine Conditional Orders, kein OCO, kein Trailing-Stop.
+**3. Limitierte Order-Typen**, keine Conditional Orders, kein OCO, kein Trailing-Stop.
 
 **4. Kein Krypto-Direkthandel.**
 
-**5. Margin-Konto nicht standardmässig** — muss explizit beantragt werden, oft mit Verzögerungen.
+**5. Margin-Konto nicht standardmässig**, muss explizit beantragt werden, oft mit Verzögerungen.
 
 **6. Veraltete Chart-Funktionen** im Vergleich zu modernen Plattformen.
 
@@ -149,9 +149,9 @@ DEGIRO ist **nicht** die richtige Wahl für:
 
 DEGIRO ist die rationale Wahl für eine sehr spezifische Zielgruppe: Schweizer Anleger, die einfache ETF- und Aktien-Strategien zu minimalen Kosten umsetzen wollen, ohne Bedarf an Premium-Service oder Spezialprodukten zu haben.
 
-Wer diese Anforderungen erfüllt, spart über die Jahre substantielle Beträge gegenüber teureren Anbietern wie Swissquote — bei vergleichbarer Funktionalität für die Kernaufgabe. Für aktive Trader oder Anleger mit höheren Ansprüchen ist DEGIRO hingegen suboptimal.
+Wer diese Anforderungen erfüllt, spart über die Jahre substantielle Beträge gegenüber teureren Anbietern wie Swissquote, bei vergleichbarer Funktionalität für die Kernaufgabe. Für aktive Trader oder Anleger mit höheren Ansprüchen ist DEGIRO hingegen suboptimal.
 
-Ein bewährtes Modell für Schweizer Anleger: DEGIRO als Hauptdepot für ETF-Sparplan, Swissquote als Schweizer Zweitdepot für direkte SIX-Aktien, Interactive Brokers für komplexere Strategien — jeder Broker für das, was er am besten kann.
+Ein bewährtes Modell für Schweizer Anleger: DEGIRO als Hauptdepot für ETF-Sparplan, Swissquote als Schweizer Zweitdepot für direkte SIX-Aktien, Interactive Brokers für komplexere Strategien, jeder Broker für das, was er am besten kann.
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Slippage im Trading: Warum Ihre Order teurer ausgeführt wird, als Sie dachten"
-description: "Sie wollen zu 100 kaufen, aber die Order wird zu 100.20 ausgeführt. Das nennt sich Slippage — und kostet Trader jährlich Milliarden. Wie sie entsteht und vermieden wird."
+description: "Sie wollen zu 100 kaufen, aber die Order wird zu 100.20 ausgeführt. Das nennt sich Slippage, und kostet Trader jährlich Milliarden. Wie sie entsteht und vermieden wird."
 pubDate: 2026-05-25
 category: "Grundlagen"
 subcategory: "Mechanik"
@@ -8,7 +8,7 @@ author: "Redaktion"
 readingTime: "9 Min. Lesezeit"
 ---
 
-Sie sehen auf Ihrem Bildschirm einen Kurs von 100.00. Sie klicken "kaufen". Die Order wird ausgeführt — zu 100.20. Was ist passiert?
+Sie sehen auf Ihrem Bildschirm einen Kurs von 100.00. Sie klicken "kaufen". Die Order wird ausgeführt, zu 100.20. Was ist passiert?
 
 Sie haben gerade **Slippage** erlebt. Das Phänomen, bei dem der tatsächliche Ausführungspreis vom erwarteten Preis abweicht, gehört zu den unterschätzten Kostenfaktoren im modernen Trading. Über Tausende Trades summiert sich Slippage zu erheblichen Beträgen.
 
@@ -18,12 +18,12 @@ Slippage bezeichnet die Differenz zwischen dem **erwarteten Ausführungspreis** 
 
 **Negative Slippage:** Die Order wird teurer ausgeführt als erwartet. Bei einem Kauf zu höherem Preis, bei einem Verkauf zu niedrigerem Preis.
 
-**Positive Slippage:** Die Order wird günstiger ausgeführt als erwartet. Selten, aber möglich — vor allem bei Limit-Orders.
+**Positive Slippage:** Die Order wird günstiger ausgeführt als erwartet. Selten, aber möglich, vor allem bei Limit-Orders.
 
 In der Praxis dominiert die negative Slippage. Sie wirkt wie eine versteckte Kostenposition, die in den Trading-Statistiken vieler Anleger nicht erfasst wird.
 
 > *"Slippage is the silent killer of trading systems. It looks profitable in the backtest, until you actually trade it."*
-> — Trader-Sprichwort
+>, Trader-Sprichwort
 
 ## Warum Slippage entsteht
 
@@ -39,7 +39,7 @@ Bei volatilen Werten oder in schnellen Marktphasen reichen Millisekunden für ne
 
 Wenn Sie 10'000 Aktien kaufen wollen, am best ask aber nur 1'000 Stück verfügbar sind, läuft Ihre Order durch das Orderbuch. Die ersten 1'000 Aktien werden zum besten Preis ausgeführt, die nächsten zum zweitbesten, und so weiter.
 
-Der durchschnittliche Ausführungspreis liegt damit über dem ursprünglichen best ask — das ist klassische Slippage durch unzureichende Markttiefe.
+Der durchschnittliche Ausführungspreis liegt damit über dem ursprünglichen best ask, das ist klassische Slippage durch unzureichende Markttiefe.
 
 ### 3. Marktöffnungen und Wirtschaftsdaten
 
@@ -47,7 +47,7 @@ Direkt nach der Marktöffnung oder bei Veröffentlichung wichtiger Wirtschaftsda
 
 ### 4. Gap-Eröffnungen
 
-Wenn eine Aktie über Nacht oder über das Wochenende eine wichtige Nachricht bekommt, kann sie am nächsten Handelstag mit einer Lücke (Gap) eröffnen. Eine Aktie, die Freitag bei 50 schloss und Montag bei 45 eröffnet, lässt jeden Stop-Loss zwischen 49 und 46 leerlaufen — die Ausführung erfolgt erst bei 45 oder darunter.
+Wenn eine Aktie über Nacht oder über das Wochenende eine wichtige Nachricht bekommt, kann sie am nächsten Handelstag mit einer Lücke (Gap) eröffnen. Eine Aktie, die Freitag bei 50 schloss und Montag bei 45 eröffnet, lässt jeden Stop-Loss zwischen 49 und 46 leerlaufen, die Ausführung erfolgt erst bei 45 oder darunter.
 
 ## Slippage in Zahlen
 
@@ -80,7 +80,7 @@ Slippage ist nicht vollständig vermeidbar, aber begrenzbar. Folgende Massnahmen
 
 ### 1. Limit-Orders statt Market-Orders
 
-Eine Limit-Order garantiert den maximalen Kaufpreis oder minimalen Verkaufspreis. Wird der Preis nicht erreicht, erfolgt keine Ausführung — keine Slippage möglich.
+Eine Limit-Order garantiert den maximalen Kaufpreis oder minimalen Verkaufspreis. Wird der Preis nicht erreicht, erfolgt keine Ausführung, keine Slippage möglich.
 
 Nachteil: Die Order wird möglicherweise nicht ausgeführt. Wer eine Aktie zwingend braucht, muss mit Market-Order arbeiten.
 
@@ -103,21 +103,21 @@ Professionelle Trading-Plattformen bieten dafür **TWAP** (Time-Weighted Average
 Manche Broker bieten "Slippage Control" oder "Maximum Slippage" Einstellungen an. Dabei wird die Order nur ausgeführt, wenn die Abweichung vom erwarteten Preis unter einem definierten Limit liegt.
 
 > *"The best execution is the execution you don't think about. The worst is the one you didn't see coming."*
-> — anonymer Institutional Trader
+>, anonymer Institutional Trader
 
 ## Slippage und Stop-Loss
 
-Ein besonders heikles Thema ist Slippage bei Stop-Loss-Orders. Sobald der Stop-Preis erreicht wird, wird die Stop-Order automatisch zur Market-Order — mit allen Slippage-Risiken.
+Ein besonders heikles Thema ist Slippage bei Stop-Loss-Orders. Sobald der Stop-Preis erreicht wird, wird die Stop-Order automatisch zur Market-Order, mit allen Slippage-Risiken.
 
 Beispiele aus der Praxis:
 
-**Gap-Eröffnung.** Eine Aktie schliesst Freitag bei 50, Montag eröffnet sie bei 42. Ein Stop-Loss bei 48 wird zu 42 ausgeführt — sechs Punkte schlechter als geplant.
+**Gap-Eröffnung.** Eine Aktie schliesst Freitag bei 50, Montag eröffnet sie bei 42. Ein Stop-Loss bei 48 wird zu 42 ausgeführt, sechs Punkte schlechter als geplant.
 
 **Flash Crash.** Im Mai 2010 fiel der Dow Jones innerhalb von Minuten um fast 1'000 Punkte und erholte sich kurz darauf. Stop-Losses, die in diesem Zeitfenster auslösten, wurden teilweise zu absurden Preisen ausgeführt.
 
 **Wirtschaftsdaten.** Ein Stop-Loss auf EUR/USD bei 1.0900 kann nach einem überraschend hohen US-Inflationsbericht zu 1.0855 ausgeführt werden.
 
-Schutz dagegen bieten **Guaranteed Stop-Loss Orders** (von manchen Brokern gegen Aufpreis angeboten), die eine garantierte Ausführung am Stop-Preis bieten — unabhängig von Marktbedingungen.
+Schutz dagegen bieten **Guaranteed Stop-Loss Orders** (von manchen Brokern gegen Aufpreis angeboten), die eine garantierte Ausführung am Stop-Preis bieten, unabhängig von Marktbedingungen.
 
 ## Slippage und Trading-Strategie
 
@@ -125,7 +125,7 @@ Bei der Entwicklung von Trading-Strategien wird Slippage oft vergessen. Eine Str
 
 Faustregel: Strategien mit hoher Handelsfrequenz und kleinen Gewinnzielen pro Trade sind am stärksten von Slippage betroffen. Langfristige Buy-and-Hold-Strategien sind nahezu immun.
 
-Vor jedem Live-Einsatz einer Strategie sollte die geschätzte Slippage von der theoretischen Rendite abgezogen werden — und im Zweifel grosszügig kalkuliert werden.
+Vor jedem Live-Einsatz einer Strategie sollte die geschätzte Slippage von der theoretischen Rendite abgezogen werden, und im Zweifel grosszügig kalkuliert werden.
 
 ## Fazit
 

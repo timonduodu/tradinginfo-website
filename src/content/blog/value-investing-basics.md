@@ -10,13 +10,13 @@ featured: false
 
 ## Was ist Value Investing?
 
-Value Investing ist eine Anlagestrategie, die darauf abzielt, Aktien zu finden, deren Marktpreis deutlich unter dem "wahren Wert" (intrinsischer Wert) des Unternehmens liegt. Die Grundannahme: Der Markt ist kurzfristig irrational und überbewertet oder unterbewertet Aktien — langfristig korrigiert sich das.
+Value Investing ist eine Anlagestrategie, die darauf abzielt, Aktien zu finden, deren Marktpreis deutlich unter dem "wahren Wert" (intrinsischer Wert) des Unternehmens liegt. Die Grundannahme: Der Markt ist kurzfristig irrational und überbewertet oder unterbewertet Aktien, langfristig korrigiert sich das.
 
 Die Strategie wurde von Benjamin Graham (1894-1976) in seinem Buch "Security Analysis" (1934) und später "The Intelligent Investor" (1949) systematisiert. Sein berühmtester Schüler ist Warren Buffett, der die Methode weiterentwickelt und über Jahrzehnte erfolgreich angewendet hat.
 
 ## Die Kernkonzepte
 
-**1. Intrinsischer Wert**: Der "echte" Wert eines Unternehmens basierend auf Fundamentaldaten — Gewinne, Cashflow, Vermögen, Wachstumspotenzial. Verschiedene Methoden zur Berechnung:
+**1. Intrinsischer Wert**: Der "echte" Wert eines Unternehmens basierend auf Fundamentaldaten, Gewinne, Cashflow, Vermögen, Wachstumspotenzial. Verschiedene Methoden zur Berechnung:
 
 - Discounted Cash Flow (DCF): Zukünftige Cashflows werden auf heute abgezinst
 - Buchwert: Was das Unternehmen besitzt minus seine Schulden
@@ -24,17 +24,17 @@ Die Strategie wurde von Benjamin Graham (1894-1976) in seinem Buch "Security Ana
 
 **2. Margin of Safety**: Du kaufst nur, wenn der Marktpreis deutlich (z.B. 25-50%) unter dem berechneten intrinsischen Wert liegt. Diese "Sicherheitsmarge" schützt dich vor Fehlern in der Analyse und unerwarteten Entwicklungen.
 
-**3. Mr. Market**: Graham's Metapher für den Aktienmarkt — ein launischer Geschäftspartner, der dir täglich Preise nennt. Mal extrem optimistisch (hohe Preise), mal panisch (niedrige Preise). Value Investors nutzen seine Stimmungsschwankungen, anstatt ihnen zu folgen.
+**3. Mr. Market**: Graham's Metapher für den Aktienmarkt, ein launischer Geschäftspartner, der dir täglich Preise nennt. Mal extrem optimistisch (hohe Preise), mal panisch (niedrige Preise). Value Investors nutzen seine Stimmungsschwankungen, anstatt ihnen zu folgen.
 
 ## Die wichtigsten Kennzahlen
 
 **KGV (Kurs-Gewinn-Verhältnis)**: Aktienkurs / Gewinn pro Aktie. Niedrigeres KGV = potentiell günstiger. Faustregel: KGV unter 15 wird oft als "günstig" bezeichnet, über 25 als "teuer". Aber: stark abhängig von Branche und Wachstum.
 
-**KBV (Kurs-Buchwert-Verhältnis)**: Aktienkurs / Buchwert pro Aktie. Klassiker bei Banken und Versicherungen. KBV unter 1 = Aktie wird unter dem Buchwert gehandelt — oft ein Value-Signal.
+**KBV (Kurs-Buchwert-Verhältnis)**: Aktienkurs / Buchwert pro Aktie. Klassiker bei Banken und Versicherungen. KBV unter 1 = Aktie wird unter dem Buchwert gehandelt, oft ein Value-Signal.
 
 **KCV (Kurs-Cashflow-Verhältnis)**: Wie KGV, aber mit Cashflow statt Gewinn. Robuster als KGV, weil Cashflow schwerer zu manipulieren ist.
 
-**Dividendenrendite**: Jährliche Dividende / Aktienkurs. Hohe Dividendenrendite (5%+) kann ein Value-Signal sein — aber auch eine Warnung (vielleicht weil das Unternehmen Probleme hat).
+**Dividendenrendite**: Jährliche Dividende / Aktienkurs. Hohe Dividendenrendite (5%+) kann ein Value-Signal sein, aber auch eine Warnung (vielleicht weil das Unternehmen Probleme hat).
 
 **Verschuldungsgrad**: Fremdkapital / Eigenkapital. Niedrige Verschuldung = gesündere Bilanz = besseres Value-Profil.
 
@@ -52,7 +52,7 @@ Value Investing ist das Gegenstück zu Growth Investing:
 | Beispielfirmen | Coca-Cola, IBM, Banken | Tesla, Amazon (früher), Nvidia |
 | Performance | Stärker in Stress-Phasen | Stärker in Bull Markets |
 
-Historisch hat Value über sehr lange Zeiträume Growth geschlagen (Fama-French-Studien). In den letzten 10-15 Jahren — vor allem mit den Tech-Giganten — war Growth aber lange dominant. Welche Strategie "richtig" ist, hängt vom Marktzyklus ab.
+Historisch hat Value über sehr lange Zeiträume Growth geschlagen (Fama-French-Studien). In den letzten 10-15 Jahren, vor allem mit den Tech-Giganten, war Growth aber lange dominant. Welche Strategie "richtig" ist, hängt vom Marktzyklus ab.
 
 ## Value-Aktien in DACH
 
@@ -60,23 +60,23 @@ Historisch hat Value über sehr lange Zeiträume Growth geschlagen (Fama-French-
 
 **Deutschland**: Allianz, Munich Re, BMW, Volkswagen sind traditionelle Value-Werte. Auch viele DAX-Industriewerte (Henkel, BASF, Bayer) gehören in die Kategorie.
 
-**Österreich**: Im ATX gibt es viele klassische Value-Werte — OMV (Energie), Erste Group (Banken), Verbund (Versorger).
+**Österreich**: Im ATX gibt es viele klassische Value-Werte, OMV (Energie), Erste Group (Banken), Verbund (Versorger).
 
 ## Praktischer Value-Investing-Prozess
 
 **Schritt 1: Screening**: Aktien finden mit niedrigem KGV, niedrigem KBV, hoher Dividendenrendite. Tools: justETF, finanzen.net, Stock Rover.
 
-**Schritt 2: Fundamentalanalyse**: Geschäftsbericht lesen. Verstehen, was das Unternehmen tut, wie es Geld verdient, welche Risiken bestehen. Buffett's "Circle of Competence" — nur in Bereichen investieren, die du verstehst.
+**Schritt 2: Fundamentalanalyse**: Geschäftsbericht lesen. Verstehen, was das Unternehmen tut, wie es Geld verdient, welche Risiken bestehen. Buffett's "Circle of Competence", nur in Bereichen investieren, die du verstehst.
 
 **Schritt 3: Bewertung**: Intrinsischen Wert berechnen. Verschiedene Methoden ausprobieren (DCF, Multiple-basierte Bewertung).
 
-**Schritt 4: Sicherheitsmarge prüfen**: Liegt der aktuelle Preis 25-50% unter deinem berechneten Wert? Falls nein — warten.
+**Schritt 4: Sicherheitsmarge prüfen**: Liegt der aktuelle Preis 25-50% unter deinem berechneten Wert? Falls nein, warten.
 
 **Schritt 5: Geduld**: Value-Aktien können lange "günstig" bleiben. Buffet hält Aktien oft Jahrzehnte.
 
 ## Die Value-Falle ("Value Trap")
 
-Manche Aktien sehen günstig aus, sind es aber nicht — sie sind günstig, weil das Geschäftsmodell langsam stirbt. Klassische Beispiele:
+Manche Aktien sehen günstig aus, sind es aber nicht, sie sind günstig, weil das Geschäftsmodell langsam stirbt. Klassische Beispiele:
 - Zeitungsverleger im Zeitalter des Internets
 - Kohlebergbauer im Zeitalter der Energiewende
 - Klassische Buchhandelsketten gegen Amazon
@@ -88,7 +88,7 @@ Wer hier "günstig" kauft, sieht oft nur noch tiefer fallen. Die Kunst ist zu un
 Buffett hat den klassischen Value-Ansatz weiterentwickelt: Er kauft nicht nur "günstig", sondern "wonderful businesses at fair prices". Das heisst:
 
 - **Hohe Eigenkapitalrendite (ROE)** über lange Zeit
-- **Burggräben** (Moats) — Wettbewerbsvorteile wie Marken, Patente, Netzwerkeffekte
+- **Burggräben** (Moats), Wettbewerbsvorteile wie Marken, Patente, Netzwerkeffekte
 - **Stabile Cashflows**
 - **Verständliches Geschäftsmodell**
 - **Vertrauenswürdiges Management**
@@ -97,11 +97,11 @@ Diese "Quality-Value"-Strategie ist heute der Mainstream-Ansatz im professionell
 
 ## Steueraspekte (DACH)
 
-**Schweiz**: Value Investing harmoniert hervorragend mit der CH-Steuerlogik: Lange Haltedauern, wenig Verkäufe, niedrige Transaktionskosten — und Kapitalgewinne sind ohnehin steuerfrei. Wer Dividenden kassiert, hat 35% Verrechnungssteuer, die er via Steuererklärung zurückholt.
+**Schweiz**: Value Investing harmoniert hervorragend mit der CH-Steuerlogik: Lange Haltedauern, wenig Verkäufe, niedrige Transaktionskosten, und Kapitalgewinne sind ohnehin steuerfrei. Wer Dividenden kassiert, hat 35% Verrechnungssteuer, die er via Steuererklärung zurückholt.
 
-**Deutschland**: Bei langen Haltedauern bleibt mehr Zeit für den Zinseszins, bevor Steuern fällig werden. Aber: Vorabpauschale auf thesaurierende ETFs nervt. Sparerpauschbetrag 1.000 EUR / 2.000 EUR — wer Dividendentitel hält, sollte den ausnutzen.
+**Deutschland**: Bei langen Haltedauern bleibt mehr Zeit für den Zinseszins, bevor Steuern fällig werden. Aber: Vorabpauschale auf thesaurierende ETFs nervt. Sparerpauschbetrag 1.000 EUR / 2.000 EUR, wer Dividendentitel hält, sollte den ausnutzen.
 
-**Österreich**: Wer Value-Investing macht und lange hält, profitiert vom Stundungseffekt der KESt — solange du nicht verkaufst, wird auf Kursgewinne keine Steuer fällig.
+**Österreich**: Wer Value-Investing macht und lange hält, profitiert vom Stundungseffekt der KESt, solange du nicht verkaufst, wird auf Kursgewinne keine Steuer fällig.
 
 ## Berühmte Value Investors
 
@@ -109,7 +109,7 @@ Diese "Quality-Value"-Strategie ist heute der Mainstream-Ansatz im professionell
 - **Warren Buffett**: Berkshire Hathaway, Quality-Value-Ansatz
 - **Charlie Munger**: Buffett's Partner, prägte den Quality-Aspekt
 - **Mohnish Pabrai**: Indischer Value-Investor, Buffett-Stil
-- **Joel Greenblatt**: "Magic Formula" — systematisches Value-Investing
+- **Joel Greenblatt**: "Magic Formula", systematisches Value-Investing
 
 Lesetipps:
 - Graham: "The Intelligent Investor"
@@ -128,4 +128,4 @@ Diese kosten 0,2-0,5% TER und liefern systematisches Value-Engagement.
 
 ## Fazit
 
-Value Investing ist keine Modeerscheinung — es ist eine systematische Strategie mit fast 100 Jahren Geschichte, die statistisch funktioniert. Aber sie verlangt zwei Dinge, die viele Anleger nicht aufbringen: Zeit (für die Analyse) und Geduld (manche Value-Positionen tun jahrelang nichts). Wer beide hat, findet im Value Investing einen Ansatz, der zum eigenen Vermögen passt und auf belastbaren ökonomischen Prinzipien beruht. Wer nicht — der ist mit einem breiten ETF besser bedient.
+Value Investing ist keine Modeerscheinung, es ist eine systematische Strategie mit fast 100 Jahren Geschichte, die statistisch funktioniert. Aber sie verlangt zwei Dinge, die viele Anleger nicht aufbringen: Zeit (für die Analyse) und Geduld (manche Value-Positionen tun jahrelang nichts). Wer beide hat, findet im Value Investing einen Ansatz, der zum eigenen Vermögen passt und auf belastbaren ökonomischen Prinzipien beruht. Wer nicht, der ist mit einem breiten ETF besser bedient.

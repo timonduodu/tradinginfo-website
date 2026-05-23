@@ -10,7 +10,7 @@ featured: false
 
 ## Was ist Swing Trading?
 
-Swing Trading ist eine aktive Trading-Strategie, bei der Positionen über mehrere Tage bis Wochen — selten Monate — gehalten werden. Ziel ist es, mittelfristige Kursbewegungen ("Swings") abzugreifen, ohne den Stress des Day-Trading.
+Swing Trading ist eine aktive Trading-Strategie, bei der Positionen über mehrere Tage bis Wochen, selten Monate, gehalten werden. Ziel ist es, mittelfristige Kursbewegungen ("Swings") abzugreifen, ohne den Stress des Day-Trading.
 
 Im Spektrum der Trading-Stile:
 - **Scalping**: Sekunden bis Minuten
@@ -19,11 +19,11 @@ Im Spektrum der Trading-Stile:
 - **Position-Trading**: Wochen bis Monate
 - **Buy-and-Hold**: Jahre bis Jahrzehnte
 
-Swing Trading ist beliebt, weil es nicht den Vollzeitfokus von Day-Trading verlangt — viele Swing Trader machen es nebenberuflich.
+Swing Trading ist beliebt, weil es nicht den Vollzeitfokus von Day-Trading verlangt, viele Swing Trader machen es nebenberuflich.
 
 ## Die Grundidee
 
-Aktien bewegen sich selten in geraden Linien. Sie zeichnen "Wellen" — Aufschwünge und Abschwünge — auch innerhalb eines langfristigen Trends. Swing Trader versuchen, diese Wellen zu reiten:
+Aktien bewegen sich selten in geraden Linien. Sie zeichnen "Wellen", Aufschwünge und Abschwünge, auch innerhalb eines langfristigen Trends. Swing Trader versuchen, diese Wellen zu reiten:
 
 - Bei aufwärts gerichtetem Trend: nach Korrektur einsteigen, beim nächsten Hoch wieder raus
 - Bei abwärts gerichtetem Trend: nach Erholung shorten, beim nächsten Tief wieder zu
@@ -57,13 +57,13 @@ Ein klassischer Swing-Trade dauert 3-10 Tage und hat ein Renditeziel von 3-15%.
 4. **Einstieg**: Kauf bei CHF 85
 5. **Stop-Loss**: Unter dem Korrektur-Tief, z.B. bei CHF 82 (3% Risiko)
 6. **Kursziel**: Vorheriges Hoch oder berechnetes Fibonacci-Ziel, z.B. CHF 92 (8% Gewinn)
-7. **Risk/Reward**: 1:2,5 — für jeden Franken Risiko, 2,50 CHF Gewinnchance
+7. **Risk/Reward**: 1:2,5, für jeden Franken Risiko, 2,50 CHF Gewinnchance
 
-Nach 5-10 Tagen wäre der Trade idealerweise im Gewinn — entweder Verkauf am Kursziel oder Stop-Loss zieht.
+Nach 5-10 Tagen wäre der Trade idealerweise im Gewinn, entweder Verkauf am Kursziel oder Stop-Loss zieht.
 
 ## Risk Management ist alles
 
-Swing Trader können Wochen lang gut performen — und dann mit einem einzigen schlechten Trade alles wieder verlieren. Die wichtigsten Regeln:
+Swing Trader können Wochen lang gut performen, und dann mit einem einzigen schlechten Trade alles wieder verlieren. Die wichtigsten Regeln:
 
 **1. Maximum 1-2% Kontorisiko pro Trade**: Bei einem CHF 50.000 Konto = max. CHF 500-1000 Verlust pro Trade.
 
@@ -90,7 +90,7 @@ Wer mehrere Punkte erfüllt, riskiert die Einkommensbesteuerung aller Trading-Ge
 
 **Deutschland**: Jeder realisierte Gewinn unterliegt der Abgeltungsteuer 25% + 5,5% Soli + ggf. Kirchensteuer. Bei vielen Swing-Trades pro Jahr ist das ein erheblicher Anteil der Rendite. **Ausserdem**: Bei CFD-Swing-Trading gilt die 20.000-EUR-Verlustverrechnungsgrenze pro Jahr.
 
-**Österreich**: KESt 27,5%. Steuereinfache Broker führen automatisch ab. Wichtig: Verluste können nur im selben Kalenderjahr verrechnet werden — kein Verlustvortrag. Ein schlechtes Jahr bleibt ein schlechtes Jahr.
+**Österreich**: KESt 27,5%. Steuereinfache Broker führen automatisch ab. Wichtig: Verluste können nur im selben Kalenderjahr verrechnet werden, kein Verlustvortrag. Ein schlechtes Jahr bleibt ein schlechtes Jahr.
 
 ## Plattformen und Tools
 
@@ -117,13 +117,13 @@ Wer mehrere Punkte erfüllt, riskiert die Einkommensbesteuerung aller Trading-Ge
 
 ## Typische Swing-Trading-Strategien
 
-**1. Pullback in Trend**: Wie im Beispiel oben — in einem etablierten Trend Korrekturen zum Einstieg nutzen.
+**1. Pullback in Trend**: Wie im Beispiel oben, in einem etablierten Trend Korrekturen zum Einstieg nutzen.
 
-**2. Breakout**: Eine Aktie durchbricht eine Widerstandsmarke mit Volumen — du kaufst kurz danach, mit Stop unter der Marke.
+**2. Breakout**: Eine Aktie durchbricht eine Widerstandsmarke mit Volumen, du kaufst kurz danach, mit Stop unter der Marke.
 
 **3. Mean Reversion**: Eine Aktie ist überverkauft (RSI < 30) und du wettest auf Rückkehr zum Durchschnitt. Funktioniert eher in seitwärts-orientierten Märkten.
 
-**4. Earnings-Plays**: Vor Quartalsberichten Positionen aufbauen, mit klarer These zur erwarteten Reaktion. Hochriskant — die Kursreaktion auf Earnings ist schwer vorhersehbar.
+**4. Earnings-Plays**: Vor Quartalsberichten Positionen aufbauen, mit klarer These zur erwarteten Reaktion. Hochriskant, die Kursreaktion auf Earnings ist schwer vorhersehbar.
 
 ## Häufige Fehler
 
@@ -135,7 +135,7 @@ Wer mehrere Punkte erfüllt, riskiert die Einkommensbesteuerung aller Trading-Ge
 
 **4. Revenge-Trading**: Nach einem Verlust sofort den nächsten Trade machen, um den Verlust "auszugleichen". Funktioniert nie.
 
-**5. Falsche Positionsgrösse**: Bei einem starken Setup grösser kaufen — und damit das Konto gefährden.
+**5. Falsche Positionsgrösse**: Bei einem starken Setup grösser kaufen, und damit das Konto gefährden.
 
 ## Wie viel Zeit braucht Swing Trading?
 
@@ -149,7 +149,7 @@ Wer denkt, mit 1 Stunde pro Woche Swing Trading betreiben zu können, wird wahrs
 
 ## Realistische Renditeerwartungen
 
-Konsistent gute Swing Trader kommen auf 20-50% pro Jahr — aber das gelingt einer kleinen Minderheit. Die meisten Anfänger machen die ersten 1-2 Jahre Verlust (Lerngeld). Erst danach — wenn überhaupt — bauen sich Profitabilität und Erfahrung auf.
+Konsistent gute Swing Trader kommen auf 20-50% pro Jahr, aber das gelingt einer kleinen Minderheit. Die meisten Anfänger machen die ersten 1-2 Jahre Verlust (Lerngeld). Erst danach, wenn überhaupt, bauen sich Profitabilität und Erfahrung auf.
 
 ## Fazit
 

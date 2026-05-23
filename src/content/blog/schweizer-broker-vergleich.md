@@ -10,20 +10,20 @@ readingTime: "12 Min. Lesezeit"
 
 Die Wahl des richtigen Online-Brokers ist eine der wichtigsten finanziellen Entscheidungen, die ein Anleger trifft. Über eine Anlagedauer von 20 oder 30 Jahren entscheidet die Höhe der Gebühren über den Unterschied zwischen einer auskömmlichen und einer ausgezeichneten Rendite. Diese Analyse vergleicht die fünf relevantesten Anbieter für Schweizer Anleger.
 
-> *"The investor's chief problem — and even his worst enemy — is likely to be himself. But the second-biggest enemy is unnecessary cost."*
-> — **Jack Bogle**, Gründer von Vanguard
+> *"The investor's chief problem, and even his worst enemy, is likely to be himself. But the second-biggest enemy is unnecessary cost."*
+>, **Jack Bogle**, Gründer von Vanguard
 
 ## Die untersuchten Broker
 
-- **Swissquote** — der grösste Schweizer Online-Broker mit Bankenlizenz
-- **Saxo Bank** — dänischer Premium-Anbieter mit Schweizer Niederlassung
-- **Interactive Brokers (IBKR)** — US-amerikanischer Broker mit Fokus auf institutionelle und aktive Trader
-- **DEGIRO** — niederländischer Discount-Broker mit europaweitem Angebot
-- **Yuh** — Mobile-Banking-App von Swissquote und PostFinance, primär für Einsteiger
+- **Swissquote**, der grösste Schweizer Online-Broker mit Bankenlizenz
+- **Saxo Bank**, dänischer Premium-Anbieter mit Schweizer Niederlassung
+- **Interactive Brokers (IBKR)**, US-amerikanischer Broker mit Fokus auf institutionelle und aktive Trader
+- **DEGIRO**, niederländischer Discount-Broker mit europaweitem Angebot
+- **Yuh**, Mobile-Banking-App von Swissquote und PostFinance, primär für Einsteiger
 
 ## Welche Kosten zählen wirklich
 
-Die meisten öffentlichen Vergleiche fokussieren auf die Order-Kommission — also den Betrag, der pro Trade berechnet wird. Diese Sichtweise greift zu kurz. Die tatsächlichen Trading-Kosten setzen sich aus folgenden Komponenten zusammen:
+Die meisten öffentlichen Vergleiche fokussieren auf die Order-Kommission, also den Betrag, der pro Trade berechnet wird. Diese Sichtweise greift zu kurz. Die tatsächlichen Trading-Kosten setzen sich aus folgenden Komponenten zusammen:
 
 1. Order-Kommission
 2. Spreads (Differenz zwischen An- und Verkaufspreis)
@@ -32,7 +32,7 @@ Die meisten öffentlichen Vergleiche fokussieren auf die Order-Kommission — al
 5. Inaktivitätsgebühren
 6. Stempelabgabe (gesetzliche Schweizer Bundesabgabe)
 
-Insbesondere Punkt 4, der FX-Markup, wird in den meisten Vergleichen ausgeblendet — obwohl er bei internationalen Anlagen oft die grösste Kostenposition darstellt.
+Insbesondere Punkt 4, der FX-Markup, wird in den meisten Vergleichen ausgeblendet, obwohl er bei internationalen Anlagen oft die grösste Kostenposition darstellt.
 
 ## Praxisbeispiel: US-Aktien für 5'000 CHF kaufen
 
@@ -45,18 +45,18 @@ Die folgende Tabelle zeigt die realen Gesamtkosten beim Kauf von US-Aktien im Ge
 | Interactive Brokers | ~2.50 CHF | ~1.00 CHF (0.002 %) | **3.50 CHF** |
 | DEGIRO | ~2.50 CHF | ~12.50 CHF (0.25 %) | **15.00 CHF** |
 
-Die Differenz zwischen dem teuersten und dem günstigsten Anbieter beträgt mehr als das Zwanzigfache. Bei 50 Trades pro Jahr summiert sich dieser Unterschied auf über 3'500 CHF jährlich — Geld, das nicht für die Vermögensbildung zur Verfügung steht.
+Die Differenz zwischen dem teuersten und dem günstigsten Anbieter beträgt mehr als das Zwanzigfache. Bei 50 Trades pro Jahr summiert sich dieser Unterschied auf über 3'500 CHF jährlich, Geld, das nicht für die Vermögensbildung zur Verfügung steht.
 
 > *"Compound interest is the eighth wonder of the world. He who understands it, earns it; he who doesn't, pays it."*
-> — zugeschrieben an **Albert Einstein**
+>, zugeschrieben an **Albert Einstein**
 
 ## Warum Swissquote dennoch eine Berechtigung hat
 
 Höhere Gebühren sind nicht automatisch ein Ausschlusskriterium. Drei Faktoren sprechen je nach Anlegerprofil für Swissquote oder ähnliche heimische Anbieter:
 
-1. **Schweizer Bankenlizenz** — Einlagen bis 100'000 CHF sind durch esisuisse abgesichert
-2. **Deutschsprachiger Steuerauszug** — vereinfacht das Ausfüllen der Steuererklärung erheblich
-3. **Lokaler Kundenservice** — bei komplexen Fragen ein nicht zu unterschätzender Vorteil
+1. **Schweizer Bankenlizenz**, Einlagen bis 100'000 CHF sind durch esisuisse abgesichert
+2. **Deutschsprachiger Steuerauszug**, vereinfacht das Ausfüllen der Steuererklärung erheblich
+3. **Lokaler Kundenservice**, bei komplexen Fragen ein nicht zu unterschätzender Vorteil
 
 Für Anleger, die wenige Trades pro Jahr ausführen, ein Vermögen von über 200'000 CHF verwalten und Wert auf maximale rechtliche Sicherheit legen, kann ein Schweizer Broker trotz höherer Gebühren die richtige Wahl sein. Für aktive Trader oder Anleger im Vermögensaufbau hingegen sind die Mehrkosten substanziell.
 
@@ -82,7 +82,7 @@ Wer als CHF-Anleger US-Aktien oder europäische ETFs kauft, durchläuft eine Wä
 | Saxo Bank | 0.5 % |
 | Swissquote | bis zu 1 % |
 
-Auf ein Portfolio mit 100'000 CHF, das jährlich zu 20 % umgeschichtet wird, entstehen bei Swissquote rund **1'000 CHF zusätzliche jährliche Kosten** allein durch den FX-Spread — Kosten, die in keiner Gebührenübersicht prominent erscheinen.
+Auf ein Portfolio mit 100'000 CHF, das jährlich zu 20 % umgeschichtet wird, entstehen bei Swissquote rund **1'000 CHF zusätzliche jährliche Kosten** allein durch den FX-Spread, Kosten, die in keiner Gebührenübersicht prominent erscheinen.
 
 ### Dividenden-Verbuchung
 
@@ -101,7 +101,7 @@ Interactive Brokers gilt branchenintern als der bevorzugte Broker professionelle
 Der wesentliche Nachteil ist die Komplexität der Trader-Workstation, die für Einsteiger einschüchternd wirken kann. IBKR bietet inzwischen jedoch eine vereinfachte Web-Oberfläche sowie die mobile App "IBKR GlobalTrader".
 
 > *"It's not whether you're right or wrong that's important, but how much money you make when you're right and how much you lose when you're wrong."*
-> — **George Soros**
+>, **George Soros**
 
 ## Trading-Apps: Die neue Generation
 
@@ -124,7 +124,7 @@ Eine pauschale Broker-Empfehlung wäre der Komplexität individueller Anlegerpro
 
 ## Methodik und Aktualität
 
-Die in diesem Artikel genannten Konditionen basieren auf den öffentlich verfügbaren Gebührenstrukturen der Broker, Stand 2026. Broker-Konditionen unterliegen regelmässigen Anpassungen — die aktuellen Tarife sind stets direkt auf den Websites der Anbieter zu prüfen.
+Die in diesem Artikel genannten Konditionen basieren auf den öffentlich verfügbaren Gebührenstrukturen der Broker, Stand 2026. Broker-Konditionen unterliegen regelmässigen Anpassungen, die aktuellen Tarife sind stets direkt auf den Websites der Anbieter zu prüfen.
 
 Keiner der genannten Broker hat für diesen Artikel eine Vergütung geleistet. Affiliate-Links werden, sofern verwendet, separat ausgewiesen.
 

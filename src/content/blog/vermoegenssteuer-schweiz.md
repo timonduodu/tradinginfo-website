@@ -1,6 +1,6 @@
 ---
 title: "Vermögenssteuer Schweiz: Was Schweizer Anleger 2026 zahlen"
-description: "Die Vermögenssteuer ist die kantonale Steuer auf dein Gesamtvermögen — inklusive Aktien, ETFs, Krypto. Wir erklären Berechnung, Freibeträge und kantonale Unterschiede."
+description: "Die Vermögenssteuer ist die kantonale Steuer auf dein Gesamtvermögen, inklusive Aktien, ETFs, Krypto. Wir erklären Berechnung, Freibeträge und kantonale Unterschiede."
 pubDate: 2026-09-03
 category: "Steuern"
 subcategory: "Schweiz"
@@ -10,7 +10,7 @@ featured: false
 
 ## Was ist die Vermögenssteuer?
 
-Die Vermögenssteuer ist eine **kantonale und kommunale Steuer** auf dein gesamtes Reinvermögen — also Vermögen minus Schulden. Anders als in Deutschland (wo es keine Vermögenssteuer gibt) und Österreich (wo es seit 1994 keine mehr gibt) ist die Vermögenssteuer in der Schweiz ein laufendes Thema für jeden Steuerzahler.
+Die Vermögenssteuer ist eine **kantonale und kommunale Steuer** auf dein gesamtes Reinvermögen, also Vermögen minus Schulden. Anders als in Deutschland (wo es keine Vermögenssteuer gibt) und Österreich (wo es seit 1994 keine mehr gibt) ist die Vermögenssteuer in der Schweiz ein laufendes Thema für jeden Steuerzahler.
 
 Sie wird auf das Vermögen per **31. Dezember** des Steuerjahres berechnet.
 
@@ -39,7 +39,7 @@ Sie wird auf das Vermögen per **31. Dezember** des Steuerjahres berechnet.
 
 ## Wie wird das Vermögen bewertet?
 
-**Aktien und ETFs**: Zum Marktwert am 31.12. — die ESTV publiziert eine Kursliste, die für die Bewertung verwendet werden kann.
+**Aktien und ETFs**: Zum Marktwert am 31.12., die ESTV publiziert eine Kursliste, die für die Bewertung verwendet werden kann.
 
 **Kryptowährungen**: Auch zum Jahresendkurs. Die ESTV publiziert ebenfalls Krypto-Werte oder die Bank/Plattform stellt einen Auszug aus.
 
@@ -59,7 +59,7 @@ Schulden mindern das steuerbare Vermögen:
 
 ## Die kantonalen Unterschiede
 
-Vermögenssteuer ist Kantonssache — die Sätze variieren massiv:
+Vermögenssteuer ist Kantonssache, die Sätze variieren massiv:
 
 | Kanton | Höchstsatz Vermögenssteuer (ca.) | Freibetrag (Single) |
 |--------|----------------------------------|---------------------|
@@ -72,13 +72,13 @@ Vermögenssteuer ist Kantonssache — die Sätze variieren massiv:
 | Aargau | ca. 0,35% | 80.000 CHF |
 | Wallis | bis 0,5% | 30.000 CHF |
 
-Diese Zahlen sind nur Richtwerte — die genauen Sätze und Tarife sind in den kantonalen Steuergesetzen festgelegt und können sich ändern. Aktuelle Werte beim kantonalen Steueramt prüfen.
+Diese Zahlen sind nur Richtwerte, die genauen Sätze und Tarife sind in den kantonalen Steuergesetzen festgelegt und können sich ändern. Aktuelle Werte beim kantonalen Steueramt prüfen.
 
 **Faustregel**: Die Innerschweizer Kantone (Zug, Schwyz, Nidwalden) sind besonders steuergünstig. Genf und Basel-Stadt sind teuer.
 
 ## Progressiver Tarif
 
-Die meisten Kantone wenden einen **progressiven Tarif** an — das heisst, der Steuersatz steigt mit dem Vermögen. Bei einem Vermögen von 200.000 CHF ist der durchschnittliche Steuersatz niedriger als bei 5 Mio. CHF.
+Die meisten Kantone wenden einen **progressiven Tarif** an, das heisst, der Steuersatz steigt mit dem Vermögen. Bei einem Vermögen von 200.000 CHF ist der durchschnittliche Steuersatz niedriger als bei 5 Mio. CHF.
 
 **Beispielrechnung Zürich** (vereinfacht):
 - Vermögen: 500.000 CHF (nach Freibetrag und Schulden)
@@ -88,7 +88,7 @@ Die meisten Kantone wenden einen **progressiven Tarif** an — das heisst, der S
 
 ## Vermögenssteuer und Aktien
 
-**Wichtig**: Die Vermögenssteuer wird auf den **Marktwert** deiner Aktien am 31.12. erhoben — unabhängig davon, ob du Gewinn oder Verlust gemacht hast.
+**Wichtig**: Die Vermögenssteuer wird auf den **Marktwert** deiner Aktien am 31.12. erhoben, unabhängig davon, ob du Gewinn oder Verlust gemacht hast.
 
 Beispiel: Du hast 100 Nestlé-Aktien zum Wert von 75 CHF gekauft. Am 31.12. stehen sie bei 80 CHF.
 - Steuerwert: 100 × 80 = 8.000 CHF
@@ -98,7 +98,7 @@ Auch wenn du die Aktien nie verkaufst und niemals einen Gewinn realisierst, zahl
 
 ## ETF-Bewertung
 
-ETFs werden ebenfalls zum Marktwert am 31.12. bewertet. Bei thesaurierenden ETFs zählt der Kurswert — die "stillen Erträge" sind im Marktwert bereits enthalten.
+ETFs werden ebenfalls zum Marktwert am 31.12. bewertet. Bei thesaurierenden ETFs zählt der Kurswert, die "stillen Erträge" sind im Marktwert bereits enthalten.
 
 ## Krypto-Bewertung
 
@@ -109,13 +109,13 @@ Kryptowährungen müssen im Wertschriftenverzeichnis erfasst werden. Die ESTV pu
 
 Bei Coins ohne ESTV-Kurs nimmst du den Kurs einer anerkannten Börse (Bitstamp, Kraken, Coinbase).
 
-**Wichtig**: Self-Custody-Wallets (z.B. Ledger, Trezor) müssen ebenfalls deklariert werden. Wer hier "vergisst", riskiert Steuerhinterziehung — und mit dem erweiterten AIA ab 2026 wird Krypto-Daten zunehmend international ausgetauscht.
+**Wichtig**: Self-Custody-Wallets (z.B. Ledger, Trezor) müssen ebenfalls deklariert werden. Wer hier "vergisst", riskiert Steuerhinterziehung, und mit dem erweiterten AIA ab 2026 wird Krypto-Daten zunehmend international ausgetauscht.
 
 ## Praktische Optimierungs-Möglichkeiten
 
 **1. Schulden nutzen**: Lombardkredite oder Hypotheken senken das steuerbare Vermögen. Aber: Kreditzinsen müssen niedriger sein als deine Anlagerendite, sonst ist es teurer Spass.
 
-**2. Wohnsitz wählen**: Wer mobil ist, kann den steuergünstigsten Kanton wählen. Aber: Echter Wohnsitzwechsel mit allen Konsequenzen ist nötig — keine Steuer-Tricks.
+**2. Wohnsitz wählen**: Wer mobil ist, kann den steuergünstigsten Kanton wählen. Aber: Echter Wohnsitzwechsel mit allen Konsequenzen ist nötig, keine Steuer-Tricks.
 
 **3. Pensionskasse einkaufen**: Beiträge zur Säule 2 sind vom Vermögen abzugsfähig und reduzieren auch die Einkommenssteuer.
 
@@ -127,7 +127,7 @@ Bei Coins ohne ESTV-Kurs nimmst du den Kurs einer anerkannten Börse (Bitstamp, 
 
 Achtung: Die Vermögenssteuer richtet sich nach dem Wert am 31.12. Wer am 30.12. ein 1-Mio-Depot hatte und am 1.1. nur noch 600.000 (Crash zwischen Weihnachten und Neujahr), zahlt trotzdem auf 1 Mio.
 
-Praxistipp: In Crash-Zeiten den Stichtag-Effekt im Auge behalten. Manche Trader schichten kurz vor Jahresende in weniger volatile Werte um, um Bewertungsschocks zu vermeiden — das ist aber meist Aufwand für wenig.
+Praxistipp: In Crash-Zeiten den Stichtag-Effekt im Auge behalten. Manche Trader schichten kurz vor Jahresende in weniger volatile Werte um, um Bewertungsschocks zu vermeiden, das ist aber meist Aufwand für wenig.
 
 ## Vermögenssteuer im internationalen Vergleich
 
@@ -137,20 +137,20 @@ Praxistipp: In Crash-Zeiten den Stichtag-Effekt im Auge behalten. Manche Trader 
 
 **USA**: Keine bundesstaatliche Vermögenssteuer, einige Bundesstaaten haben begrenzte Versionen.
 
-**Frankreich**: IFI (Impôt sur la Fortune Immobilière) — nur auf Immobilienvermögen, ähnlich aber enger als Schweizer Vermögenssteuer.
+**Frankreich**: IFI (Impôt sur la Fortune Immobilière), nur auf Immobilienvermögen, ähnlich aber enger als Schweizer Vermögenssteuer.
 
-**Spanien**: Vermögenssteuer (Impuesto sobre el Patrimonio) — kantonale Unterschiede ähnlich der Schweiz.
+**Spanien**: Vermögenssteuer (Impuesto sobre el Patrimonio), kantonale Unterschiede ähnlich der Schweiz.
 
-In Europa ist die Schweiz heute eines der wenigen Länder mit umfassender Vermögenssteuer. Das wird im internationalen Steuerwettbewerb manchmal kritisiert — aber bleibt eine Säule der föderalen Steuerphilosophie.
+In Europa ist die Schweiz heute eines der wenigen Länder mit umfassender Vermögenssteuer. Das wird im internationalen Steuerwettbewerb manchmal kritisiert, aber bleibt eine Säule der föderalen Steuerphilosophie.
 
 ## Was bedeutet das für Anleger?
 
-**Aktien**: Mit zunehmender Performance steigen Vermögenssteuern. Bei einem 1-Mio-Aktiendepot in Zürich sind das ca. 4.000-6.000 CHF pro Jahr — eine "Erfolgssteuer".
+**Aktien**: Mit zunehmender Performance steigen Vermögenssteuern. Bei einem 1-Mio-Aktiendepot in Zürich sind das ca. 4.000-6.000 CHF pro Jahr, eine "Erfolgssteuer".
 
-**Buy-and-Hold-Tipp**: Vermögenssteuer macht den Schweizer Anleger im Verhältnis zur Performance der Aktien tendenziell schlechter — vor allem im Vergleich zu Deutschland (Abgeltungsteuer nur bei Verkauf) oder USA (Kapitalgewinnsteuer nur bei Realisierung).
+**Buy-and-Hold-Tipp**: Vermögenssteuer macht den Schweizer Anleger im Verhältnis zur Performance der Aktien tendenziell schlechter, vor allem im Vergleich zu Deutschland (Abgeltungsteuer nur bei Verkauf) oder USA (Kapitalgewinnsteuer nur bei Realisierung).
 
 **Aber**: Die Steuerfreiheit der Kapitalgewinne in der Schweiz kompensiert das. Über lange Zeiträume mit hoher Performance ist die Schweiz steuerlich oft günstiger als andere Länder.
 
 ## Fazit
 
-Die Vermögenssteuer ist ein typisch Schweizer Phänomen, das international rar ist. Sie wirkt wie eine kleine, jährliche "Abnutzungsgebühr" auf dein Vermögen — beträgt aber selbst in teuren Kantonen selten mehr als 0,5-1% pro Jahr. Für die meisten Anleger ist sie eher unangenehm als ruinös. Wer wirklich grosse Beträge hält oder einen optimalen Standort sucht, sollte die kantonalen Unterschiede prüfen — und Schulden, Säule 3a und Pensionskassen-Einkauf als Optimierungs-Tools nutzen. Anders als bei Kapitalgewinnen, wo die Schweiz international ein Paradies ist, ist die Vermögenssteuer einer der Hauptnachteile des Schweizer Systems — aber dafür existiert sie.
+Die Vermögenssteuer ist ein typisch Schweizer Phänomen, das international rar ist. Sie wirkt wie eine kleine, jährliche "Abnutzungsgebühr" auf dein Vermögen, beträgt aber selbst in teuren Kantonen selten mehr als 0,5-1% pro Jahr. Für die meisten Anleger ist sie eher unangenehm als ruinös. Wer wirklich grosse Beträge hält oder einen optimalen Standort sucht, sollte die kantonalen Unterschiede prüfen, und Schulden, Säule 3a und Pensionskassen-Einkauf als Optimierungs-Tools nutzen. Anders als bei Kapitalgewinnen, wo die Schweiz international ein Paradies ist, ist die Vermögenssteuer einer der Hauptnachteile des Schweizer Systems, aber dafür existiert sie.

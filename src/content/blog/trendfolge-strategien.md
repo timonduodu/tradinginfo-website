@@ -8,18 +8,18 @@ author: "Redaktion"
 readingTime: "10 Min. Lesezeit"
 ---
 
-Trendfolge ist statistisch gesehen die erfolgreichste Trading-Methodik aller Zeiten. Mehr legendäre Trader haben ihr Vermögen mit Trendfolge aufgebaut als mit jeder anderen Strategie — von Richard Donchian über Bruce Kovner bis hin zu den modernen Commodity Trading Advisors. Gleichzeitig ist sie die Methode, an der die meisten Privatanleger scheitern. Der Widerspruch ist nicht zufällig, sondern fundamental für das Verständnis der Strategie.
+Trendfolge ist statistisch gesehen die erfolgreichste Trading-Methodik aller Zeiten. Mehr legendäre Trader haben ihr Vermögen mit Trendfolge aufgebaut als mit jeder anderen Strategie, von Richard Donchian über Bruce Kovner bis hin zu den modernen Commodity Trading Advisors. Gleichzeitig ist sie die Methode, an der die meisten Privatanleger scheitern. Der Widerspruch ist nicht zufällig, sondern fundamental für das Verständnis der Strategie.
 
 ## Was Trendfolge ist
 
-Trendfolge basiert auf einer simplen Hypothese: Märkte bewegen sich in Trends, und diese Trends dauern länger, als die meisten Marktteilnehmer erwarten. Eine Trendfolge-Strategie versucht nicht, Tiefs oder Hochs zu finden — sie versucht, Trends zu erkennen, mit ihnen zu reiten und auszusteigen, wenn der Trend bricht.
+Trendfolge basiert auf einer simplen Hypothese: Märkte bewegen sich in Trends, und diese Trends dauern länger, als die meisten Marktteilnehmer erwarten. Eine Trendfolge-Strategie versucht nicht, Tiefs oder Hochs zu finden, sie versucht, Trends zu erkennen, mit ihnen zu reiten und auszusteigen, wenn der Trend bricht.
 
 Die mathematische Formulierung: Wenn der Preis ein neues Hoch über einen Lookback-Zeitraum (z.B. 20 Tage) erreicht, gehe long. Wenn er ein neues Tief erreicht, gehe short. Halte die Position, bis das gegenteilige Signal kommt.
 
 So einfach diese Beschreibung klingt, so kontraintuitiv ist sie für die menschliche Psychologie.
 
 > *"The trend is your friend until the end when it bends."*
-> — **Ed Seykota**, einer der erfolgreichsten Trendfolge-Trader der Geschichte
+>, **Ed Seykota**, einer der erfolgreichsten Trendfolge-Trader der Geschichte
 
 ## Warum Trendfolge funktioniert
 
@@ -33,7 +33,7 @@ Drei strukturelle Gründe erklären, warum Trendfolge über Jahrzehnte profitabe
 
 ## Die Schmerzgrenze: Drawdowns
 
-Trendfolge funktioniert nicht ständig. Sie funktioniert in **fast nichts**, wenn Märkte seitwärts laufen — und plötzlich exzellent, wenn Trends entstehen.
+Trendfolge funktioniert nicht ständig. Sie funktioniert in **fast nichts**, wenn Märkte seitwärts laufen, und plötzlich exzellent, wenn Trends entstehen.
 
 Die typische Verteilung der Renditen ist dramatisch asymmetrisch:
 
@@ -44,7 +44,7 @@ Die typische Verteilung der Renditen ist dramatisch asymmetrisch:
 Wer eine Trendfolge-Strategie testet, durchlebt typischerweise lange Phasen von Frustration. Drawdowns von 20 bis 30 % über mehrere Monate sind keine Ausnahme, sondern Standard.
 
 > *"You have to be willing to be wrong eight times out of ten if the other two are big enough."*
-> — **Paul Tudor Jones**
+>, **Paul Tudor Jones**
 
 Diese psychologische Dimension ist der Hauptgrund für das Scheitern. Anleger geben Strategien auf, gerade bevor die Strategie wieder profitabel wird.
 
@@ -52,11 +52,11 @@ Diese psychologische Dimension ist der Hauptgrund für das Scheitern. Anleger ge
 
 Der dokumentierte Erfolg verschiedener Trendfolger ist beeindruckend:
 
-**Richard Donchian** (1905–1993): Vater der systematischen Trendfolge. Entwickelte die "4-Week Rule" — Kauf bei 4-Wochen-Hoch, Verkauf bei 4-Wochen-Tief.
+**Richard Donchian** (1905–1993): Vater der systematischen Trendfolge. Entwickelte die "4-Week Rule", Kauf bei 4-Wochen-Hoch, Verkauf bei 4-Wochen-Tief.
 
 **Bruce Kovner** (geb. 1945): Gründer von Caxton Associates. Aus 3'000 USD Startkapital ein Vermögen von über 5 Milliarden USD aufgebaut.
 
-**Richard Dennis** und das **Turtle-Experiment** (1983): Dennis trainierte eine Gruppe von Anfängern in seiner Trendfolge-Methodik. Diese "Turtles" erwirtschafteten in fünf Jahren über 100 Millionen USD — und bewiesen, dass die Strategie systematisch erlernbar ist.
+**Richard Dennis** und das **Turtle-Experiment** (1983): Dennis trainierte eine Gruppe von Anfängern in seiner Trendfolge-Methodik. Diese "Turtles" erwirtschafteten in fünf Jahren über 100 Millionen USD, und bewiesen, dass die Strategie systematisch erlernbar ist.
 
 **Bill Dunn** (Dunn Capital Management): Über 40 Jahre Track Record mit annualisierten Renditen über 14 % nach Gebühren.
 
@@ -75,7 +75,7 @@ Typische Parameterwahl:
 
 ### Moving-Average-Crossover
 
-Verwende zwei gleitende Durchschnitte unterschiedlicher Länge. Kreuzt der kürzere den längeren von unten nach oben, ist das ein Long-Signal — von oben nach unten ein Short-Signal.
+Verwende zwei gleitende Durchschnitte unterschiedlicher Länge. Kreuzt der kürzere den längeren von unten nach oben, ist das ein Long-Signal, von oben nach unten ein Short-Signal.
 
 Klassische Parametrisierung: 50-Tage und 200-Tage. Der "Golden Cross" (50 kreuzt 200 von unten) und der "Death Cross" (50 kreuzt 200 von oben) sind populäre Variationen.
 
@@ -88,11 +88,11 @@ Die ursprüngliche Turtle-Strategie kombinierte zwei Systeme:
 Mit klaren Regeln für Position-Sizing basierend auf ATR (Average True Range).
 
 > *"The best traders don't have a system that beats the market. They have a system that beats their own psychology."*
-> — **Mark Douglas**
+>, **Mark Douglas**
 
 ## Risikomanagement bei Trendfolge
 
-Die mit Abstand wichtigste Komponente einer Trendfolge-Strategie ist nicht das Einstiegssignal — es ist das Risikomanagement.
+Die mit Abstand wichtigste Komponente einer Trendfolge-Strategie ist nicht das Einstiegssignal, es ist das Risikomanagement.
 
 Standardregeln professioneller Trendfolger:
 
@@ -102,7 +102,7 @@ Standardregeln professioneller Trendfolger:
 
 3. **Diversifikation über mindestens 15 bis 25 unkorrelierte Märkte.** Kein einzelner Markt darf das Konto definieren.
 
-4. **Volatilitätsadjustierung.** Volatilere Märkte erhalten kleinere Positionen, ruhigere grössere — damit der Risikobeitrag gleich verteilt ist.
+4. **Volatilitätsadjustierung.** Volatilere Märkte erhalten kleinere Positionen, ruhigere grössere, damit der Risikobeitrag gleich verteilt ist.
 
 5. **Pyramiding bei positivem Verlauf.** Profitable Positionen können in Tranchen ausgebaut werden, statt von Anfang an voll positioniert zu sein.
 
@@ -118,7 +118,7 @@ Fast alle Privatanleger scheitern an Trendfolge aus den gleichen Gründen:
 
 **Fehler 4: Diskretionäre Eingriffe.** Wer Signale ignoriert, weil "diesmal alles anders ist", zerstört den statistischen Vorteil.
 
-**Fehler 5: Falsche Erwartungen an Trefferquote.** Wer 70 % Gewinn-Trades erwartet, ist mit Trendfolge falsch beraten. 35 bis 45 % ist realistisch — aber die Gewinne sind viel grösser als die Verluste.
+**Fehler 5: Falsche Erwartungen an Trefferquote.** Wer 70 % Gewinn-Trades erwartet, ist mit Trendfolge falsch beraten. 35 bis 45 % ist realistisch, aber die Gewinne sind viel grösser als die Verluste.
 
 ## Trendfolge heute
 
@@ -129,13 +129,13 @@ Die akademische und institutionelle Forschung der letzten zwanzig Jahre hat Tren
 - Besonders gute Performance in Crisis-Perioden (2008, 2020, 2022)
 - Sharpe-Ratios im Bereich von 0.7 bis 1.2 für gut diversifizierte Programme
 
-Privatanleger können Trendfolge entweder selbst umsetzen — was substantielles Wissen und Disziplin erfordert — oder über Trendfolge-ETFs und Mutual Funds zugreifen.
+Privatanleger können Trendfolge entweder selbst umsetzen, was substantielles Wissen und Disziplin erfordert, oder über Trendfolge-ETFs und Mutual Funds zugreifen.
 
 ## Fazit
 
-Trendfolge ist die paradoxe Strategie: Statistisch überlegen, in der Umsetzung schwierig, psychologisch herausfordernd. Sie ist kein Geheimnis — die Regeln sind seit Jahrzehnten publiziert. Aber sie konsequent umzusetzen, ist eine Frage der Disziplin, nicht der Intelligenz.
+Trendfolge ist die paradoxe Strategie: Statistisch überlegen, in der Umsetzung schwierig, psychologisch herausfordernd. Sie ist kein Geheimnis, die Regeln sind seit Jahrzehnten publiziert. Aber sie konsequent umzusetzen, ist eine Frage der Disziplin, nicht der Intelligenz.
 
-Wer Trendfolge ernsthaft erwägt, sollte zunächst ein bis zwei Jahre paper trading erproben, bevor echtes Geld eingesetzt wird. Die Strategie funktioniert — aber nur für jene, die die psychologischen Drawdowns durchstehen.
+Wer Trendfolge ernsthaft erwägt, sollte zunächst ein bis zwei Jahre paper trading erproben, bevor echtes Geld eingesetzt wird. Die Strategie funktioniert, aber nur für jene, die die psychologischen Drawdowns durchstehen.
 
 ---
 

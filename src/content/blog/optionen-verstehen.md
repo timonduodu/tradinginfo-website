@@ -12,7 +12,7 @@ Optionen sind die vielseitigsten Instrumente der Finanzmärkte. Mit ihnen lassen
 
 ## Was eine Option ist
 
-Eine Option ist ein **Vertrag, der dem Käufer das Recht — nicht die Pflicht — gibt**, einen Basiswert (z.B. eine Aktie) zu einem festgelegten Preis (Strike) zu einem definierten Zeitpunkt (Verfall) zu kaufen oder zu verkaufen.
+Eine Option ist ein **Vertrag, der dem Käufer das Recht, nicht die Pflicht, gibt**, einen Basiswert (z.B. eine Aktie) zu einem festgelegten Preis (Strike) zu einem definierten Zeitpunkt (Verfall) zu kaufen oder zu verkaufen.
 
 Zwei Grundtypen:
 
@@ -22,7 +22,7 @@ Zwei Grundtypen:
 Für dieses Recht zahlt der Käufer eine **Optionsprämie** an den Verkäufer (Stillhalter, Writer).
 
 > *"Options are not derivatives of underlying. They are derivatives of probability."*
-> — **Nassim Nicholas Taleb**
+>, **Nassim Nicholas Taleb**
 
 ## Konkretes Beispiel: Call auf Apple
 
@@ -31,7 +31,7 @@ Annahmen:
 - Call-Option mit Strike 200 USD, Verfall in 3 Monaten
 - Optionsprämie: 5 USD pro Aktie
 
-Der Käufer der Call-Option zahlt 5 USD pro Aktie (insgesamt 500 USD für einen Standard-Kontrakt über 100 Aktien). Im Gegenzug erhält er das Recht, in den nächsten drei Monaten Apple zu 200 USD zu kaufen — unabhängig davon, wo der Markt steht.
+Der Käufer der Call-Option zahlt 5 USD pro Aktie (insgesamt 500 USD für einen Standard-Kontrakt über 100 Aktien). Im Gegenzug erhält er das Recht, in den nächsten drei Monaten Apple zu 200 USD zu kaufen, unabhängig davon, wo der Markt steht.
 
 Drei Szenarien zum Verfall:
 
@@ -43,14 +43,14 @@ Drei Szenarien zum Verfall:
 
 ## Asymmetrisches Risiko-Profil
 
-Diese Mechanik schafft ein einzigartiges Risiko-Profil: **begrenzte Verluste, theoretisch unbegrenzte Gewinne**. Der Käufer einer Option kann maximal die gezahlte Prämie verlieren — selbst wenn der Basiswert um 99 % fällt.
+Diese Mechanik schafft ein einzigartiges Risiko-Profil: **begrenzte Verluste, theoretisch unbegrenzte Gewinne**. Der Käufer einer Option kann maximal die gezahlte Prämie verlieren, selbst wenn der Basiswert um 99 % fällt.
 
 Für den **Verkäufer (Stillhalter)** ist die Situation umgekehrt:
 
 - Maximaler Gewinn: die erhaltene Prämie
 - Maximaler Verlust: theoretisch unbegrenzt (bei Calls) oder bis zum Strike (bei Puts)
 
-Diese Asymmetrie macht Optionen interessant für komplexe Strategien — und gefährlich für naive Stillhalter, die das Risiko unterschätzen.
+Diese Asymmetrie macht Optionen interessant für komplexe Strategien, und gefährlich für naive Stillhalter, die das Risiko unterschätzen.
 
 ## In-the-Money, At-the-Money, Out-of-the-Money
 
@@ -62,9 +62,9 @@ Optionen werden nach ihrem Verhältnis zum aktuellen Marktpreis kategorisiert:
 | At-the-Money (ATM) | Strike ≈ Marktpreis | Strike ≈ Marktpreis |
 | Out-of-the-Money (OTM) | Strike > Marktpreis | Strike < Marktpreis |
 
-ITM-Optionen haben **inneren Wert** (intrinsic value) — der Betrag, um den sie bereits "im Geld" sind.
+ITM-Optionen haben **inneren Wert** (intrinsic value), der Betrag, um den sie bereits "im Geld" sind.
 
-ATM- und OTM-Optionen haben nur **Zeitwert** (extrinsic value) — die Wahrscheinlichkeitsbewertung, dass sie bis zum Verfall ITM werden.
+ATM- und OTM-Optionen haben nur **Zeitwert** (extrinsic value), die Wahrscheinlichkeitsbewertung, dass sie bis zum Verfall ITM werden.
 
 ## Die Greeks: Sensitivitäten verstehen
 
@@ -85,24 +85,24 @@ Delta kann auch als Näherung der **Wahrscheinlichkeit interpretiert werden, das
 
 Gamma misst, wie schnell sich Delta verändert. Hohes Gamma bedeutet, dass Delta auf Marktbewegungen stark reagiert.
 
-ATM-Optionen kurz vor Verfall haben das höchste Gamma — kleine Marktbewegungen führen zu grossen Delta-Veränderungen. Tief ITM oder tief OTM Optionen haben niedriges Gamma.
+ATM-Optionen kurz vor Verfall haben das höchste Gamma, kleine Marktbewegungen führen zu grossen Delta-Veränderungen. Tief ITM oder tief OTM Optionen haben niedriges Gamma.
 
 ### Theta (Θ)
 
-Theta misst den **Zeitwertverfall** — wie viel Wert die Option pro Tag verliert, wenn alles andere gleich bleibt.
+Theta misst den **Zeitwertverfall**, wie viel Wert die Option pro Tag verliert, wenn alles andere gleich bleibt.
 
-Theta ist für Käufer immer negativ — die Option verliert Wert über die Zeit. Für Stillhalter ist Theta positiv — die Position gewinnt durch reine Zeitabnutzung.
+Theta ist für Käufer immer negativ, die Option verliert Wert über die Zeit. Für Stillhalter ist Theta positiv, die Position gewinnt durch reine Zeitabnutzung.
 
 Theta beschleunigt sich kurz vor Verfall dramatisch. Eine ATM-Option in der letzten Verfallswoche kann täglich 10 bis 20 % ihres Werts verlieren, nur durch Zeitablauf.
 
 > *"Options are decaying batteries. The question is whether you're buying them or selling them."*
-> — **Karen Bruton**, ehemals Optionen-Traderin
+>, **Karen Bruton**, ehemals Optionen-Traderin
 
 ### Vega (ν)
 
 Vega misst die Sensitivität gegenüber der **impliziten Volatilität**. Eine Option mit Vega 0.10 gewinnt 0.10 USD an Wert pro 1 Prozentpunkt Anstieg der impliziten Volatilität.
 
-Hohe implizite Volatilität verteuert Optionen, niedrige Volatilität verbilligt sie. Wer eine Option kauft, ist long Volatilität — wer schreibt, ist short.
+Hohe implizite Volatilität verteuert Optionen, niedrige Volatilität verbilligt sie. Wer eine Option kauft, ist long Volatilität, wer schreibt, ist short.
 
 ### Rho (ρ)
 
@@ -112,7 +112,7 @@ Rho misst die Sensitivität gegenüber Zinsen. Bei den meisten kurzfristigen Opt
 
 Implizite Volatilität (IV) ist die wichtigste Variable, die Optionspreise bestimmt. Sie repräsentiert die **vom Markt erwartete zukünftige Volatilität**.
 
-Hohe IV macht Optionen teuer, niedrige IV macht sie günstig. Vor wichtigen Events (Earnings, Notenbank-Entscheidungen) steigt IV typischerweise. Nach dem Event fällt sie rapide — der berüchtigte "IV Crush", der viele unerfahrene Optionskäufer überrascht.
+Hohe IV macht Optionen teuer, niedrige IV macht sie günstig. Vor wichtigen Events (Earnings, Notenbank-Entscheidungen) steigt IV typischerweise. Nach dem Event fällt sie rapide, der berüchtigte "IV Crush", der viele unerfahrene Optionskäufer überrascht.
 
 Praktische Konsequenz: Wer Optionen kauft, sollte sicherstellen, dass die IV nicht ausserordentlich hoch ist. Wer schreibt, profitiert von hoher IV.
 
@@ -141,7 +141,7 @@ Optionen erlauben eine fast unbegrenzte Bandbreite von Strategien. Die wichtigst
 
 **Spread-Strategien.** Bull Call Spread, Bear Put Spread, Calendar Spread. Reduzieren Kosten oder Risiko durch Kombination von Kauf und Verkauf.
 
-**Synthetics.** Kombinationen, die das Verhalten anderer Positionen replizieren — z.B. ein synthetisches Long über Long Call + Short Put.
+**Synthetics.** Kombinationen, die das Verhalten anderer Positionen replizieren, z.B. ein synthetisches Long über Long Call + Short Put.
 
 Jede dieser Strategien hat eigene Eigenschaften, Risiken und ideale Marktbedingungen.
 
@@ -151,7 +151,7 @@ Aus der Optionspraxis lassen sich typische Fehler identifizieren:
 
 **Fehler 1: Theta unterschätzen.** Wer OTM-Optionen mit kurzer Restlaufzeit kauft, kämpft gegen den täglichen Zeitverfall. Selbst bei korrekter Marktrichtung kann die Option Geld verlieren.
 
-**Fehler 2: IV-Niveau ignorieren.** Optionen vor Earnings zu kaufen, wenn IV bereits hoch ist, führt fast immer zu Verlusten — selbst bei korrekter Richtungsprognose.
+**Fehler 2: IV-Niveau ignorieren.** Optionen vor Earnings zu kaufen, wenn IV bereits hoch ist, führt fast immer zu Verlusten, selbst bei korrekter Richtungsprognose.
 
 **Fehler 3: Naked Short Selling.** Optionen zu schreiben ohne Verständnis des unbegrenzten Risikos hat in jeder Generation Trader ruiniert.
 
@@ -169,11 +169,11 @@ Broker mit gutem Options-Zugang: Interactive Brokers, Saxo Bank, Swissquote (ein
 
 ## Fazit
 
-Optionen sind keine Spielzeuge, sondern hochkomplexe Finanzinstrumente. Ihre Vielseitigkeit macht sie zu einem mächtigen Werkzeug — aber nur in den Händen jener, die die zugrunde liegende Mathematik verstehen.
+Optionen sind keine Spielzeuge, sondern hochkomplexe Finanzinstrumente. Ihre Vielseitigkeit macht sie zu einem mächtigen Werkzeug, aber nur in den Händen jener, die die zugrunde liegende Mathematik verstehen.
 
 Wer mit Optionen ernsthaft arbeiten möchte, sollte mindestens drei bis sechs Monate Theorie investieren, bevor echtes Geld eingesetzt wird. Paper-Trading mit Optionen ist essentiell, um die Greeks, Zeitverfall und Volatilitätsdynamik praktisch zu erleben.
 
-Optionen können — richtig eingesetzt — die Rendite eines Portfolios glätten, gezielte Absicherungen ermöglichen und gehebelte Spekulationen mit definiertem Risiko erlauben. Falsch eingesetzt, sind sie der schnellste Weg zum Kontoverlust.
+Optionen können, richtig eingesetzt, die Rendite eines Portfolios glätten, gezielte Absicherungen ermöglichen und gehebelte Spekulationen mit definiertem Risiko erlauben. Falsch eingesetzt, sind sie der schnellste Weg zum Kontoverlust.
 
 ---
 

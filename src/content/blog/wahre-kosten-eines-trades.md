@@ -65,10 +65,10 @@ Ausgangsannahmen:
 | Spread | minimal | |
 | **Total Kaufkosten** | **~0,55 CHF** | **0,006 %** |
 
-**Differenz Swissquote vs. IBKR:** Über 170 CHF Mehrkosten — bei einem einzigen Trade.
+**Differenz Swissquote vs. IBKR:** Über 170 CHF Mehrkosten, bei einem einzigen Trade.
 
 > "Bei einem 30-jährigen Anlagehorizont kostet jeder Prozentpunkt an Gebühren Sie etwa ein Drittel Ihres Endvermögens."  
-> — *John C. Bogle, Gründer Vanguard*
+>, *John C. Bogle, Gründer Vanguard*
 
 ## Die Stempelabgabe-Falle
 
@@ -77,9 +77,9 @@ Schweizer Banken sind verpflichtet, die **Eidgenössische Umsatzabgabe** (Stempe
 - Schweizer Wertschriften: 0,075 %
 - Ausländische Wertschriften: 0,15 %
 
-Bei einem 10'000 CHF-Trade in US-Aktien sind das also **15 CHF nur Stempelabgabe** — die jeder Schweizer Broker einziehen muss.
+Bei einem 10'000 CHF-Trade in US-Aktien sind das also **15 CHF nur Stempelabgabe**, die jeder Schweizer Broker einziehen muss.
 
-**Ausländische Broker wie IBKR** sind nicht stempelabgabepflichtig. Hier sparen Aktive deutlich. Bei 100 Trades pro Jahr à 10'000 CHF sind das 1'500 CHF jährliche Ersparnis — nur durch die Stempelabgabe.
+**Ausländische Broker wie IBKR** sind nicht stempelabgabepflichtig. Hier sparen Aktive deutlich. Bei 100 Trades pro Jahr à 10'000 CHF sind das 1'500 CHF jährliche Ersparnis, nur durch die Stempelabgabe.
 
 ## Der versteckte FX-Aufschlag
 
@@ -94,20 +94,20 @@ Der **Devisenwechselkurs** ist die grösste versteckte Kostenposition bei Schwei
 | Saxo Bank CH | ~0,5 % |
 | IBKR | ~0,002 % |
 
-Bei einem 50'000 USD-Trade: 750 CHF Mehrkosten bei Swissquote im Vergleich zu IBKR — nur durch den FX-Aufschlag.
+Bei einem 50'000 USD-Trade: 750 CHF Mehrkosten bei Swissquote im Vergleich zu IBKR, nur durch den FX-Aufschlag.
 
 > "Banken verdienen ihr Geld nicht durch die offensichtlichen Gebühren, sondern durch die unsichtbaren."  
-> — *Sinngemäss, anonyme Bankerweisheit*
+>, *Sinngemäss, anonyme Bankerweisheit*
 
 ## Der Spread: Kosten die nirgends stehen
 
-Der **Spread** ist die Differenz zwischen Geld- und Briefkurs einer Aktie — er existiert auch ohne Broker, taucht aber in keiner Abrechnung auf.
+Der **Spread** ist die Differenz zwischen Geld- und Briefkurs einer Aktie, er existiert auch ohne Broker, taucht aber in keiner Abrechnung auf.
 
 Bei liquiden Aktien wie Apple oder Microsoft: 0,01–0,05 %.  
 Bei mittelliquiden Schweizer Aktien: 0,1–0,3 %.  
 Bei illiquiden Small Caps: 1 % und mehr.
 
-Der Spread wird vom **Market Maker** verdient — Sie kaufen zum höheren, verkaufen zum niedrigeren Kurs. Bei häufigem Handel akkumuliert sich das massiv.
+Der Spread wird vom **Market Maker** verdient, Sie kaufen zum höheren, verkaufen zum niedrigeren Kurs. Bei häufigem Handel akkumuliert sich das massiv.
 
 ## Depotgebühren: Selten aber relevant
 
@@ -118,13 +118,13 @@ Manche Schweizer Broker erheben jährliche **Depotgebühren**:
 - Swissquote, Yuh, Neon: 0 %
 - IBKR: 0 % (mindestens 100 USD-Konto)
 
-Bei 100'000 CHF Depot bedeutet 0,2 % Depotgebühr **200 CHF jährlich** — dauerhaft. Über 30 Jahre und mit Verzinsung gerechnet kostet das einen substanziellen Anteil der Rendite.
+Bei 100'000 CHF Depot bedeutet 0,2 % Depotgebühr **200 CHF jährlich**, dauerhaft. Über 30 Jahre und mit Verzinsung gerechnet kostet das einen substanziellen Anteil der Rendite.
 
-## Quellensteuer: Rückforderbar — aber Aufwand
+## Quellensteuer: Rückforderbar, aber Aufwand
 
 Die US-Quellensteuer von 15 % auf Dividenden ist via DA-1 zurückforderbar (siehe unser Artikel zur US-Quellensteuer). Wer das DA-1 nicht ausfüllt, **verschenkt diese 15 %**.
 
-Bei einem 100'000 CHF US-Aktien-Portfolio mit 2 % Dividendenrendite sind das 300 CHF jährliche Verzichtskosten — wenn man nicht zurückfordert.
+Bei einem 100'000 CHF US-Aktien-Portfolio mit 2 % Dividendenrendite sind das 300 CHF jährliche Verzichtskosten, wenn man nicht zurückfordert.
 
 ## Welche Kosten wann?
 
@@ -159,7 +159,7 @@ Beispiel: 100'000 CHF Portfolio, 10 Trades pro Jahr, 2 % Dividende.
 | Yuh | ~400 CHF | ~4'000 CHF |
 | IBKR (ohne CH-Steuerverzeichnis-Kosten) | ~80 CHF | ~800 CHF |
 
-Die Differenz von 6'200 CHF über 10 Jahre ist **6,2 % vom Portfolio** — verloren an Gebühren.
+Die Differenz von 6'200 CHF über 10 Jahre ist **6,2 % vom Portfolio**, verloren an Gebühren.
 
 ## Fazit
 
@@ -174,7 +174,7 @@ Die wahren Kosten eines Trades liegen oft beim **5-fachen** der beworbenen Tradi
 
 Faustregel: Wer dauerhaft mehr als 0,5 % seines Portfolios pro Jahr für Gebühren bezahlt, ist beim falschen Broker. Bei einem 30-Jahres-Anlagehorizont kostet jeder zusätzliche Gebührenprozentpunkt **rund einen Drittel der Endrendite**.
 
-Die wichtigste Investition für Schweizer Anleger ist deshalb nicht die Wahl der Aktie — sondern die Wahl des Brokers.
+Die wichtigste Investition für Schweizer Anleger ist deshalb nicht die Wahl der Aktie, sondern die Wahl des Brokers.
 
 ---
 

@@ -35,7 +35,7 @@ Die 5,90 EUR Festpreis-Gebühr ist im Markt-Vergleich Mittelmaß: günstiger als
 
 ### Negativzinsen-Kontoführung
 
-Flatex hat historisch Negativzinsen auf Cash-Guthaben verlangt — ein deutlicher Kritikpunkt. Aktuell (2026) gibt es Modelle mit positiven Zinsen, aber der Anbieter steht hier nicht in der ersten Liga.
+Flatex hat historisch Negativzinsen auf Cash-Guthaben verlangt, ein deutlicher Kritikpunkt. Aktuell (2026) gibt es Modelle mit positiven Zinsen, aber der Anbieter steht hier nicht in der ersten Liga.
 
 ### Depotgebühren
 
@@ -46,16 +46,16 @@ In der Standardvariante keine Depotgebühren. Aber: Es kann eine "Ausnahmegebüh
 Flatex bietet Zugang zu:
 - Alle deutschen Regionalbörsen (Stuttgart, Frankfurt, München, Hamburg etc.)
 - Xetra (elektronisches Handelssystem)
-- Tradegate, Gettex, LS Exchange — wichtigste ausserbörsliche Plattformen
+- Tradegate, Gettex, LS Exchange, wichtigste ausserbörsliche Plattformen
 - US-Börsen (NYSE, Nasdaq)
 - Europäische Börsen
 - Schweizer SIX
 
-Über 30 ausserbörsliche Direct-Trade-Partner — was Flatex zu einer interessanten Wahl für Optionsschein-Trader macht, die schnelle Ausführung wollen.
+Über 30 ausserbörsliche Direct-Trade-Partner, was Flatex zu einer interessanten Wahl für Optionsschein-Trader macht, die schnelle Ausführung wollen.
 
 ## Plattformen
 
-**FlatexNEXT**: Die Web-Plattform — moderne Oberfläche, Echtzeit-Kurse, Charting mit Hunderten von Indikatoren.
+**FlatexNEXT**: Die Web-Plattform, moderne Oberfläche, Echtzeit-Kurse, Charting mit Hunderten von Indikatoren.
 
 **Mobile Apps**: iOS und Android verfügbar. Funktional, aber nicht so smooth wie Trade Republic.
 
@@ -79,7 +79,7 @@ Flatex bietet Zugang zu:
 
 **1. Festpreis-Gebühr 5,90 EUR**: Im Vergleich zu Trade Republic (1 EUR) oder Scalable (0,99 EUR im Free-Tarif) deutlich teurer.
 
-**2. ETF-Sparplan-Gebühr**: 1,50 EUR pro Ausführung — bei monatlich 50 EUR Sparrate sind das 3% Kosten. Bei Trade Republic gratis.
+**2. ETF-Sparplan-Gebühr**: 1,50 EUR pro Ausführung, bei monatlich 50 EUR Sparrate sind das 3% Kosten. Bei Trade Republic gratis.
 
 **3. Negativzinsen-Geschichte**: In den Niedrigzinsphasen verlangte Flatex teilweise Negativzinsen ab niedrigen Schwellen. Auch wenn das 2026 weitgehend hinfällig ist, bleibt die Erinnerung bei vielen Kunden negativ.
 
@@ -102,7 +102,7 @@ Für reine Aktien- und ETF-Investments ist Trade Republic oder Scalable günstig
 
 ## Flatex in Österreich
 
-Flatex ist auch in Österreich aktiv und steuereinfach — die KESt 27,5% wird automatisch abgeführt. Für österreichische Kunden ist Flatex eine der wenigen "klassischen" Brokers neben Trade Republic.
+Flatex ist auch in Österreich aktiv und steuereinfach, die KESt 27,5% wird automatisch abgeführt. Für österreichische Kunden ist Flatex eine der wenigen "klassischen" Brokers neben Trade Republic.
 
 Die Gebühren in AT sind ähnlich wie in DE:
 - 5,90 EUR pro Order
@@ -119,10 +119,10 @@ Die Gebühren in AT sind ähnlich wie in DE:
 - Trader, die nicht ausschliesslich über LS Exchange handeln wollen (Trade-Republic-Limitation)
 
 **Weniger geeignet für**:
-- Kleinanleger mit Sparplänen — Trade Republic ist günstiger
-- Einsteiger, die "nur einen MSCI World" wollen — Trade Republic ist einfacher
-- Krypto-Fans — Flatex bietet kein direktes Krypto
-- Daytrader mit hohem Volumen — Spezial-Broker (CFD-Anbieter) sind passender
+- Kleinanleger mit Sparplänen, Trade Republic ist günstiger
+- Einsteiger, die "nur einen MSCI World" wollen, Trade Republic ist einfacher
+- Krypto-Fans, Flatex bietet kein direktes Krypto
+- Daytrader mit hohem Volumen, Spezial-Broker (CFD-Anbieter) sind passender
 
 ## Beispielrechnung: 1 Jahr bei Flatex
 
@@ -136,7 +136,7 @@ Annahme: 50.000 EUR Depot, 24 Trades pro Jahr (durchschnittlich 2.000 EUR pro Tr
 | Abgeltungsteuer auf Gewinne | (variabel) |
 | **Total nicht-Steuer-Kosten** | **159,60 EUR** |
 
-Bei Trade Republic wäre das (24 Trades × 1 EUR + 0 für Sparpläne) = **24 EUR** — ein massiver Unterschied bei aktivem Handel.
+Bei Trade Republic wäre das (24 Trades × 1 EUR + 0 für Sparpläne) = **24 EUR**, ein massiver Unterschied bei aktivem Handel.
 
 ## Steuerliche Aspekte
 
@@ -144,8 +144,8 @@ Bei Trade Republic wäre das (24 Trades × 1 EUR + 0 für Sparpläne) = **24 EUR
 
 **Österreich**: Steuereinfach mit KESt 27,5%. Verlustausgleich erfolgt automatisch innerhalb desselben Kalenderjahres.
 
-**Schweiz**: Flatex ist NICHT für Schweizer Wohnsitzler verfügbar — wie viele deutsche Broker.
+**Schweiz**: Flatex ist NICHT für Schweizer Wohnsitzler verfügbar, wie viele deutsche Broker.
 
 ## Fazit
 
-Flatex ist 2026 ein solider, etablierter Broker für DE und AT — aber nicht mehr die erste Wahl für Privatanleger. Die hohen Trade-Kosten machen ihn unattraktiv im Vergleich zu Neobrokern wie Trade Republic oder Scalable. Stärken liegen in der Vielfalt der Handelsplätze, dem Optionsscheine-Sortiment und der etablierten Plattform. Wer aktiv Hebelprodukte handelt oder Anleihen wünscht, kann hier richtig sein. Reine ETF-Sparer und Buy-and-Hold-Investoren fahren bei den Neobrokern deutlich günstiger.
+Flatex ist 2026 ein solider, etablierter Broker für DE und AT, aber nicht mehr die erste Wahl für Privatanleger. Die hohen Trade-Kosten machen ihn unattraktiv im Vergleich zu Neobrokern wie Trade Republic oder Scalable. Stärken liegen in der Vielfalt der Handelsplätze, dem Optionsscheine-Sortiment und der etablierten Plattform. Wer aktiv Hebelprodukte handelt oder Anleihen wünscht, kann hier richtig sein. Reine ETF-Sparer und Buy-and-Hold-Investoren fahren bei den Neobrokern deutlich günstiger.

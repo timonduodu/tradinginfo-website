@@ -8,13 +8,13 @@ author: "Redaktion"
 readingTime: "8 Min. Lesezeit"
 ---
 
-Die Schweizer Stempelabgabe ist eine der eigentümlichsten Steuern im europäischen Anlageumfeld. Sie fällt nicht auf Gewinne an, nicht auf Erträge, sondern auf den **Umsatz** — also den Wert jeder einzelnen Transaktion. Für aktive Anleger und Trader ist sie ein wesentlicher Kostenfaktor, den viele bei der Strategieplanung übersehen.
+Die Schweizer Stempelabgabe ist eine der eigentümlichsten Steuern im europäischen Anlageumfeld. Sie fällt nicht auf Gewinne an, nicht auf Erträge, sondern auf den **Umsatz**, also den Wert jeder einzelnen Transaktion. Für aktive Anleger und Trader ist sie ein wesentlicher Kostenfaktor, den viele bei der Strategieplanung übersehen.
 
 ## Was ist die Umsatzabgabe?
 
 Die Bundesgesetzgebung kennt drei Stempelabgaben: die Emissionsabgabe, die Umsatzabgabe und die Abgabe auf Versicherungsprämien. Für Wertschriftengeschäfte relevant ist die **Umsatzabgabe** (auch "Tobin-Steuer" genannt).
 
-Die rechtliche Grundlage findet sich im Bundesgesetz über die Stempelabgaben (StG). Steuerpflichtig sind Schweizer Effektenhändler — in der Praxis also alle Schweizer Banken und Wertschriftenhändler. Die Abgabe wird auf den Bruttobetrag jeder Transaktion erhoben.
+Die rechtliche Grundlage findet sich im Bundesgesetz über die Stempelabgaben (StG). Steuerpflichtig sind Schweizer Effektenhändler, in der Praxis also alle Schweizer Banken und Wertschriftenhändler. Die Abgabe wird auf den Bruttobetrag jeder Transaktion erhoben.
 
 ## Die Sätze
 
@@ -27,12 +27,12 @@ Die rechtliche Grundlage findet sich im Bundesgesetz über die Stempelabgaben (S
 
 Die Sätze gelten **pro Vertragspartei**. Bei einem typischen Geschäft fallen also doppelte Sätze an: Beim Kauf zahlt der Käufer einen Teil, der Verkäufer (institutioneller Marktteilnehmer) den anderen. In der Praxis wird die volle Abgabe auf den Endkunden überwälzt.
 
-Bei einem Kauf von US-Aktien im Wert von 10'000 CHF fallen also **15 CHF Umsatzabgabe** an. Beim Verkauf nochmal 15 CHF. Bei zehn solchen Trades pro Jahr summiert sich das auf 300 CHF — nur für Stempelabgabe, ohne Broker-Kommission und Spreads.
+Bei einem Kauf von US-Aktien im Wert von 10'000 CHF fallen also **15 CHF Umsatzabgabe** an. Beim Verkauf nochmal 15 CHF. Bei zehn solchen Trades pro Jahr summiert sich das auf 300 CHF, nur für Stempelabgabe, ohne Broker-Kommission und Spreads.
 
-> *"In Switzerland we have a saying: The Stempelsteuer is the only fee where you cheer when you have to pay it — because it means you actually got something done."*
-> — Inhaber eines Schweizer Asset Managers
+> *"In Switzerland we have a saying: The Stempelsteuer is the only fee where you cheer when you have to pay it, because it means you actually got something done."*
+>, Inhaber eines Schweizer Asset Managers
 
-## Wer ist betroffen — und wer nicht
+## Wer ist betroffen, und wer nicht
 
 Die Umsatzabgabe wird nur erhoben, wenn ein **Schweizer Effektenhändler** an der Transaktion beteiligt ist. Dies hat erhebliche praktische Konsequenzen:
 
@@ -40,7 +40,7 @@ Die Umsatzabgabe wird nur erhoben, wenn ein **Schweizer Effektenhändler** an de
 
 **Ausländische Broker (Interactive Brokers, DEGIRO):** Keine Stempelabgabe! Da hier kein Schweizer Effektenhändler beteiligt ist, entfällt die Abgabe vollständig.
 
-Dieser Unterschied ist substantiell. Ein aktiver Trader mit 100 Trades pro Jahr und durchschnittlich 5'000 CHF Volumen würde bei einem Schweizer Broker jährlich 750 bis 1'500 CHF Stempelabgabe zahlen — bei einem ausländischen Broker null.
+Dieser Unterschied ist substantiell. Ein aktiver Trader mit 100 Trades pro Jahr und durchschnittlich 5'000 CHF Volumen würde bei einem Schweizer Broker jährlich 750 bis 1'500 CHF Stempelabgabe zahlen, bei einem ausländischen Broker null.
 
 ## Befreiungen und Ausnahmen
 
@@ -63,7 +63,7 @@ Ein besonders interessanter Aspekt: Die Abgabe richtet sich nach dem **Domizil d
 | Irland, Luxemburg | 0.15 % |
 | USA | 0.15 % |
 
-Ein iShares Core MSCI World mit Domizil Irland kostet beim Kauf 0.15 % — unabhängig davon, dass er Aktien aus aller Welt enthält. Ein UBS MSCI World mit Schweizer Domizil kostet nur 0.075 %.
+Ein iShares Core MSCI World mit Domizil Irland kostet beim Kauf 0.15 %, unabhängig davon, dass er Aktien aus aller Welt enthält. Ein UBS MSCI World mit Schweizer Domizil kostet nur 0.075 %.
 
 Für langfristige Buy-and-Hold-Anleger ist dieser Unterschied unbedeutend. Für aktive ETF-Strategien mit häufigen Umschichtungen ist die Wahl des Domizils ein relevanter Kostenfaktor.
 
@@ -79,7 +79,7 @@ Wichtig: Die ausländischen Konten müssen in der Schweizer Steuererklärung dek
 
 ### 2. Längere Haltedauern
 
-Da die Abgabe pro Transaktion anfällt, reduziert sich die Belastung proportional zur Haltedauer. Eine Position über fünf Jahre statt fünf Monaten zahlt nur 1/12 der Stempelabgabe — bei identischer Endposition.
+Da die Abgabe pro Transaktion anfällt, reduziert sich die Belastung proportional zur Haltedauer. Eine Position über fünf Jahre statt fünf Monaten zahlt nur 1/12 der Stempelabgabe, bei identischer Endposition.
 
 ### 3. Direktanlage statt ETF bei kleinen Portfolios
 
@@ -90,7 +90,7 @@ Bei sehr kleinen Anlagebeträgen (unter 10'000 CHF) kann eine Direktanlage in we
 Wer einen ausgeprägten Schweizer Anlageschwerpunkt hat, fährt mit Schweizer ETFs günstiger als mit irischen oder luxemburgischen Produkten.
 
 > *"Taxes are the price we pay for civilization. But that doesn't mean we shouldn't optimize what's legally optimizable."*
-> — sinngemäss **Oliver Wendell Holmes Jr.**
+>, sinngemäss **Oliver Wendell Holmes Jr.**
 
 ## Stempelabgabe und Kapitalgewinne
 
@@ -112,7 +112,7 @@ Im europäischen Vergleich liegt die Schweizer Stempelabgabe im mittleren Bereic
 | Niederlande | keine |
 | USA | keine |
 
-Diese internationale Lage erklärt, warum London und Hongkong als Finanzplätze nie eine vergleichbar attraktive Position bei Hochfrequenzhandel einnehmen konnten — die UK-Stempelabgabe verdrängt aktive Geschäfte ins Ausland.
+Diese internationale Lage erklärt, warum London und Hongkong als Finanzplätze nie eine vergleichbar attraktive Position bei Hochfrequenzhandel einnehmen konnten, die UK-Stempelabgabe verdrängt aktive Geschäfte ins Ausland.
 
 ## Politische Diskussion
 
@@ -122,9 +122,9 @@ Eine vollständige Abschaffung scheiterte zuletzt 2022 in einer Volksabstimmung.
 
 ## Fazit
 
-Die Stempelabgabe ist für aktive Schweizer Anleger ein relevanter Kostenfaktor, der jährlich vier- bis fünfstellige Beträge ausmachen kann. Wer die Mechanik kennt — insbesondere die Befreiung bei ausländischen Brokern — kann durch strategische Broker-Wahl substantielle Beträge sparen.
+Die Stempelabgabe ist für aktive Schweizer Anleger ein relevanter Kostenfaktor, der jährlich vier- bis fünfstellige Beträge ausmachen kann. Wer die Mechanik kennt, insbesondere die Befreiung bei ausländischen Brokern, kann durch strategische Broker-Wahl substantielle Beträge sparen.
 
-Für passive Buy-and-Hold-Anleger ist die Abgabe hingegen kaum spürbar. Eine generelle Vermeidung um jeden Preis ist nicht notwendig — bewusste Einbeziehung in die Gesamtkostenrechnung jedoch unerlässlich.
+Für passive Buy-and-Hold-Anleger ist die Abgabe hingegen kaum spürbar. Eine generelle Vermeidung um jeden Preis ist nicht notwendig, bewusste Einbeziehung in die Gesamtkostenrechnung jedoch unerlässlich.
 
 ---
 

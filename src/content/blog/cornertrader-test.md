@@ -10,7 +10,7 @@ featured: false
 
 ## Wer ist Cornèrtrader?
 
-Cornèrtrader ist die Online-Trading-Plattform der Cornèr Bank, einer 1952 gegründeten Schweizer Privatbank mit Sitz in Lugano. Die Plattform wird seit 2012 betrieben und richtet sich an private und institutionelle Anleger. Cornèrtrader nutzt die Saxo-Bank-Technologie im Hintergrund — die Handelsoberfläche basiert auf der bewährten SaxoTraderGO-Plattform.
+Cornèrtrader ist die Online-Trading-Plattform der Cornèr Bank, einer 1952 gegründeten Schweizer Privatbank mit Sitz in Lugano. Die Plattform wird seit 2012 betrieben und richtet sich an private und institutionelle Anleger. Cornèrtrader nutzt die Saxo-Bank-Technologie im Hintergrund, die Handelsoberfläche basiert auf der bewährten SaxoTraderGO-Plattform.
 
 Die wichtigsten Eckdaten:
 - **Regulierung**: FINMA, vollwertige Schweizer Banklizenz
@@ -30,7 +30,7 @@ Cornèrtrader hat sein Pricing per 1. Januar 2026 angepasst. Wichtigste Neuerung
 | Deutsche/EU-Aktien | 0,12%, min. EUR 9 |
 | US-Aktien | 0,12%, min. USD 9 |
 
-Dazu kommen die Schweizer Stempelabgabe (0,075% auf CH-Aktien, 0,15% auf ausländische), die direkt an den Bund geht — diese ist nicht Cornèrtrader-spezifisch.
+Dazu kommen die Schweizer Stempelabgabe (0,075% auf CH-Aktien, 0,15% auf ausländische), die direkt an den Bund geht, diese ist nicht Cornèrtrader-spezifisch.
 
 ### Neue Depotgebühren ab 2026
 
@@ -52,7 +52,7 @@ Wichtig: Diese Gebühr ist quartalsweise und wird auf Basis des täglichen Durch
 
 ### Steuerauszug
 
-CHF 20 pro Steuerjahr für Schweizer Steueranwohner — Pflichtgebühr, auch wenn nichts gehandelt wurde.
+CHF 20 pro Steuerjahr für Schweizer Steueranwohner, Pflichtgebühr, auch wenn nichts gehandelt wurde.
 
 ## Was bietet Cornèrtrader?
 
@@ -77,7 +77,7 @@ CHF 20 pro Steuerjahr für Schweizer Steueranwohner — Pflichtgebühr, auch wen
 
 **1. Schweizer Banklizenz**: Vollwertig FINMA-reguliert, Einlagensicherung über esisuisse. Wer Wert auf "Geld bei einer Schweizer Bank" legt, ist hier richtig.
 
-**2. Multi-Asset**: Ein Konto für alles — Aktien, Anleihen, Derivate, Forex.
+**2. Multi-Asset**: Ein Konto für alles, Aktien, Anleihen, Derivate, Forex.
 
 **3. Bankfunktionen**: Seit Ende 2024 mit eigener Debitkarte, Multi-Währungskonten (CHF, EUR, USD), Zahlungen.
 
@@ -93,7 +93,7 @@ CHF 20 pro Steuerjahr für Schweizer Steueranwohner — Pflichtgebühr, auch wen
 
 **3. Wechselkursgebühr 0,5%**: Hoch im Vergleich zu IBKR (0,002%) oder DEGIRO (0,25%).
 
-**4. Steuerausweis-Gebühr**: Auch ohne Aktivität CHF 20 pro Jahr — bei kleinen Portfolios ärgerlich.
+**4. Steuerausweis-Gebühr**: Auch ohne Aktivität CHF 20 pro Jahr, bei kleinen Portfolios ärgerlich.
 
 **5. Forex für Kleinanleger ungeeignet**: USD 10 Mindestgebühr bei Positionen unter 100.000 Einheiten.
 
@@ -113,16 +113,16 @@ CHF 20 pro Steuerjahr für Schweizer Steueranwohner — Pflichtgebühr, auch wen
 ## Für wen passt Cornèrtrader?
 
 **Geeignet für**:
-- Schweizer Anleger mit kleinem Depot (bis CHF 10.000) — keine Depotgebühr
+- Schweizer Anleger mit kleinem Depot (bis CHF 10.000), keine Depotgebühr
 - Active Trader, die Multi-Asset-Flexibilität wollen
 - Anleger, die Wert auf Schweizer Banklizenz legen
 - Wer eine integrierte Lösung mit Debitkarte und Multi-Währungskonten sucht
 
 **Weniger geeignet für**:
-- Kleinanleger mit Depot CHF 10.000-50.000, die viele Trades machen — Saxo ist günstiger
-- Buy-and-Hold-Anleger mit grossen Depots — die neuen Depotgebühren sind frustrierend
+- Kleinanleger mit Depot CHF 10.000-50.000, die viele Trades machen, Saxo ist günstiger
+- Buy-and-Hold-Anleger mit grossen Depots, die neuen Depotgebühren sind frustrierend
 - Forex-Trader mit kleinen Positionen
-- Kunden, die in vielen US-Aktien handeln — IBKR oder Saxo haben bessere Wechselkurse
+- Kunden, die in vielen US-Aktien handeln, IBKR oder Saxo haben bessere Wechselkurse
 
 ## Beispielrechnung: 1 Jahr bei Cornèrtrader
 
@@ -136,7 +136,7 @@ Annahme: Depotwert CHF 80.000, 12 Trades pro Jahr (durchschnittlich CHF 5.000 pr
 | Steuerauszug | CHF 20 |
 | **Total** | **CHF 273** |
 
-Bei Saxo Bank wäre das Gleiche (ohne Depotgebühr, mit niedrigerer Mindestgebühr) bei ca. CHF 100 — also über 2/3 günstiger.
+Bei Saxo Bank wäre das Gleiche (ohne Depotgebühr, mit niedrigerer Mindestgebühr) bei ca. CHF 100, also über 2/3 günstiger.
 
 ## Steuerliche Aspekte
 
@@ -146,4 +146,4 @@ Wichtig: Cornèrtrader ist ein "non-discount broker" mit Banklizenz. Die Daten s
 
 ## Fazit
 
-Cornèrtrader bleibt 2026 ein solider, etablierter Schweizer Broker mit breitem Angebot und voller Banklizenz. Die Multi-Asset-Plattform und das Vertrauen einer 70+-jährigen Privatbank sind echte Pluspunkte. Aber: Mit der Einführung der Depotgebühren ab 2026 hat Cornèrtrader einen Wettbewerbsvorteil verloren — Saxo Bank ist für die meisten privaten Anleger jetzt klar günstiger, ohne Banklizenz-Einbusse. Wer Wert auf den Cornèr-Brand legt, einen Multi-Asset-Ansatz fährt und das Schweizer Sicherheitsgefühl schätzt, ist hier richtig. Preisbewusste Anleger sollten Saxo Bank Schweiz oder Interactive Brokers in Betracht ziehen.
+Cornèrtrader bleibt 2026 ein solider, etablierter Schweizer Broker mit breitem Angebot und voller Banklizenz. Die Multi-Asset-Plattform und das Vertrauen einer 70+-jährigen Privatbank sind echte Pluspunkte. Aber: Mit der Einführung der Depotgebühren ab 2026 hat Cornèrtrader einen Wettbewerbsvorteil verloren, Saxo Bank ist für die meisten privaten Anleger jetzt klar günstiger, ohne Banklizenz-Einbusse. Wer Wert auf den Cornèr-Brand legt, einen Multi-Asset-Ansatz fährt und das Schweizer Sicherheitsgefühl schätzt, ist hier richtig. Preisbewusste Anleger sollten Saxo Bank Schweiz oder Interactive Brokers in Betracht ziehen.

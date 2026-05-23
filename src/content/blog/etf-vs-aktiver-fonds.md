@@ -15,7 +15,7 @@ ETFs (Exchange Traded Funds) und aktive Fonds verfolgen unterschiedliche Philoso
 - **ETF**: Bildet einen Index nach (z.B. SMI, MSCI World, S&P 500). Keine aktive Auswahl, kein Manager, der versucht, den Markt zu schlagen. Stattdessen wird einfach der Index gespiegelt.
 - **Aktiver Fonds**: Ein Fondsmanager und sein Team wählen Aktien aus, mit dem Ziel, den Markt zu übertreffen ("Outperformance" oder "Alpha").
 
-Klingt simpel — aber die Konsequenzen sind enorm.
+Klingt simpel, aber die Konsequenzen sind enorm.
 
 ## Kosten: Der grösste Unterschied
 
@@ -35,7 +35,7 @@ Klingt nach einem kleinen Unterschied? Rechnen wir nach:
 - Mit 0,20% TER (ETF): Nach 30 Jahren rund **715.000**
 - Mit 1,80% TER (aktiver Fonds): Nach 30 Jahren rund **456.000**
 
-Differenz: **259.000** — nur wegen der Kosten. Albert Einstein soll den Zinseszins als "achtes Weltwunder" bezeichnet haben. Das gilt auch umgekehrt: Kostenfresser wirken über lange Zeiträume verheerend.
+Differenz: **259.000**, nur wegen der Kosten. Albert Einstein soll den Zinseszins als "achtes Weltwunder" bezeichnet haben. Das gilt auch umgekehrt: Kostenfresser wirken über lange Zeiträume verheerend.
 
 ## Performance: Was sagen die Daten?
 
@@ -68,7 +68,7 @@ Aber selbst dort: Die Mehrheit der aktiven Fonds schlägt ihren Index nicht. Und
 **Deutschland**:
 - ETFs und Fonds unterliegen der Abgeltungsteuer (25% + 5,5% Soli + ggf. Kirchensteuer)
 - **Teilfreistellung**: Bei Aktienfonds (>51% Aktienanteil) sind 30% der Erträge steuerfrei
-- **Vorabpauschale**: Auf thesaurierende Fonds wird jährlich eine pauschale Steuer fällig — auch wenn du nichts verkauft hast. Für 2026 wurde der Basiszins auf 3,20% festgesetzt.
+- **Vorabpauschale**: Auf thesaurierende Fonds wird jährlich eine pauschale Steuer fällig, auch wenn du nichts verkauft hast. Für 2026 wurde der Basiszins auf 3,20% festgesetzt.
 - Sparerpauschbetrag 2026: 1.000 EUR (Singles) / 2.000 EUR (gemeinsam veranlagt)
 
 **Österreich**:
@@ -80,7 +80,7 @@ Aber selbst dort: Die Mehrheit der aktiven Fonds schlägt ihren Index nicht. Und
 
 **ETFs**: Werden wie Aktien an der Börse gehandelt. Du kannst während der Handelszeiten jederzeit kaufen und verkaufen, der Kurs ändert sich live.
 
-**Aktive Fonds**: Werden meist einmal täglich zum Net Asset Value (NAV) abgerechnet. Wenn du um 14 Uhr eine Order gibst, wird sie zum Schlusskurs ausgeführt — du weisst beim Order-Eingang nicht, zu welchem Preis du genau kaufst.
+**Aktive Fonds**: Werden meist einmal täglich zum Net Asset Value (NAV) abgerechnet. Wenn du um 14 Uhr eine Order gibst, wird sie zum Schlusskurs ausgeführt, du weisst beim Order-Eingang nicht, zu welchem Preis du genau kaufst.
 
 ## Synthetische vs physische ETFs
 
@@ -102,4 +102,4 @@ Aktive Fonds machen meist nur dann Sinn, wenn:
 
 ## Fazit
 
-Die meisten Anleger zahlen jahrzehntelang hohe Gebühren für aktive Fonds, die statistisch schlechter abschneiden als ein günstiger Index-ETF. Wer den Unterschied zwischen 0,2% und 1,8% TER über 30 Jahre nicht aktiv bezahlen will, fängt mit ETFs an. Aktive Fonds sind nicht per se schlecht — aber sie müssen sich ihre höhere Gebühr durch Performance verdienen. Und das schafft die Minderheit.
+Die meisten Anleger zahlen jahrzehntelang hohe Gebühren für aktive Fonds, die statistisch schlechter abschneiden als ein günstiger Index-ETF. Wer den Unterschied zwischen 0,2% und 1,8% TER über 30 Jahre nicht aktiv bezahlen will, fängt mit ETFs an. Aktive Fonds sind nicht per se schlecht, aber sie müssen sich ihre höhere Gebühr durch Performance verdienen. Und das schafft die Minderheit.

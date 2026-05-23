@@ -1,6 +1,6 @@
 ---
 title: "Mean Reversion vs. Trendfolge: Zwei gegensätzliche Trading-Philosophien"
-description: "Trendfolger setzen auf 'der Trend ist dein Freund', Mean-Reversion-Trader auf die 'Rückkehr zum Mittelwert'. Beide funktionieren — unter unterschiedlichen Bedingungen."
+description: "Trendfolger setzen auf 'der Trend ist dein Freund', Mean-Reversion-Trader auf die 'Rückkehr zum Mittelwert'. Beide funktionieren, unter unterschiedlichen Bedingungen."
 pubDate: 2026-04-04
 category: "Strategien"
 subcategory: "Trendfolge"
@@ -8,7 +8,7 @@ author: "Redaktion"
 readingTime: "9 Min. Lesezeit"
 ---
 
-In der Welt des Tradings stehen sich zwei fundamental gegensätzliche Philosophien gegenüber: **Trendfolge** ("ride the trend") und **Mean Reversion** ("Rückkehr zum Mittelwert"). Beide haben jahrzehntelang funktioniert — aber unter sehr unterschiedlichen Marktbedingungen.
+In der Welt des Tradings stehen sich zwei fundamental gegensätzliche Philosophien gegenüber: **Trendfolge** ("ride the trend") und **Mean Reversion** ("Rückkehr zum Mittelwert"). Beide haben jahrzehntelang funktioniert, aber unter sehr unterschiedlichen Marktbedingungen.
 
 ## Die zwei Schulen
 
@@ -18,11 +18,11 @@ In der Welt des Tradings stehen sich zwei fundamental gegensätzliche Philosophi
 **Mean Reversion:**  
 "Extreme Bewegungen kehren zum Mittelwert zurück." Wer kauft, wenn etwas überverkauft ist, und verkauft, wenn etwas überkauft ist, profitiert von der Rückkehr zum Durchschnitt.
 
-Die beiden Ansätze widersprechen sich nicht — sie wirken nur unter verschiedenen Marktbedingungen.
+Die beiden Ansätze widersprechen sich nicht, sie wirken nur unter verschiedenen Marktbedingungen.
 
 ## Wann Trendfolge funktioniert
 
-Trendfolge profitiert in **trendigen Märkten** — also Phasen, in denen Preise sich über lange Zeit in eine Richtung bewegen.
+Trendfolge profitiert in **trendigen Märkten**, also Phasen, in denen Preise sich über lange Zeit in eine Richtung bewegen.
 
 Klassische Beispiele:
 - Aktienmarkt 2009–2021 (US-Bullenmarkt)
@@ -31,16 +31,16 @@ Klassische Beispiele:
 - Yen 2022–2024 (Carry-Trade-Bewegung)
 
 > "The trend is your friend, until the end when it bends."  
-> — *Wall Street-Sprichwort, Ursprung unklar*
+>, *Wall Street-Sprichwort, Ursprung unklar*
 
 ## Wann Mean Reversion funktioniert
 
-Mean Reversion profitiert in **seitwärtsgerichteten oder volatilen Märkten** — wenn Preise oszillieren statt zu trenden.
+Mean Reversion profitiert in **seitwärtsgerichteten oder volatilen Märkten**, wenn Preise oszillieren statt zu trenden.
 
 Klassische Beispiele:
 - US-Aktien 2000–2010 ("verlorenes Jahrzehnt")
 - EUR/USD seit 2015 (Range-bound)
-- Index-Volatilität (VIX) — siehe unser VIX-Artikel
+- Index-Volatilität (VIX), siehe unser VIX-Artikel
 - Spreads zwischen ähnlichen Assets (Pair Trading)
 
 ## Bekannte Trendfolger
@@ -50,13 +50,13 @@ Klassische Beispiele:
 **Paul Tudor Jones** kombiniert technische Trendfolge mit makroökonomischer Analyse und gehört seit Jahrzehnten zu den erfolgreichsten Tradern.
 
 > "Im Trendfolge geht es nicht darum, recht zu haben. Es geht darum, Geld zu verdienen, indem man die Bewegung mitmacht."  
-> — *Paul Tudor Jones, Tudor Investment Corporation*
+>, *Paul Tudor Jones, Tudor Investment Corporation*
 
 ## Bekannte Mean-Reversion-Strategien
 
-**Jim Simons** und sein **Medallion Fund** (Renaissance Technologies) basieren primär auf statistischer Mean Reversion — über alle Asset-Klassen, in extrem kurzen Zeitfenstern.
+**Jim Simons** und sein **Medallion Fund** (Renaissance Technologies) basieren primär auf statistischer Mean Reversion, über alle Asset-Klassen, in extrem kurzen Zeitfenstern.
 
-**Steven Cohen** (SAC, jetzt Point72) nutzte Mean Reversion in Aktien — Käufe nach Übertreibungen nach unten, Verkäufe nach Übertreibungen nach oben.
+**Steven Cohen** (SAC, jetzt Point72) nutzte Mean Reversion in Aktien, Käufe nach Übertreibungen nach unten, Verkäufe nach Übertreibungen nach oben.
 
 ## Indikatoren für Trendfolge
 
@@ -72,7 +72,7 @@ Trendfolger nutzen typischerweise:
 
 **Klassische Trendfolge-Regel:** Kauf, wenn Preis über 200-Tage-MA. Verkauf, wenn darunter.
 
-Backtest: Ein einfaches 200-Tage-MA-Modell auf den S&P 500 hätte 2000 und 2008 die grossen Crashs grossteils vermieden — aber auch viele Bullenmarkt-Phasen verpasst.
+Backtest: Ein einfaches 200-Tage-MA-Modell auf den S&P 500 hätte 2000 und 2008 die grossen Crashs grossteils vermieden, aber auch viele Bullenmarkt-Phasen verpasst.
 
 ## Indikatoren für Mean Reversion
 
@@ -88,10 +88,10 @@ Mean-Reversion-Trader nutzen typischerweise:
 
 **Klassische Mean-Reversion-Regel:** Kauf bei RSI <30, Verkauf bei RSI >70.
 
-Diese Regel funktioniert in Seitwärtsphasen extrem gut — und versagt komplett in starken Trends (wo der RSI wochenlang überkauft bleibt).
+Diese Regel funktioniert in Seitwärtsphasen extrem gut, und versagt komplett in starken Trends (wo der RSI wochenlang überkauft bleibt).
 
 > "Markets can remain irrational longer than you can remain solvent."  
-> — *John Maynard Keynes*
+>, *John Maynard Keynes*
 
 ## Das fundamentale Risiko der beiden Ansätze
 
@@ -99,7 +99,7 @@ Diese Regel funktioniert in Seitwärtsphasen extrem gut — und versagt komplett
 Sie verlieren in **Seitwärtsphasen** kontinuierlich kleine Beträge ("Death by a thousand cuts"). 60–70 % der Trades sind Verlust-Trades. Profitabilität entsteht aus wenigen großen Gewinnen.
 
 **Risiko bei Mean Reversion:**  
-Sie verdienen in 80–90 % der Trades — aber **ein einziger starker Trend** kann alle Gewinne wegwischen. Berühmtes Beispiel: Long Term Capital Management (LTCM, 1998), das auf Mean Reversion setzte und nach Verlust von 4,6 Mrd. USD vom Markt gerettet werden musste.
+Sie verdienen in 80–90 % der Trades, aber **ein einziger starker Trend** kann alle Gewinne wegwischen. Berühmtes Beispiel: Long Term Capital Management (LTCM, 1998), das auf Mean Reversion setzte und nach Verlust von 4,6 Mrd. USD vom Markt gerettet werden musste.
 
 ## Hybrid-Ansätze: Adaptive Strategien
 
@@ -110,8 +110,8 @@ Schlüsselindikatoren für das Regime:
 - **Korrelations-Cluster:** Bei Krisen brechen Korrelationen → Trendfolge weniger zuverlässig
 - **Liquidität:** Illiquide Märkte tendieren stärker zu Mean Reversion
 
-> "There is no such thing as a perfect strategy. There are only strategies that work — and strategies that work right now."  
-> — *Anonymer Quant Trader*
+> "There is no such thing as a perfect strategy. There are only strategies that work, and strategies that work right now."  
+>, *Anonymer Quant Trader*
 
 ## Praktische Implikationen für Schweizer Privatanleger
 
@@ -119,9 +119,9 @@ Schlüsselindikatoren für das Regime:
 
 **Trendfolge** erfordert eiserne Disziplin, mit 60–70 % Verlust-Trades emotional umzugehen.
 
-**Mean Reversion** verleitet dazu, "ein fallendes Messer zu fangen" — psychologisch ein Albtraum, wenn man in eine starke Abwärtsbewegung kauft.
+**Mean Reversion** verleitet dazu, "ein fallendes Messer zu fangen", psychologisch ein Albtraum, wenn man in eine starke Abwärtsbewegung kauft.
 
-Die meisten erfolgreichen Privatanleger nutzen einen dritten Weg: **Buy-and-Hold mit Rebalancing**. Das ist eine sanfte Form der Mean Reversion auf Asset-Allokationsebene — periodische Rückkehr zu den Zielgewichten zwingt zum "kaufen, wenn billig, verkaufen, wenn teuer".
+Die meisten erfolgreichen Privatanleger nutzen einen dritten Weg: **Buy-and-Hold mit Rebalancing**. Das ist eine sanfte Form der Mean Reversion auf Asset-Allokationsebene, periodische Rückkehr zu den Zielgewichten zwingt zum "kaufen, wenn billig, verkaufen, wenn teuer".
 
 ## Backtests sind nicht alles
 
@@ -131,8 +131,8 @@ Sowohl Trendfolge- als auch Mean-Reversion-Strategien werden oft mit beeindrucke
 - **Overfitting:** Strategien werden auf historische Daten optimiert und versagen live.
 - **Regime-Wechsel:** Was 30 Jahre funktionierte, kann plötzlich aufhören (z. B. Long-Vol-Strategien seit 2008 deutlich schlechter).
 
-> "Backtests sind wie Bewerbungen — sie zeigen die beste Version, nicht die Realität."  
-> — *Sinngemäss, anonymer Hedgefonds-Manager*
+> "Backtests sind wie Bewerbungen, sie zeigen die beste Version, nicht die Realität."  
+>, *Sinngemäss, anonymer Hedgefonds-Manager*
 
 ## Fazit
 
@@ -140,11 +140,11 @@ Trendfolge und Mean Reversion sind **beide gültige Trading-Philosophien**, die 
 
 1. **Trendfolge** versagt in Seitwärtsmärkten, glänzt in trendigen Phasen
 2. **Mean Reversion** versagt in starken Trends, glänzt in Range-Märkten
-3. **Beide brauchen Risikomanagement** — die Strategie selbst macht nicht reich
+3. **Beide brauchen Risikomanagement**, die Strategie selbst macht nicht reich
 
 Für Schweizer Privatanleger ist die wichtigste Erkenntnis: **Beide reinen Strategien sind emotional schwer durchzuhalten.** Wer keine systematischen Tools und Disziplin hat, fährt mit einer breit diversifizierten Buy-and-Hold-Strategie meist besser.
 
-Wer wirklich aktiv tradet, sollte sich für **eine** Philosophie entscheiden und sie konsistent verfolgen — nicht ständig wechseln. Inkonsistenz ist der grösste Renditezerstörer.
+Wer wirklich aktiv tradet, sollte sich für **eine** Philosophie entscheiden und sie konsistent verfolgen, nicht ständig wechseln. Inkonsistenz ist der grösste Renditezerstörer.
 
 ---
 

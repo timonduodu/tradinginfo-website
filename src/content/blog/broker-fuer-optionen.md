@@ -47,7 +47,7 @@ Neobroker wie Trade Republic oder Scalable bieten Optionen nicht oder nur sehr e
 - Verfügbar in CH, DE, AT
 
 **Schwächen**:
-- Komplexe Plattform — steile Lernkurve
+- Komplexe Plattform, steile Lernkurve
 - TWS (Trader Workstation) ist eingeschränkt nutzerfreundlich
 - Mindesteinlage USD 0 (theoretisch), aber praktisch erst ab 10.000 USD wirklich sinnvoll
 - Service auf Englisch (deutsche Hotline schwach)
@@ -81,7 +81,7 @@ Neobroker wie Trade Republic oder Scalable bieten Optionen nicht oder nur sehr e
 
 ## CapTrader
 
-CapTrader ist ein deutscher Vermittler von Interactive Brokers — du erhältst IBKR-Konditionen mit deutschsprachigem Service.
+CapTrader ist ein deutscher Vermittler von Interactive Brokers, du erhältst IBKR-Konditionen mit deutschsprachigem Service.
 
 **Stärken**:
 - IBKR-Konditionen ohne Englisch-Hürde
@@ -91,7 +91,7 @@ CapTrader ist ein deutscher Vermittler von Interactive Brokers — du erhältst 
 
 **Schwächen**:
 - Aufschlag auf IBKR-Gebühren (~25%)
-- Service ausschliesslich auf DACH ausgerichtet — bei internationalen Themen weniger spezialisiert
+- Service ausschliesslich auf DACH ausgerichtet, bei internationalen Themen weniger spezialisiert
 - Nicht für Schweizer Anleger geeignet (CH muss direkt zu IBKR)
 
 **Gebühren-Beispiel**: 10 SPY-Optionen via CapTrader:
@@ -134,7 +134,7 @@ Für sehr aktive Options-Trader sind diese zu teuer. Für Gelegenheits-Trader OK
 - Kurze Haltedauern (typisch für Optionen) ein weiteres
 - Wer mehrere Kriterien erfüllt, wird gewerbsmässig
 
-**Deutschland**: Termingeschäfte (auch Optionen) haben die berüchtigte **20.000 EUR Verlustverrechnungsgrenze pro Jahr**. Verluste aus Optionen können nur bis 20.000 EUR mit anderen Termingeschäftsgewinnen verrechnet werden. Das macht riskante Optionsstrategien steuerlich sehr ungünstig — Klagen vor dem Bundesverfassungsgericht laufen (Stand Anfang 2026 noch nicht entschieden).
+**Deutschland**: Termingeschäfte (auch Optionen) haben die berüchtigte **20.000 EUR Verlustverrechnungsgrenze pro Jahr**. Verluste aus Optionen können nur bis 20.000 EUR mit anderen Termingeschäftsgewinnen verrechnet werden. Das macht riskante Optionsstrategien steuerlich sehr ungünstig, Klagen vor dem Bundesverfassungsgericht laufen (Stand Anfang 2026 noch nicht entschieden).
 
 **Österreich**: Optionsgewinne unterliegen der KESt 27,5%. Bei steuereinfachen DE-Brokern (CapTrader auf Anfrage) Steuern abgeführt. Bei IBKR direkt: selbst deklarieren.
 
@@ -165,7 +165,7 @@ Für sehr aktive Options-Trader sind diese zu teuer. Für Gelegenheits-Trader OK
 ## Praktische Empfehlungen
 
 **Für Anfänger**:
-1. Starte mit Saxo Bank (CH) oder Trade Republic (DE/AT) — auch wenn TR nur eingeschränkt Optionen anbietet
+1. Starte mit Saxo Bank (CH) oder Trade Republic (DE/AT), auch wenn TR nur eingeschränkt Optionen anbietet
 2. Probiere Covered Calls oder Cash-Secured Puts mit kleinem Kapital
 3. Wenn das Volumen wächst, wechsle zu IBKR/CapTrader
 
@@ -181,8 +181,8 @@ Für sehr aktive Options-Trader sind diese zu teuer. Für Gelegenheits-Trader OK
 
 ## Risikohinweis
 
-Optionshandel ist eines der riskantesten Trading-Felder. Studien zeigen, dass über 80% der Privatanleger im Options-Trading verlieren — vor allem bei kurzlaufenden Spekulationen. Die Gebühren sind wichtig, aber Risk Management und Strategie-Disziplin sind wichtiger. Wer Optionen ohne tieferes Verständnis handelt, verliert wahrscheinlich Geld — egal bei welchem Broker.
+Optionshandel ist eines der riskantesten Trading-Felder. Studien zeigen, dass über 80% der Privatanleger im Options-Trading verlieren, vor allem bei kurzlaufenden Spekulationen. Die Gebühren sind wichtig, aber Risk Management und Strategie-Disziplin sind wichtiger. Wer Optionen ohne tieferes Verständnis handelt, verliert wahrscheinlich Geld, egal bei welchem Broker.
 
 ## Fazit
 
-Für ernsthaftes Options-Trading führt 2026 in DACH kein Weg an Interactive Brokers vorbei — entweder direkt (für CH und Deutsch-fitte Anleger) oder via CapTrader (für DE/AT mit Sprach-Komfort). Saxo Bank ist die solide Alternative mit besserer UX, aber höheren Gebühren. Cornèrtrader und klassische Banken sind für Gelegenheits-Options-Trader OK, aber nicht für ernsthafte Strategien geeignet. Wer Optionshandel anfangen will, sollte Plattform-Demos nutzen, mit kleinem Kapital testen und Schritt für Schritt komplexere Strategien aufbauen.
+Für ernsthaftes Options-Trading führt 2026 in DACH kein Weg an Interactive Brokers vorbei, entweder direkt (für CH und Deutsch-fitte Anleger) oder via CapTrader (für DE/AT mit Sprach-Komfort). Saxo Bank ist die solide Alternative mit besserer UX, aber höheren Gebühren. Cornèrtrader und klassische Banken sind für Gelegenheits-Options-Trader OK, aber nicht für ernsthafte Strategien geeignet. Wer Optionshandel anfangen will, sollte Plattform-Demos nutzen, mit kleinem Kapital testen und Schritt für Schritt komplexere Strategien aufbauen.

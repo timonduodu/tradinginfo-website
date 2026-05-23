@@ -1,6 +1,6 @@
 ---
 title: "Das KGV verstehen: Wie viel Sie wirklich für 1 Franken Gewinn zahlen"
-description: "Das Kurs-Gewinn-Verhältnis ist die meistverwendete Bewertungskennzahl an den Börsen — und gleichzeitig die meistmissverstandene. Eine fundierte Einführung."
+description: "Das Kurs-Gewinn-Verhältnis ist die meistverwendete Bewertungskennzahl an den Börsen, und gleichzeitig die meistmissverstandene. Eine fundierte Einführung."
 pubDate: 2026-05-18
 category: "Grundlagen"
 subcategory: "Bewertung"
@@ -8,7 +8,7 @@ author: "Redaktion"
 readingTime: "8 Min. Lesezeit"
 ---
 
-Das Kurs-Gewinn-Verhältnis — international als **P/E-Ratio** bekannt — ist die wohl populärste Bewertungskennzahl an den Aktienmärkten. Kaum eine Unternehmensanalyse, kaum ein Börsenartikel kommt ohne diese Zahl aus. Trotz ihrer Allgegenwart wird sie regelmässig falsch interpretiert. Eine fundierte Auseinandersetzung lohnt sich für jeden Anleger.
+Das Kurs-Gewinn-Verhältnis, international als **P/E-Ratio** bekannt, ist die wohl populärste Bewertungskennzahl an den Aktienmärkten. Kaum eine Unternehmensanalyse, kaum ein Börsenartikel kommt ohne diese Zahl aus. Trotz ihrer Allgegenwart wird sie regelmässig falsch interpretiert. Eine fundierte Auseinandersetzung lohnt sich für jeden Anleger.
 
 ## Die Definition
 
@@ -21,7 +21,7 @@ Notiert eine Aktie zu 100 Franken und erwirtschaftete sie im letzten Jahr 5 Fran
 Interpretiert man die Zahl umgekehrt, entspricht ein KGV von 20 einer **Gewinnrendite** von 5 Prozent (1 geteilt durch 20). Diese Sichtweise erleichtert den Vergleich mit Anleihen-Renditen erheblich.
 
 > *"Price is what you pay. Value is what you get."*
-> — **Warren Buffett**
+>, **Warren Buffett**
 
 ## Trailing vs. Forward
 
@@ -31,7 +31,7 @@ Die Definition klingt simpel, hat aber eine entscheidende Variable: **welcher Ge
 
 **Forward P/E:** stützt sich auf den erwarteten Gewinn der kommenden zwölf Monate. Zukunftsorientiert, aber abhängig von Analystenprognosen, die regelmässig daneben liegen.
 
-Die meisten Finanzportale zeigen standardmässig das Trailing-KGV. Bei stark wachsenden Unternehmen kann das Forward-KGV dramatisch tiefer aussehen — was Optimismus erzeugen kann, der nicht immer berechtigt ist.
+Die meisten Finanzportale zeigen standardmässig das Trailing-KGV. Bei stark wachsenden Unternehmen kann das Forward-KGV dramatisch tiefer aussehen, was Optimismus erzeugen kann, der nicht immer berechtigt ist.
 
 ## Historische Einordnung
 
@@ -44,7 +44,7 @@ Welche KGV-Niveaus sind hoch, welche tief? Eine empirische Einordnung:
 | Nasdaq 100 | ca. 22 bis 28 | 12 bis 40 |
 | MSCI Emerging Markets | ca. 13 bis 16 | 8 bis 22 |
 
-Diese Bandbreiten sind nicht in Stein gemeisselt. Das Shiller-KGV (Cyclically Adjusted Price-to-Earnings Ratio, CAPE) des S&P 500 erreichte 1999 historische Höchstwerte über 40, bevor die Dotcom-Blase platzte. Im März 2009 lag es zeitweise unter 14 — eine seltene Gelegenheit für Long-Term-Investoren.
+Diese Bandbreiten sind nicht in Stein gemeisselt. Das Shiller-KGV (Cyclically Adjusted Price-to-Earnings Ratio, CAPE) des S&P 500 erreichte 1999 historische Höchstwerte über 40, bevor die Dotcom-Blase platzte. Im März 2009 lag es zeitweise unter 14, eine seltene Gelegenheit für Long-Term-Investoren.
 
 ## Was ein hohes KGV bedeuten kann
 
@@ -64,26 +64,26 @@ Auch ein niedriges KGV ist nicht automatisch ein Kaufsignal:
 
 **Strukturelle Probleme.** Unternehmen in schrumpfenden Industrien (Print-Medien, Kohle, Tabak) handeln oft zu niedrigen KGVs, weil ihre Gewinne langfristig sinken.
 
-**Zyklische Hochs.** Bei zyklischen Werten (Automobil, Banken, Rohstoffe) sind die KGVs am Top des Zyklus tief — der Markt erwartet bereits einen Gewinneinbruch.
+**Zyklische Hochs.** Bei zyklischen Werten (Automobil, Banken, Rohstoffe) sind die KGVs am Top des Zyklus tief, der Markt erwartet bereits einen Gewinneinbruch.
 
 **Spezifische Risiken.** Rechtsstreitigkeiten, Regulierungsrisiken oder Bilanzunsicherheiten drücken das KGV.
 
 **Echte Unterbewertung.** In wenigen Fällen sind niedrige KGVs tatsächlich Kaufgelegenheiten. Das herauszufinden ist die Königsdisziplin des Value-Investings.
 
 > *"The most important thing to value investors is the difference between price and value. The KGV is just one tool to find it."*
-> — **Howard Marks**
+>, **Howard Marks**
 
 ## Grenzen des KGV
 
 Das KGV hat fundamentale Schwächen, die Anleger kennen sollten:
 
-**Bilanzielle Beeinflussbarkeit.** Unternehmen können ihre ausgewiesenen Gewinne durch Bilanzierungsentscheidungen steuern — Abschreibungen, Rückstellungen, Aktivierungen. Zwei Unternehmen mit identischer wirtschaftlicher Lage können sehr unterschiedliche KGVs ausweisen.
+**Bilanzielle Beeinflussbarkeit.** Unternehmen können ihre ausgewiesenen Gewinne durch Bilanzierungsentscheidungen steuern, Abschreibungen, Rückstellungen, Aktivierungen. Zwei Unternehmen mit identischer wirtschaftlicher Lage können sehr unterschiedliche KGVs ausweisen.
 
-**Verlust-Situationen.** Ein Unternehmen mit Verlust hat ein negatives KGV — die Kennzahl wird wertlos. Bei jungen Wachstumsunternehmen ist sie deshalb oft nicht aussagekräftig.
+**Verlust-Situationen.** Ein Unternehmen mit Verlust hat ein negatives KGV, die Kennzahl wird wertlos. Bei jungen Wachstumsunternehmen ist sie deshalb oft nicht aussagekräftig.
 
 **Einmaleffekte.** Aktiengewinne, Sondererträge oder Restrukturierungskosten können das KGV einmalig verzerren.
 
-**Branchen-Unterschiede.** Ein KGV-Vergleich zwischen einer Bank und einem Software-Unternehmen ist wenig sinnvoll — die Geschäftsmodelle sind zu unterschiedlich.
+**Branchen-Unterschiede.** Ein KGV-Vergleich zwischen einer Bank und einem Software-Unternehmen ist wenig sinnvoll, die Geschäftsmodelle sind zu unterschiedlich.
 
 ## Ergänzende Kennzahlen
 
@@ -96,7 +96,7 @@ Professionelle Anleger nutzen das KGV deshalb nie isoliert. Wichtige Ergänzunge
 - **Dividendenrendite:** Spielt eine wichtige Rolle bei Income-orientierten Strategien.
 
 > *"No single financial metric tells the whole story. The KGV is the first question, never the last."*
-> — Sinngemäss **Aswath Damodaran**, Bewertungs-Professor
+>, Sinngemäss **Aswath Damodaran**, Bewertungs-Professor
 
 ## Anwendung in der Praxis
 

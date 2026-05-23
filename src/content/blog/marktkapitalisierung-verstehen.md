@@ -16,7 +16,7 @@ Die Marktkapitalisierung (kurz: Marktcap oder MCap) ist der Gesamtwert eines Unt
 
 Beispiel: Nestlé hat (Stand frühes 2026) rund 2,5 Milliarden ausstehende Aktien zu einem Kurs von etwa CHF 80. Das ergibt eine Marktkapitalisierung von ungefähr CHF 200 Milliarden.
 
-Die Marktcap zeigt dir, wie viel Geld du theoretisch bräuchtest, um sämtliche Aktien des Unternehmens aufzukaufen. In der Praxis wäre das natürlich teurer, weil ein massiver Kaufdruck den Kurs in die Höhe treiben würde — aber als Referenzwert ist die Marktcap eine der wichtigsten Kennzahlen überhaupt.
+Die Marktcap zeigt dir, wie viel Geld du theoretisch bräuchtest, um sämtliche Aktien des Unternehmens aufzukaufen. In der Praxis wäre das natürlich teurer, weil ein massiver Kaufdruck den Kurs in die Höhe treiben würde, aber als Referenzwert ist die Marktcap eine der wichtigsten Kennzahlen überhaupt.
 
 ## Warum die Marktcap so wichtig ist
 
@@ -40,32 +40,32 @@ Es gibt keine offizielle internationale Definition, aber folgende Einteilung ist
 | Small Cap | 300 Mio.–2 Mrd. | Bachem, Bossard |
 | Micro Cap | < 300 Mio. | viele Nebenwerte an der SIX |
 
-In Deutschland und Österreich wird oft auch der Begriff "Blue Chip" für Large/Mega Caps verwendet — also die etablierten Schwergewichte aus dem DAX bzw. ATX.
+In Deutschland und Österreich wird oft auch der Begriff "Blue Chip" für Large/Mega Caps verwendet, also die etablierten Schwergewichte aus dem DAX bzw. ATX.
 
 ## DACH-Vergleich: SMI vs DAX vs ATX
 
-**Schweiz (SMI)**: Sehr konzentriert. Die drei grössten Werte (Nestlé, Roche, Novartis) machen typischerweise rund die Hälfte des gesamten Indexgewichts aus. Das heisst: Wer einen SMI-ETF kauft, kauft de facto vor allem diese drei Aktien. Ein interessanter Aspekt: Die Schweiz hat im internationalen Vergleich überdurchschnittlich viele Mega-Cap-Unternehmen gemessen an ihrer Wirtschaftsgrösse — ein Resultat der starken Position in Pharma und Konsumgüter.
+**Schweiz (SMI)**: Sehr konzentriert. Die drei grössten Werte (Nestlé, Roche, Novartis) machen typischerweise rund die Hälfte des gesamten Indexgewichts aus. Das heisst: Wer einen SMI-ETF kauft, kauft de facto vor allem diese drei Aktien. Ein interessanter Aspekt: Die Schweiz hat im internationalen Vergleich überdurchschnittlich viele Mega-Cap-Unternehmen gemessen an ihrer Wirtschaftsgrösse, ein Resultat der starken Position in Pharma und Konsumgüter.
 
-**Deutschland (DAX)**: Seit September 2021 umfasst der DAX 40 statt 30 Werte. Die Gewichtung ist weniger konzentriert als beim SMI, aber SAP, Siemens und Allianz dominieren. Anders als die Schweizer Schwergewichte ist Deutschland industrielastiger — viel Automobil, Chemie, Maschinenbau.
+**Deutschland (DAX)**: Seit September 2021 umfasst der DAX 40 statt 30 Werte. Die Gewichtung ist weniger konzentriert als beim SMI, aber SAP, Siemens und Allianz dominieren. Anders als die Schweizer Schwergewichte ist Deutschland industrielastiger, viel Automobil, Chemie, Maschinenbau.
 
-**Österreich (ATX)**: Mit 20 Werten ähnlich aufgebaut wie der SMI, aber kleiner. OMV, Erste Group und Verbund sind oft unter den Top 3. Der ATX ist deutlich zyklischer als SMI oder DAX, weil viele Werte aus den Bereichen Banken, Versorger und Industrie stammen — Sektoren, die stark mit der Konjunktur schwanken.
+**Österreich (ATX)**: Mit 20 Werten ähnlich aufgebaut wie der SMI, aber kleiner. OMV, Erste Group und Verbund sind oft unter den Top 3. Der ATX ist deutlich zyklischer als SMI oder DAX, weil viele Werte aus den Bereichen Banken, Versorger und Industrie stammen, Sektoren, die stark mit der Konjunktur schwanken.
 
 ## Praktische Konsequenzen für deine Anlagestrategie
 
-**Diversifikation**: Wer nur in Large Caps investiert, verzichtet auf die historisch höheren Renditen kleinerer Werte. Eugene Fama und Kenneth French haben Ende der 1990er-Jahre gezeigt, dass Small Caps langfristig im Schnitt höhere Renditen liefern als Large Caps — der berühmte "Size Factor". Allerdings: höhere Renditen bedeuten auch höhere Schwankungen.
+**Diversifikation**: Wer nur in Large Caps investiert, verzichtet auf die historisch höheren Renditen kleinerer Werte. Eugene Fama und Kenneth French haben Ende der 1990er-Jahre gezeigt, dass Small Caps langfristig im Schnitt höhere Renditen liefern als Large Caps, der berühmte "Size Factor". Allerdings: höhere Renditen bedeuten auch höhere Schwankungen.
 
-**Steuerliche Aspekte (Schweiz)**: Für Schweizer Privatanleger ist die Marktcap selbst steuerlich irrelevant — Kapitalgewinne sind steuerfrei, egal ob bei Nestlé oder bei einer Small Cap. Dividenden grosser Schweizer Aktien unterliegen der 35% Verrechnungssteuer, die du via Steuererklärung zurückholst.
+**Steuerliche Aspekte (Schweiz)**: Für Schweizer Privatanleger ist die Marktcap selbst steuerlich irrelevant, Kapitalgewinne sind steuerfrei, egal ob bei Nestlé oder bei einer Small Cap. Dividenden grosser Schweizer Aktien unterliegen der 35% Verrechnungssteuer, die du via Steuererklärung zurückholst.
 
 **Steuerliche Aspekte (Deutschland)**: Hier gilt die Abgeltungsteuer (25% + 5,5% Solidaritätszuschlag + ggf. Kirchensteuer = effektiv ca. 26,38%) für alle Aktien, unabhängig von der Grösse.
 
-**Steuerliche Aspekte (Österreich)**: KESt 27,5% auf Aktiengewinne und Dividenden — wieder unabhängig von der Marktcap.
+**Steuerliche Aspekte (Österreich)**: KESt 27,5% auf Aktiengewinne und Dividenden, wieder unabhängig von der Marktcap.
 
 ## Was die Marktcap NICHT misst
 
 Wichtig zu verstehen: Die Marktcap zeigt, was die Börse heute über das Unternehmen denkt. Sie sagt nichts darüber aus, ob die Aktie billig oder teuer ist. Eine kleine Aktie kann fundamental teurer sein als eine grosse, und umgekehrt.
 
-Für die Bewertung brauchst du andere Kennzahlen wie das KGV (Kurs-Gewinn-Verhältnis), das KBV (Kurs-Buchwert-Verhältnis) oder das EV/EBITDA. Die Marktcap ist die Eingangstür — was dahinter steht, musst du selbst analysieren.
+Für die Bewertung brauchst du andere Kennzahlen wie das KGV (Kurs-Gewinn-Verhältnis), das KBV (Kurs-Buchwert-Verhältnis) oder das EV/EBITDA. Die Marktcap ist die Eingangstür, was dahinter steht, musst du selbst analysieren.
 
 ## Fazit
 
-Die Marktkapitalisierung ist die wichtigste Grundkennzahl, die du als Trader und Anleger im Kopf haben solltest. Sie bestimmt, in welchen Index eine Aktie kommt, wie liquide sie ist, und sie gibt dir einen ersten Eindruck vom Risikoprofil. Wer in der Schweiz, Deutschland oder Österreich investiert, sollte die jeweiligen Indexstrukturen kennen — denn ein SMI-ETF, ein DAX-ETF und ein ATX-ETF sind drei sehr unterschiedliche Investments, auch wenn sie alle "Heimatmarkt" abdecken.
+Die Marktkapitalisierung ist die wichtigste Grundkennzahl, die du als Trader und Anleger im Kopf haben solltest. Sie bestimmt, in welchen Index eine Aktie kommt, wie liquide sie ist, und sie gibt dir einen ersten Eindruck vom Risikoprofil. Wer in der Schweiz, Deutschland oder Österreich investiert, sollte die jeweiligen Indexstrukturen kennen, denn ein SMI-ETF, ein DAX-ETF und ein ATX-ETF sind drei sehr unterschiedliche Investments, auch wenn sie alle "Heimatmarkt" abdecken.

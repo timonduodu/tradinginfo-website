@@ -10,29 +10,29 @@ featured: false
 
 ## Was ist Pairs Trading?
 
-Pairs Trading ist eine marktneutrale Strategie, bei der du gleichzeitig zwei Aktien handelst — eine long, eine short. Idealerweise zwei Aktien, die historisch stark korreliert sind, sich aber gerade temporär auseinander entwickelt haben. Du wettest darauf, dass sie wieder zueinander finden.
+Pairs Trading ist eine marktneutrale Strategie, bei der du gleichzeitig zwei Aktien handelst, eine long, eine short. Idealerweise zwei Aktien, die historisch stark korreliert sind, sich aber gerade temporär auseinander entwickelt haben. Du wettest darauf, dass sie wieder zueinander finden.
 
-Beispiel: BMW und Mercedes-Benz Group. Beides deutsche Premium-Autohersteller. Wenn BMW relativ zu Mercedes überdurchschnittlich steigt, wetten Pairs Trader darauf, dass dieser Spread wieder zusammenrückt — also: Short BMW, Long Mercedes.
+Beispiel: BMW und Mercedes-Benz Group. Beides deutsche Premium-Autohersteller. Wenn BMW relativ zu Mercedes überdurchschnittlich steigt, wetten Pairs Trader darauf, dass dieser Spread wieder zusammenrückt, also: Short BMW, Long Mercedes.
 
-Die geniale Idee: **Egal in welche Richtung der Markt insgesamt geht** — solange der Spread zwischen BMW und Mercedes sich verringert, gewinnst du.
+Die geniale Idee: **Egal in welche Richtung der Markt insgesamt geht**, solange der Spread zwischen BMW und Mercedes sich verringert, gewinnst du.
 
 ## Die Mechanik
 
 **Schritt 1**: Identifiziere ein Paar mit hoher historischer Korrelation (>0,8).
 
-**Schritt 2**: Berechne den "Spread" — entweder als Preisdifferenz oder als Verhältnis (Ratio).
+**Schritt 2**: Berechne den "Spread", entweder als Preisdifferenz oder als Verhältnis (Ratio).
 
-**Schritt 3**: Überwache, wann der Spread vom historischen Mittel abweicht — z.B. 2 Standardabweichungen.
+**Schritt 3**: Überwache, wann der Spread vom historischen Mittel abweicht, z.B. 2 Standardabweichungen.
 
 **Schritt 4**: Wenn der Spread abnormal hoch ist:
 - Short die teurere Aktie
 - Long die günstigere Aktie
 
-**Schritt 5**: Position halten, bis der Spread wieder zum Mittel zurückgekehrt ist — dann Gewinn realisieren.
+**Schritt 5**: Position halten, bis der Spread wieder zum Mittel zurückgekehrt ist, dann Gewinn realisieren.
 
 ## Beispielrechnung
 
-Annahme: Du beobachtest BMW (EUR 80) und Mercedes (EUR 60). Historisches Preisverhältnis: BMW/Mercedes = 1,4. Aktuelles Verhältnis: 80/60 = 1,33 — BMW relativ "billig". 
+Annahme: Du beobachtest BMW (EUR 80) und Mercedes (EUR 60). Historisches Preisverhältnis: BMW/Mercedes = 1,4. Aktuelles Verhältnis: 80/60 = 1,33, BMW relativ "billig". 
 
 **Strategie**:
 - Long 100 BMW-Aktien (EUR 8.000 Einsatz)
@@ -42,7 +42,7 @@ Annahme: Du beobachtest BMW (EUR 80) und Mercedes (EUR 60). Historisches Preisve
 **Szenario 1**: Markt fällt 10%. BMW fällt auf 72, Mercedes auf 54.
 - Long: -800 EUR
 - Short: +800 EUR
-- Netto: 0 — marktneutral!
+- Netto: 0, marktneutral!
 
 **Szenario 2**: Spread normalisiert sich. BMW steigt auf 84, Mercedes auf 60.
 - Long: +400 EUR
@@ -65,26 +65,26 @@ Das ist die Magie: Du profitierst von der Normalisierung, nicht von der Marktric
 - Nestlé vs Unilever (CH/UK)
 - Roche vs Novartis (CH)
 - Erste Group vs Raiffeisen (AT)
-- UBS vs Credit Suisse — historisch das klassische Paar (heute durch Fusion irrelevant)
+- UBS vs Credit Suisse, historisch das klassische Paar (heute durch Fusion irrelevant)
 
-**Aber Achtung**: Manche scheinbar "passende" Paare sind eben NICHT korreliert — z.B. Adidas und Puma sehen ähnlich aus, haben aber unterschiedliche Margen und Strategien.
+**Aber Achtung**: Manche scheinbar "passende" Paare sind eben NICHT korreliert, z.B. Adidas und Puma sehen ähnlich aus, haben aber unterschiedliche Margen und Strategien.
 
 ## Pair-Finding-Tools
 
 **Statistische Methoden**:
 - **Pearson-Korrelation**: Misst lineare Korrelation
-- **Kointegration**: Statistischer Test für langfristige Beziehungen — empfohlen statt blosser Korrelation
+- **Kointegration**: Statistischer Test für langfristige Beziehungen, empfohlen statt blosser Korrelation
 - **Z-Score**: Wie viele Standardabweichungen ist der aktuelle Spread vom Mittel entfernt
 
 **Software**:
-- Python mit pandas und statsmodels — der Profistandard
+- Python mit pandas und statsmodels, der Profistandard
 - TradingView mit Custom-Skripten
-- QuantConnect — Plattform für quantitatives Trading
-- Excel — für Anfänger
+- QuantConnect, Plattform für quantitatives Trading
+- Excel, für Anfänger
 
 ## Risiken
 
-**1. "Pair breakdown"**: Die historische Korrelation funktioniert plötzlich nicht mehr. Bestes Beispiel: VW vs BMW im Abgas-Skandal 2015 — VW kollabierte, BMW nicht. Wer gegen den Spread positioniert war, hatte massive Verluste.
+**1. "Pair breakdown"**: Die historische Korrelation funktioniert plötzlich nicht mehr. Bestes Beispiel: VW vs BMW im Abgas-Skandal 2015, VW kollabierte, BMW nicht. Wer gegen den Spread positioniert war, hatte massive Verluste.
 
 **2. Beidseitige Verluste**: Wenn der Spread weiter auseinandergeht statt sich zu schliessen, verlierst du auf beiden Seiten.
 
@@ -116,7 +116,7 @@ Das limitiert das Profitpotenzial, schützt aber auch vor Totalverlust.
 
 Die ESTV wird Pairs Trading mit hoher Wahrscheinlichkeit als gewerbsmässig einstufen. Konsequenz: Gewinne sind als Einkommen steuerpflichtig + AHV/IV. Privatanleger sollten das im Hinterkopf haben.
 
-**Deutschland**: CFD-Gewinne unterliegen der Abgeltungsteuer. **Aber**: Termingeschäfte (CFDs) haben die Verlustverrechnungsbeschränkung von 20.000 EUR pro Jahr — bei aktiven Pairs Traders sehr relevant.
+**Deutschland**: CFD-Gewinne unterliegen der Abgeltungsteuer. **Aber**: Termingeschäfte (CFDs) haben die Verlustverrechnungsbeschränkung von 20.000 EUR pro Jahr, bei aktiven Pairs Traders sehr relevant.
 
 **Österreich**: KESt 27,5%. Bei Pairs Trading über ausländische Broker selbst zu deklarieren. Verluste nur im selben Jahr verrechenbar.
 
@@ -130,9 +130,9 @@ Pairs Trading wurde in den 1980ern von Morgan-Stanley-Quant Nunzio Tartaglia und
 
 ## Realistische Renditen
 
-Pairs Trading hat eine niedrige Volatilität, aber auch geringere Renditen als Long-Only-Strategien. Realistisch sind 5-15% pro Jahr — aber mit deutlich geringerem Drawdown als bei reinem Aktien-Investment.
+Pairs Trading hat eine niedrige Volatilität, aber auch geringere Renditen als Long-Only-Strategien. Realistisch sind 5-15% pro Jahr, aber mit deutlich geringerem Drawdown als bei reinem Aktien-Investment.
 
-Der Sharpe-Ratio (risikoadjustierte Rendite) ist oft besser als beim Markt — das macht es für institutionelle Investoren attraktiv.
+Der Sharpe-Ratio (risikoadjustierte Rendite) ist oft besser als beim Markt, das macht es für institutionelle Investoren attraktiv.
 
 ## Häufige Fehler
 
@@ -140,7 +140,7 @@ Der Sharpe-Ratio (risikoadjustierte Rendite) ist oft besser als beim Markt — d
 
 **2. Zu kleine Stichprobe**: Wer Korrelation aus 6 Monaten Daten ableitet, hat keine zuverlässige Basis. Mindestens 2-3 Jahre Daten verwenden.
 
-**3. Transaktionskosten unterschätzen**: Bei jedem Trade zwei Positionen — also doppelte Kosten und Spreads.
+**3. Transaktionskosten unterschätzen**: Bei jedem Trade zwei Positionen, also doppelte Kosten und Spreads.
 
 **4. Zu konzentrierte Bets**: Wer 80% seines Kapitals in einem Pair-Trade hat, fliegt beim Pair Breakdown ab.
 
@@ -159,4 +159,4 @@ Für die meisten Anleger ist es einfacher und effektiver, in einen breiten ETF z
 
 ## Fazit
 
-Pairs Trading ist eine elegante, mathematisch fundierte Strategie, die in Theorie marktunabhängig sein kann. In der Praxis ist es komplex umzusetzen, hat versteckte Kosten und kann bei "Pair Breakdowns" hohe Verluste verursachen. Für institutionelle Investoren und ambitionierte Privatanleger mit Quant-Background ist es ein wertvolles Werkzeug. Für die meisten anderen ist es Overkill — ein gut diversifiziertes Aktien-ETF-Portfolio liefert ähnliche Vorteile bei viel weniger Aufwand und Stress.
+Pairs Trading ist eine elegante, mathematisch fundierte Strategie, die in Theorie marktunabhängig sein kann. In der Praxis ist es komplex umzusetzen, hat versteckte Kosten und kann bei "Pair Breakdowns" hohe Verluste verursachen. Für institutionelle Investoren und ambitionierte Privatanleger mit Quant-Background ist es ein wertvolles Werkzeug. Für die meisten anderen ist es Overkill, ein gut diversifiziertes Aktien-ETF-Portfolio liefert ähnliche Vorteile bei viel weniger Aufwand und Stress.

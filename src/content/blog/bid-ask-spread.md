@@ -20,11 +20,11 @@ Jedes liquide Wertpapier wird in zwei Preisen gehandelt:
 
 Ein Beispiel: Die Nestlé-Aktie wird mit Bid 92.50 CHF und Ask 92.54 CHF quotiert. Wer Nestlé jetzt sofort kaufen möchte, zahlt 92.54 CHF. Wer sofort verkaufen will, erhält 92.50 CHF.
 
-Der **Bid-Ask-Spread** beträgt in diesem Beispiel 0.04 CHF — die Differenz zwischen Käufer- und Verkäuferseite.
+Der **Bid-Ask-Spread** beträgt in diesem Beispiel 0.04 CHF, die Differenz zwischen Käufer- und Verkäuferseite.
 
 ## Wer setzt diese Preise?
 
-Im modernen elektronischen Handel gibt es keinen einzelnen "Quotierer". Stattdessen entstehen die Preise aus dem **Orderbuch** — einer fortlaufenden Liste aller offenen Kauf- und Verkaufsorders.
+Im modernen elektronischen Handel gibt es keinen einzelnen "Quotierer". Stattdessen entstehen die Preise aus dem **Orderbuch**, einer fortlaufenden Liste aller offenen Kauf- und Verkaufsorders.
 
 Das Orderbuch für eine Aktie sieht typischerweise so aus:
 
@@ -38,11 +38,11 @@ Das Orderbuch für eine Aktie sieht typischerweise so aus:
 Der **best bid** ist der höchste Kaufpreis (92.50), der **best ask** der niedrigste Verkaufspreis (92.54). Dazwischen liegt der Spread.
 
 > *"The order book is the market. Everything else is interpretation."*
-> — anonymer Marktmacher
+>, anonymer Marktmacher
 
-## Market Maker — die unsichtbaren Akteure
+## Market Maker, die unsichtbaren Akteure
 
-In stark liquiden Aktien werden Bid und Ask häufig durch **Market Maker** gestellt. Das sind Firmen, die sich verpflichten, kontinuierlich An- und Verkaufspreise zu stellen — sie machen den Markt im wörtlichen Sinne.
+In stark liquiden Aktien werden Bid und Ask häufig durch **Market Maker** gestellt. Das sind Firmen, die sich verpflichten, kontinuierlich An- und Verkaufspreise zu stellen, sie machen den Markt im wörtlichen Sinne.
 
 Bekannte institutionelle Market Maker sind Citadel Securities, Virtu Financial, Optiver oder Susquehanna. In Europa sind Banken wie die UBS, die Deutsche Bank oder die niederländische Flow Traders aktiv.
 
@@ -77,20 +77,20 @@ Typische Spread-Bandbreiten:
 | Bundesanleihen | wenige Basispunkte |
 | High-Yield-Anleihen | 0.5 bis 2 % |
 
-Diese Werte verändern sich mit dem Marktumfeld. In der Coronakrise im März 2020 weiteten sich Spreads dramatisch — auch bei eigentlich liquiden Werten.
+Diese Werte verändern sich mit dem Marktumfeld. In der Coronakrise im März 2020 weiteten sich Spreads dramatisch, auch bei eigentlich liquiden Werten.
 
 ## Mid-Price und Last-Price
 
 Neben Bid und Ask werden zwei weitere Preise oft genannt:
 
-**Mid-Price:** Der arithmetische Durchschnitt von Bid und Ask. Bei 92.50 / 92.54 beträgt der Mid-Price 92.52. Diese Zahl wird häufig für indikative Zwecke verwendet — etwa für Charts oder Portfolio-Bewertungen.
+**Mid-Price:** Der arithmetische Durchschnitt von Bid und Ask. Bei 92.50 / 92.54 beträgt der Mid-Price 92.52. Diese Zahl wird häufig für indikative Zwecke verwendet, etwa für Charts oder Portfolio-Bewertungen.
 
-**Last-Price:** Der Preis des zuletzt abgewickelten Trades. Dieser kann sowohl beim Bid als auch beim Ask gelegen haben — je nachdem, ob der letzte Trade ein Kauf oder Verkauf war.
+**Last-Price:** Der Preis des zuletzt abgewickelten Trades. Dieser kann sowohl beim Bid als auch beim Ask gelegen haben, je nachdem, ob der letzte Trade ein Kauf oder Verkauf war.
 
 In ruhigen Märkten liegen alle drei Preise nah beieinander. In bewegten Phasen können sie deutlich voneinander abweichen.
 
 > *"The last price tells you where the market was. The bid-ask tells you where it is."*
-> — anonymer Floor-Trader
+>, anonymer Floor-Trader
 
 ## Praktische Konsequenzen für Trader
 
@@ -98,9 +98,9 @@ Das Verständnis des Bid-Ask-Spreads hat unmittelbare Auswirkungen auf jede Trad
 
 **1. Market-Orders zahlen den Spread.** Eine Kauf-Market-Order wird zum Ask ausgeführt, eine Verkauf-Market-Order zum Bid. Bei jedem Round-Trip-Trade (kaufen und verkaufen) ist der Spread eine Kostenposition.
 
-**2. Limit-Orders können den Spread vereinnahmen.** Wer mit einer Limit-Order zwischen Bid und Ask einsteigt, kann manchmal den Spread für sich nutzen — wenn die Order zum besseren Preis ausgeführt wird.
+**2. Limit-Orders können den Spread vereinnahmen.** Wer mit einer Limit-Order zwischen Bid und Ask einsteigt, kann manchmal den Spread für sich nutzen, wenn die Order zum besseren Preis ausgeführt wird.
 
-**3. In illiquiden Werten ist der Spread oft die grösste Kostenposition.** Eine Aktie mit 1 % Spread und einer Kommission von 10 CHF bei 1'000 CHF Volumen hat Kosten von 10 + 5 = 15 CHF beim Round-Trip — wobei der Spread die Hälfte ausmacht.
+**3. In illiquiden Werten ist der Spread oft die grösste Kostenposition.** Eine Aktie mit 1 % Spread und einer Kommission von 10 CHF bei 1'000 CHF Volumen hat Kosten von 10 + 5 = 15 CHF beim Round-Trip, wobei der Spread die Hälfte ausmacht.
 
 **4. Spread-Verbreiterung als Warnsignal.** Wenn sich der Spread plötzlich deutlich weitet, ist meist Stress im Markt. Vorsicht bei aggressiven Trades.
 
@@ -112,7 +112,7 @@ Professionelle Trader betrachten nicht nur Bid und Ask, sondern das gesamte Orde
 - **Imbalance:** Mehr Kauf- oder mehr Verkaufsdruck?
 - **Manipulation:** Auffällig grosse Orders, die plötzlich erscheinen und verschwinden ("Spoofing")
 
-Wer 10'000 Apple-Aktien kaufen will, muss schauen, wie viele auf den ersten Bid/Ask-Ebenen liegen — sonst läuft die Order durch mehrere Preisebenen und der durchschnittliche Ausführungspreis liegt deutlich über dem ersten Ask.
+Wer 10'000 Apple-Aktien kaufen will, muss schauen, wie viele auf den ersten Bid/Ask-Ebenen liegen, sonst läuft die Order durch mehrere Preisebenen und der durchschnittliche Ausführungspreis liegt deutlich über dem ersten Ask.
 
 ## Fazit
 
@@ -120,7 +120,7 @@ Bid und Ask sind keine technische Nebensächlichkeit, sondern die Grundinformati
 
 Für Privatanleger gilt: Bei jedem Trade sollte der Spread bewusst eingerechnet werden. Bei kurzfristigen Strategien (Daytrading, Scalping) kann der Spread allein über Erfolg oder Misserfolg entscheiden. Bei langfristigen Buy-and-Hold-Strategien spielt er eine untergeordnete Rolle.
 
-In jedem Fall lohnt der bewusste Blick auf das Orderbuch — er macht den Unterschied zwischen einem Anleger, der weiss, was er tut, und einem, der blind den letzten Preis kauft.
+In jedem Fall lohnt der bewusste Blick auf das Orderbuch, er macht den Unterschied zwischen einem Anleger, der weiss, was er tut, und einem, der blind den letzten Preis kauft.
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Steueroptimierung für Schweizer Anleger: Legale Tricks 2026"
-description: "Wie Schweizer Privatanleger 2026 Steuern senken können — von Säule 3a über DA-1 bis zu kantonalen Unterschieden. Mit Fokus auf das Wesentliche."
+description: "Wie Schweizer Privatanleger 2026 Steuern senken können, von Säule 3a über DA-1 bis zu kantonalen Unterschieden. Mit Fokus auf das Wesentliche."
 pubDate: 2026-09-07
 category: "Steuern"
 subcategory: "Schweiz"
@@ -18,7 +18,7 @@ Die Schweiz hat im internationalen Vergleich eines der anlegerfreundlichsten Ste
 - **Säule 3a** mit massivem Steuervorteil
 - **Pensionskasse-Einkauf** als Wundermittel
 
-Aber: Es gibt auch Fallen — die Einstufung als gewerbsmässiger Trader ist die grösste. Wer sie umgeht und die Vorteile nutzt, kann sein Net-Worth jährlich deutlich verbessern.
+Aber: Es gibt auch Fallen, die Einstufung als gewerbsmässiger Trader ist die grösste. Wer sie umgeht und die Vorteile nutzt, kann sein Net-Worth jährlich deutlich verbessern.
 
 ## Tipp 1: Säule 3a maximal ausschöpfen
 
@@ -39,7 +39,7 @@ Die Säule 3a (private gebundene Vorsorge) ist 2026 die wichtigste Steueroptimie
 - Über 35 Jahre: 76.000 CHF Steuerersparnis allein durch die Einzahlung
 - Plus die steuerfreien Erträge im 3a-Depot
 
-**Praktischer Tipp 2026**: Mehrere 3a-Konten bei verschiedenen Anbietern eröffnen — bei der gestaffelten Auszahlung im Alter spart man durch tieferen progressiven Sondersteuersatz.
+**Praktischer Tipp 2026**: Mehrere 3a-Konten bei verschiedenen Anbietern eröffnen, bei der gestaffelten Auszahlung im Alter spart man durch tieferen progressiven Sondersteuersatz.
 
 **Beste 3a-Anbieter 2026** (Auswahl):
 - **VIAC**: ETF-basiert, niedrige Gebühren
@@ -71,9 +71,9 @@ Ein freiwilliger Einkauf in die Pensionskasse (Säule 2) ist eines der mächtigs
 
 ## Tipp 3: DA-1 immer nutzen
 
-Wer ausländische Aktien hält, MUSS das DA-1 in der Steuererklärung nutzen — sonst verschenkt er die DBA-Anrechnung.
+Wer ausländische Aktien hält, MUSS das DA-1 in der Steuererklärung nutzen, sonst verschenkt er die DBA-Anrechnung.
 
-Wichtig: Bei steuereinfachen Schweizer Brokern (Saxo, Cornèrtrader, Swissquote, UBS) wird das DA-1 vorausgefüllt mitgeliefert. Bei IBKR oder Lightyear muss man es manuell zusammenstellen — was bei vielen Aktien zeitaufwändig ist.
+Wichtig: Bei steuereinfachen Schweizer Brokern (Saxo, Cornèrtrader, Swissquote, UBS) wird das DA-1 vorausgefüllt mitgeliefert. Bei IBKR oder Lightyear muss man es manuell zusammenstellen, was bei vielen Aktien zeitaufwändig ist.
 
 **Praktischer Punkt**: Wer wenige Einzelaktien aus dem Ausland hält, sollte überlegen, ob ein ETF nicht steuerlich einfacher ist.
 
@@ -84,7 +84,7 @@ Schulden mindern das steuerbare Vermögen. Praktisch relevante Optionen:
 **Hypothek**:
 - Hypothekenzinsen vom Einkommen abziehbar
 - Hypothek-Schulden mindern Vermögenssteuer
-- "Indirekte Amortisation" über Säule 3a — doppelter Effekt
+- "Indirekte Amortisation" über Säule 3a, doppelter Effekt
 
 **Lombardkredit**:
 - Kredit gegen Wertschriften
@@ -111,19 +111,19 @@ Wer ortsungebunden arbeitet (z.B. Remote-Job), kann den Wohnkanton steuerlich op
 - Basel-Stadt
 - Bern
 
-Wechsel ist aufwändig und mit echtem Umzug verbunden — keine Steuer-Tricks via Pro-Forma-Adresse möglich.
+Wechsel ist aufwändig und mit echtem Umzug verbunden, keine Steuer-Tricks via Pro-Forma-Adresse möglich.
 
 ## Tipp 6: ETF-Auswahl
 
 **Ausschüttende vs thesaurierende ETFs**:
 - Ausschüttende: Dividenden werden ausgezahlt, einfacher zu deklarieren
-- Thesaurierende: Werden vom ESTV mit einem "Steuerwert" (pauschaler Ertrag) belegt — auch für Anleger mit niedrigen Steuersätzen oft günstig
+- Thesaurierende: Werden vom ESTV mit einem "Steuerwert" (pauschaler Ertrag) belegt, auch für Anleger mit niedrigen Steuersätzen oft günstig
 
-Für Schweizer Anleger sind beide Varianten OK — der Unterschied ist meist klein. Tendenziell etwas einfacher: ausschüttende ETFs mit klarer Dividenden-Aufstellung.
+Für Schweizer Anleger sind beide Varianten OK, der Unterschied ist meist klein. Tendenziell etwas einfacher: ausschüttende ETFs mit klarer Dividenden-Aufstellung.
 
 ## Tipp 7: KER-Ausschüttungen bevorzugen
 
-Schweizer Unternehmen können einen Teil ihrer Dividende aus dem **Kapitaleinlageprinzip** (KER) ausschütten — diese sind **verrechnungssteuerfrei**.
+Schweizer Unternehmen können einen Teil ihrer Dividende aus dem **Kapitaleinlageprinzip** (KER) ausschütten, diese sind **verrechnungssteuerfrei**.
 
 Beispiele: Bei manchen SMI-Werten (z.B. Logitech in vergangenen Jahren) kommt ein Teil als KER. Wer auf solche Werte setzt, spart die mühselige Verrechnungssteuer-Rückforderung.
 
@@ -147,7 +147,7 @@ Gemäss ESTV-Kreisschreiben 36 wird man als gewerbsmässig eingestuft, wenn:
 - Keine Hebelfinanzierung
 - Wenig Derivate
 
-Wer in die Trading-Profession will, sollte das **bewusst** machen — als selbstständig, mit Buchhaltung, AHV-Anmeldung etc. Sonst riskiert man die schlechtesten beider Welten.
+Wer in die Trading-Profession will, sollte das **bewusst** machen, als selbstständig, mit Buchhaltung, AHV-Anmeldung etc. Sonst riskiert man die schlechtesten beider Welten.
 
 ## Tipp 9: Steueraufschub durch Langzeit-Investments
 
@@ -161,7 +161,7 @@ Für aktive Trader gilt: Je mehr Trades, desto höher das Risiko der Gewerbsmäs
 
 ## Tipp 10: Verrechnungssteuer richtig zurückholen
 
-Schon im Detail im separaten Artikel besprochen — kurz zusammengefasst:
+Schon im Detail im separaten Artikel besprochen, kurz zusammengefasst:
 
 1. **Alles deklarieren** (Bruttowerte)
 2. **Bank-Steuerauszug nutzen**
@@ -202,4 +202,4 @@ Schon im Detail im separaten Artikel besprochen — kurz zusammengefasst:
 
 ## Fazit
 
-Schweizer Privatanleger haben international gesehen ausgezeichnete steuerliche Bedingungen — vor allem die Steuerfreiheit der Kapitalgewinne ist Gold wert. Aber: Die Optimierungs-Möglichkeiten sind oft unterschätzt. Säule 3a, Pensionskasse-Einkäufe und das DA-1 zusammen können einem Anleger 5-10% seines Vermögens über die Lebenszeit zusätzlich liefern — einfach durch korrekte Steuerplanung. Wer hier nicht aktiv ist, verschenkt deutlich mehr Geld als durch eine schlechtere Aktienauswahl. Der jährliche Termin mit dem Steuerberater ist eine der besten Investitionen, die man machen kann.
+Schweizer Privatanleger haben international gesehen ausgezeichnete steuerliche Bedingungen, vor allem die Steuerfreiheit der Kapitalgewinne ist Gold wert. Aber: Die Optimierungs-Möglichkeiten sind oft unterschätzt. Säule 3a, Pensionskasse-Einkäufe und das DA-1 zusammen können einem Anleger 5-10% seines Vermögens über die Lebenszeit zusätzlich liefern, einfach durch korrekte Steuerplanung. Wer hier nicht aktiv ist, verschenkt deutlich mehr Geld als durch eine schlechtere Aktienauswahl. Der jährliche Termin mit dem Steuerberater ist eine der besten Investitionen, die man machen kann.

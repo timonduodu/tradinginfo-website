@@ -8,11 +8,11 @@ author: "Redaktion"
 readingTime: "8 Min. Lesezeit"
 ---
 
-Wer als Schweizer Anleger US-Aktien wie Apple, Microsoft oder Coca-Cola hält und Dividenden bezieht, bemerkt es früher oder später: Auf seinem Konto kommt weniger an als ausgeschüttet wurde. Die Differenz nennt sich **Quellensteuer** — und ein Teil davon ist rückforderbar.
+Wer als Schweizer Anleger US-Aktien wie Apple, Microsoft oder Coca-Cola hält und Dividenden bezieht, bemerkt es früher oder später: Auf seinem Konto kommt weniger an als ausgeschüttet wurde. Die Differenz nennt sich **Quellensteuer**, und ein Teil davon ist rückforderbar.
 
 ## Was ist die US-Quellensteuer?
 
-Die USA erheben grundsätzlich **30 %** Quellensteuer auf Dividenden, die an ausländische Anleger gezahlt werden. Dank des **Doppelbesteuerungsabkommens (DBA) zwischen der Schweiz und den USA** reduziert sich dieser Satz für Schweizer auf 15 % — vorausgesetzt, das **Formular W-8BEN** wurde beim Broker hinterlegt.
+Die USA erheben grundsätzlich **30 %** Quellensteuer auf Dividenden, die an ausländische Anleger gezahlt werden. Dank des **Doppelbesteuerungsabkommens (DBA) zwischen der Schweiz und den USA** reduziert sich dieser Satz für Schweizer auf 15 %, vorausgesetzt, das **Formular W-8BEN** wurde beim Broker hinterlegt.
 
 Diese 15 % können Schweizer Steuerzahler über das Formular **DA-1** in der Steuererklärung zurückfordern.
 
@@ -24,7 +24,7 @@ Bevor überhaupt nur 15 % statt 30 % einbehalten werden, muss man dem Broker ein
 
 **US-Broker (IBKR, Charles Schwab):** Fordern das W-8BEN bei der Registrierung an. Es gilt drei Jahre, dann muss es erneuert werden.
 
-Ohne W-8BEN: Volle 30 % Quellensteuer — nur 15 % davon rückforderbar.
+Ohne W-8BEN: Volle 30 % Quellensteuer, nur 15 % davon rückforderbar.
 
 ## So funktioniert DA-1
 
@@ -36,12 +36,12 @@ Das Formular DA-1 ist Teil der **Schweizer Steuererklärung** und dient dazu, di
 - Bruttodividende
 - Einbehaltene Quellensteuer (15 %)
 
-Das DA-1 erfasst Quellensteuern aus über **80 DBA-Staaten**, nicht nur den USA — auch Frankreich, Deutschland, Italien, Japan etc.
+Das DA-1 erfasst Quellensteuern aus über **80 DBA-Staaten**, nicht nur den USA, auch Frankreich, Deutschland, Italien, Japan etc.
 
 ## Praxisbeispiel
 
-> "Geld arbeitet nicht. Du musst arbeiten, um Geld zu verdienen. Aber wenn Geld einmal da ist, kann es für dich arbeiten — wenn du es richtig anlegst."  
-> — *Sinngemäss nach Robert Kiyosaki, Autor "Rich Dad Poor Dad"*
+> "Geld arbeitet nicht. Du musst arbeiten, um Geld zu verdienen. Aber wenn Geld einmal da ist, kann es für dich arbeiten, wenn du es richtig anlegst."  
+>, *Sinngemäss nach Robert Kiyosaki, Autor "Rich Dad Poor Dad"*
 
 **Beispielrechnung:**
 
@@ -59,7 +59,7 @@ Bei einem Portfolio mit 50'000 CHF US-Aktien und 2 % Dividendenrendite holen Sie
 
 ## Was passiert ohne DA-1?
 
-Wer das DA-1 nicht ausfüllt, **verschenkt die 15 %**. Die ausländische Quellensteuer wird nicht automatisch angerechnet — Sie müssen sie aktiv zurückfordern.
+Wer das DA-1 nicht ausfüllt, **verschenkt die 15 %**. Die ausländische Quellensteuer wird nicht automatisch angerechnet, Sie müssen sie aktiv zurückfordern.
 
 Die einbehaltene Quellensteuer können Sie zudem **nur im selben Jahr** zurückholen. Vergessen Sie das DA-1, ist das Geld futsch.
 
@@ -71,10 +71,10 @@ Die meisten Schweizer Broker stellen ein **Steuerverzeichnis** (Steuerauszug) zu
 - Einbehaltene Quellensteuern
 - Liste der dividendenzahlenden Wertpapiere
 
-Bei IBKR und anderen US-Brokern müssen Sie das Steuerverzeichnis selbst aus den Activity Statements zusammenstellen — was deutlich aufwendiger ist.
+Bei IBKR und anderen US-Brokern müssen Sie das Steuerverzeichnis selbst aus den Activity Statements zusammenstellen, was deutlich aufwendiger ist.
 
 > "Die Buchhaltung ist die Sprache der Wirtschaft. Wer sie nicht spricht, ist im Geschäft analphabetisch."  
-> — *Warren Buffett, Berkshire Hathaway*
+>, *Warren Buffett, Berkshire Hathaway*
 
 ## Was nicht zurückforderbar ist
 
@@ -84,8 +84,8 @@ Bei IBKR und anderen US-Brokern müssen Sie das Steuerverzeichnis selbst aus den
 - Quellensteuer aus Ländern ohne DBA mit der Schweiz
 
 **Teilweise rückforderbar:**
-- Frankreich: 30 % einbehalten, nur 15 % anrechenbar — der Rest muss separat über das französische Finanzamt eingefordert werden (aufwendig).
-- Deutschland: 26,375 % einbehalten, 15 % anrechenbar — Differenz über Bundeszentralamt für Steuern.
+- Frankreich: 30 % einbehalten, nur 15 % anrechenbar, der Rest muss separat über das französische Finanzamt eingefordert werden (aufwendig).
+- Deutschland: 26,375 % einbehalten, 15 % anrechenbar, Differenz über Bundeszentralamt für Steuern.
 
 ## ETFs: Eine besondere Falle
 
@@ -99,15 +99,15 @@ Bei ETFs ist die Quellensteuersituation komplex:
 
 Ab einem Portfolio von etwa **20'000 CHF in dividendenzahlenden ausländischen Aktien** lohnt sich das DA-1 finanziell deutlich.
 
-Bei kleineren Beträgen ist es trotzdem sinnvoll, um die Logik zu lernen und Routine zu entwickeln — denn das Portfolio wächst hoffentlich.
+Bei kleineren Beträgen ist es trotzdem sinnvoll, um die Logik zu lernen und Routine zu entwickeln, denn das Portfolio wächst hoffentlich.
 
 ## Fazit
 
-Die US-Quellensteuer wirkt zunächst wie eine Strafe für Schweizer Anleger — ist es aber nicht. Mit dem Formular DA-1 holen Sie sich jährlich Ihr Geld zurück. Wichtig:
+Die US-Quellensteuer wirkt zunächst wie eine Strafe für Schweizer Anleger, ist es aber nicht. Mit dem Formular DA-1 holen Sie sich jährlich Ihr Geld zurück. Wichtig:
 
 1. **W-8BEN beim Broker hinterlegen** (sonst 30 % statt 15 %).
 2. **Steuerverzeichnis** des Brokers in die Steuererklärung übernehmen.
-3. **DA-1 jährlich ausfüllen** — am besten gleich beim Erfassen der Wertschriften.
+3. **DA-1 jährlich ausfüllen**, am besten gleich beim Erfassen der Wertschriften.
 
 Wer das DA-1 ignoriert, verschenkt jedes Jahr Hunderte bis Tausende Franken. Bei einem Anlagehorizont von 30 Jahren summieren sich diese verschenkten 15 % zu einem fünfstelligen Betrag.
 

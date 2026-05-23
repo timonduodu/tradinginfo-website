@@ -20,13 +20,13 @@ Die Kapitalertragsteuer (KESt) ist Österreichs einheitliche Steuer auf Kapitale
 
 **Ausnahme**: Zinsen aus Sparbuch und Girokonto unterliegen weiterhin 25% KESt (nicht 27,5%).
 
-Im Gegensatz zur Schweiz (steuerfreie Kursgewinne) oder Deutschland (Sparerpauschbetrag) gibt es in Österreich **keinen jährlichen Freibetrag** auf Kapitalerträge. Jeder gewinnträchtige Verkauf wird besteuert — Punkt.
+Im Gegensatz zur Schweiz (steuerfreie Kursgewinne) oder Deutschland (Sparerpauschbetrag) gibt es in Österreich **keinen jährlichen Freibetrag** auf Kapitalerträge. Jeder gewinnträchtige Verkauf wird besteuert, Punkt.
 
 ## Endbesteuerung: Was bedeutet das?
 
 KESt ist eine **Endbesteuerungssteuer**. Das heisst: Wenn dein inländischer Broker (oder ein steuereinfacher Auslandsbroker) die KESt automatisch abführt, ist die Sache erledigt. Du musst die Kapitalerträge **nicht** in der Einkommensteuererklärung angeben.
 
-Das ist der grosse Komfort der KESt — sehr unterschiedlich zu manchen anderen Ländern.
+Das ist der grosse Komfort der KESt, sehr unterschiedlich zu manchen anderen Ländern.
 
 ## Steuereinfache Broker
 
@@ -46,7 +46,7 @@ Folgende Broker sind in Österreich **steuereinfach** (führen KESt automatisch 
 | **Lightyear** | nein |
 | **CapTrader** | nein (auch wenn Sitz in DE) |
 
-Bei nicht-steuereinfachen Brokern musst du alle Kapitalerträge selbst in der Steuererklärung (Arbeitnehmerveranlagung oder Einkommensteuererklärung) angeben — mit deutlich mehr administrativem Aufwand.
+Bei nicht-steuereinfachen Brokern musst du alle Kapitalerträge selbst in der Steuererklärung (Arbeitnehmerveranlagung oder Einkommensteuererklärung) angeben, mit deutlich mehr administrativem Aufwand.
 
 ## Verlustausgleich: Die wichtige Sonderregel
 
@@ -56,17 +56,17 @@ In Österreich können **Verluste nur innerhalb des Kalenderjahres** mit Gewinne
 - Du verkaufst Aktie B mit 800 EUR Verlust
 - Netto: 200 EUR Gewinn → KESt 55 EUR
 
-**Aber**: Wenn dein Verlust grösser ist als dein Gewinn (z.B. 1.500 EUR Verlust, 1.000 EUR Gewinn), bleiben 500 EUR Verlust im Jahr **ungenutzt** — sie können NICHT ins nächste Jahr vorgetragen werden.
+**Aber**: Wenn dein Verlust grösser ist als dein Gewinn (z.B. 1.500 EUR Verlust, 1.000 EUR Gewinn), bleiben 500 EUR Verlust im Jahr **ungenutzt**, sie können NICHT ins nächste Jahr vorgetragen werden.
 
 Das ist eine sehr unvorteilhafte Regelung im Vergleich zu Deutschland (Verlustvortrag möglich) oder zur Schweiz (Kapitalverluste sowieso steuerlich irrelevant).
 
-**Praxisrelevanter Tipp**: Wer im November/Dezember mit hohen aufgelaufenen Verlusten ins neue Jahr geht, sollte überlegen, am Jahresende profitable Positionen zu realisieren — um die Verluste zu nutzen. Das nennt sich **Tax Loss Harvesting**.
+**Praxisrelevanter Tipp**: Wer im November/Dezember mit hohen aufgelaufenen Verlusten ins neue Jahr geht, sollte überlegen, am Jahresende profitable Positionen zu realisieren, um die Verluste zu nutzen. Das nennt sich **Tax Loss Harvesting**.
 
 ## Wertpapierverlustausgleich bei mehreren Depots
 
 Wer mehrere inländische Depots oder zusätzlich ausländische Depots hat:
 
-**Bei einem einzigen inländischen Depot**: Der Broker macht alles automatisch — Verluste werden mit Gewinnen verrechnet.
+**Bei einem einzigen inländischen Depot**: Der Broker macht alles automatisch, Verluste werden mit Gewinnen verrechnet.
 
 **Bei mehreren Depots**: Du musst den Verlustausgleich über die Steuererklärung selbst durchführen. Dafür reichen die Broker dir die nötigen Jahresberichte. Der Ausgleich erfolgt in der "Wertpapierverlustausgleichserklärung".
 
@@ -80,21 +80,21 @@ Wenn du in ausländische Aktien investierst (z.B. Apple, BMW), wird im Herkunfts
 
 **Die DBA-Anrechnung erfolgt bei steuereinfachen Brokern automatisch**. Du siehst auf deinem Beleg die "anrechenbare Quellensteuer".
 
-**Anrechenbar bis maximal 15%** auf die österreichische KESt. Was darüber liegt (z.B. die zusätzlichen 11,375% bei DE-Aktien), muss separat im Ausland zurückgefordert werden — bei vielen Privatanlegern unrentabel.
+**Anrechenbar bis maximal 15%** auf die österreichische KESt. Was darüber liegt (z.B. die zusätzlichen 11,375% bei DE-Aktien), muss separat im Ausland zurückgefordert werden, bei vielen Privatanlegern unrentabel.
 
 ## ETFs und Fonds: Die Komplikation
 
-Bei ETFs und Investmentfonds gibt es **ausschüttungsgleiche Erträge** (AGE) — das sind Erträge, die der Fonds erwirtschaftet, aber nicht ausschüttet. Diese müssen jährlich versteuert werden, **auch wenn der Fonds thesauriert**.
+Bei ETFs und Investmentfonds gibt es **ausschüttungsgleiche Erträge** (AGE), das sind Erträge, die der Fonds erwirtschaftet, aber nicht ausschüttet. Diese müssen jährlich versteuert werden, **auch wenn der Fonds thesauriert**.
 
 **Was du wissen musst**:
 - Bei **inländischen Fonds** und steuereinfachen ETFs erfolgt das automatisch via Banktrust
-- Bei **ausländischen thesaurierenden ETFs** ohne österreichische steuerliche Vertretung: du musst die AGE selbst ermitteln und versteuern — sehr aufwändig
+- Bei **ausländischen thesaurierenden ETFs** ohne österreichische steuerliche Vertretung: du musst die AGE selbst ermitteln und versteuern, sehr aufwändig
 
-**Praxis-Tipp**: Wer ETFs handelt, sollte auf **steuereinfache ETFs** achten — diese haben einen österreichischen Steuervertreter und melden die AGE korrekt. Justetf.com und finanzfluss.at haben Listen mit steuereinfachen ETFs.
+**Praxis-Tipp**: Wer ETFs handelt, sollte auf **steuereinfache ETFs** achten, diese haben einen österreichischen Steuervertreter und melden die AGE korrekt. Justetf.com und finanzfluss.at haben Listen mit steuereinfachen ETFs.
 
 ## Kryptowährungen: KESt seit März 2022
 
-Seit März 2022 unterliegen Krypto-Gewinne der KESt 27,5% — gleiche Behandlung wie Wertpapiere.
+Seit März 2022 unterliegen Krypto-Gewinne der KESt 27,5%, gleiche Behandlung wie Wertpapiere.
 
 **Gilt für**:
 - Kursgewinne aus Crypto-Verkäufen (Bitcoin in EUR umwandeln)
@@ -103,7 +103,7 @@ Seit März 2022 unterliegen Krypto-Gewinne der KESt 27,5% — gleiche Behandlung
 - Lending-Erträge
 - Airdrops (nach FIFO bewertet)
 
-**Sonderregel**: Bei vor März 2022 erworbenen Coins galt zuvor die "Spekulationsfrist" (steuerfrei nach 1 Jahr) — dieser Bestand wurde zum **31. Dezember 2022 fiktiv neu angeschafft** und unterliegt jetzt der neuen KESt-Regelung.
+**Sonderregel**: Bei vor März 2022 erworbenen Coins galt zuvor die "Spekulationsfrist" (steuerfrei nach 1 Jahr), dieser Bestand wurde zum **31. Dezember 2022 fiktiv neu angeschafft** und unterliegt jetzt der neuen KESt-Regelung.
 
 Bei inländischen Krypto-Plattformen (Bitpanda, Coinfinity) wird die KESt automatisch abgeführt. Bei ausländischen (Binance, Coinbase, Kraken) musst du selbst deklarieren.
 
@@ -123,11 +123,11 @@ Bei FIFO: 50 Stück vom Januar-Kauf (80 EUR) gelten als verkauft.
 - Gewinn: 1.500 EUR
 - KESt: 412,50 EUR
 
-Diese Regelung kann steuerlich ungünstig sein, wenn du günstiger gekaufte Teilbestände hast — du realisierst dann grössere Gewinne. Aber sie ist gesetzlich vorgeschrieben — du kannst nicht "andere" Bestände verkaufen.
+Diese Regelung kann steuerlich ungünstig sein, wenn du günstiger gekaufte Teilbestände hast, du realisierst dann grössere Gewinne. Aber sie ist gesetzlich vorgeschrieben, du kannst nicht "andere" Bestände verkaufen.
 
 ## Regelbesteuerungsoption
 
-Bei sehr niedrigem Einkommen kann es vorteilhaft sein, die Kapitalerträge zur **Regelbesteuerung** zu wählen — dann zahlst du den progressiven Einkommensteuersatz statt 27,5%. Das lohnt sich nur, wenn dein Grenzsteuersatz unter 27,5% liegt — also bei sehr niedrigem Gesamteinkommen.
+Bei sehr niedrigem Einkommen kann es vorteilhaft sein, die Kapitalerträge zur **Regelbesteuerung** zu wählen, dann zahlst du den progressiven Einkommensteuersatz statt 27,5%. Das lohnt sich nur, wenn dein Grenzsteuersatz unter 27,5% liegt, also bei sehr niedrigem Gesamteinkommen.
 
 Bei Arbeitnehmern mit Lohn von 11.000 EUR oder weniger (Stand 2026: Freibeträge können variieren) kann die Regelbesteuerung die gesamten KESt zurückbringen.
 
@@ -153,10 +153,10 @@ Diese werden von Trade Republic automatisch einbehalten. Du musst nichts deklari
 
 **2. AGE bei ausländischen ETFs ignorieren**: Selbst thesaurierende ETFs erzeugen jährliche Steuerpflichten.
 
-**3. Verlustvortrag erwarten**: Funktioniert in AT nicht — Verluste müssen im selben Jahr verrechnet werden.
+**3. Verlustvortrag erwarten**: Funktioniert in AT nicht, Verluste müssen im selben Jahr verrechnet werden.
 
 **4. Krypto nicht deklarieren**: Seit März 2022 KESt-pflichtig. Wer das ignoriert, hat ein Problem.
 
 ## Fazit
 
-Die KESt in Österreich ist einfach und transparent, wenn du steuereinfache Broker nutzt — der Broker zahlt, du musst nichts deklarieren. Bei ausländischen Brokern wird es deutlich komplizierter. Die fehlende Möglichkeit zum Verlustvortrag ist eine echte Schwäche im Vergleich zu Deutschland oder der Schweiz — wer mit Verlustpositionen ins neue Jahr geht, sollte das aktiv steuern. Wer Krypto handelt, sollte sich bewusst sein, dass auch dieser Bereich seit März 2022 voll besteuert wird. Und wer ausländische ETFs nutzt, sollte unbedingt auf steuereinfache Varianten achten — sonst wird die Steuererklärung zur Doktorarbeit.
+Die KESt in Österreich ist einfach und transparent, wenn du steuereinfache Broker nutzt, der Broker zahlt, du musst nichts deklarieren. Bei ausländischen Brokern wird es deutlich komplizierter. Die fehlende Möglichkeit zum Verlustvortrag ist eine echte Schwäche im Vergleich zu Deutschland oder der Schweiz, wer mit Verlustpositionen ins neue Jahr geht, sollte das aktiv steuern. Wer Krypto handelt, sollte sich bewusst sein, dass auch dieser Bereich seit März 2022 voll besteuert wird. Und wer ausländische ETFs nutzt, sollte unbedingt auf steuereinfache Varianten achten, sonst wird die Steuererklärung zur Doktorarbeit.

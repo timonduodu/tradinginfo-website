@@ -1,6 +1,6 @@
 ---
 title: "Carry Trade Grundlagen: Mit Zinsdifferenzen Geld verdienen"
-description: "Der Carry Trade ist eine der ältesten und einfachsten Trading-Strategien — und eine der gefährlichsten. Wie er funktioniert, warum er für Schweizer relevant ist und welche Risiken lauern."
+description: "Der Carry Trade ist eine der ältesten und einfachsten Trading-Strategien, und eine der gefährlichsten. Wie er funktioniert, warum er für Schweizer relevant ist und welche Risiken lauern."
 pubDate: 2026-07-30
 category: "Strategien"
 subcategory: "Fortgeschritten"
@@ -10,7 +10,7 @@ featured: false
 
 ## Was ist ein Carry Trade?
 
-Der Carry Trade ist eine Strategie, bei der du eine Währung mit niedrigen Zinsen leihst und in eine Währung mit höheren Zinsen investierst. Du verdienst die Zinsdifferenz — den sogenannten "Carry".
+Der Carry Trade ist eine Strategie, bei der du eine Währung mit niedrigen Zinsen leihst und in eine Währung mit höheren Zinsen investierst. Du verdienst die Zinsdifferenz, den sogenannten "Carry".
 
 **Beispiel** (klassisch):
 - Leih 100.000 JPY (Japanische Yen) zu 0,1% Zins
@@ -21,15 +21,15 @@ So einfach, so verlockend. Aber es gibt ein grosses ABER.
 
 ## Der Haken: Währungsrisiko
 
-Du musst irgendwann die geliehenen JPY zurückzahlen. Wenn der JPY in der Zwischenzeit gegenüber dem USD aufwertet, verlierst du beim Rücktausch — möglicherweise mehr als der Zinsvorteil.
+Du musst irgendwann die geliehenen JPY zurückzahlen. Wenn der JPY in der Zwischenzeit gegenüber dem USD aufwertet, verlierst du beim Rücktausch, möglicherweise mehr als der Zinsvorteil.
 
-Beispiel: Du hast 100.000 USD aus 100.000 JPY (Kurs 1 USD = 100 JPY). Nach einem Jahr ist der Kurs 1 USD = 90 JPY. Du brauchst jetzt 111.111 USD, um die 100.000 JPY zurückzukaufen. Das sind 11% Verlust — und vom 5%-Zinsgewinn bleiben nichts übrig.
+Beispiel: Du hast 100.000 USD aus 100.000 JPY (Kurs 1 USD = 100 JPY). Nach einem Jahr ist der Kurs 1 USD = 90 JPY. Du brauchst jetzt 111.111 USD, um die 100.000 JPY zurückzukaufen. Das sind 11% Verlust, und vom 5%-Zinsgewinn bleiben nichts übrig.
 
 ## Die "Uncovered Interest Rate Parity"
 
-Die ökonomische Theorie sagt: Im langfristigen Gleichgewicht sollten Wechselkurs-Anpassungen die Zinsunterschiede genau ausgleichen. Wenn USD-Zinsen über JPY-Zinsen liegen, sollte der USD gegen den JPY abwerten — genau so, dass der Carry-Vorteil neutralisiert wird.
+Die ökonomische Theorie sagt: Im langfristigen Gleichgewicht sollten Wechselkurs-Anpassungen die Zinsunterschiede genau ausgleichen. Wenn USD-Zinsen über JPY-Zinsen liegen, sollte der USD gegen den JPY abwerten, genau so, dass der Carry-Vorteil neutralisiert wird.
 
-**ABER**: In der Praxis hält diese Theorie nicht perfekt. Carry Trades funktionieren oft jahrelang — bis sie schlagartig nicht mehr funktionieren. Genau das macht sie gefährlich.
+**ABER**: In der Praxis hält diese Theorie nicht perfekt. Carry Trades funktionieren oft jahrelang, bis sie schlagartig nicht mehr funktionieren. Genau das macht sie gefährlich.
 
 ## Die Schweiz: Land der Niedrigzins-Funding-Währung
 
@@ -54,17 +54,17 @@ Lektion: Carry Trade in Privathaushaltsfinanzierungen ist ein katastrophaler Mix
 - Britisches Pfund (GBP)
 - Australischer Dollar (AUD)
 - Brasilianischer Real (BRL)
-- Türkische Lira (TRY) — sehr hochriskant
+- Türkische Lira (TRY), sehr hochriskant
 - Mexikanischer Peso (MXN)
 
-Je grösser die Zinsdifferenz, desto höher der potenzielle Carry — aber auch das Währungsrisiko.
+Je grösser die Zinsdifferenz, desto höher der potenzielle Carry, aber auch das Währungsrisiko.
 
 ## So funktioniert ein Carry Trade praktisch
 
 **Für Privatanleger** (vereinfacht):
 - Forex-Position eröffnen, z.B. Long AUD/JPY (du leihst JPY, kaufst AUD)
 - Bei vielen Brokern wird die Zinsdifferenz täglich gutgeschrieben (Rollover, Swap)
-- Positiver Swap = positiver Carry — du bekommst pro Tag eine kleine Gutschrift
+- Positiver Swap = positiver Carry, du bekommst pro Tag eine kleine Gutschrift
 - Negativer Swap = du zahlst (z.B. bei Short EUR/USD, wenn USD-Zinsen über EUR-Zinsen)
 
 **Für institutionelle Investoren**:
@@ -88,7 +88,7 @@ Je grösser die Zinsdifferenz, desto höher der potenzielle Carry — aber auch 
 
 **Schweiz**: Devisengewinne sind für Privatanleger steuerfrei, wenn sie als Vermögensverwaltung gelten. ABER: Aktives Forex-Trading mit Hebel und kurzen Haltedauern führt fast garantiert zur Einstufung als gewerbsmässig. Dann werden alle Gewinne einkommensbesteuert plus AHV/IV.
 
-**Deutschland**: Forex-Gewinne unterliegen der Abgeltungsteuer als Termingeschäfte — mit der **20.000-EUR-Verlustverrechnungsbeschränkung**. Wer mit Hebel handelt und mal einen schlechten Trade hat, kann Verluste über 20.000 EUR nicht voll verrechnen.
+**Deutschland**: Forex-Gewinne unterliegen der Abgeltungsteuer als Termingeschäfte, mit der **20.000-EUR-Verlustverrechnungsbeschränkung**. Wer mit Hebel handelt und mal einen schlechten Trade hat, kann Verluste über 20.000 EUR nicht voll verrechnen.
 
 **Österreich**: KESt 27,5% auf realisierte Gewinne. Bei ausländischen Brokern selbst zu deklarieren.
 
@@ -116,7 +116,7 @@ Das zeigt: Selbst bei attraktivem Carry kann die Wechselkursbewegung die Rechnun
 
 **März 2020**: Corona-Crash. Klassische Carry-Trade-Paare (AUD/JPY, NZD/JPY) verloren in 2 Wochen 15-20%.
 
-Diese Schocks sind seltener — aber wenn sie kommen, sind sie brutal. Und langfristige Carry-Trader sind dann oft pleite, auch wenn die Strategie über Jahre Gewinn brachte.
+Diese Schocks sind seltener, aber wenn sie kommen, sind sie brutal. Und langfristige Carry-Trader sind dann oft pleite, auch wenn die Strategie über Jahre Gewinn brachte.
 
 ## Wer macht Carry Trades?
 
@@ -124,7 +124,7 @@ Diese Schocks sind seltener — aber wenn sie kommen, sind sie brutal. Und langf
 - **Macro Trader**: Setzen auf grosse Zinszyklen
 - **Forex-Privatanleger**: Beliebt bei Daytradern, mit hohem Hebel
 
-Buy-and-Hold-Investoren machen praktisch keine Carry Trades — die Risiken passen nicht zur langfristigen Anlagestrategie.
+Buy-and-Hold-Investoren machen praktisch keine Carry Trades, die Risiken passen nicht zur langfristigen Anlagestrategie.
 
 ## Praktische Tipps
 
@@ -144,4 +144,4 @@ Wenn du trotzdem Carry-Trades probieren willst:
 
 ## Fazit
 
-Der Carry Trade ist eine elegante Idee, die in ruhigen Marktphasen über Jahre Geld bringen kann. Aber er ist berüchtigt für plötzliche, brutale Verluste — die Profis nennen das "picking up nickels in front of a steamroller" (Pfennige vor einer Dampfwalze aufsammeln). Für Privatanleger, vor allem in der Schweiz, ist die Steuersituation problematisch, und die Volatilitätsrisiken sind oft unterschätzt. Wer es trotzdem versucht, sollte klein anfangen, Volatilität verstehen und niemals davon ausgehen, dass die letzten 5 Jahre auch die nächsten 5 Jahre vorhersagen.
+Der Carry Trade ist eine elegante Idee, die in ruhigen Marktphasen über Jahre Geld bringen kann. Aber er ist berüchtigt für plötzliche, brutale Verluste, die Profis nennen das "picking up nickels in front of a steamroller" (Pfennige vor einer Dampfwalze aufsammeln). Für Privatanleger, vor allem in der Schweiz, ist die Steuersituation problematisch, und die Volatilitätsrisiken sind oft unterschätzt. Wer es trotzdem versucht, sollte klein anfangen, Volatilität verstehen und niemals davon ausgehen, dass die letzten 5 Jahre auch die nächsten 5 Jahre vorhersagen.

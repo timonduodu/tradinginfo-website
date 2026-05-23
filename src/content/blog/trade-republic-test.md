@@ -20,19 +20,19 @@ Die wichtigsten Eckdaten:
 
 ## Das revolutionäre Gebührenmodell
 
-Trade Republic hat die Branche mit einer simplen Idee aufgerollt: **1 EUR pro Order — egal wie gross**, plus gratis ETF- und Aktien-Sparpläne.
+Trade Republic hat die Branche mit einer simplen Idee aufgerollt: **1 EUR pro Order, egal wie gross**, plus gratis ETF- und Aktien-Sparpläne.
 
 ### Aktien- und ETF-Handel
 
 | Position | Gebühr |
 |----------|--------|
 | Aktien & ETFs | 1 EUR Fremdkostenpauschale pro Order |
-| ETF-Sparpläne | 0 EUR — komplett gratis |
-| Aktien-Sparpläne | 0 EUR — komplett gratis |
-| Krypto-Sparpläne | 0 EUR — komplett gratis |
+| ETF-Sparpläne | 0 EUR, komplett gratis |
+| Aktien-Sparpläne | 0 EUR, komplett gratis |
+| Krypto-Sparpläne | 0 EUR, komplett gratis |
 | Depotführung | 0 EUR |
 
-Die Mindestsparrate für Sparpläne liegt bei **1 EUR pro ETF/Aktie/Krypto und Monat** — das ist konkurrenzlos für Einsteiger.
+Die Mindestsparrate für Sparpläne liegt bei **1 EUR pro ETF/Aktie/Krypto und Monat**, das ist konkurrenzlos für Einsteiger.
 
 ### Cash-Zinsen
 
@@ -71,7 +71,7 @@ Trade Republic ist **app-first** designed:
 - Web-Version seit 2024 verfügbar
 - Intuitives Order-Ticket, schöne Charts, klare Übersichten
 
-Die Plattform richtet sich an Einsteiger und mittlere Anleger. Profi-Funktionen (Level-2-Daten, Optionsketten-Analyzer, etc.) fehlen — das ist bei den günstigen Gebühren erwartbar.
+Die Plattform richtet sich an Einsteiger und mittlere Anleger. Profi-Funktionen (Level-2-Daten, Optionsketten-Analyzer, etc.) fehlen, das ist bei den günstigen Gebühren erwartbar.
 
 **Was du kriegst**:
 - Live-Kurse (LS Exchange)
@@ -89,7 +89,7 @@ Die Plattform richtet sich an Einsteiger und mittlere Anleger. Profi-Funktionen 
 ## Steuerliche Behandlung
 
 ### Deutschland
-Trade Republic ist steuereinfach. Die Abgeltungsteuer (25% + 5,5% Soli + ggf. Kirchensteuer) wird automatisch abgeführt. Freistellungsauftrag kann in der App eingerichtet werden (1.000 EUR Single, 2.000 EUR Verheiratete). Auch die Vorabpauschale auf thesaurierende ETFs wird korrekt berechnet — Basiszins 2026: 3,20%, was bei Aktien-ETFs ca. 46 EUR Vorabpauschalen-Steuer pro 10.000 EUR Fondsvolumen ergibt (nach 30% Teilfreistellung).
+Trade Republic ist steuereinfach. Die Abgeltungsteuer (25% + 5,5% Soli + ggf. Kirchensteuer) wird automatisch abgeführt. Freistellungsauftrag kann in der App eingerichtet werden (1.000 EUR Single, 2.000 EUR Verheiratete). Auch die Vorabpauschale auf thesaurierende ETFs wird korrekt berechnet, Basiszins 2026: 3,20%, was bei Aktien-ETFs ca. 46 EUR Vorabpauschalen-Steuer pro 10.000 EUR Fondsvolumen ergibt (nach 30% Teilfreistellung).
 
 ### Österreich
 Seit dem 24. April 2025 ist Trade Republic in Österreich vollständig steuereinfach. KESt 27,5% wird automatisch an das österreichische Finanzamt abgeführt. Bestandskunden vor April 2025 können auf die steuereinfache Variante umstellen lassen. Verlustausgleich erfolgt automatisch innerhalb des Jahres.
@@ -103,7 +103,7 @@ Je nach Land unterschiedlich. In manchen Ländern stellt Trade Republic Steuerre
 
 **2. App-Erlebnis**: Wahrscheinlich die beste Broker-App in Europa. Intuitiv, schnell, schön.
 
-**3. Cash-Zinsen**: 2% p.a. (Stand 2026) ohne Bedingungen — bessere Konditionen als die meisten Tagesgeldkonten.
+**3. Cash-Zinsen**: 2% p.a. (Stand 2026) ohne Bedingungen, bessere Konditionen als die meisten Tagesgeldkonten.
 
 **4. Steuereinfach in DE und AT**: Keine Steuererklärung-Bürokratie für Kapitalerträge.
 
@@ -123,7 +123,7 @@ Je nach Land unterschiedlich. In manchen Ländern stellt Trade Republic Steuerre
 
 **4. Nicht in der Schweiz verfügbar**: Schweizer Wohnsitzler ausgeschlossen.
 
-**5. Konzentrationsrisiko**: Wenn Trade Republic technische Probleme hat (Server down), kannst du nichts handeln — Stories aus Crash-Tagen häufen sich.
+**5. Konzentrationsrisiko**: Wenn Trade Republic technische Probleme hat (Server down), kannst du nichts handeln, Stories aus Crash-Tagen häufen sich.
 
 **6. Spreads ausserhalb der Xetra-Handelszeiten**: Können breiter sein als an etablierten Börsen.
 
@@ -167,7 +167,7 @@ Annahme: 50.000 EUR Depot, 12 Trades pro Jahr (durchschnittlich 2.000 EUR pro Tr
 | **Total nicht-Steuer-Kosten** | **12 EUR** |
 
 Bei Flatex (siehe vorheriger Artikel): 159,60 EUR.
-**Ersparnis: 147,60 EUR pro Jahr** — über 30 Jahre summiert sich das auf über 4.000 EUR (mehr mit Zinseszins).
+**Ersparnis: 147,60 EUR pro Jahr**, über 30 Jahre summiert sich das auf über 4.000 EUR (mehr mit Zinseszins).
 
 ## Risikofaktoren
 
@@ -179,4 +179,4 @@ Bei Flatex (siehe vorheriger Artikel): 159,60 EUR.
 
 ## Fazit
 
-Trade Republic ist 2026 der unbestrittene Marktführer unter den Neobrokern in der EU. Für ETF-Sparer und Buy-and-Hold-Anleger in Deutschland und Österreich gibt es kaum eine günstigere oder bequemere Alternative. Die App-Qualität, die niedrigen Kosten und die Steuereinfachheit sind ein unschlagbares Paket. Schweizer Wohnsitzler bleiben aussen vor — was hoffentlich in Zukunft geändert wird. Wer in DE oder AT lebt und keinen Profi-Trading-Bedarf hat, sollte Trade Republic mindestens als Zweit-Depot oder zur Sparplan-Verwaltung ernsthaft prüfen.
+Trade Republic ist 2026 der unbestrittene Marktführer unter den Neobrokern in der EU. Für ETF-Sparer und Buy-and-Hold-Anleger in Deutschland und Österreich gibt es kaum eine günstigere oder bequemere Alternative. Die App-Qualität, die niedrigen Kosten und die Steuereinfachheit sind ein unschlagbares Paket. Schweizer Wohnsitzler bleiben aussen vor, was hoffentlich in Zukunft geändert wird. Wer in DE oder AT lebt und keinen Profi-Trading-Bedarf hat, sollte Trade Republic mindestens als Zweit-Depot oder zur Sparplan-Verwaltung ernsthaft prüfen.

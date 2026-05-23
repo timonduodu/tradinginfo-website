@@ -14,15 +14,15 @@ Lightyear wurde 2021 von zwei ehemaligen Wise-Mitarbeitern (Martin Sokk und Mihk
 
 Die wichtigsten Eckdaten:
 - **Regulierung**: Estonian Financial Supervision Authority (Finantsinspektsioon, FSA)
-- **Einlagensicherung**: bis 20.000 EUR (Estland) — niedriger als in DE/AT
+- **Einlagensicherung**: bis 20.000 EUR (Estland), niedriger als in DE/AT
 - **Wertschriften**: Sondervermögen, gesetzlich geschützt
-- **Verfügbarkeit**: 19 europäische Länder, darunter DE, AT, FR, ES, IT — und Schweiz!
+- **Verfügbarkeit**: 19 europäische Länder, darunter DE, AT, FR, ES, IT, und Schweiz!
 
 ## Lightyear in der Schweiz: Verfügbar!
 
 Im Gegensatz zu Trade Republic ist Lightyear in der Schweiz verfügbar. Das macht den Anbieter für Schweizer Anleger besonders interessant, die einen einfachen Neobroker suchen.
 
-Allerdings: Schweizer Kunden müssen auf den deutschen Steuereinfach-Service verzichten — der existiert nur in DE.
+Allerdings: Schweizer Kunden müssen auf den deutschen Steuereinfach-Service verzichten, der existiert nur in DE.
 
 ## Gebührenmodell 2026
 
@@ -37,7 +37,7 @@ Lightyear verfolgt ein einfaches, transparentes Pricing:
 | UK-Aktien | 0,1% des Volumens, max. 1 GBP |
 | Schweizer Aktien | 0,1%, max. 1 CHF |
 
-Die "max. 1 EUR" Deckelung ist clever: Bei kleinen Orders zahlst du proportional, bei grossen Orders nie mehr als 1 EUR — günstiger als Trade Republic für Grossorders.
+Die "max. 1 EUR" Deckelung ist clever: Bei kleinen Orders zahlst du proportional, bei grossen Orders nie mehr als 1 EUR, günstiger als Trade Republic für Grossorders.
 
 ### ETF-Sparpläne
 
@@ -45,7 +45,7 @@ Komplett kostenfrei. Ähnlich wie bei Trade Republic.
 
 ### Wechselkursgebühr
 
-0,35% Aufschlag auf den Mid-Spot — etwas teurer als Saxo Bank (0,25%), aber günstiger als Cornèrtrader (0,5%).
+0,35% Aufschlag auf den Mid-Spot, etwas teurer als Saxo Bank (0,25%), aber günstiger als Cornèrtrader (0,5%).
 
 ### Cash-Zinsen
 
@@ -55,7 +55,7 @@ Lightyear zahlt Zinsen auf das Cash-Guthaben in der Konto-Währung:
 - GBP: ca. 4% 
 - CHF: deutlich niedriger (CHF-Zinsumfeld)
 
-Die Zinsen werden täglich berechnet, monatlich gutgeschrieben — ohne Mindesteinlage.
+Die Zinsen werden täglich berechnet, monatlich gutgeschrieben, ohne Mindesteinlage.
 
 ## Was bietet Lightyear?
 
@@ -100,7 +100,7 @@ Die Zinsen werden täglich berechnet, monatlich gutgeschrieben — ohne Mindeste
 
 **3. Begrenztes Sortiment**: Keine Derivate, keine Krypto-Coins direkt, weniger Aktien als bei Saxo oder IBKR.
 
-**4. Jüngeres Unternehmen**: Seit 2021 aktiv — weniger Track Record als etablierte Broker.
+**4. Jüngeres Unternehmen**: Seit 2021 aktiv, weniger Track Record als etablierte Broker.
 
 **5. Estland-Regulierung**: Nicht in jedermanns Komfort-Zone. Wer Vertrauen in BaFin oder FINMA hat, könnte hier zögern.
 
@@ -157,11 +157,11 @@ Annahme: 30.000 EUR Depot, 12 Trades pro Jahr (durchschnittlich 2.500 EUR pro Tr
 | Wechselkurs (12 Trades × 0,35% von 2.500) | 105 EUR |
 | **Total** | **ca. 117 EUR** |
 
-Die Wechselkurskosten sind hier der grösste Posten — bei aktiver US-Aktien-Tätigkeit summieren sich diese.
+Die Wechselkurskosten sind hier der grösste Posten, bei aktiver US-Aktien-Tätigkeit summieren sich diese.
 
 ## Risikofaktoren
 
-**1. Junges Unternehmen**: Seit 2021 aktiv, schnell gewachsen — aber kürzerer Track Record.
+**1. Junges Unternehmen**: Seit 2021 aktiv, schnell gewachsen, aber kürzerer Track Record.
 
 **2. Estland-Standort**: Während die FSA streng reguliert, bevorzugen manche Anleger weiter etablierte Jurisdiktionen.
 
@@ -171,4 +171,4 @@ Die Wechselkurskosten sind hier der grösste Posten — bei aktiver US-Aktien-T�
 
 ## Fazit
 
-Lightyear ist 2026 eine interessante Option im Neobroker-Landschaft — vor allem für Schweizer Anleger, denen Trade Republic verschlossen bleibt. Die App ist hochwertig, die Gebühren sehr kompetitiv, und die Cash-Zinsen attraktiv. Wer einfaches Buy-and-Hold-Investing in einer schönen App will und keine speziellen Steuerleistungen für DE/AT braucht, bekommt hier ein gutes Paket. Aber: Die niedrigere Einlagensicherung und der jüngere Track Record sind ernst zu nehmen. Für Schweizer ist Saxo Bank wahrscheinlich die solidere Wahl; für DE/AT bleibt Trade Republic der Industrie-Standard. Lightyear positioniert sich dazwischen — als zusätzliche Option, nicht als klarer Ersatz.
+Lightyear ist 2026 eine interessante Option im Neobroker-Landschaft, vor allem für Schweizer Anleger, denen Trade Republic verschlossen bleibt. Die App ist hochwertig, die Gebühren sehr kompetitiv, und die Cash-Zinsen attraktiv. Wer einfaches Buy-and-Hold-Investing in einer schönen App will und keine speziellen Steuerleistungen für DE/AT braucht, bekommt hier ein gutes Paket. Aber: Die niedrigere Einlagensicherung und der jüngere Track Record sind ernst zu nehmen. Für Schweizer ist Saxo Bank wahrscheinlich die solidere Wahl; für DE/AT bleibt Trade Republic der Industrie-Standard. Lightyear positioniert sich dazwischen, als zusätzliche Option, nicht als klarer Ersatz.

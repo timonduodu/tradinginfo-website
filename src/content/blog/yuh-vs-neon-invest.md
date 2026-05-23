@@ -8,11 +8,11 @@ author: "Redaktion"
 readingTime: "9 Min. Lesezeit"
 ---
 
-Yuh und Neon Invest haben den Schweizer Börsenhandel demokratisiert: Mit wenigen Klicks lassen sich Aktien und ETFs aus dem Smartphone heraus kaufen — zu Gebühren, die noch vor wenigen Jahren undenkbar waren. Wir vergleichen die beiden grössten Schweizer Anbieter.
+Yuh und Neon Invest haben den Schweizer Börsenhandel demokratisiert: Mit wenigen Klicks lassen sich Aktien und ETFs aus dem Smartphone heraus kaufen, zu Gebühren, die noch vor wenigen Jahren undenkbar waren. Wir vergleichen die beiden grössten Schweizer Anbieter.
 
 ## Die Anbieter im Überblick
 
-**Yuh** ist ein Joint Venture von **PostFinance** und **Swissquote** — gegründet 2021. Yuh ist eine Vollbank-App: Konto, Karte, Anlegen, Säule 3a, Hypotheken.
+**Yuh** ist ein Joint Venture von **PostFinance** und **Swissquote**, gegründet 2021. Yuh ist eine Vollbank-App: Konto, Karte, Anlegen, Säule 3a, Hypotheken.
 
 **Neon Invest** ist die Anlagefunktion der Smartphone-Bank **Neon**, gegründet 2017. Investieren ist erst seit 2022 verfügbar, baut auf einer Kooperation mit der Hypothekarbank Lenzburg auf.
 
@@ -62,7 +62,7 @@ Sie kaufen Apple für 1'000 USD.
 Neon Invest ist bei Fremdwährungstrades knapp **30 % günstiger**.
 
 > "Costs really do matter in investing. Every dollar you pay in costs is a dollar less of your investment returns."  
-> — *John C. Bogle, Gründer Vanguard*
+>, *John C. Bogle, Gründer Vanguard*
 
 ## Angebotsvielfalt
 
@@ -97,10 +97,10 @@ Contra: Keine Krypto-Integration, kein 3a, kein Sparplan (noch).
 
 Beide Anbieter sind FINMA-reguliert und unterliegen der Schweizer **Einlagensicherung** (100'000 CHF pro Kunde).
 
-**Wichtig:** Die Einlagensicherung gilt für **Bareinlagen**, nicht für die Wertschriften selbst. Wertschriften gehören dem Kunden — auch wenn die Bank insolvent wird, sind Aktien und ETFs separat verwahrt (Sondervermögen).
+**Wichtig:** Die Einlagensicherung gilt für **Bareinlagen**, nicht für die Wertschriften selbst. Wertschriften gehören dem Kunden, auch wenn die Bank insolvent wird, sind Aktien und ETFs separat verwahrt (Sondervermögen).
 
 > "Die Risiken einer Anlage liegen nicht primär in der Bank, sondern in der Anlage selbst."  
-> — *Sinngemäss, anonyme Bankerweisheit*
+>, *Sinngemäss, anonyme Bankerweisheit*
 
 ## Steuerverzeichnis: Praktisch unverzichtbar
 
@@ -111,7 +111,7 @@ Beide Anbieter erstellen für die Schweizer Steuererklärung ein **automatisches
 - Einbehaltene Quellensteuern
 - Daten für DA-1 (siehe unser Artikel zu US-Quellensteuer und DA-1)
 
-Das Steuerverzeichnis ist bei beiden gratis — bei vielen anderen Brokern (z. B. IBKR) ist das ein deutlicher Mehraufwand.
+Das Steuerverzeichnis ist bei beiden gratis, bei vielen anderen Brokern (z. B. IBKR) ist das ein deutlicher Mehraufwand.
 
 ## Nachteile beider Anbieter
 
@@ -149,8 +149,8 @@ Auch wer fortgeschrittene Analyse-Tools, Multi-Charts oder Order-Book-Tiefe will
 
 Yuh und Neon Invest sind beide solide Smartphone-Broker für Schweizer Einsteiger. Die Unterschiede liegen weniger in den Gebühren als in der **Philosophie**:
 
-- **Yuh:** All-in-One — Banking, Investieren, Crypto, 3a in einer App.
-- **Neon Invest:** Fokussiert — günstig in Fremdwährung, klar designt.
+- **Yuh:** All-in-One, Banking, Investieren, Crypto, 3a in einer App.
+- **Neon Invest:** Fokussiert, günstig in Fremdwährung, klar designt.
 
 Beide bieten 100'000 CHF Einlagensicherung, automatische Steuerauszüge und Schweizer Banklizenz. Für die meisten Sparer ab 18 Jahren mit einem Anlagehorizont von 10+ Jahren reicht eine der beiden vollkommen aus.
 
@@ -158,4 +158,4 @@ Wer maximal flexibel sein will, kombiniert beides: Yuh für die Säule 3a und Cr
 
 ***
 
-*Dieser Artikel ist eine redaktionelle Einschätzung und stellt keine Anlage- oder Brokerberatung dar. Gebühren entsprechen dem Stand 2024 und können sich ändern. Beide Anbieter sind unabhängig — wir erhalten keine Vergütung für Empfehlungen.*
+*Dieser Artikel ist eine redaktionelle Einschätzung und stellt keine Anlage- oder Brokerberatung dar. Gebühren entsprechen dem Stand 2024 und können sich ändern. Beide Anbieter sind unabhängig, wir erhalten keine Vergütung für Empfehlungen.*

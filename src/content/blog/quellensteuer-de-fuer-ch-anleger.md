@@ -68,7 +68,7 @@ Bei kleinen Beträgen (z.B. unter 200-300 CHF Rückerstattung) lohnt sich der Au
 **Kostenkalkulation**:
 - Bei 1.000 EUR Brutto-Dividende: 113,75 EUR theoretisch rückforderbar
 - Antragsaufwand: ca. 2-3 Stunden Zeit
-- Bei mehreren Aktien sammelst du das über mehrere Jahre — irgendwann lohnt es sich
+- Bei mehreren Aktien sammelst du das über mehrere Jahre, irgendwann lohnt es sich
 
 ## Praktisches Beispiel: BMW-Dividende
 
@@ -89,9 +89,9 @@ In Deutschland separat zurückfordern:
 - 68,25 EUR (= 600 × 11,375%)
 - Über das BZSt-Verfahren
 
-**Total**: Mit komplettem Rückforderungsprozess zahlst du effektiv nur 15% Steuer auf deine BMW-Dividende — die normale Schweizer Einkommenssteuer auf den Bruttobetrag.
+**Total**: Mit komplettem Rückforderungsprozess zahlst du effektiv nur 15% Steuer auf deine BMW-Dividende, die normale Schweizer Einkommenssteuer auf den Bruttobetrag.
 
-**Ohne BZSt-Antrag**: Du verlierst die 11,375% endgültig — 68,25 EUR sind weg.
+**Ohne BZSt-Antrag**: Du verlierst die 11,375% endgültig, 68,25 EUR sind weg.
 
 ## Das DA-1-Formular im Detail
 
@@ -104,13 +104,13 @@ Das DA-1 (Antrag auf pauschale Steueranrechnung) erfasst:
 5. Einbehaltene Quellensteuer
 6. Maximaler Anrechnungssatz nach DBA
 
-Die meisten Schweizer Banken stellen das DA-1 bereits ausgefüllt zur Verfügung — du musst es nur unterschreiben und der Steuererklärung beilegen.
+Die meisten Schweizer Banken stellen das DA-1 bereits ausgefüllt zur Verfügung, du musst es nur unterschreiben und der Steuererklärung beilegen.
 
 ## Sonderfall: ETFs mit deutschen Aktien
 
 Hältst du einen ETF auf den DAX (z.B. iShares Core DAX UCITS ETF), funktioniert es anders:
 
-- Der ETF erhält die Dividenden — die Quellensteuer-Behandlung passiert auf Fonds-Ebene
+- Der ETF erhält die Dividenden, die Quellensteuer-Behandlung passiert auf Fonds-Ebene
 - Irische UCITS-ETFs (die meisten gängigen) profitieren von guten DBA-Konditionen
 - Die effektive Quellensteuer-Belastung ist oft niedriger als bei Direktbesitz
 - Du als Anleger siehst nur die Netto-Performance des ETFs
@@ -128,10 +128,10 @@ Quellensteuer-Sätze und DBA-Anrechnungen für Schweizer Anleger:
 | Frankreich | 30% | 15% | 15% (kompliziert) |
 | Niederlande | 15% | 15% | 0% (passt schon) |
 | Italien | 26% | 15% | 11% |
-| UK | 0% auf Dividenden | — | — |
+| UK | 0% auf Dividenden |, | — |
 | Japan | 20% | 10% | 10% |
 
-Für die USA ist es einfacher: Wenn deine Bank das Formular W-8BEN korrekt eingereicht hat, wird die US-Quellensteuer direkt auf 15% reduziert — keine Rückforderung nötig.
+Für die USA ist es einfacher: Wenn deine Bank das Formular W-8BEN korrekt eingereicht hat, wird die US-Quellensteuer direkt auf 15% reduziert, keine Rückforderung nötig.
 
 ## Was Schweizer Banken bieten
 
@@ -140,17 +140,17 @@ Die meisten Schweizer Banken (UBS, Saxo, Swissquote, Cornèrtrader) stellen Steu
 - Die Quellensteuer-Beträge pro Land aufschlüsseln
 - Das DA-1 vorausgefüllt mitliefern
 
-Cornèrtrader hat einen Steuerauszug-Aufpreis von CHF 20 pro Jahr, Saxo bietet ihn meist inklusive. Bei IBKR und Lightyear ist es weniger CH-spezifisch — hier musst du mehr selbst zusammensuchen.
+Cornèrtrader hat einen Steuerauszug-Aufpreis von CHF 20 pro Jahr, Saxo bietet ihn meist inklusive. Bei IBKR und Lightyear ist es weniger CH-spezifisch, hier musst du mehr selbst zusammensuchen.
 
 ## Häufige Fehler
 
-**1. DA-1 nicht ausfüllen**: Wer DA-1 vergisst, verschenkt die 15% Anrechnung — das ist deutlich mehr Verlust als die 11,375% Rückforderung in Deutschland.
+**1. DA-1 nicht ausfüllen**: Wer DA-1 vergisst, verschenkt die 15% Anrechnung, das ist deutlich mehr Verlust als die 11,375% Rückforderung in Deutschland.
 
-**2. Wartefrist verpassen**: 4 Jahre für die deutsche Rückforderung — danach verfällt der Anspruch.
+**2. Wartefrist verpassen**: 4 Jahre für die deutsche Rückforderung, danach verfällt der Anspruch.
 
 **3. Beträge falsch deklarieren**: Bruttobetrag muss korrekt sein, nicht der Nettobetrag.
 
-**4. ETFs ignorieren**: Auch ETFs haben Dividendenkomponenten — diese sind im Bank-Steuerauszug ausgewiesen.
+**4. ETFs ignorieren**: Auch ETFs haben Dividendenkomponenten, diese sind im Bank-Steuerauszug ausgewiesen.
 
 ## Effizienz-Tipp: Sammeln vor Antrag
 
@@ -158,4 +158,4 @@ Statt jedes Jahr 50 EUR aus Deutschland zurückzufordern, sammelst du 3-4 Jahre 
 
 ## Fazit
 
-Quellensteuer auf deutsche Dividenden ist für Schweizer Anleger zwar lästig, aber nicht katastrophal. Die wichtigste Massnahme: DA-1 in der Schweizer Steuererklärung sauber ausfüllen — das bringt automatisch die 15% Anrechnung. Die restlichen 11,375% sind via deutsches BZSt-Verfahren rückforderbar — aufwändig, aber bei grösseren Dividenden-Beträgen lohnenswert. Für kleinere Investments oder ETFs ist die direkte Aktienanlage in deutsche Werte oft administrativ teurer, als sie wert ist. Wer einfach in einen DAX- oder MSCI-Germany-ETF investiert, hat weniger Bürokratie.
+Quellensteuer auf deutsche Dividenden ist für Schweizer Anleger zwar lästig, aber nicht katastrophal. Die wichtigste Massnahme: DA-1 in der Schweizer Steuererklärung sauber ausfüllen, das bringt automatisch die 15% Anrechnung. Die restlichen 11,375% sind via deutsches BZSt-Verfahren rückforderbar, aufwändig, aber bei grösseren Dividenden-Beträgen lohnenswert. Für kleinere Investments oder ETFs ist die direkte Aktienanlage in deutsche Werte oft administrativ teurer, als sie wert ist. Wer einfach in einen DAX- oder MSCI-Germany-ETF investiert, hat weniger Bürokratie.

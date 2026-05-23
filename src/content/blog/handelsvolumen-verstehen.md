@@ -30,14 +30,14 @@ In der Praxis: Wenn der S&P 500 um 1 % steigt mit 5 Milliarden gehandelten Aktie
 
 ### 2. Volumen-Spikes signalisieren Wendepunkte
 
-Plötzliche Volumenexplosionen — das Drei- oder Vierfache des Durchschnitts — können Trendwenden anzeigen. Die Idee: ungewöhnlich viele Transaktionen reflektieren neue Information oder einen Marktwechsel.
+Plötzliche Volumenexplosionen, das Drei- oder Vierfache des Durchschnitts, können Trendwenden anzeigen. Die Idee: ungewöhnlich viele Transaktionen reflektieren neue Information oder einen Marktwechsel.
 
 ### 3. Niedriges Volumen kündigt Konsolidierungen an
 
-Wenn das Volumen über mehrere Tage zurückgeht, kann das auf eine bevorstehende Pause oder Trendwende hindeuten — der Markt "verliert das Interesse".
+Wenn das Volumen über mehrere Tage zurückgeht, kann das auf eine bevorstehende Pause oder Trendwende hindeuten, der Markt "verliert das Interesse".
 
 > *"Volume precedes price."*
-> — alte Wall-Street-Weisheit
+>, alte Wall-Street-Weisheit
 
 ## Was die Daten wirklich sagen
 
@@ -57,11 +57,11 @@ Pragmatische Verwendung des Volumens:
 
 **Liquiditäts-Indikator.** Hohe Volumen bedeuten enge Spreads und einfache Ausführung. Bei niedrigvolumigen Aktien können selbst kleine Orders den Kurs bewegen.
 
-**Breakout-Bestätigung.** Wenn eine Aktie aus einer mehrwöchigen Range ausbricht — Volumen sollte deutlich erhöht sein. Ein Breakout bei niedrigem Volumen wird oft schnell wieder umgekehrt.
+**Breakout-Bestätigung.** Wenn eine Aktie aus einer mehrwöchigen Range ausbricht, Volumen sollte deutlich erhöht sein. Ein Breakout bei niedrigem Volumen wird oft schnell wieder umgekehrt.
 
 **Klimax-Signale.** Extreme Volumen-Spitzen, kombiniert mit grossen Kursbewegungen, können das Ende einer Bewegung anzeigen ("Selling Climax", "Buying Climax").
 
-**Distribution vs. Akkumulation.** Wenn der Kurs seitwärts läuft, aber das Volumen hoch bleibt, deutet das auf institutionelle Aktivität hin — möglicherweise wird eine grosse Position auf- oder abgebaut.
+**Distribution vs. Akkumulation.** Wenn der Kurs seitwärts läuft, aber das Volumen hoch bleibt, deutet das auf institutionelle Aktivität hin, möglicherweise wird eine grosse Position auf- oder abgebaut.
 
 ## Volumen-Indikatoren
 
@@ -83,17 +83,17 @@ Volumenanalysen funktionieren in unterschiedlichen Märkten unterschiedlich gut:
 
 **Aktien.** Aussagekräftig. Vor allem bei einzelnen Werten.
 
-**Indizes.** Eingeschränkt. Der "Volumen" eines Index ist die Summe der Bestandteile — Aussagekraft begrenzt.
+**Indizes.** Eingeschränkt. Der "Volumen" eines Index ist die Summe der Bestandteile, Aussagekraft begrenzt.
 
 **Futures.** Sehr wichtig. Open Interest zusätzlich zum Volumen aufschlussreich.
 
-**Forex.** Schwierig. Der Forex-Markt ist dezentral — es gibt keine zentrale Volumen-Statistik. Plattformen zeigen nur das Volumen ihrer eigenen Kunden.
+**Forex.** Schwierig. Der Forex-Markt ist dezentral, es gibt keine zentrale Volumen-Statistik. Plattformen zeigen nur das Volumen ihrer eigenen Kunden.
 
 **Krypto.** Vorsicht. Volumen-Daten auf Krypto-Börsen sind notorisch manipuliert ("Wash Trading"). Erst seit Spot-Bitcoin-ETFs in den USA gibt es vertrauenswürdige Daten für Bitcoin.
 
 ## Open Interest bei Derivaten
 
-Eine wichtige Verwandte des Volumens bei Futures und Optionen ist das **Open Interest** — die Anzahl offener Kontrakte.
+Eine wichtige Verwandte des Volumens bei Futures und Optionen ist das **Open Interest**, die Anzahl offener Kontrakte.
 
 Unterschied:
 - **Volumen:** Anzahl Trades pro Tag
@@ -101,7 +101,7 @@ Unterschied:
 
 Steigt das Open Interest bei steigenden Preisen, deutet das auf neues Geld im Markt hin. Sinkt es bei steigenden Preisen, sind eher Shorts am Schliessen.
 
-Open Interest ist eine der wichtigsten Kennzahlen bei Optionsstrategien — besonders bei Indexoptionen wie SPX oder NDX.
+Open Interest ist eine der wichtigsten Kennzahlen bei Optionsstrategien, besonders bei Indexoptionen wie SPX oder NDX.
 
 ## Volumen und Liquidität
 
@@ -131,7 +131,7 @@ Teilweise wahr. Dark Pools (institutionelle Handelsplattformen) zeigen sich im o
 
 Volumen ist eine nützliche, aber begrenzte Marktinformation. Wer sie als alleinigen Indikator nutzt, wird oft enttäuscht. Wer sie als **Kontext zu Preisbewegungen** sieht, gewinnt Verständnis für die Marktdynamik.
 
-Praktische Faustregel: Bewegungen mit Volumen sind glaubwürdiger als ohne. Volumen-Spikes verdienen Aufmerksamkeit. Niedriges Volumen über Wochen ist ein Hinweis auf bevorstehende Marktwechsel — in welche Richtung, sagt das Volumen alleine nicht.
+Praktische Faustregel: Bewegungen mit Volumen sind glaubwürdiger als ohne. Volumen-Spikes verdienen Aufmerksamkeit. Niedriges Volumen über Wochen ist ein Hinweis auf bevorstehende Marktwechsel, in welche Richtung, sagt das Volumen alleine nicht.
 
 Wie bei allen technischen Indikatoren gilt: Volumen ergänzt andere Analysen, ersetzt sie aber nicht.
 
