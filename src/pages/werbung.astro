@@ -17,16 +17,12 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     <section class="stats">
       <div class="stat-grid">
         <div class="stat">
-          <span class="stat-number" data-target="1200" data-suffix="+">0</span>
+          <span class="stat-number" id="visitor-count" data-target="120" data-suffix="+">0</span>
           <span class="stat-label">Monatliche Website-Besucher</span>
         </div>
         <div class="stat">
-          <span class="stat-number" data-target="34" data-prefix="Ø " data-suffix=" J.">0</span>
-          <span class="stat-label">Durchschnittsalter unserer Leser</span>
-        </div>
-        <div class="stat">
-          <span class="stat-number" data-target="92" data-suffix="%">0</span>
-          <span class="stat-label">Positive Leser-Rückmeldungen</span>
+          <span class="stat-number" data-target="61" data-suffix="+">0</span>
+          <span class="stat-label">Veröffentlichte Artikel</span>
         </div>
         <div class="stat">
           <span class="stat-number" data-target="100" data-suffix="%">0</span>
@@ -41,6 +37,18 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     <!-- Counter Animation Script -->
     <script is:inline>
       (function() {
+        // Echte Besucherzahl von der API holen und in die Kachel schreiben
+        (async function() {
+          try {
+            const r = await fetch("/api/visitors");
+            const d = await r.json();
+            if (d && typeof d.visitors === "number" && d.visitors > 0) {
+              const el = document.getElementById("visitor-count");
+              if (el) el.setAttribute("data-target", String(d.visitors));
+            }
+          } catch (e) { /* Fallback: data-target bleibt unveraendert */ }
+        })();
+
         function animateCounter(el) {
           const target = parseInt(el.dataset.target, 10);
           const prefix = el.dataset.prefix || '';
@@ -174,7 +182,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 
   .stat-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: var(--space-md);
     max-width: 1100px;
     width: 100%;

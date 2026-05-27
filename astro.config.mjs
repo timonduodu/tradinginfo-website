@@ -2,7 +2,7 @@ import { defineConfig } from 'astro/config';
 
 import sitemap from '@astrojs/sitemap';
 
-const SITE_URL = process.env.SITE_URL || 'https://tradingwissen.ch';
+const SITE_URL = process.env.SITE_URL || 'https://www.tradingwissen.ch';
 
 export default defineConfig({
   site: SITE_URL,
