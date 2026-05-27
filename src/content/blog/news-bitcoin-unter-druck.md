@@ -26,6 +26,9 @@ Anleger ziehen Kapital aus Krypto-Produkten ab, was den Kurs belastet. Solche Ko
 
 Korrekturen sind bei Bitcoin keine Ausnahme, sondern die Regel. Für langfristig orientierte Schweizer Anleger ändert eine Kursdelle wenig an der grundsätzlichen Entscheidung, sofern diese auf einer durchdachten These und nicht auf der Hoffnung auf schnelle Gewinne beruht.
 
+
+*Quelle: [cash.ch](https://www.cash.ch/)*
+
 ---
 
 *Dieser Beitrag dient der Information und stellt keine Anlage- oder Steuerberatung dar. Kryptowährungen sind hochvolatil.*
