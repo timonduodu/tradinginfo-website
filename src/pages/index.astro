@@ -11,7 +11,22 @@ const allPosts = (await getCollection('blog'))
   .filter(post => post.data.pubDate <= now)
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 
-const featuredPost = allPosts.find(p => p.data.featured) || allPosts[0];
+// "Artikel der Woche": rotiert automatisch pro Kalenderwoche.
+// Pool = alle mit featured: true markierten Artikel; falls keiner markiert ist,
+// die 12 neuesten. Da die Seite täglich neu gebaut wird (Vercel-Cron),
+// wechselt der Artikel jede Woche von selbst.
+function isoWeek(date: Date): number {
+  const d = new Date(Date.UTC(date.getFullYear(), date.getMonth(), date.getDate()));
+  const dayNum = d.getUTCDay() || 7;
+  d.setUTCDate(d.getUTCDate() + 4 - dayNum);
+  const yearStart = new Date(Date.UTC(d.getUTCFullYear(), 0, 1));
+  return Math.ceil(((d.valueOf() - yearStart.valueOf()) / 86400000 + 1) / 7);
+}
+
+const featuredPool = allPosts.filter(p => p.data.featured);
+const rotationPool = featuredPool.length > 0 ? featuredPool : allPosts.slice(0, 12);
+const rotationSeed = now.getFullYear() * 53 + isoWeek(now);
+const featuredPost = rotationPool[rotationSeed % rotationPool.length] || allPosts[0];
 const otherPosts = allPosts.filter(p => p.slug !== featuredPost?.slug).slice(0, 6);
 
 // Top 3 "Beliebt diese Woche"
