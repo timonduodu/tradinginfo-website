@@ -83,7 +83,7 @@ const href = istSponsor ? sponsor.url : '/werbung';
               <polyline points="15 7 21 7 21 13" />
             </svg>
           </span>
-          <span class="ad-real-name">VELTRADE<em>FUNDING</em></span>
+          <span class="ad-real-name">{sponsor.name.toUpperCase()}<em>FUNDING</em></span>
         </div>
         <div class="ad-real-headline">{ad.headline}</div>
         <div class="ad-real-subline">{ad.subline}</div>
@@ -233,7 +233,8 @@ const href = istSponsor ? sponsor.url : '/werbung';
   }
 
   /* ============================================================
-     Echte Sponsor-Anzeige (Veltrade) — bewusst als Werbebanner
+     Echte Sponsor-Anzeige (Prop Firm des Betreibers, Name aus sponsor.ts)
+     — bewusst als Werbebanner
      gestaltet: Marken-Farben, Sans-Serif, Button-CTA, Logo.
      ============================================================ */
   .ad-real {

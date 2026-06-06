@@ -1,7 +1,7 @@
 // ============================================================
-// Zentrale Sponsor-Konfiguration — Veltrade (Prop Firm des Betreibers)
+// Zentrale Sponsor-Konfiguration — Quentra (Prop Firm des Betreibers)
 //
-// AKTIV seit Juni 2026 — Live-Site: https://veltrade.pages.dev/
+// AKTIV seit Juni 2026 — Live-Site: https://quentra.pages.dev/
 // Konditionen (Stand Launch): 90% Profit-Split ab Tag 1, Auszahlung
 // alle 14 Tage, Konten 10k–200k (skalierbar bis 400k), kein Zeitlimit.
 //
@@ -23,20 +23,20 @@ export interface SponsorAd {
 
 export const sponsor = {
   aktiv: true,
-  name: 'Veltrade',
-  url: 'https://veltrade.pages.dev/?ref=tradingwissen',
+  name: 'Quentra',
+  url: 'https://quentra.pages.dev/?ref=tradingwissen',
 
-  // Eigenwerbungs-Hinweis: Veltrade gehört dem Betreiber dieser Website.
+  // Eigenwerbungs-Hinweis: Quentra gehört dem Betreiber dieser Website.
   // Wird bei aktiv=true automatisch im Footer-Disclaimer ergänzt (Transparenz).
   eigenwerbung: true,
 
-  // Texte basieren auf den Konditionen der Live-Site (veltrade.pages.dev).
-  // Design: echtes Veltrade-Branding — Grün-Schwarz (#0b0f0e) mit Grün-Akzent
+  // Texte basieren auf den Konditionen der Live-Site (quentra.pages.dev).
+  // Design: echtes Quentra-Branding — Grün-Schwarz (#0b0f0e) mit Grün-Akzent
   // (#0e9f6e), wie auf der Live-Site. Gerendert als eigenständiger Werbebanner
   // (Logo, Button-CTA) in AdSlot.astro, bewusst NICHT im Look der Website.
   ads: {
     top: {
-      sponsor: 'VELTRADE',
+      sponsor: 'QUENTRA',
       headline: 'Trade mit unserem Kapital',
       subline: '90% Profit-Split ab Tag 1 · Kein Zeitlimit · Konten bis 200k',
       cta: 'Challenge starten',
@@ -44,7 +44,7 @@ export const sponsor = {
       accentColor: '#0e9f6e',
     },
     middle: {
-      sponsor: 'VELTRADE — PROP TRADING',
+      sponsor: 'QUENTRA — PROP TRADING',
       headline: 'Dein Skill. Unser Kapital.',
       subline: 'Beweise dich in der Challenge und trade ein Funded-Konto mit 90% Profit-Split',
       cta: 'Mehr erfahren',
@@ -52,7 +52,7 @@ export const sponsor = {
       accentColor: '#0e9f6e',
     },
     bottom: {
-      sponsor: 'VELTRADE',
+      sponsor: 'QUENTRA',
       headline: 'Bereit für den nächsten Schritt?',
       subline: 'Vom Privattrader zum Funded Trader — Auszahlungen alle 14 Tage',
       cta: 'Jetzt informieren',
@@ -60,7 +60,7 @@ export const sponsor = {
       accentColor: '#0e9f6e',
     },
     sidebar: {
-      sponsor: 'VELTRADE',
+      sponsor: 'QUENTRA',
       headline: 'Prop Trading ohne Zeitlimit',
       subline: 'Trade unser Kapital und behalte 90% des Gewinns',
       chips: ['90% Split', 'Auszahlung alle 14 Tage', 'Bis 400k skalierbar'],
