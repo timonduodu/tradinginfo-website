@@ -1,0 +1,194 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Zinseszinsrechner",
+  "applicationCategory": "FinanceApplication",
+  "operatingSystem": "Web",
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "CHF" },
+  "url": "https://www.tradingwissen.ch/rechner/zinseszins/",
+};
+---
+
+<BaseLayout
+  title="Zinseszinsrechner — kostenlos & ohne Anmeldung — TradingWissen.ch"
+  description="Zinseszins berechnen: Startkapital, monatliche Sparrate, Rendite und Laufzeit eingeben — Endkapital, Einzahlungen und Zinsertrag sofort sehen. Mit Jahres-Tabelle."
+  schema={schema}
+>
+  <section class="calc container-narrow">
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+      <a href="/rechner">Tools</a> › Zinseszinsrechner
+    </nav>
+    <h1>Zinseszinsrechner</h1>
+    <p class="lead">
+      Der Zinseszins ist die stärkste Kraft beim Vermögensaufbau: Erträge werfen selbst
+      wieder Erträge ab. Rechne hier aus, was aus deinem Kapital wird.
+    </p>
+
+    <form class="calc-form" id="calc-form">
+      <div class="field">
+        <label for="start">Startkapital (CHF)</label>
+        <input type="number" id="start" value="10000" min="0" step="100" />
+      </div>
+      <div class="field">
+        <label for="rate">Monatliche Sparrate (CHF)</label>
+        <input type="number" id="rate" value="500" min="0" step="50" />
+      </div>
+      <div class="field">
+        <label for="zins">Rendite pro Jahr (%)</label>
+        <input type="number" id="zins" value="6" min="-20" max="50" step="0.1" />
+      </div>
+      <div class="field">
+        <label for="jahre">Laufzeit (Jahre)</label>
+        <input type="number" id="jahre" value="20" min="1" max="60" step="1" />
+      </div>
+    </form>
+
+    <div class="results" id="results">
+      <div class="result-card result-main">
+        <span class="result-label">Endkapital</span>
+        <span class="result-value" id="r-end">—</span>
+      </div>
+      <div class="result-card">
+        <span class="result-label">Einzahlungen</span>
+        <span class="result-value" id="r-einzahlungen">—</span>
+      </div>
+      <div class="result-card">
+        <span class="result-label">Zinsertrag</span>
+        <span class="result-value up" id="r-zins">—</span>
+      </div>
+    </div>
+
+    <div class="table-wrap">
+      <table id="year-table">
+        <thead>
+          <tr><th>Jahr</th><th>Einzahlungen</th><th>Zinsertrag</th><th>Kapital</th></tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <div class="explainer">
+      <h2>So funktioniert die Rechnung</h2>
+      <p>
+        Die Sparrate wird monatlich eingezahlt und das Kapital monatlich verzinst
+        (Jahresrendite geteilt durch 12). Steuern und Gebühren sind nicht berücksichtigt —
+        für eine Rechnung mit Gebühren nutze den <a href="/rechner/sparplan">Sparplan-Rechner</a>.
+        Welche Rendite realistisch ist, hängt von der Anlage ab: Der MSCI World lag historisch
+        bei rund 6–8% pro Jahr vor Inflation. Mehr dazu im Artikel
+        <a href="/blog/dollar-cost-averaging-dca">Dollar Cost Averaging</a>.
+      </p>
+    </div>
+  </section>
+</BaseLayout>
+
+<script>
+  const fmt = new Intl.NumberFormat('de-CH', { style: 'currency', currency: 'CHF', maximumFractionDigits: 0 });
+
+  function berechnen() {
+    const start = Number((document.getElementById('start') as HTMLInputElement).value) || 0;
+    const rate = Number((document.getElementById('rate') as HTMLInputElement).value) || 0;
+    const zins = Number((document.getElementById('zins') as HTMLInputElement).value) || 0;
+    const jahre = Math.min(60, Math.max(1, Number((document.getElementById('jahre') as HTMLInputElement).value) || 1));
+
+    const monatsZins = zins / 100 / 12;
+    let kapital = start;
+    let einzahlungen = start;
+    const rows: string[] = [];
+
+    for (let jahr = 1; jahr <= jahre; jahr++) {
+      for (let m = 0; m < 12; m++) {
+        kapital = kapital * (1 + monatsZins) + rate;
+        einzahlungen += rate;
+      }
+      rows.push(`<tr><td>${jahr}</td><td>${fmt.format(einzahlungen)}</td><td>${fmt.format(kapital - einzahlungen)}</td><td><strong>${fmt.format(kapital)}</strong></td></tr>`);
+    }
+
+    document.getElementById('r-end')!.textContent = fmt.format(kapital);
+    document.getElementById('r-einzahlungen')!.textContent = fmt.format(einzahlungen);
+    document.getElementById('r-zins')!.textContent = fmt.format(kapital - einzahlungen);
+    document.querySelector('#year-table tbody')!.innerHTML = rows.join('');
+  }
+
+  document.getElementById('calc-form')!.addEventListener('input', berechnen);
+  berechnen();
+</script>
+
+<style>
+  .calc { padding: var(--space-xl) var(--space-md) var(--space-2xl); }
+  .breadcrumbs { font-family: var(--font-sans); font-size: 0.8rem; color: var(--color-ink-muted); margin-bottom: var(--space-md); }
+  .breadcrumbs a { color: var(--color-ink-soft); text-decoration: none; }
+  .breadcrumbs a:hover { color: var(--color-accent); }
+  .calc h1 { margin-bottom: var(--space-sm); }
+  .lead { font-size: 1.1rem; color: var(--color-ink-soft); margin-bottom: var(--space-lg); }
+
+  .calc-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-md);
+    padding: var(--space-lg);
+    background: var(--color-bg-alt);
+    border: 1px solid var(--color-rule);
+    margin-bottom: var(--space-md);
+  }
+  .field { display: flex; flex-direction: column; gap: 0.4rem; }
+  .field label {
+    font-family: var(--font-sans);
+    font-size: 0.78rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--color-ink-soft);
+  }
+  .field input {
+    padding: 0.7rem 1rem;
+    font-family: var(--font-sans);
+    font-size: 1.05rem;
+    border: 1px solid var(--color-rule);
+    border-radius: 2px;
+    background: var(--color-paper);
+    color: var(--color-ink);
+  }
+  .field input:focus { outline: none; border-color: var(--color-accent); }
+
+  .results {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: var(--space-md);
+    margin-bottom: var(--space-lg);
+  }
+  .result-card {
+    padding: var(--space-md);
+    border: 1px solid var(--color-rule);
+    background: var(--color-paper);
+    text-align: center;
+  }
+  .result-main { border-color: var(--color-accent); border-width: 2px; }
+  .result-label {
+    display: block;
+    font-family: var(--font-sans);
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--color-ink-muted);
+    margin-bottom: 0.3rem;
+  }
+  .result-value { font-family: var(--font-serif); font-size: 1.6rem; font-weight: 700; }
+  .result-value.up { color: var(--color-up); }
+
+  .table-wrap { overflow-x: auto; margin-bottom: var(--space-lg); }
+  table { width: 100%; border-collapse: collapse; font-family: var(--font-sans); font-size: 0.9rem; }
+  th, td { padding: 0.55rem 0.9rem; border-bottom: 1px solid var(--color-rule); text-align: right; }
+  th:first-child, td:first-child { text-align: left; }
+  th { background: var(--color-bg-alt); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.06em; }
+
+  .explainer { margin-top: var(--space-lg); padding-top: var(--space-md); border-top: 3px double var(--color-rule); }
+  .explainer h2 { font-size: 1.3rem; margin-bottom: var(--space-sm); }
+
+  @media (max-width: 600px) {
+    .calc-form, .results { grid-template-columns: 1fr; }
+  }
+</style>

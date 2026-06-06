@@ -119,7 +119,7 @@ const schemas = [articleSchema, breadcrumbSchema, ...(faqSchema ? [faqSchema] : 
       <h1 class="post-title">{post.data.title}</h1>
       <p class="post-description">{post.data.description}</p>
       <div class="post-meta">
-        <span>Von <strong>{post.data.author}</strong></span>
+        <span>Von <a href="/about" class="author-link"><strong>{post.data.author}</strong></a></span>
         <span>·</span>
         <time datetime={post.data.pubDate.toISOString()}>
           {post.data.pubDate.toLocaleDateString('de-CH', { day: 'numeric', month: 'long', year: 'numeric' })}
@@ -284,6 +284,14 @@ const schemas = [articleSchema, breadcrumbSchema, ...(faqSchema ? [faqSchema] : 
 
   .share-wrap {
     margin: var(--space-lg) auto;
+  }
+
+  .author-link {
+    color: inherit;
+    text-decoration: none;
+  }
+  .author-link:hover {
+    color: var(--color-accent);
   }
 
   .updated {

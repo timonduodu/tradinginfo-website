@@ -7,4 +7,47 @@ import CategoryLayout from '../layouts/CategoryLayout.astro';
   title="Broker"
   description="Vergleiche und Analysen der wichtigsten Online-Broker für Schweizer Anleger. Echte Kosten, versteckte Gebühren, Stärken und Schwächen."
   intro="Die Wahl des Brokers entscheidet langfristig über einen erheblichen Teil der Anlagerendite. Diese Sektion analysiert die für Schweizer Anleger relevanten Anbieter, sachlich und mit Fokus auf die tatsächlichen Kostenstrukturen."
-/>
+>
+  <div class="container-narrow">
+    <div class="vergleich-callout">
+      <div>
+        <h2>Alle Broker auf einen Blick</h2>
+        <p>Gebühren, Krypto, Sparpläne und CH-IBAN — sortierbar und filterbar in unserer Vergleichstabelle.</p>
+      </div>
+      <div class="callout-actions">
+        <a href="/broker-vergleich" class="btn btn-primary">Zum Vergleich →</a>
+        <a href="/broker-quiz" class="btn btn-outline">Quiz: Welcher passt?</a>
+      </div>
+    </div>
+  </div>
+</CategoryLayout>
+
+<style>
+  .vergleich-callout {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-md);
+    flex-wrap: wrap;
+    padding: var(--space-md) var(--space-lg);
+    border: 1px solid var(--color-rule);
+    border-left: 4px solid var(--color-accent);
+    background: var(--color-paper);
+    margin: var(--space-md) auto;
+  }
+  .vergleich-callout h2 {
+    font-size: 1.2rem;
+    margin-bottom: 0.25rem;
+  }
+  .vergleich-callout p {
+    font-family: var(--font-sans);
+    font-size: 0.9rem;
+    color: var(--color-ink-soft);
+    margin: 0;
+  }
+  .callout-actions {
+    display: flex;
+    gap: var(--space-xs);
+    flex-wrap: wrap;
+  }
+</style>

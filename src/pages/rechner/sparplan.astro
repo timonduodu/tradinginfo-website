@@ -1,0 +1,191 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Sparplan-Rechner",
+  "applicationCategory": "FinanceApplication",
+  "operatingSystem": "Web",
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "CHF" },
+  "url": "https://www.tradingwissen.ch/rechner/sparplan/",
+};
+---
+
+<BaseLayout
+  title="ETF-Sparplan-Rechner mit Gebühren — TradingWissen.ch"
+  description="ETF-Sparplan berechnen inklusive TER und Kaufgebühren: Sparrate, Rendite und Laufzeit eingeben — Endkapital netto nach Kosten sofort sehen."
+  schema={schema}
+>
+  <section class="calc container-narrow">
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+      <a href="/rechner">Tools</a> › Sparplan-Rechner
+    </nav>
+    <h1>ETF-Sparplan-Rechner</h1>
+    <p class="lead">
+      Was bleibt nach Kosten wirklich übrig? Dieser Rechner zieht die laufenden
+      Fondskosten (TER) und die Kaufgebühren deines Brokers vom Ergebnis ab.
+    </p>
+
+    <form class="calc-form" id="calc-form">
+      <div class="field">
+        <label for="rate">Monatliche Sparrate (CHF)</label>
+        <input type="number" id="rate" value="500" min="0" step="50" />
+      </div>
+      <div class="field">
+        <label for="zins">Erwartete Rendite p.a. (%)</label>
+        <input type="number" id="zins" value="6" min="-20" max="50" step="0.1" />
+      </div>
+      <div class="field">
+        <label for="jahre">Laufzeit (Jahre)</label>
+        <input type="number" id="jahre" value="20" min="1" max="60" step="1" />
+      </div>
+      <div class="field">
+        <label for="ter">TER des ETF (% p.a.)</label>
+        <input type="number" id="ter" value="0.2" min="0" max="5" step="0.05" />
+      </div>
+      <div class="field">
+        <label for="gebuehr">Gebühr pro Ausführung (CHF)</label>
+        <input type="number" id="gebuehr" value="1" min="0" step="0.5" />
+      </div>
+    </form>
+
+    <div class="results">
+      <div class="result-card result-main">
+        <span class="result-label">Endkapital (netto)</span>
+        <span class="result-value" id="r-netto">—</span>
+      </div>
+      <div class="result-card">
+        <span class="result-label">Einzahlungen</span>
+        <span class="result-value" id="r-einzahlungen">—</span>
+      </div>
+      <div class="result-card">
+        <span class="result-label">Ertrag (netto)</span>
+        <span class="result-value up" id="r-ertrag">—</span>
+      </div>
+      <div class="result-card">
+        <span class="result-label">Kosten gesamt</span>
+        <span class="result-value down" id="r-kosten">—</span>
+      </div>
+    </div>
+
+    <div class="explainer">
+      <h2>So funktioniert die Rechnung</h2>
+      <p>
+        Die Rendite wird um die TER reduziert (Netto-Rendite = Rendite − TER), die Kaufgebühr
+        wird monatlich von der Sparrate abgezogen. «Kosten gesamt» zeigt die Differenz zu
+        einem hypothetischen kostenlosen Sparplan — so siehst du, was Gebühren über Jahrzehnte
+        wirklich ausmachen. Mehr dazu:
+        <a href="/blog/etf-sparplan-schweiz">ETF-Sparplan in der Schweiz</a> und
+        <a href="/blog/wahre-kosten-eines-trades">Die wahren Kosten eines Trades</a>.
+      </p>
+    </div>
+  </section>
+</BaseLayout>
+
+<script>
+  const fmt = new Intl.NumberFormat('de-CH', { style: 'currency', currency: 'CHF', maximumFractionDigits: 0 });
+
+  function simulieren(rate: number, zinsPa: number, jahre: number, gebuehr: number): { end: number; einzahlungen: number } {
+    const monatsZins = zinsPa / 100 / 12;
+    let kapital = 0;
+    let einzahlungen = 0;
+    for (let m = 0; m < jahre * 12; m++) {
+      kapital = kapital * (1 + monatsZins) + Math.max(0, rate - gebuehr);
+      einzahlungen += rate;
+    }
+    return { end: kapital, einzahlungen };
+  }
+
+  function berechnen() {
+    const rate = Number((document.getElementById('rate') as HTMLInputElement).value) || 0;
+    const zins = Number((document.getElementById('zins') as HTMLInputElement).value) || 0;
+    const jahre = Math.min(60, Math.max(1, Number((document.getElementById('jahre') as HTMLInputElement).value) || 1));
+    const ter = Number((document.getElementById('ter') as HTMLInputElement).value) || 0;
+    const gebuehr = Number((document.getElementById('gebuehr') as HTMLInputElement).value) || 0;
+
+    const netto = simulieren(rate, zins - ter, jahre, gebuehr);
+    const brutto = simulieren(rate, zins, jahre, 0);
+
+    document.getElementById('r-netto')!.textContent = fmt.format(netto.end);
+    document.getElementById('r-einzahlungen')!.textContent = fmt.format(netto.einzahlungen);
+    document.getElementById('r-ertrag')!.textContent = fmt.format(netto.end - netto.einzahlungen);
+    document.getElementById('r-kosten')!.textContent = fmt.format(brutto.end - netto.end);
+  }
+
+  document.getElementById('calc-form')!.addEventListener('input', berechnen);
+  berechnen();
+</script>
+
+<style>
+  .calc { padding: var(--space-xl) var(--space-md) var(--space-2xl); }
+  .breadcrumbs { font-family: var(--font-sans); font-size: 0.8rem; color: var(--color-ink-muted); margin-bottom: var(--space-md); }
+  .breadcrumbs a { color: var(--color-ink-soft); text-decoration: none; }
+  .breadcrumbs a:hover { color: var(--color-accent); }
+  .calc h1 { margin-bottom: var(--space-sm); }
+  .lead { font-size: 1.1rem; color: var(--color-ink-soft); margin-bottom: var(--space-lg); }
+
+  .calc-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-md);
+    padding: var(--space-lg);
+    background: var(--color-bg-alt);
+    border: 1px solid var(--color-rule);
+    margin-bottom: var(--space-md);
+  }
+  .field { display: flex; flex-direction: column; gap: 0.4rem; }
+  .field label {
+    font-family: var(--font-sans);
+    font-size: 0.78rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--color-ink-soft);
+  }
+  .field input {
+    padding: 0.7rem 1rem;
+    font-family: var(--font-sans);
+    font-size: 1.05rem;
+    border: 1px solid var(--color-rule);
+    border-radius: 2px;
+    background: var(--color-paper);
+    color: var(--color-ink);
+  }
+  .field input:focus { outline: none; border-color: var(--color-accent); }
+
+  .results {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--space-md);
+    margin-bottom: var(--space-md);
+  }
+  .result-card {
+    padding: var(--space-md);
+    border: 1px solid var(--color-rule);
+    background: var(--color-paper);
+    text-align: center;
+  }
+  .result-main { border-color: var(--color-accent); border-width: 2px; }
+  .result-label {
+    display: block;
+    font-family: var(--font-sans);
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--color-ink-muted);
+    margin-bottom: 0.3rem;
+  }
+  .result-value { font-family: var(--font-serif); font-size: 1.5rem; font-weight: 700; }
+  .result-value.up { color: var(--color-up); }
+  .result-value.down { color: var(--color-down); }
+
+  .explainer { margin-top: var(--space-lg); padding-top: var(--space-md); border-top: 3px double var(--color-rule); }
+  .explainer h2 { font-size: 1.3rem; margin-bottom: var(--space-sm); }
+
+  @media (max-width: 700px) {
+    .calc-form { grid-template-columns: 1fr; }
+    .results { grid-template-columns: 1fr 1fr; }
+  }
+</style>

@@ -1,0 +1,169 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import NewsletterSignup from '../components/NewsletterSignup.astro';
+import { glossar } from '../data/glossar';
+
+// Nach Anfangsbuchstaben gruppieren
+const gruppen = new Map<string, typeof glossar>();
+for (const eintrag of glossar) {
+  const letter = eintrag.begriff[0].toUpperCase();
+  if (!gruppen.has(letter)) gruppen.set(letter, []);
+  gruppen.get(letter)!.push(eintrag);
+}
+const letters = [...gruppen.keys()].sort((a, b) => a.localeCompare(b, 'de-CH'));
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "DefinedTermSet",
+  "name": "Trading-Glossar",
+  "description": "Glossar mit Trading- und Börsenbegriffen, erklärt für Schweizer Anleger.",
+  "url": "https://www.tradingwissen.ch/glossar/",
+  "hasDefinedTerm": glossar.map(e => ({
+    "@type": "DefinedTerm",
+    "name": e.begriff,
+    "description": e.definition,
+  })),
+};
+---
+
+<BaseLayout
+  title={`Trading-Glossar — ${glossar.length} Begriffe einfach erklärt — TradingWissen.ch`}
+  description={`${glossar.length} Trading- und Börsenbegriffe kompakt erklärt: von Ask und Bid über Hebel und Margin bis Verrechnungssteuer und Zinseszins.`}
+  schema={schema}
+>
+  <section class="glossar container-narrow" data-pagefind-body>
+    <span class="eyebrow">Glossar</span>
+    <h1>Trading-Glossar</h1>
+    <p class="lead">
+      {glossar.length} Begriffe aus Trading, Börse, Krypto und Schweizer Steuern — kompakt
+      und ohne Fachchinesisch erklärt.
+    </p>
+
+    <nav class="letter-nav" aria-label="Alphabet-Navigation">
+      {letters.map(l => <a href={`#${l}`}>{l}</a>)}
+    </nav>
+
+    <input
+      type="search"
+      id="glossar-filter"
+      class="glossar-search"
+      placeholder="Begriff filtern …"
+      aria-label="Glossar filtern"
+    />
+
+    {letters.map(letter => (
+      <section class="letter-group" data-letter-group>
+        <h2 id={letter} class="letter-heading">{letter}</h2>
+        <dl>
+          {gruppen.get(letter)!.map(e => (
+            <div class="entry" data-begriff={e.begriff.toLowerCase()}>
+              <dt>{e.begriff}</dt>
+              <dd>
+                {e.definition}
+                {e.artikelSlug && <a href={`/blog/${e.artikelSlug}`} class="entry-link"> Mehr dazu →</a>}
+              </dd>
+            </div>
+          ))}
+        </dl>
+      </section>
+    ))}
+
+    <p class="no-results" id="no-results" hidden>Kein Begriff gefunden — probiere die <a href="/suche">Volltextsuche</a>.</p>
+
+    <div class="glossar-newsletter" data-pagefind-ignore>
+      <NewsletterSignup />
+    </div>
+  </section>
+</BaseLayout>
+
+<script>
+  const input = document.getElementById('glossar-filter') as HTMLInputElement;
+  const entries = document.querySelectorAll('.entry');
+  const groups = document.querySelectorAll('[data-letter-group]');
+  const noResults = document.getElementById('no-results')!;
+
+  input.addEventListener('input', () => {
+    const q = input.value.trim().toLowerCase();
+    let visible = 0;
+    entries.forEach(e => {
+      const hit = !q || (e.getAttribute('data-begriff') || '').includes(q) || (e.textContent || '').toLowerCase().includes(q);
+      (e as HTMLElement).hidden = !hit;
+      if (hit) visible++;
+    });
+    groups.forEach(g => {
+      const anyVisible = Array.from(g.querySelectorAll('.entry')).some(e => !(e as HTMLElement).hidden);
+      (g as HTMLElement).hidden = !anyVisible;
+    });
+    noResults.hidden = visible > 0;
+  });
+</script>
+
+<style>
+  .glossar { padding: var(--space-xl) var(--space-md) var(--space-2xl); }
+  .glossar h1 { margin: var(--space-sm) 0; }
+  .lead { font-size: 1.1rem; color: var(--color-ink-soft); margin-bottom: var(--space-lg); }
+
+  .letter-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+    margin-bottom: var(--space-md);
+    font-family: var(--font-sans);
+  }
+  .letter-nav a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    border: 1px solid var(--color-rule);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.85rem;
+    color: var(--color-ink);
+    transition: all 0.15s;
+  }
+  .letter-nav a:hover {
+    background: var(--color-accent);
+    color: var(--color-paper);
+    border-color: var(--color-accent);
+  }
+
+  .glossar-search {
+    width: 100%;
+    padding: 0.8rem 1rem;
+    font-family: var(--font-sans);
+    font-size: 1rem;
+    border: 1px solid var(--color-rule);
+    border-radius: 2px;
+    background: var(--color-paper);
+    color: var(--color-ink);
+    margin-bottom: var(--space-lg);
+  }
+  .glossar-search:focus { outline: none; border-color: var(--color-accent); }
+
+  .letter-heading {
+    font-size: 1.8rem;
+    border-bottom: 2px solid var(--color-accent);
+    padding-bottom: var(--space-xs);
+    margin: var(--space-lg) 0 var(--space-sm);
+    scroll-margin-top: 80px;
+  }
+  dl { margin: 0; }
+  .entry { padding: var(--space-sm) 0; border-bottom: 1px solid var(--color-rule); }
+  dt { font-weight: 700; font-size: 1.05rem; margin-bottom: 0.25rem; }
+  dd {
+    margin: 0;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: var(--color-ink-soft);
+  }
+  .entry-link {
+    font-family: var(--font-sans);
+    font-size: 0.85rem;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+  .no-results { font-family: var(--font-sans); color: var(--color-ink-muted); margin-top: var(--space-lg); }
+  .glossar-newsletter { margin-top: var(--space-xl); }
+</style>

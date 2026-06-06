@@ -1,0 +1,200 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Positionsgrössen-Rechner",
+  "applicationCategory": "FinanceApplication",
+  "operatingSystem": "Web",
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "CHF" },
+  "url": "https://www.tradingwissen.ch/rechner/positionsgroesse/",
+};
+---
+
+<BaseLayout
+  title="Positionsgrössen-Rechner — Risiko richtig dosieren — TradingWissen.ch"
+  description="Positionsgrösse berechnen nach der 1%-Regel: Kontogrösse, Risiko, Einstieg und Stop-Loss eingeben — Stückzahl und Positionswert sofort sehen."
+  schema={schema}
+>
+  <section class="calc container-narrow">
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+      <a href="/rechner">Tools</a> › Positionsgrössen-Rechner
+    </nav>
+    <h1>Positionsgrössen-Rechner</h1>
+    <p class="lead">
+      Die wichtigste Regel im Risikomanagement: Riskiere pro Trade nur einen kleinen,
+      festen Prozentsatz deines Kapitals. Dieser Rechner sagt dir, wie viele Stück du
+      kaufen darfst.
+    </p>
+
+    <form class="calc-form" id="calc-form">
+      <div class="field">
+        <label for="konto">Kontogrösse (CHF)</label>
+        <input type="number" id="konto" value="25000" min="0" step="500" />
+      </div>
+      <div class="field">
+        <label for="risiko">Risiko pro Trade (%)</label>
+        <input type="number" id="risiko" value="1" min="0.1" max="10" step="0.1" />
+      </div>
+      <div class="field">
+        <label for="einstieg">Einstiegskurs (CHF)</label>
+        <input type="number" id="einstieg" value="100" min="0.01" step="0.01" />
+      </div>
+      <div class="field">
+        <label for="stop">Stop-Loss-Kurs (CHF)</label>
+        <input type="number" id="stop" value="95" min="0" step="0.01" />
+      </div>
+    </form>
+
+    <div class="results">
+      <div class="result-card result-main">
+        <span class="result-label">Stückzahl</span>
+        <span class="result-value" id="r-stueck">—</span>
+      </div>
+      <div class="result-card">
+        <span class="result-label">Positionswert</span>
+        <span class="result-value" id="r-wert">—</span>
+      </div>
+      <div class="result-card">
+        <span class="result-label">Maximaler Verlust</span>
+        <span class="result-value down" id="r-verlust">—</span>
+      </div>
+      <div class="result-card">
+        <span class="result-label">Anteil am Konto</span>
+        <span class="result-value" id="r-anteil">—</span>
+      </div>
+    </div>
+
+    <p class="warnung" id="warnung" hidden>
+      ⚠ Der Stop-Loss muss unter dem Einstiegskurs liegen (Long-Position).
+    </p>
+
+    <div class="explainer">
+      <h2>So funktioniert die Rechnung</h2>
+      <p>
+        Erlaubtes Risiko = Kontogrösse × Risiko-Prozentsatz. Risiko pro Stück = Einstieg − Stop-Loss.
+        Stückzahl = erlaubtes Risiko ÷ Risiko pro Stück. Beispiel: Bei CHF 25'000 Konto und 1%
+        Risiko darfst du CHF 250 verlieren — bei CHF 5 Abstand zum Stop sind das 50 Stück.
+        Gebühren und Slippage kommen in der Praxis dazu. Vertiefung:
+        <a href="/blog/positionsgroesse-berechnen">Positionsgrösse berechnen</a>,
+        <a href="/blog/stop-loss-richtig-setzen">Stop-Loss richtig setzen</a> und
+        <a href="/blog/risikomanagement">Risikomanagement</a>.
+      </p>
+    </div>
+  </section>
+</BaseLayout>
+
+<script>
+  const fmtChf = new Intl.NumberFormat('de-CH', { style: 'currency', currency: 'CHF' });
+  const fmtPct = new Intl.NumberFormat('de-CH', { style: 'percent', maximumFractionDigits: 1 });
+
+  function berechnen() {
+    const konto = Number((document.getElementById('konto') as HTMLInputElement).value) || 0;
+    const risiko = Number((document.getElementById('risiko') as HTMLInputElement).value) || 0;
+    const einstieg = Number((document.getElementById('einstieg') as HTMLInputElement).value) || 0;
+    const stop = Number((document.getElementById('stop') as HTMLInputElement).value) || 0;
+
+    const warnung = document.getElementById('warnung')!;
+    const risikoProStueck = einstieg - stop;
+
+    if (risikoProStueck <= 0 || einstieg <= 0) {
+      warnung.hidden = false;
+      ['r-stueck', 'r-wert', 'r-verlust', 'r-anteil'].forEach(id => {
+        document.getElementById(id)!.textContent = '—';
+      });
+      return;
+    }
+    warnung.hidden = true;
+
+    const erlaubtesRisiko = konto * (risiko / 100);
+    const stueck = Math.floor(erlaubtesRisiko / risikoProStueck);
+    const wert = stueck * einstieg;
+
+    document.getElementById('r-stueck')!.textContent = String(stueck);
+    document.getElementById('r-wert')!.textContent = fmtChf.format(wert);
+    document.getElementById('r-verlust')!.textContent = fmtChf.format(stueck * risikoProStueck);
+    document.getElementById('r-anteil')!.textContent = konto > 0 ? fmtPct.format(wert / konto) : '—';
+  }
+
+  document.getElementById('calc-form')!.addEventListener('input', berechnen);
+  berechnen();
+</script>
+
+<style>
+  .calc { padding: var(--space-xl) var(--space-md) var(--space-2xl); }
+  .breadcrumbs { font-family: var(--font-sans); font-size: 0.8rem; color: var(--color-ink-muted); margin-bottom: var(--space-md); }
+  .breadcrumbs a { color: var(--color-ink-soft); text-decoration: none; }
+  .breadcrumbs a:hover { color: var(--color-accent); }
+  .calc h1 { margin-bottom: var(--space-sm); }
+  .lead { font-size: 1.1rem; color: var(--color-ink-soft); margin-bottom: var(--space-lg); }
+
+  .calc-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-md);
+    padding: var(--space-lg);
+    background: var(--color-bg-alt);
+    border: 1px solid var(--color-rule);
+    margin-bottom: var(--space-md);
+  }
+  .field { display: flex; flex-direction: column; gap: 0.4rem; }
+  .field label {
+    font-family: var(--font-sans);
+    font-size: 0.78rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--color-ink-soft);
+  }
+  .field input {
+    padding: 0.7rem 1rem;
+    font-family: var(--font-sans);
+    font-size: 1.05rem;
+    border: 1px solid var(--color-rule);
+    border-radius: 2px;
+    background: var(--color-paper);
+    color: var(--color-ink);
+  }
+  .field input:focus { outline: none; border-color: var(--color-accent); }
+
+  .results {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--space-md);
+    margin-bottom: var(--space-md);
+  }
+  .result-card {
+    padding: var(--space-md);
+    border: 1px solid var(--color-rule);
+    background: var(--color-paper);
+    text-align: center;
+  }
+  .result-main { border-color: var(--color-accent); border-width: 2px; }
+  .result-label {
+    display: block;
+    font-family: var(--font-sans);
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--color-ink-muted);
+    margin-bottom: 0.3rem;
+  }
+  .result-value { font-family: var(--font-serif); font-size: 1.5rem; font-weight: 700; }
+  .result-value.down { color: var(--color-down); }
+
+  .warnung {
+    font-family: var(--font-sans);
+    color: var(--color-down);
+    font-size: 0.9rem;
+  }
+
+  .explainer { margin-top: var(--space-lg); padding-top: var(--space-md); border-top: 3px double var(--color-rule); }
+  .explainer h2 { font-size: 1.3rem; margin-bottom: var(--space-sm); }
+
+  @media (max-width: 700px) {
+    .calc-form { grid-template-columns: 1fr; }
+    .results { grid-template-columns: 1fr 1fr; }
+  }
+</style>

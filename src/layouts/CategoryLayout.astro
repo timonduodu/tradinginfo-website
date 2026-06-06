@@ -33,6 +33,8 @@ const detectedSubcats = subcategories || Array.from(
     <p class="intro">{intro}</p>
   </section>
 
+  <slot />
+
   {detectedSubcats.length > 0 && (
     <nav class="subcat-nav container">
       <button class="subcat-link subcat-active" data-filter="all">Alle Artikel</button>

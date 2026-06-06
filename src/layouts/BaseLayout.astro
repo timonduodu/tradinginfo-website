@@ -20,7 +20,39 @@ const {
   schema,
 } = Astro.props;
 
-const schemas = schema ? (Array.isArray(schema) ? schema : [schema]) : [];
+// Sitewide-Schemas: Organization + WebSite (mit SearchAction für Google Sitelinks-Suche)
+const organizationSchema = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://www.tradingwissen.ch/#organization",
+  "name": "TradingWissen.ch",
+  "url": "https://www.tradingwissen.ch/",
+  "logo": "https://www.tradingwissen.ch/og-default.png",
+  "description": "Unabhängige Trading-Information, Broker-Vergleiche und Strategien für Schweizer Trader.",
+  "email": "info@tradingwissen.ch",
+  "areaServed": "CH",
+};
+
+const websiteSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": "https://www.tradingwissen.ch/#website",
+  "name": "TradingWissen.ch",
+  "url": "https://www.tradingwissen.ch/",
+  "publisher": { "@id": "https://www.tradingwissen.ch/#organization" },
+  "inLanguage": "de-CH",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": { "@type": "EntryPoint", "urlTemplate": "https://www.tradingwissen.ch/suche/?q={search_term_string}" },
+    "query-input": "required name=search_term_string",
+  },
+};
+
+const schemas = [
+  organizationSchema,
+  websiteSchema,
+  ...(schema ? (Array.isArray(schema) ? schema : [schema]) : []),
+];
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 ---
@@ -73,6 +105,9 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 
     <!-- RSS -->
     <link rel="alternate" type="application/rss+xml" title="TradingWissen.ch" href="/rss.xml" />
+
+    <!-- Vercel Speed Insights (im Vercel-Dashboard unter "Speed Insights" aktivieren) -->
+    <script is:inline defer src="/_vercel/speed-insights/script.js"></script>
 
     <!-- Google Analytics 4 -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-03B1NV6MHH"></script>

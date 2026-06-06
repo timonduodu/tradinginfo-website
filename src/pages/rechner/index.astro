@@ -1,0 +1,123 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import NewsletterSignup from '../../components/NewsletterSignup.astro';
+
+const tools = [
+  {
+    href: '/rechner/zinseszins',
+    title: 'Zinseszinsrechner',
+    text: 'Wie viel wird aus deinem Startkapital und monatlichen Sparraten über die Jahre? Mit Chart und Jahres-Tabelle.',
+  },
+  {
+    href: '/rechner/positionsgroesse',
+    title: 'Positionsgrössen-Rechner',
+    text: 'Wie viele Aktien oder Kontrakte darfst du kaufen, wenn du maximal 1–2% deines Kapitals riskieren willst?',
+  },
+  {
+    href: '/rechner/sparplan',
+    title: 'Sparplan-Rechner',
+    text: 'ETF-Sparplan durchrechnen: Sparrate, Rendite und Gebühren — was bleibt am Ende übrig?',
+  },
+  {
+    href: '/broker-quiz',
+    title: 'Broker-Quiz',
+    text: 'Fünf Fragen, eine Empfehlung: Welcher Broker passt zu deinem Profil?',
+  },
+  {
+    href: '/broker-vergleich',
+    title: 'Broker-Vergleich',
+    text: 'Alle von uns getesteten Broker in einer sortier- und filterbaren Tabelle.',
+  },
+  {
+    href: '/glossar',
+    title: 'Trading-Glossar',
+    text: 'Über 70 Begriffe von A wie Ask bis Z wie Zinseszins — kompakt erklärt.',
+  },
+];
+---
+
+<BaseLayout
+  title="Trading-Tools & Rechner — TradingWissen.ch"
+  description="Kostenlose Trading-Tools: Zinseszinsrechner, Positionsgrössen-Rechner, Sparplan-Rechner, Broker-Vergleich und Glossar. Ohne Anmeldung."
+>
+  <section class="tools container">
+    <span class="eyebrow">Tools</span>
+    <h1>Rechner & Werkzeuge</h1>
+    <p class="lead">Kostenlose Tools für bessere Trading-Entscheidungen — direkt im Browser, ohne Anmeldung.</p>
+
+    <div class="tool-grid">
+      {tools.map(tool => (
+        <a href={tool.href} class="tool-card">
+          <h2>{tool.title}</h2>
+          <p>{tool.text}</p>
+          <span class="tool-cta">Öffnen →</span>
+        </a>
+      ))}
+    </div>
+
+    <div class="tools-newsletter">
+      <NewsletterSignup />
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .tools {
+    padding: var(--space-xl) var(--space-md) var(--space-2xl);
+  }
+  .tools h1 {
+    margin: var(--space-sm) 0;
+  }
+  .lead {
+    font-size: 1.15rem;
+    color: var(--color-ink-soft);
+    margin-bottom: var(--space-lg);
+    max-width: 60ch;
+  }
+  .tool-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-md);
+  }
+  .tool-card {
+    display: flex;
+    flex-direction: column;
+    padding: var(--space-lg);
+    border: 1px solid var(--color-rule);
+    background: var(--color-paper);
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.2s;
+  }
+  .tool-card:hover {
+    border-color: var(--color-accent);
+    transform: translateY(-2px);
+  }
+  .tool-card h2 {
+    font-size: 1.35rem;
+    margin-bottom: var(--space-xs);
+  }
+  .tool-card p {
+    font-size: 0.95rem;
+    color: var(--color-ink-soft);
+    flex: 1;
+  }
+  .tool-cta {
+    font-family: var(--font-sans);
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--color-accent);
+  }
+  .tools-newsletter {
+    margin-top: var(--space-xl);
+    max-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  @media (max-width: 900px) {
+    .tool-grid { grid-template-columns: 1fr 1fr; }
+  }
+  @media (max-width: 600px) {
+    .tool-grid { grid-template-columns: 1fr; }
+  }
+</style>

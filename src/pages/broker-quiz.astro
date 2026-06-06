@@ -1,0 +1,231 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import NewsletterSignup from '../components/NewsletterSignup.astro';
+import { brokers } from '../data/broker';
+
+// Slugs der Test-Artikel für die Ergebnis-Links
+const brokerLinks = Object.fromEntries(brokers.map(b => [b.name, b.slug]));
+
+const fragen = [
+  {
+    frage: 'Wie viel Erfahrung hast du mit Investieren?',
+    antworten: [
+      { text: 'Ich fange gerade erst an', punkte: { 'Yuh': 2, 'Neon Invest': 2, 'Lightyear': 2, 'Trade Republic': 1 } },
+      { text: 'Ich investiere schon, will mehr Möglichkeiten', punkte: { 'DEGIRO': 2, 'Swissquote': 1, 'Saxo Bank Schweiz': 1, 'Interactive Brokers (IBKR)': 1 } },
+      { text: 'Ich trade aktiv und kenne mich aus', punkte: { 'Interactive Brokers (IBKR)': 3, 'Saxo Bank Schweiz': 2, 'Cornèrtrader': 2 } },
+    ],
+  },
+  {
+    frage: 'Was willst du hauptsächlich handeln?',
+    antworten: [
+      { text: 'ETF-Sparplan, langfristig', punkte: { 'Neon Invest': 2, 'Lightyear': 2, 'Trade Republic': 2, 'Yuh': 1, 'DEGIRO': 1 } },
+      { text: 'Aktien weltweit', punkte: { 'Interactive Brokers (IBKR)': 2, 'DEGIRO': 2, 'Swissquote': 1, 'Saxo Bank Schweiz': 1 } },
+      { text: 'Optionen, Futures & Derivate', punkte: { 'Interactive Brokers (IBKR)': 3, 'Saxo Bank Schweiz': 2, 'Cornèrtrader': 2, 'Swissquote': 1 } },
+      { text: 'Auch Krypto', punkte: { 'Swissquote': 2, 'Yuh': 2, 'Interactive Brokers (IBKR)': 1 } },
+    ],
+  },
+  {
+    frage: 'Wie gross ist dein Anlagebetrag (heute + nächste Jahre)?',
+    antworten: [
+      { text: 'Unter CHF 10’000', punkte: { 'Neon Invest': 1, 'Yuh': 1, 'Trade Republic': 1, 'Lightyear': 1 } },
+      { text: 'CHF 10’000 – 100’000', punkte: { 'DEGIRO': 1, 'Swissquote': 1, 'Interactive Brokers (IBKR)': 1 } },
+      { text: 'Über CHF 100’000', punkte: { 'Interactive Brokers (IBKR)': 2, 'Saxo Bank Schweiz': 1, 'Swissquote': 1, 'Cornèrtrader': 1 } },
+    ],
+  },
+  {
+    frage: 'Wie wichtig ist dir ein Schweizer Anbieter (CH-IBAN, Steuerauszug)?',
+    antworten: [
+      { text: 'Sehr wichtig — ich will es einfach bei der Steuererklärung', punkte: { 'Swissquote': 2, 'Yuh': 2, 'Neon Invest': 2, 'Cornèrtrader': 2, 'Saxo Bank Schweiz': 1 } },
+      { text: 'Egal — Hauptsache günstig und gut', punkte: { 'Interactive Brokers (IBKR)': 1, 'DEGIRO': 1, 'Trade Republic': 1, 'Lightyear': 1 } },
+    ],
+  },
+  {
+    frage: 'Was zählt für dich mehr?',
+    antworten: [
+      { text: 'Tiefste Gebühren', punkte: { 'Interactive Brokers (IBKR)': 2, 'DEGIRO': 1, 'Neon Invest': 1, 'Trade Republic': 1 } },
+      { text: 'Komfort, Support & einfache Bedienung', punkte: { 'Swissquote': 2, 'Saxo Bank Schweiz': 1, 'Yuh': 1 } },
+    ],
+  },
+];
+---
+
+<BaseLayout
+  title="Broker-Quiz: Welcher Broker passt zu dir? — TradingWissen.ch"
+  description="Beantworte 5 kurze Fragen und erhalte eine persönliche Broker-Empfehlung für die Schweiz — basierend auf unseren unabhängigen Tests."
+>
+  <section class="quiz container-narrow">
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+      <a href="/rechner">Tools</a> › Broker-Quiz
+    </nav>
+    <span class="eyebrow">Quiz</span>
+    <h1>Welcher Broker passt zu dir?</h1>
+    <p class="lead">Fünf Fragen, eine Minute — am Ende bekommst du eine Empfehlung aus unseren {brokers.length} getesteten Brokern.</p>
+
+    <div id="quiz-box" class="quiz-box" data-links={JSON.stringify(brokerLinks)} data-fragen={JSON.stringify(fragen)}>
+      <div class="quiz-progress"><div class="quiz-progress-bar" id="quiz-progress-bar"></div></div>
+      <div id="quiz-content"></div>
+    </div>
+
+    <p class="quiz-fine">
+      Die Empfehlung basiert auf unseren redaktionellen Tests und ersetzt keine individuelle Beratung.
+      Alle Details findest du im <a href="/broker-vergleich">Broker-Vergleich</a>.
+    </p>
+
+    <div class="quiz-newsletter">
+      <NewsletterSignup />
+    </div>
+  </section>
+</BaseLayout>
+
+<script>
+  const box = document.getElementById('quiz-box')!;
+  const content = document.getElementById('quiz-content')!;
+  const progressBar = document.getElementById('quiz-progress-bar')!;
+  const fragen = JSON.parse(box.dataset.fragen!);
+  const links = JSON.parse(box.dataset.links!);
+
+  let aktuelleFrage = 0;
+  const scores: Record<string, number> = {};
+
+  function esc(s: string): string {
+    const d = document.createElement('div');
+    d.textContent = s;
+    return d.innerHTML;
+  }
+
+  function zeigeFrage() {
+    progressBar.style.width = `${(aktuelleFrage / fragen.length) * 100}%`;
+    const f = fragen[aktuelleFrage];
+    content.innerHTML = `
+      <p class="quiz-count">Frage ${aktuelleFrage + 1} von ${fragen.length}</p>
+      <h2 class="quiz-frage">${esc(f.frage)}</h2>
+      <div class="quiz-antworten">
+        ${f.antworten.map((a: any, i: number) => `<button type="button" class="quiz-antwort" data-i="${i}">${esc(a.text)}</button>`).join('')}
+      </div>
+    `;
+    content.querySelectorAll('.quiz-antwort').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const antwort = f.antworten[Number((btn as HTMLElement).dataset.i)];
+        for (const [broker, punkte] of Object.entries(antwort.punkte)) {
+          scores[broker] = (scores[broker] || 0) + (punkte as number);
+        }
+        aktuelleFrage++;
+        if (aktuelleFrage < fragen.length) zeigeFrage();
+        else zeigeErgebnis();
+      });
+    });
+  }
+
+  function zeigeErgebnis() {
+    progressBar.style.width = '100%';
+    const sortiert = Object.entries(scores).sort((a, b) => b[1] - a[1]);
+    const [sieger, ...rest] = sortiert;
+    const alternativen = rest.slice(0, 2);
+
+    const linkFor = (name: string) =>
+      links[name] ? `/blog/${links[name]}` : '/broker-vergleich';
+
+    content.innerHTML = `
+      <p class="quiz-count">Dein Ergebnis</p>
+      <h2 class="quiz-frage">Unsere Empfehlung: ${esc(sieger[0])}</h2>
+      <div class="quiz-ergebnis">
+        <a href="${linkFor(sieger[0])}" class="btn btn-primary">Zum Testbericht →</a>
+        <a href="/broker-vergleich" class="btn btn-outline">Alle im Vergleich ansehen</a>
+      </div>
+      ${alternativen.length ? `
+        <p class="quiz-alternativen-titel">Auch einen Blick wert:</p>
+        <ul class="quiz-alternativen">
+          ${alternativen.map(([name]) => `<li><a href="${linkFor(name)}">${esc(name)}</a></li>`).join('')}
+        </ul>` : ''}
+      <button type="button" class="quiz-restart" id="quiz-restart">↻ Quiz neu starten</button>
+    `;
+    document.getElementById('quiz-restart')!.addEventListener('click', () => {
+      aktuelleFrage = 0;
+      for (const k of Object.keys(scores)) delete scores[k];
+      zeigeFrage();
+    });
+    if (typeof (window as any).gtag === 'function') {
+      (window as any).gtag('event', 'quiz_complete', { result: sieger[0] });
+    }
+  }
+
+  zeigeFrage();
+</script>
+
+<style>
+  .quiz { padding: var(--space-xl) var(--space-md) var(--space-2xl); }
+  .breadcrumbs { font-family: var(--font-sans); font-size: 0.8rem; color: var(--color-ink-muted); margin-bottom: var(--space-md); }
+  .breadcrumbs a { color: var(--color-ink-soft); text-decoration: none; }
+  .quiz h1 { margin: var(--space-sm) 0; }
+  .lead { font-size: 1.1rem; color: var(--color-ink-soft); margin-bottom: var(--space-lg); }
+
+  .quiz-box {
+    border: 1px solid var(--color-rule);
+    border-top: 3px solid var(--color-accent);
+    background: var(--color-paper);
+    padding: var(--space-lg);
+    margin-bottom: var(--space-md);
+  }
+  .quiz-progress {
+    height: 4px;
+    background: var(--color-bg-alt);
+    margin-bottom: var(--space-md);
+    border-radius: 2px;
+    overflow: hidden;
+  }
+  .quiz-progress-bar {
+    height: 100%;
+    width: 0;
+    background: var(--color-accent);
+    transition: width 0.3s;
+  }
+  .quiz-box :global(.quiz-count) {
+    font-family: var(--font-sans);
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--color-ink-muted);
+    margin-bottom: var(--space-xs);
+  }
+  .quiz-box :global(.quiz-frage) { font-size: 1.5rem; margin-bottom: var(--space-md); }
+  .quiz-box :global(.quiz-antworten) { display: flex; flex-direction: column; gap: var(--space-xs); }
+  .quiz-box :global(.quiz-antwort) {
+    text-align: left;
+    padding: 0.9rem 1.2rem;
+    font-family: var(--font-sans);
+    font-size: 0.95rem;
+    font-weight: 500;
+    border: 1px solid var(--color-rule);
+    border-radius: 2px;
+    background: var(--color-bg);
+    color: var(--color-ink);
+    cursor: pointer;
+    transition: all 0.15s;
+  }
+  .quiz-box :global(.quiz-antwort:hover) {
+    border-color: var(--color-accent);
+    background: var(--color-tint);
+  }
+  .quiz-box :global(.quiz-ergebnis) { display: flex; gap: var(--space-sm); flex-wrap: wrap; margin-bottom: var(--space-md); }
+  .quiz-box :global(.quiz-alternativen-titel) {
+    font-family: var(--font-sans);
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: var(--color-ink-soft);
+    margin-bottom: var(--space-xs);
+  }
+  .quiz-box :global(.quiz-alternativen) { margin: 0 0 var(--space-md) 1.2rem; font-family: var(--font-sans); font-size: 0.95rem; }
+  .quiz-box :global(.quiz-restart) {
+    background: none;
+    border: none;
+    font-family: var(--font-sans);
+    font-size: 0.85rem;
+    color: var(--color-ink-muted);
+    cursor: pointer;
+    padding: 0;
+    text-decoration: underline;
+  }
+  .quiz-fine { font-family: var(--font-sans); font-size: 0.8rem; color: var(--color-ink-muted); }
+  .quiz-newsletter { margin-top: var(--space-xl); }
+</style>

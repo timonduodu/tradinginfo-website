@@ -1,0 +1,249 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import NewsletterSignup from '../components/NewsletterSignup.astro';
+import { brokers } from '../data/broker';
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Broker-Vergleich Schweiz",
+  "numberOfItems": brokers.length,
+  "itemListElement": brokers.map((b, i) => ({
+    "@type": "ListItem",
+    "position": i + 1,
+    "name": b.name,
+    ...(b.slug ? { "url": `https://www.tradingwissen.ch/blog/${b.slug}/` } : {}),
+  })),
+};
+
+const check = (v: boolean | null) => (v === null ? '–' : v ? '✓' : '✗');
+---
+
+<BaseLayout
+  title={`Broker-Vergleich Schweiz ${new Date().getFullYear()} — alle getesteten Anbieter — TradingWissen.ch`}
+  description="Interaktiver Broker-Vergleich für Schweizer Anleger: Gebühren, Depotkosten, Krypto, Sparpläne und Optionen von IBKR bis Yuh — sortierbar und filterbar."
+  schema={schema}
+>
+  <section class="vergleich container">
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+      <a href="/rechner">Tools</a> › Broker-Vergleich
+    </nav>
+    <h1>Broker-Vergleich Schweiz</h1>
+    <p class="lead">
+      Alle {brokers.length} von uns getesteten Broker im direkten Vergleich. Klicke auf eine
+      Spaltenüberschrift zum Sortieren, nutze die Filter — und klicke auf einen Broker für
+      Stärken, Schwächen und unseren Test.
+    </p>
+
+    <div class="filters" id="filters">
+      <span class="filter-label">Nur anzeigen mit:</span>
+      <label><input type="checkbox" data-filter="krypto" /> Krypto</label>
+      <label><input type="checkbox" data-filter="sparplan" /> Sparplan</label>
+      <label><input type="checkbox" data-filter="optionen" /> Optionen</label>
+      <label><input type="checkbox" data-filter="chiban" /> CH-IBAN</label>
+    </div>
+
+    <div class="table-wrap">
+      <table id="broker-table">
+        <thead>
+          <tr>
+            <th data-sort="name" class="sortable">Broker</th>
+            <th data-sort="depot" class="sortable">Depotgebühr</th>
+            <th data-sort="ch" class="sortable">CH-Aktien</th>
+            <th data-sort="us" class="sortable">US-Aktien</th>
+            <th>Krypto</th>
+            <th>Sparplan</th>
+            <th>Optionen</th>
+            <th>CH-IBAN</th>
+          </tr>
+        </thead>
+        <tbody>
+          {brokers.map((b, i) => (
+            <>
+              <tr
+                class="broker-row"
+                data-index={i}
+                data-name={b.name.toLowerCase()}
+                data-depot={b.depotgebuehr.toLowerCase()}
+                data-ch={(b.gebuehrCH ?? 'zzz').toLowerCase()}
+                data-us={(b.gebuehrUS ?? 'zzz').toLowerCase()}
+                data-krypto={String(b.krypto)}
+                data-sparplan={String(b.sparplan)}
+                data-optionen={String(b.optionen)}
+                data-chiban={String(b.chIban === true)}
+                tabindex="0"
+                role="button"
+                aria-expanded="false"
+              >
+                <td class="broker-name"><span class="expand-icon">▸</span> {b.name}</td>
+                <td>{b.depotgebuehr}</td>
+                <td>{b.gebuehrCH ?? '–'}</td>
+                <td>{b.gebuehrUS ?? '–'}</td>
+                <td class:list={['mark', b.krypto ? 'yes' : 'no']}>{check(b.krypto)}</td>
+                <td class:list={['mark', b.sparplan ? 'yes' : 'no']}>{check(b.sparplan)}</td>
+                <td class:list={['mark', b.optionen ? 'yes' : 'no']}>{check(b.optionen)}</td>
+                <td class:list={['mark', b.chIban ? 'yes' : 'no']}>{check(b.chIban)}</td>
+              </tr>
+              <tr class="detail-row" data-detail={i} hidden>
+                <td colspan="8">
+                  <div class="detail-grid">
+                    <div>
+                      <h3>Stärken</h3>
+                      <ul>{b.staerken.map(s => <li>{s}</li>)}</ul>
+                    </div>
+                    <div>
+                      <h3>Schwächen</h3>
+                      <ul>{b.schwaechen.map(s => <li>{s}</li>)}</ul>
+                    </div>
+                    <div>
+                      <h3>Für wen?</h3>
+                      <p>{b.zielgruppe}</p>
+                      <p class="detail-meta">
+                        <strong>Sitz:</strong> {b.sitz}<br />
+                        <strong>Regulierung:</strong> {b.regulierung}<br />
+                        <strong>Märkte:</strong> {b.maerkte}
+                      </p>
+                      {b.slug && <a href={`/blog/${b.slug}`} class="btn btn-outline detail-link">Zum ausführlichen Test →</a>}
+                    </div>
+                  </div>
+                </td>
+              </tr>
+            </>
+          ))}
+        </tbody>
+      </table>
+    </div>
+
+    <p class="stand">
+      Angaben aus unseren Tests, ohne Gewähr — massgeblich sind die aktuellen Preisverzeichnisse
+      der Anbieter. «–» bedeutet: keine Angabe in unserem Test.
+    </p>
+
+    <div class="vergleich-cta">
+      <p>Unsicher, welcher Broker zu dir passt? <a href="/broker-quiz">Mach das 1-Minuten-Quiz →</a></p>
+    </div>
+
+    <div class="vergleich-newsletter">
+      <NewsletterSignup />
+    </div>
+  </section>
+</BaseLayout>
+
+<script>
+  // Detail-Zeilen auf-/zuklappen
+  document.querySelectorAll('.broker-row').forEach(row => {
+    const toggle = () => {
+      const detail = document.querySelector(`[data-detail="${row.getAttribute('data-index')}"]`) as HTMLElement;
+      if (!detail) return;
+      const open = detail.hidden;
+      detail.hidden = !open;
+      row.setAttribute('aria-expanded', String(open));
+      row.classList.toggle('open', open);
+    };
+    row.addEventListener('click', toggle);
+    row.addEventListener('keydown', (e) => {
+      if ((e as KeyboardEvent).key === 'Enter' || (e as KeyboardEvent).key === ' ') {
+        e.preventDefault();
+        toggle();
+      }
+    });
+  });
+
+  // Filter
+  const filterInputs = document.querySelectorAll('#filters input[data-filter]');
+  function applyFilters() {
+    const active = Array.from(filterInputs)
+      .filter(i => (i as HTMLInputElement).checked)
+      .map(i => i.getAttribute('data-filter'));
+    document.querySelectorAll('.broker-row').forEach(row => {
+      const show = active.every(f => row.getAttribute(`data-${f}`) === 'true');
+      (row as HTMLElement).hidden = !show;
+      const detail = document.querySelector(`[data-detail="${row.getAttribute('data-index')}"]`) as HTMLElement;
+      if (detail && !show) detail.hidden = true;
+    });
+  }
+  filterInputs.forEach(i => i.addEventListener('change', applyFilters));
+
+  // Sortierung
+  let sortKey = '';
+  let sortAsc = true;
+  document.querySelectorAll('th.sortable').forEach(th => {
+    th.addEventListener('click', () => {
+      const key = th.getAttribute('data-sort')!;
+      sortAsc = sortKey === key ? !sortAsc : true;
+      sortKey = key;
+      document.querySelectorAll('th.sortable').forEach(h => h.classList.remove('asc', 'desc'));
+      th.classList.add(sortAsc ? 'asc' : 'desc');
+
+      const tbody = document.querySelector('#broker-table tbody')!;
+      const pairs = Array.from(document.querySelectorAll('.broker-row')).map(row => ({
+        row,
+        detail: document.querySelector(`[data-detail="${row.getAttribute('data-index')}"]`)!,
+        value: row.getAttribute(`data-${key}`) || '',
+      }));
+      pairs.sort((a, b) => sortAsc ? a.value.localeCompare(b.value, 'de-CH', { numeric: true }) : b.value.localeCompare(a.value, 'de-CH', { numeric: true }));
+      pairs.forEach(p => { tbody.appendChild(p.row); tbody.appendChild(p.detail); });
+    });
+  });
+</script>
+
+<style>
+  .vergleich { padding: var(--space-xl) var(--space-md) var(--space-2xl); }
+  .breadcrumbs { font-family: var(--font-sans); font-size: 0.8rem; color: var(--color-ink-muted); margin-bottom: var(--space-md); }
+  .breadcrumbs a { color: var(--color-ink-soft); text-decoration: none; }
+  .breadcrumbs a:hover { color: var(--color-accent); }
+  .vergleich h1 { margin-bottom: var(--space-sm); }
+  .lead { font-size: 1.1rem; color: var(--color-ink-soft); margin-bottom: var(--space-lg); max-width: 70ch; }
+
+  .filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-md);
+    align-items: center;
+    font-family: var(--font-sans);
+    font-size: 0.9rem;
+    padding: var(--space-sm) var(--space-md);
+    background: var(--color-bg-alt);
+    border: 1px solid var(--color-rule);
+    margin-bottom: var(--space-md);
+  }
+  .filter-label { font-weight: 700; font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--color-ink-soft); }
+  .filters label { display: inline-flex; align-items: center; gap: 0.35rem; cursor: pointer; }
+
+  .table-wrap { overflow-x: auto; }
+  table { width: 100%; border-collapse: collapse; font-family: var(--font-sans); font-size: 0.9rem; }
+  th, td { padding: 0.7rem 0.9rem; border-bottom: 1px solid var(--color-rule); text-align: left; }
+  th { background: var(--color-bg-alt); font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.06em; white-space: nowrap; }
+  th.sortable { cursor: pointer; user-select: none; }
+  th.sortable:hover { color: var(--color-accent); }
+  th.sortable.asc::after { content: ' ↑'; }
+  th.sortable.desc::after { content: ' ↓'; }
+
+  .broker-row { cursor: pointer; transition: background 0.15s; }
+  .broker-row:hover { background: var(--color-tint); }
+  .broker-row.open { background: var(--color-tint); }
+  .broker-name { font-weight: 600; white-space: nowrap; }
+  .expand-icon { display: inline-block; transition: transform 0.2s; color: var(--color-ink-muted); }
+  .broker-row.open .expand-icon { transform: rotate(90deg); }
+
+  .mark { text-align: center; font-weight: 700; }
+  .mark.yes { color: var(--color-up); }
+  .mark.no { color: var(--color-ink-muted); }
+
+  .detail-row td { background: var(--color-bg-alt); padding: var(--space-md) var(--space-lg); }
+  .detail-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: var(--space-lg); }
+  .detail-grid h3 { font-size: 0.95rem; margin-bottom: var(--space-xs); }
+  .detail-grid ul { margin: 0; padding-left: 1.1rem; font-size: 0.88rem; line-height: 1.5; }
+  .detail-grid li { margin-bottom: 0.35rem; }
+  .detail-grid p { font-size: 0.88rem; line-height: 1.5; margin-bottom: var(--space-sm); }
+  .detail-meta { color: var(--color-ink-soft); font-size: 0.82rem !important; }
+  .detail-link { font-size: 0.82rem; padding: 0.5rem 1rem; }
+
+  .stand { font-family: var(--font-sans); font-size: 0.8rem; color: var(--color-ink-muted); margin-top: var(--space-md); }
+  .vergleich-cta { margin: var(--space-lg) 0; font-size: 1.05rem; }
+  .vergleich-newsletter { max-width: 720px; margin: var(--space-xl) auto 0; }
+
+  @media (max-width: 900px) {
+    .detail-grid { grid-template-columns: 1fr; gap: var(--space-md); }
+  }
+</style>
