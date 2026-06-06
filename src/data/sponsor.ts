@@ -1,15 +1,13 @@
 // ============================================================
-// Zentrale Sponsor-Konfiguration — VeltaTrades (Prop Firm des Betreibers)
+// Zentrale Sponsor-Konfiguration — Veltrade (Prop Firm des Betreibers)
 //
-// AKTIVIERUNG (sobald die VeltaTrades-Website live ist):
-//   1. `aktiv` auf true setzen
-//   2. `url` mit der Live-URL füllen (idealerweise mit ?ref=tradingwissen)
-//   3. Texte in `ads` an das finale Branding/Angebot anpassen
-//      (Claims, Profit-Split, Challenge-Modelle von der Live-Site übernehmen)
-//   4. npm run build → deployen
+// AKTIV seit Juni 2026 — Live-Site: https://veltrade.pages.dev/
+// Konditionen (Stand Launch): 90% Profit-Split ab Tag 1, Auszahlung
+// alle 14 Tage, Konten 10k–200k (skalierbar bis 400k), kein Zeitlimit.
 //
-// Solange `aktiv: false` ist, zeigen die Werbeplätze weiterhin die
-// neutralen Mock-Anzeigen mit "Hier könnte Ihre Werbung stehen".
+// Zum Deaktivieren `aktiv` auf false setzen — die Werbeplätze zeigen
+// dann wieder die neutralen Mock-Anzeigen ("Hier könnte Ihre Werbung
+// stehen"). Bei Wechsel auf eine Custom Domain nur `url` anpassen.
 // ============================================================
 
 export interface SponsorAd {
@@ -22,45 +20,45 @@ export interface SponsorAd {
 }
 
 export const sponsor = {
-  aktiv: false,
-  name: 'VeltaTrades',
-  url: '', // TODO nach Launch: z.B. "https://veltatrades.com/?ref=tradingwissen"
+  aktiv: true,
+  name: 'Veltrade',
+  url: 'https://veltrade.pages.dev/?ref=tradingwissen',
 
-  // Eigenwerbungs-Hinweis: VeltaTrades gehört dem Betreiber dieser Website.
+  // Eigenwerbungs-Hinweis: Veltrade gehört dem Betreiber dieser Website.
   // Wird bei aktiv=true automatisch im Footer-Disclaimer ergänzt (Transparenz).
   eigenwerbung: true,
 
-  // ENTWÜRFE — Texte werden nach dem Launch ans echte Branding angepasst.
+  // Texte basieren auf den Konditionen der Live-Site (veltrade.pages.dev).
   // Design: dunkles Navy passend zur Website, gold als Akzent (seriös, edel).
   ads: {
     top: {
-      sponsor: 'VELTATRADES',
+      sponsor: 'VELTRADE',
       headline: 'Trade mit unserem Kapital',
-      subline: 'Prop Trading · Faire Bedingungen · Aus der Schweiz',
+      subline: '90% Profit-Split ab Tag 1 · Kein Zeitlimit · Konten bis 200k',
       cta: 'Challenge starten →',
       bgColor: '#0a1f33',
       accentColor: '#d4af37',
     },
     middle: {
-      sponsor: 'VELTATRADES — PROP TRADING',
+      sponsor: 'VELTRADE — PROP TRADING',
       headline: 'Dein Skill. Unser Kapital.',
-      subline: 'Beweise dich in der Challenge und trade ein gefördertes Konto',
+      subline: 'Beweise dich in der Challenge und trade ein Funded-Konto mit 90% Profit-Split',
       cta: 'Mehr erfahren →',
       bgColor: '#0a1f33',
       accentColor: '#d4af37',
     },
     bottom: {
-      sponsor: 'VELTATRADES',
+      sponsor: 'VELTRADE',
       headline: 'Bereit für den nächsten Schritt?',
-      subline: 'Vom Privattrader zum Funded Trader',
+      subline: 'Vom Privattrader zum Funded Trader — Auszahlungen alle 14 Tage',
       cta: 'Jetzt informieren →',
       bgColor: '#101418',
       accentColor: '#d4af37',
     },
     sidebar: {
-      sponsor: 'VELTATRADES',
-      headline: 'Prop Trading aus der Schweiz',
-      subline: 'Trade unser Kapital, behalte den Grossteil des Gewinns',
+      sponsor: 'VELTRADE',
+      headline: 'Prop Trading ohne Zeitlimit',
+      subline: 'Trade unser Kapital und behalte 90% des Gewinns',
       cta: 'Challenge starten →',
       bgColor: '#0a1f33',
       accentColor: '#d4af37',
