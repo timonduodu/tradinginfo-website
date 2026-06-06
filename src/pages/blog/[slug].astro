@@ -151,10 +151,12 @@ const schemas = [articleSchema, breadcrumbSchema, ...(faqSchema ? [faqSchema] : 
 
     {toc.length >= 4 && (
       <nav class="toc container-narrow" aria-label="Inhaltsverzeichnis">
-        <p class="toc-title">Auf dieser Seite</p>
-        <ol>
-          {toc.map(h => <li><a href={`#${h.slug}`}>{h.text}</a></li>)}
-        </ol>
+        <div class="toc-inner">
+          <p class="toc-title">Auf dieser Seite</p>
+          <ol>
+            {toc.map(h => <li><a href={`#${h.slug}`}>{h.text}</a></li>)}
+          </ol>
+        </div>
       </nav>
     )}
 
@@ -438,20 +440,33 @@ const schemas = [articleSchema, breadcrumbSchema, ...(faqSchema ? [faqSchema] : 
     text-decoration: underline;
   }
 
-  /* Ab 1380px: TOC als feste Seitenleiste rechts neben dem Artikel */
+  /* Ab 1380px: TOC als Seitenleiste rechts neben dem Artikel.
+     position: sticky statt fixed — startet in der Flussposition (unterhalb
+     des Headers, neben dem Artikelanfang) und klebt erst beim Scrollen
+     oben am Viewport. Ragt so nie in den Header hinein. */
   @media (min-width: 1380px) {
     .toc {
-      position: fixed;
-      top: 140px;
-      left: calc(50% + 400px);
+      position: sticky;
+      top: 24px;
+      height: 0; /* keine Flusshöhe — schiebt den Artikel nicht nach unten */
+      overflow: visible;
+      margin: 0 auto;
+      padding: 0;
+      border: none;
+      background: none;
+      z-index: 10;
+    }
+    .toc-inner {
+      position: absolute;
+      top: 0;
+      left: calc(100% + 32px);
       width: 280px;
-      max-height: calc(100vh - 200px);
+      max-height: calc(100vh - 48px);
       overflow-y: auto;
-      margin: 0;
+      padding: var(--space-md) var(--space-lg);
       background: var(--color-paper);
       border: 1px solid var(--color-rule);
       border-left: 3px solid var(--color-accent);
-      z-index: 10;
     }
     .toc li { font-size: 0.85rem; }
   }

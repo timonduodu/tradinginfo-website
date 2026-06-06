@@ -74,7 +74,7 @@ html {
   scroll-behavior: smooth;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  overflow-x: hidden;
+  overflow-x: clip; /* clip statt hidden: erzeugt keinen Scroll-Container, sonst bricht position:sticky (TOC) */
   width: 100%;
   max-width: 100%;
   position: relative;
@@ -90,7 +90,7 @@ body {
     radial-gradient(circle at 1px 1px, var(--color-dots) 1px, transparent 0);
   background-size: 24px 24px;
   transition: background-color 0.25s, color 0.25s;
-  overflow-x: hidden;
+  overflow-x: clip; /* siehe html — sticky-kompatibel */
   width: 100%;
   max-width: 100%;
   position: relative;
