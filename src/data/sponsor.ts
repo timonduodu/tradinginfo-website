@@ -15,6 +15,8 @@ export interface SponsorAd {
   headline: string;
   subline: string;
   cta: string;
+  /** Kurze Fakten-Chips (nur im Sidebar-Format gerendert) */
+  chips?: string[];
   bgColor: string;
   accentColor: string;
 }
@@ -29,39 +31,42 @@ export const sponsor = {
   eigenwerbung: true,
 
   // Texte basieren auf den Konditionen der Live-Site (veltrade.pages.dev).
-  // Design: dunkles Navy passend zur Website, gold als Akzent (seriös, edel).
+  // Design: echtes Veltrade-Branding — Grün-Schwarz (#0b0f0e) mit Grün-Akzent
+  // (#0e9f6e), wie auf der Live-Site. Gerendert als eigenständiger Werbebanner
+  // (Logo, Button-CTA) in AdSlot.astro, bewusst NICHT im Look der Website.
   ads: {
     top: {
       sponsor: 'VELTRADE',
       headline: 'Trade mit unserem Kapital',
       subline: '90% Profit-Split ab Tag 1 · Kein Zeitlimit · Konten bis 200k',
-      cta: 'Challenge starten →',
-      bgColor: '#0a1f33',
-      accentColor: '#d4af37',
+      cta: 'Challenge starten',
+      bgColor: '#0b0f0e',
+      accentColor: '#0e9f6e',
     },
     middle: {
       sponsor: 'VELTRADE — PROP TRADING',
       headline: 'Dein Skill. Unser Kapital.',
       subline: 'Beweise dich in der Challenge und trade ein Funded-Konto mit 90% Profit-Split',
-      cta: 'Mehr erfahren →',
-      bgColor: '#0a1f33',
-      accentColor: '#d4af37',
+      cta: 'Mehr erfahren',
+      bgColor: '#0b0f0e',
+      accentColor: '#0e9f6e',
     },
     bottom: {
       sponsor: 'VELTRADE',
       headline: 'Bereit für den nächsten Schritt?',
       subline: 'Vom Privattrader zum Funded Trader — Auszahlungen alle 14 Tage',
-      cta: 'Jetzt informieren →',
-      bgColor: '#101418',
-      accentColor: '#d4af37',
+      cta: 'Jetzt informieren',
+      bgColor: '#0b0f0e',
+      accentColor: '#0e9f6e',
     },
     sidebar: {
       sponsor: 'VELTRADE',
       headline: 'Prop Trading ohne Zeitlimit',
       subline: 'Trade unser Kapital und behalte 90% des Gewinns',
-      cta: 'Challenge starten →',
-      bgColor: '#0a1f33',
-      accentColor: '#d4af37',
+      chips: ['90% Split', 'Auszahlung alle 14 Tage', 'Bis 400k skalierbar'],
+      cta: 'Challenge starten',
+      bgColor: '#0b0f0e',
+      accentColor: '#0e9f6e',
     },
   } satisfies Record<string, SponsorAd>,
 };

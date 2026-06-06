@@ -67,15 +67,50 @@ const href = istSponsor ? sponsor.url : '/werbung';
   rel={istSponsor ? 'noopener sponsored' : undefined}
   data-sponsor={istSponsor ? sponsor.name : undefined}
 >
-  <div class="ad-mock" style={`background: ${ad.bgColor}; color: ${ad.accentColor};`}>
-    <div class="ad-badge">{ad.badge}</div>
-    <div class="ad-content">
-      <div class="ad-sponsor">{ad.sponsor}</div>
-      <div class="ad-headline">{ad.headline}</div>
-      <div class="ad-subline">{ad.subline}</div>
-      <div class="ad-cta">{ad.cta}</div>
+  {istSponsor ? (
+    <div class="ad-real" style={`--ad-bg: ${ad.bgColor}; --ad-accent: ${ad.accentColor};`}>
+      {/* Dekorative Chart-Linie im Hintergrund */}
+      <svg class="ad-real-spark" viewBox="0 0 300 80" preserveAspectRatio="none" aria-hidden="true">
+        <path d="M0 70 L40 58 L75 64 L115 42 L150 50 L195 24 L235 32 L300 4" fill="none" stroke="var(--ad-accent)" stroke-width="2" />
+        <path d="M0 70 L40 58 L75 64 L115 42 L150 50 L195 24 L235 32 L300 4 L300 80 L0 80 Z" fill="var(--ad-accent)" opacity="0.12" stroke="none" />
+      </svg>
+      <div class="ad-badge">{ad.badge}</div>
+      <div class="ad-real-main">
+        <div class="ad-real-brand">
+          <span class="ad-real-logo" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="3 17 9 11 13 15 21 7" />
+              <polyline points="15 7 21 7 21 13" />
+            </svg>
+          </span>
+          <span class="ad-real-name">VELTRADE<em>FUNDING</em></span>
+        </div>
+        <div class="ad-real-headline">{ad.headline}</div>
+        <div class="ad-real-subline">{ad.subline}</div>
+        {'chips' in ad && ad.chips && (
+          <div class="ad-real-chips">
+            {ad.chips.map((chip: string) => <span>{chip}</span>)}
+          </div>
+        )}
+      </div>
+      <span class="ad-real-btn">
+        {ad.cta}
+        <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <line x1="5" y1="12" x2="19" y2="12" /><polyline points="12 5 19 12 12 19" />
+        </svg>
+      </span>
     </div>
-  </div>
+  ) : (
+    <div class="ad-mock" style={`background: ${ad.bgColor}; color: ${ad.accentColor};`}>
+      <div class="ad-badge">{ad.badge}</div>
+      <div class="ad-content">
+        <div class="ad-sponsor">{ad.sponsor}</div>
+        <div class="ad-headline">{ad.headline}</div>
+        <div class="ad-subline">{ad.subline}</div>
+        <div class="ad-cta">{ad.cta}</div>
+      </div>
+    </div>
+  )}
   {!istSponsor && (
     <div class="ad-overlay">
       <div class="ad-overlay-content">
@@ -197,9 +232,149 @@ const href = istSponsor ? sponsor.url : '/werbung';
     filter: blur(2px);
   }
 
+  /* ============================================================
+     Echte Sponsor-Anzeige (Veltrade) — bewusst als Werbebanner
+     gestaltet: Marken-Farben, Sans-Serif, Button-CTA, Logo.
+     ============================================================ */
+  .ad-real {
+    width: 100%;
+    height: 100%;
+    min-height: inherit;
+    padding: var(--space-lg) var(--space-xl);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-lg);
+    position: relative;
+    font-family: var(--font-sans);
+    color: #ffffff;
+    background:
+      radial-gradient(ellipse 60% 120% at 85% 0%, color-mix(in srgb, var(--ad-accent) 30%, transparent), transparent),
+      linear-gradient(135deg, var(--ad-bg) 0%, color-mix(in srgb, var(--ad-bg) 82%, var(--ad-accent)) 100%);
+  }
+
+  .ad-real-spark {
+    position: absolute;
+    inset: auto 0 0 0;
+    width: 100%;
+    height: 70%;
+    opacity: 0.35;
+    pointer-events: none;
+  }
+
+  .ad-real .ad-badge {
+    background: rgba(255, 255, 255, 0.12);
+    color: rgba(255, 255, 255, 0.85);
+    opacity: 1;
+  }
+
+  .ad-real-main {
+    flex: 1;
+    position: relative;
+  }
+
+  .ad-real-brand {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.6rem;
+  }
+
+  .ad-real-logo {
+    width: 26px;
+    height: 26px;
+    border-radius: 7px;
+    display: grid;
+    place-items: center;
+    color: #ffffff;
+    background: linear-gradient(135deg, var(--ad-accent), color-mix(in srgb, var(--ad-accent) 70%, black));
+    box-shadow: 0 0 14px color-mix(in srgb, var(--ad-accent) 50%, transparent);
+  }
+
+  .ad-real-name {
+    font-size: 0.95rem;
+    font-weight: 800;
+    letter-spacing: 0.07em;
+  }
+
+  .ad-real-name em {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.62rem;
+    letter-spacing: 0.22em;
+    color: var(--ad-accent);
+    filter: brightness(1.4);
+    margin-left: 0.45rem;
+    vertical-align: 0.12em;
+  }
+
+  .ad-real-headline {
+    font-size: clamp(1.2rem, 2.4vw, 1.6rem);
+    font-weight: 800;
+    line-height: 1.15;
+    letter-spacing: -0.01em;
+    margin-bottom: 0.4rem;
+  }
+
+  .ad-real-subline {
+    font-size: 0.85rem;
+    color: rgba(255, 255, 255, 0.75);
+  }
+
+  .ad-real-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin-top: 0.7rem;
+  }
+
+  .ad-real-chips span {
+    font-size: 0.7rem;
+    font-weight: 600;
+    padding: 0.3rem 0.65rem;
+    border-radius: 999px;
+    border: 1px solid color-mix(in srgb, var(--ad-accent) 55%, transparent);
+    background: color-mix(in srgb, var(--ad-accent) 14%, transparent);
+    color: #dff5ec;
+    white-space: nowrap;
+  }
+
+  .ad-real-btn {
+    flex-shrink: 0;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    padding: 0.7rem 1.35rem;
+    border-radius: 999px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #ffffff;
+    background: linear-gradient(135deg, var(--ad-accent), color-mix(in srgb, var(--ad-accent) 72%, black));
+    box-shadow: 0 4px 18px color-mix(in srgb, var(--ad-accent) 45%, transparent);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+
+  /* Sidebar: vertikal gestapelt und zentriert */
+  .ad-placeholder--sidebar .ad-real {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .ad-placeholder--sidebar .ad-real-brand,
+  .ad-placeholder--sidebar .ad-real-chips {
+    justify-content: center;
+  }
+
   /* Echte Sponsor-Anzeige: dezenter Hover statt Blur */
-  .ad-placeholder.is-sponsor:hover .ad-mock {
-    filter: brightness(1.1);
+  .ad-placeholder.is-sponsor:hover .ad-real {
+    filter: brightness(1.08);
+  }
+
+  .ad-placeholder.is-sponsor:hover .ad-real-btn {
+    transform: translateY(-1px);
+    box-shadow: 0 6px 24px color-mix(in srgb, var(--ad-accent) 60%, transparent);
   }
 
   .ad-overlay-content {
@@ -226,11 +401,21 @@ const href = istSponsor ? sponsor.url : '/werbung';
   }
 
   @media (max-width: 640px) {
-    .ad-mock {
+    .ad-mock,
+    .ad-real {
       padding: var(--space-md);
       flex-direction: column;
       text-align: center;
       gap: var(--space-sm);
+    }
+
+    .ad-real-brand,
+    .ad-real-chips {
+      justify-content: center;
+    }
+
+    .ad-real {
+      padding-top: var(--space-lg); /* Platz für das ANZEIGE-Badge */
     }
 
     .ad-overlay-content strong {
