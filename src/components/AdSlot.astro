@@ -1,7 +1,8 @@
 ---
-// AdSlot — realistische Werbe-Platzhalter
-// Rotiert verschiedene Mock-Anzeigen die wie echte aussehen
-// Beim Hover: "Hier könnte Ihre Werbung stehen" mit Link zur Werbeseite
+// AdSlot — Werbeplätze
+// Bei sponsor.aktiv = true (src/data/sponsor.ts): echte Sponsor-Anzeige mit Link.
+// Sonst: Mock-Platzhalter mit Hover-Overlay "Hier könnte Ihre Werbung stehen".
+import { sponsor } from '../data/sponsor';
 
 interface Props {
   type?: 'banner' | 'inline' | 'sidebar';
@@ -50,10 +51,22 @@ const mockAds = {
   },
 };
 
-const ad = mockAds[slot];
+// Aktiver Sponsor überschreibt die Mock-Anzeigen
+const istSponsor = sponsor.aktiv && sponsor.url;
+const ad = istSponsor
+  ? { ...sponsor.ads[slot], badge: 'ANZEIGE' }
+  : mockAds[slot];
+const href = istSponsor ? sponsor.url : '/werbung';
 ---
 
-<a href="/werbung" class={`ad-placeholder ad-placeholder--${type}`} aria-label="Werbeplatz - Klicken für Werbeschaltungen">
+<a
+  href={href}
+  class:list={[`ad-placeholder ad-placeholder--${type}`, { 'is-sponsor': istSponsor }]}
+  aria-label={istSponsor ? `Anzeige: ${sponsor.name}` : 'Werbeplatz - Klicken für Werbeschaltungen'}
+  target={istSponsor ? '_blank' : undefined}
+  rel={istSponsor ? 'noopener sponsored' : undefined}
+  data-sponsor={istSponsor ? sponsor.name : undefined}
+>
   <div class="ad-mock" style={`background: ${ad.bgColor}; color: ${ad.accentColor};`}>
     <div class="ad-badge">{ad.badge}</div>
     <div class="ad-content">
@@ -63,12 +76,14 @@ const ad = mockAds[slot];
       <div class="ad-cta">{ad.cta}</div>
     </div>
   </div>
-  <div class="ad-overlay">
-    <div class="ad-overlay-content">
-      <strong>Hier könnte Ihre Werbung stehen</strong>
-      <span>Werbung schalten →</span>
+  {!istSponsor && (
+    <div class="ad-overlay">
+      <div class="ad-overlay-content">
+        <strong>Hier könnte Ihre Werbung stehen</strong>
+        <span>Werbung schalten →</span>
+      </div>
     </div>
-  </div>
+  )}
 </a>
 
 <style>
@@ -178,8 +193,13 @@ const ad = mockAds[slot];
     opacity: 1;
   }
 
-  .ad-placeholder:hover .ad-mock {
+  .ad-placeholder:not(.is-sponsor):hover .ad-mock {
     filter: blur(2px);
+  }
+
+  /* Echte Sponsor-Anzeige: dezenter Hover statt Blur */
+  .ad-placeholder.is-sponsor:hover .ad-mock {
+    filter: brightness(1.1);
   }
 
   .ad-overlay-content {

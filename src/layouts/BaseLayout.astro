@@ -134,9 +134,13 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
           gtag('event', 'newsletter_click', { link_url: href || 'signup_form', page: location.pathname });
           return;
         }
-        // Werbeplätze
-        if (el.closest('.ad-slot')) {
-          gtag('event', 'ad_click', { page: location.pathname });
+        // Werbeplätze (Mock-Platzhalter und echte Sponsor-Anzeigen)
+        var adEl = el.closest('.ad-slot, .ad-placeholder');
+        if (adEl) {
+          gtag('event', 'ad_click', {
+            page: location.pathname,
+            sponsor: adEl.getAttribute('data-sponsor') || 'placeholder'
+          });
           return;
         }
         // Ausgehende Links (potenzielle Affiliate-Links)

@@ -1,4 +1,6 @@
 ---
+import { sponsor } from '../data/sponsor';
+
 const year = new Date().getFullYear();
 ---
 
@@ -63,6 +65,10 @@ const year = new Date().getFullYear();
         Der Handel mit Finanzinstrumenten ist mit erheblichen Risiken verbunden und kann zum
         Totalverlust des eingesetzten Kapitals führen. Konsultiere vor jeder Anlageentscheidung
         eine qualifizierte Fachperson.
+        {sponsor.aktiv && sponsor.eigenwerbung && (
+          <> Transparenz: {sponsor.name} ist ein Unternehmen des Betreibers von TradingWissen.ch;
+          entsprechende Anzeigen sind als solche gekennzeichnet.</>
+        )}
       </p>
     </div>
 
