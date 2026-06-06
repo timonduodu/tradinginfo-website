@@ -39,6 +39,11 @@
 </script>
 
 <style>
+  /* hidden-Attribut muss display:flex überschreiben */
+  .cookie-banner[hidden] {
+    display: none;
+  }
+
   .cookie-banner {
     position: fixed;
     bottom: var(--space-sm);
