@@ -1,5 +1,6 @@
 ---
 import LegalLayout from '../layouts/LegalLayout.astro';
+import EmailLink from '../components/EmailLink.astro';
 ---
 
 <LegalLayout title="Impressum" description="Impressum und Anbieterkennzeichnung von TradingWissen.ch gemäss schweizerischem Recht.">
@@ -12,7 +13,7 @@ import LegalLayout from '../layouts/LegalLayout.astro';
     6005 Luzern, Kanton Luzern, Schweiz
   </p>
   <p>
-    Kontakt: <a href="mailto:info@tradingwissen.ch">info@tradingwissen.ch</a>
+    Kontakt: <EmailLink user="info" />
   </p>
   <p>
     Die vollständige Postanschrift wird auf berechtigte schriftliche Anfrage per

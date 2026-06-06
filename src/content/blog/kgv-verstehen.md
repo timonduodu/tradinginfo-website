@@ -77,7 +77,7 @@ Auch ein niedriges KGV ist nicht automatisch ein Kaufsignal:
 
 **Spezifische Risiken.** Rechtsstreitigkeiten, Regulierungsrisiken oder Bilanzunsicherheiten drücken das KGV.
 
-**Echte Unterbewertung.** In wenigen Fällen sind niedrige KGVs tatsächlich Kaufgelegenheiten. Das herauszufinden ist die Königsdisziplin des Value-Investings.
+**Echte Unterbewertung.** In wenigen Fällen sind niedrige KGVs tatsächlich Kaufgelegenheiten. Das herauszufinden ist die Königsdisziplin des [Value-Investings](/blog/value-investing-basics).
 
 > *"The most important thing to value investors is the difference between price and value. The KGV is just one tool to find it."*
 >, **Howard Marks**
@@ -102,7 +102,7 @@ Professionelle Anleger nutzen das KGV deshalb nie isoliert. Wichtige Ergänzunge
 - **EV/EBITDA:** Berücksichtigt Verschuldung und ist weniger anfällig für Bilanzpolitik.
 - **Free Cashflow Yield:** Verwendet den freien Cashflow statt buchhalterischem Gewinn.
 - **Kurs-Buchwert-Verhältnis (KBV):** Sinnvoll besonders bei Banken und Versicherungen.
-- **Dividendenrendite:** Spielt eine wichtige Rolle bei Income-orientierten Strategien.
+- [**Dividendenrendite:**](/blog/dividenden-schweizer-anleger) Spielt eine wichtige Rolle bei Income-orientierten Strategien.
 
 > *"No single financial metric tells the whole story. The KGV is the first question, never the last."*
 >, Sinngemäss **Aswath Damodaran**, Bewertungs-Professor

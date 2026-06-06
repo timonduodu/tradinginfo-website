@@ -25,7 +25,7 @@ Was sich da abspielte, war ein klassischer **Short Squeeze**, ein Marktphänomen
 
 Ein Short Squeeze entsteht, wenn:
 
-1. Eine grosse Anzahl Investoren auf fallende Kurse setzt (**Short-Position**)
+1. Eine grosse Anzahl Investoren auf fallende Kurse setzt ([**Short-Position**](/blog/long-vs-short-erklaert))
 2. Der Kurs aus irgendeinem Grund stark steigt
 3. Short-Verkäufer gezwungen sind, ihre Positionen zu schliessen (also die Aktie zu **kaufen**)
 4. Diese Käufe treiben den Kurs noch höher
@@ -61,7 +61,7 @@ Was bringt die Spirale ins Rollen? Verschiedene Auslöser sind möglich:
 
 **Übernahme-Spekulation.** Eine Übernahmenachricht kann eine Aktie schlagartig hoch katapultieren, Short-Seller geraten unter Druck.
 
-**Margin Calls.** Wenn Short-Seller Margin-Anforderungen nicht mehr erfüllen können, werden ihre Positionen zwangsweise liquidiert. Diese Zwangskäufe verstärken die Spirale.
+**Margin Calls.** Wenn Short-Seller [Margin-Anforderungen](/blog/hebel-und-margin) nicht mehr erfüllen können, werden ihre Positionen zwangsweise liquidiert. Diese Zwangskäufe verstärken die Spirale.
 
 ## Das berühmteste Beispiel: Volkswagen 2008
 
@@ -128,11 +128,11 @@ Wer auf Short Squeezes spekuliert, sollte die Risiken kennen:
 
 **Timing-Problem.** Selbst wenn ein Squeeze "fällig" wirkt, kann er Wochen oder Monate auf sich warten lassen, oder gar nicht eintreten. In dieser Zeit kann die Aktie weiter fallen.
 
-**Volatilität.** Squeeze-Aktien haben extreme Tagesschwankungen. Stop-Losses können in Sekunden ausgelöst werden, danach erholt sich die Aktie wieder.
+[**Volatilität.**](/blog/volatilitaet-verstehen) Squeeze-Aktien haben extreme Tagesschwankungen. Stop-Losses können in Sekunden ausgelöst werden, danach erholt sich die Aktie wieder.
 
 **Regulatorisches Risiko.** Wie GameStop gezeigt hat, können Brokerage-Firmen Käufe stoppen. Wer im Squeeze gefangen ist, kann möglicherweise nicht aussteigen.
 
-**Steuerliche Komplikation.** Hohe Gewinne in kurzer Zeit erhöhen das Risiko, als gewerbsmässiger Wertschriftenhändler eingestuft zu werden.
+**Steuerliche Komplikation.** Hohe Gewinne in kurzer Zeit erhöhen das Risiko, als [gewerbsmässiger Wertschriftenhändler](/blog/privater-anleger-gewerbsmaessig) eingestuft zu werden.
 
 ## Fazit
 

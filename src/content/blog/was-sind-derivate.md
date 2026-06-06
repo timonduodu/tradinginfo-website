@@ -28,7 +28,7 @@ Ein Derivat ist ein Finanzinstrument, dessen Wert sich von einem zugrunde liegen
 - Zinsen
 - sogar andere Derivate
 
-Du hältst also nicht den Vermögenswert selbst, sondern einen Vertrag, der sich auf diesen bezieht. Das eröffnet enorme Flexibilität: Hebel, Short-Positionen, Wetten auf Volatilität, Absicherung gegen Risiken.
+Du hältst also nicht den Vermögenswert selbst, sondern einen Vertrag, der sich auf diesen bezieht. Das eröffnet enorme Flexibilität: Hebel, [Short-Positionen](/blog/long-vs-short-erklaert), Wetten auf Volatilität, Absicherung gegen Risiken.
 
 ## Die wichtigsten Derivat-Typen
 
@@ -49,7 +49,7 @@ Eine Option ist das **Recht** (nicht die Pflicht), einen Basiswert zu einem fest
 
 **Beispiel**: Du kaufst eine Call-Option auf Roche mit Strike 290 CHF, Laufzeit 3 Monate, für einen Optionspreis (Prämie) von 5 CHF. Steigt Roche auf 310 CHF, übst du die Option aus und verdienst (310 - 290 - 5) = 15 CHF pro Option. Bleibt Roche unter 290, verfällt deine Option wertlos und du hast 5 CHF Verlust pro Option.
 
-Optionen sind extrem vielseitig, von simpler Spekulation bis zu komplexen Absicherungsstrategien.
+[Optionen](/blog/optionen-verstehen) sind extrem vielseitig, von simpler Spekulation bis zu komplexen Absicherungsstrategien.
 
 ### 3. CFDs (Contracts for Difference)
 
@@ -83,7 +83,7 @@ Zertifikate sind in Deutschland und der Schweiz sehr verbreitet. Es gibt unzähl
 
 ## Hebel und Margin: Warum Derivate riskant sind
 
-Der grosse Reiz von Derivaten ist der Hebel. Mit 1.000 CHF Einsatz kannst du Positionen in 10.000, 20.000 oder mehr CHF Grösse fahren. Aber Achtung: Der Hebel wirkt in beide Richtungen.
+Der grosse Reiz von Derivaten ist der [Hebel](/blog/hebel-und-margin). Mit 1.000 CHF Einsatz kannst du Positionen in 10.000, 20.000 oder mehr CHF Grösse fahren. Aber Achtung: Der Hebel wirkt in beide Richtungen.
 
 **Beispiel**: Du kaufst einen CFD auf den SMI mit Hebel 10. SMI fällt 5%. Dein Verlust: **50%** deines Einsatzes, nicht 5%.
 
@@ -91,7 +91,7 @@ Und wenn die Position weiter ins Minus läuft, kommt der Margin Call: Der Broker
 
 ## Steuerliche Behandlung in DACH
 
-**Schweiz**: Bei Derivaten gilt zunächst die gleiche Regel wie bei Aktien, Kapitalgewinne sind für Privatanleger steuerfrei. ABER: Wer regelmässig mit Derivaten handelt, Hebel einsetzt und das Trading einen wesentlichen Teil seines Einkommens ausmacht, läuft Gefahr, als gewerbsmässiger Wertschriftenhändler eingestuft zu werden. Dann sind alle Gewinne (auch aus normalen Aktien) als Einkommen steuerpflichtig, plus AHV/IV, eine Katastrophe.
+**Schweiz**: Bei Derivaten gilt zunächst die gleiche Regel wie bei Aktien, Kapitalgewinne sind für Privatanleger steuerfrei. ABER: Wer regelmässig mit Derivaten handelt, Hebel einsetzt und das Trading einen wesentlichen Teil seines Einkommens ausmacht, läuft Gefahr, als [gewerbsmässiger Wertschriftenhändler](/blog/privater-anleger-gewerbsmaessig) eingestuft zu werden. Dann sind alle Gewinne (auch aus normalen Aktien) als Einkommen steuerpflichtig, plus AHV/IV, eine Katastrophe.
 
 Das Kreisschreiben Nr. 36 der ESTV definiert die Kriterien:
 1. Haltedauer < 6 Monate

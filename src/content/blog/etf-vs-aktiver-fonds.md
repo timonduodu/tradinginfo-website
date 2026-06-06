@@ -69,7 +69,7 @@ Aber selbst dort: Die Mehrheit der aktiven Fonds schlägt ihren Index nicht. Und
 
 **Schweiz**:
 - ETFs und Fonds werden steuerlich gleich behandelt
-- Bei der Vermögenssteuer zählt der Marktwert am 31.12.
+- Bei der [Vermögenssteuer](/blog/vermoegenssteuer-schweiz) zählt der Marktwert am 31.12.
 - Ausschüttungen (Dividenden, Zinsen) sind als Einkommen steuerpflichtig
 - Bei thesaurierenden Fonds wird der pauschale Ertrag versteuert (sog. ESTV-Kurs)
 - Kapitalgewinne beim Verkauf sind für Privatanleger steuerfrei
@@ -77,7 +77,7 @@ Aber selbst dort: Die Mehrheit der aktiven Fonds schlägt ihren Index nicht. Und
 **Deutschland**:
 - ETFs und Fonds unterliegen der Abgeltungsteuer (25% + 5,5% Soli + ggf. Kirchensteuer)
 - **Teilfreistellung**: Bei Aktienfonds (>51% Aktienanteil) sind 30% der Erträge steuerfrei
-- **Vorabpauschale**: Auf thesaurierende Fonds wird jährlich eine pauschale Steuer fällig, auch wenn du nichts verkauft hast. Für 2026 wurde der Basiszins auf 3,20% festgesetzt.
+- **Vorabpauschale**: Auf [thesaurierende Fonds](/blog/thesaurierend-vs-ausschuettend) wird jährlich eine pauschale Steuer fällig, auch wenn du nichts verkauft hast. Für 2026 wurde der Basiszins auf 3,20% festgesetzt.
 - Sparerpauschbetrag 2026: 1.000 EUR (Singles) / 2.000 EUR (gemeinsam veranlagt)
 
 **Österreich**:
@@ -98,7 +98,7 @@ Bei ETFs gibt es zwei Replikationsmethoden:
 - **Physisch**: Der ETF kauft die echten Aktien des Indexes. Vorteil: einfach nachvollziehbar.
 - **Synthetisch**: Der ETF tauscht mit einem Swap-Partner die Indexrendite. Vorteil: meist günstiger und steuerlich effizienter (vor allem in den USA), aber: Kontrahentenrisiko.
 
-Für Schweizer Anleger, die in US-Aktien investieren, sind synthetische ETFs oft attraktiv, weil sie die US-Quellensteuer von 30% auf Dividenden umgehen können. Bei physischen ETFs muss diese teils mühsam zurückgefordert werden.
+Für Schweizer Anleger, die in US-Aktien investieren, sind synthetische ETFs oft attraktiv, weil sie die [US-Quellensteuer von 30% auf Dividenden](/blog/us-quellensteuer-zurueckholen) umgehen können. Bei physischen ETFs muss diese teils mühsam zurückgefordert werden.
 
 ## Praktische Empfehlung
 

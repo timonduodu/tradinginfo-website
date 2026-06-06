@@ -19,7 +19,7 @@ faq:
 
 Ein häufiges Erlebnis für Schweizer Anleger: Die ausgeschüttete Dividende wirkt deutlich geringer als das, was in den Geschäftsberichten angekündigt wurde. Wer 1'000 Nestlé-Aktien hält und 3.05 Franken Dividende pro Aktie erwartet, sieht auf dem Konto nicht 3'050 Franken, sondern 1'982 Franken. Die Differenz von 1'068 Franken, wo ist sie hin?
 
-Die Antwort liegt in einem der eigentümlichsten Aspekte des Schweizer Steuersystems: der **Verrechnungssteuer**.
+Die Antwort liegt in einem der eigentümlichsten Aspekte des Schweizer Steuersystems: der [**Verrechnungssteuer**](/blog/verrechnungssteuer-schweiz).
 
 ## Was eine Dividende eigentlich ist
 
@@ -82,7 +82,7 @@ Bei ausländischen Aktien wird es komplizierter. Hier kommen mehrere Steuerschic
 
 **Doppelbesteuerungsabkommen (DBA).** Die Schweiz hat mit den meisten relevanten Ländern DBAs abgeschlossen, die die Quellensteuer reduzieren. In den USA reduziert sich die Quellensteuer für Schweizer Anleger durch das DBA auf 15 %, vorausgesetzt, der Anleger füllt die richtigen Formulare aus (W-8BEN beim Broker).
 
-**Rückforderung über DA-1.** Die Differenz zwischen den effektiv einbehaltenen 15 % und der schweizerischen Anrechnungsmöglichkeit von 15 % kann über das **DA-1-Formular** in der Steuererklärung geltend gemacht werden. Die DA-1-Mechanik ist eine Spezialdisziplin für sich.
+**Rückforderung über DA-1.** Die Differenz zwischen den effektiv einbehaltenen 15 % und der schweizerischen Anrechnungsmöglichkeit von 15 % kann über das [**DA-1-Formular**](/blog/us-quellensteuer-zurueckholen) in der Steuererklärung geltend gemacht werden. Die DA-1-Mechanik ist eine Spezialdisziplin für sich.
 
 > *"International dividend investing without understanding withholding tax is like driving without knowing your speed limit. Eventually it'll cost you."*
 >, Schweizer Vermögensverwalter
@@ -115,7 +115,7 @@ Solche steueroptimierten Ausschüttungen sind in den vergangenen Jahren bei mehr
 
 ## Dividendenstrategien
 
-Verschiedene Dividenden-Strategien sind populär:
+Verschiedene [Dividenden-Strategien](/blog/dividenden-strategie-schweiz) sind populär:
 
 **Dividenden-Aristokraten.** Aktien, die seit mindestens 25 Jahren jährlich ihre Dividende erhöht haben. Beispiele: Procter & Gamble, Coca-Cola, Johnson & Johnson in den USA.
 

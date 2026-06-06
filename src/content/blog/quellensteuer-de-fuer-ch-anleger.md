@@ -19,7 +19,7 @@ faq:
 
 ## Die Ausgangssituation
 
-Als Schweizer Privatanleger investierst du in BMW, SAP, Volkswagen, Allianz oder andere deutsche Aktien. Bei der nächsten Dividendenausschüttung stellst du fest: Statt der erwarteten Brutto-Dividende kommt deutlich weniger an.
+Als Schweizer Privatanleger investierst du in BMW, SAP, Volkswagen, Allianz oder andere deutsche Aktien. Bei der nächsten Dividendenausschüttung stellst du fest: Statt der erwarteten [Brutto-Dividende](/blog/dividenden-schweizer-anleger) kommt deutlich weniger an.
 
 Der Grund: In Deutschland wird **Kapitalertragsteuer** ("Quellensteuer") auf Dividenden einbehalten, bevor sie an dich ausgezahlt werden:
 
@@ -27,7 +27,7 @@ Der Grund: In Deutschland wird **Kapitalertragsteuer** ("Quellensteuer") auf Div
 - 5,5% Solidaritätszuschlag auf die Abgeltungsteuer
 - = **26,375%** insgesamt
 
-Zum Vergleich: Bei Schweizer Aktien wäre die Verrechnungssteuer 35%. Bei deutschen Aktien sind es 26,375%.
+Zum Vergleich: Bei Schweizer Aktien wäre die [Verrechnungssteuer](/blog/verrechnungssteuer-schweiz) 35%. Bei deutschen Aktien sind es 26,375%.
 
 ## Was sagt das DBA Schweiz-Deutschland?
 
@@ -140,7 +140,7 @@ Quellensteuer-Sätze und DBA-Anrechnungen für Schweizer Anleger:
 | UK | 0% auf Dividenden |, | — |
 | Japan | 20% | 10% | 10% |
 
-Für die USA ist es einfacher: Wenn deine Bank das Formular W-8BEN korrekt eingereicht hat, wird die US-Quellensteuer direkt auf 15% reduziert, keine Rückforderung nötig.
+Für die USA ist es einfacher: Wenn deine Bank das [Formular W-8BEN](/blog/us-quellensteuer-zurueckholen) korrekt eingereicht hat, wird die US-Quellensteuer direkt auf 15% reduziert, keine Rückforderung nötig.
 
 ## Was Schweizer Banken bieten
 

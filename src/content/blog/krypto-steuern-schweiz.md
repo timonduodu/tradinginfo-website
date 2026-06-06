@@ -54,7 +54,7 @@ Für andere Coins gilt der Marktwert per 31.12. zum Tagesende, meist über Coinm
 Was Kursgewinne nicht sind, sind diese **regelmässigen Einkünfte**:
 
 **Staking:**  
-Wer ETH 2.0, Cardano, Solana oder andere Proof-of-Stake-Coins staked, erhält Belohnungen. Diese gelten als **Vermögensertrag** und sind einkommenssteuerpflichtig, zum Wert am Tag des Erhalts.
+Wer ETH 2.0, Cardano, Solana oder andere Proof-of-Stake-Coins [staked](/blog/staking-steuern-dach), erhält Belohnungen. Diese gelten als **Vermögensertrag** und sind einkommenssteuerpflichtig, zum Wert am Tag des Erhalts.
 
 **Mining:**  
 Wer Bitcoin oder andere Coins schürft, generiert ebenfalls steuerpflichtiges Einkommen. Bei grösseren Mining-Operationen kann zudem **selbständige Erwerbstätigkeit** vorliegen, dann werden auch Sozialversicherungsbeiträge fällig.
@@ -63,11 +63,11 @@ Wer Bitcoin oder andere Coins schürft, generiert ebenfalls steuerpflichtiges Ei
 DeFi-Erträge aus Aave, Compound, Uniswap-Pools etc. sind Einkommen. Die Versteuerung erfolgt zum Zeitpunkt des Erhalts.
 
 **Airdrops:**  
-Hier ist die Praxis kantonal unterschiedlich. Die meisten Kantone besteuern Airdrops als Einkommen zum Marktwert am Tag des Erhalts.
+Hier ist die Praxis kantonal unterschiedlich. Die meisten Kantone besteuern [Airdrops](/blog/airdrops-steuern-dach) als Einkommen zum Marktwert am Tag des Erhalts.
 
 ## Die Gewerbsmässigkeit-Falle
 
-Wie bei Aktien (siehe unser Artikel zu privatem vs. gewerbsmässigem Wertschriftenhandel) prüft die Steuerverwaltung auch bei Krypto, ob die Aktivität **gewerbsmässig** ist.
+Wie bei Aktien (siehe unser Artikel zu [privatem vs. gewerbsmässigem Wertschriftenhandel](/blog/privater-anleger-gewerbsmaessig)) prüft die Steuerverwaltung auch bei Krypto, ob die Aktivität **gewerbsmässig** ist.
 
 Die ESTV nutzt die fünf Kriterien aus dem Kreisschreiben Nr. 36 (sinngemäß auf Krypto angewendet):
 

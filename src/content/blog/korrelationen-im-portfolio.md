@@ -79,7 +79,7 @@ Beta und Korrelation hängen mathematisch zusammen, sind aber nicht dasselbe. Be
 **2. Innerhalb der Aktien diversifizieren**:
 - Verschiedene Branchen (nicht nur Tech!)
 - Verschiedene Regionen (USA, Europa, Asien, Schwellenländer)
-- Verschiedene Marktkapitalisierungen (Large, Mid, Small)
+- Verschiedene [Marktkapitalisierungen](/blog/marktkapitalisierung-verstehen) (Large, Mid, Small)
 
 **3. Alternative Anlagen** (für Fortgeschrittene):
 - Hedge Funds
@@ -87,7 +87,7 @@ Beta und Korrelation hängen mathematisch zusammen, sind aber nicht dasselbe. Be
 - Sammlerwerte
 
 **4. Faktor-Diversifikation**:
-- Value-Aktien (KGV-niedrig, oft etablierte Werte)
+- [Value-Aktien](/blog/value-investing-basics) (KGV-niedrig, oft etablierte Werte)
 - Growth-Aktien (Wachstumsunternehmen)
 - Momentum (Aktien mit starkem Trend)
 - Quality (hohe Margen, stabile Bilanzen)
@@ -119,7 +119,7 @@ Statistische Studien zeigen: Schon mit 15-20 verschiedenen Aktien aus unterschie
 
 ## Steuerliche Aspekte (DACH)
 
-**Schweiz**: Diversifikation hat keine direkten Steuerimplikationen. Aber: Wer aus Diversifikationsgründen ständig umschichtet, kann in die gewerbsmässige Trader-Zone abrutschen.
+**Schweiz**: Diversifikation hat keine direkten Steuerimplikationen. Aber: Wer aus Diversifikationsgründen ständig umschichtet, kann in die [gewerbsmässige Trader-Zone](/blog/privater-anleger-gewerbsmaessig) abrutschen.
 
 **Deutschland**: Sparerpauschbetrag 2026: 1.000 EUR / 2.000 EUR pro Jahr. Wer breit diversifiziert investiert, kann den Pauschbetrag auf mehrere Depots/Broker aufteilen, das maximiert die Steuerfreiheit.
 
@@ -127,7 +127,7 @@ Statistische Studien zeigen: Schon mit 15-20 verschiedenen Aktien aus unterschie
 
 ## Mythos: "Mehr Cash = weniger Risiko"
 
-Cash hat Korrelation 0 zu allen Märkten, schützt also vor Volatilität. Aber: Cash verliert real Wert durch Inflation. Wer 30% Cash hält und 30 Jahre Anlagehorizont hat, hat ein anderes Problem als Volatilität: Kaufkraftverlust. Echte Diversifikation bedeutet auch, Inflationsrisiko gegen Volatilitätsrisiko abzuwägen.
+Cash hat Korrelation 0 zu allen Märkten, schützt also vor [Volatilität](/blog/volatilitaet-verstehen). Aber: Cash verliert real Wert durch Inflation. Wer 30% Cash hält und 30 Jahre Anlagehorizont hat, hat ein anderes Problem als Volatilität: Kaufkraftverlust. Echte Diversifikation bedeutet auch, Inflationsrisiko gegen Volatilitätsrisiko abzuwägen.
 
 ## Fazit
 

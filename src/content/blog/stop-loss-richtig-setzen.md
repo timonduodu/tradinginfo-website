@@ -29,7 +29,7 @@ Klingt simpel, aber in der Praxis machen viele Trader hier kritische Fehler.
 
 1. **Begrenzt Verluste**: Du musst nicht mit verlorenen Trades "warten, bis sie wieder hochkommen" (ein häufiger psychologischer Fehler).
 2. **Entscheidung im Voraus**: Du triffst die Verkaufsentscheidung ruhig vor dem Trade, nicht im Stress während eines Crashs.
-3. **Risikomanagement**: Erlaubt es dir, deine Positionsgrösse rational zu berechnen (siehe unten).
+3. **[Risikomanagement](/blog/risikomanagement)**: Erlaubt es dir, deine Positionsgrösse rational zu berechnen (siehe unten).
 
 ## Stop-Loss-Typen
 
@@ -71,7 +71,7 @@ Wenn dein Trade nach X Tagen/Wochen nicht in den Gewinn gelaufen ist, schliessen
 
 ## Positionsgrösse: Die andere Hälfte der Gleichung
 
-Stop-Loss allein reicht nicht, die Positionsgrösse muss zum Stop passen. Die wichtigste Regel: **Nie mehr als 1-2% deines Kontos pro Trade riskieren**.
+Stop-Loss allein reicht nicht, die [Positionsgrösse](/blog/positionsgroesse-berechnen) muss zum Stop passen. Die wichtigste Regel: **Nie mehr als 1-2% deines Kontos pro Trade riskieren**.
 
 **Beispiel**: Konto: CHF 50.000. Maximales Risiko pro Trade: 1% = CHF 500.
 
@@ -93,13 +93,13 @@ Egal wie sicher du dir bist, wenn der Stop greift, verlierst du nur CHF 500. Das
 
 ## Spezialfall: Stop-Loss bei volatilen Märkten
 
-Während des Corona-Crashs im März 2020 fielen viele Aktien an einzelnen Tagen um 10-20%, viele Stops wurden zu Kursen weit unter dem Stop-Niveau ausgeführt ("Slippage"). Wer zu eng platzierte Stops hatte, war oft genau im falschen Moment "out", als der Markt dann zwei Wochen später bereits den Tiefpunkt sah und wieder stieg.
+Während des Corona-Crashs im März 2020 fielen viele Aktien an einzelnen Tagen um 10-20%, viele Stops wurden zu Kursen weit unter dem Stop-Niveau ausgeführt (["Slippage"](/blog/slippage-erklaert)). Wer zu eng platzierte Stops hatte, war oft genau im falschen Moment "out", als der Markt dann zwei Wochen später bereits den Tiefpunkt sah und wieder stieg.
 
 Lektion: In sehr volatilen Marktphasen können Stops "zu effektiv" sein. Manche Profis ziehen in solchen Phasen ihre Stops weiter weg oder switchen auf Stop-Limit-Orders mit weitem Spielraum.
 
 ## Wann ist KEIN Stop-Loss sinnvoll?
 
-- Bei sehr langfristigen Buy-and-Hold-Investments (Altersvorsorge), wo du Marktschwankungen einfach aussitzt
+- Bei sehr langfristigen [Buy-and-Hold-Investments](/blog/buy-and-hold-vs-trading) (Altersvorsorge), wo du Marktschwankungen einfach aussitzt
 - Bei sehr breit gestreuten ETFs (MSCI World, FTSE All-World), wo das diversifizierte Risiko ohnehin gering ist
 - Wenn deine Position so klein ist, dass selbst der Totalverlust dich nicht belasten würde
 

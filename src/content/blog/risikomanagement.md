@@ -41,7 +41,7 @@ Bei einem Verlust von 50 % muss die Position sich **verdoppeln**, nur um wieder 
 
 Das wohl wichtigste Prinzip professioneller Trader: **Pro Trade nie mehr als 1 bis 2 Prozent des Kontos riskieren.**
 
-Beispiel: Bei 50'000 CHF Konto sind 500 bis 1'000 CHF das maximale Verlustrisiko pro Position, nicht die Positionsgrösse, sondern der maximale Verlust bis zum Stop-Loss.
+Beispiel: Bei 50'000 CHF Konto sind 500 bis 1'000 CHF das maximale Verlustrisiko pro Position, nicht die [Positionsgrösse](/blog/positionsgroesse-berechnen), sondern der maximale Verlust bis zum [Stop-Loss](/blog/stop-loss-richtig-setzen).
 
 Diese Regel hat tiefgreifende Konsequenzen:
 
@@ -126,7 +126,7 @@ Beispiele:
 
 **September 2022 (UK Gilt-Krise):** Britische Anleihen, Pfund Sterling und britische Aktien fielen gemeinsam, drei vermeintlich unkorrelierte Anlageklassen.
 
-Diese Tail-Korrelationen können nur durch echte Diversifikation über Anlageklassen hinweg gemildert werden, etwa durch Trendfolge-Strategien, die in Krisen oft positiv performen.
+Diese Tail-Korrelationen können nur durch [echte Diversifikation](/blog/korrelationen-im-portfolio) über Anlageklassen hinweg gemildert werden, etwa durch [Trendfolge-Strategien](/blog/trendfolge-strategien), die in Krisen oft positiv performen.
 
 > *"Diversification is the only free lunch in finance, but the meal is smaller than most people think."*
 >, **Harry Markowitz**

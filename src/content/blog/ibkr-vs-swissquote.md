@@ -66,7 +66,7 @@ Interactive Brokers hat klare strukturelle Kostenvorteile bei aktivem Handel, in
 
 Trotz höherer Gebühren bietet Swissquote in mehreren Dimensionen Vorteile:
 
-**1. Schweizer Steuerauszug.** Swissquote stellt einen detaillierten Steuerauszug aus, der für die Schweizer Steuererklärung optimiert ist. Bei IBKR muss der Anleger die DA-1-Liste selbst aus Reports zusammenstellen, ein Aufwand von mehreren Stunden pro Jahr.
+**1. Schweizer Steuerauszug.** Swissquote stellt einen detaillierten Steuerauszug aus, der für die Schweizer Steuererklärung optimiert ist. Bei IBKR muss der Anleger die [DA-1-Liste](/blog/us-quellensteuer-da1) selbst aus Reports zusammenstellen, ein Aufwand von mehreren Stunden pro Jahr.
 
 **2. Schweizer Bankenlizenz und Einlagensicherung.** Cash-Bestände bei Swissquote sind bis 100'000 CHF durch esisuisse gesichert. Bei IBKR greift die irische Einlagensicherung bis 20'000 EUR, Wertschriften selbst sind bei beiden Brokern durch die jeweiligen Investor-Compensation-Schemes geschützt (Schweiz: Privileg, USA: SIPC bis 500'000 USD).
 
@@ -139,11 +139,11 @@ Im historischen Kontext: Beide Institute haben die Finanzkrise 2008 ohne nennens
 
 Eine vereinfachte Orientierung:
 
-- **Erste 100 Trades im Leben:** Swissquote oder Yuh, der Lernprozess ist wichtiger als Gebühren-Optimierung
-- **Vermögensaufbau-Phase, regelmässige ETF-Sparpläne:** DEGIRO oder Yuh
+- **Erste 100 Trades im Leben:** Swissquote oder [Yuh](/blog/yuh-vs-neon-invest), der Lernprozess ist wichtiger als Gebühren-Optimierung
+- **Vermögensaufbau-Phase, regelmässige ETF-Sparpläne:** [DEGIRO](/blog/degiro-test) oder Yuh
 - **Aktiver Anleger mit globalem Universum:** IBKR Pro
 - **Professioneller Trader mit Derivate-Strategien:** IBKR Pro alternativlos
-- **Vermögende Anleger mit Premium-Service-Anspruch:** Swissquote oder Saxo
+- **Vermögende Anleger mit Premium-Service-Anspruch:** Swissquote oder [Saxo](/blog/saxo-bank-schweiz-test)
 
 > *"Choose your broker the way you choose your bank, for life, not for one trade."*
 >, Vermögensverwalter-Weisheit

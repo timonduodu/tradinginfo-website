@@ -25,7 +25,7 @@ Die Idee ist denkbar einfach: Statt einmalig eine grosse Summe zu investieren, l
 
 **Disziplin:** Der Sparplan läuft automatisch, Sie müssen nicht jeden Monat aktiv entscheiden.
 
-**Durchschnittskosteneffekt:** Sie kaufen bei hohen und tiefen Kursen, was den durchschnittlichen Einstandspreis glättet und das Timing-Risiko reduziert.
+[**Durchschnittskosteneffekt:**](/blog/dollar-cost-averaging-dca) Sie kaufen bei hohen und tiefen Kursen, was den durchschnittlichen Einstandspreis glättet und das Timing-Risiko reduziert.
 
 **Breite Streuung:** Ein einzelner Welt-ETF enthält oft tausende Unternehmen, das Risiko ist breit verteilt.
 
@@ -41,7 +41,7 @@ Einige Schweizer Anbieter erlauben Sparpläne, bei denen monatlich ohne zusätzl
 
 ## Schritt 2: Den richtigen ETF auswählen
 
-Für einen Sparplan eignen sich breit gestreute, kostengünstige ETFs. Die wichtigsten Auswahlkriterien:
+Für einen Sparplan eignen sich [breit gestreute, kostengünstige ETFs](/blog/etf-vs-aktiver-fonds). Die wichtigsten Auswahlkriterien:
 
 | Kriterium | Worauf achten |
 |-----------|---------------|
@@ -55,7 +55,7 @@ Ein verbreiteter Ansatz für Einsteiger ist ein einziger breiter Welt-ETF als Ba
 
 ## Schritt 3: Ausschüttend oder thesaurierend?
 
-ETFs gibt es in zwei Varianten:
+ETFs gibt es in [zwei Varianten](/blog/thesaurierend-vs-ausschuettend):
 
 **Ausschüttend:** Dividenden werden ausgezahlt. Praktisch, wenn Sie laufendes Einkommen wollen, in der Schweiz sind diese Erträge als Einkommen zu versteuern.
 

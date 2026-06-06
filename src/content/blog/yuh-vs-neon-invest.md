@@ -21,7 +21,7 @@ Yuh und Neon Invest haben den Schweizer Börsenhandel demokratisiert: Mit wenige
 
 ## Die Anbieter im Überblick
 
-**Yuh** ist ein Joint Venture von **PostFinance** und **Swissquote**, gegründet 2021. Yuh ist eine Vollbank-App: Konto, Karte, Anlegen, Säule 3a, Hypotheken.
+**Yuh** ist ein Joint Venture von **PostFinance** und **Swissquote**, gegründet 2021. Yuh ist eine Vollbank-App: Konto, Karte, Anlegen, [Säule 3a](/blog/saeule-3a-etf), Hypotheken.
 
 **Neon Invest** ist die Anlagefunktion der Smartphone-Bank **Neon**, gegründet 2017. Investieren ist erst seit 2022 verfügbar, baut auf einer Kooperation mit der Hypothekarbank Lenzburg auf.
 
@@ -118,7 +118,7 @@ Beide Anbieter erstellen für die Schweizer Steuererklärung ein **automatisches
 - Wertschriftenbestand am 31.12.
 - Bruttodividenden
 - Einbehaltene Quellensteuern
-- Daten für DA-1 (siehe unser Artikel zu US-Quellensteuer und DA-1)
+- Daten für DA-1 (siehe unser Artikel zu [US-Quellensteuer und DA-1](/blog/us-quellensteuer-da1))
 
 Das Steuerverzeichnis ist bei beiden gratis, bei vielen anderen Brokern (z. B. IBKR) ist das ein deutlicher Mehraufwand.
 
@@ -132,7 +132,7 @@ Das Steuerverzeichnis ist bei beiden gratis, bei vielen anderen Brokern (z. B. I
 - **Komplexe Ordertypen:** Keine Stop Loss, keine Trailing Stops.
 - **Exchange-Auswahl:** Trades laufen über fixe Börsen, keine eigene Auswahl.
 
-Wer aktiv tradet oder Profi-Funktionen braucht, ist bei **Swissquote** oder **Interactive Brokers** besser aufgehoben (siehe unser Artikel zu IBKR vs. Swissquote).
+Wer aktiv tradet oder Profi-Funktionen braucht, ist bei **Swissquote** oder **Interactive Brokers** besser aufgehoben (siehe unser Artikel zu [IBKR vs. Swissquote](/blog/ibkr-vs-swissquote)).
 
 ## Wer für wen?
 

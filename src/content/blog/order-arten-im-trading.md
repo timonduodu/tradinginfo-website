@@ -17,13 +17,13 @@ faq:
     answer: "Sobald der Stop-Preis erreicht wird, löst ein Stop-Loss eine Market-Order aus. In schnellen Märkten kann die Ausführung weit unter dem Stop-Preis erfolgen, wie beim CHF-Schock 2015, als Stops bei 1.19 teils zu 0.90 ausgeführt wurden."
 ---
 
-Eine Order ist die Anweisung an den Broker, einen Kauf oder Verkauf auszuführen. Was wie eine triviale Funktion klingt, ist in Wahrheit ein komplexes Feld mit erheblichen Konsequenzen für Ausführungspreis, Slippage und Gesamtperformance. Wer die wichtigsten Order-Arten nicht beherrscht, verschenkt regelmässig Geld an den Markt.
+Eine Order ist die Anweisung an den Broker, einen Kauf oder Verkauf auszuführen. Was wie eine triviale Funktion klingt, ist in Wahrheit ein komplexes Feld mit erheblichen Konsequenzen für Ausführungspreis, [Slippage](/blog/slippage-erklaert) und Gesamtperformance. Wer die wichtigsten Order-Arten nicht beherrscht, verschenkt regelmässig Geld an den Markt.
 
 ## Market-Order: Die einfachste Form
 
 Eine Market-Order weist den Broker an, sofort zum aktuell verfügbaren Marktpreis auszuführen, beim Kauf zum Ask-Preis, beim Verkauf zum Bid-Preis. Die Vorteile: Maximale Ausführungssicherheit. Die Nachteile: Keine Kontrolle über den exakten Ausführungspreis.
 
-In ruhigen, liquiden Märkten ist eine Market-Order unproblematisch. In schnellen Märkten, etwa während Wirtschaftsdaten oder Notenbank-Entscheidungen, kann die Slippage erheblich sein. Eine Market-Order auf EUR/USD kurz vor einem Fed-Zinsentscheid kann statt mit 1.0850 zu 1.0865 ausgeführt werden, ein Verlust von 15 Pips, bevor der Trade überhaupt beginnt.
+In ruhigen, liquiden Märkten ist eine Market-Order unproblematisch. In schnellen Märkten, etwa während Wirtschaftsdaten oder Notenbank-Entscheidungen, kann die Slippage erheblich sein. Eine Market-Order auf EUR/USD kurz vor einem Fed-Zinsentscheid kann statt mit 1.0850 zu 1.0865 ausgeführt werden, ein Verlust von 15 [Pips](/blog/was-ist-ein-pip), bevor der Trade überhaupt beginnt.
 
 > *"The most expensive four words in trading are 'I'll just use market.'"*
 >, anonymer Floor-Trader
@@ -38,7 +38,7 @@ Limit-Orders sind das Werkzeug disziplinierter Trader. Sie zwingen zur Vorab-Pla
 
 ## Stop-Loss: Die wichtigste Order überhaupt
 
-Ein Stop-Loss ist eine Order zum Verlustbegrenzen. Erreicht der Markt einen vordefinierten Preis gegen die Position, wird automatisch geschlossen. Beispiel: Long EUR/USD bei 1.0850, Stop-Loss bei 1.0800, fällt der Kurs auf 1.0800, schliesst die Position automatisch mit 50 Pips Verlust.
+Ein [Stop-Loss](/blog/stop-loss-richtig-setzen) ist eine Order zum Verlustbegrenzen. Erreicht der Markt einen vordefinierten Preis gegen die Position, wird automatisch geschlossen. Beispiel: Long EUR/USD bei 1.0850, Stop-Loss bei 1.0800, fällt der Kurs auf 1.0800, schliesst die Position automatisch mit 50 Pips Verlust.
 
 Die mechanische Funktion eines Stop-Loss ist wichtig zu verstehen: Sobald der Stop-Preis erreicht wird, wird automatisch eine Market-Order ausgelöst. Bei normalen Marktbedingungen erfolgt die Ausführung nahe am Stop-Preis. In schnellen Märkten, etwa bei einer Marktöffnung nach dem Wochenende oder nach unerwarteten Ereignissen, kann der Stop weit unter dem ursprünglichen Niveau ausgeführt werden.
 

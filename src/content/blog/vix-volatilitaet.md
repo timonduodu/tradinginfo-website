@@ -21,7 +21,7 @@ Wenn an den US-Börsen Panik ausbricht, taucht in den Schlagzeilen schnell eine 
 
 ## Was der VIX misst
 
-Der VIX bildet die **erwartete Volatilität** des S&P 500 für die kommenden 30 Tage ab. Er wird aus den Preisen von Optionen auf den S&P 500 berechnet. Je höher die Optionspreise, desto stärker die Schwankungen, die der Markt erwartet, desto höher der VIX.
+Der VIX bildet die **erwartete [Volatilität](/blog/volatilitaet-verstehen)** des S&P 500 für die kommenden 30 Tage ab. Er wird aus den Preisen von Optionen auf den S&P 500 berechnet. Je höher die Optionspreise, desto stärker die Schwankungen, die der Markt erwartet, desto höher der VIX.
 
 Wichtig: Der VIX misst nicht die vergangene Volatilität, sondern die vom Markt **implizit erwartete** Volatilität.
 
@@ -39,7 +39,7 @@ Wichtig: Der VIX misst nicht die vergangene Volatilität, sondern die vom Markt 
 **Historische Höchststände:**
 - Oktober 2008 (Finanzkrise): 89,53
 - März 2020 (Corona-Crash): 85,47
-- August 2024 (Yen-Carry-Crash): 65,73
+- August 2024 ([Yen-Carry](/blog/carry-trade-grundlagen)-Crash): 65,73
 
 ## Warum der VIX wichtig ist
 
@@ -68,7 +68,7 @@ Dies hat zwei wichtige Implikationen:
 
 **Direkt handelbar ist der VIX nicht**, er ist nur ein Index. Es gibt aber abgeleitete Produkte:
 
-**VIX-Futures:** An der CFE gehandelt, oft mit Contango (siehe unser Artikel zu Contango und Backwardation).
+**VIX-Futures:** An der CFE gehandelt, oft mit Contango (siehe unser Artikel zu [Contango und Backwardation](/blog/contango-backwardation)).
 
 **ETFs / ETNs:**
 - VXX: Bildet kurzfristige VIX-Futures ab

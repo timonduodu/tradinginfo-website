@@ -23,7 +23,7 @@ Hebel ist das Werkzeug, das aus 1'000 CHF Kapital eine 30'000-CHF-Position macht
 
 Hebel, auch Leverage genannt, ist das Verhältnis zwischen der Grösse einer eingegangenen Position und dem dafür hinterlegten Eigenkapital. Ein Hebel von 1:10 bedeutet, dass für eine Position über 10'000 CHF nur 1'000 CHF Eigenkapital, die sogenannte Margin, hinterlegt werden müssen.
 
-Die restlichen 9'000 CHF werden effektiv vom Broker geliehen. Diese Konstruktion ist keine "kostenlose" Hebelung, sondern ein klassischer Kredit. Entsprechend fallen Zinsen an, die in der Forex- und CFD-Welt als Swap oder Übernacht-Gebühr bezeichnet werden.
+Die restlichen 9'000 CHF werden effektiv vom Broker geliehen. Diese Konstruktion ist keine "kostenlose" Hebelung, sondern ein klassischer Kredit. Entsprechend fallen Zinsen an, die in der Forex- und CFD-Welt als [Swap oder Übernacht-Gebühr](/blog/was-sind-swap-kosten) bezeichnet werden.
 
 > *"Leverage is the only way a smart guy can go broke."*
 >, **Warren Buffett**
@@ -90,11 +90,11 @@ Die akademische Forschung zur optimalen Hebelhöhe (Kelly Criterion, Optimal F) 
 
 Praktische Daumenregeln aus der Trading-Literatur:
 
-1. **Pro Trade nie mehr als 1 bis 2 % des Eigenkapitals riskieren.** Bei 10'000 CHF Konto sind das maximal 100 bis 200 CHF Verlustrisiko pro Position.
+1. [**Pro Trade nie mehr als 1 bis 2 % des Eigenkapitals riskieren.**](/blog/risikomanagement) Bei 10'000 CHF Konto sind das maximal 100 bis 200 CHF Verlustrisiko pro Position.
 
 2. **Hebel nach Volatilität anpassen.** Ein 1:30-Hebel auf EUR/USD entspricht etwa dem Risiko eines 1:5-Hebels auf einen volatilen Krypto-Asset.
 
-3. **Stops setzen, bevor die Position eröffnet wird.** Das Stop-Loss-Niveau definiert die maximale Verlustgrösse, und damit die maximal vertretbare Positionsgrösse.
+3. **Stops setzen, bevor die Position eröffnet wird.** Das [Stop-Loss-Niveau](/blog/stop-loss-richtig-setzen) definiert die maximale Verlustgrösse, und damit die maximal vertretbare [Positionsgrösse](/blog/positionsgroesse-berechnen).
 
 ## Hebel bei verschiedenen Instrumenten
 

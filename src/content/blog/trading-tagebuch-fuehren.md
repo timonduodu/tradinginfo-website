@@ -45,7 +45,7 @@ Nach einigen Wochen offenbart ein Tagebuch typische Muster, die fast jeder Trade
 
 **Das Übertraden an schlechten Tagen:** Viele handeln nach einem Verlust hektisch weiter, um ihn "zurückzuholen", und vertiefen ihn nur.
 
-**Die ignorierten Stop-Losses:** Das Tagebuch zeigt schonungslos, wie oft ein Stop verschoben wurde, "nur dieses eine Mal".
+**Die ignorierten [Stop-Losses](/blog/stop-loss-richtig-setzen):** Das Tagebuch zeigt schonungslos, wie oft ein Stop verschoben wurde, "nur dieses eine Mal".
 
 **Die Tageszeit-Falle:** Manche Trader verlieren systematisch zu bestimmten Zeiten, etwa in den ersten hektischen Minuten nach Markteröffnung.
 
@@ -55,7 +55,7 @@ Nach einigen Wochen offenbart ein Tagebuch typische Muster, die fast jeder Trade
 
 Der häufigste Grund, warum Trading-Tagebücher scheitern, ist Überkomplexität. Wer ein 30-Spalten-Excel baut, füllt es nach drei Tagen nicht mehr aus.
 
-Beginnen Sie minimal: Halten Sie pro Trade fünf Dinge fest, das Instrument, den Grund für den Einstieg, das geplante Risiko, das Ergebnis und einen Satz zur Nachbetrachtung. Das dauert pro Trade unter einer Minute und ist nachhaltig durchhaltbar.
+Beginnen Sie minimal: Halten Sie pro Trade fünf Dinge fest, das Instrument, den Grund für den Einstieg, das [geplante Risiko](/blog/risikomanagement), das Ergebnis und einen Satz zur Nachbetrachtung. Das dauert pro Trade unter einer Minute und ist nachhaltig durchhaltbar.
 
 Ob Sie ein einfaches Notizbuch, eine Tabelle oder eine spezialisierte App nutzen, ist zweitrangig. Wichtig ist die Regelmässigkeit.
 

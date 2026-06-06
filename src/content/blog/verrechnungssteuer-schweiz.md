@@ -82,7 +82,7 @@ Du musst den **Bruttobetrag** angeben (vor Verrechnungssteuerabzug). Wer nur den
 Schweizer Banken stellen Steuerauszüge aus, die direkt für die Steuererklärung verwendet werden können. Wer diese nicht nutzt, riskiert Fehler.
 
 **Fehler 4: Ausländische Aktien-Dividenden falsch deklarieren**
-Auf ausländische Aktien (z.B. Apple, BMW) wird im Herkunftsland Quellensteuer einbehalten, z.B. 15% in den USA, 26,375% in Deutschland. Diese ist NICHT die Schweizer Verrechnungssteuer und wird über das DA-1-Formular geltend gemacht (siehe weiter unten).
+Auf ausländische Aktien (z.B. Apple, BMW) wird im Herkunftsland Quellensteuer einbehalten, z.B. 15% in den USA, [26,375% in Deutschland](/blog/quellensteuer-de-fuer-ch-anleger). Diese ist NICHT die Schweizer Verrechnungssteuer und wird über das [DA-1-Formular](/blog/us-quellensteuer-da1) geltend gemacht (siehe weiter unten).
 
 **Fehler 5: Kryptowährungen vergessen**
 Kryptowährungen unterliegen zwar nicht der Verrechnungssteuer, müssen aber im Wertschriftenverzeichnis erfasst werden (Vermögenssteuer). Wer das vergisst, riskiert Strafe wegen Steuerhinterziehung.
@@ -114,7 +114,7 @@ Das DA-1-Formular wird zusammen mit der Steuererklärung eingereicht. Die zurüc
 **Legale Optimierungen**:
 1. **KER-Ausschüttungen bevorzugen**: Kapitaleinlageprinzip, verrechnungssteuerfrei. Manche Schweizer Unternehmen schütten teilweise aus KER aus.
 2. **Auf ausländische Aktien setzen**: Quellensteuer-Logik (DA-1) statt Verrechnungssteuer.
-3. **Schweizer ETFs prüfen**: Manche thesaurierende ETFs vermeiden Verrechnungssteuer durch Strukturierung.
+3. **Schweizer ETFs prüfen**: Manche [thesaurierende ETFs](/blog/thesaurierend-vs-ausschuettend) vermeiden Verrechnungssteuer durch Strukturierung.
 
 **Was NICHT geht**:
 - "Schweizer Dividenden umgehen" durch Domizilwechsel ist nicht praktikabel, ausser bei Wegzug

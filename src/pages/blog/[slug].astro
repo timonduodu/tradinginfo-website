@@ -208,6 +208,70 @@ const schemas = [articleSchema, breadcrumbSchema, ...(faqSchema ? [faqSchema] : 
 </BaseLayout>
 
 <script>
+  // Glossar-Tooltips: Fachbegriffe im Artikeltext bekommen eine Hover-Erklärung
+  // und verlinken auf den Glossar-Eintrag. Lädt verzögert, blockiert nichts.
+  async function initGlossarTooltips() {
+    const content = document.querySelector('.post-content');
+    if (!content) return;
+    let glossar: { b: string; d: string; a: string }[];
+    try {
+      glossar = await (await fetch('/glossar.json')).json();
+    } catch { return; }
+
+    // Längste Begriffe zuerst, damit "Bid-Ask-Spread" vor "Spread" matcht
+    glossar.sort((x, y) => y.b.length - x.b.length);
+    const used = new Set<string>();
+    const MAX_TOOLTIPS = 12;
+    let count = 0;
+
+    const SKIP = new Set(['A', 'CODE', 'PRE', 'H1', 'H2', 'H3', 'H4', 'H5', 'H6', 'BUTTON', 'SCRIPT', 'STYLE']);
+    const walker = document.createTreeWalker(content, NodeFilter.SHOW_TEXT, {
+      acceptNode(node) {
+        for (let el = node.parentElement; el && el !== content; el = el.parentElement) {
+          if (SKIP.has(el.tagName) || el.classList.contains('glossar-hint')) return NodeFilter.FILTER_REJECT;
+        }
+        return NodeFilter.FILTER_ACCEPT;
+      },
+    });
+
+    const textNodes: Text[] = [];
+    let n;
+    while ((n = walker.nextNode())) textNodes.push(n as Text);
+
+    for (const textNode of textNodes) {
+      if (count >= MAX_TOOLTIPS) break;
+      for (const eintrag of glossar) {
+        if (count >= MAX_TOOLTIPS) break;
+        if (used.has(eintrag.a)) continue;
+        const text = textNode.textContent || '';
+        const escaped = eintrag.b.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+        const match = new RegExp(`(?<![\\wäöüÄÖÜß-])(${escaped})(?![\\wäöüÄÖÜß-])`, 'i').exec(text);
+        if (!match || match.index === undefined) continue;
+
+        const link = document.createElement('a');
+        link.className = 'glossar-hint';
+        link.href = `/glossar#${eintrag.a}`;
+        link.textContent = match[1];
+        link.setAttribute('data-def', eintrag.d);
+
+        const after = textNode.splitText(match.index);
+        after.textContent = (after.textContent || '').slice(match[1].length);
+        textNode.parentNode!.insertBefore(link, after);
+        used.add(eintrag.a);
+        count++;
+        break; // pro Textknoten max. 1 Tooltip, dann weiter
+      }
+    }
+  }
+
+  if ('requestIdleCallback' in window) {
+    requestIdleCallback(() => initGlossarTooltips());
+  } else {
+    setTimeout(initGlossarTooltips, 1500);
+  }
+</script>
+
+<script>
   // Lesefortschrittsbalken
   const bar = document.getElementById('reading-progress-bar');
   const content = document.querySelector('.post-content');
@@ -294,6 +358,51 @@ const schemas = [articleSchema, breadcrumbSchema, ...(faqSchema ? [faqSchema] : 
     color: var(--color-accent);
   }
 
+  /* Glossar-Tooltips */
+  .post-content :global(.glossar-hint) {
+    color: inherit;
+    text-decoration: underline dotted var(--color-ink-muted) 1.5px;
+    text-underline-offset: 3px;
+    position: relative;
+    cursor: help;
+  }
+
+  .post-content :global(.glossar-hint:hover),
+  .post-content :global(.glossar-hint:focus) {
+    color: var(--color-accent);
+    text-decoration-color: var(--color-accent);
+  }
+
+  .post-content :global(.glossar-hint::after) {
+    content: attr(data-def);
+    position: absolute;
+    bottom: calc(100% + 8px);
+    left: 50%;
+    transform: translateX(-50%);
+    width: min(320px, 80vw);
+    padding: 0.7rem 0.9rem;
+    background: var(--color-band-bg);
+    color: var(--color-band-ink);
+    font-family: var(--font-sans);
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    border-radius: 4px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.15s;
+    pointer-events: none;
+    z-index: 50;
+  }
+
+  .post-content :global(.glossar-hint:hover::after),
+  .post-content :global(.glossar-hint:focus::after) {
+    opacity: 1;
+    visibility: visible;
+  }
+
   .updated {
     font-style: italic;
     color: var(--color-ink-soft);
@@ -327,6 +436,24 @@ const schemas = [articleSchema, breadcrumbSchema, ...(faqSchema ? [faqSchema] : 
   .toc a:hover {
     color: var(--color-accent);
     text-decoration: underline;
+  }
+
+  /* Ab 1380px: TOC als feste Seitenleiste rechts neben dem Artikel */
+  @media (min-width: 1380px) {
+    .toc {
+      position: fixed;
+      top: 140px;
+      left: calc(50% + 400px);
+      width: 280px;
+      max-height: calc(100vh - 200px);
+      overflow-y: auto;
+      margin: 0;
+      background: var(--color-paper);
+      border: 1px solid var(--color-rule);
+      border-left: 3px solid var(--color-accent);
+      z-index: 10;
+    }
+    .toc li { font-size: 0.85rem; }
   }
   .post {
     padding-top: var(--space-xl);

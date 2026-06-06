@@ -72,7 +72,7 @@ Je grösser die Zinsdifferenz, desto höher der potenzielle Carry, aber auch das
 
 **Für Privatanleger** (vereinfacht):
 - Forex-Position eröffnen, z.B. Long AUD/JPY (du leihst JPY, kaufst AUD)
-- Bei vielen Brokern wird die Zinsdifferenz täglich gutgeschrieben (Rollover, Swap)
+- Bei vielen Brokern wird die Zinsdifferenz täglich gutgeschrieben (Rollover, [Swap](/blog/was-sind-swap-kosten))
 - Positiver Swap = positiver Carry, du bekommst pro Tag eine kleine Gutschrift
 - Negativer Swap = du zahlst (z.B. bei Short EUR/USD, wenn USD-Zinsen über EUR-Zinsen)
 
@@ -141,9 +141,9 @@ Wenn du trotzdem Carry-Trades probieren willst:
 
 1. **Niemals mit dem gesamten Kapital**: Maximal 5-10% des Portfolios für solche Strategien.
 
-2. **Volatilität beobachten**: Steigt der VIX oder andere Volatilitätsindikatoren stark, raus aus Carry Trades.
+2. **Volatilität beobachten**: Steigt der [VIX](/blog/vix-volatilitaet) oder andere Volatilitätsindikatoren stark, raus aus Carry Trades.
 
-3. **Stop-Loss zwingend**: Wechselkursrisiko ist real, ein Stop-Loss begrenzt Schäden.
+3. **Stop-Loss zwingend**: Wechselkursrisiko ist real, ein [Stop-Loss](/blog/stop-loss-richtig-setzen) begrenzt Schäden.
 
 4. **Diversifikation**: Nicht alle Carry-Eier in einen Korb. Verteile auf verschiedene Paare.
 

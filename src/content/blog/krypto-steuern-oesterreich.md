@@ -17,7 +17,7 @@ faq:
     answer: "Laufende Erträge wie aus Staking oder Lending werden in der Regel ebenfalls erfasst. Die Details können je nach Aktivität variieren, weshalb sich bei umfangreichen Aktivitäten eine fachliche Abklärung empfiehlt."
 ---
 
-Österreich hat seine Krypto-Besteuerung grundlegend neu geordnet und damit einen anderen Weg eingeschlagen als die Schweiz und Deutschland. Statt steuerfreier Kursgewinne (Schweiz) oder einer Haltefrist (Deutschland) gilt in Österreich ein einheitlicher Satz. Dieser Artikel erklärt das System und ordnet es im DACH-Vergleich ein.
+Österreich hat seine Krypto-Besteuerung grundlegend neu geordnet und damit einen anderen Weg eingeschlagen als die [Schweiz](/blog/krypto-steuern-schweiz) und [Deutschland](/blog/krypto-steuern-deutschland). Statt steuerfreier Kursgewinne (Schweiz) oder einer Haltefrist (Deutschland) gilt in Österreich ein einheitlicher Satz. Dieser Artikel erklärt das System und ordnet es im DACH-Vergleich ein.
 
 ## Das österreichische Modell: ein fester Satz
 
@@ -56,7 +56,7 @@ Die drei Länder gehen bei Krypto sehr unterschiedlich vor:
 
 Daraus ergibt sich grob:
 
-- **Die Schweiz** ist für langfristige private Halter steuerlich am günstigsten (steuerfreie Kursgewinne), erhebt aber Vermögenssteuer auf den Bestand.
+- **Die Schweiz** ist für langfristige private Halter steuerlich am günstigsten (steuerfreie Kursgewinne), erhebt aber [Vermögenssteuer](/blog/vermoegenssteuer-schweiz) auf den Bestand.
 - **Deutschland** belohnt Geduld, nach einem Jahr ist alles steuerfrei.
 - **Österreich** ist am einfachsten und planbarsten, aber ohne die Steuerfreiheit der anderen beiden, dafür mit dem Vorteil des steuerfreien Krypto-zu-Krypto-Tauschs.
 

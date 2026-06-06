@@ -46,7 +46,7 @@ Eine **Ausschüttungsquote** von dauerhaft über 100 % ist ein Warnsignal, das U
 
 ## Der Schweizer Spezialfall: Verrechnungssteuer
 
-Hier kommt ein Punkt, den Schweizer Dividendenanleger zwingend kennen müssen: Auf Dividenden Schweizer Unternehmen wird eine **Verrechnungssteuer von 35 %** erhoben.
+Hier kommt ein Punkt, den Schweizer Dividendenanleger zwingend kennen müssen: Auf Dividenden Schweizer Unternehmen wird eine [**Verrechnungssteuer von 35 %**](/blog/verrechnungssteuer-schweiz) erhoben.
 
 Das klingt happig, ist aber für in der Schweiz steuerpflichtige Anleger nur ein Durchlaufposten: Die 35 % werden zunächst einbehalten, lassen sich aber über die ordentliche Steuererklärung vollständig zurückfordern bzw. anrechnen, sofern die Dividende korrekt deklariert wird. Wer die Dividende nicht deklariert, verliert die Verrechnungssteuer.
 
@@ -62,7 +62,7 @@ Zwei Wege führen zur Dividenden-Strategie:
 
 **Einzelaktien** geben volle Kontrolle, erfordern aber Auswahl, Überwachung und ausreichend Kapital für Diversifikation.
 
-**Dividenden-ETFs** bündeln viele Dividendenzahler in einem Produkt, das streut das Risiko und ist bequem, dafür zahlt man eine laufende Gebühr und hat weniger Einfluss auf die Auswahl.
+[**Dividenden-ETFs**](/blog/etf-vs-aktiver-fonds) bündeln viele Dividendenzahler in einem Produkt, das streut das Risiko und ist bequem, dafür zahlt man eine laufende Gebühr und hat weniger Einfluss auf die Auswahl.
 
 Für die meisten Anleger ohne Zeit für intensive Einzelanalyse ist ein breit gestreuter Dividenden-ETF der pragmatischere Weg.
 

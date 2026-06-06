@@ -33,7 +33,7 @@ Der **Bid-Ask-Spread** beträgt in diesem Beispiel 0.04 CHF, die Differenz zwisc
 
 ## Wer setzt diese Preise?
 
-Im modernen elektronischen Handel gibt es keinen einzelnen "Quotierer". Stattdessen entstehen die Preise aus dem **Orderbuch**, einer fortlaufenden Liste aller offenen Kauf- und Verkaufsorders.
+Im modernen elektronischen Handel gibt es keinen einzelnen "Quotierer". Stattdessen entstehen die Preise aus dem [**Orderbuch**](/blog/orderbuch-lesen), einer fortlaufenden Liste aller offenen Kauf- und Verkaufsorders.
 
 Das Orderbuch für eine Aktie sieht typischerweise so aus:
 
@@ -107,7 +107,7 @@ Das Verständnis des Bid-Ask-Spreads hat unmittelbare Auswirkungen auf jede Trad
 
 **1. Market-Orders zahlen den Spread.** Eine Kauf-Market-Order wird zum Ask ausgeführt, eine Verkauf-Market-Order zum Bid. Bei jedem Round-Trip-Trade (kaufen und verkaufen) ist der Spread eine Kostenposition.
 
-**2. Limit-Orders können den Spread vereinnahmen.** Wer mit einer Limit-Order zwischen Bid und Ask einsteigt, kann manchmal den Spread für sich nutzen, wenn die Order zum besseren Preis ausgeführt wird.
+**2. Limit-Orders können den Spread vereinnahmen.** Wer mit einer [Limit-Order](/blog/limit-order-erklaert) zwischen Bid und Ask einsteigt, kann manchmal den Spread für sich nutzen, wenn die Order zum besseren Preis ausgeführt wird.
 
 **3. In illiquiden Werten ist der Spread oft die grösste Kostenposition.** Eine Aktie mit 1 % Spread und einer Kommission von 10 CHF bei 1'000 CHF Volumen hat Kosten von 10 + 5 = 15 CHF beim Round-Trip, wobei der Spread die Hälfte ausmacht.
 
@@ -127,7 +127,7 @@ Wer 10'000 Apple-Aktien kaufen will, muss schauen, wie viele auf den ersten Bid/
 
 Bid und Ask sind keine technische Nebensächlichkeit, sondern die Grundinformation jedes Marktgeschehens. Wer sie ignoriert oder falsch interpretiert, trifft Trading-Entscheidungen ohne fundamentales Verständnis.
 
-Für Privatanleger gilt: Bei jedem Trade sollte der Spread bewusst eingerechnet werden. Bei kurzfristigen Strategien (Daytrading, Scalping) kann der Spread allein über Erfolg oder Misserfolg entscheiden. Bei langfristigen Buy-and-Hold-Strategien spielt er eine untergeordnete Rolle.
+Für Privatanleger gilt: Bei jedem Trade sollte der Spread bewusst eingerechnet werden. Bei kurzfristigen Strategien (Daytrading, Scalping) kann der Spread allein über Erfolg oder Misserfolg entscheiden. Bei langfristigen [Buy-and-Hold-Strategien](/blog/buy-and-hold-vs-trading) spielt er eine untergeordnete Rolle.
 
 In jedem Fall lohnt der bewusste Blick auf das Orderbuch, er macht den Unterschied zwischen einem Anleger, der weiss, was er tut, und einem, der blind den letzten Preis kauft.
 

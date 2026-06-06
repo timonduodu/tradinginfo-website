@@ -27,7 +27,7 @@ Eine Order ist Ihr Auftrag an die Börse. Der Order-Typ legt fest, **unter welch
 
 Eine **Market-Order** wird sofort zum nächstbesten verfügbaren Kurs ausgeführt. Vorteil: Sie werden mit hoher Wahrscheinlichkeit sofort ausgeführt. Nachteil: Sie wissen nicht genau, zu welchem Preis.
 
-Bei liquiden Aktien mit engem Spread ist das selten ein Problem. Bei wenig gehandelten Werten oder in turbulenten Marktphasen kann der Ausführungskurs aber spürbar von dem abweichen, was Sie auf dem Bildschirm gesehen haben, das nennt man Slippage.
+Bei liquiden Aktien mit engem [Spread](/blog/spreads-erklaert) ist das selten ein Problem. Bei wenig gehandelten Werten oder in turbulenten Marktphasen kann der Ausführungskurs aber spürbar von dem abweichen, was Sie auf dem Bildschirm gesehen haben, das nennt man [Slippage](/blog/slippage-erklaert).
 
 ## Die Limit-Order: Ihr Preis oder kein Geschäft
 
@@ -42,7 +42,7 @@ Die Limit-Order ist das Werkzeug der Wahl, wenn Ihnen der Preis wichtiger ist al
 
 ## Die Stop-Order: erst aktiv, wenn ein Kurs erreicht wird
 
-Eine **Stop-Order** wird erst dann zu einer aktiven Order, wenn ein bestimmter Auslösekurs erreicht wird. Am häufigsten dient sie als **Stop-Loss**: ein Schutz vor grösseren Verlusten.
+Eine **Stop-Order** wird erst dann zu einer aktiven Order, wenn ein bestimmter Auslösekurs erreicht wird. Am häufigsten dient sie als **[Stop-Loss](/blog/stop-loss-richtig-setzen)**: ein Schutz vor grösseren Verlusten.
 
 Beispiel: Sie halten eine Aktie zu CHF 100 und setzen einen Stop bei CHF 90. Fällt der Kurs auf CHF 90, wird Ihre Verkaufsorder aktiviert, und die Position wird verkauft, um weitere Verluste zu begrenzen.
 

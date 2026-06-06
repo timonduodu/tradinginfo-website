@@ -54,9 +54,9 @@ Annahme: Du stakest 10 ETH. Im Laufe des Jahres erhältst du 0,4 ETH als Rewards
 
 **1. Aufzeichnungspflicht**: Du musst die Anzahl der Rewards und den Kurswert bei Zufluss dokumentieren. Tools wie CoinTracking, Blockpit oder Sharesight helfen.
 
-**2. Vermögenssteuer**: Der Bestand am 31.12. (einschliesslich gestakter Coins) unterliegt der Vermögenssteuer.
+**2. Vermögenssteuer**: Der Bestand am 31.12. (einschliesslich gestakter Coins) unterliegt der [Vermögenssteuer](/blog/vermoegenssteuer-schweiz).
 
-**3. Gewerbsmässigkeit**: Wer professionell und mit grossem Volumen staked, läuft Gefahr, als gewerbsmässig eingestuft zu werden. Das hätte zusätzliche Konsequenzen (AHV/IV, volle Einkommensbesteuerung des Bestands).
+**3. Gewerbsmässigkeit**: Wer professionell und mit grossem Volumen staked, läuft Gefahr, als [gewerbsmässig eingestuft](/blog/privater-anleger-gewerbsmaessig) zu werden. Das hätte zusätzliche Konsequenzen (AHV/IV, volle Einkommensbesteuerung des Bestands).
 
 ## Deutschland: Hier wird's komplex
 
@@ -97,7 +97,7 @@ Beim Verkauf der gestakten Coins nach Haltedauer (idealerweise > 1 Jahr): steuer
 
 ## Österreich: KESt für alles
 
-In Österreich ist die Welt einfacher: **Staking-Rewards unterliegen der KESt 27,5%**. Diese wird auf den Wert beim Zufluss erhoben.
+In Österreich ist die Welt einfacher: **Staking-Rewards unterliegen der [KESt 27,5%](/blog/krypto-steuern-oesterreich)**. Diese wird auf den Wert beim Zufluss erhoben.
 
 ### Wann fällt KESt an?
 
@@ -112,7 +112,7 @@ Annahme: 1.200 EUR Wert an Staking-Rewards.
 - KESt 27,5%: 330 EUR
 - Diese werden bei steuereinfachen Plattformen automatisch abgezogen, du erhältst die Rewards "netto"
 
-**Achtung**: Auch in Österreich gilt seit März 2022 KESt auch beim Verkauf, die FIFO-Methode wird angewendet.
+**Achtung**: Auch in Österreich gilt seit März 2022 KESt auch beim Verkauf, die [FIFO-Methode](/blog/fifo-vs-durchschnitt-dach) wird angewendet.
 
 ## Vergleichstabelle
 

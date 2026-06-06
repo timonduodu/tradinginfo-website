@@ -31,7 +31,7 @@ Die wichtigsten Eckdaten:
 
 Im Februar 2025 hat Saxo Bank Schweiz die Depotgebühren für Privatkunden komplett abgeschafft. Diese Änderung war eine Reaktion auf den Wettbewerbsdruck, und positioniert Saxo aktuell als einen der günstigsten Schweizer Broker überhaupt.
 
-Während Cornèrtrader 2026 erstmals Depotgebühren einführt, geht Saxo den umgekehrten Weg.
+Während [Cornèrtrader](/blog/cornertrader-test) 2026 erstmals Depotgebühren einführt, geht Saxo den umgekehrten Weg.
 
 ## Gebührenmodell 2026
 
@@ -102,7 +102,7 @@ Das ist günstig im professionellen Vergleich, aber nicht so billig wie Interact
 
 **7. Schweizer Banklizenz**: Volle FINMA-Aufsicht, esisuisse-Einlagensicherung.
 
-**8. Stempelabgabe automatisch**: Saxo zieht die Stempelabgabe direkt ab und führt sie ab, keine separate Bürokratie.
+**8. Stempelabgabe automatisch**: Saxo zieht die [Stempelabgabe](/blog/schweizer-stempelabgabe) direkt ab und führt sie ab, keine separate Bürokratie.
 
 ## Schwächen
 
@@ -161,7 +161,7 @@ Bei Cornèrtrader (siehe vorheriger Artikel): CHF 273.
 
 Saxo Bank Schweiz stellt den Schweizer Steuerausweis aus. Verrechnungssteuer wird automatisch von Schweizer Dividenden abgezogen, die Rückforderung läuft via Steuererklärung wie bei anderen Brokern. Beim DA-1 (Rückforderung ausländischer Quellensteuer) liefert Saxo die nötigen Daten.
 
-Für aktive Trader gilt: Auch bei Saxo wirst du gewerbsmässig, wenn du die ESTV-Kriterien erfüllst. Der günstige Broker ändert nichts an dieser Steuersystematik.
+Für aktive Trader gilt: Auch bei Saxo wirst du [gewerbsmässig](/blog/privater-anleger-gewerbsmaessig), wenn du die ESTV-Kriterien erfüllst. Der günstige Broker ändert nichts an dieser Steuersystematik.
 
 ## Plattform-Erfahrung: SaxoTraderGO
 

@@ -61,7 +61,7 @@ Zur Kalibrierung:
 
 ## Was die Sharpe Ratio richtig macht
 
-Die Sharpe Ratio adressiert ein fundamentales Problem klassischer Renditebewertung: Sie **bestraft Volatilität**.
+Die Sharpe Ratio adressiert ein fundamentales Problem klassischer Renditebewertung: Sie **bestraft [Volatilität](/blog/volatilitaet-verstehen)**.
 
 Zwei Beispiele:
 
@@ -104,7 +104,7 @@ Mehrere Kennzahlen versuchen, die Schwächen der Sharpe Ratio zu adressieren:
 
 **Sortino Ratio.** Statt Gesamtvolatilität nur Abwärtsvolatilität. Strafe nur für negative Ausreisser.
 
-**Calmar Ratio.** Rendite geteilt durch maximalen Drawdown. Fokus auf das schlimmste historische Szenario.
+**Calmar Ratio.** Rendite geteilt durch maximalen [Drawdown](/blog/risikomanagement). Fokus auf das schlimmste historische Szenario.
 
 **Information Ratio.** Wie Sharpe, aber relativ zu einem Benchmark statt zum risikofreien Zins. Standard für Asset Manager.
 

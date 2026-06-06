@@ -53,7 +53,7 @@ Das ist der Hauptunterschied zu einer Long-Position: Bei Long ist dein Verlust b
 
 ## Short Squeeze: Warum Shorts gefährlich sind
 
-Der berüchtigte GameStop-Squeeze von 2021 ist das beste Beispiel: Viele Hedgefonds hatten GameStop short. Als der Kurs durch koordinierte Käufe explodierte, mussten die Shorter ihre Positionen schliessen, also Aktien zurückkaufen. Das trieb den Kurs noch weiter hoch, was noch mehr Shorter zu Zwangskäufen zwang. Ein Short Squeeze.
+Der berüchtigte GameStop-Squeeze von 2021 ist das beste Beispiel: Viele Hedgefonds hatten GameStop short. Als der Kurs durch koordinierte Käufe explodierte, mussten die Shorter ihre Positionen schliessen, also Aktien zurückkaufen. Das trieb den Kurs noch weiter hoch, was noch mehr Shorter zu Zwangskäufen zwang. Ein [Short Squeeze](/blog/short-squeeze-erklaert).
 
 GameStop stieg von rund 17 USD im Januar 2021 auf zeitweise über 480 USD. Wer bei 17 USD short gegangen war und bei 400 USD gezwungen wurde, zu schliessen, hatte einen Verlust von rund 2.250% des Einsatzes. Bei einer Long-Position kann ein solcher Verlust gar nicht entstehen.
 
@@ -65,7 +65,7 @@ Echtes Short-Selling (Leerverkauf) ist für Privatanleger meist kompliziert. Die
 
 **2. Optionsscheine und Short-Zertifikate**: An deutschen Börsen sehr beliebt. Du kaufst ein Zertifikat, das im Wert steigt, wenn der Basiswert fällt. Schweizer Anleger können diese über Schweizer Broker handeln.
 
-**3. Put-Optionen**: Geben dir das Recht, eine Aktie zu einem festgelegten Preis zu verkaufen. Klassisches Derivat, vor allem an US-Märkten verfügbar (über IBKR, Swissquote).
+**3. [Put-Optionen](/blog/optionen-verstehen)**: Geben dir das Recht, eine Aktie zu einem festgelegten Preis zu verkaufen. Klassisches Derivat, vor allem an US-Märkten verfügbar (über IBKR, Swissquote).
 
 **4. Inverse ETFs**: ETFs, die die inverse Performance eines Indexes abbilden. Vorsicht: Bei längeren Haltedauern entstehen durch die tägliche Neuberechnung Pfadabhängigkeiten, die deine Rendite verzerren können.
 
@@ -89,7 +89,7 @@ Echtes Short-Selling (Leerverkauf) ist für Privatanleger meist kompliziert. Die
 
 1. **Erst long verstehen, dann short**: Wer nicht versteht, was Aktien überhaupt sind, sollte keine Shorts machen.
 
-2. **Risikomanagement ist Pflicht**: Bei Short-Positionen ist ein Stop-Loss noch wichtiger als bei Long-Positionen, weil das Verlustpotenzial unbegrenzt ist.
+2. **[Risikomanagement](/blog/risikomanagement) ist Pflicht**: Bei Short-Positionen ist ein [Stop-Loss](/blog/stop-loss-richtig-setzen) noch wichtiger als bei Long-Positionen, weil das Verlustpotenzial unbegrenzt ist.
 
 3. **Achtung bei Übernachtfinanzierung**: Bei CFDs und Hebelprodukten fallen täglich Finanzierungskosten an, die deine Position verteuern, je länger du sie hältst.
 

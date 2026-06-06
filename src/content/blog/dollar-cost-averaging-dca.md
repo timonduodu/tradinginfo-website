@@ -68,10 +68,10 @@ Aber: In den verbleibenden 33% war DCA besser, vor allem in Crash-Phasen. Für v
 
 ## DCA mit Schwankungen: Der "Volatilität-Vorteil"
 
-DCA funktioniert mathematisch am besten, wenn die Kurse stark schwanken (volatil sind). Bei einer kontinuierlich steigenden Linie nutzt DCA wenig. Bei wilden Auf-und-ab-Bewegungen sammelst du viele günstige Anteile in den Tiefs.
+DCA funktioniert mathematisch am besten, wenn die Kurse [stark schwanken](/blog/volatilitaet-verstehen) (volatil sind). Bei einer kontinuierlich steigenden Linie nutzt DCA wenig. Bei wilden Auf-und-ab-Bewegungen sammelst du viele günstige Anteile in den Tiefs.
 
 **Volatile Anlagen, wo DCA besonders sinnvoll ist**:
-- Krypto (Bitcoin, Ethereum)
+- [Krypto (Bitcoin, Ethereum)](/blog/bitcoin-dca-strategie)
 - Schwellenländer-Aktien
 - Einzelaktien
 - Tech-fokussierte ETFs (z.B. Nasdaq 100)
@@ -109,7 +109,7 @@ In DE und AT gibt es zahlreiche gebührenfreie Sparplan-Angebote:
 
 **Schweiz**: Sparpläne haben keine besondere steuerliche Behandlung, du bezahlst die Dividenden als Einkommen, Kursgewinne sind für Privatanleger steuerfrei. Bei steuereinfachen Schweizer Brokern gibt es Steuerauszüge, die du direkt für die Steuererklärung verwenden kannst.
 
-**Deutschland**: Bei deutschen Brokern wird die Abgeltungsteuer automatisch abgeführt. Bei thesaurierenden ETFs (z.B. iShares Core MSCI World) wird zudem die Vorabpauschale fällig, eine jährliche, kalkulierte Steuer auf den fiktiven Ertrag. Basiszins 2026: 3,20%. Konkret bei Aktien-ETFs heisst das ca. 46 EUR Vorabpauschalen-Steuer pro 10.000 EUR Fondsvermögen (nach 30% Teilfreistellung).
+**Deutschland**: Bei deutschen Brokern wird die Abgeltungsteuer automatisch abgeführt. Bei [thesaurierenden ETFs](/blog/thesaurierend-vs-ausschuettend) (z.B. iShares Core MSCI World) wird zudem die Vorabpauschale fällig, eine jährliche, kalkulierte Steuer auf den fiktiven Ertrag. Basiszins 2026: 3,20%. Konkret bei Aktien-ETFs heisst das ca. 46 EUR Vorabpauschalen-Steuer pro 10.000 EUR Fondsvermögen (nach 30% Teilfreistellung).
 
 **Österreich**: KESt 27,5% wird bei steuereinfachen Brokern automatisch abgeführt. Bei thesaurierenden Fonds gibt es die "ausschüttungsgleichen Erträge", die jährliche Besteuerung muss erfolgen, auch ohne Ausschüttung.
 

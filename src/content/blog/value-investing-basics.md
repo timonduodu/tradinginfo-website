@@ -37,13 +37,13 @@ Die Strategie wurde von Benjamin Graham (1894-1976) in seinem Buch "Security Ana
 
 ## Die wichtigsten Kennzahlen
 
-**KGV (Kurs-Gewinn-Verhältnis)**: Aktienkurs / Gewinn pro Aktie. Niedrigeres KGV = potentiell günstiger. Faustregel: KGV unter 15 wird oft als "günstig" bezeichnet, über 25 als "teuer". Aber: stark abhängig von Branche und Wachstum.
+**[KGV (Kurs-Gewinn-Verhältnis)](/blog/kgv-verstehen)**: Aktienkurs / Gewinn pro Aktie. Niedrigeres KGV = potentiell günstiger. Faustregel: KGV unter 15 wird oft als "günstig" bezeichnet, über 25 als "teuer". Aber: stark abhängig von Branche und Wachstum.
 
 **KBV (Kurs-Buchwert-Verhältnis)**: Aktienkurs / Buchwert pro Aktie. Klassiker bei Banken und Versicherungen. KBV unter 1 = Aktie wird unter dem Buchwert gehandelt, oft ein Value-Signal.
 
 **KCV (Kurs-Cashflow-Verhältnis)**: Wie KGV, aber mit Cashflow statt Gewinn. Robuster als KGV, weil Cashflow schwerer zu manipulieren ist.
 
-**Dividendenrendite**: Jährliche Dividende / Aktienkurs. Hohe Dividendenrendite (5%+) kann ein Value-Signal sein, aber auch eine Warnung (vielleicht weil das Unternehmen Probleme hat).
+**[Dividendenrendite](/blog/dividenden-strategie-schweiz)**: Jährliche Dividende / Aktienkurs. Hohe Dividendenrendite (5%+) kann ein Value-Signal sein, aber auch eine Warnung (vielleicht weil das Unternehmen Probleme hat).
 
 **Verschuldungsgrad**: Fremdkapital / Eigenkapital. Niedrige Verschuldung = gesündere Bilanz = besseres Value-Profil.
 
@@ -106,7 +106,7 @@ Diese "Quality-Value"-Strategie ist heute der Mainstream-Ansatz im professionell
 
 ## Steueraspekte (DACH)
 
-**Schweiz**: Value Investing harmoniert hervorragend mit der CH-Steuerlogik: Lange Haltedauern, wenig Verkäufe, niedrige Transaktionskosten, und Kapitalgewinne sind ohnehin steuerfrei. Wer Dividenden kassiert, hat 35% Verrechnungssteuer, die er via Steuererklärung zurückholt.
+**Schweiz**: Value Investing harmoniert hervorragend mit der CH-Steuerlogik: Lange Haltedauern, wenig Verkäufe, niedrige Transaktionskosten, und Kapitalgewinne sind ohnehin steuerfrei. Wer Dividenden kassiert, hat 35% [Verrechnungssteuer](/blog/verrechnungssteuer-schweiz), die er via Steuererklärung zurückholt.
 
 **Deutschland**: Bei langen Haltedauern bleibt mehr Zeit für den Zinseszins, bevor Steuern fällig werden. Aber: Vorabpauschale auf thesaurierende ETFs nervt. Sparerpauschbetrag 1.000 EUR / 2.000 EUR, wer Dividendentitel hält, sollte den ausnutzen.
 

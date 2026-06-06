@@ -41,7 +41,7 @@ DEGIRO arbeitet mit einer **transaktionsbasierten Gebührenstruktur** ohne Depot
 | Deutschland (Xetra) | 4.90 EUR + 0.05 % |
 | UK (LSE) | 4.90 GBP + 0.05 % |
 
-Eine 5'000-CHF-Position in einer Schweizer Aktie kostet also 4.90 CHF + 2.50 CHF = **7.40 CHF Kommission**, plus 3.75 CHF Stempelabgabe = **11.15 CHF Gesamtkosten**.
+Eine 5'000-CHF-Position in einer Schweizer Aktie kostet also 4.90 CHF + 2.50 CHF = **7.40 CHF Kommission**, plus 3.75 CHF [Stempelabgabe](/blog/schweizer-stempelabgabe) = **11.15 CHF Gesamtkosten**.
 
 ### ETFs, der grosse Vorteil
 
@@ -52,7 +52,7 @@ Bedingungen für die kostenlose Ausführung:
 - Bei Trades über 1'000 EUR Wert: keine Kommission
 - Bei Trades unter 1'000 EUR: nur einmal pro Monat kostenlos, danach 2 EUR
 
-Diese Konstruktion macht DEGIRO ideal für **monatliche ETF-Sparpläne**. Ein Anleger, der monatlich für 500 bis 5'000 CHF einen Welt-ETF kauft, zahlt praktisch keine Gebühren, abgesehen von der Stempelabgabe.
+Diese Konstruktion macht DEGIRO ideal für [**monatliche ETF-Sparpläne**](/blog/etf-sparplan-schweiz). Ein Anleger, der monatlich für 500 bis 5'000 CHF einen Welt-ETF kauft, zahlt praktisch keine Gebühren, abgesehen von der Stempelabgabe.
 
 ### Devisenwechsel
 
@@ -113,7 +113,7 @@ Im historischen Kontext: DEGIRO hatte 2020 eine Phase regulatorischer Probleme i
 
 ## DEGIRO für Schweizer Anleger: Contras
 
-**1. Steuerauszug nicht Schweizer-konform**, die Schweizer Steuererklärung erfordert manuelle Aufarbeitung der DA-1-Liste.
+**1. Steuerauszug nicht Schweizer-konform**, die Schweizer Steuererklärung erfordert manuelle Aufarbeitung der [DA-1-Liste](/blog/us-quellensteuer-da1).
 
 **2. Mangelhafter Kundenservice in Deutsch**, primär englisch- und niederländischsprachig, längere Antwortzeiten.
 

@@ -80,7 +80,7 @@ Die Kurvenform hat unmittelbare Konsequenzen für jede Rohstoff-Strategie:
 **Optimale Positionierung:**
 - Long in Backwardation
 - Short in Contango
-- Spreads in beide Richtungen je nach Kurvenform
+- [Spreads](/blog/calendar-spreads) in beide Richtungen je nach Kurvenform
 
 Professionelle Trader nutzen die Kurvenform aktiv für die Position-Auswahl, statt nur direktional zu spekulieren.
 
@@ -110,11 +110,11 @@ In Phasen mit hoher Dividendenzahlung kann der Future unter Spot notieren (Backw
 
 ## Volatilitäts-Kurve
 
-Ein verwandtes Konzept existiert bei der **Volatilität**: Die VIX-Kurve (Volatility Index Term Structure).
+Ein verwandtes Konzept existiert bei der **Volatilität**: Die [VIX-Kurve](/blog/vix-volatilitaet) (Volatility Index Term Structure).
 
 In ruhigen Marktphasen ist die VIX-Kurve in Contango, fernere Volatilität wird höher gepreist als aktuelle. In Stressphasen kehrt sich die Struktur um, vordere Volatilität schiesst nach oben, ferne bleibt stabil.
 
-Dieser Mechanismus ist die Grundlage für Volatilitäts-Strategien wie das berüchtigte **XIV-Trade** (Short-Volatility), das im Februar 2018 in einem einzigen Tag 90 % verlor.
+Dieser Mechanismus ist die Grundlage für [Volatilitäts-Strategien](/blog/volatilitaet-verstehen) wie das berüchtigte **XIV-Trade** (Short-Volatility), das im Februar 2018 in einem einzigen Tag 90 % verlor.
 
 ## Kurvenform interpretieren
 

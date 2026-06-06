@@ -65,7 +65,7 @@ Für ein Schweizer Trader mit CHF-Konto, der ein Standard-Lot USD/JPY long geht:
 - Pip-Wert in USD: (0.01 / 150) × 100'000 = 6.67 USD
 - Bei einem USD/CHF-Kurs von 0.90: 6.67 × 0.90 = **6.00 CHF pro Pip**
 
-Diese Berechnung wirkt komplex, ist aber für ein verantwortungsbewusstes Risikomanagement essentiell. Die meisten Trading-Plattformen zeigen den Pip-Wert automatisch an.
+Diese Berechnung wirkt komplex, ist aber für ein verantwortungsbewusstes [Risikomanagement](/blog/risikomanagement) essentiell. Die meisten Trading-Plattformen zeigen den Pip-Wert automatisch an.
 
 ## Warum die Pip-Logik existiert
 
@@ -75,7 +75,7 @@ Ein institutioneller Handel über 100 Millionen EUR/USD bewegt sich bei einer Ve
 
 ## Pip-Spreads im Vergleich
 
-Die Spread-Höhe in Pips ist einer der wichtigsten Vergleichsmasse zwischen Brokern. Typische Spreads im Standard-Konto:
+Die [Spread](/blog/spreads-erklaert)-Höhe in Pips ist einer der wichtigsten Vergleichsmasse zwischen Brokern. Typische Spreads im Standard-Konto:
 
 | Währungspaar | Niedrigster Spread | Durchschnitt | Hoher Spread |
 |---|---|---|---|
@@ -102,7 +102,7 @@ Empirische Werte für die durchschnittliche Tagesschwankung (ATR, Average True R
 - **EUR/CHF:** 30 bis 80 Pips (deutlich ruhiger seit SNB-Aufgabe der Untergrenze)
 - **GBP/JPY:** 100 bis 200 Pips (eines der volatilsten Hauptpaare)
 
-Wer eine Strategie mit Stop-Loss von 10 Pips fährt, wird bei EUR/USD sehr häufig ausgestoppt, selbst ohne nennenswerte Trendbewegung. Realistische Stop-Distanzen orientieren sich an der Volatilität des jeweiligen Instruments.
+Wer eine Strategie mit [Stop-Loss](/blog/stop-loss-richtig-setzen) von 10 Pips fährt, wird bei EUR/USD sehr häufig ausgestoppt, selbst ohne nennenswerte Trendbewegung. Realistische Stop-Distanzen orientieren sich an der Volatilität des jeweiligen Instruments.
 
 ## Fazit
 

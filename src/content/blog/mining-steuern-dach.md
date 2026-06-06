@@ -33,7 +33,7 @@ In der Schweiz behandelt die ESTV Mining-Erträge als **steuerpflichtiges Einkom
 
 **Grösseres, systematisches Mining** kann als **selbständige Erwerbstätigkeit** gelten. Dann werden nicht nur die Erträge als Einkommen besteuert, sondern es fallen auch **AHV-Beiträge** an. Im Gegenzug lassen sich Betriebskosten (Strom, Hardware-Abschreibung) abziehen.
 
-Die später aus dem Mining erhaltenen Coins gelten als Vermögen und unterliegen der Vermögenssteuer zum Stichtag. Ein späterer Verkauf mit Gewinn ist für private Anleger steuerfrei, sofern keine Gewerbsmässigkeit vorliegt.
+Die später aus dem Mining erhaltenen Coins gelten als Vermögen und unterliegen der [Vermögenssteuer](/blog/vermoegenssteuer-schweiz) zum Stichtag. Ein späterer Verkauf mit Gewinn ist für private Anleger steuerfrei, sofern keine [Gewerbsmässigkeit](/blog/privater-anleger-gewerbsmaessig) vorliegt.
 
 ## Deutschland: sonstige Einkünfte oder Gewerbebetrieb
 
@@ -41,7 +41,7 @@ In Deutschland gilt eine ähnliche Logik mit anderer rechtlicher Verankerung:
 
 **Hobby-Mining** im kleinen Rahmen fällt unter sonstige Einkünfte (§ 22 Nr. 3 EStG). Hier greift die Freigrenze von 256 Euro pro Jahr, darunter bleibt es steuerfrei.
 
-**Gewerbliches Mining**, also regelmässig und mit Gewinnerzielungsabsicht betrieben, gilt als Gewerbebetrieb. Dann fallen Gewerbesteuer und Einkommensteuer an, und es können Betriebsausgaben wie Strom und Hardware abgezogen werden.
+**Gewerbliches Mining**, also regelmässig und mit Gewinnerzielungsabsicht betrieben, gilt als Gewerbebetrieb. Dann fallen Gewerbesteuer und [Einkommensteuer](/blog/krypto-steuern-deutschland) an, und es können Betriebsausgaben wie Strom und Hardware abgezogen werden.
 
 | Aspekt | Schweiz | Deutschland |
 |--------|---------|-------------|

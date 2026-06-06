@@ -21,7 +21,7 @@ faq:
 
 Bitcoin ist extrem volatil, Schwankungen von 30-50% innerhalb von Wochen sind normal. Wer "all in" geht, fährt entweder Gewinne wie ein Idiot oder Verluste wie ein Trottel. Eine Lump-Sum-Anlage zum falschen Zeitpunkt (z.B. Ende 2017 nach dem ICO-Boom oder Ende 2021 vor dem Crash 2022) kann jahrelang im Minus stecken.
 
-**Dollar-Cost-Averaging (DCA)** löst dieses Problem: Statt einer grossen Einzelinvestition kaufst du regelmässig denselben Betrag, egal, wo der Kurs steht. In Phasen niedriger Kurse kaufst du automatisch mehr Coins, in Phasen hoher Kurse weniger.
+[**Dollar-Cost-Averaging (DCA)**](/blog/dollar-cost-averaging-dca) löst dieses Problem: Statt einer grossen Einzelinvestition kaufst du regelmässig denselben Betrag, egal, wo der Kurs steht. In Phasen niedriger Kurse kaufst du automatisch mehr Coins, in Phasen hoher Kurse weniger.
 
 ## Die Mathematik hinter DCA
 
@@ -83,7 +83,7 @@ Die Schlüsselregel: **Durchhalten**. Wer in der Bärenmarkt-Phase 2018-2019 ode
 **Self-Custody Wallet** (z.B. Ledger, Trezor):
 - ✅ Volle Kontrolle, kein Drittparteirisiko
 - ✅ Datenschutz
-- ❌ Du bist verantwortlich (Seed Phrase nicht verlieren!)
+- ❌ Du bist verantwortlich ([Seed Phrase](/blog/krypto-sicher-aufbewahren) nicht verlieren!)
 - ❌ Bei einigen Sparplänen nicht direkt unterstützt
 
 **Empfehlung**: Bei kleinen DCA-Beträgen (unter 5.000-10.000 EUR/CHF gesamt) Plattform akzeptabel. Bei grösseren Beständen Transfer auf Self-Custody Wallet.
@@ -113,14 +113,14 @@ Die Schlüsselregel: **Durchhalten**. Wer in der Bärenmarkt-Phase 2018-2019 ode
 - Bitcoin-Verkäufe sind **steuerpflichtig** wenn Haltedauer < 1 Jahr (Abgeltungsteuer 25%+)
 - **Über 1 Jahr Haltedauer = steuerfrei** (Spekulationsfrist)
 - Bei DCA: Jeder Kauf hat seinen eigenen "1-Jahres-Counter"
-- FIFO-Methode: Älteste Coins gelten als zuerst verkauft
+- [FIFO-Methode](/blog/fifo-vs-durchschnitt-dach): Älteste Coins gelten als zuerst verkauft
 
 **Wichtige Nuance**: Die 1-Jahres-Frist gilt nur bei "Haltevermögen". Wer Bitcoin verleiht oder staked, beginnt die Spekulationsfrist eventuell neu, komplexes Thema.
 
 ### Österreich
 
 **Privatanleger**:
-- Seit März 2022 KESt 27,5% auf alle Krypto-Gewinne
+- Seit März 2022 [KESt 27,5%](/blog/krypto-steuern-oesterreich) auf alle Krypto-Gewinne
 - Keine Spekulationsfrist mehr
 - Bestände vor März 2022: Wurden zum 31.12.2022 fiktiv neu angeschafft
 

@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
 
 const kategorien = [
   { name: 'Grundlagen', href: '/grundlagen' },
@@ -8,6 +9,13 @@ const kategorien = [
   { name: 'Steuern', href: '/steuern' },
   { name: 'Krypto', href: '/krypto' },
 ];
+
+// Neueste Artikel als Vorschläge
+const now = new Date();
+const neueste = (await getCollection('blog'))
+  .filter(p => p.data.pubDate <= now)
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+  .slice(0, 4);
 ---
 
 <BaseLayout title="404, Seite nicht gefunden" description="Diese Seite existiert nicht.">
@@ -18,13 +26,30 @@ const kategorien = [
       Die angeforderte Seite konnte nicht gefunden werden. Vielleicht hilft einer
       dieser Bereiche weiter:
     </p>
+    <form class="suchform" action="/suche" method="get">
+      <input type="search" name="q" placeholder="Wonach hast du gesucht?" aria-label="Website durchsuchen" />
+      <button type="submit" class="btn btn-primary">Suchen</button>
+    </form>
+
     <div class="kategorien">
       {kategorien.map(k => (
         <a href={k.href} class="kat-link">{k.name}</a>
       ))}
     </div>
+
+    <div class="vorschlaege">
+      <h2>Neueste Artikel</h2>
+      <ul>
+        {neueste.map(p => (
+          <li>
+            <a href={`/blog/${p.slug}`}>{p.data.title}</a>
+          </li>
+        ))}
+      </ul>
+    </div>
+
     <div class="actions">
-      <a href="/" class="btn btn-primary">Zur Startseite</a>
+      <a href="/" class="btn btn-outline">Zur Startseite</a>
     </div>
   </section>
 </BaseLayout>
@@ -72,4 +97,47 @@ const kategorien = [
     justify-content: center;
     flex-wrap: wrap;
   }
+  .suchform {
+    display: flex;
+    gap: var(--space-xs);
+    max-width: 440px;
+    margin: 0 auto var(--space-lg);
+  }
+  .suchform input {
+    flex: 1;
+    min-width: 0;
+    padding: 0.7rem 1rem;
+    font-family: var(--font-sans);
+    font-size: 0.95rem;
+    border: 1px solid var(--color-rule);
+    border-radius: 2px;
+    background: var(--color-paper);
+    color: var(--color-ink);
+  }
+  .suchform input:focus { outline: none; border-color: var(--color-accent); }
+  .vorschlaege {
+    max-width: 520px;
+    margin: 0 auto var(--space-lg);
+    text-align: left;
+  }
+  .vorschlaege h2 {
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    text-align: center;
+    margin-bottom: var(--space-sm);
+  }
+  .vorschlaege ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .vorschlaege li {
+    padding: 0.6rem 0;
+    border-bottom: 1px solid var(--color-rule);
+    font-family: var(--font-sans);
+    font-size: 0.95rem;
+  }
+  .vorschlaege a { text-decoration: none; }
+  .vorschlaege a:hover { text-decoration: underline; }
 </style>

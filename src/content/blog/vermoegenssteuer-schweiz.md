@@ -31,7 +31,7 @@ Sie wird auf das Vermögen per **31. Dezember** des Steuerjahres berechnet.
 - Anleihen und Obligationen
 - ETFs und Investmentfonds
 - Kryptowährungen
-- Strukturierte Produkte und Derivate
+- Strukturierte Produkte und [Derivate](/blog/was-sind-derivate)
 
 **Sonstiges Vermögen**:
 - Immobilien (zum Steuerwert, nicht Verkehrswert)
@@ -107,7 +107,7 @@ Auch wenn du die Aktien nie verkaufst und niemals einen Gewinn realisierst, zahl
 
 ## ETF-Bewertung
 
-ETFs werden ebenfalls zum Marktwert am 31.12. bewertet. Bei thesaurierenden ETFs zählt der Kurswert, die "stillen Erträge" sind im Marktwert bereits enthalten.
+ETFs werden ebenfalls zum Marktwert am 31.12. bewertet. Bei [thesaurierenden ETFs](/blog/thesaurierend-vs-ausschuettend) zählt der Kurswert, die "stillen Erträge" sind im Marktwert bereits enthalten.
 
 ## Krypto-Bewertung
 
@@ -128,7 +128,7 @@ Bei Coins ohne ESTV-Kurs nimmst du den Kurs einer anerkannten Börse (Bitstamp, 
 
 **3. Pensionskasse einkaufen**: Beiträge zur Säule 2 sind vom Vermögen abzugsfähig und reduzieren auch die Einkommenssteuer.
 
-**4. Säule 3a**: Beiträge mindern Vermögen UND Einkommen. Bei steuerlich optimierten 3a-Anbietern (VIAC, finpension) sogar mit ETF-Investment.
+**4. [Säule 3a](/blog/saeule-3a-etf)**: Beiträge mindern Vermögen UND Einkommen. Bei steuerlich optimierten 3a-Anbietern (VIAC, finpension) sogar mit ETF-Investment.
 
 **5. Familienverteilung**: Bei Verheirateten erfolgt gemeinsame Veranlagung. Bei nicht verheirateten Paaren kann die Vermögensverteilung steuerlich relevant sein.
 

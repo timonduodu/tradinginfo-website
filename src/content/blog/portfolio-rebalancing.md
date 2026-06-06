@@ -17,7 +17,7 @@ faq:
     answer: "Statt zu verkaufen, lenkt man frische Sparbeiträge gezielt in die untergewichtete Anlageklasse. So nähert man sich der Zielaufteilung, ohne Transaktionskosten und Stempelabgabe für Verkäufe auszulösen."
 ---
 
-Sie legen ein Portfolio mit 60 % Aktien und 40 % Anleihen an, perfekt austariert. Ein Jahr später steigen die Aktien stark, und plötzlich besteht Ihr Portfolio aus 70 % Aktien. Ohne dass Sie etwas getan haben, ist Ihr Risiko gestiegen. Genau hier setzt Rebalancing an: das bewusste Zurückführen auf die ursprüngliche Aufteilung.
+Sie legen ein Portfolio mit 60 % Aktien und 40 % Anleihen an, perfekt austariert. Ein Jahr später steigen die Aktien stark, und plötzlich besteht Ihr Portfolio aus 70 % Aktien. Ohne dass Sie etwas getan haben, ist Ihr [Risiko gestiegen](/blog/risikomanagement). Genau hier setzt Rebalancing an: das bewusste Zurückführen auf die ursprüngliche Aufteilung.
 
 ## Was Rebalancing bedeutet
 
@@ -50,13 +50,13 @@ Für die meisten Privatanleger reicht ein **jährliches** Rebalancing völlig au
 
 ## Der Schweizer Kostenaspekt
 
-Beim Rebalancing fallen Transaktionskosten an, und beim Verkauf Schweizer Wertschriften die Stempelabgabe. Wer zu häufig rebalanciert, frisst den Nutzen durch Kosten auf.
+Beim Rebalancing fallen Transaktionskosten an, und beim Verkauf Schweizer Wertschriften die [Stempelabgabe](/blog/schweizer-stempelabgabe). Wer zu häufig rebalanciert, frisst den Nutzen durch Kosten auf.
 
 Ein cleverer Trick, um Verkäufe zu minimieren: **Rebalancing über neue Einzahlungen.** Statt zu verkaufen, lenken Sie frische Sparbeiträge gezielt in die untergewichtete Anlageklasse. So nähern Sie sich der Zielaufteilung, ohne Transaktionskosten und Stempelabgabe für Verkäufe auszulösen, besonders praktisch für Anleger in der Ansparphase.
 
 ## Steuerlicher Nebenaspekt
 
-Für private Anleger in der Schweiz sind Kursgewinne aus Verkäufen beim Rebalancing steuerfrei, das ist ein Vorteil gegenüber Ländern mit Kapitalgewinnsteuer, wo jedes Rebalancing eine Steuer auslösen kann. Wichtig bleibt aber, durch häufiges Umschichten nicht in die Nähe der Gewerbsmässigkeit zu geraten.
+Für private Anleger in der Schweiz sind Kursgewinne aus Verkäufen beim Rebalancing steuerfrei, das ist ein Vorteil gegenüber Ländern mit Kapitalgewinnsteuer, wo jedes Rebalancing eine Steuer auslösen kann. Wichtig bleibt aber, durch häufiges Umschichten nicht in die Nähe der [Gewerbsmässigkeit](/blog/privater-anleger-gewerbsmaessig) zu geraten.
 
 ## Fazit
 

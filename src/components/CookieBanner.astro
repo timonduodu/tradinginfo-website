@@ -1,0 +1,102 @@
+---
+// Cookie-Consent-Banner: Google Analytics lädt erst nach Zustimmung.
+// Entscheidung wird in localStorage gespeichert ("accepted" / "declined").
+// Über window.showCookieBanner() (Footer-Link) jederzeit änderbar.
+---
+
+<div class="cookie-banner" id="cookie-banner" hidden role="dialog" aria-label="Cookie-Einwilligung" aria-live="polite">
+  <p class="cookie-text">
+    Wir nutzen Google Analytics (anonymisiert), um zu verstehen, welche Inhalte
+    gelesen werden. Details in der <a href="/datenschutz">Datenschutzerklärung</a>.
+  </p>
+  <div class="cookie-actions">
+    <button type="button" class="cookie-btn cookie-accept" id="cookie-accept">Akzeptieren</button>
+    <button type="button" class="cookie-btn cookie-decline" id="cookie-decline">Ablehnen</button>
+  </div>
+</div>
+
+<script>
+  const banner = document.getElementById('cookie-banner')!;
+
+  function decide(value: string) {
+    localStorage.setItem('cookie-consent', value);
+    banner.hidden = true;
+    if (value === 'accepted' && typeof (window as any).loadGA === 'function') {
+      (window as any).loadGA();
+    }
+  }
+
+  document.getElementById('cookie-accept')!.addEventListener('click', () => decide('accepted'));
+  document.getElementById('cookie-decline')!.addEventListener('click', () => decide('declined'));
+
+  // Banner zeigen, wenn noch keine Entscheidung vorliegt
+  if (!localStorage.getItem('cookie-consent')) {
+    banner.hidden = false;
+  }
+
+  // Footer-Link "Cookie-Einstellungen" kann den Banner erneut öffnen
+  (window as any).showCookieBanner = () => { banner.hidden = false; };
+</script>
+
+<style>
+  .cookie-banner {
+    position: fixed;
+    bottom: var(--space-sm);
+    left: 50%;
+    transform: translateX(-50%);
+    width: min(680px, calc(100% - 2rem));
+    display: flex;
+    align-items: center;
+    gap: var(--space-md);
+    padding: var(--space-sm) var(--space-md);
+    background: var(--color-paper);
+    border: 1px solid var(--color-rule);
+    border-top: 3px solid var(--color-accent);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+    z-index: 1000;
+    font-family: var(--font-sans);
+  }
+
+  .cookie-text {
+    flex: 1;
+    font-size: 0.82rem;
+    line-height: 1.5;
+    color: var(--color-ink-soft);
+    margin: 0;
+  }
+
+  .cookie-actions {
+    display: flex;
+    gap: var(--space-xs);
+    flex-shrink: 0;
+  }
+
+  .cookie-btn {
+    font-family: var(--font-sans);
+    font-size: 0.82rem;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: all 0.15s;
+  }
+
+  .cookie-accept {
+    background: var(--color-accent);
+    color: var(--color-paper);
+    border: 1px solid var(--color-accent);
+  }
+  .cookie-accept:hover { background: var(--color-accent-hover); }
+
+  .cookie-decline {
+    background: transparent;
+    color: var(--color-ink);
+    border: 1px solid var(--color-rule);
+  }
+  .cookie-decline:hover { border-color: var(--color-ink-soft); }
+
+  @media (max-width: 560px) {
+    .cookie-banner { flex-direction: column; align-items: stretch; text-align: center; }
+    .cookie-actions { justify-content: center; }
+  }
+</style>

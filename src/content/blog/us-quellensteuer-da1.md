@@ -64,7 +64,7 @@ Sie halten 100 Apple-Aktien. Apple zahlt eine Quartalsdividende von 0,25 USD.
 | **Rückerstattung via DA-1** | **+15 USD** |
 | Effektive Nettodividende nach Steuererklärung | 100 USD (vor CH-Einkommenssteuer) |
 
-Bei einem Portfolio mit 50'000 CHF US-Aktien und 2 % Dividendenrendite holen Sie sich so jährlich rund **150 CHF** zurück, die sonst verloren wären.
+Bei einem Portfolio mit 50'000 CHF US-Aktien und 2 % [Dividendenrendite](/blog/dividenden-schweizer-anleger) holen Sie sich so jährlich rund **150 CHF** zurück, die sonst verloren wären.
 
 ## Was passiert ohne DA-1?
 
@@ -94,7 +94,7 @@ Bei IBKR und anderen US-Brokern müssen Sie das Steuerverzeichnis selbst aus den
 
 **Teilweise rückforderbar:**
 - Frankreich: 30 % einbehalten, nur 15 % anrechenbar, der Rest muss separat über das französische Finanzamt eingefordert werden (aufwendig).
-- Deutschland: 26,375 % einbehalten, 15 % anrechenbar, Differenz über Bundeszentralamt für Steuern.
+- [Deutschland: 26,375 % einbehalten, 15 % anrechenbar](/blog/quellensteuer-de-fuer-ch-anleger), Differenz über Bundeszentralamt für Steuern.
 
 ## ETFs: Eine besondere Falle
 

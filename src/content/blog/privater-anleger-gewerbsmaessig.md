@@ -39,11 +39,11 @@ Kapitalgewinne aus Wertschriften müssen weniger als **50 Prozent des Reineinkom
 
 ### Kriterium 4: Keine Fremdfinanzierung
 
-Die Wertschriftengeschäfte dürfen **nicht überwiegend fremdfinanziert** sein. Wer auf Margin handelt oder Lombard-Kredite nutzt, wird kritisch geprüft. Geringfügige Margin-Nutzung ist in der Praxis tolerierbar, dominante Hebel-Strategien hingegen nicht.
+Die Wertschriftengeschäfte dürfen **nicht überwiegend fremdfinanziert** sein. Wer auf [Margin](/blog/hebel-und-margin) handelt oder Lombard-Kredite nutzt, wird kritisch geprüft. Geringfügige Margin-Nutzung ist in der Praxis tolerierbar, dominante Hebel-Strategien hingegen nicht.
 
 ### Kriterium 5: Keine Derivate zur Risikoabsicherung
 
-Derivate, also Optionen, Futures, CFDs, dürfen nicht **anders als zur Absicherung** verwendet werden. Wer Optionen schreibt, Calendar Spreads handelt oder Futures spekulativ einsetzt, verletzt dieses Kriterium.
+[Derivate](/blog/was-sind-derivate), also Optionen, Futures, CFDs, dürfen nicht **anders als zur Absicherung** verwendet werden. Wer Optionen schreibt, [Calendar Spreads](/blog/calendar-spreads) handelt oder Futures spekulativ einsetzt, verletzt dieses Kriterium.
 
 > *"In this world nothing can be said to be certain, except death and taxes."*
 >, **Benjamin Franklin**
@@ -108,7 +108,7 @@ Hinzu kommen mögliche Strafsteuern bei Vorsatz oder Fahrlässigkeit. Die Standa
 
 Wer als Schweizer Steuerpflichtiger über ausländische Broker handelt, Interactive Brokers, DEGIRO und andere, muss diese Konten in der Steuererklärung deklarieren. Die Schweiz hat mit zahlreichen Ländern Automatischen Informationsaustausch (AIA), sodass ausländische Konten ohnehin gemeldet werden.
 
-US-Aktien unterliegen einer Quellensteuer von 30 %, die bei korrekter Einreichung des Formulars W-8BEN auf 15 % reduziert wird. Diese Quellensteuer ist auf der DA-1-Liste in der Schweizer Steuererklärung anrechenbar.
+US-Aktien unterliegen einer Quellensteuer von 30 %, die bei korrekter Einreichung des Formulars W-8BEN auf 15 % reduziert wird. Diese Quellensteuer ist auf der [DA-1-Liste](/blog/us-quellensteuer-da1) in der Schweizer Steuererklärung anrechenbar.
 
 ## Fazit
 

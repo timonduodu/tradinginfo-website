@@ -54,6 +54,7 @@ const year = new Date().getFullYear();
           <li><a href="/datenschutz">Datenschutz</a></li>
           <li><a href="/disclaimer">Haftungsausschluss</a></li>
           <li><a href="/agb">AGB</a></li>
+          <li><button type="button" class="cookie-settings" onclick="window.showCookieBanner && window.showCookieBanner()">Cookie-Einstellungen</button></li>
         </ul>
       </div>
     </div>
@@ -131,6 +132,18 @@ const year = new Date().getFullYear();
   .footer-col a:hover {
     color: var(--color-band-ink);
   }
+
+  .cookie-settings {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    color: rgba(250, 248, 245, 0.7);
+    font-family: var(--font-sans);
+    font-size: 0.9rem;
+    transition: color 0.2s;
+  }
+  .cookie-settings:hover { color: var(--color-band-ink); }
 
   .disclaimer {
     padding: var(--space-md);

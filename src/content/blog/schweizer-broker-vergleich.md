@@ -27,19 +27,19 @@ Die Wahl des richtigen Online-Brokers ist eine der wichtigsten finanziellen Ents
 - **Swissquote**, der grösste Schweizer Online-Broker mit Bankenlizenz
 - **Saxo Bank**, dänischer Premium-Anbieter mit Schweizer Niederlassung
 - **Interactive Brokers (IBKR)**, US-amerikanischer Broker mit Fokus auf institutionelle und aktive Trader
-- **DEGIRO**, niederländischer Discount-Broker mit europaweitem Angebot
-- **Yuh**, Mobile-Banking-App von Swissquote und PostFinance, primär für Einsteiger
+- **[DEGIRO](/blog/degiro-test)**, niederländischer Discount-Broker mit europaweitem Angebot
+- **[Yuh](/blog/trading-apps-schweiz-vergleich)**, Mobile-Banking-App von Swissquote und PostFinance, primär für Einsteiger
 
 ## Welche Kosten zählen wirklich
 
 Die meisten öffentlichen Vergleiche fokussieren auf die Order-Kommission, also den Betrag, der pro Trade berechnet wird. Diese Sichtweise greift zu kurz. Die tatsächlichen Trading-Kosten setzen sich aus folgenden Komponenten zusammen:
 
 1. Order-Kommission
-2. Spreads (Differenz zwischen An- und Verkaufspreis)
+2. [Spreads](/blog/spreads-erklaert) (Differenz zwischen An- und Verkaufspreis)
 3. Depotgebühren (jährliche Pauschalen)
 4. Devisenwechsel-Aufschläge (FX-Markup)
 5. Inaktivitätsgebühren
-6. Stempelabgabe (gesetzliche Schweizer Bundesabgabe)
+6. [Stempelabgabe](/blog/schweizer-stempelabgabe) (gesetzliche Schweizer Bundesabgabe)
 
 Insbesondere Punkt 4, der FX-Markup, wird in den meisten Vergleichen ausgeblendet, obwohl er bei internationalen Anlagen oft die grösste Kostenposition darstellt.
 

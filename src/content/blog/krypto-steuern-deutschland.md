@@ -17,7 +17,7 @@ faq:
     answer: "Mit der EU-Richtlinie DAC8 werden ab 2026 Krypto-Transaktionen EU-weit für die Finanzbehörden transparent, da Krypto-Dienstleister Daten melden müssen. DAC8 schafft keine neuen Steuertatbestände, macht aber saubere Dokumentation zur Pflicht."
 ---
 
-Deutschland besteuert Kryptowährungen grundlegend anders als die Schweiz, und für viele Anleger sogar attraktiver, sofern sie eine entscheidende Regel beachten: die Haltefrist. Wer Krypto länger als ein Jahr hält, verkauft steuerfrei, unabhängig von der Gewinnhöhe. Wer früher verkauft, zahlt den persönlichen Einkommensteuersatz. Dieser Artikel erklärt die deutschen Regeln für 2026.
+Deutschland besteuert Kryptowährungen grundlegend [anders als die Schweiz](/blog/krypto-steuern-schweiz), und für viele Anleger sogar attraktiver, sofern sie eine entscheidende Regel beachten: die Haltefrist. Wer Krypto länger als ein Jahr hält, verkauft steuerfrei, unabhängig von der Gewinnhöhe. Wer früher verkauft, zahlt den persönlichen Einkommensteuersatz. Dieser Artikel erklärt die deutschen Regeln für 2026.
 
 ## Die zentrale Regel: ein Jahr Haltefrist
 
@@ -38,7 +38,7 @@ Ein häufiger Fehler: Dies ist eine **Freigrenze**, kein Freibetrag. Das bedeute
 
 ## Staking, Mining und Lending: separate Regeln
 
-Erträge aus Aktivitäten wie Staking, Mining oder Lending sind kein Veräusserungsgewinn, sondern **sonstige Einkünfte** nach § 22 Nr. 3 EStG. Sie werden zum Zeitpunkt des Zuflusses mit dem Marktwert in Euro besteuert.
+Erträge aus Aktivitäten wie [Staking](/blog/staking-steuern-dach), [Mining](/blog/mining-steuern-dach) oder Lending sind kein Veräusserungsgewinn, sondern **sonstige Einkünfte** nach § 22 Nr. 3 EStG. Sie werden zum Zeitpunkt des Zuflusses mit dem Marktwert in Euro besteuert.
 
 Hierfür gilt eine **separate Freigrenze von 256 Euro pro Jahr** für alle sonstigen Einkünfte zusammen. Wird sie überschritten, ist der gesamte Betrag steuerpflichtig.
 
@@ -53,7 +53,7 @@ Eine wichtige Klarstellung aus dem BMF-Schreiben: Staking verlängert die Haltef
 
 ## FIFO als Berechnungsmethode
 
-In Deutschland gilt für die Zuordnung von Käufen und Verkäufen das **FIFO-Prinzip** (First-in-First-out): Die zuerst gekauften Coins gelten beim Verkauf als zuerst veräussert. Das ist relevant, um zu bestimmen, welche Coins die Haltefrist erfüllt haben.
+In Deutschland gilt für die Zuordnung von Käufen und Verkäufen das [**FIFO-Prinzip**](/blog/fifo-vs-durchschnitt-dach) (First-in-First-out): Die zuerst gekauften Coins gelten beim Verkauf als zuerst veräussert. Das ist relevant, um zu bestimmen, welche Coins die Haltefrist erfüllt haben.
 
 ## Neu ab 2026: DAC8-Meldepflicht
 

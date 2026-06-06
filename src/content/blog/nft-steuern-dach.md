@@ -50,7 +50,7 @@ Die Eidgenössische Steuerverwaltung (ESTV) hat NFTs noch nicht in einem eigenen
 
 **Kursgewinne aus NFT-Verkäufen**: Grundsätzlich **steuerfrei** als private Kapitalgewinne, ähnlich wie bei Aktien.
 
-**Vermögenssteuer**: NFTs müssen im **Wertschriftenverzeichnis** erfasst werden. Bewertung am 31.12.:
+**[Vermögenssteuer](/blog/vermoegenssteuer-schweiz)**: NFTs müssen im **Wertschriftenverzeichnis** erfasst werden. Bewertung am 31.12.:
 - Bei aktiv gehandelten NFTs: Letzter Verkaufspreis ähnlicher Stücke (Floor Price)
 - Bei einzigartigen Stücken: Schätzwert, ggf. mit Beleg eines Auktionshauses
 
@@ -58,7 +58,7 @@ Die Eidgenössische Steuerverwaltung (ESTV) hat NFTs noch nicht in einem eigenen
 
 ### Gewerbsmässigkeit, die grosse Falle
 
-Wer professionell und systematisch mit NFTs handelt, läuft Gefahr, als **gewerbsmässiger Wertschriftenhändler** eingestuft zu werden. Dann:
+Wer professionell und systematisch mit NFTs handelt, läuft Gefahr, als **[gewerbsmässiger Wertschriftenhändler](/blog/privater-anleger-gewerbsmaessig)** eingestuft zu werden. Dann:
 - Alle Gewinne werden als Einkommen besteuert
 - Plus AHV/IV
 - Sehr unvorteilhaft
@@ -133,7 +133,7 @@ Es gibt 2026 noch wenige steuereinfache NFT-Plattformen in Österreich. Die meis
 
 ## NFT-Airdrops
 
-Manche Projekte verteilen NFTs gratis ("Airdrops") an aktive Wallets oder bestehende Token-Halter.
+Manche Projekte verteilen NFTs gratis (["Airdrops"](/blog/airdrops-steuern-dach)) an aktive Wallets oder bestehende Token-Halter.
 
 ### Steuerliche Behandlung
 

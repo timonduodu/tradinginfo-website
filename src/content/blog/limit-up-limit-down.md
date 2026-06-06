@@ -91,11 +91,11 @@ Die ersten marktweiten Circuit Breaker wurden 1988 eingeführt und seitdem mehrf
 
 Was bedeuten Circuit Breaker für die Praxis?
 
-**Order-Ausführungen während Stops.** Wenn ein Wertpapier gestoppt wird, werden offene Orders nicht ausgeführt, auch nicht Stop-Loss-Orders. Erst wenn der Handel wieder aufgenommen wird, erfolgt die Ausführung, möglicherweise zu deutlich anderen Preisen.
+**Order-Ausführungen während Stops.** Wenn ein Wertpapier gestoppt wird, werden offene Orders nicht ausgeführt, auch nicht [Stop-Loss-Orders](/blog/stop-loss-richtig-setzen). Erst wenn der Handel wieder aufgenommen wird, erfolgt die Ausführung, möglicherweise zu deutlich anderen Preisen.
 
 **Liquidation in Stress-Phasen.** Wer in fallenden Märkten versucht, schnell zu verkaufen, kann durch Circuit Breaker verzögert werden. Manchmal helfen sie aber auch, sie verhindern Panik-Verkäufe zum schlechtesten Zeitpunkt.
 
-**Optionen und Derivate.** Bei gestoppten Underlying-Werten können Optionen extrem volatil werden. Im Frühjahr 2020 verzeichneten S&P 500 Optionen in den Stop-Phasen Spreads, die das Zehnfache des Normalen betrugen.
+**Optionen und Derivate.** Bei gestoppten Underlying-Werten können [Optionen](/blog/optionen-verstehen) extrem volatil werden. Im Frühjahr 2020 verzeichneten S&P 500 Optionen in den Stop-Phasen [Spreads](/blog/spreads-erklaert), die das Zehnfache des Normalen betrugen.
 
 **Übernacht-Risiko.** Wenn ein Markt am Ende des Tages mit Circuit Breaker schliesst, ist ungewiss, wo er am nächsten Tag öffnet. Gap-Bewegungen von mehreren Prozent sind möglich.
 

@@ -26,7 +26,7 @@ Die zentralen Dienste, die DeFi heute (2026) anbietet:
 - **Lending/Borrowing**: Krypto verleihen oder leihen (z.B. Aave, Compound)
 - **Decentralized Exchanges (DEX)**: Token tauschen ohne Börse (Uniswap, Curve)
 - **Yield Farming**: Liquidität bereitstellen gegen Gebühren
-- **Stablecoins**: USD-gepeggte Token (USDC, DAI)
+- [**Stablecoins**](/blog/stablecoins-erklaert): USD-gepeggte Token (USDC, DAI)
 - **Synthetic Assets**: Tokenisierte Aktien und Rohstoffe
 - **Insurance**: Versicherung gegen Smart-Contract-Risiken
 - **Derivate**: Dezentrale Futures und Optionen (z.B. dYdX)
@@ -64,7 +64,7 @@ Typische Renditen 2026:
 
 Das Modell: **Automated Market Maker (AMM)**. Liquidity Provider stellen Token in Pools bereit, du tauschst gegen den Pool.
 
-**Curve Finance** spezialisiert sich auf Stablecoin-Tauschen mit minimalem Slippage.
+**Curve Finance** spezialisiert sich auf Stablecoin-Tauschen mit minimalem [Slippage](/blog/slippage-erklaert).
 
 ### Yield Farming und Liquidity Mining
 
@@ -179,7 +179,7 @@ Wer mit DeFi spielt, signiert ständig Transaktionen. Eine falsche Signatur (z.B
 ### Schritt 1: Wallet-Setup
 - MetaMask installieren
 - Hardware Wallet (Ledger/Trezor) anschliessen
-- Seed Phrase sicher backup
+- [Seed Phrase](/blog/krypto-sicher-aufbewahren) sicher backup
 
 ### Schritt 2: Auf Layer 2 wechseln
 Ethereum Mainnet ist 2026 weiterhin teuer. Layer 2 Lösungen sind günstiger:
@@ -197,7 +197,7 @@ Erst mit 100-500 EUR/CHF experimentieren. Bevor man tausende EUR ins DeFi-Spiel 
 - Aave für Lending
 - Uniswap für Swaps  
 - Curve für Stablecoin-Yield
-- Lido für ETH Staking (Liquid Staking)
+- Lido für ETH [Staking](/blog/staking-steuern-dach) (Liquid Staking)
 
 ### Schritt 5: Tracking einrichten
 Sofort mit CoinTracking, Blockpit oder Koinly anfangen, sonst wird die Steuererklärung zur Albtraum-Aufgabe.

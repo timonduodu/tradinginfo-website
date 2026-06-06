@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import EmailLink from '../components/EmailLink.astro';
 ---
 
 <BaseLayout title="Kontakt, TradingWissen.ch" description="Kontaktieren Sie die Redaktion von TradingWissen.ch.">
@@ -16,14 +17,14 @@ import BaseLayout from '../layouts/BaseLayout.astro';
         <span class="eyebrow">Allgemein</span>
         <h2>Allgemeine Anfragen</h2>
         <p>Themenvorschläge, Korrekturhinweise, Leserbriefe, technische Probleme und alle übrigen Anliegen.</p>
-        <a href="mailto:info@tradingwissen.ch" class="contact-link">info@tradingwissen.ch</a>
+        <EmailLink user="info" class="contact-link" />
       </div>
 
       <div class="contact-card">
         <span class="eyebrow">Werbung</span>
         <h2>Werbe-Anfragen</h2>
         <p>Mediadaten, Banner-Buchungen, Sponsored Articles, Affiliate-Partnerschaften.</p>
-        <a href="mailto:werbung@tradingwissen.ch" class="contact-link">werbung@tradingwissen.ch</a>
+        <EmailLink user="werbung" class="contact-link" />
       </div>
     </div>
 

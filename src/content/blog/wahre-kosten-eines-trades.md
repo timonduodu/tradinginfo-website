@@ -25,9 +25,9 @@ Wenn ein Broker mit "0 CHF pro Trade" wirbt, klingt das verlockend. Doch was vie
 Ein Schweizer Anleger, der eine US-Aktie kauft, bezahlt in der Regel:
 
 1. **Trading-Gebühr** (Brokerage)
-2. **Spread** (Differenz Geld-/Briefkurs)
+2. **[Spread](/blog/spreads-erklaert)** (Differenz Geld-/Briefkurs)
 3. **Devisenwechsel** (FX-Aufschlag)
-4. **Stempelabgabe** (bei Schweizer Brokern)
+4. **[Stempelabgabe](/blog/schweizer-stempelabgabe)** (bei Schweizer Brokern)
 5. **Quellensteuer** (auf Dividenden)
 
 Dazu kommen je nach Anbieter:
@@ -131,7 +131,7 @@ Bei 100'000 CHF Depot bedeutet 0,2 % Depotgebühr **200 CHF jährlich**, dauerha
 
 ## Quellensteuer: Rückforderbar, aber Aufwand
 
-Die US-Quellensteuer von 15 % auf Dividenden ist via DA-1 zurückforderbar (siehe unser Artikel zur US-Quellensteuer). Wer das DA-1 nicht ausfüllt, **verschenkt diese 15 %**.
+Die US-Quellensteuer von 15 % auf Dividenden ist via DA-1 zurückforderbar (siehe unser Artikel zur [US-Quellensteuer](/blog/us-quellensteuer-da1)). Wer das DA-1 nicht ausfüllt, **verschenkt diese 15 %**.
 
 Bei einem 100'000 CHF US-Aktien-Portfolio mit 2 % Dividendenrendite sind das 300 CHF jährliche Verzichtskosten, wenn man nicht zurückfordert.
 

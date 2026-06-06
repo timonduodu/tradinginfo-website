@@ -185,7 +185,7 @@ Du nutzt DeFi-Protokolle (Aave, Uniswap etc.).
 
 Die Wallet-Wahl an sich hat **keine** direkten steuerlichen Implikationen. Aber:
 
-- **Vermögenssteuer**: Egal welche Wallet, alle Krypto-Bestände am 31.12. müssen deklariert werden
+- **[Vermögenssteuer](/blog/vermoegenssteuer-schweiz)**: Egal welche Wallet, alle Krypto-Bestände am 31.12. müssen deklariert werden
 - **Plattform-Bestände einfacher**: Bei steuerpflichtigem Verkauf liefert die Plattform Auszüge
 - **Self-Custody erfordert Eigenleistung**: Du musst Transaktionshistorie selbst pflegen
 
@@ -195,14 +195,14 @@ Die Wallet-Wahl an sich hat **keine** direkten steuerlichen Implikationen. Aber:
 
 Ähnlich: Wallet-Wahl ist steuerlich nicht entscheidend. Aber:
 
-- **FIFO über alle Wallets**: Wenn du dieselbe Coin in mehreren Wallets hast, gilt FIFO über deinen Gesamtbestand
+- **[FIFO](/blog/fifo-vs-durchschnitt-dach) über alle Wallets**: Wenn du dieselbe Coin in mehreren Wallets hast, gilt FIFO über deinen Gesamtbestand
 - **Übertragungen zwischen eigenen Wallets**: KEIN steuerlicher Vorgang, aber Dokumentation nötig
 
 ### Österreich
 
 - **Steuereinfache Plattformen** führen KESt automatisch ab (Bitpanda etc.)
 - **Self-Custody**: Du musst alle Transaktionen, Tausch und Verkauf selbst deklarieren
-- KESt 27,5% beim Verkauf, FIFO-Methode
+- [KESt 27,5%](/blog/oesterreich-kest-erklaert) beim Verkauf, FIFO-Methode
 
 ## Empfohlenes Setup für DACH-Anleger
 

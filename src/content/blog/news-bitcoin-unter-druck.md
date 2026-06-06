@@ -27,9 +27,9 @@ Anleger ziehen Kapital aus Krypto-Produkten ab, was den Kurs belastet. Solche Ko
 
 **Ruhe bewahren.** Wer Bitcoin als langfristige Position hält, für den ist eine Korrektur kein automatisches Verkaufssignal. Die entscheidende Frage ist nicht "Wie tief fällt der Kurs?", sondern "Hat sich an meiner langfristigen These etwas geändert, oder nur am Preis?" Meist ist es nur der Preis.
 
-**Der oft vergessene Steueraspekt.** In roten Phasen lohnt eine Erinnerung an die Schweizer Regeln: Kursgewinne aus privatem Krypto-Handel sind steuerfrei, im Gegenzug sind Kursverluste aber **nicht abzugsfähig**. Ein Verlust auf dem Papier bringt also keinen Steuervorteil, anders als in manchen Ländern mit Kapitalgewinnsteuer.
+**Der oft vergessene Steueraspekt.** In roten Phasen lohnt eine Erinnerung an die [Schweizer Regeln](/blog/krypto-steuern-schweiz): Kursgewinne aus privatem Krypto-Handel sind steuerfrei, im Gegenzug sind Kursverluste aber **nicht abzugsfähig**. Ein Verlust auf dem Papier bringt also keinen Steuervorteil, anders als in manchen Ländern mit Kapitalgewinnsteuer.
 
-**Für Sparplan-Anleger sogar eine Chance.** Wer über einen Sparplan (Dollar-Cost-Averaging) regelmässig kauft, profitiert von tieferen Kursen, es werden mehr Coins fürs gleiche Geld gekauft. Genau dafür ist diese Strategie gemacht.
+**Für Sparplan-Anleger sogar eine Chance.** Wer über einen Sparplan ([Dollar-Cost-Averaging](/blog/dollar-cost-averaging-dca)) regelmässig kauft, profitiert von tieferen Kursen, es werden mehr Coins fürs gleiche Geld gekauft. Genau dafür ist diese Strategie gemacht.
 
 ## Fazit
 

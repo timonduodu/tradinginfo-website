@@ -59,7 +59,7 @@ Für den **Verkäufer (Stillhalter)** ist die Situation umgekehrt:
 - Maximaler Gewinn: die erhaltene Prämie
 - Maximaler Verlust: theoretisch unbegrenzt (bei Calls) oder bis zum Strike (bei Puts)
 
-Diese Asymmetrie macht Optionen interessant für komplexe Strategien, und gefährlich für naive Stillhalter, die das Risiko unterschätzen.
+Diese Asymmetrie macht Optionen interessant für komplexe Strategien, und gefährlich für naive Stillhalter, die das [Risiko unterschätzen](/blog/risikomanagement).
 
 ## In-the-Money, At-the-Money, Out-of-the-Money
 
@@ -109,7 +109,7 @@ Theta beschleunigt sich kurz vor Verfall dramatisch. Eine ATM-Option in der letz
 
 ### Vega (ν)
 
-Vega misst die Sensitivität gegenüber der **impliziten Volatilität**. Eine Option mit Vega 0.10 gewinnt 0.10 USD an Wert pro 1 Prozentpunkt Anstieg der impliziten Volatilität.
+Vega misst die Sensitivität gegenüber der **[impliziten Volatilität](/blog/volatilitaet-verstehen)**. Eine Option mit Vega 0.10 gewinnt 0.10 USD an Wert pro 1 Prozentpunkt Anstieg der impliziten Volatilität.
 
 Hohe implizite Volatilität verteuert Optionen, niedrige Volatilität verbilligt sie. Wer eine Option kauft, ist long Volatilität, wer schreibt, ist short.
 
@@ -148,7 +148,7 @@ Optionen erlauben eine fast unbegrenzte Bandbreite von Strategien. Die wichtigst
 
 **Volatility-Strategien.** Long Straddle, Long Strangle (Wetten auf grosse Bewegung), Short Straddle (Wette auf ruhigen Markt).
 
-**Spread-Strategien.** Bull Call Spread, Bear Put Spread, Calendar Spread. Reduzieren Kosten oder Risiko durch Kombination von Kauf und Verkauf.
+**Spread-Strategien.** Bull Call Spread, Bear Put Spread, [Calendar Spread](/blog/calendar-spreads). Reduzieren Kosten oder Risiko durch Kombination von Kauf und Verkauf.
 
 **Synthetics.** Kombinationen, die das Verhalten anderer Positionen replizieren, z.B. ein synthetisches Long über Long Call + Short Put.
 

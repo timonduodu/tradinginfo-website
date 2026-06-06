@@ -61,9 +61,9 @@ In Deutschland und Österreich wird oft auch der Begriff "Blue Chip" für Large/
 
 ## Praktische Konsequenzen für deine Anlagestrategie
 
-**Diversifikation**: Wer nur in Large Caps investiert, verzichtet auf die historisch höheren Renditen kleinerer Werte. Eugene Fama und Kenneth French haben Ende der 1990er-Jahre gezeigt, dass Small Caps langfristig im Schnitt höhere Renditen liefern als Large Caps, der berühmte "Size Factor". Allerdings: höhere Renditen bedeuten auch höhere Schwankungen.
+**[Diversifikation](/blog/korrelationen-im-portfolio)**: Wer nur in Large Caps investiert, verzichtet auf die historisch höheren Renditen kleinerer Werte. Eugene Fama und Kenneth French haben Ende der 1990er-Jahre gezeigt, dass Small Caps langfristig im Schnitt höhere Renditen liefern als Large Caps, der berühmte "Size Factor". Allerdings: höhere Renditen bedeuten auch höhere Schwankungen.
 
-**Steuerliche Aspekte (Schweiz)**: Für Schweizer Privatanleger ist die Marktcap selbst steuerlich irrelevant, Kapitalgewinne sind steuerfrei, egal ob bei Nestlé oder bei einer Small Cap. Dividenden grosser Schweizer Aktien unterliegen der 35% Verrechnungssteuer, die du via Steuererklärung zurückholst.
+**Steuerliche Aspekte (Schweiz)**: Für Schweizer Privatanleger ist die Marktcap selbst steuerlich irrelevant, Kapitalgewinne sind steuerfrei, egal ob bei Nestlé oder bei einer Small Cap. Dividenden grosser Schweizer Aktien unterliegen der 35% [Verrechnungssteuer](/blog/verrechnungssteuer-schweiz), die du via Steuererklärung zurückholst.
 
 **Steuerliche Aspekte (Deutschland)**: Hier gilt die Abgeltungsteuer (25% + 5,5% Solidaritätszuschlag + ggf. Kirchensteuer = effektiv ca. 26,38%) für alle Aktien, unabhängig von der Grösse.
 
@@ -73,7 +73,7 @@ In Deutschland und Österreich wird oft auch der Begriff "Blue Chip" für Large/
 
 Wichtig zu verstehen: Die Marktcap zeigt, was die Börse heute über das Unternehmen denkt. Sie sagt nichts darüber aus, ob die Aktie billig oder teuer ist. Eine kleine Aktie kann fundamental teurer sein als eine grosse, und umgekehrt.
 
-Für die Bewertung brauchst du andere Kennzahlen wie das KGV (Kurs-Gewinn-Verhältnis), das KBV (Kurs-Buchwert-Verhältnis) oder das EV/EBITDA. Die Marktcap ist die Eingangstür, was dahinter steht, musst du selbst analysieren.
+Für die Bewertung brauchst du andere Kennzahlen wie das [KGV](/blog/kgv-verstehen) (Kurs-Gewinn-Verhältnis), das KBV (Kurs-Buchwert-Verhältnis) oder das EV/EBITDA. Die Marktcap ist die Eingangstür, was dahinter steht, musst du selbst analysieren.
 
 ## Fazit
 

@@ -3,6 +3,7 @@ import '../styles/global.css';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import TickerTape from '../components/TickerTape.astro';
+import CookieBanner from '../components/CookieBanner.astro';
 
 interface Props {
   title?: string;
@@ -74,9 +75,6 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
       })();
     </script>
 
-    <!-- Fonts schneller laden -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
     <title>{title}</title>
     <meta name="description" content={description} />
@@ -109,15 +107,21 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
     <!-- Vercel Speed Insights (im Vercel-Dashboard unter "Speed Insights" aktivieren) -->
     <script is:inline defer src="/_vercel/speed-insights/script.js"></script>
 
-    <!-- Google Analytics 4 -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-03B1NV6MHH"></script>
+    <!-- Google Analytics 4 — lädt erst nach Cookie-Einwilligung (CookieBanner) -->
     <script is:inline>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-03B1NV6MHH', {
-        'anonymize_ip': true
-      });
+      window.loadGA = function () {
+        if (window.__gaLoaded) return;
+        window.__gaLoaded = true;
+        var s = document.createElement('script');
+        s.async = true;
+        s.src = 'https://www.googletagmanager.com/gtag/js?id=G-03B1NV6MHH';
+        document.head.appendChild(s);
+        gtag('js', new Date());
+        gtag('config', 'G-03B1NV6MHH', { 'anonymize_ip': true });
+      };
+      if (localStorage.getItem('cookie-consent') === 'accepted') window.loadGA();
     </script>
     {schemas.map(s => <script type="application/ld+json" set:html={JSON.stringify(s)} />)}
 
@@ -159,5 +163,6 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
       <slot />
     </main>
     <Footer />
+    <CookieBanner />
   </body>
 </html>

@@ -49,7 +49,7 @@ Trader versuchen, durch häufige Kauf- und Verkaufsentscheidungen mehr zu verdie
 
 **Day-Trading**: Positionen werden innerhalb eines Tages geöffnet und geschlossen. Hohe Aktivität, hohe Konzentration.
 
-**Swing-Trading**: Positionen werden Tage bis Wochen gehalten. Etwas entspannter als Day-Trading, aber immer noch aktiv.
+**[Swing-Trading](/blog/swing-trading-erklaert)**: Positionen werden Tage bis Wochen gehalten. Etwas entspannter als Day-Trading, aber immer noch aktiv.
 
 **Position-Trading**: Positionen werden Wochen bis Monate gehalten. Näher am Investieren, aber mit aktivem Markttiming.
 
@@ -85,9 +85,9 @@ Konservativ geschätzt: Ein aktiver Trader hat 2-5% pro Jahr an Kosten und Steue
 
 ## DACH-Steueraspekte
 
-**Schweiz (Buy-and-Hold)**: Sehr vorteilhaft. Kapitalgewinne sind steuerfrei. Dividenden sind als Einkommen steuerpflichtig (Verrechnungssteuer 35% wird zurückgeholt). Niedrige Vermögenssteuer auf das Portfolio.
+**Schweiz (Buy-and-Hold)**: Sehr vorteilhaft. Kapitalgewinne sind steuerfrei. Dividenden sind als Einkommen steuerpflichtig ([Verrechnungssteuer 35% wird zurückgeholt](/blog/verrechnungssteuer-schweiz)). Niedrige Vermögenssteuer auf das Portfolio.
 
-**Schweiz (aktives Trading)**: Achtung. Wer regelmässig handelt, Hebel einsetzt, oder mehr als 50% des Einkommens aus Trading bezieht, riskiert die Einstufung als gewerbsmässig. Dann werden alle Kursgewinne als Einkommen besteuert, plus AHV/IV. Das kann eine zusätzliche Belastung von 20-40% bedeuten. Die Kriterien gemäss Kreisschreiben 36 ESTV:
+**Schweiz (aktives Trading)**: Achtung. Wer regelmässig handelt, Hebel einsetzt, oder mehr als 50% des Einkommens aus Trading bezieht, riskiert die [Einstufung als gewerbsmässig](/blog/privater-anleger-gewerbsmaessig). Dann werden alle Kursgewinne als Einkommen besteuert, plus AHV/IV. Das kann eine zusätzliche Belastung von 20-40% bedeuten. Die Kriterien gemäss Kreisschreiben 36 ESTV:
 1. Haltedauer unter 6 Monaten
 2. Volumen 5x Vorjahresvermögen
 3. Kapitalgewinne 50%+ des Nettoeinkommens
@@ -115,7 +115,7 @@ Konservativ geschätzt: Ein aktiver Trader hat 2-5% pro Jahr an Kosten und Steue
 - Du Spass am aktiven Beobachten und Analysieren hast
 - Du bereit bist, viel Zeit zu investieren (echtes Trading ist kein Nebenjob)
 - Du psychisch belastbar bist (Verlust-Phasen, lange Lernkurve)
-- Du Risikomanagement diszipliniert umsetzen kannst
+- Du [Risikomanagement](/blog/risikomanagement) diszipliniert umsetzen kannst
 - Du eine ehrliche Erwartungshaltung hast (die meisten verlieren)
 
 ## Die Hybrid-Strategie

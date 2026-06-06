@@ -25,7 +25,7 @@ Die zwei Seiten:
 - **Bid** (links): Kaufgebote, was Käufer maximal bereit sind zu zahlen
 - **Ask** (rechts): Verkaufsangebote, was Verkäufer mindestens haben wollen
 
-Der höchste Bid und der niedrigste Ask treffen sich in der Mitte, das ist der Spread.
+Der höchste Bid und der niedrigste Ask treffen sich in der Mitte, das ist der [Spread](/blog/spreads-erklaert).
 
 ## Ein praktisches Beispiel
 
@@ -114,7 +114,7 @@ Profis schauen beides parallel an.
 
 ## Steuerliche Relevanz (DACH)
 
-Das Orderbuch selbst hat keine steuerlichen Implikationen, es ist ein Informationsinstrument, kein Steuerfall. Aber: Wer Level 2-Daten abonniert und damit aktiv tradet, bewegt sich tiefer in Richtung "professionelles Trading". In der Schweiz kann das für die Einstufung als gewerbsmässiger Wertschriftenhändler relevant werden. Wer das volle Level-2-Equipment nutzt und damit hochfrequent handelt, riskiert die Einkommensbesteuerung seiner Gewinne.
+Das Orderbuch selbst hat keine steuerlichen Implikationen, es ist ein Informationsinstrument, kein Steuerfall. Aber: Wer Level 2-Daten abonniert und damit aktiv tradet, bewegt sich tiefer in Richtung "professionelles Trading". In der Schweiz kann das für die Einstufung als [gewerbsmässiger Wertschriftenhändler](/blog/privater-anleger-gewerbsmaessig) relevant werden. Wer das volle Level-2-Equipment nutzt und damit hochfrequent handelt, riskiert die Einkommensbesteuerung seiner Gewinne.
 
 ## Spezialfall: Crypto
 
@@ -122,4 +122,4 @@ Bei Kryptowährungen ist das Orderbuch öffentlich und einsehbar, auf Börsen wi
 
 ## Fazit
 
-Das Orderbuch ist eines der unterschätztesten Werkzeuge im Trader-Arsenal. Wer es lesen kann, versteht den Markt auf einer Mikro-Ebene, die anderen verborgen bleibt: Wo ist echte Liquidität, wo nur Bluff? Wo werden grosse Player aktiv? Wo sind die wahren Supports und Widerstände? Für langfristige Buy-and-Hold-Investoren ist das Orderbuch irrelevant. Aber für aktive Trader, vor allem bei kleineren Aktien, kann es den Unterschied zwischen einem guten und einem schlechten Trade ausmachen.
+Das Orderbuch ist eines der unterschätztesten Werkzeuge im Trader-Arsenal. Wer es lesen kann, versteht den Markt auf einer Mikro-Ebene, die anderen verborgen bleibt: Wo ist echte Liquidität, wo nur Bluff? Wo werden grosse Player aktiv? Wo sind die wahren Supports und Widerstände? Für langfristige [Buy-and-Hold](/blog/buy-and-hold-vs-trading)-Investoren ist das Orderbuch irrelevant. Aber für aktive Trader, vor allem bei kleineren Aktien, kann es den Unterschied zwischen einem guten und einem schlechten Trade ausmachen.

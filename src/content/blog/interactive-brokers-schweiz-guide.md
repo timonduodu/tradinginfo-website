@@ -21,9 +21,9 @@ Interactive Brokers (IBKR) gilt unter aktiven Schweizer Anlegern als einer der g
 
 ## Was Interactive Brokers ausmacht
 
-IBKR ist ein US-amerikanischer Broker mit globaler Reichweite. Anleger erhalten Zugang zu Börsen in dutzenden Ländern, von US-Aktien über europäische Titel bis zu Optionen, Futures und Anleihen, meist zu sehr tiefen Gebühren.
+IBKR ist ein US-amerikanischer Broker mit globaler Reichweite. Anleger erhalten Zugang zu Börsen in dutzenden Ländern, von US-Aktien über europäische Titel bis zu [Optionen](/blog/optionen-verstehen), Futures und Anleihen, meist zu sehr tiefen Gebühren.
 
-Der Ruf als "Profi-Broker" kommt daher, dass die Plattform extrem mächtig, aber auch entsprechend umfangreich ist. Für reine Buy-and-hold-Anleger ist sie fast überdimensioniert, für aktive Anleger mit internationalem Fokus eine der attraktivsten Optionen.
+Der Ruf als "Profi-Broker" kommt daher, dass die Plattform extrem mächtig, aber auch entsprechend umfangreich ist. Für reine [Buy-and-hold-Anleger](/blog/buy-and-hold-vs-trading) ist sie fast überdimensioniert, für aktive Anleger mit internationalem Fokus eine der attraktivsten Optionen.
 
 ## Die Stärken für Schweizer Anleger
 
@@ -49,7 +49,7 @@ Die Eröffnung läuft vollständig online. Sie benötigen:
 - einen Adressnachweis
 - Angaben zu Ihrer Anlageerfahrung und finanziellen Situation
 
-Der Prozess ist gründlich und kann einige Tage dauern. Wichtig ist die Angabe der Schweizer Steueransässigkeit, dabei wird auch das **W-8BEN-Formular** für US-Erträge ausgefüllt, das die US-Quellensteuer auf Dividenden von 30 % auf 15 % reduziert.
+Der Prozess ist gründlich und kann einige Tage dauern. Wichtig ist die Angabe der Schweizer Steueransässigkeit, dabei wird auch das [**W-8BEN-Formular**](/blog/us-quellensteuer-zurueckholen) für US-Erträge ausgefüllt, das die US-Quellensteuer auf Dividenden von 30 % auf 15 % reduziert.
 
 ## Währungen clever handhaben
 

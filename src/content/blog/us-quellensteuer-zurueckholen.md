@@ -37,9 +37,9 @@ Praktisch füllen Sie das W-8BEN in der Regel bei Ihrem Broker aus, viele Schwei
 
 ## Schritt 2: Die verbleibenden 15 % mit DA-1 zurückholen
 
-Auch nach der Reduktion auf 15 % bleibt eine Belastung. Diese 15 % können Sie über die Schweizer Steuererklärung anrechnen lassen, mit dem **Formular DA-1** (Antrag auf pauschale Steueranrechnung).
+Auch nach der Reduktion auf 15 % bleibt eine Belastung. Diese 15 % können Sie über die [Schweizer Steuererklärung](/blog/verrechnungssteuer-schweiz) anrechnen lassen, mit dem **Formular DA-1** (Antrag auf pauschale Steueranrechnung).
 
-Das DA-1 ist Teil der Schweizer Steuererklärung. Sie listen darin Ihre ausländischen Wertschriftenerträge auf, für die im Ausland Quellensteuer einbehalten wurde. Die anrechenbare ausländische Steuer wird dann mit Ihrer Schweizer Steuer verrechnet, im Ergebnis vermeiden Sie die Doppelbesteuerung.
+Das DA-1 ist Teil der Schweizer Steuererklärung. Sie listen darin Ihre ausländischen [Wertschriftenerträge](/blog/dividenden-schweizer-anleger) auf, für die im Ausland Quellensteuer einbehalten wurde. Die anrechenbare ausländische Steuer wird dann mit Ihrer Schweizer Steuer verrechnet, im Ergebnis vermeiden Sie die Doppelbesteuerung.
 
 | Schritt | Formular | Wirkung |
 |---------|----------|---------|

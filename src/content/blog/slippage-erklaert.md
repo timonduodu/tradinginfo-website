@@ -46,7 +46,7 @@ Bei volatilen Werten oder in schnellen Marktphasen reichen Millisekunden für ne
 
 ### 2. Liquiditätsmangel
 
-Wenn Sie 10'000 Aktien kaufen wollen, am best ask aber nur 1'000 Stück verfügbar sind, läuft Ihre Order durch das Orderbuch. Die ersten 1'000 Aktien werden zum besten Preis ausgeführt, die nächsten zum zweitbesten, und so weiter.
+Wenn Sie 10'000 Aktien kaufen wollen, am best ask aber nur 1'000 Stück verfügbar sind, läuft Ihre Order durch das [Orderbuch](/blog/orderbuch-lesen). Die ersten 1'000 Aktien werden zum besten Preis ausgeführt, die nächsten zum zweitbesten, und so weiter.
 
 Der durchschnittliche Ausführungspreis liegt damit über dem ursprünglichen best ask, das ist klassische Slippage durch unzureichende Markttiefe.
 
@@ -89,7 +89,7 @@ Slippage ist nicht vollständig vermeidbar, aber begrenzbar. Folgende Massnahmen
 
 ### 1. Limit-Orders statt Market-Orders
 
-Eine Limit-Order garantiert den maximalen Kaufpreis oder minimalen Verkaufspreis. Wird der Preis nicht erreicht, erfolgt keine Ausführung, keine Slippage möglich.
+Eine [Limit-Order](/blog/limit-order-erklaert) garantiert den maximalen Kaufpreis oder minimalen Verkaufspreis. Wird der Preis nicht erreicht, erfolgt keine Ausführung, keine Slippage möglich.
 
 Nachteil: Die Order wird möglicherweise nicht ausgeführt. Wer eine Aktie zwingend braucht, muss mit Market-Order arbeiten.
 
@@ -116,7 +116,7 @@ Manche Broker bieten "Slippage Control" oder "Maximum Slippage" Einstellungen an
 
 ## Slippage und Stop-Loss
 
-Ein besonders heikles Thema ist Slippage bei Stop-Loss-Orders. Sobald der Stop-Preis erreicht wird, wird die Stop-Order automatisch zur Market-Order, mit allen Slippage-Risiken.
+Ein besonders heikles Thema ist Slippage bei [Stop-Loss-Orders](/blog/stop-loss-richtig-setzen). Sobald der Stop-Preis erreicht wird, wird die Stop-Order automatisch zur Market-Order, mit allen Slippage-Risiken.
 
 Beispiele aus der Praxis:
 
@@ -132,7 +132,7 @@ Schutz dagegen bieten **Guaranteed Stop-Loss Orders** (von manchen Brokern gegen
 
 Bei der Entwicklung von Trading-Strategien wird Slippage oft vergessen. Eine Strategie, die im Backtest 15 % Jahresrendite zeigt, kann nach realistischer Slippage-Berücksichtigung nur noch 8 % erwirtschaften.
 
-Faustregel: Strategien mit hoher Handelsfrequenz und kleinen Gewinnzielen pro Trade sind am stärksten von Slippage betroffen. Langfristige Buy-and-Hold-Strategien sind nahezu immun.
+Faustregel: Strategien mit hoher Handelsfrequenz und kleinen Gewinnzielen pro Trade sind am stärksten von Slippage betroffen. Langfristige [Buy-and-Hold-Strategien](/blog/buy-and-hold-vs-trading) sind nahezu immun.
 
 Vor jedem Live-Einsatz einer Strategie sollte die geschätzte Slippage von der theoretischen Rendite abgezogen werden, und im Zweifel grosszügig kalkuliert werden.
 

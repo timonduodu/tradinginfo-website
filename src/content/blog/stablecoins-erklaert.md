@@ -59,7 +59,7 @@ Nicht jeder Stablecoin funktioniert gleich. Es gibt drei grundlegende Konstrukti
 
 ## Steuerliche Behandlung in der Schweiz
 
-Für Schweizer Anleger gilt: Stablecoins sind Vermögen und werden zum Stichtag 31. Dezember in der Vermögenssteuer erfasst, in der Regel zum Nennwert. Der Tausch von einem Coin in einen Stablecoin gilt steuerlich als Verkauf des ersten Coins, bei privaten Anlegern bleiben Kursgewinne aber steuerfrei.
+Für Schweizer Anleger gilt: Stablecoins sind Vermögen und werden zum Stichtag 31. Dezember in der [Vermögenssteuer](/blog/vermoegenssteuer-schweiz) erfasst, in der Regel zum Nennwert. Der Tausch von einem Coin in einen Stablecoin gilt [steuerlich als Verkauf](/blog/krypto-steuern-schweiz) des ersten Coins, bei privaten Anlegern bleiben Kursgewinne aber steuerfrei.
 
 ## Fazit
 

@@ -40,7 +40,7 @@ Flatex hat in den letzten Jahren mehrfach Gebührenanpassungen vorgenommen. Die 
 | Ausserbörslich (Direct Trade) | 0,90 EUR pauschal + Spread |
 | ETF-Sparpläne | 1,50 EUR pro Ausführung |
 
-Die 5,90 EUR Festpreis-Gebühr ist im Markt-Vergleich Mittelmaß: günstiger als klassische Banken (10-25 EUR), aber teurer als Neobroker wie Trade Republic (1 EUR).
+Die 5,90 EUR Festpreis-Gebühr ist im Markt-Vergleich Mittelmaß: günstiger als klassische Banken (10-25 EUR), aber teurer als Neobroker wie [Trade Republic](/blog/trade-republic-test) (1 EUR).
 
 ### Negativzinsen-Kontoführung
 
@@ -111,7 +111,7 @@ Für reine Aktien- und ETF-Investments ist Trade Republic oder Scalable günstig
 
 ## Flatex in Österreich
 
-Flatex ist auch in Österreich aktiv und steuereinfach, die KESt 27,5% wird automatisch abgeführt. Für österreichische Kunden ist Flatex eine der wenigen "klassischen" Brokers neben Trade Republic.
+Flatex ist auch in Österreich aktiv und steuereinfach, die [KESt 27,5%](/blog/oesterreich-kest-erklaert) wird automatisch abgeführt. Für österreichische Kunden ist Flatex eine der wenigen "klassischen" Brokers neben Trade Republic.
 
 Die Gebühren in AT sind ähnlich wie in DE:
 - 5,90 EUR pro Order
@@ -157,4 +157,4 @@ Bei Trade Republic wäre das (24 Trades × 1 EUR + 0 für Sparpläne) = **24 EUR
 
 ## Fazit
 
-Flatex ist 2026 ein solider, etablierter Broker für DE und AT, aber nicht mehr die erste Wahl für Privatanleger. Die hohen Trade-Kosten machen ihn unattraktiv im Vergleich zu Neobrokern wie Trade Republic oder Scalable. Stärken liegen in der Vielfalt der Handelsplätze, dem Optionsscheine-Sortiment und der etablierten Plattform. Wer aktiv Hebelprodukte handelt oder Anleihen wünscht, kann hier richtig sein. Reine ETF-Sparer und Buy-and-Hold-Investoren fahren bei den Neobrokern deutlich günstiger.
+Flatex ist 2026 ein solider, etablierter Broker für DE und AT, aber nicht mehr die erste Wahl für Privatanleger. Die hohen Trade-Kosten machen ihn unattraktiv im Vergleich zu Neobrokern wie Trade Republic oder Scalable. Stärken liegen in der Vielfalt der Handelsplätze, dem Optionsscheine-Sortiment und der etablierten Plattform. Wer aktiv Hebelprodukte handelt oder Anleihen wünscht, kann hier richtig sein. Reine ETF-Sparer und [Buy-and-Hold-Investoren](/blog/buy-and-hold-vs-trading) fahren bei den Neobrokern deutlich günstiger.

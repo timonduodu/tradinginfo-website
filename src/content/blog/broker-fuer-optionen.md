@@ -51,7 +51,7 @@ Neobroker wie Trade Republic oder Scalable bieten Optionen nicht oder nur sehr e
 - Industriestandard für professionelles Options-Trading
 - Über 30 Optionsbörsen weltweit
 - Sehr niedrige Kommissionen: ab USD 0,15 pro Kontrakt (Tiered) oder USD 0,65 (Festpreis)
-- Eingebaute Optionsketten-Analyse mit Greeks (Delta, Gamma, Theta, Vega)
+- Eingebaute Optionsketten-Analyse mit [Greeks](/blog/optionen-verstehen) (Delta, Gamma, Theta, Vega)
 - Margin-Berechnungen sauber, Risk Navigator
 - Verfügbar in CH, DE, AT
 
@@ -125,7 +125,7 @@ Für sehr aktive Options-Trader sind diese zu teuer. Für Gelegenheits-Trader OK
 → Interactive Brokers (direkt oder via CapTrader für DACH)
 
 **Wenn du Schweizer bist und Banklizenz willst**:
-→ Saxo Bank Schweiz
+→ [Saxo Bank Schweiz](/blog/saxo-bank-schweiz-test)
 
 **Wenn du Einsteiger bist mit gelegentlichen Trades**:
 → Saxo oder dein bestehender Broker
@@ -145,7 +145,7 @@ Für sehr aktive Options-Trader sind diese zu teuer. Für Gelegenheits-Trader OK
 
 **Deutschland**: Termingeschäfte (auch Optionen) haben die berüchtigte **20.000 EUR Verlustverrechnungsgrenze pro Jahr**. Verluste aus Optionen können nur bis 20.000 EUR mit anderen Termingeschäftsgewinnen verrechnet werden. Das macht riskante Optionsstrategien steuerlich sehr ungünstig, Klagen vor dem Bundesverfassungsgericht laufen (Stand Anfang 2026 noch nicht entschieden).
 
-**Österreich**: Optionsgewinne unterliegen der KESt 27,5%. Bei steuereinfachen DE-Brokern (CapTrader auf Anfrage) Steuern abgeführt. Bei IBKR direkt: selbst deklarieren.
+**Österreich**: Optionsgewinne unterliegen der [KESt 27,5%](/blog/oesterreich-kest-erklaert). Bei steuereinfachen DE-Brokern (CapTrader auf Anfrage) Steuern abgeführt. Bei IBKR direkt: selbst deklarieren.
 
 ## Optionen-Funktionen im Vergleich
 

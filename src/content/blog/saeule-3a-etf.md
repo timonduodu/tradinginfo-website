@@ -17,14 +17,14 @@ faq:
     answer: "Entscheidend ist die All-in-Gebühr, also die Summe aus Verwaltungsgebühr und ETF-Kosten (TER). Günstige digitale Anbieter liegen oft bei rund 0,4 bis 0,5 Prozent pro Jahr, idealerweise unter 0,5 Prozent."
 ---
 
-Die Säule 3a ist das steuerlich attraktivste Vorsorgeinstrument der Schweiz. Doch viele lassen ihr Geld auf einem 3a-Zinskonto liegen, wo es kaum wächst. Die Alternative, eine Wertschriftenlösung mit ETFs, kann über Jahrzehnte einen erheblichen Unterschied machen. Dieser Artikel erklärt, wie sie funktioniert und für wen sie sich eignet.
+Die Säule 3a ist das [steuerlich attraktivste](/blog/steueroptimierung-ch-anleger) Vorsorgeinstrument der Schweiz. Doch viele lassen ihr Geld auf einem 3a-Zinskonto liegen, wo es kaum wächst. Die Alternative, eine Wertschriftenlösung mit ETFs, kann über Jahrzehnte einen erheblichen Unterschied machen. Dieser Artikel erklärt, wie sie funktioniert und für wen sie sich eignet.
 
 ## Der doppelte Steuervorteil der Säule 3a
 
 Bevor es um ETFs geht, der Kern: Die Säule 3a spart gleich mehrfach Steuern.
 
 - **Einzahlungen** sind bis zum Maximalbetrag vom steuerbaren Einkommen abziehbar
-- **Während der Sparphase** fallen keine Vermögens-, Einkommens- oder Verrechnungssteuern auf das 3a-Guthaben an
+- **Während der Sparphase** fallen keine [Vermögens-](/blog/vermoegenssteuer-schweiz), Einkommens- oder [Verrechnungssteuern](/blog/verrechnungssteuer-schweiz) auf das 3a-Guthaben an
 - **Bei der Auszahlung** wird das Kapital zu einem reduzierten Satz, getrennt vom übrigen Einkommen, besteuert
 
 Der Maximalbetrag liegt **2026 bei CHF 7'258** für Erwerbstätige mit Pensionskasse. Selbständige ohne Pensionskasse können bis zu 20 % ihres Nettoeinkommens, maximal CHF 36'288, einzahlen.

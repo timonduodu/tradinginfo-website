@@ -64,7 +64,7 @@ Die ehrliche Schlussfolgerung: Volumen ist nützliche Zusatzinformation, aber ke
 
 Pragmatische Verwendung des Volumens:
 
-**Liquiditäts-Indikator.** Hohe Volumen bedeuten enge Spreads und einfache Ausführung. Bei niedrigvolumigen Aktien können selbst kleine Orders den Kurs bewegen.
+**Liquiditäts-Indikator.** Hohe Volumen bedeuten [enge Spreads](/blog/spreads-erklaert) und einfache Ausführung. Bei niedrigvolumigen Aktien können selbst kleine Orders den Kurs bewegen.
 
 **Breakout-Bestätigung.** Wenn eine Aktie aus einer mehrwöchigen Range ausbricht, Volumen sollte deutlich erhöht sein. Ein Breakout bei niedrigem Volumen wird oft schnell wieder umgekehrt.
 
@@ -121,7 +121,7 @@ Volumen wird oft mit **Liquidität** gleichgesetzt. Das ist nicht ganz korrekt:
 
 Eine Aktie mit hohem Volumen kann trotzdem illiquide sein, wenn das Volumen sich auf wenige grosse Trades konzentriert. Umgekehrt kann eine Aktie mit moderatem Volumen sehr liquid sein, wenn viele kleine Trades stattfinden.
 
-Wer grosse Positionen bewegt, schaut nicht nur auf Volumen, sondern auf **Marktiefe** (wie viele Aktien sind in den Levels des Orderbuchs verfügbar?) und **Slippage-Erfahrungen** in der Vergangenheit.
+Wer grosse Positionen bewegt, schaut nicht nur auf Volumen, sondern auf **Marktiefe** (wie viele Aktien sind in den [Levels des Orderbuchs](/blog/orderbuch-lesen) verfügbar?) und [**Slippage-Erfahrungen**](/blog/slippage-erklaert) in der Vergangenheit.
 
 ## Volumen-Mythen
 

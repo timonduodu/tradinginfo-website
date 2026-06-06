@@ -1,0 +1,29 @@
+---
+// Spam-geschützter E-Mail-Link: Die Adresse steht nicht im Klartext im HTML,
+// sondern wird erst per JavaScript zusammengesetzt. Bots, die HTML nach
+// "mailto:" und @-Adressen durchsuchen, gehen leer aus.
+interface Props {
+  user: string;        // z.B. "info"
+  class?: string;
+}
+
+const { user, class: className } = Astro.props;
+const domain = 'tradingwissen.ch';
+---
+
+<a
+  href="#"
+  class:list={['email-link', className]}
+  data-u={user}
+  data-d={domain.split('').reverse().join('')}
+>{user} [at] {domain.replace(/\./g, ' [punkt] ')}</a>
+
+<script>
+  document.querySelectorAll<HTMLAnchorElement>('a.email-link[data-u]').forEach(el => {
+    const adresse = `${el.dataset.u}@${(el.dataset.d || '').split('').reverse().join('')}`;
+    el.href = `mailto:${adresse}`;
+    el.textContent = adresse;
+    el.removeAttribute('data-u');
+    el.removeAttribute('data-d');
+  });
+</script>

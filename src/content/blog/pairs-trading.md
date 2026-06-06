@@ -65,8 +65,8 @@ Das ist die Magie: Du profitierst von der Normalisierung, nicht von der Marktric
 **Gute Paare**:
 - Zwei Aktien aus derselben Branche und Region
 - Ähnliche Geschäftsmodelle
-- Vergleichbare Marktkapitalisierung
-- Historische Korrelation > 0,8
+- Vergleichbare [Marktkapitalisierung](/blog/marktkapitalisierung-verstehen)
+- Historische [Korrelation](/blog/korrelationen-im-portfolio) > 0,8
 
 **Klassische Beispiele in DACH**:
 - BMW vs Mercedes-Benz (DE)
@@ -123,7 +123,7 @@ Das limitiert das Profitpotenzial, schützt aber auch vor Totalverlust.
 - Einsatz von Hebeln/Derivaten
 - Systematisches Trading
 
-Die ESTV wird Pairs Trading mit hoher Wahrscheinlichkeit als gewerbsmässig einstufen. Konsequenz: Gewinne sind als Einkommen steuerpflichtig + AHV/IV. Privatanleger sollten das im Hinterkopf haben.
+Die ESTV wird Pairs Trading mit hoher Wahrscheinlichkeit als [gewerbsmässig](/blog/privater-anleger-gewerbsmaessig) einstufen. Konsequenz: Gewinne sind als Einkommen steuerpflichtig + AHV/IV. Privatanleger sollten das im Hinterkopf haben.
 
 **Deutschland**: CFD-Gewinne unterliegen der Abgeltungsteuer. **Aber**: Termingeschäfte (CFDs) haben die Verlustverrechnungsbeschränkung von 20.000 EUR pro Jahr, bei aktiven Pairs Traders sehr relevant.
 
@@ -141,7 +141,7 @@ Pairs Trading wurde in den 1980ern von Morgan-Stanley-Quant Nunzio Tartaglia und
 
 Pairs Trading hat eine niedrige Volatilität, aber auch geringere Renditen als Long-Only-Strategien. Realistisch sind 5-15% pro Jahr, aber mit deutlich geringerem Drawdown als bei reinem Aktien-Investment.
 
-Der Sharpe-Ratio (risikoadjustierte Rendite) ist oft besser als beim Markt, das macht es für institutionelle Investoren attraktiv.
+Der [Sharpe-Ratio](/blog/sharpe-ratio-erklaert) (risikoadjustierte Rendite) ist oft besser als beim Markt, das macht es für institutionelle Investoren attraktiv.
 
 ## Häufige Fehler
 

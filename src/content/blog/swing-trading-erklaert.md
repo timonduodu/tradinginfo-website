@@ -76,7 +76,7 @@ Swing Trader können Wochen lang gut performen, und dann mit einem einzigen schl
 
 **1. Maximum 1-2% Kontorisiko pro Trade**: Bei einem CHF 50.000 Konto = max. CHF 500-1000 Verlust pro Trade.
 
-**2. Stop-Loss IMMER setzen**: Bevor du den Trade öffnest, ist der Stop schon definiert. Niemals "hoffen, dass es zurückkommt".
+**2. [Stop-Loss](/blog/stop-loss-richtig-setzen) IMMER setzen**: Bevor du den Trade öffnest, ist der Stop schon definiert. Niemals "hoffen, dass es zurückkommt".
 
 **3. Risk/Reward-Ratio mindestens 1:2**: Wenn dein Risiko 100 CHF ist, sollte dein Zielgewinn mindestens 200 CHF sein. So kannst du auch mit nur 50% Trefferquote profitabel sein.
 
@@ -88,7 +88,7 @@ Swing Trader können Wochen lang gut performen, und dann mit einem einzigen schl
 
 Swing Trading hat in allen drei Ländern Steuerimplikationen, die anders sind als bei Buy-and-Hold:
 
-**Schweiz**: Aufgepasst. Swing Trading mit hohen Volumina, kurzen Haltedauern und Hebel kann zur Einstufung als gewerbsmässiger Wertschriftenhändler führen. Die ESTV prüft 5 Kriterien:
+**Schweiz**: Aufgepasst. Swing Trading mit hohen Volumina, kurzen Haltedauern und Hebel kann zur Einstufung als [gewerbsmässiger Wertschriftenhändler](/blog/privater-anleger-gewerbsmaessig) führen. Die ESTV prüft 5 Kriterien:
 1. Haltedauer unter 6 Monaten (klares Swing-Profil!)
 2. Volumen 5x Vorjahresvermögen
 3. Kapitalgewinne 50%+ des Nettoeinkommens
@@ -130,7 +130,7 @@ Wer mehrere Punkte erfüllt, riskiert die Einkommensbesteuerung aller Trading-Ge
 
 **2. Breakout**: Eine Aktie durchbricht eine Widerstandsmarke mit Volumen, du kaufst kurz danach, mit Stop unter der Marke.
 
-**3. Mean Reversion**: Eine Aktie ist überverkauft (RSI < 30) und du wettest auf Rückkehr zum Durchschnitt. Funktioniert eher in seitwärts-orientierten Märkten.
+**3. [Mean Reversion](/blog/mean-reversion-vs-trendfolge)**: Eine Aktie ist überverkauft (RSI < 30) und du wettest auf Rückkehr zum Durchschnitt. Funktioniert eher in seitwärts-orientierten Märkten.
 
 **4. Earnings-Plays**: Vor Quartalsberichten Positionen aufbauen, mit klarer These zur erwarteten Reaktion. Hochriskant, die Kursreaktion auf Earnings ist schwer vorhersehbar.
 
@@ -162,4 +162,4 @@ Konsistent gute Swing Trader kommen auf 20-50% pro Jahr, aber das gelingt einer 
 
 ## Fazit
 
-Swing Trading ist ein machbarer Mittelweg zwischen aktivem Day-Trading und passivem Investieren. Es lässt sich nebenberuflich betreiben, kann interessante Renditen liefern und schult deine Marktkenntnisse. Aber: Es ist keine Abkürzung zu schnellem Reichtum. Die Lernkurve ist lang, die Steuern fressen einen Teil der Rendite, und die psychische Belastung ist real. Wer es probieren will, soll mit kleinem Kapital anfangen, ein Trading-Tagebuch führen und realistische Erwartungen haben. Und immer: 1-2% Risiko pro Trade, niemals mehr.
+Swing Trading ist ein machbarer Mittelweg zwischen aktivem Day-Trading und passivem Investieren. Es lässt sich nebenberuflich betreiben, kann interessante Renditen liefern und schult deine Marktkenntnisse. Aber: Es ist keine Abkürzung zu schnellem Reichtum. Die Lernkurve ist lang, die Steuern fressen einen Teil der Rendite, und die psychische Belastung ist real. Wer es probieren will, soll mit kleinem Kapital anfangen, ein [Trading-Tagebuch führen](/blog/trading-tagebuch-fuehren) und realistische Erwartungen haben. Und immer: 1-2% Risiko pro Trade, niemals mehr.

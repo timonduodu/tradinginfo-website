@@ -17,7 +17,7 @@ faq:
     answer: "Ein Blick ins Factsheet zeigt, ob das Produkt physisch repliziert oder über Futures bzw. Swaps arbeitet. Bei Rohstoff- und Krypto-ETFs ist dieser Unterschied besonders relevant, bei breiten Aktienindizes ist physische Replikation ohnehin der Standard."
 ---
 
-Spätestens seit der Zulassung von Spot-Bitcoin-ETFs ist der Begriff "Spot" in aller Munde. Doch was bedeutet er eigentlich, und worin unterscheidet sich ein Spot-ETF von anderen Konstruktionen? Die Antwort ist wichtiger, als sie klingt, denn die Bauweise eines ETF beeinflusst direkt, wie gut er seinen Basiswert abbildet.
+Spätestens seit der Zulassung von [Spot-Bitcoin-ETFs](/blog/bitcoin-etf-vs-echtes-bitcoin) ist der Begriff "Spot" in aller Munde. Doch was bedeutet er eigentlich, und worin unterscheidet sich ein Spot-ETF von anderen Konstruktionen? Die Antwort ist wichtiger, als sie klingt, denn die Bauweise eines ETF beeinflusst direkt, wie gut er seinen Basiswert abbildet.
 
 ## Spot bedeutet: der echte Vermögenswert
 
@@ -42,7 +42,7 @@ Das klingt nach einem feinen Unterschied, hat aber spürbare Folgen.
 
 Futures haben ein Ablaufdatum. Bevor ein Kontrakt ausläuft, muss der ETF ihn gegen einen neuen, später fälligen Kontrakt austauschen, das nennt man "rollen".
 
-Wenn die späteren Kontrakte teurer sind als die auslaufenden (eine Situation namens Contango), entstehen bei jedem Rollvorgang Kosten. Über die Zeit kann das dazu führen, dass ein Futures-ETF schlechter abschneidet als der reine Spot-Preis des Basiswerts, selbst wenn dieser steigt.
+Wenn die späteren Kontrakte teurer sind als die auslaufenden (eine Situation namens [Contango](/blog/contango-backwardation)), entstehen bei jedem Rollvorgang Kosten. Über die Zeit kann das dazu führen, dass ein Futures-ETF schlechter abschneidet als der reine Spot-Preis des Basiswerts, selbst wenn dieser steigt.
 
 Ein Spot-ETF hat dieses Problem nicht, weil er den Vermögenswert einfach hält.
 

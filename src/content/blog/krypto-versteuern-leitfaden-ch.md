@@ -51,7 +51,7 @@ Krypto-Steuer-Tools wie Cointracking, Koinly oder der Schweizer Anbieter Taxbit 
 
 Für die Vermögenssteuer zählt der Marktwert **per 31. Dezember**. Die ESTV veröffentlicht für die wichtigsten Coins einen offiziellen Jahresendkurs. Für Bitcoin lag dieser beispielsweise per Ende 2025 bei rund CHF 69'572 pro Coin.
 
-Existiert kein offizieller ESTV-Kurs, gilt der Verkehrswert einer anerkannten Börse. Stablecoins werden in der Regel zum Nennwert bewertet.
+Existiert kein offizieller ESTV-Kurs, gilt der Verkehrswert einer anerkannten Börse. [Stablecoins](/blog/stablecoins-erklaert) werden in der Regel zum Nennwert bewertet.
 
 **Wichtig:** Massgebend ist der Zeitpunkt 31.12., nicht ein Jahresdurchschnitt. Und es zählen alle Bestände, auch jene auf Hardware-Wallets oder ausländischen Börsen.
 
@@ -59,7 +59,7 @@ Existiert kein offizieller ESTV-Kurs, gilt der Verkehrswert einer anerkannten B�
 
 Kursgewinne sind steuerfrei, regelmässige Erträge nicht. Folgende Einkünfte gehören ins Einkommen, bewertet zum CHF-Wert am Tag des Zuflusses:
 
-**Staking:** Belohnungen aus Proof-of-Stake-Coins (Ethereum, Cardano, Solana) gelten als Vermögensertrag.
+**[Staking](/blog/staking-steuern-dach):** Belohnungen aus Proof-of-Stake-Coins (Ethereum, Cardano, Solana) gelten als Vermögensertrag.
 
 **Mining:** Geschürfte Coins sind steuerpflichtiges Einkommen. Bei grösseren Operationen kann selbständige Erwerbstätigkeit vorliegen, dann fallen auch AHV-Beiträge an.
 
@@ -67,7 +67,7 @@ Kursgewinne sind steuerfrei, regelmässige Erträge nicht. Folgende Einkünfte g
 
 ## Schritt 5: Die Gewerbsmässigkeit im Blick behalten
 
-Die Steuerfreiheit der Kursgewinne gilt nur, solange Sie als **privater** Anleger eingestuft werden. Wer sehr aktiv handelt, mit Fremdkapital oder Derivaten arbeitet oder vom Handel leben will, riskiert die Einstufung als gewerbsmässig, dann werden Gewinne voll besteuert.
+Die Steuerfreiheit der Kursgewinne gilt nur, solange Sie als **privater** Anleger eingestuft werden. Wer sehr aktiv handelt, mit Fremdkapital oder Derivaten arbeitet oder vom Handel leben will, riskiert die [Einstufung als gewerbsmässig](/blog/privater-anleger-gewerbsmaessig), dann werden Gewinne voll besteuert.
 
 Als grobe Orientierung dienen die Kriterien aus dem Kreisschreiben Nr. 36 der ESTV (sinngemäss auf Krypto angewendet): eine Haltedauer von mindestens sechs Monaten, ein moderates Transaktionsvolumen, Einsatz eigener Mittel und kein Lebensunterhalt aus dem Handel.
 

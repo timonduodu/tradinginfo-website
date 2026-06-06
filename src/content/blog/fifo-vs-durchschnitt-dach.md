@@ -54,7 +54,7 @@ Jetzt verkaufst du im Juni 2026 100 Aktien zu 120 CHF (Verkaufserlös: 12.000 CH
 
 In der Schweiz sind **Kapitalgewinne für Privatanleger steuerfrei**. Die Methode der Anteilszuordnung ist daher steuerlich irrelevant, egal, ob FIFO, LIFO oder Durchschnitt, du zahlst keine Steuer auf den Kursgewinn.
 
-**Aber**: Für die Bewertung der gewerbsmässigen Trader-Frage ist die Methode relevant. Wenn du als gewerbsmässig eingestuft wirst, gilt typischerweise FIFO oder die Buchhaltungs-Methode deines Brokers.
+**Aber**: Für die Bewertung der [gewerbsmässigen Trader-Frage](/blog/privater-anleger-gewerbsmaessig) ist die Methode relevant. Wenn du als gewerbsmässig eingestuft wirst, gilt typischerweise FIFO oder die Buchhaltungs-Methode deines Brokers.
 
 **Steuerauszug**: Schweizer Banken stellen Steuerauszüge nach internen Methoden zusammen, meist FIFO oder gleitender Durchschnitt. Bei reinen Privatanlegern hat das keine direkte Steuerkonsequenz.
 
@@ -73,7 +73,7 @@ Du kannst die FIFO-Logik aber legal umgehen, indem du in verschiedene Depots auf
 
 ### Österreich: Auch FIFO
 
-In Österreich ist ebenfalls **FIFO** Standard. Die KESt-Berechnung erfolgt nach derselben Logik wie in Deutschland.
+In Österreich ist ebenfalls **FIFO** Standard. Die [KESt-Berechnung](/blog/oesterreich-kest-erklaert) erfolgt nach derselben Logik wie in Deutschland.
 
 Die "Auswahl-Freiheit" hast du nicht, der Broker rechnet nach FIFO ab.
 
@@ -113,7 +113,7 @@ Du hast Verlust realisiert (für Steueroptimierung) während die alten Bestände
 
 ### Strategie 2: Tax Loss Harvesting
 
-Wenn du im Plus stehende Positionen aus FIFO verkaufen "musst", kannst du gleichzeitig Verlustpositionen realisieren, um die Steuer zu mindern.
+Wenn du im Plus stehende Positionen aus FIFO verkaufen "musst", kannst du gleichzeitig Verlustpositionen realisieren, um [die Steuer zu mindern](/blog/steueroptimierung-ch-anleger).
 
 In **Österreich**: Nur im selben Kalenderjahr verrechenbar, Verlustvortrag nicht möglich.
 

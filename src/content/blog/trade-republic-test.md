@@ -90,7 +90,7 @@ Die Plattform richtet sich an Einsteiger und mittlere Anleger. Profi-Funktionen 
 - Steuerübersicht
 
 **Was du nicht kriegst**:
-- Level 2 (Orderbuch-Tiefe)
+- Level 2 ([Orderbuch-Tiefe](/blog/orderbuch-lesen))
 - Complex Order Types (kein Bracket, kein OCO)
 - TradingView-Integration
 - Mehrere Handelsplätze
@@ -98,10 +98,10 @@ Die Plattform richtet sich an Einsteiger und mittlere Anleger. Profi-Funktionen 
 ## Steuerliche Behandlung
 
 ### Deutschland
-Trade Republic ist steuereinfach. Die Abgeltungsteuer (25% + 5,5% Soli + ggf. Kirchensteuer) wird automatisch abgeführt. Freistellungsauftrag kann in der App eingerichtet werden (1.000 EUR Single, 2.000 EUR Verheiratete). Auch die Vorabpauschale auf thesaurierende ETFs wird korrekt berechnet, Basiszins 2026: 3,20%, was bei Aktien-ETFs ca. 46 EUR Vorabpauschalen-Steuer pro 10.000 EUR Fondsvolumen ergibt (nach 30% Teilfreistellung).
+Trade Republic ist steuereinfach. Die Abgeltungsteuer (25% + 5,5% Soli + ggf. Kirchensteuer) wird automatisch abgeführt. Freistellungsauftrag kann in der App eingerichtet werden (1.000 EUR Single, 2.000 EUR Verheiratete). Auch die Vorabpauschale auf [thesaurierende ETFs](/blog/thesaurierend-vs-ausschuettend) wird korrekt berechnet, Basiszins 2026: 3,20%, was bei Aktien-ETFs ca. 46 EUR Vorabpauschalen-Steuer pro 10.000 EUR Fondsvolumen ergibt (nach 30% Teilfreistellung).
 
 ### Österreich
-Seit dem 24. April 2025 ist Trade Republic in Österreich vollständig steuereinfach. KESt 27,5% wird automatisch an das österreichische Finanzamt abgeführt. Bestandskunden vor April 2025 können auf die steuereinfache Variante umstellen lassen. Verlustausgleich erfolgt automatisch innerhalb des Jahres.
+Seit dem 24. April 2025 ist Trade Republic in Österreich vollständig steuereinfach. [KESt 27,5%](/blog/oesterreich-kest-erklaert) wird automatisch an das österreichische Finanzamt abgeführt. Bestandskunden vor April 2025 können auf die steuereinfache Variante umstellen lassen. Verlustausgleich erfolgt automatisch innerhalb des Jahres.
 
 ### Andere EU-Länder
 Je nach Land unterschiedlich. In manchen Ländern stellt Trade Republic Steuerreports zur Verfügung, in anderen muss alles selbst deklariert werden.
@@ -175,7 +175,7 @@ Annahme: 50.000 EUR Depot, 12 Trades pro Jahr (durchschnittlich 2.000 EUR pro Tr
 | Abgeltungsteuer auf Gewinne | (variabel) |
 | **Total nicht-Steuer-Kosten** | **12 EUR** |
 
-Bei Flatex (siehe vorheriger Artikel): 159,60 EUR.
+Bei [Flatex](/blog/flatex-test) (siehe vorheriger Artikel): 159,60 EUR.
 **Ersparnis: 147,60 EUR pro Jahr**, über 30 Jahre summiert sich das auf über 4.000 EUR (mehr mit Zinseszins).
 
 ## Risikofaktoren

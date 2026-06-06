@@ -29,7 +29,7 @@ Die wichtigsten Eckdaten:
 
 ## Lightyear in der Schweiz: Verfügbar!
 
-Im Gegensatz zu Trade Republic ist Lightyear in der Schweiz verfügbar. Das macht den Anbieter für Schweizer Anleger besonders interessant, die einen einfachen Neobroker suchen.
+Im Gegensatz zu [Trade Republic](/blog/trade-republic-test) ist Lightyear in der Schweiz verfügbar. Das macht den Anbieter für Schweizer Anleger besonders interessant, die einen einfachen Neobroker suchen.
 
 Allerdings: Schweizer Kunden müssen auf den deutschen Steuereinfach-Service verzichten, der existiert nur in DE.
 
@@ -54,7 +54,7 @@ Komplett kostenfrei. Ähnlich wie bei Trade Republic.
 
 ### Wechselkursgebühr
 
-0,35% Aufschlag auf den Mid-Spot, etwas teurer als Saxo Bank (0,25%), aber günstiger als Cornèrtrader (0,5%).
+0,35% Aufschlag auf den Mid-Spot, etwas teurer als [Saxo Bank](/blog/saxo-bank-schweiz-test) (0,25%), aber günstiger als [Cornèrtrader](/blog/cornertrader-test) (0,5%).
 
 ### Cash-Zinsen
 
@@ -146,7 +146,7 @@ Die Zinsen werden täglich berechnet, monatlich gutgeschrieben, ohne Mindesteinl
 
 **Schweiz**: Lightyear ist nicht-CH-reguliert, also kein automatischer Steuerauszug. Schweizer Anleger müssen:
 - Verrechnungssteuer-Daten manuell sammeln
-- DA-1 für ausländische Quellensteuer selbst ausfüllen
+- [DA-1 für ausländische Quellensteuer](/blog/us-quellensteuer-da1) selbst ausfüllen
 - Vermögensaufstellung selbst erstellen
 
 Eine Vermögensverwaltungs-Software wie Portfolio Performance oder Sharesight kann helfen.

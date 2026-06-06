@@ -18,7 +18,7 @@ faq:
     answer: "Die Funding Rate ist das Krypto-Pendant zum Swap, unterscheidet sich aber: Die Zahlung erfolgt typischerweise alle acht Stunden, fliesst zwischen Long- und Short-Tradern statt an den Broker, und ihre Höhe wird durch die Marktstimmung bestimmt. In Bullenmärkten kann sie annualisiert über 100 Prozent erreichen."
 ---
 
-Der Handel auf Margin bedeutet, dass ein Trader effektiv Geld leiht, um eine grössere Position einzugehen, als sein Kapital erlauben würde. Für dieses geliehene Kapital fallen Zinsen an, die sogenannten Swap-Kosten oder Overnight-Fees. Wer die Mechanik nicht kennt, verliert über die Zeit erhebliche Summen, ohne einen einzigen schlechten Trade gemacht zu haben.
+Der [Handel auf Margin](/blog/hebel-und-margin) bedeutet, dass ein Trader effektiv Geld leiht, um eine grössere Position einzugehen, als sein Kapital erlauben würde. Für dieses geliehene Kapital fallen Zinsen an, die sogenannten Swap-Kosten oder Overnight-Fees. Wer die Mechanik nicht kennt, verliert über die Zeit erhebliche Summen, ohne einen einzigen schlechten Trade gemacht zu haben.
 
 > *"Risk comes from not knowing what you're doing."*
 >, **Warren Buffett**
@@ -61,7 +61,7 @@ ECN- und STP-Broker mit direkter Marktanbindung berechnen Swaps fairer als klass
 
 ### 3. Carry-Trades mit positivem Swap
 
-Bei bestimmten Währungspaaren ist der Swap positiv, der Trader erhält Geld für das Halten der Position. Klassisches Beispiel waren über Jahre Long-Positionen in türkischer Lira oder südafrikanischem Rand gegen den japanischen Yen. Diese Strategie ist jedoch hochriskant: Sobald die Hochzinswährung abwertet, fressen Kursverluste den Carry innerhalb von Stunden auf.
+Bei bestimmten Währungspaaren ist der Swap positiv, der Trader erhält Geld für das Halten der Position. Klassisches Beispiel waren über Jahre [Long-Positionen in türkischer Lira](/blog/carry-trade-grundlagen) oder südafrikanischem Rand gegen den japanischen Yen. Diese Strategie ist jedoch hochriskant: Sobald die Hochzinswährung abwertet, fressen Kursverluste den Carry innerhalb von Stunden auf.
 
 > *"Markets can remain irrational longer than you can remain solvent."*
 >, zugeschrieben an **John Maynard Keynes**
@@ -78,7 +78,7 @@ In ausgeprägten Bullenmärkten können Long-Funding-Kosten 0.1 % alle acht Stun
 
 ## Die Bedeutung im Gesamtkontext
 
-Eine Analyse der durchschnittlichen Trading-Kosten zeigt: Bei gehebelten Positionen mit Haltedauern über mehrere Wochen machen Swap-Kosten häufig **30 bis 60 % aller Handelskosten** aus, mehr als Spreads und Kommissionen zusammen.
+Eine Analyse der durchschnittlichen Trading-Kosten zeigt: Bei gehebelten Positionen mit Haltedauern über mehrere Wochen machen Swap-Kosten häufig **30 bis 60 % aller Handelskosten** aus, mehr als [Spreads](/blog/spreads-erklaert) und Kommissionen zusammen.
 
 > *"In investing, what is comfortable is rarely profitable."*
 >, **Robert Arnott**, Gründer von Research Affiliates

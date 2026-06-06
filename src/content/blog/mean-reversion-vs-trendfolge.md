@@ -49,8 +49,8 @@ Mean Reversion profitiert in **seitwärtsgerichteten oder volatilen Märkten**, 
 Klassische Beispiele:
 - US-Aktien 2000–2010 ("verlorenes Jahrzehnt")
 - EUR/USD seit 2015 (Range-bound)
-- Index-Volatilität (VIX), siehe unser VIX-Artikel
-- Spreads zwischen ähnlichen Assets (Pair Trading)
+- Index-Volatilität ([VIX](/blog/vix-volatilitaet)), siehe unser VIX-Artikel
+- Spreads zwischen ähnlichen Assets ([Pair Trading](/blog/pairs-trading))
 
 ## Bekannte Trendfolger
 
@@ -130,7 +130,7 @@ Schlüsselindikatoren für das Regime:
 
 **Mean Reversion** verleitet dazu, "ein fallendes Messer zu fangen", psychologisch ein Albtraum, wenn man in eine starke Abwärtsbewegung kauft.
 
-Die meisten erfolgreichen Privatanleger nutzen einen dritten Weg: **Buy-and-Hold mit Rebalancing**. Das ist eine sanfte Form der Mean Reversion auf Asset-Allokationsebene, periodische Rückkehr zu den Zielgewichten zwingt zum "kaufen, wenn billig, verkaufen, wenn teuer".
+Die meisten erfolgreichen Privatanleger nutzen einen dritten Weg: **Buy-and-Hold mit [Rebalancing](/blog/portfolio-rebalancing)**. Das ist eine sanfte Form der Mean Reversion auf Asset-Allokationsebene, periodische Rückkehr zu den Zielgewichten zwingt zum "kaufen, wenn billig, verkaufen, wenn teuer".
 
 ## Backtests sind nicht alles
 

@@ -47,7 +47,7 @@ Die Umsatzabgabe wird nur erhoben, wenn ein **Schweizer Effektenhändler** an de
 
 **Schweizer Broker (Swissquote, Saxo Bank Schweiz, Yuh):** Voll stempelabgabepflichtig.
 
-**Ausländische Broker (Interactive Brokers, DEGIRO):** Keine Stempelabgabe! Da hier kein Schweizer Effektenhändler beteiligt ist, entfällt die Abgabe vollständig.
+**Ausländische Broker ([Interactive Brokers](/blog/interactive-brokers-schweiz-guide), [DEGIRO](/blog/degiro-test)):** Keine Stempelabgabe! Da hier kein Schweizer Effektenhändler beteiligt ist, entfällt die Abgabe vollständig.
 
 Dieser Unterschied ist substantiell. Ein aktiver Trader mit 100 Trades pro Jahr und durchschnittlich 5'000 CHF Volumen würde bei einem Schweizer Broker jährlich 750 bis 1'500 CHF Stempelabgabe zahlen, bei einem ausländischen Broker null.
 
@@ -59,7 +59,7 @@ Bestimmte Transaktionen sind von der Umsatzabgabe befreit:
 - **Devisenhandel:** Forex-Spotgeschäfte fallen nicht unter die Stempelabgabe
 - **Edelmetalle:** Physisches Gold und Silber sind befreit; ETFs auf Edelmetalle unterliegen jedoch der Abgabe
 - **Derivate (Optionen, Futures):** Grundsätzlich keine Stempelabgabe auf Derivate selbst, jedoch bei Lieferung des Basiswerts
-- **Kryptowährungen:** Keine Stempelabgabe (zumindest nach aktueller Rechtsauslegung; Lage wird laufend angepasst)
+- **[Kryptowährungen](/blog/krypto-steuern-schweiz):** Keine Stempelabgabe (zumindest nach aktueller Rechtsauslegung; Lage wird laufend angepasst)
 - **Transaktionen unter institutionellen Akteuren:** Bestimmte qualifizierte Anleger sind befreit
 
 ## Stempelabgabe bei ETFs

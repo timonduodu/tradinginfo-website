@@ -29,7 +29,7 @@ Die wichtigsten Eckdaten:
 
 ## Gebührenmodell ab 2026
 
-Cornèrtrader hat sein Pricing per 1. Januar 2026 angepasst. Wichtigste Neuerung: **erstmals Depotgebühren auf Aktien**, was in der Schweizer Broker-Landschaft eine Richtungsänderung darstellt (Saxo Bank schaffte diese im Vorjahr ab).
+Cornèrtrader hat sein Pricing per 1. Januar 2026 angepasst. Wichtigste Neuerung: **erstmals Depotgebühren auf Aktien**, was in der Schweizer Broker-Landschaft eine Richtungsänderung darstellt ([Saxo Bank](/blog/saxo-bank-schweiz-test) schaffte diese im Vorjahr ab).
 
 ### Aktien- und ETF-Handel (Konto "Consistency")
 
@@ -39,7 +39,7 @@ Cornèrtrader hat sein Pricing per 1. Januar 2026 angepasst. Wichtigste Neuerung
 | Deutsche/EU-Aktien | 0,12%, min. EUR 9 |
 | US-Aktien | 0,12%, min. USD 9 |
 
-Dazu kommen die Schweizer Stempelabgabe (0,075% auf CH-Aktien, 0,15% auf ausländische), die direkt an den Bund geht, diese ist nicht Cornèrtrader-spezifisch.
+Dazu kommen die [Schweizer Stempelabgabe](/blog/schweizer-stempelabgabe) (0,075% auf CH-Aktien, 0,15% auf ausländische), die direkt an den Bund geht, diese ist nicht Cornèrtrader-spezifisch.
 
 ### Neue Depotgebühren ab 2026
 
@@ -151,7 +151,7 @@ Bei Saxo Bank wäre das Gleiche (ohne Depotgebühr, mit niedrigerer Mindestgebü
 
 **Für Schweizer Anleger**: Cornèrtrader stellt einen Schweizer Steuerauszug aus (gegen Gebühr), der direkt für die Steuererklärung verwendet werden kann. Das spart Zeit, kostet aber CHF 20 pro Jahr.
 
-Wichtig: Cornèrtrader ist ein "non-discount broker" mit Banklizenz. Die Daten sind sauber, Verrechnungssteuer-Aufstellungen werden bereitgestellt. Beim DA-1 (Rückforderung ausländischer Quellensteuer) hilft der Steuerauszug ebenfalls.
+Wichtig: Cornèrtrader ist ein "non-discount broker" mit Banklizenz. Die Daten sind sauber, Verrechnungssteuer-Aufstellungen werden bereitgestellt. Beim [DA-1](/blog/us-quellensteuer-da1) (Rückforderung ausländischer Quellensteuer) hilft der Steuerauszug ebenfalls.
 
 ## Fazit
 

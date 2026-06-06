@@ -21,7 +21,7 @@ Beim ETF-Kauf taucht eine Frage auf, die viele Einsteiger überfordert: thesauri
 
 ## Der Unterschied in einem Satz
 
-**Ausschüttende ETFs** zahlen die Dividenden der enthaltenen Unternehmen an Sie aus. **Thesaurierende ETFs** behalten die Dividenden ein und reinvestieren sie automatisch im Fonds.
+**Ausschüttende ETFs** zahlen die [Dividenden](/blog/dividenden-schweizer-anleger) der enthaltenen Unternehmen an Sie aus. **Thesaurierende ETFs** behalten die Dividenden ein und reinvestieren sie automatisch im Fonds.
 
 Das Ergebnis: Beim ausschüttenden ETF bekommen Sie regelmässig Geld aufs Konto. Beim thesaurierenden steckt der Ertrag im steigenden Fondswert.
 
@@ -64,7 +64,7 @@ Die Eidgenössische Steuerverwaltung führt die steuerbaren Erträge vieler Fond
 
 Da der Steueraspekt in der Schweiz neutral ist, entscheidet vor allem der Zweck:
 
-**Thesaurierend** eignet sich für reine Vermögensaufbauer, die nichts ausgezahlt bekommen wollen und den automatischen Zinseszins schätzen, ideal für ETF-Sparpläne.
+**Thesaurierend** eignet sich für reine Vermögensaufbauer, die nichts ausgezahlt bekommen wollen und den automatischen Zinseszins schätzen, ideal für [ETF-Sparpläne](/blog/etf-sparplan-schweiz).
 
 **Ausschüttend** eignet sich für alle, die laufendes Einkommen wünschen oder die Erträge bewusst selbst steuern wollen.
 

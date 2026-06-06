@@ -37,7 +37,7 @@ Eine fundamentale Unterscheidung:
 
 **Implizite Volatilität (Implied Volatility).** Errechnet aus aktuellen Optionspreisen. Reflektiert die Markterwartung an die **künftige** Volatilität.
 
-Bei einer S&P-500-Aktie kann die historische Volatilität der letzten 30 Tage bei 12 % liegen, während die implizite Volatilität (gemessen über den VIX) 18 % beträgt. Der Markt erwartet also mehr Schwankungen in den kommenden Wochen.
+Bei einer S&P-500-Aktie kann die historische Volatilität der letzten 30 Tage bei 12 % liegen, während die implizite Volatilität (gemessen über den [VIX](/blog/vix-volatilitaet)) 18 % beträgt. Der Markt erwartet also mehr Schwankungen in den kommenden Wochen.
 
 > *"Volatility is the price of admission to the equity market. Pay it without complaint."*
 >, **Morgan Housel**
@@ -92,7 +92,7 @@ Beispiel: Eine Aktie bei 100 mit 20 % Jahresvolatilität sollte mit 68 % Wahrsch
 
 ## Volatilität als Risikomass
 
-Volatilität ist das Standardmass für Risiko in den meisten Finanzmodellen, etwa der **Modernen Portfoliotheorie** (Markowitz), dem **CAPM** und der **Sharpe-Ratio**.
+Volatilität ist das Standardmass für Risiko in den meisten Finanzmodellen, etwa der **Modernen Portfoliotheorie** (Markowitz), dem **CAPM** und der **[Sharpe-Ratio](/blog/sharpe-ratio-erklaert)**.
 
 Die Logik: höhere Volatilität bedeutet mehr Schwankungen, mehr Schwankungen bedeuten mehr Risiko, dass eine Position zu einem ungünstigen Zeitpunkt verkauft werden muss.
 
@@ -118,7 +118,7 @@ Praktische Anwendungen:
 
 **Risk Parity.** Eine Anlagestrategie, die auf der Volatilitäts-Gleichgewichtung basiert. Bridgewater (Ray Dalio) ist der bekannteste Vertreter.
 
-**Stop-Loss-Bemessung.** Volatilere Werte brauchen weitere Stops, sonst wird man durch normales "Marktrauschen" ausgestoppt.
+**[Stop-Loss-Bemessung](/blog/stop-loss-richtig-setzen).** Volatilere Werte brauchen weitere Stops, sonst wird man durch normales "Marktrauschen" ausgestoppt.
 
 **Options-Bewertung.** Volatilität ist die zentrale Variable in jedem Optionspreismodell.
 

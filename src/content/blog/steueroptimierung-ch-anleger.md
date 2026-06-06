@@ -31,7 +31,7 @@ Aber: Es gibt auch Fallen, die Einstufung als gewerbsmässiger Trader ist die gr
 
 ## Tipp 1: Säule 3a maximal ausschöpfen
 
-Die Säule 3a (private gebundene Vorsorge) ist 2026 die wichtigste Steueroptimierung für Erwerbstätige:
+Die [Säule 3a](/blog/saeule-3a-etf) (private gebundene Vorsorge) ist 2026 die wichtigste Steueroptimierung für Erwerbstätige:
 
 **Maximale Einzahlung 2026** (Beträge können sich ändern):
 - Mit Pensionskasse: 7.258 CHF pro Jahr
@@ -80,7 +80,7 @@ Ein freiwilliger Einkauf in die Pensionskasse (Säule 2) ist eines der mächtigs
 
 ## Tipp 3: DA-1 immer nutzen
 
-Wer ausländische Aktien hält, MUSS das DA-1 in der Steuererklärung nutzen, sonst verschenkt er die DBA-Anrechnung.
+Wer ausländische Aktien hält, MUSS das [DA-1](/blog/us-quellensteuer-da1) in der Steuererklärung nutzen, sonst verschenkt er die DBA-Anrechnung.
 
 Wichtig: Bei steuereinfachen Schweizer Brokern (Saxo, Cornèrtrader, Swissquote, UBS) wird das DA-1 vorausgefüllt mitgeliefert. Bei IBKR oder Lightyear muss man es manuell zusammenstellen, was bei vielen Aktien zeitaufwändig ist.
 
@@ -132,7 +132,7 @@ Für Schweizer Anleger sind beide Varianten OK, der Unterschied ist meist klein.
 
 ## Tipp 7: KER-Ausschüttungen bevorzugen
 
-Schweizer Unternehmen können einen Teil ihrer Dividende aus dem **Kapitaleinlageprinzip** (KER) ausschütten, diese sind **verrechnungssteuerfrei**.
+Schweizer Unternehmen können einen Teil ihrer Dividende aus dem **Kapitaleinlageprinzip** (KER) ausschütten, diese sind **[verrechnungssteuerfrei](/blog/verrechnungssteuer-schweiz)**.
 
 Beispiele: Bei manchen SMI-Werten (z.B. Logitech in vergangenen Jahren) kommt ein Teil als KER. Wer auf solche Werte setzt, spart die mühselige Verrechnungssteuer-Rückforderung.
 
@@ -142,7 +142,7 @@ Beispiele: Bei manchen SMI-Werten (z.B. Logitech in vergangenen Jahren) kommt ei
 
 Das ist nicht "Optimierung" im positiven Sinne, sondern eine **Verteidigung gegen Schlechteres**.
 
-Gemäss ESTV-Kreisschreiben 36 wird man als gewerbsmässig eingestuft, wenn:
+Gemäss ESTV-Kreisschreiben 36 wird man als [gewerbsmässig eingestuft](/blog/privater-anleger-gewerbsmaessig), wenn:
 1. Haltedauer unter 6 Monaten
 2. Volumen 5x das Vorjahresvermögen
 3. Kapitalgewinne 50%+ des Nettoeinkommens

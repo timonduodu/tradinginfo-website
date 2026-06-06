@@ -101,13 +101,13 @@ Mit klaren Regeln für Position-Sizing basierend auf ATR (Average True Range).
 
 ## Risikomanagement bei Trendfolge
 
-Die mit Abstand wichtigste Komponente einer Trendfolge-Strategie ist nicht das Einstiegssignal, es ist das Risikomanagement.
+Die mit Abstand wichtigste Komponente einer Trendfolge-Strategie ist nicht das Einstiegssignal, es ist das [Risikomanagement](/blog/risikomanagement).
 
 Standardregeln professioneller Trendfolger:
 
 1. **Maximales Risiko pro Trade: 0.5 bis 1.5 % des Kontos.** Bei 100'000 CHF Konto sind das 500 bis 1'500 CHF Verlust pro Position.
 
-2. **Stop-Loss vor Eintritt definieren.** Position-Sizing wird aus dem Stop-Abstand abgeleitet, nicht umgekehrt.
+2. **[Stop-Loss](/blog/stop-loss-richtig-setzen) vor Eintritt definieren.** [Position-Sizing](/blog/positionsgroesse-berechnen) wird aus dem Stop-Abstand abgeleitet, nicht umgekehrt.
 
 3. **Diversifikation über mindestens 15 bis 25 unkorrelierte Märkte.** Kein einzelner Markt darf das Konto definieren.
 
@@ -136,7 +136,7 @@ Die akademische und institutionelle Forschung der letzten zwanzig Jahre hat Tren
 - Positive Performance über alle grossen Anlageklassen
 - Niedrige Korrelation zu Aktien und Anleihen
 - Besonders gute Performance in Crisis-Perioden (2008, 2020, 2022)
-- Sharpe-Ratios im Bereich von 0.7 bis 1.2 für gut diversifizierte Programme
+- [Sharpe-Ratios](/blog/sharpe-ratio-erklaert) im Bereich von 0.7 bis 1.2 für gut diversifizierte Programme
 
 Privatanleger können Trendfolge entweder selbst umsetzen, was substantielles Wissen und Disziplin erfordert, oder über Trendfolge-ETFs und Mutual Funds zugreifen.
 

@@ -21,7 +21,7 @@ App-basierte Anbieter haben das Investieren in der Schweiz zugänglich gemacht: 
 
 ## Die drei Anbieter im Überblick
 
-**Neon** ist eine der meistgenutzten Schweizer Neobanken. Im Hintergrund steht die FINMA-lizenzierte Bank Helvetia. Mit "Neon Invest" lassen sich seit einigen Jahren auch Aktien und ETFs in der App kaufen.
+**Neon** ist eine der meistgenutzten Schweizer Neobanken. Im Hintergrund steht die FINMA-lizenzierte Bank Helvetia. Mit ["Neon Invest"](/blog/yuh-vs-neon-invest) lassen sich seit einigen Jahren auch Aktien und ETFs in der App kaufen.
 
 **Yuh** ist eine Kooperation zwischen Swissquote (dem führenden Schweizer Online-Broker) und PostFinance. Diese Kombination macht Yuh besonders: ein Bankkonto verbunden mit der Möglichkeit, direkt in Aktien, ETFs, Anleihen und sogar Kryptowährungen zu investieren.
 
@@ -57,9 +57,9 @@ Wer die App auch fürs tägliche Banking nutzen will, sollte das beachten:
 
 ## Besonderheiten
 
-**Yuh:** Durch die Swissquote-Anbindung gibt es ein breites Anlageangebot inklusive Krypto und seit 2026 auch eine Säule-3a-Lösung. Fractional Trading (Bruchstücke von Aktien) ist möglich.
+**Yuh:** Durch die Swissquote-Anbindung gibt es ein breites Anlageangebot inklusive Krypto und seit 2026 auch eine [Säule-3a-Lösung](/blog/saeule-3a-etf). Fractional Trading (Bruchstücke von Aktien) ist möglich.
 
-**Neon:** Bietet Sparpläne auf Aktien und ETFs, bei denen monatlich in mehrere Wertpapiere ohne zusätzliche Handelskosten investiert werden kann. Einige ETFs sind kostenlos handelbar. Fractional Trading ist hier eingeschränkter.
+**Neon:** Bietet [Sparpläne auf Aktien und ETFs](/blog/etf-sparplan-schweiz), bei denen monatlich in mehrere Wertpapiere ohne zusätzliche Handelskosten investiert werden kann. Einige ETFs sind kostenlos handelbar. Fractional Trading ist hier eingeschränkter.
 
 **Revolut:** Stark für Vielreisende und alle, die viel mit Fremdwährungen oder Krypto zu tun haben.
 

@@ -21,13 +21,13 @@ Die meisten Trader denken zuerst an den Einstieg: Welche Aktie, welcher Kurs, we
 
 ## Warum die Positionsgrösse entscheidend ist
 
-Man kann mit einer mittelmässigen Strategie und gutem Risikomanagement überleben. Mit einer brillanten Strategie und schlechtem Risikomanagement geht man irgendwann pleite. Der Grund: Ein einziger zu grosser Verlust kann das Konto so dezimieren, dass es sich kaum erholt.
+Man kann mit einer mittelmässigen Strategie und gutem [Risikomanagement](/blog/risikomanagement) überleben. Mit einer brillanten Strategie und schlechtem Risikomanagement geht man irgendwann pleite. Der Grund: Ein einziger zu grosser Verlust kann das Konto so dezimieren, dass es sich kaum erholt.
 
 Wer 50 % seines Kapitals verliert, muss 100 % Gewinn machen, nur um wieder bei null zu sein. Genau deshalb begrenzen disziplinierte Trader das Risiko pro Trade von vornherein, und das geschieht über die Positionsgrösse.
 
 ## Die Grundregel: Risiko pro Trade festlegen
 
-Eine verbreitete Faustregel lautet, pro Trade nur einen kleinen, festen Prozentsatz des Kontos zu riskieren, oft 1 % oder 2 %. "Riskieren" heisst dabei: der Betrag, den Sie verlieren, wenn Ihr Stop-Loss ausgelöst wird, nicht der gesamte Einsatz.
+Eine verbreitete Faustregel lautet, pro Trade nur einen kleinen, festen Prozentsatz des Kontos zu riskieren, oft 1 % oder 2 %. "Riskieren" heisst dabei: der Betrag, den Sie verlieren, wenn Ihr [Stop-Loss](/blog/stop-loss-richtig-setzen) ausgelöst wird, nicht der gesamte Einsatz.
 
 Bei einem Konto von CHF 50'000 und 1 % Risiko pro Trade bedeutet das: maximal CHF 500 Verlust pro Trade.
 

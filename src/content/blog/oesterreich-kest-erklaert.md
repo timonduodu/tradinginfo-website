@@ -97,7 +97,7 @@ Bei ETFs und Investmentfonds gibt es **ausschüttungsgleiche Erträge** (AGE), d
 
 **Was du wissen musst**:
 - Bei **inländischen Fonds** und steuereinfachen ETFs erfolgt das automatisch via Banktrust
-- Bei **ausländischen thesaurierenden ETFs** ohne österreichische steuerliche Vertretung: du musst die AGE selbst ermitteln und versteuern, sehr aufwändig
+- Bei **ausländischen [thesaurierenden](/blog/thesaurierend-vs-ausschuettend) ETFs** ohne österreichische steuerliche Vertretung: du musst die AGE selbst ermitteln und versteuern, sehr aufwändig
 
 **Praxis-Tipp**: Wer ETFs handelt, sollte auf **steuereinfache ETFs** achten, diese haben einen österreichischen Steuervertreter und melden die AGE korrekt. Justetf.com und finanzfluss.at haben Listen mit steuereinfachen ETFs.
 
@@ -118,7 +118,7 @@ Bei inländischen Krypto-Plattformen (Bitpanda, Coinfinity) wird die KESt automa
 
 ## FIFO-Methode
 
-Österreich verwendet die **FIFO-Methode** (First In, First Out) zur Bestimmung der Anschaffungskosten:
+Österreich verwendet die **[FIFO-Methode](/blog/fifo-vs-durchschnitt-dach)** (First In, First Out) zur Bestimmung der Anschaffungskosten:
 
 Wenn du zu verschiedenen Zeitpunkten dieselbe Aktie kaufst und einen Teil verkaufst, gelten die **ältesten** Anteile als zuerst verkauft.
 
@@ -158,7 +158,7 @@ Diese werden von Trade Republic automatisch einbehalten. Du musst nichts deklari
 
 ## Häufige Fehler
 
-**1. Ausländische Broker nicht deklarieren**: Wer bei Interactive Brokers oder DEGIRO tradet, muss alles selbst deklarieren. Wer das vergisst, riskiert Steuerhinterziehung.
+**1. Ausländische Broker nicht deklarieren**: Wer bei [Interactive Brokers](/blog/interactive-brokers-schweiz-guide) oder [DEGIRO](/blog/degiro-test) tradet, muss alles selbst deklarieren. Wer das vergisst, riskiert Steuerhinterziehung.
 
 **2. AGE bei ausländischen ETFs ignorieren**: Selbst thesaurierende ETFs erzeugen jährliche Steuerpflichten.
 

@@ -21,9 +21,9 @@ Wer ein Finanzinstrument kauft und es im selben Moment wieder verkaufen würde, 
 
 ## Definition und Mechanik
 
-Der Spread bezeichnet die Differenz zwischen dem Geldkurs (Bid) und dem Briefkurs (Ask) eines Finanzinstruments. Der Geldkurs ist der Preis, zu dem ein Marktteilnehmer bereit ist zu kaufen, der Briefkurs jener, zu dem verkauft wird. Diese beiden Preise sind nie identisch, und die Differenz zwischen ihnen ist der Spread.
+Der Spread bezeichnet die Differenz zwischen dem [Geldkurs (Bid) und dem Briefkurs (Ask)](/blog/bid-ask-spread) eines Finanzinstruments. Der Geldkurs ist der Preis, zu dem ein Marktteilnehmer bereit ist zu kaufen, der Briefkurs jener, zu dem verkauft wird. Diese beiden Preise sind nie identisch, und die Differenz zwischen ihnen ist der Spread.
 
-Ein konkretes Beispiel: Bei EUR/USD steht der Markt bei 1.0850 / 1.0852. Der Trader kann zu 1.0852 kaufen und zu 1.0850 verkaufen. Die Differenz beträgt 0.0002, das sind 2 Pips. Bei einer Standard-Position von 100'000 EUR entspricht das 20 USD direkten Kosten beim Eingehen der Position.
+Ein konkretes Beispiel: Bei EUR/USD steht der Markt bei 1.0850 / 1.0852. Der Trader kann zu 1.0852 kaufen und zu 1.0850 verkaufen. Die Differenz beträgt 0.0002, das sind 2 [Pips](/blog/was-ist-ein-pip). Bei einer Standard-Position von 100'000 EUR entspricht das 20 USD direkten Kosten beim Eingehen der Position.
 
 > *"In the trading business, your most important edge is understanding cost. Everything else is secondary."*
 >, **Paul Tudor Jones**
@@ -64,7 +64,7 @@ Folgende Tabelle zeigt typische Spread-Kosten für eine Standard-Position über 
 
 Der gezeigte Spread im Trading-Terminal ist nicht immer der ausgeführte Spread. Zwei Phänomene können zusätzliche Kosten verursachen:
 
-**Slippage** bezeichnet die Differenz zwischen erwartetem und tatsächlichem Ausführungspreis. In schnellen Märkten kann die Slippage 1 bis 5 Pips betragen, bei wichtigen Wirtschaftsdaten sogar 10 bis 50 Pips.
+[**Slippage**](/blog/slippage-erklaert) bezeichnet die Differenz zwischen erwartetem und tatsächlichem Ausführungspreis. In schnellen Märkten kann die Slippage 1 bis 5 Pips betragen, bei wichtigen Wirtschaftsdaten sogar 10 bis 50 Pips.
 
 **Re-Quotes** treten auf, wenn der Broker eine Order zum gewünschten Preis nicht ausführt und stattdessen einen neuen, ungünstigeren Preis anbietet. Bei seriösen ECN-Brokern existieren Re-Quotes praktisch nicht.
 
@@ -79,7 +79,7 @@ Folgende Massnahmen helfen, Spread-Kosten zu minimieren:
 
 2. **ECN-Modell wählen.** Bei höheren Volumen ist Kommission plus echtem Spread fast immer günstiger als ein Market-Maker mit fixem Spread.
 
-3. **Limit-Orders statt Market-Orders.** Eine Limit-Order zum aktuellen Bid- oder Ask-Preis vermeidet Spread-Kosten, kann aber dazu führen, dass die Order nicht ausgeführt wird.
+3. **Limit-Orders statt Market-Orders.** Eine [Limit-Order](/blog/limit-order-erklaert) zum aktuellen Bid- oder Ask-Preis vermeidet Spread-Kosten, kann aber dazu führen, dass die Order nicht ausgeführt wird.
 
 4. **Volatile Zeiten vermeiden.** Spreads weiten sich vor wichtigen Wirtschaftsdaten oft auf das Drei- bis Zehnfache des Normalwerts aus. Wer nicht explizit auf das Ereignis spekuliert, sollte ausserhalb dieser Fenster handeln.
 

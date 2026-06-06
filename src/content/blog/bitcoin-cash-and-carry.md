@@ -77,7 +77,7 @@ Drei Hauptgründe:
 
 **3. Risikoprämie für unfreiwilligen Liquiditätsabfluss.** In Stressphasen kann Bitcoin-Spot illiquid werden. Wer Spot hält und Future shortet, übernimmt dieses Liquiditätsrisiko und wird dafür mit dem Premium entlohnt.
 
-In Bull-Markt-Phasen mit hoher Spekulationsnachfrage kann das Premium auf 20 bis 40 % annualisiert steigen. In Bärenmärkten kann es auf 0 oder sogar negativ fallen (Backwardation).
+In Bull-Markt-Phasen mit hoher Spekulationsnachfrage kann das Premium auf 20 bis 40 % annualisiert steigen. In Bärenmärkten kann es auf 0 oder sogar negativ fallen ([Backwardation](/blog/contango-backwardation)).
 
 ## Operative Umsetzung
 
@@ -115,13 +115,13 @@ In Bull-Phasen kann die Funding Rate 0.05 bis 0.1 % pro 8 Stunden betragen, annu
 
 Die Strategie ist **markt-neutral**, aber nicht **risikolos**:
 
-**Counterparty-Risiko.** Wer Spot auf einer Krypto-Börse hält, trägt das Insolvenz-Risiko dieser Börse. FTX 2022 hat schmerzhaft gezeigt, was das bedeutet. Cold-Storage-Selbstverwahrung ist sicherer, macht Cross-Margin aber unmöglich.
+**Counterparty-Risiko.** Wer Spot auf einer Krypto-Börse hält, trägt das Insolvenz-Risiko dieser Börse. FTX 2022 hat schmerzhaft gezeigt, was das bedeutet. [Cold-Storage-Selbstverwahrung](/blog/krypto-sicher-aufbewahren) ist sicherer, macht Cross-Margin aber unmöglich.
 
 **Liquidations-Risiko bei Perpetuals.** Wenn der Bitcoin-Preis stark steigt und die Short-Perpetual-Position nicht ausreichend gedeckt ist, droht eine Zwangsliquidation. Konservative Marginierung (mindestens 30 bis 50 % Eigenkapital gegen die Short) ist essentiell.
 
 **Premium-Verfall.** Wenn das Premium während der Haltedauer schneller schrumpft als linear, kann es vorteilhaft sein, vorzeitig auszusteigen. Aktive Überwachung der Marktstruktur ist wichtig.
 
-**Steuerliche Komplikationen.** In der Schweiz ist die steuerliche Behandlung von Krypto-Arbitrage komplex. Die Strategie kann je nach Umfang und Aktivität als gewerbsmässig eingestuft werden, mit voller Einkommenssteuerpflicht auf die Gewinne.
+**Steuerliche Komplikationen.** In der Schweiz ist die steuerliche Behandlung von Krypto-Arbitrage komplex. Die Strategie kann je nach Umfang und Aktivität als [gewerbsmässig eingestuft](/blog/privater-anleger-gewerbsmaessig) werden, mit voller Einkommenssteuerpflicht auf die Gewinne.
 
 ## Renditen in der Praxis
 

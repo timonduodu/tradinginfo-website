@@ -29,13 +29,13 @@ Genau diese Unterscheidung, geschenkt oder für eine Leistung, ist steuerlich de
 
 In der Schweiz behandeln die meisten Kantone Airdrops als **steuerpflichtiges Einkommen**, bewertet zum Marktwert am Tag des Erhalts. Die Logik: Sie erhalten einen Vermögenswert, der einen Geldwert hat.
 
-Die Praxis ist allerdings kantonal nicht völlig einheitlich. Klar ist: Die erhaltenen Token gehören anschliessend zum Vermögen und unterliegen am Stichtag 31. Dezember der Vermögenssteuer. Ein späterer Verkauf mit Gewinn ist für private Anleger steuerfrei.
+Die Praxis ist allerdings kantonal nicht völlig einheitlich. Klar ist: Die erhaltenen Token gehören anschliessend zum Vermögen und unterliegen am Stichtag 31. Dezember der [Vermögenssteuer](/blog/vermoegenssteuer-schweiz). Ein späterer Verkauf mit Gewinn ist für private Anleger steuerfrei.
 
 ## Deutschland: es kommt auf die Gegenleistung an
 
 In Deutschland ist die Behandlung differenzierter und hängt davon ab, ob Sie etwas dafür getan haben:
 
-**Airdrop ohne Gegenleistung:** Wenn Sie keine Leistung erbracht haben, der Token also wirklich geschenkt wurde, ist der Zufluss nach aktueller Auffassung **nicht als Einkommen** zu versteuern. Erst beim späteren Verkauf greift die übliche Logik (steuerfrei nach einem Jahr Haltefrist, sonst steuerpflichtig).
+**Airdrop ohne Gegenleistung:** Wenn Sie keine Leistung erbracht haben, der Token also wirklich geschenkt wurde, ist der Zufluss nach aktueller Auffassung **nicht als Einkommen** zu versteuern. Erst beim späteren Verkauf greift die übliche Logik (steuerfrei nach einem Jahr [Haltefrist](/blog/krypto-steuern-deutschland), sonst steuerpflichtig).
 
 **Airdrop mit Gegenleistung:** Haben Sie etwas getan, um den Airdrop zu erhalten (Aufgaben erfüllt, geworben, getestet), gilt der Zufluss als **sonstige Einkünfte** und ist zum Marktwert steuerpflichtig.
 

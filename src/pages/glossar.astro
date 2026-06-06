@@ -2,6 +2,7 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import NewsletterSignup from '../components/NewsletterSignup.astro';
 import { glossar } from '../data/glossar';
+import { glossarAnchor } from '../data/glossar-anchor';
 
 // Nach Anfangsbuchstaben gruppieren
 const gruppen = new Map<string, typeof glossar>();
@@ -56,7 +57,7 @@ const schema = {
         <h2 id={letter} class="letter-heading">{letter}</h2>
         <dl>
           {gruppen.get(letter)!.map(e => (
-            <div class="entry" data-begriff={e.begriff.toLowerCase()}>
+            <div class="entry" id={glossarAnchor(e.begriff)} data-begriff={e.begriff.toLowerCase()}>
               <dt>{e.begriff}</dt>
               <dd>
                 {e.definition}
@@ -150,7 +151,8 @@ const schema = {
     scroll-margin-top: 80px;
   }
   dl { margin: 0; }
-  .entry { padding: var(--space-sm) 0; border-bottom: 1px solid var(--color-rule); }
+  .entry { padding: var(--space-sm) 0; border-bottom: 1px solid var(--color-rule); scroll-margin-top: 80px; }
+  .entry:target { background: var(--color-highlight); }
   dt { font-weight: 700; font-size: 1.05rem; margin-bottom: 0.25rem; }
   dd {
     margin: 0;

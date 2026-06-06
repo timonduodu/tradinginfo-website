@@ -32,7 +32,7 @@ Der Trader spekuliert nicht auf die Richtung des Basiswerts, sondern auf die **r
 
 Die Form der Futures-Kurve ist die zentrale Variable bei Calendar Spreads.
 
-**Contango** beschreibt eine Situation, in der weiter in der Zukunft liegende Futures teurer notieren als näher liegende. Dies ist der "normale" Zustand bei lagerfähigen Rohstoffen, die Lager- und Finanzierungskosten werden in den höheren Forward-Preis eingepreist.
+[**Contango**](/blog/contango-backwardation) beschreibt eine Situation, in der weiter in der Zukunft liegende Futures teurer notieren als näher liegende. Dies ist der "normale" Zustand bei lagerfähigen Rohstoffen, die Lager- und Finanzierungskosten werden in den höheren Forward-Preis eingepreist.
 
 **Backwardation** ist die umgekehrte Situation: Spot-Preis und nahe Futures sind teurer als weiter entfernte Lieferungen. Dies tritt bei akuten Versorgungsknappheiten oder hoher physischer Nachfrage auf.
 
@@ -103,13 +103,13 @@ Das Konzept ist nicht auf Rohstoffe beschränkt:
 
 Wer Calendar Spreads handeln möchte, sollte beachten:
 
-1. **Broker-Wahl.** Nicht alle Broker bieten echte Spread-Order-Funktionen. Interactive Brokers und CQG sind führend, viele Discount-Broker bieten nur Bein-für-Bein-Ausführung mit höherem Slippage-Risiko.
+1. **Broker-Wahl.** Nicht alle Broker bieten echte Spread-Order-Funktionen. Interactive Brokers und CQG sind führend, viele Discount-Broker bieten nur Bein-für-Bein-Ausführung mit höherem [Slippage](/blog/slippage-erklaert)-Risiko.
 
 2. **Spread-Charting.** Sinnvolle Analyse erfordert Spread-Charts, nicht Einzel-Charts. Plattformen wie SpreadCharts.com oder Moore Research bieten spezialisierte Tools.
 
 3. **Margin-Verständnis.** Margin-Modelle für Spreads sind komplex. Vor der ersten Live-Position sollte das Margin-Verhalten im Demo-Konto verstanden sein.
 
-4. **Position-Sizing.** Spreads haben oft geringere Volatilität, aber gehebelte Positionen können dennoch zu erheblichen Verlusten führen. Standardregel: nicht mehr als 1 bis 2 % des Kontos pro Spread riskieren.
+4. **[Position-Sizing](/blog/positionsgroesse-berechnen).** Spreads haben oft geringere Volatilität, aber gehebelte Positionen können dennoch zu erheblichen Verlusten führen. Standardregel: nicht mehr als 1 bis 2 % des Kontos pro Spread riskieren.
 
 ## Fazit
 

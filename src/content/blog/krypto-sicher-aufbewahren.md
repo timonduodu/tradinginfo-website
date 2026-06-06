@@ -35,7 +35,7 @@ Daraus ergibt sich die zentrale Entscheidung: Lassen Sie Ihre Coins bei einer B�
 
 **Börse:** Bequem, aber Sie vertrauen darauf, dass die Börse solide ist und nicht gehackt wird. Die Geschichte kennt mehrere Fälle, in denen Anleger bei Börsenpleiten ihr Vermögen verloren.
 
-**Software-Wallet (Hot Wallet):** Eine App auf Handy oder Computer. Sie kontrollieren die Schlüssel, aber das Gerät ist mit dem Internet verbunden, was ein Angriffsrisiko bedeutet.
+[**Software-Wallet (Hot Wallet):**](/blog/krypto-wallets-hot-cold) Eine App auf Handy oder Computer. Sie kontrollieren die Schlüssel, aber das Gerät ist mit dem Internet verbunden, was ein Angriffsrisiko bedeutet.
 
 **Hardware-Wallet (Cold Storage):** Ein physisches Gerät, das die Schlüssel offline speichert. Gilt als sicherste Methode für grössere Beträge.
 
@@ -56,7 +56,7 @@ Die Seed Phrase ist damit Ihr wertvollstes Geheimnis, wertvoller als das Gerät 
 
 **Auf Phishing hereinfallen:** Betrüger bauen täuschend echte Webseiten und fragen die Seed Phrase ab. Merke: Keine seriöse Wallet und keine Börse fragt jemals nach Ihrer kompletten Seed Phrase.
 
-**Alles auf einer Börse lassen:** Grössere Beträge dauerhaft auf einer Börse zu halten, setzt Sie deren Risiko aus. Für aktives Trading praktisch, für langfristiges Halten riskant.
+**Alles auf einer Börse lassen:** Grössere Beträge dauerhaft auf einer Börse zu halten, setzt Sie deren Risiko aus. Für [aktives Trading](/blog/buy-and-hold-vs-trading) praktisch, für langfristiges Halten riskant.
 
 **Keine Backup-Strategie:** Eine einzige Kopie der Seed Phrase an einem Ort kann durch Feuer, Wasser oder Verlust vernichtet werden. Mehrere sichere, getrennte Aufbewahrungsorte sind ratsam.
 
