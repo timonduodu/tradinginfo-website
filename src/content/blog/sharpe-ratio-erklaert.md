@@ -6,6 +6,15 @@ category: "Grundlagen"
 subcategory: "Kennzahlen"
 author: "Redaktion"
 readingTime: "8 Min. Lesezeit"
+faq:
+  - question: "Wie wird die Sharpe Ratio berechnet?"
+    answer: "Die Sharpe Ratio ergibt sich aus der Rendite minus dem risikofreien Zinssatz, geteilt durch die Volatilität. Sie misst, wie viel Überrendite pro Einheit Risiko erwirtschaftet wird."
+  - question: "Was ist eine gute Sharpe Ratio?"
+    answer: "Werte zwischen 1,0 und 2,0 gelten als sehr gut, 2,0 bis 3,0 als exzellent. Der S&P 500 liegt historisch bei etwa 0,4 bis 0,5, Werte über 3 sind aussergewöhnlich und oft unrealistisch."
+  - question: "Was sind die Schwächen der Sharpe Ratio?"
+    answer: "Sie behandelt Aufwärts- und Abwärtsvolatilität gleich, setzt eine Normalverteilung der Renditen voraus (reale Märkte haben Fat Tails), ist zeitabhängig und reagiert auf den risikofreien Zins. Alternativen sind etwa die Sortino Ratio oder die Calmar Ratio."
+  - question: "Warum ist eine sehr hohe Sharpe Ratio verdächtig?"
+    answer: "Eine Sharpe Ratio über 3 über mehrere Jahre deutet oft auf Überfitting oder nicht erfasste Risiken hin. Bernie Madoffs angebliche Performance hatte eine Sharpe Ratio von etwa 4, war aber ein Schneeballsystem."
 ---
 
 Zwei Trader im Vergleich: Trader A erzielte im letzten Jahr 30 % Rendite. Trader B nur 15 %. Wer ist der bessere Trader?

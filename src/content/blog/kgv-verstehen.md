@@ -6,6 +6,15 @@ category: "Grundlagen"
 subcategory: "Bewertung"
 author: "Redaktion"
 readingTime: "8 Min. Lesezeit"
+faq:
+  - question: "Wie berechnet man das KGV?"
+    answer: "Das KGV setzt den aktuellen Aktienkurs ins Verhältnis zum Gewinn pro Aktie. Notiert eine Aktie zu 100 Franken bei 5 Franken Gewinn pro Aktie, beträgt das KGV 20, man zahlt also 20 Franken für jeden Franken Jahresgewinn."
+  - question: "Was ist der Unterschied zwischen Trailing und Forward P/E?"
+    answer: "Das Trailing P/E verwendet den Gewinn der letzten zwölf Monate und ist faktisch nachweisbar. Das Forward P/E stützt sich auf den erwarteten Gewinn der kommenden zwölf Monate und hängt von Analystenprognosen ab, die regelmässig danebenliegen."
+  - question: "Ist ein niedriges KGV immer ein Kaufsignal?"
+    answer: "Nein, ein niedriges KGV kann auf strukturelle Probleme, zyklische Hochs oder spezifische Risiken hindeuten. Nur in wenigen Fällen ist es tatsächlich eine echte Unterbewertung und damit eine Kaufgelegenheit."
+  - question: "Warum sollte man das KGV nicht isoliert nutzen?"
+    answer: "Das KGV hat Schwächen wie bilanzielle Beeinflussbarkeit, Wertlosigkeit bei Verlusten und Branchen-Unterschiede. Professionelle Anleger ergänzen es daher mit Kennzahlen wie PEG-Ratio, EV/EBITDA, Free Cashflow Yield oder dem Kurs-Buchwert-Verhältnis."
 ---
 
 Das Kurs-Gewinn-Verhältnis, international als **P/E-Ratio** bekannt, ist die wohl populärste Bewertungskennzahl an den Aktienmärkten. Kaum eine Unternehmensanalyse, kaum ein Börsenartikel kommt ohne diese Zahl aus. Trotz ihrer Allgegenwart wird sie regelmässig falsch interpretiert. Eine fundierte Auseinandersetzung lohnt sich für jeden Anleger.

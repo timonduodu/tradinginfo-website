@@ -6,6 +6,15 @@ category: "Strategien"
 subcategory: "Dividenden"
 author: "Redaktion"
 readingTime: "9 Min. Lesezeit"
+faq:
+  - question: "Wie hoch ist die Verrechnungssteuer auf Schweizer Dividenden?"
+    answer: "Auf Dividenden Schweizer Unternehmen wird eine Verrechnungssteuer von 35 Prozent erhoben. Für in der Schweiz steuerpflichtige Anleger ist sie nur ein Durchlaufposten, der sich über die Steuererklärung vollständig zurückfordern lässt, sofern die Dividende korrekt deklariert wird."
+  - question: "Ist eine hohe Dividendenrendite ein gutes Kaufsignal?"
+    answer: "Nein, eine sehr hohe Dividendenrendite ist oft ein Warnsignal statt ein Kaufgrund. Fällt der Kurs wegen Problemen im Unternehmen, steigt die Rendite rechnerisch, und eine zweistellige Rendite bedeutet oft, dass der Markt eine Dividendenkürzung erwartet."
+  - question: "Sind Dividenden in der Schweiz steuerpflichtig?"
+    answer: "Ja, anders als Kursgewinne, die für private Anleger in der Schweiz steuerfrei sind, gelten Dividenden als steuerbares Einkommen und erhöhen die Einkommenssteuer."
+  - question: "Einzelaktien oder Dividenden-ETF für die Dividenden-Strategie?"
+    answer: "Einzelaktien geben volle Kontrolle, erfordern aber Auswahl, Überwachung und ausreichend Kapital zur Diversifikation. Für die meisten Anleger ohne Zeit für intensive Einzelanalyse ist ein breit gestreuter Dividenden-ETF der pragmatischere Weg."
 ---
 
 Der Schweizer Aktienmarkt ist bei Dividendenanlegern beliebt, nicht ohne Grund: Viele etablierte Unternehmen schütten verlässlich aus. Doch eine erfolgreiche Dividenden-Strategie besteht aus mehr als der Jagd nach der höchsten Rendite. Dieser Artikel zeigt, worauf es im Schweizer Kontext ankommt.

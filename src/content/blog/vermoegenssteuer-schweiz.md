@@ -6,6 +6,15 @@ category: "Steuern"
 subcategory: "Schweiz"
 author: "TradingWissen Redaktion"
 featured: false
+faq:
+  - question: "Was ist die Vermögenssteuer in der Schweiz?"
+    answer: "Die Vermögenssteuer ist eine kantonale und kommunale Steuer auf dein gesamtes Reinvermögen, also Vermögen minus Schulden. Sie wird auf das Vermögen per 31. Dezember des Steuerjahres berechnet."
+  - question: "Was zählt zum steuerbaren Vermögen?"
+    answer: "Zum steuerbaren Vermögen zählen unter anderem Bankkonten, Aktien, Anleihen, ETFs, Kryptowährungen, strukturierte Produkte, Immobilien zum Steuerwert, Lebensversicherungen mit Rückkaufswert und Edelmetalle. Nicht dazu zählen Hausrat im normalen Umfang und die Pensionskasse (Säule 2 vor Bezug)."
+  - question: "Wie hoch ist die Vermögenssteuer?"
+    answer: "Die Vermögenssteuer ist Kantonssache, die Sätze variieren massiv und betragen selbst in teuren Kantonen selten mehr als 0,5 bis 1 Prozent pro Jahr. Die Innerschweizer Kantone wie Zug, Schwyz und Nidwalden sind besonders steuergünstig, Genf und Basel-Stadt sind teuer."
+  - question: "Zahle ich Vermögenssteuer auch ohne realisierten Gewinn?"
+    answer: "Ja, die Vermögenssteuer wird auf den Marktwert deiner Aktien am 31. Dezember erhoben, unabhängig davon, ob du Gewinn oder Verlust gemacht hast. Auch wenn du die Aktien nie verkaufst, zahlst du jährlich Vermögenssteuer auf den steigenden Marktwert."
 ---
 
 ## Was ist die Vermögenssteuer?

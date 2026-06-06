@@ -6,6 +6,15 @@ category: "Steuern"
 subcategory: "DACH-Vergleich"
 author: "TradingWissen Redaktion"
 featured: false
+faq:
+  - question: "Was bedeutet FIFO bei der Aktienbesteuerung?"
+    answer: "FIFO (First In, First Out) bedeutet, dass die zuerst gekauften Anteile steuerlich als zuerst verkauft gelten. Bei steigenden Märkten führt das zu einem höheren Gewinn und damit zu höherer Steuer."
+  - question: "Welche Zuordnungsmethode gilt in Deutschland und Österreich?"
+    answer: "In Deutschland und Österreich ist FIFO gesetzlich vorgeschrieben, eine Wahlmöglichkeit gibt es nicht. Alle Banken und Broker rechnen nach dieser Logik ab."
+  - question: "Spielt FIFO für Schweizer Privatanleger eine Rolle?"
+    answer: "Nein, in der Schweiz sind Kapitalgewinne für Privatanleger steuerfrei, daher ist die Methode der Anteilszuordnung steuerlich irrelevant. Relevant wird sie erst bei der Einstufung als gewerbsmässiger Trader."
+  - question: "Wie kann man den FIFO-Effekt in DE und AT legal umgehen?"
+    answer: "Indem man verschiedene Aktienpositionen von Anfang an in unterschiedlichen Depots hält, da jedes Depot separat behandelt wird. So kann man beim Verkauf entscheiden, von welchem Depot man verkauft. Nachträgliche Übertragungen gelten aber oft als fiktive Anschaffung."
 ---
 
 ## Das Grundproblem

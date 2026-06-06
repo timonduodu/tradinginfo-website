@@ -6,6 +6,15 @@ category: "Grundlagen"
 subcategory: "ETF"
 author: "Redaktion"
 readingTime: "9 Min. Lesezeit"
+faq:
+  - question: "Worauf sollte man bei der Anbieterwahl für einen ETF-Sparplan achten?"
+    answer: "Wichtig sind tiefe Sparplan-Gebühren, eine passende Auswahl an sparplanfähigen ETFs und, falls relevant, die Schweizer Einlagensicherung esisuisse. Einige Schweizer Anbieter erlauben Sparpläne ohne zusätzliche Handelskosten."
+  - question: "Welcher ETF eignet sich für einen Sparplan?"
+    answer: "Geeignet sind breit gestreute, kostengünstige ETFs mit tiefer TER von oft 0,1 bis 0,3 Prozent, physischer Replikation und ausreichender Fondsgrösse. Für Einsteiger ist ein einziger breiter Welt-ETF als Basis ein verbreiteter Ansatz."
+  - question: "Sind thesaurierende ETFs in der Schweiz steuerlich vorteilhaft?"
+    answer: "Nein, anders als in einigen Nachbarländern bringt die thesaurierende Variante in der Schweiz keinen Steueraufschub. Die reinvestierten Erträge sind im Jahr des Anfalls steuerbar und müssen deklariert werden."
+  - question: "Sollte man einen ETF-Sparplan bei Markteinbrüchen stoppen?"
+    answer: "Nein, wer bei jedem Markteinbruch panisch stoppt, verliert genau den Effekt, der den Sparplan stark macht, nämlich das günstige Nachkaufen in schwachen Phasen. Ein Sparplan ist ein langfristiges Instrument, das über Jahre wirkt."
 ---
 
 Ein ETF-Sparplan ist für viele der einfachste Einstieg ins langfristige Investieren: Man legt automatisch jeden Monat einen festen Betrag in einen breit gestreuten ETF an, ohne sich um Timing oder Einzelaktien zu kümmern. Dieser Artikel zeigt, wie man in der Schweiz einen solchen Sparplan aufsetzt.

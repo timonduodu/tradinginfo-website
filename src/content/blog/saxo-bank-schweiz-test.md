@@ -6,6 +6,15 @@ category: "Broker"
 subcategory: "Schweiz"
 author: "TradingWissen Redaktion"
 featured: false
+faq:
+  - question: "Hat Saxo Bank Schweiz Depotgebühren?"
+    answer: "Nein, Saxo Bank Schweiz hat im Februar 2025 die Depotgebühren für Privatkunden komplett abgeschafft. Das positioniert Saxo aktuell als einen der günstigsten Schweizer Broker."
+  - question: "Wie hoch sind die Handelsgebühren bei Saxo Bank Schweiz?"
+    answer: "Schweizer Aktien kosten mindestens CHF 3 (0,08 Prozent), US-Aktien mindestens USD 1 (0,06 Prozent). Die Wechselkursgebühr beträgt 0,25 Prozent auf den Mid-Spot."
+  - question: "Ist Saxo Bank Schweiz reguliert und sicher?"
+    answer: "Saxo Bank Schweiz ist eine voll lizenzierte Schweizer Bank mit Sitz in Zürich, FINMA-reguliert. Einlagen sind über esisuisse bis CHF 100'000 abgesichert, Wertschriften sind als Sondervermögen getrennt vom Bankvermögen."
+  - question: "Für wen eignet sich Saxo Bank Schweiz?"
+    answer: "Saxo eignet sich für Schweizer Anleger jeder Grösse, für Multi-Asset-Anleger, aktive Trader und Sparer, die ETF-Sparpläne via AutoInvest automatisieren wollen. Weniger geeignet ist sie für blutige Anfänger, die nur einfach einen ETF kaufen möchten."
 ---
 
 ## Wer ist Saxo Bank Schweiz?

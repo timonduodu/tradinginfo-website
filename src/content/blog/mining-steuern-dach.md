@@ -6,6 +6,15 @@ category: "Krypto"
 subcategory: "Steuern"
 author: "Redaktion"
 readingTime: "8 Min. Lesezeit"
+faq:
+  - question: "Sind Mining-Erträge steuerpflichtig?"
+    answer: "Ja, wer durch Mining neue Coins erhält, erzielt Einkommen und keinen steuerfreien Kursgewinn. Die geschürften Coins werden zum Marktwert am Tag des Zuflusses bewertet und versteuert, sowohl in der Schweiz als auch in Deutschland."
+  - question: "Wann gilt Mining in der Schweiz als selbständige Tätigkeit?"
+    answer: "Gelegentliches, kleines Mining wird als Vermögensertrag eingestuft. Grösseres, systematisches Mining kann als selbständige Erwerbstätigkeit gelten, dann fallen zusätzlich AHV-Beiträge an, im Gegenzug lassen sich Betriebskosten wie Strom und Hardware-Abschreibung abziehen."
+  - question: "Gibt es in Deutschland eine Freigrenze für Mining?"
+    answer: "Ja, Hobby-Mining im kleinen Rahmen fällt unter sonstige Einkünfte nach Paragraf 22 Nr. 3 EStG. Hier greift die Freigrenze von 256 Euro pro Jahr, darunter bleibt es steuerfrei."
+  - question: "Welche Kosten kann ich beim Mining steuerlich abziehen?"
+    answer: "Wer Mining gewerblich oder selbständig betreibt, kann Stromkosten, die Abschreibung der Mining-Hardware und anteilige Raumkosten geltend machen. Beim Hobby-Mining im Privatbereich ist der Abzug solcher Kosten in der Regel nicht oder nur eingeschränkt möglich."
 ---
 
 Mining klingt nach passivem Einkommen, doch steuerlich ist es alles andere als trivial. Anders als Kursgewinne, die für private Anleger oft steuerfrei bleiben, sind geschürfte Coins fast immer steuerpflichtiges Einkommen, und je nach Umfang kann sogar eine gewerbliche Tätigkeit vorliegen. Dieser Artikel zeigt die Regeln für die Schweiz und Deutschland.

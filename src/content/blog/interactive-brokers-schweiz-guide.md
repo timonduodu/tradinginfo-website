@@ -6,6 +6,15 @@ category: "Broker"
 subcategory: "Anleitungen"
 author: "Redaktion"
 readingTime: "10 Min. Lesezeit"
+faq:
+  - question: "Für wen eignet sich Interactive Brokers?"
+    answer: "IBKR eignet sich sehr gut für aktive Anleger mit US- oder Welt-Fokus, Optionen- und Futures-Trader sowie kostenbewusste Vielhandler. Für reine Buy-and-hold-Einsteiger ist die Plattform eher überdimensioniert."
+  - question: "Was ist das W-8BEN-Formular bei IBKR?"
+    answer: "Das W-8BEN-Formular wird bei der Kontoeröffnung für US-Erträge ausgefüllt und reduziert die US-Quellensteuer auf Dividenden von 30 auf 15 Prozent. Es sollte bei der Eröffnung nicht vergessen werden."
+  - question: "Liefert Interactive Brokers einen Schweizer Steuerausweis?"
+    answer: "Nein, als ausländischer Broker liefert IBKR keinen Schweizer Steuerausweis wie eine inländische Bank. Anleger müssen ihre Erträge selbst aus den Reports zusammenstellen, was die Steuererklärung aufwändiger macht."
+  - question: "Was ist der Vorteil des Multi-Währungs-Kontos bei IBKR?"
+    answer: "Man kann Guthaben in CHF, USD, EUR und weiteren Währungen halten und zu sehr guten Kursen wechseln. Statt bei jedem US-Aktienkauf eine teure Zwangsumrechnung zu akzeptieren, lässt sich gezielt ein grösserer Betrag günstig tauschen."
 ---
 
 Interactive Brokers (IBKR) gilt unter aktiven Schweizer Anlegern als einer der günstigsten Zugänge zu den globalen Märkten. Gleichzeitig schreckt die Plattform Einsteiger durch ihre Komplexität ab. Dieser Guide ordnet ein, für wen sich IBKR eignet und was bei der Nutzung aus der Schweiz zu beachten ist.

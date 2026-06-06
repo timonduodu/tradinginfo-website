@@ -7,6 +7,15 @@ subcategory: "Kosten"
 author: "Redaktion"
 readingTime: "11 Min. Lesezeit"
 featured: true
+faq:
+  - question: "Aus welchen Komponenten bestehen die wahren Kosten eines Trades?"
+    answer: "Ein Schweizer Anleger, der eine US-Aktie kauft, zahlt in der Regel Trading-Gebühr, Spread, Devisenwechsel (FX-Aufschlag), Stempelabgabe und Quellensteuer auf Dividenden. Dazu können Depot- oder Inaktivitätsgebühren kommen."
+  - question: "Was ist die Stempelabgabe?"
+    answer: "Die Stempelabgabe ist die Eidgenössische Umsatzabgabe, die Schweizer Banken auf Wertschriftentransaktionen erheben müssen: 0,075 Prozent für Schweizer und 0,15 Prozent für ausländische Wertschriften. Ausländische Broker wie IBKR sind nicht stempelabgabepflichtig."
+  - question: "Welche Kostenposition ist am stärksten versteckt?"
+    answer: "Der Devisenwechselkurs (FX-Aufschlag) ist die grösste versteckte Kostenposition bei Schweizer Brokern. Er reicht von rund 1,5 Prozent bei PostFinance über etwa 0,95 bis 1,2 Prozent bei Swissquote bis zu nur rund 0,002 Prozent bei IBKR."
+  - question: "Wie stark beeinflussen Gebühren die langfristige Rendite?"
+    answer: "Bei einem 30-jährigen Anlagehorizont kostet jeder zusätzliche Gebührenprozentpunkt rund ein Drittel der Endrendite. Als Faustregel gilt: Wer dauerhaft mehr als 0,5 Prozent seines Portfolios pro Jahr für Gebühren zahlt, ist beim falschen Broker."
 ---
 
 Wenn ein Broker mit "0 CHF pro Trade" wirbt, klingt das verlockend. Doch was viele Anleger nicht wissen: Die explizite Trading-Gebühr ist oft nur ein Bruchteil der tatsächlichen Kosten. Wir nehmen einen typischen Schweizer Aktienkauf auseinander und zeigen alle Kostenpositionen.

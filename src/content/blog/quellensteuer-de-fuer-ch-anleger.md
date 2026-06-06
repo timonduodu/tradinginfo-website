@@ -6,6 +6,15 @@ category: "Steuern"
 subcategory: "Schweiz"
 author: "TradingWissen Redaktion"
 featured: false
+faq:
+  - question: "Wie hoch ist die deutsche Quellensteuer auf Dividenden für Schweizer Anleger?"
+    answer: "Deutschland behält insgesamt 26,375 Prozent ein, zusammengesetzt aus 25 Prozent Abgeltungsteuer und 5,5 Prozent Solidaritätszuschlag darauf. Nach DBA darf Deutschland aber maximal 15 Prozent behalten."
+  - question: "Wie hole ich die deutsche Quellensteuer als Schweizer zurück?"
+    answer: "Die 15 Prozent nach DBA werden über das Formular DA-1 in der Schweizer Steuererklärung auf die Einkommenssteuer angerechnet. Die restlichen 11,375 Prozent musst du separat beim deutschen Bundeszentralamt für Steuern (BZSt) zurückfordern."
+  - question: "Wie lange habe ich Zeit für die Rückforderung in Deutschland?"
+    answer: "Die Frist für den Erstattungsantrag beim BZSt beträgt 4 Jahre. Danach verfällt der Anspruch auf die zusätzlichen 11,375 Prozent."
+  - question: "Lohnt sich der Rückforderungsantrag in Deutschland?"
+    answer: "Bei kleinen Beträgen unter 200 bis 300 CHF Rückerstattung lohnt sich der Aufwand kaum. Bei grösseren Dividenden lohnt es sich, und man kann mehrere Jahre sammeln und auf einmal beantragen, solange die 4-Jahres-Frist nicht überschritten wird."
 ---
 
 ## Die Ausgangssituation

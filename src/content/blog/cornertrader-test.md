@@ -6,6 +6,15 @@ category: "Broker"
 subcategory: "Schweiz"
 author: "TradingWissen Redaktion"
 featured: false
+faq:
+  - question: "Wer steht hinter Cornèrtrader?"
+    answer: "Cornèrtrader ist die Online-Trading-Plattform der Cornèr Bank, einer 1952 gegründeten Schweizer Privatbank mit Sitz in Lugano. Die Plattform wird seit 2012 betrieben und nutzt die Saxo-Bank-Technologie im Hintergrund."
+  - question: "Führt Cornèrtrader ab 2026 Depotgebühren ein?"
+    answer: "Ja, Cornèrtrader hat sein Pricing per 1. Januar 2026 angepasst und führt erstmals Depotgebühren auf Aktien ein. Bis CHF 10.000 Depotwert bleibt es gratis, darüber gestaffelte Jahresgebühren von CHF 80 bis maximal CHF 5.000."
+  - question: "Ist Cornèrtrader günstiger als Saxo Bank?"
+    answer: "Nein, für die meisten privaten Anleger ist Saxo Bank klar günstiger. Cornèrtrader hat eine Mindestgebühr von CHF 9 pro Trade gegenüber CHF 3 bei Saxo und führt zudem ab 2026 Depotgebühren ein, die Saxo nicht hat."
+  - question: "Für wen eignet sich Cornèrtrader?"
+    answer: "Cornèrtrader eignet sich für Schweizer Anleger mit kleinem Depot bis CHF 10.000 ohne Depotgebühr, Active Trader mit Wunsch nach Multi-Asset-Flexibilität sowie Anleger, die Wert auf eine Schweizer Banklizenz und eine integrierte Lösung mit Debitkarte legen."
 ---
 
 ## Wer ist Cornèrtrader?

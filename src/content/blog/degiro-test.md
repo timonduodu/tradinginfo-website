@@ -6,6 +6,15 @@ category: "Broker"
 subcategory: "Tests"
 author: "Redaktion"
 readingTime: "9 Min. Lesezeit"
+faq:
+  - question: "Ist DEGIRO für Schweizer Anleger reguliert und sicher?"
+    answer: "DEGIRO wurde 2008 in Amsterdam gegründet und gehört seit 2020 zur deutschen flatexDEGIRO Bank AG, reguliert durch die deutsche BaFin und die niederländische AFM. Es besteht eine Einlagensicherung bis 100.000 EUR über die deutsche Einlagensicherung."
+  - question: "Warum ist DEGIRO ideal für ETF-Sparpläne?"
+    answer: "DEGIRO bietet eine Kernselektion von rund 200 ETFs, die kostenlos handelbar sind. Bei Trades über 1.000 EUR fällt keine Kommission an, wodurch ein monatlicher Welt-ETF-Kauf zwischen 500 und 5.000 CHF praktisch keine Gebühren kostet, abgesehen von der Stempelabgabe."
+  - question: "Fällt bei DEGIRO die Schweizer Stempelabgabe an?"
+    answer: "Nein, da DEGIRO kein Schweizer Effektenhändler ist, entfällt die Stempelabgabe von 0,075 bzw. 0,15 Prozent. Allerdings ist der Steuerauszug nicht Schweizer-konform und erfordert manuelle Aufarbeitung der DA-1-Liste."
+  - question: "Für wen ist DEGIRO nicht geeignet?"
+    answer: "DEGIRO ist nicht die richtige Wahl für aktive Trader mit hoher Trade-Frequenz, Derivate-Strategien mit Optionen oder Futures, komplexe Steuersituationen sowie Anleger mit Bedarf an exotischen Märkten oder Premium-Service."
 ---
 
 DEGIRO ist seit Jahren der Geheimtipp für kostenbewusste europäische Anleger. Mit niedrigen Kommissionen, einer kernfreien ETF-Liste und einer einfachen Plattform hat sich der niederländische Broker als ernsthafte Alternative zu klassischen Anbietern etabliert. Für Schweizer Anleger lohnt ein genauer Blick.

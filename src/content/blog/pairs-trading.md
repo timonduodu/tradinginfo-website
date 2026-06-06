@@ -6,6 +6,15 @@ category: "Strategien"
 subcategory: "Fortgeschritten"
 author: "TradingWissen Redaktion"
 featured: false
+faq:
+  - question: "Was ist Pairs Trading?"
+    answer: "Pairs Trading ist eine marktneutrale Strategie, bei der gleichzeitig zwei historisch stark korrelierte Aktien gehandelt werden, eine long und eine short. Man wettet darauf, dass ein temporär auseinandergelaufener Spread wieder zum historischen Mittel zurückkehrt."
+  - question: "Welche Aktienpaare eignen sich für Pairs Trading?"
+    answer: "Geeignet sind zwei Aktien aus derselben Branche und Region mit ähnlichem Geschäftsmodell, vergleichbarer Marktkapitalisierung und einer historischen Korrelation über 0,8. Klassische DACH-Beispiele sind BMW vs. Mercedes-Benz, Roche vs. Novartis oder Allianz vs. Munich Re."
+  - question: "Wie wird Pairs Trading in der Schweiz besteuert?"
+    answer: "Pairs Trading erfüllt mehrere Kriterien des gewerbsmässigen Wertschriftenhandels wie kurze Haltedauern, Hebeleinsatz und systematisches Trading. Die ESTV wird es mit hoher Wahrscheinlichkeit als gewerbsmässig einstufen, womit Gewinne als Einkommen steuerpflichtig sind und AHV/IV anfällt."
+  - question: "Welche Risiken hat Pairs Trading?"
+    answer: "Zu den Hauptrisiken zählen der Pair Breakdown, wenn die historische Korrelation nicht mehr funktioniert, beidseitige Verluste bei weiter auseinanderlaufendem Spread, Übernachtfinanzierungskosten, Dividendenrisiken bei Short-Positionen und Margin Calls."
 ---
 
 ## Was ist Pairs Trading?

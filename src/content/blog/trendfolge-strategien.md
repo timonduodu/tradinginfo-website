@@ -6,6 +6,15 @@ category: "Strategien"
 subcategory: "Trendfolge"
 author: "Redaktion"
 readingTime: "10 Min. Lesezeit"
+faq:
+  - question: "Was ist Trendfolge?"
+    answer: "Trendfolge basiert auf der Hypothese, dass sich Märkte in Trends bewegen und diese länger dauern, als die meisten erwarten. Eine Trendfolge-Strategie versucht nicht, Tiefs oder Hochs zu finden, sondern Trends zu erkennen, mit ihnen zu reiten und auszusteigen, wenn der Trend bricht."
+  - question: "Warum scheitern viele Privatanleger an Trendfolge?"
+    answer: "Trendfolge funktioniert in Seitwärtsphasen kaum und durchlebt lange Frustrationsphasen mit Drawdowns von 20 bis 30 Prozent. Viele Anleger geben die Strategie gerade dann auf, bevor sie wieder profitabel wird, was die psychologische Dimension zum Hauptgrund des Scheiterns macht."
+  - question: "Welche Trefferquote ist bei Trendfolge realistisch?"
+    answer: "Eine realistische Trefferquote liegt bei 35 bis 45 Prozent Gewinn-Trades, denn 60 bis 70 Prozent der Trades sind Verluste oder kleine Gewinne. Wenige Home Runs von 5 bis 10 Prozent der Trades machen das Jahr, weil die Gewinne viel grösser sind als die Verluste."
+  - question: "Wie sieht das Risikomanagement bei Trendfolge aus?"
+    answer: "Die wichtigste Komponente ist das Risikomanagement, nicht das Einstiegssignal. Standardregeln sind maximal 0,5 bis 1,5 Prozent Risiko pro Trade, ein vor Eintritt definierter Stop-Loss, Diversifikation über mindestens 15 bis 25 unkorrelierte Märkte und Volatilitätsadjustierung."
 ---
 
 Trendfolge ist statistisch gesehen die erfolgreichste Trading-Methodik aller Zeiten. Mehr legendäre Trader haben ihr Vermögen mit Trendfolge aufgebaut als mit jeder anderen Strategie, von Richard Donchian über Bruce Kovner bis hin zu den modernen Commodity Trading Advisors. Gleichzeitig ist sie die Methode, an der die meisten Privatanleger scheitern. Der Widerspruch ist nicht zufällig, sondern fundamental für das Verständnis der Strategie.

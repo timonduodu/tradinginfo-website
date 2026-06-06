@@ -6,6 +6,15 @@ category: "Broker"
 subcategory: "Deutschland"
 author: "TradingWissen Redaktion"
 featured: false
+faq:
+  - question: "Was kostet eine Order bei Trade Republic?"
+    answer: "Trade Republic verlangt 1 EUR Fremdkostenpauschale pro Order, egal wie gross. ETF-, Aktien- und Krypto-Sparpläne sowie die Depotführung sind komplett gratis, die Mindestsparrate liegt bei 1 EUR pro Sparplan und Monat."
+  - question: "Ist Trade Republic für Schweizer verfügbar?"
+    answer: "Nein, Trade Republic ist nicht für Schweizer Wohnsitzler verfügbar. Personen mit Hauptwohnsitz in der Schweiz können kein Konto eröffnen. Schweizer mit Wohnsitz in einem unterstützten EU-Land können den Broker hingegen uneingeschränkt nutzen."
+  - question: "Ist Trade Republic steuereinfach?"
+    answer: "In Deutschland führt Trade Republic die Abgeltungsteuer automatisch ab, und ein Freistellungsauftrag kann in der App eingerichtet werden. In Österreich ist der Broker seit dem 24. April 2025 vollständig steuereinfach und führt die KESt von 27,5 Prozent automatisch ab."
+  - question: "Welche Schwächen hat Trade Republic?"
+    answer: "Trade Republic bietet nur einen Handelsplatz (LS Exchange), keine Profi-Funktionen wie Level-2-Daten oder komplexe Ordertypen, keinen Telefon-Support und ist in der Schweiz nicht verfügbar. Zudem besteht ein Konzentrationsrisiko, wenn die Plattform technische Probleme hat."
 ---
 
 ## Wer ist Trade Republic?

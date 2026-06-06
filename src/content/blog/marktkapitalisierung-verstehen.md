@@ -6,6 +6,15 @@ category: "Grundlagen"
 subcategory: "Bewertung"
 author: "TradingWissen Redaktion"
 featured: false
+faq:
+  - question: "Wie berechnet man die Marktkapitalisierung?"
+    answer: "Die Marktkapitalisierung berechnet sich aus Aktienkurs multipliziert mit der Anzahl ausstehender Aktien. Sie zeigt, wie viel Geld du theoretisch bräuchtest, um sämtliche Aktien des Unternehmens aufzukaufen."
+  - question: "Was ist der Unterschied zwischen Large, Mid und Small Caps?"
+    answer: "Die gängige Einteilung lautet: Mega Cap über 200 Mrd., Large Cap 10 bis 200 Mrd., Mid Cap 2 bis 10 Mrd., Small Cap 300 Mio. bis 2 Mrd. und Micro Cap unter 300 Mio. USD. Eine offizielle internationale Definition gibt es jedoch nicht."
+  - question: "Wie viele Aktien enthalten SMI, DAX und ATX?"
+    answer: "Der SMI enthält die 20 grössten Schweizer Aktien, der DAX seit September 2021 die 40 grössten deutschen Unternehmen und der ATX die 20 wichtigsten österreichischen Werte. Beim SMI machen die drei grössten Werte Nestlé, Roche und Novartis typischerweise rund die Hälfte des Indexgewichts aus."
+  - question: "Sagt die Marktkapitalisierung etwas über die Bewertung einer Aktie aus?"
+    answer: "Nein, die Marktcap zeigt nur, was die Börse heute über das Unternehmen denkt, nicht ob die Aktie billig oder teuer ist. Für die Bewertung braucht man Kennzahlen wie das KGV, das KBV oder das EV/EBITDA."
 ---
 
 ## Was ist Marktkapitalisierung?

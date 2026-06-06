@@ -6,6 +6,15 @@ category: "Steuern"
 subcategory: "Österreich"
 author: "TradingWissen Redaktion"
 featured: false
+faq:
+  - question: "Wie hoch ist die KESt in Österreich?"
+    answer: "Die Kapitalertragsteuer beträgt seit 2016 fix 27,5 Prozent auf Kapitalerträge wie Aktien-Kursgewinne, Dividenden und ETF-Erträge. Eine Ausnahme bilden Zinsen aus Sparbuch und Girokonto, die weiterhin mit 25 Prozent besteuert werden."
+  - question: "Was bedeutet ein steuereinfacher Broker?"
+    answer: "Ein steuereinfacher Broker führt die KESt automatisch ab, womit die Kapitalerträge nicht in der Einkommensteuererklärung angegeben werden müssen. In Österreich sind unter anderem Trade Republic, Flatex, DADAT und die Erste Group steuereinfach, während Interactive Brokers, DEGIRO und Lightyear es nicht sind."
+  - question: "Kann man Verluste in Österreich ins nächste Jahr vortragen?"
+    answer: "Nein, Verluste können in Österreich nur innerhalb desselben Kalenderjahres mit Gewinnen verrechnet werden. Ein Verlustvortrag in Folgejahre ist nicht möglich, was im Vergleich zu Deutschland eine unvorteilhafte Regelung darstellt."
+  - question: "Welche Methode gilt in Österreich zur Bestimmung der Anschaffungskosten?"
+    answer: "Österreich verwendet die FIFO-Methode (First In, First Out). Bei mehreren Käufen derselben Aktie gelten die ältesten Anteile als zuerst verkauft, diese Vorgabe ist gesetzlich vorgeschrieben."
 ---
 
 ## Was ist die KESt?

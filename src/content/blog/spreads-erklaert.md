@@ -6,6 +6,15 @@ category: "Grundlagen"
 subcategory: "Kosten"
 author: "Redaktion"
 readingTime: "10 Min. Lesezeit"
+faq:
+  - question: "Was ist ein Spread im Trading?"
+    answer: "Der Spread ist die Differenz zwischen dem Geldkurs (Bid), zu dem ein Marktteilnehmer kaufen will, und dem Briefkurs (Ask), zu dem verkauft wird. Diese beiden Preise sind nie identisch, und die Differenz ist eine direkte Kostenposition beim Eingehen einer Position."
+  - question: "Warum existiert der Spread?"
+    answer: "Der Spread ist die Vergütung der Market-Maker für ihre Bereitschaft, jederzeit Liquidität zu stellen. Er gleicht das Risiko aus, eine ungünstige Position eingehen zu müssen, und ist gleichzeitig der Gewinn aus diesem Geschäftsmodell."
+  - question: "Was ist der Unterschied zwischen fixen und variablen Spreads?"
+    answer: "Fixe Spreads ändern sich nicht mit den Marktbedingungen und bieten Planbarkeit, sind aber in ruhigen Phasen teurer. Variable Spreads spiegeln die echten Marktbedingungen wider und können in liquiden Phasen sehr eng sein, in illiquiden Phasen aber stark ansteigen."
+  - question: "Wie lassen sich Spread-Kosten reduzieren?"
+    answer: "Spread-Kosten lassen sich senken durch das Handeln in liquiden Stunden, die Wahl eines ECN-Modells bei höheren Volumen, den Einsatz von Limit-Orders, das Vermeiden volatiler Zeiten und die Bevorzugung liquider Instrumente."
 ---
 
 Wer ein Finanzinstrument kauft und es im selben Moment wieder verkaufen würde, verliert Geld. Nicht durch einen schlechten Trade, nicht durch Marktbewegung, sondern durch den Spread. Dieser Mechanismus ist die fundamentalste Kostenstruktur an den Finanzmärkten und gleichzeitig die am häufigsten unterschätzte.

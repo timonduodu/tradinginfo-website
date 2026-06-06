@@ -6,6 +6,15 @@ category: "Grundlagen"
 subcategory: "Risikomanagement"
 author: "TradingWissen Redaktion"
 featured: false
+faq:
+  - question: "Was ist ein Stop-Loss?"
+    answer: "Eine Stop-Loss-Order ist eine vorab platzierte Verkaufsorder, die automatisch ausgeführt wird, sobald der Kurs ein bestimmtes Niveau erreicht oder unterschreitet. Sie begrenzt Verluste, ohne dass man den Markt ständig beobachten muss."
+  - question: "Welche Stop-Loss-Typen gibt es?"
+    answer: "Es gibt den normalen Stop-Loss (Verkauf zum nächsten Marktpreis), die Stop-Limit-Order (nur zu einem Limit oder besser), den Trailing Stop (wandert mit dem Kurs nach oben mit) und den garantierten Stop-Loss, der gegen Gebühr exakt zum Stop-Kurs ausgeführt wird, auch bei Gaps."
+  - question: "Wie gross sollte die Positionsgrösse beim Stop-Loss sein?"
+    answer: "Die wichtigste Regel lautet, nie mehr als 1 bis 2 Prozent des Kontos pro Trade zu riskieren. Bei einem Konto von 50'000 CHF und 1 Prozent Risiko ergibt das maximal 500 CHF Verlust pro Trade, woraus sich die maximale Positionsgrösse berechnet."
+  - question: "Wann ist kein Stop-Loss sinnvoll?"
+    answer: "Bei sehr langfristigen Buy-and-Hold-Investments, bei breit gestreuten ETFs wie MSCI World oder FTSE All-World sowie bei sehr kleinen Positionen, deren Totalverlust nicht belastet. Für aktive Trades und konzentrierte Einzelaktien sind Stops dagegen praktisch immer Pflicht."
 ---
 
 ## Was ist ein Stop-Loss?

@@ -6,6 +6,15 @@ category: "Krypto"
 subcategory: "Sicherheit"
 author: "TradingWissen Redaktion"
 featured: false
+faq:
+  - question: "Was ist der Unterschied zwischen einer Hot und einer Cold Wallet?"
+    answer: "Eine Hot Wallet ist mit dem Internet verbunden, schnell zugänglich, aber angreifbar. Eine Cold Wallet wird offline gehalten, ist sicherer, aber unbequemer in der Nutzung."
+  - question: "Was bedeutet 'Not your keys, not your coins'?"
+    answer: "Der Spruch bedeutet, dass nur derjenige die echte Kontrolle über seine Coins hat, der seine privaten Schlüssel selbst verwaltet. Wer die Schlüssel einer Drittpartei überlässt, kann im Worst Case alles verlieren, wenn diese pleitegeht oder gehackt wird."
+  - question: "Ab welchem Betrag lohnt sich eine Hardware Wallet?"
+    answer: "Eine Hardware Wallet lohnt sich ab Beständen von etwa 1.000 bis 2.000 EUR/CHF. Standard-Modelle kosten 2026 rund 80 bis 250 EUR/CHF und gelten als Versicherung gegen Plattform-Pleiten, Hacks und politische Risiken."
+  - question: "Wie sollte man eine Seed Phrase aufbewahren?"
+    answer: "Die Seed Phrase sollte niemals digital gespeichert oder jemandem gezeigt werden. Empfohlen ist die physische Sicherung auf Papier im Safe oder als Metal Backup, idealerweise in mehreren Kopien an verschiedenen Orten."
 ---
 
 ## Was ist eine Krypto-Wallet?

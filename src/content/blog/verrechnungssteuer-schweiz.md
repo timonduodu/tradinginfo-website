@@ -6,6 +6,15 @@ category: "Steuern"
 subcategory: "Schweiz"
 author: "TradingWissen Redaktion"
 featured: false
+faq:
+  - question: "Was ist die Verrechnungssteuer?"
+    answer: "Die Verrechnungssteuer ist eine eidgenössische Sicherungssteuer von 35 Prozent auf Kapitalerträge in der Schweiz. Sie wird automatisch einbehalten, sodass du nur 65 Prozent deiner Dividende erhältst, und soll sicherstellen, dass Kapitalerträge in der Steuererklärung deklariert werden."
+  - question: "Wie hole ich die 35 Prozent Verrechnungssteuer zurück?"
+    answer: "Du deklarierst alle steuerbaren Erträge mit dem Bruttobetrag im Wertschriftenverzeichnis deiner Steuererklärung. Der Antrag auf Rückforderung wird damit automatisch gestellt, und die Verrechnungssteuer wird mit deiner Steuerrechnung verrechnet oder ausbezahlt."
+  - question: "Welche Frist gilt für die Rückerstattung der Verrechnungssteuer?"
+    answer: "Die Rückerstattung muss innerhalb von 3 Jahren nach Ablauf des Steuerjahres beantragt werden. Wer 2026 erhaltene Dividenden zurückfordert, muss das spätestens 2029 erledigen."
+  - question: "Was passiert, wenn ich Erträge nicht deklariere?"
+    answer: "Dann bleibt die 35-prozentige Verrechnungssteuer beim Staat und ist endgültig verloren. Zusätzlich drohen bei einer Kontrolle Bussen und Strafsteuern wegen Steuerhinterziehung."
 ---
 
 ## Was ist die Verrechnungssteuer?

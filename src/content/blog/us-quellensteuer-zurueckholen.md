@@ -6,6 +6,15 @@ category: "Steuern"
 subcategory: "Dividenden"
 author: "Redaktion"
 readingTime: "9 Min. Lesezeit"
+faq:
+  - question: "Wie reduziere ich die US-Quellensteuer von 30 auf 15 Prozent?"
+    answer: "Mit dem Formular W-8BEN weisen Sie Ihrem Broker die Schweizer Steueransässigkeit nach. Dank des Doppelbesteuerungsabkommens behält der Broker dann nur noch 15 statt 30 Prozent ein. Das W-8BEN läuft nach einigen Jahren ab und muss erneuert werden."
+  - question: "Wie hole ich die verbleibenden 15 Prozent zurück?"
+    answer: "Die verbleibenden 15 Prozent lassen sich über das Formular DA-1 (Antrag auf pauschale Steueranrechnung) in der Schweizer Steuererklärung anrechnen. Sie listen darin Ihre ausländischen Wertschriftenerträge auf, und die anrechenbare Steuer wird mit Ihrer Schweizer Steuer verrechnet."
+  - question: "Welche Belege brauche ich für das DA-1?"
+    answer: "Für das DA-1 benötigen Sie den Steuerausweis Ihres Brokers, der die einbehaltene ausländische Quellensteuer ausweist. Schweizer Broker liefern diesen meist automatisch."
+  - question: "Was ist der häufigste Fehler bei der US-Quellensteuer?"
+    answer: "Viele Anleger hinterlegen kein W-8BEN und zahlen jahrelang die vollen 30 Prozent, ohne die Hälfte zurückzuholen. Der einfachste Hebel ist sicherzustellen, dass beim Broker ein gültiges W-8BEN hinterlegt ist, denn das allein halbiert die Belastung."
 ---
 
 Wer als Schweizer Anleger US-Aktien hält, kennt das Ärgernis: Auf jede Dividende behält der US-Fiskus zunächst Quellensteuer ein. Ein Teil davon ist jedoch rückforderbar, und mit dem richtigen Formular lässt sich der Abzug von vornherein halbieren. Dieser Artikel erklärt, wie das Doppelbesteuerungsabkommen, das W-8BEN-Formular und der DA-1-Antrag zusammenspielen.

@@ -6,6 +6,15 @@ category: "Grundlagen"
 subcategory: "Derivate"
 author: "Redaktion"
 readingTime: "12 Min. Lesezeit"
+faq:
+  - question: "Was ist der Unterschied zwischen Call und Put?"
+    answer: "Eine Call-Option gibt das Recht zum Kauf des Basiswerts, eine Put-Option das Recht zum Verkauf. Für dieses Recht zahlt der Käufer eine Optionsprämie an den Verkäufer."
+  - question: "Was sind die Greeks bei Optionen?"
+    answer: "Die Greeks beschreiben die Sensitivitäten des Optionspreises gegenüber verschiedenen Variablen. Delta misst die Reaktion auf den Basiswert, Gamma die Veränderung von Delta, Theta den Zeitwertverfall, Vega die Sensitivität gegenüber der impliziten Volatilität und Rho gegenüber Zinsen."
+  - question: "Was bedeutet Theta bei Optionen?"
+    answer: "Theta misst den Zeitwertverfall, also wie viel Wert eine Option pro Tag verliert. Für Käufer ist Theta negativ, für Stillhalter positiv, und kurz vor Verfall beschleunigt sich der Verfall dramatisch."
+  - question: "Wie viel kann ich beim Kauf einer Option maximal verlieren?"
+    answer: "Der Käufer einer Option kann maximal die gezahlte Prämie verlieren, selbst wenn der Basiswert um 99 Prozent fällt. Der Verkäufer hingegen trägt ein theoretisch unbegrenztes Verlustrisiko bei Calls."
 ---
 
 Optionen sind die vielseitigsten Instrumente der Finanzmärkte. Mit ihnen lassen sich konservative Income-Strategien, gehebelte Spekulationen und massgeschneiderte Absicherungen umsetzen. Gleichzeitig sind sie das Instrument, bei dem Anleger am häufigsten ohne ausreichendes Verständnis Geld verlieren. Dieser Artikel führt in die Grundlagen ein.

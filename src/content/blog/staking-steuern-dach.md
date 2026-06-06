@@ -6,6 +6,15 @@ category: "Krypto"
 subcategory: "Steuern"
 author: "TradingWissen Redaktion"
 featured: false
+faq:
+  - question: "Wie werden Staking-Rewards in der Schweiz besteuert?"
+    answer: "In der Schweiz sind Staking-Belohnungen Einkommen und unterliegen der Einkommenssteuer zum Zeitpunkt des Zuflusses, bewertet zum Kurswert in CHF am Tag des Zuflusses. Ein späterer Kursgewinn beim Verkauf bleibt bei Privatanlegern steuerfrei."
+  - question: "Wie wird Staking in Deutschland und Österreich besteuert?"
+    answer: "In Deutschland gelten Staking-Rewards als sonstige Einkünfte zum persönlichen Einkommensteuersatz, mit einer Freigrenze von 256 EUR pro Jahr. In Österreich unterliegen sie pauschal der KESt von 27,5 Prozent, jeweils bewertet beim Zufluss."
+  - question: "Muss ich Staking-Einkommen dokumentieren?"
+    answer: "Ja, in allen DACH-Ländern braucht es eine saubere Aufzeichnung mit Datum jedes Reward-Zuflusses, Anzahl der erhaltenen Coins und Kurswert in lokaler Währung am Zufluss-Tag. Tools wie CoinTracking, Blockpit oder Koinly helfen dabei."
+  - question: "Was ändert sich durch den AIA für Krypto ab 2026?"
+    answer: "Die Schweiz hat den automatischen Informationsaustausch (AIA) ab 2026 auf Krypto erweitert. Schweizer Krypto-Plattformen müssen Daten an die ESTV melden, und international wird ebenfalls ausgetauscht, weshalb saubere Deklaration die einzige sichere Option ist."
 ---
 
 ## Was ist Staking?

@@ -6,6 +6,15 @@ category: "Steuern"
 subcategory: "Krypto"
 author: "Redaktion"
 readingTime: "9 Min. Lesezeit"
+faq:
+  - question: "Sind Krypto-Gewinne in der Schweiz steuerfrei?"
+    answer: "Für private Anleger sind Kursgewinne aus Krypto steuerfrei, sofern die Aktivität nicht als gewerbsmässig gilt. Kursverluste sind im Gegenzug nicht abzugsfähig."
+  - question: "Muss ich Bitcoin auf einer Hardware-Wallet in der Schweiz deklarieren?"
+    answer: "Ja, auch Coins auf einer Hardware-Wallet, im Cold Storage oder bei einer ausländischen Börse müssen am Stichtag 31. Dezember zum Marktwert in CHF deklariert werden. Die Vermögenssteuer gilt für alle Bestände unabhängig vom Aufbewahrungsort."
+  - question: "Wie werden Staking-Erträge in der Schweiz besteuert?"
+    answer: "Staking-Belohnungen gelten als Vermögensertrag und sind einkommenssteuerpflichtig, bewertet zum Wert am Tag des Erhalts. Das gilt auch dann, wenn nichts verkauft wurde."
+  - question: "Wann gilt Krypto-Handel in der Schweiz als gewerbsmässig?"
+    answer: "Die ESTV prüft anhand der fünf Kriterien aus dem Kreisschreiben Nr. 36, unter anderem Haltedauer von mindestens 6 Monaten, Transaktionsvolumen und Einsatz eigener Mittel. Wer kurzfristig handelt, mit Hebeln arbeitet oder vom Handel leben will, riskiert die Einstufung als gewerbsmässig mit voller Besteuerung plus AHV."
 ---
 
 Kryptowährungen sind in der Schweiz steuerlich besser gestellt als in den meisten Nachbarländern. Wer langfristig in Bitcoin oder Ethereum investiert und nicht als gewerbsmässig gilt, profitiert von **steuerfreien Kapitalgewinnen**, wie bei klassischen Wertschriften.

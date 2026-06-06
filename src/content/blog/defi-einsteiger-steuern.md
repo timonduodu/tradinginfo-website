@@ -6,6 +6,15 @@ category: "Krypto"
 subcategory: "DeFi"
 author: "TradingWissen Redaktion"
 featured: false
+faq:
+  - question: "Was ist DeFi?"
+    answer: "DeFi steht für Decentralized Finance, also finanzielle Dienstleistungen ohne traditionelle Banken oder Intermediäre, gebaut auf Blockchain-Technologie. Statt einer Bank übernehmen Smart Contracts die Abwicklung, Programme, die automatisch auf der Blockchain laufen."
+  - question: "Wie werden DeFi-Erträge in der Schweiz besteuert?"
+    answer: "In der Schweiz gelten Lending-Erträge, Liquidity-Mining-Rewards, Airdrops und Yield-Farming-Rewards als Einkommen zum Kurs bei Zufluss. Krypto-zu-Krypto-Tausch ist für Privatanleger steuerfrei, bei sehr aktivem Handel droht aber die gewerbsmässige Einstufung."
+  - question: "Warum ist DeFi in Deutschland steuerlich aufwändig?"
+    answer: "In Deutschland ist jeder Krypto-zu-Krypto-Tausch ein steuerpflichtiger Vorgang, für den Gewinn oder Verlust in EUR berechnet werden muss. Wer mehr als ein paar Trades macht, braucht zwingend ein Tracking-Tool wie CoinTracking oder Blockpit."
+  - question: "Was sind die grössten Risiken bei DeFi?"
+    answer: "Zu den grössten Risiken zählen Smart-Contract-Bugs, Rug Pulls durch anonyme Entwickler, Liquidationsrisiko beim Leihen gegen Sicherheiten, Regulierungsrisiko sowie Wallet-Sicherheit, etwa bei Phishing-Angriffen."
 ---
 
 ## Was ist DeFi?

@@ -6,6 +6,15 @@ category: "Broker"
 subcategory: "Vergleiche"
 author: "Redaktion"
 readingTime: "9 Min. Lesezeit"
+faq:
+  - question: "Wer steckt hinter Yuh und Neon Invest?"
+    answer: "Yuh ist ein Joint Venture von PostFinance und Swissquote, gegründet 2021, und funktioniert als Vollbank-App. Neon Invest ist die Anlagefunktion der Smartphone-Bank Neon, baut auf einer Kooperation mit der Hypothekarbank Lenzburg auf und bietet Investieren seit 2022."
+  - question: "Ist Yuh oder Neon Invest günstiger?"
+    answer: "Bei Schweizer Trades in CHF sind die Gebühren mit je 0,5 Prozent faktisch identisch. Bei Fremdwährungen ist Neon Invest knapp 30 Prozent günstiger, da der FX-Aufschlag rund 0,5 Prozent statt etwa 0,95 Prozent bei Yuh beträgt."
+  - question: "Bietet Yuh oder Neon Invest mehr Auswahl?"
+    answer: "Yuh hat das breitere Gesamtangebot mit über 3'000 Aktien, rund 200 ETFs, mehr als 25 Kryptowährungen, Edelmetallen und integrierter Säule 3a. Neon Invest bietet über 4'000 Aktien und rund 100 ETFs, aber keine Kryptowährungen und keine Säule 3a."
+  - question: "Sind die Apps für aktive Trader geeignet?"
+    answer: "Nein, beide Apps sind explizit für Anfänger sowie Buy-and-Hold und Sparpläne konzipiert. Sie bieten keine Derivate, keinen Hebel und kaum komplexe Ordertypen; wer aktiv tradet, ist bei Swissquote oder Interactive Brokers besser aufgehoben."
 ---
 
 Yuh und Neon Invest haben den Schweizer Börsenhandel demokratisiert: Mit wenigen Klicks lassen sich Aktien und ETFs aus dem Smartphone heraus kaufen, zu Gebühren, die noch vor wenigen Jahren undenkbar waren. Wir vergleichen die beiden grössten Schweizer Anbieter.

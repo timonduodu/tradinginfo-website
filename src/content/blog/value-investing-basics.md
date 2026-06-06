@@ -6,6 +6,15 @@ category: "Strategien"
 subcategory: "Fundamentalanalyse"
 author: "TradingWissen Redaktion"
 featured: false
+faq:
+  - question: "Was ist Value Investing?"
+    answer: "Value Investing ist eine Anlagestrategie, die darauf abzielt, Aktien zu finden, deren Marktpreis deutlich unter dem wahren Wert (intrinsischer Wert) des Unternehmens liegt. Die Grundannahme ist, dass der Markt kurzfristig irrational ist, sich aber langfristig korrigiert."
+  - question: "Was bedeutet Margin of Safety?"
+    answer: "Die Margin of Safety (Sicherheitsmarge) bedeutet, nur dann zu kaufen, wenn der Marktpreis deutlich, etwa 25 bis 50 Prozent, unter dem berechneten intrinsischen Wert liegt. Diese Marge schützt vor Fehlern in der Analyse und unerwarteten Entwicklungen."
+  - question: "Was ist eine Value Trap?"
+    answer: "Eine Value Trap ist eine Aktie, die günstig aussieht, es aber nicht ist, weil das Geschäftsmodell langsam stirbt. Beispiele sind Zeitungsverleger im Internetzeitalter oder Kohlebergbauer in der Energiewende; die Kunst ist zu unterscheiden, ob eine Firma temporär unterbewertet oder strukturell im Niedergang ist."
+  - question: "Welche Kennzahlen sind im Value Investing wichtig?"
+    answer: "Wichtige Kennzahlen sind das Kurs-Gewinn-Verhältnis (KGV), das Kurs-Buchwert-Verhältnis (KBV), das Kurs-Cashflow-Verhältnis (KCV), die Dividendenrendite, der Verschuldungsgrad und der Return on Invested Capital (ROIC). Ein KGV unter 15 gilt oft als günstig, über 25 als teuer."
 ---
 
 ## Was ist Value Investing?

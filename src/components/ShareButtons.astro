@@ -1,0 +1,99 @@
+---
+interface Props {
+  title: string;
+  url: string;
+}
+
+const { title, url } = Astro.props;
+const encodedUrl = encodeURIComponent(url);
+const encodedTitle = encodeURIComponent(title);
+
+const links = [
+  {
+    label: 'Auf X teilen',
+    name: 'X',
+    href: `https://x.com/intent/post?text=${encodedTitle}&url=${encodedUrl}`,
+  },
+  {
+    label: 'Auf LinkedIn teilen',
+    name: 'LinkedIn',
+    href: `https://www.linkedin.com/sharing/share-offsite/?url=${encodedUrl}`,
+  },
+  {
+    label: 'Per WhatsApp teilen',
+    name: 'WhatsApp',
+    href: `https://wa.me/?text=${encodedTitle}%20${encodedUrl}`,
+  },
+];
+---
+
+<div class="share" data-pagefind-ignore>
+  <span class="share-label">Teilen:</span>
+  {links.map(link => (
+    <a
+      href={link.href}
+      target="_blank"
+      rel="noopener noreferrer"
+      class="share-btn"
+      aria-label={link.label}
+      data-share={link.name}
+    >
+      {link.name}
+    </a>
+  ))}
+  <button type="button" class="share-btn" id="copy-link" data-url={url} aria-label="Link kopieren">
+    Link kopieren
+  </button>
+</div>
+
+<script>
+  const btn = document.getElementById('copy-link');
+  if (btn) {
+    btn.addEventListener('click', async () => {
+      try {
+        await navigator.clipboard.writeText(btn.dataset.url || location.href);
+        const original = btn.textContent;
+        btn.textContent = '✓ Kopiert';
+        setTimeout(() => { btn.textContent = original; }, 2000);
+      } catch { /* Clipboard nicht verfügbar */ }
+    });
+  }
+</script>
+
+<style>
+  .share {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: var(--space-xs);
+    font-family: var(--font-sans);
+  }
+
+  .share-label {
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--color-ink-muted);
+    margin-right: var(--space-xs);
+  }
+
+  .share-btn {
+    font-family: var(--font-sans);
+    font-size: 0.82rem;
+    font-weight: 600;
+    padding: 0.45rem 0.9rem;
+    border: 1px solid var(--color-rule);
+    border-radius: 2px;
+    background: var(--color-paper);
+    color: var(--color-ink);
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+
+  .share-btn:hover {
+    border-color: var(--color-accent);
+    color: var(--color-accent);
+  }
+</style>

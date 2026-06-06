@@ -6,6 +6,15 @@ category: "Krypto"
 subcategory: "Sicherheit"
 author: "Redaktion"
 readingTime: "8 Min. Lesezeit"
+faq:
+  - question: "Was bedeutet 'Not your keys, not your coins'?"
+    answer: "Dieser Krypto-Grundsatz besagt, dass man die Coins nicht wirklich besitzt, wenn man die privaten Schlüssel nicht selbst kontrolliert, sondern nur einen Anspruch gegenüber dem Verwahrer hat. Daraus folgt die Entscheidung zwischen Börsenverwahrung und Selbstverwahrung."
+  - question: "Was ist eine Seed Phrase?"
+    answer: "Die Seed Phrase, auch Recovery Phrase, besteht meist aus 12 oder 24 zufälligen Wörtern und ist der Generalschlüssel zu den Coins. Wer sie hat, hat vollen Zugriff unabhängig vom Gerät, sie ist damit das wichtigste Geheimnis."
+  - question: "Wie sollte man die Seed Phrase aufbewahren?"
+    answer: "Die Seed Phrase gehört offline auf Papier oder Metall, niemals digital als Foto, Cloud-Notiz oder E-Mail, da digitale Speicher gehackt werden können. Mehrere sichere, getrennte Aufbewahrungsorte schützen vor Feuer, Wasser oder Verlust."
+  - question: "Welche Verwahrart eignet sich für grössere Krypto-Bestände?"
+    answer: "Eine Hardware-Wallet (Cold Storage) speichert die Schlüssel offline und gilt als sicherste Methode für grössere Beträge. Eine bewährte Strategie hält kleinere Beträge fürs Trading auf einer Börse oder Hot Wallet und grössere Bestände auf einer Hardware-Wallet."
 ---
 
 Bei Kryptowährungen gibt es keine Bank, die einen Fehler rückgängig macht. Wer den Zugriff auf seine Coins verliert, verliert sie endgültig. Genau deshalb ist die sichere Aufbewahrung kein Nebenthema, sondern die wichtigste praktische Fähigkeit für jeden Krypto-Besitzer. Dieser Artikel erklärt die Grundlagen, ohne Fachjargon.

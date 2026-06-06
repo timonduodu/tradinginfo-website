@@ -6,6 +6,15 @@ category: "Broker"
 subcategory: "Deutschland"
 author: "TradingWissen Redaktion"
 featured: false
+faq:
+  - question: "Was kostet eine Order bei Flatex?"
+    answer: "Die Orderprovision beträgt 5,90 EUR pro Order als Festpreis. Das ist günstiger als klassische Banken mit 10 bis 25 EUR, aber teurer als Neobroker wie Trade Republic mit 1 EUR."
+  - question: "Ist Flatex für Schweizer Anleger verfügbar?"
+    answer: "Nein, Flatex ist wie viele deutsche Broker nicht für Personen mit Schweizer Wohnsitz verfügbar. Verfügbar ist Flatex in Deutschland und Österreich, dort steuereinfach."
+  - question: "Wie viel kostet ein ETF-Sparplan bei Flatex?"
+    answer: "Ein ETF-Sparplan kostet 1,50 EUR pro Ausführung bei einer Mindestsparrate ab 25 EUR. Bei kleinen Raten ist das teuer, etwa 3 Prozent Kosten bei 50 EUR monatlich, während Sparpläne bei Trade Republic gratis sind."
+  - question: "Für wen eignet sich Flatex?"
+    answer: "Flatex eignet sich für Trader, die viele verschiedene Handelsplätze nutzen wollen, Optionsschein- und Zertifikate-Fans sowie Anleger, die Anleihenhandel wünschen. Reine ETF-Sparer und Buy-and-Hold-Investoren fahren bei Neobrokern günstiger."
 ---
 
 ## Wer ist Flatex?

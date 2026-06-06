@@ -6,6 +6,15 @@ category: "Grundlagen"
 subcategory: "Hebel"
 author: "Redaktion"
 readingTime: "9 Min. Lesezeit"
+faq:
+  - question: "Was bedeutet ein Hebel von 1:10?"
+    answer: "Ein Hebel von 1:10 bedeutet, dass für eine Position über 10'000 CHF nur 1'000 CHF Eigenkapital, die sogenannte Margin, hinterlegt werden müssen. Die restlichen 9'000 CHF werden effektiv vom Broker geliehen, wofür Zinsen anfallen."
+  - question: "Was ist ein Margin Call?"
+    answer: "Ein Margin Call ist die Aufforderung des Brokers, zusätzliche Sicherheit nachzuschiessen. In der Praxis schliessen die meisten Broker Positionen automatisch und ohne Vorwarnung, sobald die Maintenance Margin unterschritten wird."
+  - question: "Welche maximalen Hebel gelten in der EU für Privatanleger?"
+    answer: "Die ESMA hat seit 2018 Obergrenzen festgelegt: 1:30 für Hauptwährungspaare, 1:20 für Nebenwährungspaare, Gold und Aktien-Indizes, 1:10 für andere Rohstoffe, 1:5 für Einzelaktien und 1:2 für Kryptowährungen."
+  - question: "Wie viele Retail-CFD-Trader verlieren Geld?"
+    answer: "Studien der französischen AMF und der ESMA zeigen konsistent, dass zwischen 70 und 85 Prozent der Retail-CFD-Trader Geld verlieren. Die Ursache liegt selten in der Strategie, sondern fast immer im psychologischen Umgang mit dem Hebel."
 ---
 
 Hebel ist das Werkzeug, das aus 1'000 CHF Kapital eine 30'000-CHF-Position macht. Für Broker ist es der Hauptverkaufsgrund ihrer Produkte. Für Trader ist es gleichzeitig das mächtigste Werkzeug und die häufigste Ursache für den Totalverlust ihres Kontos.

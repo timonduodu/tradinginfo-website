@@ -6,6 +6,15 @@ category: "Krypto"
 subcategory: "Steuern"
 author: "Redaktion"
 readingTime: "10 Min. Lesezeit"
+faq:
+  - question: "Wie deklariere ich Krypto in der Schweizer Steuererklärung?"
+    answer: "Im Wertschriftenverzeichnis tragen Sie den Gesamtwert aller Kryptobestände per 31. Dezember ein, beim Einkommen die Staking-, Mining- und Lending-Erträge. Als Beleg dient der Report Ihres Steuer-Tools oder eine eigene Aufstellung."
+  - question: "Welcher Wert zählt für die Vermögenssteuer auf Krypto?"
+    answer: "Massgebend ist der Marktwert per 31. Dezember, nicht ein Jahresdurchschnitt. Die ESTV veröffentlicht für die wichtigsten Coins einen offiziellen Jahresendkurs, für Bitcoin lag dieser per Ende 2025 bei rund CHF 69'572 pro Coin."
+  - question: "Ist ein Transfer zwischen eigenen Wallets steuerpflichtig?"
+    answer: "Nein, Transfers zwischen eigenen Wallets sind steuerlich neutral. Sie sollten zur eigenen Übersicht dennoch dokumentiert werden."
+  - question: "Was ändert sich mit CARF ab 2027 in der Schweiz?"
+    answer: "Ab 2027 führt die Schweiz mit dem Crypto-Asset Reporting Framework einen erweiterten internationalen Informationsaustausch ein. Krypto-Dienstleister melden dann relevante Daten an die Steuerbehörden, weshalb Krypto korrekt deklariert werden sollte."
 ---
 
 Die gute Nachricht zuerst: Die Schweiz gehört für private Krypto-Anleger zu den steuerlich attraktivsten Ländern der Welt. Kursgewinne aus privatem Handel bleiben **steuerfrei**. Die weniger gute Nachricht: Das heisst nicht, dass Krypto unsichtbar ist. Bestände gehören in die Vermögenssteuer, bestimmte Erträge ins Einkommen, und ab 2027 wird der internationale Informationsaustausch deutlich enger.

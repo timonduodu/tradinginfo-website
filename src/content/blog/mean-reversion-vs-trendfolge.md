@@ -6,6 +6,15 @@ category: "Strategien"
 subcategory: "Trendfolge"
 author: "Redaktion"
 readingTime: "9 Min. Lesezeit"
+faq:
+  - question: "Was ist der Unterschied zwischen Trendfolge und Mean Reversion?"
+    answer: "Trendfolge geht davon aus, dass sich ein etablierter Trend fortsetzt, und lässt Gewinne laufen. Mean Reversion setzt darauf, dass extreme Bewegungen zum Mittelwert zurückkehren, kauft also überverkaufte und verkauft überkaufte Werte."
+  - question: "Wann funktioniert Trendfolge und wann Mean Reversion?"
+    answer: "Trendfolge profitiert in trendigen Märkten, in denen sich Preise lange in eine Richtung bewegen. Mean Reversion profitiert in seitwärtsgerichteten oder volatilen Märkten, wenn Preise oszillieren statt zu trenden."
+  - question: "Welche Indikatoren nutzen Trendfolger und Mean-Reversion-Trader?"
+    answer: "Trendfolger nutzen typischerweise gleitende Durchschnitte, MACD, ADX, Donchian Channels und Trendlinien. Mean-Reversion-Trader verwenden RSI, Bollinger Bands, Z-Score und die Distanz zum gleitenden Mittel."
+  - question: "Welche Strategie eignet sich für Schweizer Privatanleger?"
+    answer: "Beide reinen Strategien sind emotional schwer durchzuhalten. Für die meisten Privatanleger ohne systematische Tools und Disziplin ist eine breit diversifizierte Buy-and-Hold-Strategie mit Rebalancing meist die bessere Wahl."
 ---
 
 In der Welt des Tradings stehen sich zwei fundamental gegensätzliche Philosophien gegenüber: **Trendfolge** ("ride the trend") und **Mean Reversion** ("Rückkehr zum Mittelwert"). Beide haben jahrzehntelang funktioniert, aber unter sehr unterschiedlichen Marktbedingungen.

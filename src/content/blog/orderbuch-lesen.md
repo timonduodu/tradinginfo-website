@@ -6,6 +6,15 @@ category: "Grundlagen"
 subcategory: "Trading-Mechanik"
 author: "TradingWissen Redaktion"
 featured: false
+faq:
+  - question: "Was ist das Orderbuch beim Trading?"
+    answer: "Das Orderbuch (auch Level 2 genannt) zeigt alle aktuellen Kauf- und Verkaufsorders eines Wertpapiers, geordnet nach Preis. Die Bid-Seite zeigt die Kaufgebote, die Ask-Seite die Verkaufsangebote."
+  - question: "Was sind Iceberg Orders?"
+    answer: "Iceberg Orders sind grosse Orders, von denen nur ein kleiner Teil sichtbar gemacht wird. Wird der sichtbare Teil ausgeführt, erscheint automatisch der nächste, sodass die volle Ordergrösse verborgen bleibt."
+  - question: "Was ist Spoofing im Orderbuch?"
+    answer: "Spoofing ist eine illegale Praxis, bei der Trader grosse Orders einstellen, um den Markt zu täuschen, und sie wieder zurückziehen, bevor sie ausgeführt werden. Es ist in den USA, Deutschland, der Schweiz und der EU strafbar."
+  - question: "Wo bekomme ich Level-2-Daten in der Schweiz?"
+    answer: "Swissquote bietet Level 2 für SIX-Aktien gegen Aufpreis, bei Saxo Bank ist es in der Plattform integriert und bei Interactive Brokers für die meisten Märkte verfügbar, oft mit Abo."
 ---
 
 ## Was ist das Orderbuch?

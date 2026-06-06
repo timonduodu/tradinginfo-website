@@ -6,6 +6,15 @@ category: "Steuern"
 subcategory: "Quellensteuer"
 author: "Redaktion"
 readingTime: "8 Min. Lesezeit"
+faq:
+  - question: "Wie hoch ist die US-Quellensteuer auf Dividenden?"
+    answer: "Die USA erheben grundsätzlich 30 Prozent Quellensteuer auf Dividenden an ausländische Anleger. Dank des Doppelbesteuerungsabkommens zwischen der Schweiz und den USA reduziert sich der Satz für Schweizer auf 15 Prozent, sofern ein W-8BEN-Formular beim Broker hinterlegt ist."
+  - question: "Was ist das Formular DA-1?"
+    answer: "Das DA-1 ist Teil der Schweizer Steuererklärung und dient dazu, die anrechenbare ausländische Quellensteuer zurückzuholen. Es erfasst Quellensteuern aus über 80 DBA-Staaten, nicht nur den USA, sondern auch Frankreich, Deutschland, Italien oder Japan."
+  - question: "Wozu dient das W-8BEN-Formular?"
+    answer: "Mit dem W-8BEN bestätigen Sie Ihrem Broker die Schweizer Steueransässigkeit, damit nur 15 statt 30 Prozent einbehalten werden. Bei US-Brokern gilt es drei Jahre und muss danach erneuert werden; ohne W-8BEN werden volle 30 Prozent abgezogen, von denen nur 15 Prozent rückforderbar sind."
+  - question: "Ab welchem Portfolio lohnt sich das DA-1?"
+    answer: "Ab einem Portfolio von etwa 20'000 CHF in dividendenzahlenden ausländischen Aktien lohnt sich das DA-1 finanziell deutlich. Bei kleineren Beträgen ist es trotzdem sinnvoll, um die Logik zu lernen und Routine zu entwickeln."
 ---
 
 Wer als Schweizer Anleger US-Aktien wie Apple, Microsoft oder Coca-Cola hält und Dividenden bezieht, bemerkt es früher oder später: Auf seinem Konto kommt weniger an als ausgeschüttet wurde. Die Differenz nennt sich **Quellensteuer**, und ein Teil davon ist rückforderbar.

@@ -6,6 +6,15 @@ category: "Grundlagen"
 subcategory: "Portfolio-Theorie"
 author: "TradingWissen Redaktion"
 featured: false
+faq:
+  - question: "Was ist Korrelation bei Wertpapieren?"
+    answer: "Die Korrelation misst, wie zwei Wertpapiere sich relativ zueinander bewegen. Der Korrelationskoeffizient liegt zwischen -1 (perfekt gegenläufig) und +1 (perfekt gleichläufig), bei 0 sind die Bewegungen unabhängig."
+  - question: "Warum reichen viele Aktien allein nicht für Diversifikation?"
+    answer: "Wenn alle Aktien aus demselben Markt stammen, etwa 30 SMI-Titel, gibt es keine Branchen- oder Geo-Diversifikation, und sie fallen im nächsten Crash gemeinsam. Echte Diversifikation entsteht erst durch die Kombination nicht stark korrelierter Wertpapiere."
+  - question: "Was passiert mit Korrelationen während eines Crashs?"
+    answer: "In Crash-Phasen steigen die Korrelationen oft schlagartig, was vorher unabhängig schien, fällt plötzlich gemeinsam. Dieses gut dokumentierte Phänomen heisst Diversification breakdown during crashes."
+  - question: "Was ist der Unterschied zwischen Beta und Korrelation?"
+    answer: "Beta misst die Stärke der Marktabhängigkeit, also wie stark eine Aktie auf Marktbewegungen reagiert. Korrelation beschreibt die Richtung des Zusammenhangs zwischen zwei Wertpapieren. Sie hängen mathematisch zusammen, sind aber nicht dasselbe."
 ---
 
 ## Was ist Korrelation?

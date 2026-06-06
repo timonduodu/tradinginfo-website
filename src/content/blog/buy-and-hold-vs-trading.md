@@ -6,6 +6,15 @@ category: "Strategien"
 subcategory: "Grundsatz"
 author: "TradingWissen Redaktion"
 featured: false
+faq:
+  - question: "Was ist der Unterschied zwischen Buy-and-Hold und Trading?"
+    answer: "Bei Buy-and-Hold kaufst du Wertpapiere und hältst sie über Jahre oder Jahrzehnte mit wenig Aktivität und niedrigen Kosten. Beim Trading handelst du aktiv über Tage, Wochen oder Monate, um aus Kursbewegungen Gewinne zu ziehen."
+  - question: "Verdienen die meisten Day-Trader Geld?"
+    answer: "Nein, Studien aus Brasilien und Taiwan zeigen, dass über 80 bis 95 Prozent der Day-Trader langfristig Geld verlieren. Nur eine kleine Minderheit verdient nach Kosten und Steuern."
+  - question: "Wann wird aktives Trading in der Schweiz als gewerbsmässig eingestuft?"
+    answer: "Wer regelmässig handelt, Hebel einsetzt oder mehr als 50 Prozent des Einkommens aus Trading bezieht, riskiert die Einstufung als gewerbsmässig nach Kreisschreiben 36 der ESTV. Dann werden alle Kursgewinne als Einkommen besteuert, plus AHV/IV."
+  - question: "Kann man Buy-and-Hold und Trading kombinieren?"
+    answer: "Ja, viele kombinieren 80 bis 90 Prozent Buy-and-Hold-Portfolio mit einem Trading-Konto von 10 bis 20 Prozent. Wichtig ist, das Trading-Konto strikt vom Hauptdepot zu trennen und niemals Geld zur Verlustabdeckung rüberzuschieben."
 ---
 
 ## Die zwei Welten

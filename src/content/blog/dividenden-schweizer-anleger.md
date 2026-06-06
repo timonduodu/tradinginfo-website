@@ -6,6 +6,15 @@ category: "Grundlagen"
 subcategory: "Dividenden"
 author: "Redaktion"
 readingTime: "9 Min. Lesezeit"
+faq:
+  - question: "Wie hoch ist die Verrechnungssteuer auf Schweizer Dividenden?"
+    answer: "Die Verrechnungssteuer beträgt für Schweizer Aktien 35 Prozent. Sie wird direkt an der Quelle einbehalten, der Aktionär erhält nur 65 Prozent der Brutto-Dividende auf sein Konto."
+  - question: "Kann man die Verrechnungssteuer zurückfordern?"
+    answer: "Ja, Schweizer steueransässige Personen können die Verrechnungssteuer vollständig zurückfordern, wenn sie die Dividende vollständig in ihrer Steuererklärung deklarieren. Sie ist keine echte Steuer, sondern eine Sicherungssteuer und damit nur eine Vor-Abgabe."
+  - question: "Wie werden Dividenden ausländischer Aktien besteuert?"
+    answer: "Bei ausländischen Aktien wird zunächst eine Quellensteuer des Sitzlandes einbehalten, in den USA standardmässig 30 Prozent. Durch das Doppelbesteuerungsabkommen reduziert sie sich für Schweizer Anleger mit dem W-8BEN-Formular auf 15 Prozent, die über das DA-1-Formular angerechnet werden können."
+  - question: "Was sind Kapitaleinlagereserven bei Dividenden?"
+    answer: "Wenn eine Schweizer Aktiengesellschaft Ausschüttungen aus der Kapitaleinlagereserve vornimmt statt aus dem Gewinn, sind diese Ausschüttungen für Schweizer Anleger steuerfrei. Ein Blick in den Geschäftsbericht lohnt sich, da die Steuerersparnis substantiell sein kann."
 ---
 
 Ein häufiges Erlebnis für Schweizer Anleger: Die ausgeschüttete Dividende wirkt deutlich geringer als das, was in den Geschäftsberichten angekündigt wurde. Wer 1'000 Nestlé-Aktien hält und 3.05 Franken Dividende pro Aktie erwartet, sieht auf dem Konto nicht 3'050 Franken, sondern 1'982 Franken. Die Differenz von 1'068 Franken, wo ist sie hin?

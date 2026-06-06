@@ -10,6 +10,7 @@ const navItems = [
   { href: '/steuern', label: 'Steuern' },
   { href: '/krypto', label: 'Krypto' },
   { href: '/about', label: 'Über' },
+  { href: '/suche', label: '⌕ Suche' },
 ];
 ---
 
@@ -20,7 +21,13 @@ const navItems = [
       <div class="container header-top-inner">
         <span class="date" id="current-date"></span>
         <span class="tagline">Unabhängige Trading-Information aus der Schweiz</span>
-        <a href="/newsletter" class="newsletter-link">Newsletter →</a>
+        <span class="header-top-actions">
+          <button type="button" class="theme-toggle" data-theme-toggle aria-label="Dunkles Design umschalten">
+            <span class="icon-sun" aria-hidden="true">☀</span>
+            <span class="icon-moon" aria-hidden="true">☾</span>
+          </button>
+          <a href="/newsletter" class="newsletter-link">Newsletter →</a>
+        </span>
       </div>
     </div>
 
@@ -56,6 +63,10 @@ const navItems = [
         <span class="logo-mark">CH</span>
         <span class="logo-text-mobile">TradingWissen</span>
       </a>
+      <button type="button" class="theme-toggle theme-toggle-mobile" data-theme-toggle aria-label="Dunkles Design umschalten">
+        <span class="icon-sun" aria-hidden="true">☀</span>
+        <span class="icon-moon" aria-hidden="true">☾</span>
+      </button>
       <button class="hamburger" id="mobile-toggle" aria-label="Menü öffnen" aria-expanded="false">
         <span></span>
         <span></span>
@@ -98,6 +109,15 @@ const navItems = [
       toggle.setAttribute('aria-expanded', String(isOpen));
     });
   }
+
+  // Dark-Mode-Toggle (Theme wird in BaseLayout vor dem Rendern gesetzt)
+  document.querySelectorAll('[data-theme-toggle]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const next = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
+      document.documentElement.dataset.theme = next;
+      localStorage.setItem('theme', next);
+    });
+  });
 </script>
 
 <style>
@@ -114,10 +134,38 @@ const navItems = [
 
   /* === DESKTOP === */
   .header-top {
-    background: var(--color-ink);
-    color: var(--color-bg);
+    background: var(--color-band-bg);
+    color: var(--color-band-ink);
     font-family: var(--font-sans);
     font-size: 0.75rem;
+  }
+
+  .header-top-actions {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-sm);
+  }
+
+  .theme-toggle {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    line-height: 1;
+    padding: 0.2rem;
+    color: inherit;
+  }
+
+  .theme-toggle .icon-sun { display: none; }
+  .theme-toggle .icon-moon { display: inline; }
+  :global([data-theme='dark']) .theme-toggle .icon-sun { display: inline; }
+  :global([data-theme='dark']) .theme-toggle .icon-moon { display: none; }
+
+  .theme-toggle-mobile {
+    margin-left: auto;
+    margin-right: var(--space-sm);
+    color: var(--color-ink);
+    font-size: 1.2rem;
   }
 
   .header-top-inner {
@@ -132,7 +180,7 @@ const navItems = [
   .tagline { font-style: italic; opacity: 0.85; }
 
   .newsletter-link {
-    color: var(--color-bg);
+    color: var(--color-band-ink);
     text-decoration: none;
     font-weight: 600;
   }
@@ -299,8 +347,8 @@ const navItems = [
   }
 
   .mobile-nav-cta {
-    background: var(--color-ink);
-    color: var(--color-bg);
+    background: var(--color-band-bg);
+    color: var(--color-band-ink);
     text-align: center;
   }
 

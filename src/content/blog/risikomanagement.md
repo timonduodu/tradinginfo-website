@@ -7,6 +7,15 @@ category: "Grundlagen"
 subcategory: "Risiko"
 author: "Redaktion"
 readingTime: "10 Min. Lesezeit"
+faq:
+  - question: "Was ist das 1-Prozent-Prinzip im Trading?"
+    answer: "Das 1-Prozent-Prinzip besagt, pro Trade nie mehr als 1 bis 2 Prozent des Kontos zu riskieren. Bei einem Konto von 50'000 CHF sind das 500 bis 1'000 CHF maximaler Verlust bis zum Stop-Loss pro Position."
+  - question: "Wie berechnet man die Positionsgrösse?"
+    answer: "Die Positionsgrösse ergibt sich aus Konto mal Risiko-Prozent geteilt durch den Stop-Abstand. So wird sichergestellt, dass der Verlust beim Auslösen des Stops dem vorab definierten Risiko entspricht."
+  - question: "Welche Trefferquote braucht ein Risk-Reward-Verhältnis von 1:3?"
+    answer: "Eine Strategie mit einem Risk-Reward-Verhältnis von 1:3 muss nur 25 Prozent der Trades gewinnen, um break-even zu sein. Bei 35 Prozent Trefferquote ist sie deutlich profitabel."
+  - question: "Warum ist ein Verlust schwerer auszugleichen als er aussieht?"
+    answer: "Verlust und Erholung sind asymmetrisch: Nach einem Verlust von 50 Prozent muss sich die Position verdoppeln (plus 100 Prozent), nur um wieder bei null zu sein. Diese Asymmetrie ist ein Hauptgrund, warum viele Trader scheitern."
 ---
 
 Es gibt eine zentrale Wahrheit im Trading, die alle erfolgreichen Marktteilnehmer früher oder später verinnerlichen: **Risikomanagement ist nicht ein Teil des Tradings, es ist das gesamte Trading.** Strategien, Einstiegssignale, Marktmeinungen sind sekundär. Wer das Risiko nicht beherrscht, scheitert unweigerlich, unabhängig davon, wie gut seine Marktanalysen sind.

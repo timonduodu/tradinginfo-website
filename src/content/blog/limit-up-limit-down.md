@@ -6,6 +6,15 @@ category: "Grundlagen"
 subcategory: "Marktmechanik"
 author: "Redaktion"
 readingTime: "8 Min. Lesezeit"
+faq:
+  - question: "Was ist ein Circuit Breaker an der Börse?"
+    answer: "Ein Circuit Breaker ist eine automatische Handelsunterbrechung, die ausgelöst wird, wenn sich Marktpreise zu schnell oder zu weit bewegen. Sie soll Panik-Verkäufen Zeit zum Abkühlen geben, algorithmische Kaskaden stoppen und Liquidität wiederherstellen."
+  - question: "Bei welchen Schwellen greifen die US-Circuit-Breaker?"
+    answer: "Seit 2013 gelten für den S&P 500 dreistufige Schwellen: Level 1 bei minus 7 Prozent und Level 2 bei minus 13 Prozent lösen je eine 15-minütige Handelspause aus, Level 3 bei minus 20 Prozent stellt den Handel für den Tag ein."
+  - question: "Haben Krypto-Börsen Circuit Breaker?"
+    answer: "Nein, Krypto-Börsen haben in der Regel keine Circuit Breaker. Bitcoin kann an einem Tag 30 Prozent fallen, ohne dass der Handel pausiert wird, was zur Härte von Krypto-Liquidationen beiträgt."
+  - question: "Werden Stop-Loss-Orders während eines Handelsstopps ausgeführt?"
+    answer: "Nein, wenn ein Wertpapier gestoppt wird, werden offene Orders einschliesslich Stop-Loss-Orders nicht ausgeführt. Erst bei Wiederaufnahme des Handels erfolgt die Ausführung, möglicherweise zu deutlich anderen Preisen."
 ---
 
 Am 9. März 2020 öffnete der S&P 500 mit einem Minus von über 7 Prozent. Innerhalb von Minuten wurde der Handel automatisch unterbrochen, die erste Aktivierung eines marktweiten Circuit Breakers seit 1997. Was hier auf den ersten Blick wie ein technisches Versagen wirkt, ist in Wahrheit ein bewusst eingebauter Schutzmechanismus moderner Finanzmärkte.

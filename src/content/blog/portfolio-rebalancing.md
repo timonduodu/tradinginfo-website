@@ -6,6 +6,15 @@ category: "Strategien"
 subcategory: "Portfolio"
 author: "Redaktion"
 readingTime: "8 Min. Lesezeit"
+faq:
+  - question: "Was bedeutet Rebalancing?"
+    answer: "Rebalancing ist das periodische Anpassen der Portfolio-Gewichtung, um die ursprünglich gewählte Zielaufteilung wiederherzustellen. Dabei wird von der überproportional gewachsenen Anlageklasse verkauft und in die zurückgebliebene investiert."
+  - question: "Warum sollte man rebalancieren?"
+    answer: "Rebalancing dient der Risikokontrolle, nicht der Renditesteigerung. Es bringt das Risiko auf das ursprünglich gewünschte Niveau zurück und erzwingt antizyklisches Verhalten, also teuer verkaufen und günstig kaufen."
+  - question: "Wie oft sollte man rebalancieren?"
+    answer: "Für die meisten Privatanleger reicht ein jährliches Rebalancing völlig aus. Häufiger bringt selten Mehrwert und verursacht mehr Kosten."
+  - question: "Wie kann man beim Rebalancing Kosten und Stempelabgabe sparen?"
+    answer: "Statt zu verkaufen, lenkt man frische Sparbeiträge gezielt in die untergewichtete Anlageklasse. So nähert man sich der Zielaufteilung, ohne Transaktionskosten und Stempelabgabe für Verkäufe auszulösen."
 ---
 
 Sie legen ein Portfolio mit 60 % Aktien und 40 % Anleihen an, perfekt austariert. Ein Jahr später steigen die Aktien stark, und plötzlich besteht Ihr Portfolio aus 70 % Aktien. Ohne dass Sie etwas getan haben, ist Ihr Risiko gestiegen. Genau hier setzt Rebalancing an: das bewusste Zurückführen auf die ursprüngliche Aufteilung.

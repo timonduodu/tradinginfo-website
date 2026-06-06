@@ -1,0 +1,89 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="Suche — TradingWissen.ch"
+  description="Durchsuche alle Artikel auf TradingWissen.ch: Grundlagen, Broker, Strategien, Steuern und Krypto."
+>
+  <section class="search-page container-narrow">
+    <span class="eyebrow">Suche</span>
+    <h1>Artikel durchsuchen</h1>
+    <p class="lead">Finde Artikel zu Grundlagen, Brokern, Strategien, Steuern und Krypto.</p>
+
+    <div id="search" class="search-box"></div>
+  </section>
+</BaseLayout>
+
+<link href="/pagefind/pagefind-ui.css" rel="stylesheet" />
+<script src="/pagefind/pagefind-ui.js" is:inline></script>
+<script is:inline>
+  window.addEventListener('DOMContentLoaded', () => {
+    if (typeof PagefindUI === 'undefined') {
+      document.getElementById('search').innerHTML =
+        '<p style="font-family: var(--font-sans); color: var(--color-ink-muted);">Die Suche ist nur auf der gebauten Website verfügbar (npm run build).</p>';
+      return;
+    }
+    new PagefindUI({
+      element: '#search',
+      showSubResults: true,
+      showImages: false,
+      autofocus: true,
+      translations: {
+        placeholder: 'Suchbegriff eingeben …',
+        clear_search: 'Löschen',
+        load_more: 'Mehr Ergebnisse laden',
+        search_label: 'Website durchsuchen',
+        zero_results: 'Keine Ergebnisse für „[SEARCH_TERM]“',
+        many_results: '[COUNT] Ergebnisse für „[SEARCH_TERM]“',
+        one_result: 'Ein Ergebnis für „[SEARCH_TERM]“',
+        searching: 'Suche „[SEARCH_TERM]“ …',
+      },
+    });
+    // Suchbegriff aus ?q= übernehmen (z.B. vom Header-Formular)
+    const q = new URLSearchParams(location.search).get('q');
+    if (q) {
+      const input = document.querySelector('#search input');
+      if (input) {
+        input.value = q;
+        input.dispatchEvent(new Event('input', { bubbles: true }));
+      }
+    }
+    // GA4: Suchanfragen tracken (debounced)
+    let searchTimer;
+    document.getElementById('search').addEventListener('input', (e) => {
+      clearTimeout(searchTimer);
+      const term = e.target.value;
+      searchTimer = setTimeout(() => {
+        if (term && term.length >= 3 && typeof gtag === 'function') {
+          gtag('event', 'search', { search_term: term });
+        }
+      }, 1500);
+    });
+  });
+</script>
+
+<style>
+  .search-page {
+    padding: var(--space-xl) var(--space-md) var(--space-2xl);
+    min-height: 60vh;
+  }
+  .search-page h1 {
+    margin: var(--space-sm) 0 var(--space-sm);
+  }
+  .lead {
+    font-size: 1.15rem;
+    color: var(--color-ink-soft);
+    margin-bottom: var(--space-lg);
+  }
+  .search-box {
+    --pagefind-ui-primary: var(--color-accent);
+    --pagefind-ui-text: var(--color-ink);
+    --pagefind-ui-background: var(--color-paper);
+    --pagefind-ui-border: var(--color-rule);
+    --pagefind-ui-tag: var(--color-bg-alt);
+    --pagefind-ui-border-width: 1px;
+    --pagefind-ui-border-radius: 2px;
+    --pagefind-ui-font: var(--font-sans);
+  }
+</style>

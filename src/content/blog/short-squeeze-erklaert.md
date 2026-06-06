@@ -6,6 +6,15 @@ category: "Grundlagen"
 subcategory: "Marktphänomene"
 author: "Redaktion"
 readingTime: "9 Min. Lesezeit"
+faq:
+  - question: "Was ist ein Short Squeeze?"
+    answer: "Ein Short Squeeze entsteht, wenn viele Investoren auf fallende Kurse setzen, der Kurs aber stark steigt und Short-Verkäufer gezwungen sind, ihre Positionen durch Käufe zu schliessen. Diese Käufe treiben den Kurs noch höher und lösen eine selbstverstärkende Aufwärtsspirale aus."
+  - question: "Warum ist das Risiko beim Leerverkauf asymmetrisch?"
+    answer: "Beim Short Selling ist der maximale Gewinn begrenzt, weil eine Aktie höchstens auf null fallen kann. Der Verlust ist hingegen theoretisch unbegrenzt, da die Aktie beliebig hoch steigen kann."
+  - question: "Welcher war der grösste Short Squeeze der Geschichte?"
+    answer: "Der grösste Short Squeeze ereignete sich 2008 mit Volkswagen. Nachdem Porsche die Kontrolle über 74 Prozent der Stammaktien bekannt gab, stieg der VW-Kurs in drei Tagen von rund 200 auf zeitweise über 1'000 Euro und VW wurde kurzzeitig zum wertvollsten Unternehmen der Welt."
+  - question: "Welche Kennzahlen helfen, einen Short Squeeze zu erkennen?"
+    answer: "Relevant sind das Short Interest (Anteil leerverkaufter Aktien, über 40 Prozent gilt als extrem), die Short Interest Ratio bzw. Days to Cover (über 10 Tage gilt als extrem) und die Cost to Borrow (bei stark geshorteten Aktien teilweise 50 bis 200 Prozent jährlich)."
 ---
 
 Im Januar 2021 stieg die Aktie des US-Videospielhändlers GameStop innerhalb weniger Tage von 20 auf über 480 Dollar, ein Plus von mehr als 2'000 Prozent. Hedgefonds verloren Milliarden. Robinhood-Trader feierten in Foren wie WallStreetBets. Die Marktbewegung war so extrem, dass sogar Brokerage-Firmen den Kauf der Aktie temporär stoppten.

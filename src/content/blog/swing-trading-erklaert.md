@@ -6,6 +6,15 @@ category: "Strategien"
 subcategory: "Aktiv"
 author: "TradingWissen Redaktion"
 featured: false
+faq:
+  - question: "Was ist Swing Trading?"
+    answer: "Swing Trading ist eine aktive Trading-Strategie, bei der Positionen über mehrere Tage bis Wochen gehalten werden, um mittelfristige Kursbewegungen (Swings) abzugreifen. Es liegt zwischen Day-Trading und langfristigem Investieren und lässt sich oft nebenberuflich betreiben."
+  - question: "Wie lange dauert ein typischer Swing-Trade?"
+    answer: "Ein klassischer Swing-Trade dauert 3 bis 10 Tage und hat ein Renditeziel von 3 bis 15 Prozent. Swing Trader nutzen dabei typischerweise Tages- und Stunden-Charts."
+  - question: "Wie viel Risiko sollte man pro Swing-Trade eingehen?"
+    answer: "Die wichtigste Regel ist maximal 1 bis 2 Prozent Kontorisiko pro Trade, bei einem Konto von 50'000 CHF also höchstens 500 bis 1'000 CHF. Zudem sollte das Risk-Reward-Verhältnis mindestens 1:2 betragen und der Stop-Loss immer vor dem Trade definiert sein."
+  - question: "Welche steuerlichen Risiken hat Swing Trading in der Schweiz?"
+    answer: "Swing Trading mit hohen Volumina, kurzen Haltedauern und Hebel kann zur Einstufung als gewerbsmässiger Wertschriftenhändler führen. Die ESTV prüft fünf Kriterien, und wer mehrere erfüllt, riskiert die Einkommensbesteuerung aller Trading-Gewinne plus AHV/IV."
 ---
 
 ## Was ist Swing Trading?

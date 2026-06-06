@@ -6,6 +6,15 @@ category: "Steuern"
 subcategory: "Vorsorge"
 author: "Redaktion"
 readingTime: "9 Min. Lesezeit"
+faq:
+  - question: "Wie hoch ist der Säule-3a-Maximalbetrag 2026?"
+    answer: "2026 liegt der Maximalbetrag bei CHF 7'258 für Erwerbstätige mit Pensionskasse. Selbständige ohne Pensionskasse können bis zu 20 Prozent ihres Nettoeinkommens, maximal CHF 36'288, einzahlen."
+  - question: "Was ist der Unterschied zwischen 3a-Zinskonto und Wertschriftenlösung?"
+    answer: "Beim 3a-Zinskonto liegt das Guthaben wie auf einem Sparkonto und verzinst sich meist sehr niedrig. Bei der Wertschriftenlösung wird das Guthaben in ETFs, Aktien oder Fonds investiert, was über lange Zeiträume in der Regel höhere Erträge erzielt, aber mit Kursschwankungen."
+  - question: "Lohnt sich die Säule 3a mit ETF?"
+    answer: "Für junge Sparer mit langem Anlagehorizont ist die Wertschriftenlösung in den meisten Fällen die sinnvollere Wahl, da der Zinseszinseffekt über Jahrzehnte wirkt. Voraussetzung ist, dass man die Kursschwankungen aushält."
+  - question: "Worauf sollte man bei den Gebühren der Säule 3a achten?"
+    answer: "Entscheidend ist die All-in-Gebühr, also die Summe aus Verwaltungsgebühr und ETF-Kosten (TER). Günstige digitale Anbieter liegen oft bei rund 0,4 bis 0,5 Prozent pro Jahr, idealerweise unter 0,5 Prozent."
 ---
 
 Die Säule 3a ist das steuerlich attraktivste Vorsorgeinstrument der Schweiz. Doch viele lassen ihr Geld auf einem 3a-Zinskonto liegen, wo es kaum wächst. Die Alternative, eine Wertschriftenlösung mit ETFs, kann über Jahrzehnte einen erheblichen Unterschied machen. Dieser Artikel erklärt, wie sie funktioniert und für wen sie sich eignet.

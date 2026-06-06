@@ -6,6 +6,15 @@ category: "Broker"
 subcategory: "International"
 author: "TradingWissen Redaktion"
 featured: false
+faq:
+  - question: "Ist Lightyear in der Schweiz verfügbar?"
+    answer: "Ja, im Gegensatz zu Trade Republic ist Lightyear in der Schweiz verfügbar. Insgesamt ist der Broker in 19 europäischen Ländern aktiv, darunter DE, AT, FR, ES, IT und die Schweiz."
+  - question: "Wie hoch sind die Gebühren bei Lightyear?"
+    answer: "Der Aktien- und ETF-Handel kostet 0,1 Prozent des Volumens, maximal jedoch 1 EUR (bzw. USD, GBP, CHF je nach Markt). ETF-Sparpläne sind komplett kostenfrei, die Wechselkursgebühr beträgt 0,35 Prozent auf den Mid-Spot."
+  - question: "Wie hoch ist die Einlagensicherung bei Lightyear?"
+    answer: "Die estnische Einlagensicherung deckt bis 20.000 EUR ab und ist damit niedriger als die 100.000 EUR bei Banken in DE, AT oder CH. Wertschriften gelten als gesetzlich geschütztes Sondervermögen."
+  - question: "Bietet Lightyear einen steuereinfachen Service?"
+    answer: "Nein, einen steuereinfachen Service gibt es nicht. Schweizer Kunden müssen Steuern selbst deklarieren, deutsche Kunden die Anlage KAP ausfüllen und österreichische Kunden die KESt von 27,5 Prozent in der Arbeitnehmerveranlagung angeben."
 ---
 
 ## Wer ist Lightyear?

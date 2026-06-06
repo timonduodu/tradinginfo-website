@@ -6,6 +6,15 @@ category: "News"
 subcategory: "Marktkommentar"
 author: "Redaktion"
 readingTime: "3 Min. Lesezeit"
+faq:
+  - question: "Warum gibt der Bitcoin-Kurs aktuell nach?"
+    answer: "Der Bitcoin-Kurs hat spürbar nachgegeben, getrieben von Kapitalabflüssen aus Krypto-Produkten. Solche Korrekturphasen gehören bei Bitcoin zur Normalität, die gesamte Kursgeschichte ist von heftigen Ausschlägen in beide Richtungen geprägt."
+  - question: "Sind Bitcoin-Verluste in der Schweiz steuerlich absetzbar?"
+    answer: "Nein, Kursgewinne aus privatem Krypto-Handel sind in der Schweiz steuerfrei, im Gegenzug sind Kursverluste aber nicht abzugsfähig. Ein Verlust auf dem Papier bringt also keinen Steuervorteil."
+  - question: "Sollte ich bei einer Bitcoin-Korrektur verkaufen?"
+    answer: "Für langfristige Halter ist eine Korrektur kein automatisches Verkaufssignal. Entscheidend ist nicht, wie tief der Kurs fällt, sondern ob sich an der langfristigen These etwas geändert hat, meist ist es nur der Preis."
+  - question: "Lohnt sich ein Sparplan in fallenden Krypto-Märkten?"
+    answer: "Ja, wer über einen Sparplan mittels Dollar-Cost-Averaging regelmässig kauft, profitiert von tieferen Kursen, weil mehr Coins fürs gleiche Geld gekauft werden. Genau dafür ist diese Strategie gemacht."
 ---
 
 Der Bitcoin-Kurs hat zuletzt spürbar nachgegeben, getrieben von Kapitalabflüssen aus Krypto-Produkten. Nach den Rekordständen der vergangenen Monate ist das für viele Anleger ein Schreckmoment. Doch ein nüchterner Blick lohnt sich mehr als die Aufregung, die solche Schlagzeilen begleiten.

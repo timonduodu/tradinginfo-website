@@ -6,6 +6,15 @@ category: "Strategien"
 subcategory: "Fortgeschritten"
 author: "TradingWissen Redaktion"
 featured: false
+faq:
+  - question: "Was ist ein Carry Trade?"
+    answer: "Ein Carry Trade ist eine Strategie, bei der du eine Währung mit niedrigen Zinsen leihst und in eine Währung mit höheren Zinsen investierst. Du verdienst die Zinsdifferenz, den sogenannten Carry."
+  - question: "Welches ist das grösste Risiko beim Carry Trade?"
+    answer: "Das Hauptrisiko ist das Währungsrisiko. Wertet die geliehene Funding-Währung gegenüber der Anlage-Währung auf, verlierst du beim Rücktausch, möglicherweise mehr als der gesamte Zinsvorteil."
+  - question: "Warum ist der Schweizer Franken eine typische Funding-Währung?"
+    answer: "Der Schweizer Franken ist über lange Zeiträume eine klassische Funding-Währung für Carry Trades, weil niedrige bis negative SNB-Leitzinsen ihn zur perfekten Leihwährung machten. Ein berühmtes Beispiel sind die CHF-Hypotheken in Osteuropa der 2000er-Jahre."
+  - question: "Wie werden Carry-Trade-Gewinne in der Schweiz besteuert?"
+    answer: "Devisengewinne sind für Privatanleger steuerfrei, wenn sie als Vermögensverwaltung gelten. Aktives Forex-Trading mit Hebel und kurzen Haltedauern führt jedoch fast garantiert zur Einstufung als gewerbsmässig, dann werden alle Gewinne einkommensbesteuert plus AHV/IV."
 ---
 
 ## Was ist ein Carry Trade?

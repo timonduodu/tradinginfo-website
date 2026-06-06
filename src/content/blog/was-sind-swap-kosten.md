@@ -7,6 +7,15 @@ subcategory: "Kosten"
 author: "Redaktion"
 readingTime: "8 Min. Lesezeit"
 featured: true
+faq:
+  - question: "Was sind Swap-Kosten?"
+    answer: "Swap-Kosten, auch Overnight-Fees genannt, sind Zinsen für das geliehene Kapital, das beim Handel auf Margin eingesetzt wird. Mathematisch ist ein Swap die Zinsdifferenz zwischen den beiden Vermögenswerten oder Währungen einer Position; wer Positionen über Nacht hält, zahlt Swap."
+  - question: "Warum verdienen Broker am Swap mit?"
+    answer: "Broker bauen einen Aufschlag (Markup) in beide Richtungen ein, sodass der berechnete Swap selten dem theoretischen Wert entspricht. Bei einigen Anbietern beträgt der Markup über 50 Prozent; ECN- und STP-Broker wie Interactive Brokers oder Saxo Bank operieren näher an den Interbank-Zinssätzen."
+  - question: "Wie lassen sich Swap-Kosten reduzieren?"
+    answer: "Drei Strategien helfen: Intraday-Trading, bei dem alle Positionen vor dem Roll-Zeitpunkt (meist 22:00 bis 23:00 Uhr Schweizer Zeit) geschlossen werden, die Wahl eines transparenten ECN- oder STP-Brokers sowie Carry-Trades mit positivem Swap, die jedoch hochriskant sind."
+  - question: "Was ist eine Funding Rate bei Krypto-Perpetuals?"
+    answer: "Die Funding Rate ist das Krypto-Pendant zum Swap, unterscheidet sich aber: Die Zahlung erfolgt typischerweise alle acht Stunden, fliesst zwischen Long- und Short-Tradern statt an den Broker, und ihre Höhe wird durch die Marktstimmung bestimmt. In Bullenmärkten kann sie annualisiert über 100 Prozent erreichen."
 ---
 
 Der Handel auf Margin bedeutet, dass ein Trader effektiv Geld leiht, um eine grössere Position einzugehen, als sein Kapital erlauben würde. Für dieses geliehene Kapital fallen Zinsen an, die sogenannten Swap-Kosten oder Overnight-Fees. Wer die Mechanik nicht kennt, verliert über die Zeit erhebliche Summen, ohne einen einzigen schlechten Trade gemacht zu haben.

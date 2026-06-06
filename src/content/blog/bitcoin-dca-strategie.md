@@ -6,6 +6,15 @@ category: "Krypto"
 subcategory: "Strategien"
 author: "TradingWissen Redaktion"
 featured: false
+faq:
+  - question: "Was ist Dollar-Cost-Averaging bei Bitcoin?"
+    answer: "Beim Dollar-Cost-Averaging (DCA) kaufst du statt einer grossen Einzelinvestition regelmässig denselben Betrag, egal wo der Kurs steht. In Phasen niedriger Kurse kaufst du automatisch mehr Coins, in Phasen hoher Kurse weniger."
+  - question: "Welche DCA-Anbieter gibt es in der Schweiz?"
+    answer: "In der Schweiz bieten unter anderem Bitpanda, Bitcoin Suisse, die Relai App und Pocket Bitcoin Bitcoin-Sparpläne an. Relai und Pocket Bitcoin senden Bitcoin nach jedem Kauf automatisch an die eigene Wallet."
+  - question: "Sind Bitcoin-Gewinne aus DCA in der Schweiz steuerfrei?"
+    answer: "Für Privatanleger sind Kursgewinne aus Bitcoin in der Schweiz steuerfrei wie bei Aktien. Es fällt aber Vermögenssteuer auf den Bestand am 31.12. an, und der Bitcoin muss im Wertschriftenverzeichnis erfasst werden."
+  - question: "Wie viel des Portfolios sollte in Bitcoin investiert sein?"
+    answer: "Die Empfehlung lautet maximal 5 bis 15 Prozent des Gesamtportfolios in Krypto. Mehr nur, wenn du das Risiko psychisch tragen kannst."
 ---
 
 ## Warum Bitcoin DCA?

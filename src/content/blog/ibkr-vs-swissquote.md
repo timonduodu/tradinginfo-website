@@ -6,6 +6,15 @@ category: "Broker"
 subcategory: "Vergleiche"
 author: "Redaktion"
 readingTime: "11 Min. Lesezeit"
+faq:
+  - question: "Ist Interactive Brokers oder Swissquote günstiger?"
+    answer: "Interactive Brokers ist bei aktivem Handel, internationalen Märkten und Derivaten klar günstiger. Ein Trade über 5'000 USD in US-Aktien kostet bei IBKR rund 10 CHF, bei Swissquote rund 85 CHF."
+  - question: "Welche Vorteile bietet Swissquote gegenüber IBKR?"
+    answer: "Swissquote bietet einen für die Schweizer Steuererklärung optimierten Steuerauszug, eine Schweizer Bankenlizenz mit esisuisse-Einlagensicherung bis 100'000 CHF, deutschsprachigen Support, ein CHF-Konto als Hauptwährung und Zugang zu Schweizer strukturierten Produkten."
+  - question: "Muss man bei IBKR den Steuerauszug selbst erstellen?"
+    answer: "Ja, bei IBKR muss der Anleger die DA-1-Liste selbst aus den Reports zusammenstellen, ein Aufwand von mehreren Stunden pro Jahr. Swissquote liefert dagegen einen fertigen, auf die Schweizer Steuererklärung optimierten Auszug."
+  - question: "Welcher Broker passt für einen Schweizer Buy-and-Hold-Anleger?"
+    answer: "Wer einmal jährlich SMI-Aktien und einen Welt-ETF kauft und 30 Jahre hält, fährt mit Swissquote ausreichend gut, da die Gebührendifferenzen absolut betrachtet überschaubar sind. Für aktive Anleger mit globalem Portfolio ist IBKR klar überlegen."
 ---
 
 Die Wahl zwischen Interactive Brokers und Swissquote ist eine der häufigsten Entscheidungssituationen für ambitionierte Schweizer Anleger. Beide Anbieter sprechen aktive Marktteilnehmer an, beide sind regulatorisch hochwertig, und dennoch unterscheiden sie sich in fast jedem relevanten Aspekt. Dieser Vergleich nimmt die zwei Häuser im Detail unter die Lupe.

@@ -6,6 +6,15 @@ category: "Steuern"
 subcategory: "Schweiz"
 author: "TradingWissen Redaktion"
 featured: false
+faq:
+  - question: "Wie viel kann man 2026 in die Säule 3a einzahlen?"
+    answer: "Mit Pensionskasse sind es 2026 maximal 7'258 CHF pro Jahr, ohne Pensionskasse bis zu 36'288 CHF (20 Prozent des Erwerbseinkommens). Die Einzahlung mindert sowohl das steuerbare Einkommen als auch das Vermögen."
+  - question: "Wann gilt man in der Schweiz als gewerbsmässiger Wertschriftenhändler?"
+    answer: "Gemäss ESTV-Kreisschreiben 36 spielen fünf Kriterien eine Rolle: Haltedauer unter 6 Monaten, Volumen über dem 5-fachen des Vorjahresvermögens, Kapitalgewinne über 50 Prozent des Nettoeinkommens, Fremdfinanzierung und Derivate-Einsatz."
+  - question: "Warum ist Buy-and-Hold in der Schweiz steuerlich vorteilhaft?"
+    answer: "Da Kursgewinne für Privatanleger in der Schweiz steuerfrei sind, akkumuliert sich der Gewinn beim langfristigen Halten ohne Steuer auf den Verkauf. Nur Dividenden werden besteuert, und mehr Trades erhöhen das Risiko der Gewerbsmässigkeit."
+  - question: "Was sind KER-Ausschüttungen?"
+    answer: "Schweizer Unternehmen können einen Teil ihrer Dividende aus dem Kapitaleinlageprinzip (KER) ausschütten, diese sind verrechnungssteuerfrei. Wer auf solche Werte setzt, spart die mühselige Verrechnungssteuer-Rückforderung, allerdings sind die KER-Reserven begrenzt."
 ---
 
 ## Das Schweizer Vorteils-Puzzle

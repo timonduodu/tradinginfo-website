@@ -6,6 +6,15 @@ category: "Broker"
 subcategory: "Spezialisten"
 author: "TradingWissen Redaktion"
 featured: false
+faq:
+  - question: "Welcher Broker eignet sich am besten für Optionshandel in DACH?"
+    answer: "Für ernsthaftes Options-Trading führt 2026 in DACH kein Weg an Interactive Brokers vorbei, entweder direkt für die Schweiz und Deutsch-fitte Anleger oder via CapTrader für DE/AT mit Sprach-Komfort. Saxo Bank ist die solide Alternative mit besserer UX, aber höheren Gebühren."
+  - question: "Warum braucht Optionshandel einen spezialisierten Broker?"
+    answer: "Optionen sind komplexer als Aktien und brauchen einen Broker mit vollem Optionsketten-Browser, Multi-Leg-Orders, günstigen Kommissionen, sauberen Margin-Berechnungen und schneller Ausführung. Neobroker wie Trade Republic oder Scalable bieten Optionen nicht oder nur eingeschränkt."
+  - question: "Was kostet der Optionshandel bei Interactive Brokers im Vergleich zu Saxo?"
+    answer: "Bei Interactive Brokers liegen die Kommissionen ab USD 0,15 pro Kontrakt (Tiered) oder USD 0,65 (Festpreis). Saxo Bank verlangt USD 3 oder EUR 3 pro Kontrakt im Standard, also rund das Fünffache des IBKR-Festpreises."
+  - question: "Wie werden Optionsgewinne in Deutschland besteuert?"
+    answer: "Termingeschäfte wie Optionen haben in Deutschland die 20.000-EUR-Verlustverrechnungsgrenze pro Jahr, Verluste können nur bis zu diesem Betrag mit anderen Termingeschäftsgewinnen verrechnet werden. Das macht riskante Optionsstrategien steuerlich sehr ungünstig."
 ---
 
 ## Warum braucht Optionshandel einen Spezial-Broker?

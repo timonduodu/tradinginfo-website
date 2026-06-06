@@ -6,6 +6,15 @@ category: "Krypto"
 subcategory: "Grundlagen"
 author: "Redaktion"
 readingTime: "8 Min. Lesezeit"
+faq:
+  - question: "Was ist ein Stablecoin?"
+    answer: "Ein Stablecoin ist eine Kryptowährung, deren Wert an einen stabilen Vermögenswert gekoppelt ist, meist an eine Währung wie den US-Dollar. So sollen die Vorteile von Krypto mit der Wertstabilität einer klassischen Währung verbunden werden."
+  - question: "Welche Typen von Stablecoins gibt es?"
+    answer: "Es gibt fiat-besicherte Stablecoins mit echten Dollar-Reserven (USDC, USDT), krypto-besicherte mit Überbesicherung durch andere Coins (DAI) und algorithmische Stablecoins, die ohne echte Reserven auskommen wollten und in der Vergangenheit teils spektakulär gescheitert sind."
+  - question: "Was ist der Unterschied zwischen USDT und USDC?"
+    answer: "USDT (Tether) ist der grösste und älteste Stablecoin, extrem liquide, aber wegen der Transparenz der Reserven in der Kritik. USDC (Circle) gilt als transparenter und stärker reguliert, weshalb viele institutionelle Anleger ihn bevorzugen."
+  - question: "Welche Risiken haben Stablecoins?"
+    answer: "Anleger sollten drei Risiken kennen: das De-Pegging-Risiko, bei dem ein Stablecoin von seinem Zielwert abweicht, das Gegenpartei-Risiko bezüglich der tatsächlichen Reserven, und das regulatorische Risiko durch neue Vorschriften."
 ---
 
 Während Bitcoin und Ethereum für ihre Kursschwankungen bekannt sind, gibt es eine Kategorie von Kryptowährungen, die genau das Gegenteil verspricht: einen stabilen Wert. Stablecoins sind aus dem Krypto-Ökosystem nicht mehr wegzudenken, doch ihr Name verspricht eine Sicherheit, die nicht immer gegeben ist.

@@ -1,76 +1,112 @@
 ---
 // TradingView Market Overview - zeigt aktuelle Kurse im grossen Format
-// Für Einbindung auf Homepage und in einzelnen Artikeln
+// Für Einbindung auf Homepage und in einzelnen Artikeln (theme-abhängig gerendert)
 ---
 
 <div class="market-overview-wrapper">
-  <div class="tradingview-widget-container">
-    <div class="tradingview-widget-container__widget"></div>
-  </div>
+  <div class="tradingview-widget-container" data-tv-overview></div>
 </div>
 
-<script type="text/javascript" is:inline async src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js">
-{
-  "colorTheme": "light",
-  "dateRange": "12M",
-  "showChart": true,
-  "locale": "de_CH",
-  "largeChartUrl": "",
-  "isTransparent": false,
-  "showSymbolLogo": true,
-  "showFloatingTooltip": false,
-  "width": "100%",
-  "height": "500",
-  "plotLineColorGrowing": "rgba(27, 122, 62, 1)",
-  "plotLineColorFalling": "rgba(185, 28, 28, 1)",
-  "gridLineColor": "rgba(229, 225, 218, 1)",
-  "scaleFontColor": "rgba(74, 74, 74, 1)",
-  "belowLineFillColorGrowing": "rgba(27, 122, 62, 0.12)",
-  "belowLineFillColorFalling": "rgba(185, 28, 28, 0.12)",
-  "belowLineFillColorGrowingBottom": "rgba(27, 122, 62, 0)",
-  "belowLineFillColorFallingBottom": "rgba(185, 28, 28, 0)",
-  "symbolActiveColor": "rgba(10, 37, 64, 0.12)",
-  "tabs": [
-    {
-      "title": "Indizes",
-      "symbols": [
-        { "s": "SIX:SMI", "d": "SMI" },
-        { "s": "FOREXCOM:SPXUSD", "d": "S&P 500" },
-        { "s": "FOREXCOM:NSXUSD", "d": "Nasdaq 100" },
-        { "s": "XETR:DAX", "d": "DAX" },
-        { "s": "INDEX:NKY", "d": "Nikkei 225" }
+<script is:inline>
+  (function () {
+    var container = document.querySelector('[data-tv-overview]');
+    if (!container) return;
+
+    var baseConfig = {
+      "dateRange": "12M",
+      "showChart": true,
+      "locale": "de_CH",
+      "largeChartUrl": "",
+      "isTransparent": false,
+      "showSymbolLogo": true,
+      "showFloatingTooltip": false,
+      "width": "100%",
+      "height": "500",
+      "tabs": [
+        {
+          "title": "Indizes",
+          "symbols": [
+            { "s": "SIX:SMI", "d": "SMI" },
+            { "s": "FOREXCOM:SPXUSD", "d": "S&P 500" },
+            { "s": "FOREXCOM:NSXUSD", "d": "Nasdaq 100" },
+            { "s": "XETR:DAX", "d": "DAX" },
+            { "s": "INDEX:NKY", "d": "Nikkei 225" }
+          ]
+        },
+        {
+          "title": "Forex",
+          "symbols": [
+            { "s": "FX:EURCHF", "d": "EUR/CHF" },
+            { "s": "FX:USDCHF", "d": "USD/CHF" },
+            { "s": "FX:EURUSD", "d": "EUR/USD" },
+            { "s": "FX:GBPUSD", "d": "GBP/USD" },
+            { "s": "FX:USDJPY", "d": "USD/JPY" }
+          ]
+        },
+        {
+          "title": "Krypto",
+          "symbols": [
+            { "s": "BITSTAMP:BTCUSD", "d": "Bitcoin" },
+            { "s": "BITSTAMP:ETHUSD", "d": "Ethereum" },
+            { "s": "BINANCE:SOLUSD", "d": "Solana" },
+            { "s": "BINANCE:BNBUSD", "d": "BNB" }
+          ]
+        },
+        {
+          "title": "Rohstoffe",
+          "symbols": [
+            { "s": "OANDA:XAUUSD", "d": "Gold" },
+            { "s": "OANDA:XAGUSD", "d": "Silber" },
+            { "s": "TVC:USOIL", "d": "Öl (WTI)" },
+            { "s": "TVC:UKOIL", "d": "Öl (Brent)" }
+          ]
+        }
       ]
-    },
-    {
-      "title": "Forex",
-      "symbols": [
-        { "s": "FX:EURCHF", "d": "EUR/CHF" },
-        { "s": "FX:USDCHF", "d": "USD/CHF" },
-        { "s": "FX:EURUSD", "d": "EUR/USD" },
-        { "s": "FX:GBPUSD", "d": "GBP/USD" },
-        { "s": "FX:USDJPY", "d": "USD/JPY" }
-      ]
-    },
-    {
-      "title": "Krypto",
-      "symbols": [
-        { "s": "BITSTAMP:BTCUSD", "d": "Bitcoin" },
-        { "s": "BITSTAMP:ETHUSD", "d": "Ethereum" },
-        { "s": "BINANCE:SOLUSD", "d": "Solana" },
-        { "s": "BINANCE:BNBUSD", "d": "BNB" }
-      ]
-    },
-    {
-      "title": "Rohstoffe",
-      "symbols": [
-        { "s": "OANDA:XAUUSD", "d": "Gold" },
-        { "s": "OANDA:XAGUSD", "d": "Silber" },
-        { "s": "TVC:USOIL", "d": "Öl (WTI)" },
-        { "s": "TVC:UKOIL", "d": "Öl (Brent)" }
-      ]
+    };
+
+    var lightColors = {
+      "colorTheme": "light",
+      "plotLineColorGrowing": "rgba(27, 122, 62, 1)",
+      "plotLineColorFalling": "rgba(185, 28, 28, 1)",
+      "gridLineColor": "rgba(229, 225, 218, 1)",
+      "scaleFontColor": "rgba(74, 74, 74, 1)",
+      "belowLineFillColorGrowing": "rgba(27, 122, 62, 0.12)",
+      "belowLineFillColorFalling": "rgba(185, 28, 28, 0.12)",
+      "belowLineFillColorGrowingBottom": "rgba(27, 122, 62, 0)",
+      "belowLineFillColorFallingBottom": "rgba(185, 28, 28, 0)",
+      "symbolActiveColor": "rgba(10, 37, 64, 0.12)"
+    };
+
+    var darkColors = {
+      "colorTheme": "dark",
+      "plotLineColorGrowing": "rgba(76, 175, 114, 1)",
+      "plotLineColorFalling": "rgba(229, 115, 115, 1)",
+      "gridLineColor": "rgba(43, 49, 59, 1)",
+      "scaleFontColor": "rgba(182, 179, 172, 1)",
+      "belowLineFillColorGrowing": "rgba(76, 175, 114, 0.12)",
+      "belowLineFillColorFalling": "rgba(229, 115, 115, 0.12)",
+      "belowLineFillColorGrowingBottom": "rgba(76, 175, 114, 0)",
+      "belowLineFillColorFallingBottom": "rgba(229, 115, 115, 0)",
+      "symbolActiveColor": "rgba(138, 180, 232, 0.12)"
+    };
+
+    function render() {
+      var isDark = document.documentElement.dataset.theme === 'dark';
+      var config = Object.assign({}, baseConfig, isDark ? darkColors : lightColors);
+      container.innerHTML = '<div class="tradingview-widget-container__widget"></div>';
+      var s = document.createElement('script');
+      s.src = 'https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js';
+      s.async = true;
+      s.text = JSON.stringify(config);
+      container.appendChild(s);
     }
-  ]
-}
+
+    render();
+    new MutationObserver(render).observe(document.documentElement, {
+      attributes: true,
+      attributeFilter: ['data-theme'],
+    });
+  })();
 </script>
 
 <style is:global>

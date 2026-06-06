@@ -6,6 +6,15 @@ category: "Grundlagen"
 subcategory: "Anlageprodukte"
 author: "TradingWissen Redaktion"
 featured: false
+faq:
+  - question: "Was ist der Unterschied zwischen einem ETF und einem aktiven Fonds?"
+    answer: "Ein ETF bildet einen Index nach, ohne aktive Auswahl und ohne Manager, der den Markt schlagen will. Bei einem aktiven Fonds wählt ein Fondsmanager Aktien aus, mit dem Ziel, den Markt zu übertreffen."
+  - question: "Wie hoch sind die Kosten von ETFs im Vergleich zu aktiven Fonds?"
+    answer: "Ein Welt-ETF hat typisch eine TER von 0,07 bis 0,20 Prozent, ein aktiv gemanagter Aktienfonds dagegen 1,00 bis 2,00 Prozent. Bei 100.000 Anlage über 30 Jahre und 7 Prozent Rendite macht der Kostenunterschied rund 259.000 aus."
+  - question: "Schlagen aktive Fonds den Index?"
+    answer: "Die SPIVA-Reports zeigen Jahr für Jahr, dass die Mehrheit der aktiven Fonds ihren Benchmark nicht schlägt. Über 10 oder 15 Jahre schaffen es in den meisten Marktsegmenten weniger als 20 Prozent der aktiven Fonds, ihren Vergleichsindex zu übertreffen."
+  - question: "Warum sind synthetische ETFs für Schweizer Anleger oft attraktiv?"
+    answer: "Synthetische ETFs tauschen mit einem Swap-Partner die Indexrendite und können die US-Quellensteuer von 30 Prozent auf Dividenden umgehen, die bei physischen ETFs teils mühsam zurückgefordert werden muss. Nachteil ist das Kontrahentenrisiko."
 ---
 
 ## Die zwei Welten: passiv vs aktiv

@@ -6,6 +6,15 @@ category: "Strategien"
 subcategory: "Arbitrage"
 author: "Redaktion"
 readingTime: "9 Min. Lesezeit"
+faq:
+  - question: "Was ist Cash-and-Carry-Arbitrage bei Bitcoin?"
+    answer: "Cash-and-Carry-Arbitrage nutzt die Differenz zwischen Spot-Preis und Futures-Preis aus. Man kauft Bitcoin am Spot-Markt (Long) und verkauft gleichzeitig Bitcoin-Futures (Short), bei Verfall konvergieren beide Preise und das Premium wird als Gewinn realisiert."
+  - question: "Ist Cash-and-Carry-Arbitrage risikolos?"
+    answer: "Die Strategie ist markt-neutral, aber nicht risikolos. Es bestehen Counterparty-Risiko der Börse, Liquidations-Risiko bei Perpetuals, Premium-Verfall sowie steuerliche Komplikationen."
+  - question: "Welche Renditen sind mit Bitcoin Cash-and-Carry möglich?"
+    answer: "Die Renditen liegen historisch oft im Bereich von 10 bis 30 % annualisiert bei minimalem Marktrisiko. In Bull-Phasen kann das Premium auf 20 bis 40 % annualisiert steigen, in Bärenmärkten auf 0 oder negativ fallen."
+  - question: "Warum gibt es überhaupt ein Futures-Premium bei Bitcoin?"
+    answer: "Hauptgründe sind die Nachfrage nach Hebel durch Spekulanten, die Funding-Kosten für das physische Halten von Bitcoin sowie eine Risikoprämie für unfreiwilligen Liquiditätsabfluss in Stressphasen."
 ---
 
 Während viele Privatanleger Bitcoin als hochvolatile Wette betrachten, nutzen institutionelle Akteure seit Jahren eine deutlich risikoärmere Strategie: Cash-and-Carry-Arbitrage. Die Idee ist einfach, die Umsetzung anspruchsvoll, die Renditen historisch attraktiv, oft im Bereich von 10 bis 30 % annualisiert bei minimalem Marktrisiko.

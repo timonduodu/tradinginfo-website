@@ -6,6 +6,15 @@ category: "Grundlagen"
 subcategory: "Mechanik"
 author: "Redaktion"
 readingTime: "9 Min. Lesezeit"
+faq:
+  - question: "Was ist der Unterschied zwischen Market-Order und Limit-Order?"
+    answer: "Eine Market-Order wird sofort zum aktuell verfügbaren Marktpreis ausgeführt und bietet maximale Ausführungssicherheit, aber keine Preiskontrolle. Eine Limit-Order garantiert den gewünschten Preis, aber nicht die Ausführung."
+  - question: "Was ist ein Trailing-Stop?"
+    answer: "Ein Trailing-Stop ist ein automatisch nachziehender Stop-Loss, der statt eines fixen Preises einen Abstand in Pips oder Prozent definiert. Bewegt sich der Markt in Trade-Richtung, zieht der Stop nach, bewegt er sich dagegen, bleibt er stehen."
+  - question: "Was bedeutet OCO-Order?"
+    answer: "Eine OCO-Order (One Cancels the Other) kombiniert zwei Orders, von denen die Ausführung der einen automatisch die andere storniert. Typisch ist die Kombination von Take-Profit und Stop-Loss auf eine offene Position."
+  - question: "Warum kann ein Stop-Loss schlechter ausgeführt werden als geplant?"
+    answer: "Sobald der Stop-Preis erreicht wird, löst ein Stop-Loss eine Market-Order aus. In schnellen Märkten kann die Ausführung weit unter dem Stop-Preis erfolgen, wie beim CHF-Schock 2015, als Stops bei 1.19 teils zu 0.90 ausgeführt wurden."
 ---
 
 Eine Order ist die Anweisung an den Broker, einen Kauf oder Verkauf auszuführen. Was wie eine triviale Funktion klingt, ist in Wahrheit ein komplexes Feld mit erheblichen Konsequenzen für Ausführungspreis, Slippage und Gesamtperformance. Wer die wichtigsten Order-Arten nicht beherrscht, verschenkt regelmässig Geld an den Markt.

@@ -6,6 +6,15 @@ category: "Steuern"
 subcategory: "Status"
 author: "Redaktion"
 readingTime: "11 Min. Lesezeit"
+faq:
+  - question: "Wann gilt man in der Schweiz als gewerbsmässiger Wertschriftenhändler?"
+    answer: "Die Abgrenzung regelt das Kreisschreiben Nr. 36 der ESTV mit fünf Safe-Haven-Kriterien. Wer alle fünf Kriterien kumulativ erfüllt, gilt sicher als privater Anleger, eine Verletzung kann zur Einstufung als gewerbsmässig führen."
+  - question: "Welche fünf Safe-Haven-Kriterien gibt es?"
+    answer: "Eine Haltedauer von mindestens sechs Monaten, ein Transaktionsvolumen unter dem Fünffachen des Wertschriftenbestands, Kapitalgewinne unter 50 Prozent des Reineinkommens, keine überwiegende Fremdfinanzierung und keine Derivate ausser zur Absicherung."
+  - question: "Welche Konsequenzen hat die Einstufung als gewerbsmässig?"
+    answer: "Kursgewinne werden voll einkommensteuerpflichtig (je nach Wohnsitz 25 bis 45 Prozent), es fällt AHV/IV/EO von 10 Prozent auf den Reingewinn an, Verluste werden verrechenbar und ab einem gewissen Umfang besteht Buchführungspflicht."
+  - question: "Wie lange kann die Steuerverwaltung rückwirkend nachfordern?"
+    answer: "Wird eine Person rückwirkend als gewerbsmässiger Händler eingestuft, kann die Steuerverwaltung bis zu zehn Jahre rückwirkend Steuern und AHV nachfordern, samt Verzugszinsen und möglichen Strafsteuern."
 ---
 
 Wer in der Schweiz mit Wertschriften handelt, befindet sich steuerlich in einer komfortablen Ausgangslage: Kursgewinne aus dem Verkauf von Aktien, ETFs oder Anleihen sind grundsätzlich steuerfrei. Diese Privilegierung gilt jedoch nur für **private Vermögensverwaltung**. Wer als gewerbsmässiger Wertschriftenhändler eingestuft wird, verliert dieses Privileg vollständig, mit erheblichen finanziellen Konsequenzen.

@@ -6,6 +6,15 @@ category: "Steuern"
 subcategory: "Abgaben"
 author: "Redaktion"
 readingTime: "8 Min. Lesezeit"
+faq:
+  - question: "Wie hoch ist die Schweizer Stempelabgabe?"
+    answer: "Die Umsatzabgabe beträgt 0,075 Prozent auf Schweizer Wertschriften und 0,15 Prozent auf ausländische Wertschriften. Sie wird auf den Bruttobetrag jeder Transaktion erhoben, unabhängig von Gewinn oder Verlust."
+  - question: "Fällt bei ausländischen Brokern Stempelabgabe an?"
+    answer: "Nein. Die Umsatzabgabe wird nur erhoben, wenn ein Schweizer Effektenhändler beteiligt ist. Bei ausländischen Brokern wie Interactive Brokers oder DEGIRO entfällt sie vollständig."
+  - question: "Wie wird die Stempelabgabe bei ETFs berechnet?"
+    answer: "Die Abgabe richtet sich nach dem Domizil des ETFs, nicht nach den enthaltenen Wertpapieren. Ein ETF mit Schweizer Domizil kostet 0,075 Prozent, ein ETF mit Domizil in Irland, Luxemburg oder den USA 0,15 Prozent."
+  - question: "Wie kann man die Stempelabgabe legal reduzieren?"
+    answer: "Möglich sind ein ausländischer Broker für aktive Strategien, längere Haltedauern, bei kleinen Portfolios Direktanlagen statt ETFs sowie Schweizer ETFs bei einem Schweizer Anlageschwerpunkt. Ausländische Konten müssen aber in der Steuererklärung deklariert werden."
 ---
 
 Die Schweizer Stempelabgabe ist eine der eigentümlichsten Steuern im europäischen Anlageumfeld. Sie fällt nicht auf Gewinne an, nicht auf Erträge, sondern auf den **Umsatz**, also den Wert jeder einzelnen Transaktion. Für aktive Anleger und Trader ist sie ein wesentlicher Kostenfaktor, den viele bei der Strategieplanung übersehen.

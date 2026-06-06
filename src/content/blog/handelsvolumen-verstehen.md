@@ -6,6 +6,15 @@ category: "Grundlagen"
 subcategory: "Marktanalyse"
 author: "Redaktion"
 readingTime: "8 Min. Lesezeit"
+faq:
+  - question: "Was misst das Handelsvolumen?"
+    answer: "Das Handelsvolumen zählt, wie viele Stücke einer Aktie im betrachteten Zeitraum gehandelt wurden. Es ist die Anzahl gehandelter Stücke, nicht der monetäre Wert, der als Umsatz separat ausgewiesen wird."
+  - question: "Was ist der Unterschied zwischen Volumen und Open Interest?"
+    answer: "Das Volumen ist die Anzahl der Trades pro Tag, das Open Interest die Anzahl der Kontrakte, die nach Handelsschluss bei Futures und Optionen noch offen sind. Steigendes Open Interest bei steigenden Preisen deutet auf neues Geld im Markt hin."
+  - question: "Sind Krypto-Volumendaten zuverlässig?"
+    answer: "Vorsicht ist geboten, denn Volumen-Daten auf Krypto-Börsen sind notorisch durch Wash Trading manipuliert. Erst seit den Spot-Bitcoin-ETFs in den USA gibt es vertrauenswürdige Daten für Bitcoin."
+  - question: "Bedeuten hohes Volumen und Liquidität dasselbe?"
+    answer: "Nein, Volumen ist die Anzahl Trades pro Zeitraum, Liquidität beschreibt, wie einfach eine Position auf- oder abgebaut werden kann, ohne den Preis zu bewegen. Eine Aktie mit hohem Volumen kann illiquide sein, wenn sich das Volumen auf wenige grosse Trades konzentriert."
 ---
 
 In jedem Trading-Chart taucht es als zweite Dimension auf: das Handelsvolumen. Balken oder Linien, die zeigen, wie viele Stücke an einem Tag gehandelt wurden. Was steckt dahinter? Was sagt es uns? Und welche Mythen ranken sich um diese Kennzahl?

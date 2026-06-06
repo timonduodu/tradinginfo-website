@@ -6,6 +6,15 @@ category: "Krypto"
 subcategory: "Steuern"
 author: "Redaktion"
 readingTime: "9 Min. Lesezeit"
+faq:
+  - question: "Wie lange muss man Krypto in Deutschland halten, um steuerfrei zu verkaufen?"
+    answer: "Wer Kryptowährungen länger als 12 Monate hält, verkauft steuerfrei, unabhängig von der Gewinnhöhe. Bei einem Verkauf innerhalb von 12 Monaten ist der Gewinn mit dem persönlichen Einkommensteuersatz von 0 bis 45 Prozent steuerpflichtig."
+  - question: "Wie hoch ist die Krypto-Freigrenze in Deutschland?"
+    answer: "Gewinne aus privaten Veräusserungsgeschäften bleiben bis 999,99 Euro pro Jahr steuerfrei. Es ist eine Freigrenze, kein Freibetrag, das heisst bei einem Gewinn von 1.001 Euro ist der gesamte Betrag steuerpflichtig, nicht nur der überschiessende Euro."
+  - question: "Wie werden Staking, Mining und Lending besteuert?"
+    answer: "Erträge aus Staking, Mining oder Lending gelten als sonstige Einkünfte nach Paragraf 22 Nr. 3 EStG und werden zum Zufluss mit dem Marktwert besteuert. Hierfür gilt eine separate Freigrenze von 256 Euro pro Jahr."
+  - question: "Was ändert sich durch DAC8 ab 2026?"
+    answer: "Mit der EU-Richtlinie DAC8 werden ab 2026 Krypto-Transaktionen EU-weit für die Finanzbehörden transparent, da Krypto-Dienstleister Daten melden müssen. DAC8 schafft keine neuen Steuertatbestände, macht aber saubere Dokumentation zur Pflicht."
 ---
 
 Deutschland besteuert Kryptowährungen grundlegend anders als die Schweiz, und für viele Anleger sogar attraktiver, sofern sie eine entscheidende Regel beachten: die Haltefrist. Wer Krypto länger als ein Jahr hält, verkauft steuerfrei, unabhängig von der Gewinnhöhe. Wer früher verkauft, zahlt den persönlichen Einkommensteuersatz. Dieser Artikel erklärt die deutschen Regeln für 2026.

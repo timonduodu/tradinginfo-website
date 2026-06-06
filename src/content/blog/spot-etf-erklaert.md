@@ -6,6 +6,15 @@ category: "Grundlagen"
 subcategory: "ETF"
 author: "Redaktion"
 readingTime: "7 Min. Lesezeit"
+faq:
+  - question: "Was ist ein Spot-ETF?"
+    answer: "Ein Spot-ETF hält den zugrunde liegenden Vermögenswert tatsächlich physisch, sei es Gold, eine Kryptowährung oder ein Korb von Aktien. Der ETF-Preis folgt damit direkt dem aktuellen Marktpreis des Basiswerts."
+  - question: "Was ist der Unterschied zwischen Spot-ETF und Futures-ETF?"
+    answer: "Ein Spot-ETF hält den echten Vermögenswert, ein Futures-ETF hält stattdessen Terminkontrakte darauf. Der Spot-ETF bildet den Preis direkt ab, der Futures-ETF nur indirekt und mit möglichen Abweichungen."
+  - question: "Was sind Rollkosten bei Futures-ETFs?"
+    answer: "Futures haben ein Ablaufdatum und müssen vor dem Auslaufen gegen einen neuen Kontrakt getauscht werden, das nennt man rollen. Sind die späteren Kontrakte teurer (Contango), entstehen Kosten, die dazu führen können, dass ein Futures-ETF schlechter abschneidet als der reine Spot-Preis."
+  - question: "Woran erkenne ich, ob ein ETF physisch repliziert?"
+    answer: "Ein Blick ins Factsheet zeigt, ob das Produkt physisch repliziert oder über Futures bzw. Swaps arbeitet. Bei Rohstoff- und Krypto-ETFs ist dieser Unterschied besonders relevant, bei breiten Aktienindizes ist physische Replikation ohnehin der Standard."
 ---
 
 Spätestens seit der Zulassung von Spot-Bitcoin-ETFs ist der Begriff "Spot" in aller Munde. Doch was bedeutet er eigentlich, und worin unterscheidet sich ein Spot-ETF von anderen Konstruktionen? Die Antwort ist wichtiger, als sie klingt, denn die Bauweise eines ETF beeinflusst direkt, wie gut er seinen Basiswert abbildet.

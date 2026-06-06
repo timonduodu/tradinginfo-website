@@ -2,6 +2,8 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import ArticleHero from '../../components/ArticleHero.astro';
 import AdSlot from '../../components/AdSlot.astro';
+import ShareButtons from '../../components/ShareButtons.astro';
+import NewsletterSignup from '../../components/NewsletterSignup.astro';
 import { getCollection, type CollectionEntry } from 'astro:content';
 
 export async function getStaticPaths() {
@@ -29,11 +31,14 @@ const related = allPosts
   .filter(p => p.slug !== post.slug && p.data.category === post.data.category && p.data.pubDate <= now)
   .slice(0, 3);
 
+const ogImage = `/og/${post.slug}.png`;
+
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": post.data.title,
   "description": post.data.description,
+  "image": `https://www.tradingwissen.ch${ogImage}`,
   "datePublished": post.data.pubDate.toISOString(),
   "dateModified": (post.data.updatedDate ?? post.data.pubDate).toISOString(),
   "author": { "@type": "Organization", "name": post.data.author },
@@ -44,12 +49,73 @@ const articleSchema = {
   },
   "mainEntityOfPage": `https://tradingwissen.ch/blog/${post.slug}/`
 };
+
+// Breadcrumbs: Start → Kategorie → Artikel
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Start", "item": "https://www.tradingwissen.ch/" },
+    { "@type": "ListItem", "position": 2, "name": post.data.category, "item": `https://www.tradingwissen.ch/${post.data.category.toLowerCase()}/` },
+    { "@type": "ListItem", "position": 3, "name": post.data.title },
+  ],
+};
+
+// FAQ-Schema: aus Frontmatter (faq:) oder automatisch aus Frage-Überschriften
+// (H2/H3, die mit "?" enden) + dem darauffolgenden Absatz extrahiert.
+function stripMarkdown(text: string): string {
+  return text
+    .replace(/```[\s\S]*?```/g, '')          // Codeblöcke
+    .replace(/\[([^\]]+)\]\([^)]*\)/g, '$1') // Links → Linktext
+    .replace(/[*_`#>]/g, '')                 // Formatierungszeichen
+    .replace(/\|[^\n]*\|/g, '')              // Tabellenzeilen
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function extractFaq(body: string): { question: string; answer: string }[] {
+  const faqs: { question: string; answer: string }[] = [];
+  const regex = /^#{2,3} +(.+\?)\s*\n+([\s\S]*?)(?=\n#{1,6} |\s*$)/gm;
+  let match;
+  while ((match = regex.exec(body)) !== null) {
+    const question = stripMarkdown(match[1]);
+    let answer = stripMarkdown(match[2]);
+    if (answer.length > 400) {
+      // An Satzgrenze kürzen
+      const cut = answer.slice(0, 400);
+      answer = cut.slice(0, Math.max(cut.lastIndexOf('. '), 200) + 1);
+    }
+    if (question && answer.length >= 40) faqs.push({ question, answer });
+  }
+  return faqs;
+}
+
+const faqs = post.data.faq?.length ? post.data.faq : extractFaq(post.body);
+const faqSchema = faqs.length >= 2 ? {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": faqs.map(f => ({
+    "@type": "Question",
+    "name": f.question,
+    "acceptedAnswer": { "@type": "Answer", "text": f.answer },
+  })),
+} : null;
+
+const schemas = [articleSchema, breadcrumbSchema, ...(faqSchema ? [faqSchema] : [])];
 ---
 
-<BaseLayout title={`${post.data.title} — TradingWissen.ch`} description={post.data.description} schema={articleSchema}>
-  <article class="post">
+<BaseLayout title={`${post.data.title} — TradingWissen.ch`} description={post.data.description} image={ogImage} type="article" schema={schemas}>
+  <div class="reading-progress" aria-hidden="true"><div class="reading-progress-bar" id="reading-progress-bar"></div></div>
+  <article class="post" data-pagefind-body>
+    <nav class="breadcrumbs container-narrow" aria-label="Breadcrumb" data-pagefind-ignore>
+      <ol>
+        <li><a href="/">Start</a></li>
+        <li><a href={`/${post.data.category.toLowerCase()}`}>{post.data.category}</a></li>
+        <li aria-current="page">{post.data.title}</li>
+      </ol>
+    </nav>
     <header class="post-header container-narrow">
-      <a href={`/${post.data.category.toLowerCase()}`} class="category-tag">{post.data.category}</a>
+      <a href={`/${post.data.category.toLowerCase()}`} class="category-tag" data-pagefind-filter="Kategorie">{post.data.category}</a>
       <h1 class="post-title">{post.data.title}</h1>
       <p class="post-description">{post.data.description}</p>
       <div class="post-meta">
@@ -96,6 +162,16 @@ const articleSchema = {
       <Content />
     </div>
 
+    <!-- Share buttons -->
+    <div class="container-narrow share-wrap">
+      <ShareButtons title={post.data.title} url={`https://www.tradingwissen.ch/blog/${post.slug}/`} />
+    </div>
+
+    <!-- Newsletter signup -->
+    <div class="container-narrow">
+      <NewsletterSignup />
+    </div>
+
     <!-- In-article ad slot (bottom) -->
     <div class="container-narrow">
       <AdSlot type="inline" slot="bottom" />
@@ -131,7 +207,85 @@ const articleSchema = {
   </article>
 </BaseLayout>
 
+<script>
+  // Lesefortschrittsbalken
+  const bar = document.getElementById('reading-progress-bar');
+  const content = document.querySelector('.post-content');
+  if (bar && content) {
+    const update = () => {
+      const rect = (content as HTMLElement).getBoundingClientRect();
+      const total = rect.height - window.innerHeight;
+      const progress = total > 0 ? Math.min(1, Math.max(0, -rect.top / total)) : 0;
+      bar.style.transform = `scaleX(${progress})`;
+    };
+    window.addEventListener('scroll', update, { passive: true });
+    update();
+  }
+</script>
+
 <style>
+  .reading-progress {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    z-index: 100;
+    background: transparent;
+    pointer-events: none;
+  }
+
+  .reading-progress-bar {
+    height: 100%;
+    background: var(--color-accent);
+    transform: scaleX(0);
+    transform-origin: left;
+  }
+
+  .breadcrumbs {
+    margin-bottom: var(--space-md);
+    font-family: var(--font-sans);
+    font-size: 0.8rem;
+    color: var(--color-ink-muted);
+  }
+
+  .breadcrumbs ol {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin: 0;
+    padding: 0;
+  }
+
+  .breadcrumbs li:not(:last-child)::after {
+    content: '›';
+    margin-left: 0.4rem;
+    color: var(--color-ink-muted);
+  }
+
+  .breadcrumbs a {
+    color: var(--color-ink-soft);
+    text-decoration: none;
+  }
+
+  .breadcrumbs a:hover {
+    color: var(--color-accent);
+    text-decoration: underline;
+  }
+
+  .breadcrumbs li[aria-current] {
+    color: var(--color-ink-muted);
+    max-width: 28ch;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .share-wrap {
+    margin: var(--space-lg) auto;
+  }
+
   .updated {
     font-style: italic;
     color: var(--color-ink-soft);
@@ -140,7 +294,7 @@ const articleSchema = {
     margin: var(--space-lg) auto;
     padding: var(--space-md) var(--space-lg);
     border-left: 3px solid var(--color-accent);
-    background: rgba(10, 37, 64, 0.03);
+    background: var(--color-tint);
   }
   .toc-title {
     font-size: 0.78rem;

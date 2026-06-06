@@ -6,6 +6,15 @@ category: "Grundlagen"
 subcategory: "Forex"
 author: "Redaktion"
 readingTime: "7 Min. Lesezeit"
+faq:
+  - question: "Was ist ein Pip im Forex-Trading?"
+    answer: "Pip steht für Percentage in Point oder Price Interest Point und bezeichnet die kleinste übliche Preisänderung eines Währungspaars. Bei den meisten Paaren entspricht ein Pip der vierten Nachkommastelle, bei Yen-Paaren der zweiten."
+  - question: "Was ist eine Pipette?"
+    answer: "Eine Pipette, auch fractional Pip genannt, ist eine zusätzliche Nachkommastelle und entspricht einem Zehntel eines Pips. Spreads werden bei modernen Brokern häufig in Pipetten angegeben, ein Spread von 1.2 Pips wird so zu 12 Pipetten."
+  - question: "Was ist ein Lot im Forex-Handel?"
+    answer: "Ein Lot ist die standardisierte Positionsgrösse: Ein Standard Lot umfasst 100'000 Einheiten der Basiswährung, ein Mini Lot 10'000, ein Micro Lot 1'000 und ein Nano Lot 100. Bei EUR/USD beträgt der Pip-Wert eines Standard Lots etwa 10 USD."
+  - question: "Wie berechnet man den Pip-Wert?"
+    answer: "Der Pip-Wert in der Basiswährung ergibt sich aus (1 Pip / Wechselkurs) mal Positionsgrösse. Er hängt vom Währungspaar, der Positionsgrösse und der Kontowährung ab; die meisten Trading-Plattformen zeigen ihn automatisch an."
 ---
 
 Wer in Trading-Foren oder Fachliteratur unterwegs ist, stösst unweigerlich auf den Begriff "Pip". Trader sprechen von "20 Pips Gewinn", "Stop bei 50 Pips" oder "der Spread beträgt 1.2 Pips". Was dahinter steht, ist die fundamentale Masseinheit der Forex-Welt, und für jeden Trader essentiell zu verstehen.

@@ -6,6 +6,15 @@ category: "Grundlagen"
 subcategory: "ETF"
 author: "Redaktion"
 readingTime: "7 Min. Lesezeit"
+faq:
+  - question: "Was ist der Unterschied zwischen thesaurierenden und ausschüttenden ETFs?"
+    answer: "Ausschüttende ETFs zahlen die Dividenden der enthaltenen Unternehmen an den Anleger aus, thesaurierende ETFs behalten die Dividenden ein und reinvestieren sie automatisch im Fonds. Beim ausschüttenden ETF bekommt man regelmässig Geld, beim thesaurierenden steckt der Ertrag im steigenden Fondswert."
+  - question: "Gibt es bei thesaurierenden ETFs in der Schweiz einen Steuervorteil?"
+    answer: "Nein. Anders als in manchen Nachbarländern gibt es in der Schweiz keinen Steueraufschub. Die Dividendenerträge sind als Einkommen steuerpflichtig, unabhängig davon, ob sie ausgeschüttet oder thesauriert werden."
+  - question: "Muss ich thesaurierte Erträge in der Steuererklärung deklarieren?"
+    answer: "Ja, auch beim thesaurierenden ETF müssen die reinvestierten Erträge in der Steuererklärung deklariert und versteuert werden, obwohl man kein Geld erhalten hat. Die ESTV führt die steuerbaren Erträge vieler Fonds in einer Kursliste."
+  - question: "Welche ETF-Variante soll ich wählen?"
+    answer: "Da der Steueraspekt in der Schweiz neutral ist, entscheidet vor allem der Zweck: Thesaurierend eignet sich für den reinen Vermögensaufbau und ETF-Sparpläne, ausschüttend für alle, die laufendes Einkommen wünschen."
 ---
 
 Beim ETF-Kauf taucht eine Frage auf, die viele Einsteiger überfordert: thesaurierend oder ausschüttend? Beide Varianten halten dieselben Aktien, gehen aber unterschiedlich mit den Dividenden um. Für Schweizer Anleger hat die Wahl andere Konsequenzen als in vielen Nachbarländern, hier der Überblick.

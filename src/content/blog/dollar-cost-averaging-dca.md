@@ -6,6 +6,15 @@ category: "Strategien"
 subcategory: "Langfristig"
 author: "TradingWissen Redaktion"
 featured: false
+faq:
+  - question: "Was ist Dollar-Cost-Averaging (DCA)?"
+    answer: "DCA ist eine Anlagestrategie, bei der man regelmässig denselben Betrag investiert, unabhängig vom Marktstand. Bei niedrigen Kursen bekommt man mehr Anteile, bei hohen weniger, über die Zeit ergibt sich ein Durchschnittspreis."
+  - question: "Ist Lump Sum oder DCA besser?"
+    answer: "Eine Vanguard-Studie verglich Einmalanlage mit DCA über 12 Monate: In rund 67 Prozent der Fälle war die Einmalanlage besser, im Schnitt mit 2 bis 3 Prozent mehr Rendite. In den verbleibenden 33 Prozent, vor allem in Crash-Phasen, war DCA besser."
+  - question: "Wann funktioniert DCA am besten?"
+    answer: "DCA funktioniert mathematisch am besten, wenn die Kurse stark schwanken, etwa bei Krypto, Schwellenländer-Aktien oder Tech-ETFs. Bei einer kontinuierlich steigenden Linie oder sehr stabilen Werten wie Staatsanleihen nutzt DCA wenig."
+  - question: "Sollte man den DCA-Sparplan in einem Crash pausieren?"
+    answer: "Nein, genau im Crash ist DCA am wertvollsten, weil man günstig kauft. Wer im Crash pausiert, verschenkt den grössten Vorteil der Strategie."
 ---
 
 ## Was ist Dollar-Cost-Averaging?

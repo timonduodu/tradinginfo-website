@@ -6,6 +6,15 @@ category: "Strategien"
 subcategory: "Volatilität"
 author: "Redaktion"
 readingTime: "7 Min. Lesezeit"
+faq:
+  - question: "Was misst der VIX?"
+    answer: "Der VIX bildet die erwartete Volatilität des S&P 500 für die kommenden 30 Tage ab und wird aus den Preisen von Optionen auf den S&P 500 berechnet. Er misst nicht die vergangene, sondern die vom Markt implizit erwartete Volatilität."
+  - question: "Warum gilt der VIX als Angst-Index?"
+    answer: "Ein niedriger VIX deutet auf selbstzufriedene Anleger hin und ist oft Vorbote von Korrekturen, während ein hoher VIX Panik signalisiert und historisch oft günstige Kaufgelegenheiten markiert. Viele professionelle Investoren nutzen den VIX deshalb als Kontraindikator."
+  - question: "Kann man den VIX direkt handeln?"
+    answer: "Nein, der VIX ist nur ein Index und nicht direkt handelbar. Es gibt aber abgeleitete Produkte wie VIX-Futures sowie ETFs und ETNs (VXX, UVXY, SVXY), die jedoch in ruhigen Phasen durch Contango massiv an Wert verlieren können."
+  - question: "Was war der Volmageddon 2018?"
+    answer: "Am 5. Februar 2018 stieg der VIX innerhalb eines Tages von 17 auf 37. Mehrere Short-Volatility-ETNs implodierten, der XIV verlor an einem Tag 96 Prozent seines Wertes und wurde anschliessend liquidiert."
 ---
 
 Wenn an den US-Börsen Panik ausbricht, taucht in den Schlagzeilen schnell eine Zahl auf: der VIX. Der Volatility Index der Chicago Board Options Exchange (CBOE) wird oft als "Angst-Index der Wall Street" bezeichnet. Doch was misst er wirklich, und kann er Anlegern als Frühwarnsystem dienen?

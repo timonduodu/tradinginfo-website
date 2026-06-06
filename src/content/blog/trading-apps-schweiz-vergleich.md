@@ -6,6 +6,15 @@ category: "Broker"
 subcategory: "Vergleiche"
 author: "Redaktion"
 readingTime: "9 Min. Lesezeit"
+faq:
+  - question: "Was ist der Unterschied zwischen Neon, Yuh und Revolut?"
+    answer: "Neon ist eine Schweizer Neobank mit Neon Invest für Aktien und ETFs, Yuh ist eine Kooperation von Swissquote und PostFinance mit breitem Anlageangebot inklusive Krypto und 3a, und Revolut ist ein internationaler Anbieter mit EU-Banklizenz, stark bei Krypto und Fremdwährungen."
+  - question: "Wie ist die Einlagensicherung bei diesen Apps geregelt?"
+    answer: "Neon und Yuh sind über Schweizer Bankstrukturen mit der esisuisse-Einlagensicherung bis CHF 100'000 abgesichert. Revolut hat keine Schweizer Banklizenz und läuft über die EU-Einlagensicherung bis EUR 100'000."
+  - question: "Welche App eignet sich für wen?"
+    answer: "Neon passt für ein günstiges Schweizer Alltagskonto mit einfachen ETF-Sparplänen, Yuh für alle, die Banking und ein breites Anlageangebot in einer App wollen, und Revolut als Zweitkonto für Reisen, Fremdwährungen und Krypto."
+  - question: "Kann ich mit Revolut in der Schweiz problemlos investieren?"
+    answer: "Für Schweizer Einwohner ist Revolut beim Aktien- und ETF-Kauf eingeschränkt und teurer. Die seit Mitte 2025 angebotene Schweizer IBAN ist zudem ein geteiltes Konto, was bei Lohnzahlungen Probleme verursachen kann, weshalb Revolut für den Schweizer Alltag weniger nahtlos ist."
 ---
 
 App-basierte Anbieter haben das Investieren in der Schweiz zugänglich gemacht: Mit wenigen Klicks ist man investiert, ohne klassisches Depot bei einer Grossbank. Drei Namen tauchen dabei immer wieder auf: Neon, Yuh und Revolut. Sie verfolgen aber unterschiedliche Ansätze. Dieser Vergleich zeigt die Unterschiede.

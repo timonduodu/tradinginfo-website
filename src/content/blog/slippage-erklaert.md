@@ -6,6 +6,15 @@ category: "Grundlagen"
 subcategory: "Mechanik"
 author: "Redaktion"
 readingTime: "9 Min. Lesezeit"
+faq:
+  - question: "Was ist Slippage im Trading?"
+    answer: "Slippage bezeichnet die Differenz zwischen dem erwarteten und dem tatsächlichen Ausführungspreis einer Order. Sie kann in beide Richtungen auftreten, in der Praxis dominiert aber die negative Slippage, bei der die Order teurer ausgeführt wird als erwartet."
+  - question: "Warum entsteht Slippage?"
+    answer: "Slippage entsteht durch zeitliche Verzögerung zwischen Klick und Ausführung, durch Liquiditätsmangel, wenn die Order durch das Orderbuch läuft, sowie durch volatile Phasen wie Marktöffnungen, Wirtschaftsdaten oder Gap-Eröffnungen."
+  - question: "Wie kann man Slippage reduzieren?"
+    answer: "Slippage lässt sich begrenzen durch Limit-Orders statt Market-Orders, die Bevorzugung liquider Werte, das Vermeiden volatiler Phasen, das Aufteilen grosser Orders (Order-Splitting) sowie durch Slippage-Schutz-Einstellungen mancher Broker."
+  - question: "Welche Rolle spielt Slippage bei Stop-Loss-Orders?"
+    answer: "Sobald der Stop-Preis erreicht wird, wird die Stop-Order zur Market-Order und trägt alle Slippage-Risiken. Bei Gap-Eröffnungen kann ein Stop-Loss deutlich schlechter ausgeführt werden als geplant. Guaranteed Stop-Loss Orders bieten gegen Aufpreis eine garantierte Ausführung am Stop-Preis."
 ---
 
 Sie sehen auf Ihrem Bildschirm einen Kurs von 100.00. Sie klicken "kaufen". Die Order wird ausgeführt, zu 100.20. Was ist passiert?

@@ -6,6 +6,15 @@ category: "Krypto"
 subcategory: "Grundlagen"
 author: "Redaktion"
 readingTime: "9 Min. Lesezeit"
+faq:
+  - question: "Ist ein Bitcoin-ETF oder echtes Bitcoin für Schweizer Anleger besser?"
+    answer: "Für den Schweizer Langfrist-Anleger spricht steuerlich und kostenseitig viel für echtes Bitcoin, sofern man bereit ist, sich mit der sicheren Verwahrung zu befassen. Wer Bequemlichkeit und Integration ins Depot bevorzugt, fährt mit einem physisch hinterlegten ETP gut."
+  - question: "Sind Kursgewinne aus Bitcoin in der Schweiz steuerfrei?"
+    answer: "Echtes Bitcoin im Privatvermögen profitiert von der Schweizer Grundregel, dass Kursgewinne steuerfrei sind, es fällt lediglich Vermögenssteuer auf den Bestand an. Auch bei einem Bitcoin-ETF oder ETP sind Kursgewinne für private Anleger grundsätzlich steuerfrei."
+  - question: "Welche laufenden Kosten hat ein Bitcoin-ETF im Vergleich zu echtem Bitcoin?"
+    answer: "Bei einem ETF oder ETP zahlt man eine jährliche Verwaltungsgebühr (TER), oft zwischen 0,2 und 2 Prozent pro Jahr. Bei echtem Bitcoin fällt nur eine einmalige Kaufgebühr an, danach keine laufenden Gebühren."
+  - question: "Was ist der Unterschied bei der Verwahrung von ETF und echtem Bitcoin?"
+    answer: "Bei echtem Bitcoin sind Sie selbst für die Sicherheit verantwortlich, wer den privaten Schlüssel verliert, verliert die Coins. Ein ETF oder ETP nimmt Ihnen die Verwahrung ab, dafür vertrauen Sie auf die Solidität der Emittentin."
 ---
 
 Wer am Bitcoin-Kurs teilhaben will, muss längst nicht mehr selbst Coins kaufen und verwahren. Mit Spot-Bitcoin-ETFs und ETPs gibt es regulierte Wertpapiere, die den Bitcoin-Preis abbilden. Doch was ist für einen Schweizer Anleger die bessere Wahl, das Wertpapier oder das echte Coin? Die Antwort hängt von Steuern, Kosten und dem Bedürfnis nach Kontrolle ab.

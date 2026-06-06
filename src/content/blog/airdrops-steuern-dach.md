@@ -6,6 +6,15 @@ category: "Krypto"
 subcategory: "Steuern"
 author: "Redaktion"
 readingTime: "7 Min. Lesezeit"
+faq:
+  - question: "Sind Airdrops in der Schweiz steuerpflichtig?"
+    answer: "In der Schweiz behandeln die meisten Kantone Airdrops als steuerpflichtiges Einkommen, bewertet zum Marktwert am Tag des Erhalts. Die Praxis ist allerdings kantonal nicht völlig einheitlich."
+  - question: "Wie werden Airdrops in Deutschland besteuert?"
+    answer: "In Deutschland kommt es auf die Gegenleistung an: Ohne Gegenleistung ist der Zufluss nicht als Einkommen zu versteuern, mit Gegenleistung gilt er als sonstige Einkünfte zum Marktwert. Beim späteren Verkauf gilt die Haltefrist von einem Jahr."
+  - question: "Was ist ein Airdrop?"
+    answer: "Ein Airdrop ist die kostenlose Verteilung von Token an Wallet-Inhaber. Projekte nutzen das, um Aufmerksamkeit zu erzeugen, frühe Nutzer zu belohnen oder ein neues Token zu verbreiten."
+  - question: "Wie werden Airdrops für die Steuer dokumentiert?"
+    answer: "Da frisch verteilte Token oft noch keinen etablierten Marktpreis haben, ist eine plausible Bewertung gefragt, etwa der erste verfügbare Handelskurs. Datum des Erhalts, Menge und der zugrunde gelegte Wert sollten festgehalten werden."
 ---
 
 Plötzlich liegen Token in der Wallet, geschenkt von einem Krypto-Projekt. Airdrops klingen nach gratis Geld, doch steuerlich sind sie alles andere als trivial. Ob und wann sie besteuert werden, hängt von einer entscheidenden Frage ab: Haben Sie eine Gegenleistung erbracht? Dieser Artikel klärt die Behandlung in der Schweiz und Deutschland.

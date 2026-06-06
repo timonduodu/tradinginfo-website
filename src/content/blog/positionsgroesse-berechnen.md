@@ -6,6 +6,15 @@ category: "Strategien"
 subcategory: "Risikomanagement"
 author: "Redaktion"
 readingTime: "8 Min. Lesezeit"
+faq:
+  - question: "Wie berechnet man die richtige Positionsgrösse?"
+    answer: "Die Positionsgrösse ergibt sich aus der Formel: Konto mal Risiko pro Trade geteilt durch den Abstand zum Stop-Loss. Bei einem Konto von CHF 50'000, 1 Prozent Risiko (CHF 500) und CHF 5 Risiko pro Aktie ergibt das 100 Aktien."
+  - question: "Wie viel sollte man pro Trade riskieren?"
+    answer: "Eine verbreitete Faustregel lautet, pro Trade nur einen kleinen, festen Prozentsatz des Kontos zu riskieren, oft 1 oder 2 Prozent. Riskieren meint dabei den Betrag, den man bei Auslösung des Stop-Loss verliert."
+  - question: "Warum erlaubt ein engerer Stop-Loss eine grössere Position?"
+    answer: "Bei gleichem Risiko pro Trade kann die Position bei engerem Stop grösser sein, weil das Risiko pro Aktie sinkt. Nicht die Positionsgrösse allein, sondern die Kombination aus Positionsgrösse und Stop-Abstand bestimmt das Risiko."
+  - question: "Warum schützt ein fester Prozentsatz pro Trade?"
+    answer: "Das Risiko passt sich automatisch der Kontogrösse an. Wächst das Konto, wachsen die Positionen, schrumpft es nach einer Verlustserie, schrumpfen auch die Positionen, was die Abwärtsspirale bremst."
 ---
 
 Die meisten Trader denken zuerst an den Einstieg: Welche Aktie, welcher Kurs, welche Richtung. Die erfahrensten denken zuerst an etwas anderes: Wie viel kann ich verlieren? Die Antwort darauf bestimmt die Positionsgrösse, und die ist wichtiger für den langfristigen Erfolg als jede Einstiegsstrategie.

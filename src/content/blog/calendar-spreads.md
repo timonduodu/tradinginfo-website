@@ -6,6 +6,15 @@ category: "Strategien"
 subcategory: "Spreads"
 author: "Redaktion"
 readingTime: "10 Min. Lesezeit"
+faq:
+  - question: "Was ist ein Calendar Spread?"
+    answer: "Ein Calendar Spread besteht aus zwei gegenläufigen Positionen im gleichen Futures-Kontrakt, aber mit unterschiedlichen Lieferterminen. Der Trader spekuliert nicht auf die Richtung des Basiswerts, sondern auf die relative Preisentwicklung zwischen den beiden Lieferzeitpunkten."
+  - question: "Was ist der Unterschied zwischen Contango und Backwardation?"
+    answer: "Contango beschreibt eine Situation, in der weiter in der Zukunft liegende Futures teurer notieren als näher liegende, der normale Zustand bei lagerfähigen Rohstoffen. Backwardation ist die umgekehrte Situation, bei der Spot-Preis und nahe Futures teurer sind als weiter entfernte Lieferungen."
+  - question: "Welche Vorteile bieten Calendar Spreads gegenüber Direktionalhandel?"
+    answer: "Calendar Spreads bieten reduzierte Marktvolatilität, da beide Positionen ähnlich auf direktionale Bewegungen reagieren, sowie geringere Margin-Anforderungen, oft 70 bis 90 Prozent niedriger als die Summe der Einzelpositionen. Zudem reagieren sie auf erkennbare Fundamentaldaten."
+  - question: "Sind Calendar Spreads risikolos?"
+    answer: "Nein, Calendar Spreads sind nicht risikolos. Risiken sind unter anderem Wide-spread Marktphasen, geringe Liquidität in entfernten Kontrakten, Roll-Risiken sowie Margin-Calls bei Veränderung der Marktstruktur."
 ---
 
 Calendar Spreads gehören zu den meistgehandelten Strategien institutioneller Futures-Trader. Während Retail-Trader fast ausschliesslich direktional spekulieren, long oder short auf den Markt, nutzen professionelle Akteure die Zeitstruktur der Futures-Kurve. Calendar Spreads sind weniger volatil, weniger sensibel auf direktionale Markt-Moves und in vielen Konstellationen mit besserem Risiko-Profil als der Direktionalhandel.

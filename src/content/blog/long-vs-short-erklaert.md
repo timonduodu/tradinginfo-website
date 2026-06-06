@@ -6,6 +6,15 @@ category: "Grundlagen"
 subcategory: "Trading-Mechanik"
 author: "TradingWissen Redaktion"
 featured: false
+faq:
+  - question: "Was ist der Unterschied zwischen Long und Short?"
+    answer: "Bei einer Long-Position wettest du auf steigende Kurse, indem du kaufst und später teurer verkaufst. Bei einer Short-Position wettest du auf fallende Kurse, indem du geliehene Aktien verkaufst und später günstiger zurückkaufst."
+  - question: "Wie hoch ist das Verlustrisiko bei einer Short-Position?"
+    answer: "Bei einer Short-Position ist der maximale Verlust theoretisch unbegrenzt, weil eine Aktie beliebig steigen kann und du sie irgendwann zurückkaufen musst. Bei einer Long-Position ist der Verlust dagegen auf den Einsatz begrenzt."
+  - question: "Was ist ein Short Squeeze?"
+    answer: "Ein Short Squeeze entsteht, wenn ein Kurs steigt und Leerverkäufer ihre Positionen durch Rückkäufe schliessen müssen, was den Kurs weiter hochtreibt und weitere Shorter zu Zwangskäufen zwingt. Beim GameStop-Squeeze 2021 stieg der Kurs von rund 17 USD auf zeitweise über 480 USD."
+  - question: "Wie können Privatanleger short gehen?"
+    answer: "Da echtes Short-Selling für Privatanleger meist kompliziert ist, nutzen sie gängige Wege wie CFDs, Optionsscheine und Short-Zertifikate, Put-Optionen oder inverse ETFs. In der EU limitieren ESMA-Regeln den Hebel, in der Schweiz schreibt die FINMA diese Limits nicht vor."
 ---
 
 ## Die zwei Grundrichtungen im Trading

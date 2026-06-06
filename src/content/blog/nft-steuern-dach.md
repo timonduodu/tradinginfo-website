@@ -6,6 +6,15 @@ category: "Krypto"
 subcategory: "Steuern"
 author: "TradingWissen Redaktion"
 featured: false
+faq:
+  - question: "Sind NFT-Gewinne in der Schweiz steuerfrei?"
+    answer: "Für Privatanleger sind Kursgewinne aus NFT-Verkäufen grundsätzlich steuerfrei als private Kapitalgewinne, ähnlich wie bei Aktien. Voraussetzung ist, dass man nicht als gewerbsmässiger Wertschriftenhändler eingestuft wird. Zudem müssen NFTs im Wertschriftenverzeichnis erfasst werden."
+  - question: "Wie werden NFTs in Deutschland besteuert?"
+    answer: "Das Bundesfinanzministerium stuft NFTs als andere Wirtschaftsgüter nach Paragraf 23 EStG ein. Ein Verkauf innerhalb eines Jahres ist zum persönlichen Einkommensteuersatz steuerpflichtig, nach einem Jahr steuerfrei. Es gilt eine Freigrenze von 1.000 EUR pro Jahr."
+  - question: "Wie hoch ist die NFT-Steuer in Österreich?"
+    answer: "Österreich behandelt NFTs in der Regel wie andere Krypto-Assets und besteuert Veräusserungsgewinne mit 27,5 Prozent KESt. Bei echten Sammler-NFTs kann theoretisch eine andere Behandlung greifen, die Anwendung ist aber nicht eindeutig geklärt."
+  - question: "Wie werden NFT-Royalties steuerlich behandelt?"
+    answer: "Royalties beim Weiterverkauf gelten in der Schweiz als Einkommen zum Wert bei Empfang, in Deutschland als sonstige Einkünfte zum persönlichen Einkommensteuersatz und in Österreich mit 27,5 Prozent KESt."
 ---
 
 ## Was sind NFTs?

@@ -6,6 +6,15 @@ category: "Broker"
 subcategory: "Vergleiche"
 author: "Redaktion"
 readingTime: "12 Min. Lesezeit"
+faq:
+  - question: "Welcher Schweizer Broker ist am günstigsten?"
+    answer: "Im Kostenvergleich beim Kauf von US-Aktien für 5'000 CHF ist Interactive Brokers mit rund 3.50 CHF am günstigsten, gefolgt von DEGIRO (15 CHF), Saxo Bank (37 CHF) und Swissquote (75 CHF). Die Differenz zwischen teuerstem und günstigstem Anbieter beträgt mehr als das Zwanzigfache."
+  - question: "Was ist der FX-Markup und warum ist er wichtig?"
+    answer: "Der FX-Markup ist der Aufschlag, den der Broker auf den echten Interbank-Wechselkurs berechnet, wenn man als CHF-Anleger in Fremdwährungen handelt. Er reicht von 0,002 Prozent bei Interactive Brokers bis zu 1 Prozent bei Swissquote und ist oft die folgenschwerste versteckte Kostenposition."
+  - question: "Warum kann sich ein teurerer Schweizer Broker trotzdem lohnen?"
+    answer: "Für Anleger mit wenigen Trades, grossem Vermögen und Wunsch nach maximaler Sicherheit sprechen die Schweizer Bankenlizenz mit esisuisse-Einlagensicherung bis 100'000 CHF, der deutschsprachige Steuerauszug und der lokale Kundenservice für einen heimischen Anbieter."
+  - question: "Welcher Broker eignet sich für aktive Trader?"
+    answer: "Für aktive Anleger und Trader mit globalem Universum gilt Interactive Brokers Pro als bevorzugte Wahl, dank Interbank-Spreads, transparenter Margin-Zinsen und Zugang zu über 150 Börsenplätzen. Für Optionsstrategien kommen Interactive Brokers oder Saxo Bank infrage."
 ---
 
 Die Wahl des richtigen Online-Brokers ist eine der wichtigsten finanziellen Entscheidungen, die ein Anleger trifft. Über eine Anlagedauer von 20 oder 30 Jahren entscheidet die Höhe der Gebühren über den Unterschied zwischen einer auskömmlichen und einer ausgezeichneten Rendite. Diese Analyse vergleicht die fünf relevantesten Anbieter für Schweizer Anleger.

@@ -6,6 +6,15 @@ category: "Krypto"
 subcategory: "Steuern"
 author: "Redaktion"
 readingTime: "8 Min. Lesezeit"
+faq:
+  - question: "Wie hoch ist die Krypto-Steuer in Österreich?"
+    answer: "Gewinne aus Kryptowährungen werden in Österreich als Einkünfte aus Kapitalvermögen mit einem besonderen Steuersatz von 27,5 Prozent besteuert. Dieser Satz gilt auch für Aktien und andere Kapitalerträge."
+  - question: "Gibt es in Österreich eine Haltefrist für Krypto?"
+    answer: "Nein, anders als in Deutschland gibt es in Österreich keine Haltefrist. Der Zeitpunkt des Verkaufs spielt für den Steuersatz keine Rolle, langes Halten bringt keinen Steuervorteil."
+  - question: "Ist der Tausch von einer Kryptowährung in eine andere in Österreich steuerpflichtig?"
+    answer: "Nein, der Tausch einer Kryptowährung gegen eine andere, etwa Bitcoin gegen Ethereum, gilt nach der Reform nicht als steuerpflichtige Realisierung. Erst der Ausstieg in Fiat oder der Kauf realer Güter löst die Steuer aus."
+  - question: "Wie werden Staking und Mining in Österreich besteuert?"
+    answer: "Laufende Erträge wie aus Staking oder Lending werden in der Regel ebenfalls erfasst. Die Details können je nach Aktivität variieren, weshalb sich bei umfangreichen Aktivitäten eine fachliche Abklärung empfiehlt."
 ---
 
 Österreich hat seine Krypto-Besteuerung grundlegend neu geordnet und damit einen anderen Weg eingeschlagen als die Schweiz und Deutschland. Statt steuerfreier Kursgewinne (Schweiz) oder einer Haltefrist (Deutschland) gilt in Österreich ein einheitlicher Satz. Dieser Artikel erklärt das System und ordnet es im DACH-Vergleich ein.

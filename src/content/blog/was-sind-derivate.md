@@ -6,6 +6,15 @@ category: "Grundlagen"
 subcategory: "Anlageprodukte"
 author: "TradingWissen Redaktion"
 featured: false
+faq:
+  - question: "Was ist ein Derivat?"
+    answer: "Ein Derivat ist ein Finanzinstrument, dessen Wert sich von einem zugrunde liegenden Vermögenswert (Basiswert oder Underlying) ableitet. Du hältst nicht den Vermögenswert selbst, sondern einen Vertrag, der sich darauf bezieht, was Hebel, Short-Positionen und Absicherung ermöglicht."
+  - question: "Was ist der Unterschied zwischen Optionen und Futures?"
+    answer: "Eine Option ist das Recht, aber nicht die Pflicht, einen Basiswert zu einem festgelegten Preis zu kaufen (Call) oder zu verkaufen (Put). Ein Future ist dagegen ein standardisierter Vertrag mit verpflichtender Erfüllung am Verfallstag, entweder physisch oder durch Cash-Settlement."
+  - question: "Was ist das Emittentenrisiko bei Zertifikaten?"
+    answer: "Zertifikate sind in der Regel Schuldverschreibungen des Emittenten. Geht die emittierende Bank pleite (wie Lehman Brothers 2008), kann dein Zertifikat wertlos werden, selbst wenn der Basiswert gut performt."
+  - question: "Wie werden Derivat-Gewinne in der Schweiz besteuert?"
+    answer: "Grundsätzlich gilt wie bei Aktien, dass Kapitalgewinne für Privatanleger steuerfrei sind. Wer jedoch regelmässig mit Derivaten und Hebel handelt, riskiert die Einstufung als gewerbsmässiger Wertschriftenhändler nach Kreisschreiben Nr. 36 der ESTV, womit alle Gewinne steuerpflichtig werden."
 ---
 
 ## Was ist ein Derivat?

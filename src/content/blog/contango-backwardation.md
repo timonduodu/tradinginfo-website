@@ -6,6 +6,15 @@ category: "Strategien"
 subcategory: "Spreads"
 author: "Redaktion"
 readingTime: "8 Min. Lesezeit"
+faq:
+  - question: "Was ist der Unterschied zwischen Contango und Backwardation?"
+    answer: "Contango beschreibt eine Futures-Kurve, bei der weiter in der Zukunft liegende Kontrakte teurer notieren als näher liegende. Backwardation ist das Gegenteil, Spot-Preis und nähere Kontrakte sind teurer als weiter entfernte Lieferungen und signalisieren akute Knappheit."
+  - question: "Warum ist Contango der Normalzustand bei Rohstoffen?"
+    answer: "Bei lagerfähigen Rohstoffen wie Öl, Kupfer oder Weizen muss die Cost-of-Carry aus Lagerung, Finanzierung und Versicherung durch einen höheren Forward-Preis kompensiert werden, sonst würde niemand lagern. Daher ist Contango die natürliche Marktstruktur."
+  - question: "Was ist der Roll Yield?"
+    answer: "Der Roll Yield entsteht beim Rollen einer Futures-Position in den nächsten Kontrakt. In Contango wird billig verkauft und teuer gekauft, was einen negativen Roll Yield ergibt, in Backwardation ist es umgekehrt und der Roll Yield positiv."
+  - question: "Warum schneiden Rohstoff-ETFs in Contango-Phasen schlechter ab?"
+    answer: "Durch den negativen Roll Yield in Contango-Phasen schneiden klassische Rohstoff-ETFs wie USO massiv unter dem Spot-Preis ab. Über lange Zeiträume können Differenzen von 20 bis 50 Prozent zwischen Spot-Performance und ETF-Performance entstehen."
 ---
 
 Die Form der Futures-Kurve ist eines der mächtigsten Diagnose-Werkzeuge in den Rohstoffmärkten. Sie verrät, was professionelle Marktteilnehmer über das künftige Verhältnis von Angebot und Nachfrage denken, und sie schafft systematische Möglichkeiten für strategische Positionierung.

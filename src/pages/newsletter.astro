@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import NewsletterSignup from '../components/NewsletterSignup.astro';
 ---
 
 <BaseLayout title="Newsletter, TradingWissen.ch" description="Der wöchentliche TradingWissen.ch Newsletter: Marktanalyse, neue Artikel und kompakte Trading-Lektionen. Jeden Sonntag.">
@@ -12,19 +13,8 @@ import BaseLayout from '../layouts/BaseLayout.astro';
       versprochen ohne Werbe-Spam.
     </p>
 
-    <div class="form-container">
-      <a
-        href="https://tradinginfo.beehiiv.com/subscribe"
-        target="_blank"
-        rel="noopener"
-        class="btn btn-primary btn-large"
-      >
-        Jetzt kostenlos abonnieren →
-      </a>
-      <p class="fine">
-        Mit der Anmeldung akzeptieren Sie die <a href="/datenschutz">Datenschutzerklärung</a>.
-        Abmeldung jederzeit per Klick möglich. Keine Weitergabe der Daten an Dritte.
-      </p>
+    <div class="form-wrap">
+      <NewsletterSignup />
     </div>
 
     <div class="benefits">
@@ -55,12 +45,8 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     margin-bottom: var(--space-xl);
   }
 
-  .form-container {
-    background: var(--color-bg-alt);
-    padding: var(--space-lg);
-    border: 1px solid var(--color-rule);
+  .form-wrap {
     margin-bottom: var(--space-xl);
-    text-align: center;
   }
 
   .btn-large {

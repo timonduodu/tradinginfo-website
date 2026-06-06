@@ -6,6 +6,15 @@ category: "Grundlagen"
 subcategory: "Mechanik"
 author: "Redaktion"
 readingTime: "8 Min. Lesezeit"
+faq:
+  - question: "Was ist der Unterschied zwischen Bid und Ask?"
+    answer: "Der Bid-Preis (Geldkurs) ist der höchste Preis, zu dem ein Käufer aktuell bereit ist zu kaufen. Der Ask-Preis (Briefkurs) ist der niedrigste Preis, zu dem ein Verkäufer aktuell bereit ist zu verkaufen."
+  - question: "Was ist der Bid-Ask-Spread?"
+    answer: "Der Bid-Ask-Spread ist die Differenz zwischen Käufer- und Verkäuferseite, also zwischen Bid- und Ask-Preis. Bei jedem Round-Trip-Trade ist der Spread eine Kostenposition."
+  - question: "Was beeinflusst die Höhe des Spreads?"
+    answer: "Der Spread hängt von Liquidität, Volatilität, Tageszeit, Handelszeiten und der Wertpapier-Art ab. Je höher das Handelsvolumen, desto enger der Spread, in turbulenten Phasen weitet er sich aus."
+  - question: "Wer stellt die Bid- und Ask-Preise?"
+    answer: "Die Preise entstehen aus dem Orderbuch, einer fortlaufenden Liste aller offenen Kauf- und Verkaufsorders. In stark liquiden Aktien werden Bid und Ask häufig durch Market Maker gestellt, die am Spread verdienen."
 ---
 
 Wer einmal eine Trading-Plattform geöffnet hat, ist ihnen begegnet: zwei verschiedene Preise für dieselbe Aktie. Bid und Ask, Geld und Brief, Kauf- und Verkaufskurs. Für Neueinsteiger oft verwirrend, für erfahrene Trader eine der wichtigsten Marktinformationen überhaupt.

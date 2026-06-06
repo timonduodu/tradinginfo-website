@@ -6,6 +6,15 @@ category: "Strategien"
 subcategory: "Disziplin"
 author: "Redaktion"
 readingTime: "8 Min. Lesezeit"
+faq:
+  - question: "Warum sollte man ein Trading-Tagebuch führen?"
+    answer: "Ein Trading-Tagebuch durchbricht die selektive Erinnerung, weil der Verstand Gewinne behält und Verluste verdrängt. Es hält objektiv fest, was passiert ist und warum man so gehandelt hat, und deckt Verhaltensmuster auf, die sonst verborgen bleiben."
+  - question: "Was gehört in ein Trading-Tagebuch?"
+    answer: "Ein gutes Tagebuch erfasst die Fakten (Instrument, Datum, Ein- und Ausstieg, Grösse, Ergebnis), den Plan, das Risiko mit Stop-Loss, die Emotion während des Trades und die Nachbetrachtung. Besonders Emotion und Nachbetrachtung machen den Unterschied."
+  - question: "Wie fängt man mit einem Trading-Tagebuch an, ohne aufzugeben?"
+    answer: "Der häufigste Grund für das Scheitern ist Überkomplexität. Man sollte minimal beginnen und pro Trade nur fünf Dinge festhalten: Instrument, Grund für den Einstieg, geplantes Risiko, Ergebnis und einen Satz zur Nachbetrachtung. Das dauert unter einer Minute."
+  - question: "Welche Muster deckt ein Trading-Tagebuch auf?"
+    answer: "Nach einigen Wochen zeigt es typische Muster wie das Übertraden an schlechten Tagen, ignorierte oder verschobene Stop-Losses, systematische Verluste zu bestimmten Tageszeiten und das tatsächlich beste Setup."
 ---
 
 Die meisten Trader analysieren Charts bis ins Detail, aber nie ihr eigenes Verhalten. Dabei liegt dort oft der grösste Hebel zur Verbesserung. Ein Trading-Tagebuch macht aus dem diffusen Gefühl "es lief mal gut, mal schlecht" eine nachvollziehbare Datengrundlage, und deckt Muster auf, die einem sonst verborgen bleiben.

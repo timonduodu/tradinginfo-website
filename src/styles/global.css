@@ -18,6 +18,10 @@
   --color-up: #1b7a3e;            /* green for gains */
   --color-down: #b91c1c;          /* red for losses */
   --color-highlight: #fef3c7;     /* subtle yellow highlight */
+  --color-tint: rgba(10, 37, 64, 0.03);  /* dezente Akzent-Tönung (TOC etc.) */
+  --color-band-bg: #1a1a1a;       /* dunkle Bänder (Header-Top, CTA, pre) */
+  --color-band-ink: #faf8f5;
+  --color-dots: rgba(0, 0, 0, 0.015);
 
   /* Typography */
   --font-serif: 'Fraunces', 'Times New Roman', serif;
@@ -35,6 +39,29 @@
   /* Layout */
   --max-width: 1280px;
   --content-width: 720px;
+}
+
+/* ==========================================================================
+   Dark Mode — wird via data-theme="dark" auf <html> aktiviert
+   ========================================================================== */
+[data-theme='dark'] {
+  --color-bg: #12161c;
+  --color-bg-alt: #1a2028;
+  --color-paper: #171c23;
+  --color-ink: #e8e6e1;
+  --color-ink-soft: #b6b3ac;
+  --color-ink-muted: #82807a;
+  --color-rule: #2b313b;
+  --color-accent: #8ab4e8;        /* helles Navy-Blau für Kontrast auf Dunkel */
+  --color-accent-hover: #a9c9f0;
+  --color-up: #4caf72;
+  --color-down: #e57373;
+  --color-highlight: #4a3f1d;
+  --color-tint: rgba(138, 180, 232, 0.06);
+  --color-band-bg: #0b0e13;
+  --color-band-ink: #e8e6e1;
+  --color-dots: rgba(255, 255, 255, 0.02);
+  color-scheme: dark;
 }
 
 * {
@@ -60,8 +87,9 @@ body {
   color: var(--color-ink);
   background: var(--color-bg);
   background-image:
-    radial-gradient(circle at 1px 1px, rgba(0,0,0,0.015) 1px, transparent 0);
+    radial-gradient(circle at 1px 1px, var(--color-dots) 1px, transparent 0);
   background-size: 24px 24px;
+  transition: background-color 0.25s, color 0.25s;
   overflow-x: hidden;
   width: 100%;
   max-width: 100%;
@@ -138,8 +166,8 @@ code {
 }
 
 pre {
-  background: var(--color-ink);
-  color: #f3efea;
+  background: var(--color-band-bg);
+  color: var(--color-band-ink);
   padding: var(--space-md);
   border-radius: 4px;
   overflow-x: auto;

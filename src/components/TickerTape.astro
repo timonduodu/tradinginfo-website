@@ -1,38 +1,57 @@
 ---
-// TradingView Ticker Tape - live Kurs-Lauftext
+// TradingView Ticker Tape - live Kurs-Lauftext (theme-abhängig gerendert)
 ---
 
 <div class="ticker-wrapper">
-  <div class="tradingview-widget-container">
-    <div class="tradingview-widget-container__widget"></div>
-  </div>
+  <div class="tradingview-widget-container" data-tv-ticker></div>
 </div>
 
-<script type="text/javascript" is:inline async src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js">
-{
-  "symbols": [
-    { "description": "SMI", "proName": "SIX:SMI" },
-    { "description": "S&P 500", "proName": "FOREXCOM:SPXUSD" },
-    { "description": "Nasdaq 100", "proName": "FOREXCOM:NSXUSD" },
-    { "description": "DAX", "proName": "XETR:DAX" },
-    { "description": "EUR/CHF", "proName": "FX:EURCHF" },
-    { "description": "USD/CHF", "proName": "FX:USDCHF" },
-    { "description": "EUR/USD", "proName": "FX:EURUSD" },
-    { "description": "Gold", "proName": "OANDA:XAUUSD" },
-    { "description": "Bitcoin", "proName": "BITSTAMP:BTCUSD" },
-    { "description": "Ethereum", "proName": "BITSTAMP:ETHUSD" }
-  ],
-  "showSymbolLogo": true,
-  "isTransparent": false,
-  "displayMode": "adaptive",
-  "colorTheme": "light",
-  "locale": "de_CH"
-}
+<script is:inline>
+  (function () {
+    var container = document.querySelector('[data-tv-ticker]');
+    if (!container) return;
+
+    var config = {
+      "symbols": [
+        { "description": "SMI", "proName": "SIX:SMI" },
+        { "description": "S&P 500", "proName": "FOREXCOM:SPXUSD" },
+        { "description": "Nasdaq 100", "proName": "FOREXCOM:NSXUSD" },
+        { "description": "DAX", "proName": "XETR:DAX" },
+        { "description": "EUR/CHF", "proName": "FX:EURCHF" },
+        { "description": "USD/CHF", "proName": "FX:USDCHF" },
+        { "description": "EUR/USD", "proName": "FX:EURUSD" },
+        { "description": "Gold", "proName": "OANDA:XAUUSD" },
+        { "description": "Bitcoin", "proName": "BITSTAMP:BTCUSD" },
+        { "description": "Ethereum", "proName": "BITSTAMP:ETHUSD" }
+      ],
+      "showSymbolLogo": true,
+      "isTransparent": false,
+      "displayMode": "adaptive",
+      "locale": "de_CH"
+    };
+
+    function render() {
+      config.colorTheme = document.documentElement.dataset.theme === 'dark' ? 'dark' : 'light';
+      container.innerHTML = '<div class="tradingview-widget-container__widget"></div>';
+      var s = document.createElement('script');
+      s.src = 'https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js';
+      s.async = true;
+      s.text = JSON.stringify(config);
+      container.appendChild(s);
+    }
+
+    render();
+    // Bei Theme-Wechsel neu rendern
+    new MutationObserver(render).observe(document.documentElement, {
+      attributes: true,
+      attributeFilter: ['data-theme'],
+    });
+  })();
 </script>
 
 <style is:global>
   .ticker-wrapper {
-    background: #ffffff;
+    background: var(--color-paper);
     height: 46px;
     max-height: 46px;
     overflow: hidden !important;

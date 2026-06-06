@@ -6,6 +6,15 @@ category: "Grundlagen"
 subcategory: "Order-Typen"
 author: "Redaktion"
 readingTime: "8 Min. Lesezeit"
+faq:
+  - question: "Was ist eine Limit-Order?"
+    answer: "Eine Limit-Order führt nur zu einem von Ihnen festgelegten Preis oder besser aus. Sie gibt volle Kontrolle über den Preis, allerdings ohne Ausführungsgarantie, wenn das Limit nie erreicht wird."
+  - question: "Was ist der Unterschied zwischen Market-Order und Limit-Order?"
+    answer: "Eine Market-Order wird sofort zum nächstbesten verfügbaren Kurs ausgeführt, ohne Preiskontrolle. Eine Limit-Order führt nur zum festgelegten Preis aus und gibt volle Preiskontrolle, kommt aber nur zustande, wenn das Limit erreicht wird."
+  - question: "Wie funktioniert eine Stop-Loss-Order?"
+    answer: "Eine Stop-Order wird erst dann aktiv, wenn ein bestimmter Auslösekurs erreicht wird, und dient häufig als Stop-Loss zum Schutz vor grösseren Verlusten. Nach der Auslösung wird sie zur Market-Order, weshalb der tatsächliche Verkaufskurs durch Slippage vom Stop-Niveau abweichen kann."
+  - question: "Was ist Slippage beim Trading?"
+    answer: "Slippage bezeichnet die Abweichung des tatsächlichen Ausführungskurses von dem Preis, den Sie auf dem Bildschirm gesehen haben. Sie tritt vor allem bei Market-Orders, wenig gehandelten Werten oder in turbulenten Marktphasen auf."
 ---
 
 Wer zum ersten Mal eine Aktie kaufen will, steht im Order-Fenster vor einer Auswahl: Market, Limit, Stop. Die Wahl des richtigen Order-Typs entscheidet darüber, ob Sie zum gewünschten Preis handeln oder eine böse Überraschung erleben. Dieser Artikel erklärt die wichtigsten Order-Typen ohne Fachjargon.

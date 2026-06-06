@@ -6,6 +6,15 @@ category: "Grundlagen"
 subcategory: "Risiko"
 author: "Redaktion"
 readingTime: "9 Min. Lesezeit"
+faq:
+  - question: "Was ist Volatilität?"
+    answer: "Volatilität misst die Schwankungsbreite eines Wertpapiers in einem definierten Zeitraum und ist mathematisch die Standardabweichung der Renditen. Sie wird typischerweise als annualisierter Prozentsatz angegeben."
+  - question: "Was ist der Unterschied zwischen historischer und impliziter Volatilität?"
+    answer: "Die historische Volatilität wird aus tatsächlich beobachteten Renditen der Vergangenheit berechnet und ist damit rückwärtsgewandt. Die implizite Volatilität wird aus aktuellen Optionspreisen errechnet und reflektiert die Markterwartung an die künftige Volatilität."
+  - question: "Ist Volatilität dasselbe wie Risiko?"
+    answer: "Volatilität ist das Standardmass für Risiko in vielen Finanzmodellen wie der Modernen Portfoliotheorie, dem CAPM und der Sharpe-Ratio. Kritiker wie Warren Buffett argumentieren jedoch, dass echtes Risiko der dauerhafte Verlust ist und nicht die temporäre Schwankung."
+  - question: "Was bedeutet Volatility Clustering?"
+    answer: "Volatility Clustering bedeutet, dass Volatilität nicht zufällig verteilt ist, sondern clustert: Auf eine Phase hoher Volatilität folgen meist weitere volatile Tage, bevor sich der Markt beruhigt. Mathematisch wird das durch Modelle wie GARCH erfasst."
 ---
 
 Wer in Finanzartikeln liest, dass eine Aktie "volatil" ist, weiss meist intuitiv, was gemeint ist: starke Schwankungen. Aber was steckt mathematisch dahinter? Wie wird Volatilität gemessen? Und warum ist sie für jeden ernsthaften Anleger eine der wichtigsten Kennzahlen überhaupt?
