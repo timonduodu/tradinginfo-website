@@ -1,5 +1,5 @@
 ---
-// TradingView Ticker Tape - live Kurs-Lauftext (theme-abhängig gerendert)
+// TradingView Ticker Tape - live Kurs-Lauftext
 ---
 
 <div class="ticker-wrapper">
@@ -27,25 +27,16 @@
       "showSymbolLogo": true,
       "isTransparent": false,
       "displayMode": "adaptive",
-      "locale": "de_CH"
+      "locale": "de_CH",
+      "colorTheme": "light"
     };
 
-    function render() {
-      config.colorTheme = document.documentElement.dataset.theme === 'dark' ? 'dark' : 'light';
-      container.innerHTML = '<div class="tradingview-widget-container__widget"></div>';
-      var s = document.createElement('script');
-      s.src = 'https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js';
-      s.async = true;
-      s.text = JSON.stringify(config);
-      container.appendChild(s);
-    }
-
-    render();
-    // Bei Theme-Wechsel neu rendern
-    new MutationObserver(render).observe(document.documentElement, {
-      attributes: true,
-      attributeFilter: ['data-theme'],
-    });
+    container.innerHTML = '<div class="tradingview-widget-container__widget"></div>';
+    var s = document.createElement('script');
+    s.src = 'https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js';
+    s.async = true;
+    s.text = JSON.stringify(config);
+    container.appendChild(s);
   })();
 </script>
 

@@ -41,29 +41,6 @@
   --content-width: 720px;
 }
 
-/* ==========================================================================
-   Dark Mode — wird via data-theme="dark" auf <html> aktiviert
-   ========================================================================== */
-[data-theme='dark'] {
-  --color-bg: #12161c;
-  --color-bg-alt: #1a2028;
-  --color-paper: #171c23;
-  --color-ink: #e8e6e1;
-  --color-ink-soft: #b6b3ac;
-  --color-ink-muted: #82807a;
-  --color-rule: #2b313b;
-  --color-accent: #8ab4e8;        /* helles Navy-Blau für Kontrast auf Dunkel */
-  --color-accent-hover: #a9c9f0;
-  --color-up: #4caf72;
-  --color-down: #e57373;
-  --color-highlight: #4a3f1d;
-  --color-tint: rgba(138, 180, 232, 0.06);
-  --color-band-bg: #0b0e13;
-  --color-band-ink: #e8e6e1;
-  --color-dots: rgba(255, 255, 255, 0.02);
-  color-scheme: dark;
-}
-
 * {
   margin: 0;
   padding: 0;

@@ -77,35 +77,13 @@
       "symbolActiveColor": "rgba(10, 37, 64, 0.12)"
     };
 
-    var darkColors = {
-      "colorTheme": "dark",
-      "plotLineColorGrowing": "rgba(76, 175, 114, 1)",
-      "plotLineColorFalling": "rgba(229, 115, 115, 1)",
-      "gridLineColor": "rgba(43, 49, 59, 1)",
-      "scaleFontColor": "rgba(182, 179, 172, 1)",
-      "belowLineFillColorGrowing": "rgba(76, 175, 114, 0.12)",
-      "belowLineFillColorFalling": "rgba(229, 115, 115, 0.12)",
-      "belowLineFillColorGrowingBottom": "rgba(76, 175, 114, 0)",
-      "belowLineFillColorFallingBottom": "rgba(229, 115, 115, 0)",
-      "symbolActiveColor": "rgba(138, 180, 232, 0.12)"
-    };
-
-    function render() {
-      var isDark = document.documentElement.dataset.theme === 'dark';
-      var config = Object.assign({}, baseConfig, isDark ? darkColors : lightColors);
-      container.innerHTML = '<div class="tradingview-widget-container__widget"></div>';
-      var s = document.createElement('script');
-      s.src = 'https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js';
-      s.async = true;
-      s.text = JSON.stringify(config);
-      container.appendChild(s);
-    }
-
-    render();
-    new MutationObserver(render).observe(document.documentElement, {
-      attributes: true,
-      attributeFilter: ['data-theme'],
-    });
+    var config = Object.assign({}, baseConfig, lightColors);
+    container.innerHTML = '<div class="tradingview-widget-container__widget"></div>';
+    var s = document.createElement('script');
+    s.src = 'https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js';
+    s.async = true;
+    s.text = JSON.stringify(config);
+    container.appendChild(s);
   })();
 </script>
 

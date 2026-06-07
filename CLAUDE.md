@@ -18,8 +18,7 @@ node scripts/optimize-images.mjs  # Neue Fotos in public/images/photos optimiere
 - **OG-Images:** `src/pages/og/[slug].png.ts` generiert beim Build pro Artikel ein Bild (satori + sharp, Fonts in `src/assets/fonts/`).
 - **Suche:** Pagefind, indiziert nur Seiten mit `data-pagefind-body` (Artikel + Glossar). UI auf `/suche`.
 - **Daten:** `src/data/broker.ts` (Vergleichstabelle + Quiz), `src/data/glossar.ts` (87 Begriffe, A–Z-Seite + Tooltips via `/glossar.json`), `src/data/sponsor.ts` (Werbepartner-Schalter).
-- **Sponsor/Werbung:** `sponsor.ts` → `aktiv: true` + URL aktiviert VeltaTrades-Anzeigen in allen AdSlots (gehört dem Betreiber; Footer zeigt dann automatisch Transparenz-Hinweis).
-- **Dark Mode:** CSS-Variablen in `global.css` (`[data-theme='dark']`), Toggle im Header, Init-Script in BaseLayout vor First Paint. TradingView-Widgets rendern theme-abhängig neu (MutationObserver).
+- **Sponsor/Werbung:** `sponsor.ts` → `aktiv: true` + URL aktiviert Quentra-Anzeigen in allen AdSlots (Prop-Firm des Betreibers, quentra.pages.dev; Footer zeigt dann automatisch Transparenz-Hinweis). Banner-Wortmarke kommt dynamisch aus `sponsor.name`.
 - **Consent:** GA4 lädt erst nach Zustimmung (`CookieBanner.astro` + `window.loadGA()` in BaseLayout). GA4-Events: `newsletter_click`, `outbound_click`, `ad_click`, `search`, `quiz_complete`.
 - **Fonts:** Selbst gehostet (`public/fonts/` + `src/styles/fonts.css`) — KEIN Google-CDN einbinden (DSGVO).
 - **APIs:** `api/visitors.js` (GA4-Besucherzahl für /werbung, braucht Env-Vars), `api/rebuild.js` (Cron).
