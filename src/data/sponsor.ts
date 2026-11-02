@@ -1,13 +1,14 @@
 // ============================================================
 // Zentrale Sponsor-Konfiguration — Quentra (Prop Firm des Betreibers)
 //
-// AKTIV seit Juni 2026 — Live-Site: https://quentra.pages.dev/
+// PAUSIERT seit 2. Nov. 2026 (Broker aktuell down) — Werbeplätze zeigen
+// Eigenwerbung für Werbeplätze. Live-Site: https://quentra.pages.dev/
 // Konditionen (Stand Launch): 90% Profit-Split ab Tag 1, Auszahlung
 // alle 14 Tage, Konten 10k–200k (skalierbar bis 400k), kein Zeitlimit.
 //
 // Zum Deaktivieren `aktiv` auf false setzen — die Werbeplätze zeigen
-// dann wieder die neutralen Mock-Anzeigen ("Hier könnte Ihre Werbung
-// stehen"). Bei Wechsel auf eine Custom Domain nur `url` anpassen.
+// dann Eigenwerbung für die Werbeplätze (Link auf /werbung).
+// Bei Wechsel auf eine Custom Domain nur `url` anpassen.
 // ============================================================
 
 export interface SponsorAd {
@@ -22,7 +23,7 @@ export interface SponsorAd {
 }
 
 export const sponsor = {
-  aktiv: true,
+  aktiv: false,
   name: 'Quentra',
   url: 'https://quentra.pages.dev/?ref=tradingwissen',
 

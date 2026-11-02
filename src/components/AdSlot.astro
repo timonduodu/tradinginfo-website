@@ -1,7 +1,7 @@
 ---
 // AdSlot — Werbeplätze
 // Bei sponsor.aktiv = true (src/data/sponsor.ts): echte Sponsor-Anzeige mit Link.
-// Sonst: Mock-Platzhalter mit Hover-Overlay "Hier könnte Ihre Werbung stehen".
+// Sonst: Eigenwerbung für die Werbeplätze (Link auf /werbung).
 import { sponsor } from '../data/sponsor';
 
 interface Props {
@@ -11,42 +11,42 @@ interface Props {
 
 const { type = 'banner', slot = 'top' } = Astro.props;
 
-// Mock-Anzeigen die rotieren basierend auf Slot
+// Eigenwerbung für Werbeplätze, Text je nach Slot
 const mockAds = {
   top: {
-    sponsor: "FINANZ-PARTNER",
-    headline: "Trading-Konditionen für Schweizer",
-    subline: "Niedrige Gebühren · Schweizer Lizenz · CHF-Konto",
-    cta: "Vergleich →",
-    badge: "ANZEIGE",
+    sponsor: "WERBEPLATZ FREI",
+    headline: "Hier könnte Ihre Werbung stehen",
+    subline: "Erreichen Sie aktive Schweizer Trader und Anleger · Ab CHF 15 pro 1'000 Impressionen",
+    cta: "Werbung schalten →",
+    badge: "WERBEPLATZ",
     bgColor: "#0a2540",
     accentColor: "#d4af37",
   },
   middle: {
-    sponsor: "VERMÖGENSAUFBAU",
-    headline: "ETF-Sparpläne ab CHF 0",
-    subline: "Diversifiziert anlegen · Vom ersten Franken an",
-    cta: "Mehr erfahren →",
-    badge: "WERBUNG",
+    sponsor: "FÜR WERBEPARTNER",
+    headline: "Ihre Marke vor Schweizer Tradern",
+    subline: "Banner, Sponsored Articles oder Newsletter-Platzierung",
+    cta: "Angebot ansehen →",
+    badge: "WERBEPLATZ",
     bgColor: "#1a3a5c",
     accentColor: "#ffffff",
   },
   bottom: {
-    sponsor: "PROFESSIONELL HANDELN",
-    headline: "Trading-Plattform für Profis",
-    subline: "Optionen · Futures · Forex · CFDs",
-    cta: "Konto eröffnen →",
-    badge: "SPONSORED",
-    bgColor: "#1b7a3e",
-    accentColor: "#ffffff",
+    sponsor: "WERBEPLATZ FREI",
+    headline: "Dieser Platz ist zu vergeben",
+    subline: "Broker, Plattformen, Fintechs: Werben Sie dort, wo Ihre Kunden lesen",
+    cta: "Werbung schalten →",
+    badge: "WERBEPLATZ",
+    bgColor: "#0a2540",
+    accentColor: "#d4af37",
   },
   sidebar: {
-    sponsor: "SCHWEIZER ANBIETER",
-    headline: "Steuerauszug inklusive",
-    subline: "Direkt für die CH-Steuererklärung",
-    cta: "Jetzt informieren →",
-    badge: "ANZEIGE",
-    bgColor: "#5c1a1a",
+    sponsor: "WERBEPLATZ FREI",
+    headline: "Hier könnte Ihre Werbung stehen",
+    subline: "Zielgruppe: aktive Trader in der Schweiz",
+    cta: "Werbung schalten →",
+    badge: "WERBEPLATZ",
+    bgColor: "#1a3a5c",
     accentColor: "#ffffff",
   },
 };
@@ -108,14 +108,6 @@ const href = istSponsor ? sponsor.url : '/werbung';
         <div class="ad-headline">{ad.headline}</div>
         <div class="ad-subline">{ad.subline}</div>
         <div class="ad-cta">{ad.cta}</div>
-      </div>
-    </div>
-  )}
-  {!istSponsor && (
-    <div class="ad-overlay">
-      <div class="ad-overlay-content">
-        <strong>Hier könnte Ihre Werbung stehen</strong>
-        <span>Werbung schalten →</span>
       </div>
     </div>
   )}
@@ -209,27 +201,9 @@ const href = istSponsor ? sponsor.url : '/werbung';
     text-underline-offset: 4px;
   }
 
-  /* Overlay erscheint beim Hover */
-  .ad-overlay {
-    position: absolute;
-    inset: 0;
-    background: rgba(0, 0, 0, 0.75);
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    opacity: 0;
-    transition: opacity 0.25s;
-    pointer-events: none;
-    z-index: 2;
-  }
-
-  .ad-placeholder:hover .ad-overlay {
-    opacity: 1;
-  }
-
+  /* Eigenwerbung: dezenter Hover */
   .ad-placeholder:not(.is-sponsor):hover .ad-mock {
-    filter: blur(2px);
+    filter: brightness(1.12);
   }
 
   /* ============================================================
@@ -378,29 +352,6 @@ const href = istSponsor ? sponsor.url : '/werbung';
     box-shadow: 0 6px 24px color-mix(in srgb, var(--ad-accent) 60%, transparent);
   }
 
-  .ad-overlay-content {
-    text-align: center;
-    font-family: var(--font-sans);
-  }
-
-  .ad-overlay-content strong {
-    display: block;
-    font-family: var(--font-serif);
-    font-size: 1.5rem;
-    font-weight: 700;
-    margin-bottom: 0.5rem;
-  }
-
-  .ad-overlay-content span {
-    font-size: 0.9rem;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    padding: 0.5rem 1rem;
-    border: 1px solid white;
-    display: inline-block;
-    margin-top: 0.5rem;
-  }
-
   @media (max-width: 640px) {
     .ad-mock,
     .ad-real {
@@ -417,10 +368,6 @@ const href = istSponsor ? sponsor.url : '/werbung';
 
     .ad-real {
       padding-top: var(--space-lg); /* Platz für das ANZEIGE-Badge */
-    }
-
-    .ad-overlay-content strong {
-      font-size: 1.1rem;
     }
   }
 </style>

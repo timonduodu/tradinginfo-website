@@ -16,9 +16,10 @@ import EmailLink from '../components/EmailLink.astro';
     </section>
 
     <section class="stats">
-      <div class="stat-grid">
-        <div class="stat">
-          <span class="stat-number" id="visitor-count" data-target="120" data-suffix="+">0</span>
+      <div class="stat-grid stat-grid--2" id="stat-grid">
+        <!-- Besucher-Kachel bleibt verborgen, bis GA4 mind. 100 Besucher/Monat meldet -->
+        <div class="stat" id="visitor-stat" hidden>
+          <span class="stat-number" id="visitor-count" data-target="0" data-suffix="+">0</span>
           <span class="stat-label">Monatliche Website-Besucher</span>
         </div>
         <div class="stat">
@@ -38,16 +39,19 @@ import EmailLink from '../components/EmailLink.astro';
     <!-- Counter Animation Script -->
     <script is:inline>
       (function() {
-        // Echte Besucherzahl von der API holen und in die Kachel schreiben
+        // Echte Besucherzahl von der API holen; Kachel erst ab MIN_VISITORS einblenden
+        const MIN_VISITORS = 100;
         (async function() {
           try {
             const r = await fetch("/api/visitors");
             const d = await r.json();
-            if (d && typeof d.visitors === "number" && d.visitors > 0) {
+            if (d && typeof d.visitors === "number" && d.visitors >= MIN_VISITORS) {
               const el = document.getElementById("visitor-count");
               if (el) el.setAttribute("data-target", String(d.visitors));
+              document.getElementById("visitor-stat")?.removeAttribute("hidden");
+              document.getElementById("stat-grid")?.classList.remove("stat-grid--2");
             }
-          } catch (e) { /* Fallback: data-target bleibt unveraendert */ }
+          } catch (e) { /* Fallback: Kachel bleibt verborgen */ }
         })();
 
         function animateCounter(el) {
@@ -190,6 +194,16 @@ import EmailLink from '../components/EmailLink.astro';
     margin: 0 auto;
     justify-content: center;
     align-items: stretch;
+  }
+
+  /* Ohne Besucher-Kachel: 2 Spalten, schmaler */
+  .stat-grid--2 {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 740px;
+  }
+
+  .stat[hidden] {
+    display: none;
   }
 
   .stat {
